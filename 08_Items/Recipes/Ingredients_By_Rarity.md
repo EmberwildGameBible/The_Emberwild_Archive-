@@ -1,0 +1,268 @@
+# Ingredients by Rarity
+
+> Auto-generated view grouping ingredients by listed rarity. Refer to **EMBERWILD COOKBOOK - INGREDIENTS** for full entries.
+
+## Common
+
+- **Acornplum** — Plum-like fruit with nutty aftertaste.
+- **Acreleaf** — Soft green leaf with faintly sweet aroma.
+- **Alder Husk** — Husk used for smoking wraps.
+- **Alder Husk** — Husk used for smoking wraps.
+- **Alder Seed** — Soft pale seeds with nutty finish.
+- **Alderfenn Fat** — Rendered fat from woodland beasts.
+- **Aldershoot Root** — Pale fibrous root with clean flavor.
+- **Algae Flour** — Ground algae powder.
+- **Algae Flour** — Ground algae powder.
+- **Algae String** — Long green strands used as wraps.
+- **Ambergrain** — Golden cereal grain.
+- **Amberroot** — Golden root with earthy sweetness.
+- **Amberweed** — Warm-colored herb with nutty scent.
+- **Antler Shavings** — Dark mushroom with smoky flavor.
+- **Antler Shavings** — Shed antler fragments.
+- **Appleberry** — Small tart apple-berry hybrid.
+- **Arbor Beet** — Red-veined beet with earthy flavor.
+- **Arbor Elk Meat** — Lean game meat.
+- **Arbor Wrap** — Large flexible leaf used as cooking wrap.
+- **Arbor Wrap** — Large flexible leaf used as cooking wrap.
+- **Ash Carp** — Dark fish with smoky undertone.
+- **Ashbean** — Gray-brown bean with smoky tone.
+- **Ashbrine** — Salty brine with smoky trace.
+- **Ashbrine** — Salty brine with smoky trace.
+- **Ashleaf** — Gray herb thriving in post-fire soil.
+- **Ashturnip** — Gray-tinged turnip adapted to dry soil.
+- **Autumn Barley** — Soft barley grown in cool winds.
+- **Autumn Petal** — Orange petals with nutty scent.
+- **Autumn Petal** — Orange petals with nutty scent.
+- **Bark Husk** — Thin bark used for roasting wraps.
+- **Barkfenn Herb** — Damp, fibrous herb with bitter-sweet marsh aroma.
+- **Barkroot** — Brown woody root commonly used as filler.
+- **Beansprout Stalk** — Tender green sprout.
+- **Blueguard Kelp** — Thick kelp with natural salt.
+- **Bluepowder Flour** — Pale bluish flour used as thickener.
+- **Bluff Mushroom** — Cream mushroom with mild taste.
+- **Boarshank** — Hearty boar meat with thick fat lines.
+- **Bog Onion** — Pungent onion with deep purple skin.
+- **Bramblefruit** — Dark purple fruit with tart sweetness.
+- **Briar Honey** — Thick honey with woody aftertaste.
+- **Briar Nut** — Hard nut with dry earthy flavor.
+- **Briarfat** — Rendered fat with earthy aroma.
+- **Bright Blossom** — Yellow flower with mild sweetness.
+- **Brightcorn** — Golden corn with crisp kernels.
+- **Brightmint** — Sharp mint with strong menthol bite.
+- **Brine Bass** — Mild fish perfect for large batches.
+- **Brinesalt** — Coarse white salt with brine bite.
+- **Brownrice** — High-fiber grain with nutty taste.
+- **Brownsquash** — Earthy squash used everywhere.
+- **Burrowseed** — Tan seed used as grain extender.
+- **Candle Fern** — Soft pale-green fern with a waxy scent.
+- **Cave Moss** — Moist moss clinging to stone.
+- **Cavebloom Cap** — Broad beige cap with mild flavor.
+- **Cedar Nut** — Mild buttery nut with resin aroma.
+- **Chitterberry** — Crisp red berry with sweet-tart snap.
+- **Clearspring Water** — Pure spring water favored by cooks.
+- **Cloverfrost Flower** — White clover-like bloom with cool scent.
+- **Coalroot** — Black-streaked root with heavy earthy flavor.
+- **Coastal Turnip** — Pale turnip with a faint brine edge.
+- **Cobble Mint** — Tough mint with a sharp mineral bite.
+- **Coldwater Cod** — Firm white cod with clean flavor.
+- **Cornfenn** — Soft yellow grain between corn and millet.
+- **Craneroot** — Red-veined root with tart finish.
+- **Crawler Meat** — Protein-rich ground crawler thorax.
+- **Crawlseed** — Small speckled seed carried by insects.
+- **Creek Deer Shank** — Lean venison cut from creek-grazing deer.
+- **Creek Salt** — Pale salt with soft mineral tone.
+- **Creek Trout** — Mild trout used in daily cooking.
+- **Creeksprout Greens** — Crisp, water-heavy greens.
+- **Creeping Moss** — Soft moss used for thickening stews.
+- **Cricket Flour** — Ground insect flour high in protein.
+- **Crispwheat** — Light crunchy wheat with pale husk.
+- **Daleshroom** — Soft mild mushroom suitable for any dish.
+- **Dappled Herb** — Speckled green herb with floral lift.
+- **Dawnapple** — Pale yellow apple with crisp morning flavor.
+- **Dawngrass** — Pale gold grass with soft morning aroma.
+- **Deeproot Carrot** — Thick carrot with earthy depth.
+- **Dew Bloom** — Dew-collecting pale flower.
+- **Dewcrab** — Small crab harvested at sunrise.
+- **Dewleaf** — Thin leaf coated in natural dew.
+- **Dewsprout** — Crisp green sprout retaining morning moisture.
+- **Drift Salt** — Pale brine-touched salt.
+- **Driftwheat** — Salt-touched wheat carried by ocean winds.
+- **Dropseed** — Small tan seed used as grain extender.
+- **Drybark Mushroom** — Firm mild mushroom with bark-texture.
+- **Drybark Mushroom Stem** — Fibrous mushroom-stem vegetable with mild taste.
+- **Dryberry** — Raisin-like berry with chewy texture.
+- **Drybrine** — Powdered brine with dusty bite.
+- **Dryland Corn** — Hard corn with dense kernels.
+- **Dune Beans** — Pale brown beans with dusty aroma.
+- **Duneroot Seed** — Seed from dry-root shrubs with mild taste.
+- **Dusk Berries** — Purple berries with soft sweetness.
+- **Dusk Tallow** — Rendered dark tallow used in heavy dishes.
+- **Duskbean Legume** — Soft purple bean with earthy sweetness.
+- **Duskbean Root** — Purple-veined root with soft earthy sweetness.
+- **Dustfenn Ash** — Light gray cooking ash used for earthy blends.
+- **Earthbulb** — Firm bulb with stable earthy tone.
+- **Earthlay Sage** — Soft standard sage used in hearty meals.
+- **Earthpod Bean** — Plump bean pod with mellow flesh.
+- **Eastridge Sprout** — Crisp pale sprout grown in cold winds.
+- **Eastwind Herb** — Salt-touched herb carried inland by steady sea wind.
+- **Emberleaf** — Orange-tinged herb with mild natural heat.
+- **Emberroot** — Orange-streaked root with warm body.
+- **Everfenn Greens** — Peppery watery greens.
+- **Everfenn Tea Herb** — Sharp, mint-like reed herb used in energizing teas.
+- **Everleek** — Tall hardy leek with crisp interior.
+- **Evermelon** — Large melon with watery sweetness.
+- **Everpear** — Long-lasting pear with mild sweetness.
+- **Stoneginger** — Hard ginger root with sharp mineral spice.
+
+## Uncommon
+
+- **Aerobloom** — Pale-blue herb that releases a cool scent when crushed.
+- **Alpine Vine** — Tough vine for bundling herbs.
+- **Alpine Vine** — Tough vine for bundling herbs.
+- **Amber Cinnamon** — Golden cinnamon bark.
+- **Amber Cinnamon** — Golden cinnamon bark.
+- **Amber Yolk** — Dense golden yolk.
+- **Ambercap** — Warm-colored mushroom with sweet aroma.
+- **Arctic Rhizome** — Tough frost-hardened root.
+- **Aroma Ginger** — Strong fragrant ginger root.
+- **Aroma Oil** — Light golden oil with aromatic bite.
+- **Aroma Oil** — Light golden oil with aromatic bite.
+- **Aroma Seed** — Scent-heavy cracked seed.
+- **Aroma Seed** — Scent-heavy cracked seed.
+- **Ashen Salt** — Mineral salt with gray flecks.
+- **Ashen Salt** — Mineral salt with gray flecks.
+- **Ashfruit** — Char-skinned fruit with smoky-sweet interior.
+- **Ashseed Pod** — Bitter seed pod with smoky oils.
+- **Ashspore Cap** — Dark mushroom with smoky flavor.
+- **Ashtide Water** — Salty-mineral water used for broths.
+- **Ashtide Water** — Salty-mineral water used for broths.
+- **Ashwood Resin** — Sticky resin used in smoking.
+- **Ashwood Resin** — Sticky resin used in smoking.
+- **Aster Bloom** — Star-shaped blue bloom.
+- **Aster Bloom** — Star-shaped blue bloom.
+- **Autumn Gourd** — Orange gourd with rich flesh.
+- **Azurefin** — Blue-scaled fish with clean meat.
+- **Barkshroom** — Flattened smoky-flavor fungus.
+- **Barkwax** — Soft wax used in curing meats.
+- **Bloodcarrot** — Deep red root packed with minerals.
+- **Blue Orchid** — Fragrant blue blossom.
+- **Bluebloom Berry** — Soft berry with floral sweetness.
+- **Bluefenn Oil** — Aquatic herb oil with mineral tone.
+- **Bluepetal** — Soft blue aromatic leaf used for calming teas.
+- **Bone Marrow** — Dense marrow used for rich soups.
+- **Bonefall Cider** — Crisp cider with mineral note.
+- **Bramble Asparagus** — Tough green stalk with sweet bite.
+- **Breeze Egg** — Pale egg laid by gliding fowl.
+- **Breezeleaf** — Thin leaf that crackles in wind.
+- **Breezewater** — Cool, lightly aerated water.
+- **Briar Oil** — Thick roasted-nut oil.
+- **Brightpepper** — Sweet yellow pepper with crisp texture.
+- **Brightspice** — Yellow spice with fragrant citrus tone.
+- **Brine Tuber** — Salt-touched root with pale flesh.
+- **Brinepear** — Pale green pear with faint brine note.
+- **Brook Salmon** — Rich, fatty salmon.
+- **Candled Sugar** — Packed brown sugar bricks, easy to store.
+- **Canyon Cress** — Peppery green herb that clings to redstone cracks.
+- **Canyon Pepper** — Dry red pepper with slow-building heat.
+- **Cavefenn Fat** — Thick pale fat used in deep-stock cooking.
+- **Cedar Oil** — Aromatic oil pressed from cedar nuts.
+- **Cinderbean** — Dark bean with a smoky undertone.
+- **Cindersapple** — Red-black apple with smoky-sweet flesh.
+- **Cindersquash** — Dark-skinned squash with smoky sweetness.
+- **Clay Ginger** — Pale ginger with deep mineral bite.
+- **Clearwater Crab Stock** — Concentrated stock from boiled river crabs.
+- **Cliff Eel** — Lean eel with slightly sweet meat.
+- **Cliffgoat Rib** — Tough but flavorful goat ribs.
+- **Cliffpear** — Firm yellow pear that resists bruising.
+- **Cloudberry Jam** — Sweet-tart jam from pale highland berries.
+- **Cloudcap** — Soft white mushroom with airy texture.
+- **Crackleseed** — Tiny seeds that pop slightly in hot oil.
+- **Cragcress** — Bright green, slightly bitter herb.
+- **Cragwax** — Hard wax used for sealing and curing.
+- **Crescent Bloom** — Silver-edged flower that opens only at dusk.
+- **Crimson Petal** — Deep red petal with subtle heat.
+- **Dappled Turnip** — Pale turnip with speckled skin.
+- **Darkshroom** — Brown-black mushroom with smoky flavor.
+- **Dawnroot Greens** — Yellow-tinted leafy greens with mild bite.
+- **Deep Mantis Meat** — Dense nut-flavored insect meat.
+- **Deepfenn Fat** — Oily fat ideal for deep broths.
+- **Deeplake Trout** — Heavy-bodied trout with rich flakes.
+- **Deepwater Eel** — Slippery eel with rich, fatty meat.
+- **Deepwater Salt** — Dark mineral-heavy salt.
+- **Direwing Insect** — Large insect with firm thorax meat.
+- **Dread Garlic** — Dark-skinned garlic with intense aroma.
+- **Dread Spice** — Dark pungent spice used in strong meals.
+- **Driftbean** — Salt-kissed bean with soft texture.
+- **Driftwood Oil** — Aromatic oil extracted from aged driftwood nuts.
+- **Dryland Ginger** — Tough ginger root with dusty spice.
+- **Dune Fig** — Small sweet fig adapted to dry heat.
+- **Dune Lentil** — Pale orange lentil adapted to heat.
+- **Dusk Petal** — Purple petal with dusky aroma.
+- **Duskleaf** — Purple-edged leaf with calm, mellow scent.
+- **Dusktide Water** — Cool mineral water collected only at dusk.
+- **Eastwind Citrus** — Sharp citrus with faint brine note.
+- **Ember Fennel** — Warm fennel with sweet-smoke scent.
+- **Ember Squash** — Orange squash with smoky-sweet flesh.
+- **Emberbeet** — Deep red beet with warm sweetness.
+- **Emberberry** — Warm, spicy berry with orange tint.
+- **Emberflax Stem** — Red-streaked crisp stem.
+- **Everlight Basil** — Bright basil whose oils intensify at dawn.
+- **Everroot** — Pale, long-keeping root used widely.
+- **Everrose Mint** — Pink-veined mint with floral finish.
+- **Riverdusk Tuber** — Pale tuber with cool, watery finish.
+- **Spiritlake Briar** — Pale leaf with a cool, calming bite.
+
+## Rare
+
+- **Aldwood Fungus** — Large brown fungus with strong umami.
+- **Amberdew** — Thick nectar collected from sun blossoms.
+- **Amberdew** — Thick nectar collected from sun blossoms.
+- **Arcanut** — Hard-shelled nut with intense herbal aroma.
+- **Ash Pepper** — Charcoal pepper with intense heat.
+- **Ash Pepper** — Charcoal pepper with intense heat.
+- **Ashen Taproot** — Char-colored root with bitter, smoky undertone.
+- **Ashwing Cut** — Tender thorax of desert gliders.
+- **Aurabloom Syrup** — Luminescent syrup with floral sweetness.
+- **Aurabloom Syrup** — Luminescent syrup with floral sweetness.
+- **Auric Blossom** — Golden flower prized for fragrance.
+- **Auric Blossom** — Golden flower prized for fragrance.
+- **Auric Honey** — Dense golden honey.
+- **Auric Honey** — Dense golden honey.
+- **Aurora Mint** — Mint leaves that reflect faint light.
+- **Avalanche Berry** — Crystal-white berry with chilling sweetness.
+- **Bitterbloom** — Dark purple flower with potent bitterness.
+- **Blackbark Truffle** — Thick-scented black truffle.
+- **Blackroot** — Thick black fibered root with bitter flavor.
+- **Blackshell Nut** — Nut with obsidian-black shell, rich interior.
+- **Blackshore Eel** — Slender eel with oily flavorful meat.
+- **Blazefig** — Warm-spice fig with fiery aftertaste.
+- **Blisterpepper** — Potent red pepper with piercing heat.
+- **Bonefang Meat** — Dense high-protein red meat.
+- **Bonefennel** — Pale fragrant stalk with delicate anise scent.
+- **Brood Resin** — Sticky golden resin with sweet aroma.
+- **Cinder Salt** — Salt infused with volcanic spark.
+- **Cliffmorel** — Honeycombed mushroom prized for texture.
+- **Coldstone Root** — Dense white root that stores cold.
+- **Cragshell Nut** — Thick-shelled nut with rich, oily core.
+- **Crescent Herb** — Curved silvery leaf that glows faintly at night.
+- **Crimson Kelp** — Red kelp with metallic tang.
+- **Crown Bulb** — Golden-tipped bulb with sweet aroma.
+- **Crystalberry** — Clear-skinned berry with icy sweetness.
+- **Darkfenn Seed** — Jet-black seed with bitter oils.
+- **Darkroot** — Bitter black root used for strong dishes.
+- **Darkstone Fruit** — Heavy purple fruit with mineral sweetness.
+- **Dewglass Syrup** — Clear syrup harvested from dew-flowers.
+- **Dragon Basil** — Fiery herb with intense aromatic heat.
+- **Dragon Resin** — Thick red resin used in potent glazes.
+- **Dragonflower** — Red-veined blossom radiating heat-scent.
+- **Dune Snapper** — Firm desert-adapted fish.
+- **Dunepepper** — Sharp dry pepper with fast-burning heat.
+- **Dusk Salmon** — Silver-dark salmon with strong flavor.
+- **Duskmeat** — Dark, gamey meat from night grazers.
+- **Duskveil Herb** — Deep-purple leaf favored for nighttime dishes.
+- **Emberfig** — Warm fig with spice-heavy interior.
+- **Emberkelp Stem** — Thick kelp stalk with spicy undertone.
+- **Frostpearl Berry** — Ice-blue berry with chilling sweetness.
+- **Marshbraid Root** — Rope-textured root with wetland sweetness.
+- **Spiritbright Berry** — Pale berry with soft glow and sweet crispness.
+
