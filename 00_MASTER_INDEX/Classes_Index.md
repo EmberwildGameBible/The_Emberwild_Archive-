@@ -1,0 +1,16 @@
+# Classes Index
+
+- Companion_System/CHAPTER 30 - THE TAMER & THE COMPANION SYSTEM A.md
+- Core_Classes/Hybrid/ANIMAL TAMER - FULL CLASS COMPENDIUM.md
+- Core_Classes/Hybrid/FARMER - FULL CLASS COMPENDIUM.md
+- Core_Classes/Hybrid/FROST GUARD - FULL CLASS COMPENDIUM.md
+- Core_Classes/Hybrid/SAND STRIDER - FULL CLASS COMPENDIUM.md
+- Core_Classes/Hybrid/SEABORN - FULL CLASS COMPENDIUM.md
+- Core_Classes/Magic/PRIEST - FULL CLASS COMPENDIUM.md
+- Core_Classes/Magic/WITCH - FULL CLASS COMPENDIUM.md
+- Core_Classes/Melee/HIGHLANDER - FULL CLASS COMPENDIUM.md
+- Core_Classes/Melee/MERCENARY - FULL CLASS COMPENDIUM.md
+- Core_Classes/Melee/PALADIN - FULL CLASS COMPENDIUM.md
+- Core_Classes/Melee/WARDEN - FULL CLASS COMPENDIUM.md
+- Core_Classes/Ranged/HUNTER - FULL CLASS COMPENDIUM.md
+- Core_Classes/Ranged/PIRATE - FULL CLASS COMPENDIUM.md
