@@ -1,0 +1,774 @@
+B108 – Professions & Gathering (Greatwood 1–20)
+Purpose
+
+Define the Professions & Gathering slice for the Greatwood 1–20 band:
+
+What professions exist in early Emberwild.
+
+How gathering nodes and materials work.
+
+How professions feed:
+
+Alchemy (58)
+
+Gear & loot (B107)
+
+Lodge Projects & Upgrades (B102)
+
+Labs & Research (B101)
+
+Hunts & Contracts (59, 61, B103)
+
+Events & Festivals (B104)
+
+What progression a player can reasonably achieve with professions before leaving Greatwood.
+
+This is the starter profession ecosystem, not the full global crafting system.
+
+Design Pillars
+
+Professions Follow the Hunts
+
+You don’t wander off to grind nodes just to grind nodes.
+
+Resources cluster around Hunts, corruption pockets, and Lodge projects.
+
+“Go do your Hunts and events” naturally feeds profession progress.
+
+Fewer, Clear Professions
+
+Early game keeps it tight:
+
+A handful of professions.
+
+Each with a clear fantasy and loop.
+
+Avoid “15 micro-professions” bloat in Greatwood.
+
+Materials Are Story
+
+“Black Sap resin” and “Hollowroot carapace” are lore objects, not just item IDs.
+
+Where you gather something matters and is referenced in:
+
+Dialogue.
+
+Research.
+
+Gear names.
+
+Support, Not Replace, Loot
+
+Professions augment:
+
+Hunts.
+
+Lodge rewards.
+
+They do not become the main way to progress power in 1–20.
+
+The fantasy is: hunter-alchemist-woodsman, not spreadsheet crafter.
+
+Forward-Compatible
+
+B108 defines:
+
+A small set of core professions.
+
+Core material families.
+
+Later regions add:
+
+Advanced tiers.
+
+Specializations.
+
+Profession List (Greatwood 1–20)
+
+We support four core professions in this slice:
+
+Herbalist
+
+Trapper / Skinner
+
+Forester
+
+Cook
+
+Plus a “soft” meta profession:
+
+Field Scribe (tied to Scholars & research, largely passive).
+
+Alchemy (58) is its own major system and consumes Herbalist / Trapper materials rather than being classified as a gathering profession here.
+
+1. Herbalist
+
+Fantasy: You know where the useful plants grow and how not to die eating them.
+
+Role:
+
+Primary gatherer for Alchemy (58).
+
+Contributor to:
+
+Lodge Projects (bandages, salves, infirmary supplies).
+
+Festival dishes and drinks.
+
+Gathering Targets:
+
+Herbs, fungi, mosses, minor magical plants.
+
+Example Greatwood nodes:
+
+Paleleaf – basic healing/soothing herb (edges, low ZCL).
+
+Hollowcaps – mushroom clusters (Hollowroot adjacency).
+
+Embermoss – glow-tinged moss, often near wardstones or mild corruption.
+
+Sapweed – vine/herb around Black Sap Grove edges, used in sap-related brews.
+
+Loop:
+
+Spot herbs in the wild (subtle highlights, especially if Herbalist rank > 0).
+
+Harvest → get small stack of herb items.
+
+Take herbs to:
+
+Alchemy station (58) for brews.
+
+Lodge Projects board (B102) for contributions.
+
+Progression:
+
+Herbalist skill increases as you:
+
+Harvest successfully.
+
+Use herbs in recipes (Alchemy XP can feed Herbalist XP).
+
+Higher skill:
+
+Higher yields per node.
+
+Chance for rare variants (e.g., “Pristine Paleleaf”).
+
+Unlocks some research tasks (“Document plant life in X pocket”).
+
+2. Trapper / Skinner
+
+Fantasy: You turn dead beasts into useful materials instead of just leaving them to rot.
+
+Role:
+
+Provides:
+
+Hides, pelts, bones, fangs.
+
+Glands, essences for Alchemy.
+
+Directly feeds:
+
+Gear crafting (B107: Ridgewood & Hollowroot sets).
+
+Alchemy reagents.
+
+Lodge décor and trophies (B106, in some cases).
+
+Gathering Targets:
+
+Beast carcasses:
+
+Wolves, boars, Hollowroot creatures, apex beasts.
+
+Specific trophy pieces for:
+
+Hunts & contracts.
+
+Loop:
+
+Kill target via Hunts.
+
+Use Trapper tools on corpse:
+
+Choose “Field dress / skin / harvest.”
+
+Get:
+
+Hide, leather, bone, fang, gland, etc.
+
+Take to:
+
+Crafting benches (for gear).
+
+Labs for specimen/research (B101).
+
+Lodge Projects that need hides or leather.
+
+Progression:
+
+Skill ups per successful harvest.
+
+Higher ranks:
+
+Fewer wasted materials.
+
+Chance to extract rare reagents (e.g., “Howler Fang”, “Matron Gland”).
+
+Unlock special Hunts that ask for precise harvests.
+
+3. Forester
+
+Fantasy: You’re as handy with an axe on trees as on enemies; you understand timber, stone, and Lodge building needs.
+
+Role:
+
+Supplies:
+
+Timber, planks.
+
+Minor stone from exposed outcrops (if we want light mining in Greatwood).
+
+Core input for:
+
+Lodge Projects (B102).
+
+Basic gear handles and bows (B107).
+
+Gathering Targets:
+
+Trees & special wood-bearing plants.
+
+Minor stone veins near surface.
+
+Loop:
+
+Identify harvestable trees/rocks (subtle icon or bark/texture difference).
+
+Chop/mine to gather:
+
+timber_basic, timber_oak, plank_fine, etc.
+
+Small stone bundles (stone_block, stone_runed after Warden involvement).
+
+Deliver to:
+
+Lodge Projects:
+
+Roof repair, training yard, wardstone supports.
+
+Basic craft stations for:
+
+Ridgewood weapon handles.
+
+Furniture (B106 decor).
+
+Progression:
+
+Skill levels increase with:
+
+Successful harvesting.
+
+Turning in materials for projects.
+
+Higher levels:
+
+Better yields.
+
+Access to special nodes:
+
+“Old-growth ridgewood”.
+
+“Wardstone-adjacent stone” (more efficient for warding projects).
+
+4. Cook
+
+Fantasy: You’re the one turning all the meat and herbs into hunt-prep meals and Feast food.
+
+Role:
+
+Converts:
+
+Meat, herbs, basic spices → food buffs.
+
+Connects directly to:
+
+Food buff system (rest & pre-hunt meals).
+
+Ember Feast (B104).
+
+Infirmary and social events.
+
+Inputs:
+
+Meat from Hunts (via Trapper).
+
+Herbs from Herbalist.
+
+Common produce/goods from Lodge vendors or contracts.
+
+Loop:
+
+Use cooking fire or Lodge kitchen.
+
+Combine:
+
+Raw meat + herbs + optional special ingredient.
+
+Produce:
+
+Food items that grant:
+
+Hunt buffs (stamina, regen, resist).
+
+Social buff (Feast-day, “Well-Met” style).
+
+Food used by:
+
+Player pre-Hunt.
+
+Lodge Projects (e.g., “Stock the Infirmary”).
+
+Ember Feast tasks.
+
+Progression:
+
+Skill increases:
+
+With successful recipe uses.
+
+When dishes are turned in to Lodge events or projects.
+
+Higher skill:
+
+Unlocks better recipes.
+
+Gives slightly improved durations or extra minor side effects.
+
+5. Field Scribe (Soft Profession)
+
+Fantasy: You’re a hunter who also records what you see, feeding Scholar knowledge.
+
+Role:
+
+Not a full “crafting” profession.
+
+More of a track that:
+
+Adds data and observations.
+
+Ties into research projects (B101).
+
+Feeds Social epithets like “Field-Quill” (B105).
+
+Loop:
+
+Observe:
+
+Beasts, plants, corruption anomalies.
+
+Use Scribe tools (lens, notebook, etc.) to:
+
+Log findings at specific points.
+
+Turn in:
+
+Records to Scholars.
+
+Progression:
+
+“Field Scribe” rank rises with:
+
+Completed bestiary/exploration research.
+
+Benefits:
+
+Better payouts on research contracts.
+
+Unlocks scholar gear / decor / titles faster.
+
+Gathering Nodes & Resource Families
+
+We define resource families instead of an infinite list of items.
+
+Herb Families
+
+Basic Healing Herbs:
+
+Paleleaf, basic curatives.
+
+Stamina & Focus Herbs:
+
+Ridgevine, mind-sharpeners.
+
+Corruption-Adjacent Plants:
+
+Embermoss, sapweed, blackened roots.
+
+Fungi & Cavern Growths:
+
+Hollowcaps, spore clusters.
+
+Each herb node:
+
+Has:
+
+A name (visible to Herbalist or on inspect).
+
+Family tags (e.g., FAMILY_HEALING, FAMILY_CORRUPTION).
+
+Feeds:
+
+Multi-recipe use in Alchemy and Cooking.
+
+Beast Materials
+
+Beast Hides & Leather (wolves, boars, etc).
+
+Teeth, Claws, Horns (trophies, charms).
+
+Hollowroot Carapaces & Glands.
+
+Black Sap Essences.
+
+Each corpse:
+
+Can be harvested for:
+
+1–3 material types depending on creature archetype & Trapper skill.
+
+Timber & Stone
+
+Timber_Basic / Timber_Oak / Plank_Fine for:
+
+Lodge Projects.
+
+Ridgewood bows/handles.
+
+Furniture decor.
+
+Stone_Block / Stone_Runed for:
+
+Wardstones and structural projects.
+
+Some heavy gear reinforcements.
+
+Profession Progression & Tiers (Greatwood Slice)
+
+Professions in 1–20 have two coarse tiers:
+
+Tier A – Initiate
+
+Basic use.
+
+Small yields.
+
+Limited recipe access.
+
+Tier B – Adept
+
+Better yields.
+
+Access to more complex recipes.
+
+Some role in bigger projects & events.
+
+We do not introduce full specializations or Tier C+ in Greatwood; that’s for later regions.
+
+Expected Player Progress by Level 20
+
+A player who engages moderately with professions might:
+
+Herbalist:
+
+Reach Adept.
+
+Access most Greatwood Alchemy herb-based recipes.
+
+Trapper:
+
+Reach Adept.
+
+Consistently harvest full sets of beast materials & occasional rares.
+
+Forester:
+
+Reach Adept.
+
+Contribute meaningfully to several Lodge Projects.
+
+Cook:
+
+Reach Adept.
+
+Know a small catalogue of hunt-prep and social meals.
+
+Field Scribe:
+
+At least some progress.
+
+Recognized as recording findings (epithets, research bonuses).
+
+Integration With Hunts & Contracts (59, 61, B103)
+
+Professions plug straight into contracts:
+
+Hunt Board (59) includes:
+
+Supply & Support contracts:
+
+“Gather X Paleleaf for the Infirmary.”
+
+“Deliver Hollowcaps for Scholars’ experiment.”
+
+Research & Exploration contracts:
+
+“Document plant distribution in the Ragged Verge.”
+
+“Collect intact carapaces from Hollowroot broodlings.”
+
+Signature Hunts (B103):
+
+Guarantee:
+
+Rare beast parts for Trapper.
+
+Unique reagents for Herbalist from environment.
+
+Often have:
+
+Bonus objectives:
+
+“Return an intact gland for the Lab.”
+
+“Gather sap samples as you track the Devourer.”
+
+Success:
+
+Feeds:
+
+Research projects (B101).
+
+New recipes (58).
+
+Lodge Projects (B102).
+
+Gear crafting (B107).
+
+Integration With Alchemy (58)
+
+Herbalist + Trapper are Alchemist’s best friends:
+
+Many Alchemy recipes explicitly require:
+
+Specific herbs from certain pockets (ZCL-tagged).
+
+Monster essences (Trapper).
+
+Higher Herbalist skill:
+
+Grows supply of rare herbs.
+
+Higher Trapper skill:
+
+Increases chance to extract rare essence types.
+
+Alchemy:
+
+Sits at the center:
+
+Consuming nearly every profession’s output in some way.
+
+Integration With Labs & Warding Wing (B101) & Corruption (91)
+
+Research Gallery:
+
+Constantly requests:
+
+Herbs, samples, beast parts.
+
+Profession output used to:
+
+Start and complete projects.
+
+Warding Hall:
+
+Warding projects require:
+
+Stone, wood, Embermoss, ward inks, etc.
+
+Forester & Herbalist feed these.
+
+Restricted Lab:
+
+More dangerous experiments need:
+
+Black Sap essences.
+
+Corrupted tissues.
+
+Trapper and Herbalist at high skill:
+
+Safely extracting necessary materials.
+
+ZCL (91):
+
+Some materials:
+
+Only appear in pockets of certain ZCL ranges.
+
+Professions:
+
+Encourage hugging the risk/reward edge:
+
+Higher ZCL = rarer herbs or essences.
+
+But more HCL and danger.
+
+Integration With Lodge Projects (B102)
+
+Nearly every project has:
+
+Material requirements that map directly to professions:
+
+Examples:
+
+“Patch the East Roof”:
+
+Forester: timber.
+
+“Expand the Infirmary Ward”:
+
+Herbalist: herbs for balms.
+
+Cook: clean linens / supplies, sometimes as crafted bundles.
+
+“Restore the Old Ward Stone”:
+
+Forester: special stone + timber for scaffolding.
+
+Herbalist: Embermoss or ward-herbs.
+
+“Open the Ember Gallery”:
+
+Trapper & Field Scribe:
+
+Specimens and notes.
+
+Professions:
+
+Turn Hunts into:
+
+Progress on big, visible Lodge upgrades.
+
+Integration With Events & Festivals (B104)
+
+Events tap professions hard:
+
+Ember Feast:
+
+Cook:
+
+Primary business:
+
+Feast dishes, festival recipes.
+
+Herbalist:
+
+Herbs for special drinks & table dressing.
+
+Trapper:
+
+Meat from festival Hunts.
+
+Gloaming Vigil:
+
+Herbalist:
+
+Ward herbs for Vigil rituals.
+
+Forester:
+
+Wood for Vigil fires and ward posts.
+
+Trapper:
+
+Beast parts for protective charms (even if mostly flavor).
+
+Micro-events:
+
+Infirmary Rush, Scribe Exhibitions:
+
+Directly solicit:
+
+Herb bundles.
+
+Specimens.
+
+Written observations.
+
+Integration With Social Systems & Quarters (B105, B106)
+
+Social Epithets:
+
+Players strongly engaged in certain professions can:
+
+Influence epithets:
+
+A heavily Herbalist/Scholar type might lean toward “Field-Quill” or similar.
+
+A Forester-heavy helper may be known as someone “who keeps the Lodge standing.”
+
+Rumors:
+
+NPCs mention:
+
+“They’re the reason the Infirmary never runs dry.”
+
+“If a roof isn’t leaking, likely they had a hand in it.”
+
+Quarters Decor (B106):
+
+Profession-specific decor:
+
+Herb folio (Herbalist).
+
+Gear rack & crates (Trapper/Forester).
+
+Feast barrel / cooking trinkets (Cook).
+
+Tuning & Constraints (Greatwood Slice)
+
+Professions are optional but synergistic:
+
+Players can ignore them and still progress.
+
+But engaging makes:
+
+Hunts smoother.
+
+Lodge feel more “theirs”.
+
+More side content available.
+
+Rate of gain:
+
+Skill levels should rise:
+
+At roughly the pace of natural play (doing Hunts, helping projects).
+
+Grinding should:
+
+Be possible but not optimal:
+
+Diminishing returns from over-farming a single node type.
+
+Node Respawn:
+
+Herbs, wood, and stone:
+
+Respawn slowly enough to avoid degenerate loops.
+
+Encourage exploring new pockets and following Hunts.
