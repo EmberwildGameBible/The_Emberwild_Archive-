@@ -1,0 +1,261 @@
+# 100 – Personal Quarters, Hunter Customization, and Long-Term Identity in the Lodge
+
+## Purpose
+
+Define a **future system** for:
+
+- Personal hunter quarters/room in or near the Lodge
+- Visual and functional customization options
+- How this ties into:
+  - Trophies and achievements (86)
+  - Professions and crafting (52–59, 95)
+  - Festivals and Lodge social layer (64, 94)
+  - Narrative recognition (83, 96)
+
+Goal: give players a **persistent, evolving personal space** that reflects their journey, style, and impact on Emberwild.
+
+---
+
+## Core Concept
+
+As the hunter rises in status:
+
+- They earn access to:
+  - A small room or quarters in the Lodge complex.
+- Over time, that space:
+  - Upgrades from a bare cot and trunk
+  - Into a personalized den lined with:
+    - Trophies.
+    - Maps.
+    - Crafted decor.
+    - Emblems of big decisions and achievements.
+
+This system is:
+
+- Primarily cosmetic and identity-driven, with:
+  - Light functional hooks (storage, small buffs, convenience).
+
+---
+
+## Room Evolution Stages
+
+### Stage 0 – Shared Bunk (Early 1–20)
+
+- Default state:
+  - Player sleeps in a shared barracks-like area.
+- No owned space yet.
+- Function:
+  - Story flavor only.
+
+### Stage 1 – Assigned Quarters (Late 1–20)
+
+- Trigger:
+  - Completing key Deeds or main story beats.
+  - Lodge formally recognizes player as a core hunter.
+
+- Room features:
+  - Basic bed.
+  - Personal chest/locker (if stash system exists).
+  - Small shelf or wall space for a few items.
+
+- Customization:
+  - Choose:
+    - Bed coverings.
+    - A single wall decoration (banner, emblem).
+
+### Stage 2 – Established Hunter’s Den (20+)
+
+- Larger space:
+  - More wall and shelf slots.
+  - Floor space for small furniture.
+- Decor slots:
+  - Trophy displays (86).
+  - Profession-crafted furniture or curiosities (95).
+  - Maps and notes pinned to walls.
+
+- Functional:
+  - Small passive buff:
+    - Well-rested bonus if you sleep here.
+  - Fast access to:
+    - Journal/Archive.
+    - Hunt Board summary.
+    - Ember Pot state recap (85).
+
+### Stage 3 – Veteran Suite (Later Endgame Stub)
+
+- Major visual upgrade:
+  - Additional room or loft.
+  - Unique furniture items and lighting.
+- Social:
+  - Occasional NPC visits:
+    - Fellow hunters dropping by.
+    - Council members for key scenes.
+- Reserved for:
+  - High-level achievements or main story milestones.
+
+---
+
+## Customization Systems
+
+### Visual Customization
+
+Categories:
+
+1. **Wall Decor**
+   - Banners with Lodge colors or specific hunt emblems.
+   - Framed sketches of regions, bosses, or hunts.
+   - Optional: personal crest unlocked via achievements.
+
+2. **Surfaces & Furniture**
+   - Tables, shelves, chairs, benches.
+   - Material variants:
+     - Simple wood.
+     - Fine carpentry from Woodworker.
+     - Carved motifs from Forester’s Circle.
+
+3. **Lighting**
+   - Lantern types.
+   - Candles vs braziers.
+   - Color and intensity variants (within grounded limits).
+
+4. **Display Items**
+   - Miniatures of big trophies (full-size in Hall of Deeds, smaller in room).
+   - Rare curios from secret caches or Deeds (90, 86).
+
+### Functional Customization
+
+Options that change:
+
+- What players can do there, lightly:
+
+1. **Small Work Nook**
+   - Compact station for:
+     - Basic profession actions (prep, sorting, minor crafting).
+   - Not full profession benches (those stay in main wings).
+
+2. **Planning Table**
+   - Shows:
+     - Current Hunts and Deeds.
+     - Map with markers.
+   - Lets player:
+     - Flag next objectives.
+     - Read summary of ongoing arcs (96).
+
+3. **Companion Spot (If companions exist, 87)**
+   - Rest area for:
+     - Hounds.
+     - Or future non-human companions.
+   - Purely visual or minor interaction.
+
+---
+
+## Unlock Sources
+
+### Achievements & Hunts (86, 61, 66)
+
+- Certain decor unlocked via:
+
+  - Killing specific beasts.
+  - Completing dungeon bosses.
+  - Clearing major Deeds.
+
+Examples:
+
+- Wall carving unlocked by:
+  - First Hollowroot boss kill.
+- Ember-lit lantern unlocked by:
+  - Emberfall Caverns completion (98).
+
+### Professions & Crafting (52–59, 95)
+
+- Craftable decor:
+
+  - Woodworker:
+    - Shelves, chairs, carved panels.
+  - Cook:
+    - Decorative jars, preserved food displays, festival platters.
+  - Alchemy:
+    - Bottle clusters, glowing herb terrariums.
+  - Forester:
+    - Plant and branch arrangements, ritual tokens.
+
+### Social & Seasonal Events (64, 94)
+
+- Festival event participation:
+
+  - Ember Night mementos.
+  - Hunt Opening Rite tokens.
+  - Remembrance candles or plaques.
+
+---
+
+## Narrative & Social Integration
+
+- Personal quarters used for:
+
+  - Key cutscenes/dialogue:
+    - Private talks with NPCs.
+    - Letters appearing on the table.
+  - Reflecting past choices:
+    - Certain decor appears or is offered depending on story decisions.
+
+- Fellow hunters:
+
+  - Occasionally comment on your room:
+    - “You’ve certainly made this place your own.”
+    - “Not many get a view like that.”
+
+- Lodge politics:
+
+  - Some council members:
+    - Approve of “nesting in.”
+    - Others emphasize:
+      - “Do not get too comfortable; the work is out there.”
+
+---
+
+## Functional Impact (Kept Small)
+
+- Avoid turning room into mandatory power grind.
+
+Light benefits only:
+
+- Resting in your quarters:
+  - Grants small “well-rested” buff (slight XP or stamina regen bonus).
+- Planning table:
+  - Minor quality-of-life:
+    - More compact view of Hunts/Deeds.
+- Small stash access:
+  - Convenience, not game-breaking.
+
+---
+
+## Integration With Systems
+
+- **Trophies & Achievements (86):**
+  - Room decor is the intimate counterpart to public Hall of Deeds trophies.
+- **Professions & Economy (52–59, 84, 95):**
+  - Long-term sink for crafted decor.
+  - Coin sink for certain luxury items.
+- **Festivals & Seasons (94):**
+  - Room visually reflects current festival decorations.
+- **Narrative Structure (96):**
+  - Acts and arcs:
+    - Marked by new room states and unlocks.
+
+---
+
+## Next Actions
+
+- Decide:
+  - When in 1–20 the player is granted Stage 1 quarters.
+- Define:
+  - A starter set of decor categories and slot system.
+- Design:
+  - 10–20 initial decor items mapped to:
+    - Hunts.
+    - Achievements.
+    - Professions.
+    - Festivals.
+- Write:
+  - A few sample scenes that occur in the player’s quarters to justify the system narratively.
