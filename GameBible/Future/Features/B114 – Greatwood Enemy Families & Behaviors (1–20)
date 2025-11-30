@@ -1,0 +1,855 @@
+B114 – Greatwood Enemy Families & Behaviors (1–20)
+Purpose
+
+Define the enemy families and combat behaviors for the Greatwood 1–20 slice so that:
+
+Each pocket (B113) feels distinct.
+
+Each Signature Hunt (B103) sits on top of a clear ecosystem, not random mobs.
+
+Status effects & damage types (B109) are used consistently.
+
+Alchemy, gear, and roles (58, B107, B110) have recognizable targets to interact with.
+
+This is not a full stat sheet; it’s the taxonomy + behavior bible.
+
+Design Pillars
+
+Family First
+
+Enemies belong to clear families:
+
+Ridge Beasts, Hollowroot Brood, Black Sap-corrupted, etc.
+
+Each family:
+
+Has recognizable silhouettes.
+
+Shares status / damage profiles.
+
+Ecosystem, Not Zoo
+
+Creatures:
+
+Make sense in their pockets.
+
+Have predator/prey or thematic relationships.
+
+Signature Hunts:
+
+Feel like the apex of a food chain, not disconnected bosses.
+
+Readable Behaviors
+
+Enemies have:
+
+Obvious telegraphs.
+
+Simple “if/then” logic the player can learn.
+
+Complexity comes from:
+
+Combinations, not hidden rules.
+
+Scaling With Corruption
+
+Corruption doesn’t just “color swap” enemies.
+
+It:
+
+Changes their behavior.
+
+Adds or intensifies status effects.
+
+Alters ecosystems in pockets (B91, B109).
+
+High-Level Family List (Greatwood 1–20)
+
+We define 6 main families + 2 special categories:
+
+Ridge Beasts – Wolves, boars, stags (Ridge, Verge, general forest).
+
+Hollowroot Brood – Insectoid / burrowers (Fringe & Warren).
+
+Black Sap-Touched – Corruption-twisted fauna & resin creatures (Grove).
+
+Ward-Linked Constructs & Spirits – Subtle ward manifestations (Wardstone Hill).
+
+Human / Humanoid Threats (Local) – Poachers, bandits, rogue hunters (sparingly).
+
+Ambient / Minor Threats – Critters, environmental nuisances.
+
+Special:
+7. Signature Creatures – Howler, Devourer, Matron, Ragged King.
+8. Event-Only / Corruption Surge Variants – Rare affixes during Gloaming Vigil or spikes.
+
+1. Ridge Beasts (Forest Predators)
+
+Pockets: Ridge Approach, Ragged Verge, parts of Ember Run.
+Role: Early core enemies; baseline for combat feel.
+
+1.1 Ridge Wolf
+
+Damage Type:
+
+Primary: Physical – Slashing (bites/claws).
+
+Status:
+
+BLEED on heavy or crit attacks (B109).
+
+Behavior:
+
+Pack behavior:
+
+1–3 wolves circle.
+
+One harasses from front, others attempt flanks.
+
+Flee behavior:
+
+Low HP → brief retreat → possible regroup.
+
+Telegraphed lunge:
+
+Audible growl + body crouch → leap.
+
+Scaling:
+
+Later corrupted variants appear in Black Sap Grove as Sap-Wolves (Black Sap family).
+
+1.2 Ridge Boar
+
+Damage Type:
+
+Physical – Blunt (charge), some Piercing (tusks).
+
+Status:
+
+KNOCKDOWN / KNOCKBACK from charge.
+
+Behavior:
+
+Short “pawing” telegraph → fast straight charge.
+
+Poor turning radius:
+
+Player can sidestep and punish.
+
+Anger threshold:
+
+Under HP X%, charges more frequently, less cautiously.
+
+Scaling:
+
+Tougher, bigger variants deeper in Ragged Verge.
+
+Corruption mutation: Sap-Boar with sticky trails in Grove.
+
+1.3 Greatwood Stag
+
+Damage Type:
+
+Physical – Piercing (antlers).
+
+Status:
+
+WOUND on full-speed gore in rare cases.
+
+Behavior:
+
+Non-hostile unless cornered or corrupted.
+
+Skittish: flees at sight unless stealthy approach.
+
+If forced to fight:
+
+Short-range feints, one or two strong charges.
+
+Narrative:
+
+The Ragged King is a myth-ascended member of this family (see Signature section).
+
+2. Hollowroot Brood (Burrow & Spore)
+
+Pockets: Hollowroot Fringe (surface), Hollowroot Warren (underground).
+Role: Introduce POISON, spore hazards, and tunnel combat.
+
+2.1 Burrower Grub
+
+Damage Type:
+
+Physical – Blunt with minor POISON spit.
+
+Status:
+
+POISON on spit attack (low strength).
+
+Behavior:
+
+Emerges from small burrow holes.
+
+Prefers:
+
+Hit-and-run nibble attacks.
+
+Spit from mid-range if engaged.
+
+2.2 Hollowroot Stalker
+
+Damage Type:
+
+Physical – Slashing.
+
+Status:
+
+BLEED on surprise strike.
+
+Behavior:
+
+Ambush predator:
+
+Clings to ceilings or hides behind fungus.
+
+Jumps down when player passes underneath.
+
+Retreats into side tunnels when low.
+
+2.3 Spore Cluster (Stationary)
+
+Technically not a mobile enemy, but a field entity.
+
+Damage Type:
+
+Toxic spore AoE.
+
+Status:
+
+POISON + LOW VISIBILITY.
+
+Behavior:
+
+Detonates:
+
+When approached too close.
+
+Or when hit with physical attacks.
+
+Can be:
+
+Burned from range to pre-clear area.
+
+2.4 Brood Matriarch Guards
+
+Damage Type:
+
+Physical – Slashing + TAG_TOXIC on some hits.
+
+Status:
+
+Strong POISON, occasional ROOT (vines/spores tangling feet).
+
+Behavior:
+
+Protect key chambers in the Warren.
+
+Coordinated:
+
+One closes distance, another flanks; some spit from range.
+
+Slight “call” behavior:
+
+On seeing player, may awaken nearby brood.
+
+Scaling:
+
+Only in mid-late Warren areas.
+
+Previews Matron patterns.
+
+3. Black Sap-Touched Family
+
+Pockets: Black Sap Grove (B113).
+Role: Corruption + SLOW + sticky terrain + HCL pressure.
+
+3.1 Sap-Wolf
+
+Origin:
+
+Corrupted Ridge Wolf variant.
+
+Damage Type:
+
+Physical – Slashing + Corruption.
+
+Status:
+
+BLEED + mild CORRUPTION SICKNESS on some hits.
+
+Behavior:
+
+More erratic:
+
+Slightly delayed or sped up telegraphs (off-beat timing).
+
+Leaves:
+
+Sticky footprints behind in some attacks (micro SLOW patches).
+
+3.2 Resin Husk
+
+Description:
+
+Humanoid or beast encased in hardened resin, animated by corruption.
+
+Damage Type:
+
+Physical – Blunt (heavy swings) + small TAG_CORRUPTION aura near them.
+
+Status:
+
+SLOW on hits due to heavy impact.
+
+Behavior:
+
+Slow, tanky.
+
+Frequently:
+
+Soaks hits while Sap-Wolves or saplings do damage.
+
+Sometimes:
+
+“Shatters” on death, releasing small shards (light AoE damage).
+
+3.3 Sapling Horror
+
+Description:
+
+Animate trees/fungal growths infused with Black Sap.
+
+Damage Type:
+
+Physical – Blunt / Pierce (branch swipes, roots) + Corruption.
+
+Status:
+
+ROOT on root-whip.
+
+CORRUPTION SICKNESS if you remain in its aura.
+
+Behavior:
+
+Rarely moves far; acts as:
+
+Area denial turret.
+
+Attacks:
+
+Long-range branch whips.
+
+Ground eruptions (small radius).
+
+3.4 Sap Leech Swarm
+
+Description:
+
+Small, flying or crawling corrupted insects.
+
+Damage Type:
+
+Chip Physical or Corruption.
+
+Status:
+
+Mild CORRUPTION SICKNESS over time when swarming.
+
+Behavior:
+
+Swarm AI:
+
+Circles player.
+
+Moves through geometry somewhat freely.
+
+Designed to:
+
+Force movement.
+
+Punish standing in one spot too long.
+
+4. Ward-Linked Constructs & Spirits
+
+Pockets: Wardstone Hill, some Ward posts.
+Role: Show wards as active forces, not just background runes.
+
+4.1 Ward Echo
+
+Description:
+
+Faint luminous silhouettes, echoes of previous ward defenders.
+
+Damage Type:
+
+Arcane/Spirit.
+
+Status:
+
+SUPPRESSED (aim/reaction penalties) on hit.
+
+Behavior:
+
+Only appear during:
+
+Ward rituals.
+
+Specific story sequences (Shadow Under the Wardstone).
+
+Semi-scripted:
+
+Patrol predetermined patterns.
+
+Aggro when ward is under threat.
+
+4.2 Bound Warding Construct
+
+Description:
+
+Stone/focus construct animated by ward energies.
+
+Damage Type:
+
+Blunt + Arcane.
+
+Status:
+
+Rare small STUN on heavy slam.
+
+Behavior:
+
+Defends:
+
+Wardstone or specific ward nodes.
+
+Attacks:
+
+Telegraphed heavy swings.
+
+May be:
+
+Turned off / calmed via Ward tasks.
+
+Turned against corruption with Warden abilities later.
+
+4.3 Ward-Twisted Enemy
+
+Not a unique family, but a temporary affix:
+
+Some humanoid or beast:
+
+Gains Ward-Twisted tag in certain story beats.
+
+Behavior:
+
+Gains:
+
+Unstable ward-based attacks that might:
+
+Damage both player and corrupted enemies in a radius.
+
+Used:
+
+In Shadow Under the Wardstone to show wards being misused.
+
+5. Human / Humanoid Threats (Local)
+
+Pockets: Ridge Approach, Ember Run, Wardstone Hill (story), stray near pockets.
+Role: Rare, meaningful encounters; not a combat staple.
+
+5.1 Poachers / Bandits
+
+Damage Type:
+
+Physical – Slashing/Piercing (weapons).
+
+Behavior:
+
+Low-level:
+
+Ambush near roads/bridges.
+
+Use:
+
+Simple tactics: flanks, ranged + melee.
+
+Narrative:
+
+Show that:
+
+Not all danger is magical.
+
+Some may:
+
+Have ties to external factions for later regions.
+
+5.2 Rogue Hunter / Lodge Traitor (Story)
+
+Used in:
+
+Shadow Under the Wardstone.
+
+Behavior:
+
+Acts like:
+
+A higher-skill humanoid enemy with some hunter abilities:
+
+Dodge, use of brews, use of Alchemy.
+
+Status / Damage:
+
+Uses:
+
+Same toolkit as player but tuned down.
+
+We keep humanoid combat rare to preserve the feeling that Emberwild is first about beasts & corruption.
+
+6. Ambient / Minor Threats
+
+Role: Texture, occasional chip damage, profession hooks.
+
+6.1 Swarm Critters
+
+Small rodents, insects, birds.
+
+Mostly:
+
+Harmless décor.
+
+Rare:
+
+If provoked/or corrupted:
+
+Small swarm event that deals tiny chip damage, interrupts actions.
+
+6.2 Environmental Hazards (Pseudo-Enemies)
+
+Falling branches, unstable rock shelves.
+
+Trap-type entities:
+
+Might use:
+
+Same systems as enemies (HP, damage triggers) under the hood.
+
+Encourage:
+
+Paying attention to surroundings.
+
+7. Signature Creatures – Behavior Overviews
+
+Full fight specs are in B103, but this gives their family context & behavioral identity.
+
+7.1 Greatwood Howler
+
+Family:
+
+Alpha of Ridge Beasts.
+
+Damage Types:
+
+Physical – Slashing (claws), some Blunt (body checks).
+
+Status:
+
+Heavy BLEED.
+
+KNOCKDOWN from rush.
+
+SUPPRESSED from fear roar.
+
+Behavior:
+
+Controls pack of Ridge Wolves early in fight.
+
+Uses:
+
+Roars to:
+
+Apply fear/suppression.
+
+Recall/add wolves.
+
+Later phases:
+
+More direct, more desperate charges.
+
+7.2 Black-Sap Devourer
+
+Family:
+
+Apex of Black Sap-Touched.
+
+Damage Types:
+
+Corruption + Physical + possible Fire or Toxic mix.
+
+Status:
+
+CORRUPTION SICKNESS.
+
+SLOW (sap).
+
+Minor POISON from close contact, depending on variant.
+
+Behavior:
+
+Controls:
+
+Sap pools and resin walls.
+
+Phases:
+
+Bursts sap around area → forces relocation.
+
+Swarms leeches → chip corruption & disrupt.
+
+Escalation:
+
+In later phases, terrain becomes increasingly hazardous.
+
+7.3 Hollowroot Matron
+
+Family:
+
+Apex Hollowroot Brood.
+
+Damage Types:
+
+Physical – Blunt & Slashing.
+
+Strong TAG_TOXIC.
+
+Status:
+
+POISON.
+
+ROOT (webbing/vines).
+
+Behavior:
+
+Spawns brood waves.
+
+Uses:
+
+Spore bursts to:
+
+Control space.
+
+Punish clustering.
+
+Phases:
+
+Shift between:
+
+Summon/defensive.
+
+Aggressive leaps/claw combos.
+
+7.4 The Ragged King
+
+Family:
+
+Mythic Stag-variant Ridge Beast.
+
+Damage Types:
+
+Physical – Piercing.
+
+Status:
+
+WOUND from full-speed goring.
+
+KNOCKBACK from massive shoulder checks.
+
+Behavior:
+
+Non-hostile until pushed:
+
+Observer path: he tests your patience, movement, and respect.
+
+Hostile path:
+
+Highly mobile.
+
+Uses terrain in Ragged Clearing to:
+
+Duck behind cover.
+
+Break line of sight.
+
+Symbolic:
+
+Behavior tuned to feel:
+
+More like a being choosing to fight/flee than a simple beast.
+
+8. Corruption Surge & Vigil Variants
+
+During high Corruption events (91, B104):
+
+Some enemies gain temporary affixes:
+
+Affix Examples
+
+“Spore-Crowned” (already mentioned in B109)
+
+Adds spore burst on death.
+
+“Ward-Twisted”
+
+Gains unstable ward energy; some attacks shock allies as well.
+
+“Blood-Drunk”
+
+More aggressive:
+
+Higher attack frequency.
+
+Lower defense.
+
+These appear:
+
+Primarily during:
+
+Gloaming Vigil.
+
+Wardstone Hill crisis.
+
+Lategame Grove/Warren surges.
+
+They are meant to:
+
+Slightly remix familiar enemies.
+
+Raise stakes without requiring entirely new families.
+
+9. Behaviors & Roles – How Enemies Test Archetypes
+
+Mapping to B110 roles:
+
+Huntmaster Striker
+
+Tested by:
+
+Pack behavior (Ridge Wolves).
+
+Mobility (Ragged King, Howler).
+
+Rewarded by:
+
+Predictable telegraphed charges to punish.
+
+Warden Frontliner
+
+Tested by:
+
+Brood swarms.
+
+Sap pools & high-corruption auras.
+
+Rewarded by:
+
+Being able to:
+
+Hold the line vs multiple enemies.
+
+Soak hits and keep allies safe.
+
+Scholar Field Controller
+
+Tested by:
+
+Enemies that:
+
+Ignore or resist some control (Resin Husks).
+
+Spreading hazards (spores, sap).
+
+Rewarded by:
+
+Ability to:
+
+Pre-clear spore clusters.
+
+Slow or root key foes.
+
+Clean up statuses.
+
+Corruption-Edge Hunter
+
+Tested by:
+
+Enemies that:
+
+Deal high Corruption on top of damage.
+
+Multi-phase corruption fights (Devourer).
+
+Rewarded by:
+
+Synergy with:
+
+Corruption statuses (offense scaling).
+
+Sap-tuned gear.
+
+Versatile Woodsman
+
+Tested by:
+
+Mixed groups and varied terrain.
+
+Rewarded by:
+
+Broad toolkit.
+
+Good preparation (food, brews, gear choices).
+
+10. Integration Quick Links
+
+B113 – Pockets & Landmarks:
+
+Each family clearly tied to specific pockets.
+
+B109 – Damage & Status:
+
+Families are designed around:
+
+Specific subsets of statuses/damage for mechanical clarity.
+
+B108 – Professions:
+
+Each family drops:
+
+Thematically consistent materials.
+
+B103 – Signature Hunts:
+
+Each Hunts’ add waves draw from:
+
+These families.
+
+B102 – Projects:
+
+Certain projects:
+
+Reduce certain enemy populations.
+
+Make some variants rarer in fields.
+
+B104 – Events:
+
+Gloaming Vigil & special events:
+
+Temporarily add affixes or spawn special variants from these families.
