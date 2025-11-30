@@ -1,0 +1,284 @@
+# 91 – Corruption, Taint, and Cleansing Mechanics (Greatwood & Hollowroot 1–20 Stub)
+
+## Purpose
+
+Define the **early framework** for:
+
+- Corruption / taint as a world-state and gameplay force
+- How it appears in Greatwood and Hollowroot (65)
+- How it affects:
+  - Creatures & bosses (66, 80)
+  - Environments & hazards (81)
+  - Player status (Resolve stat – 71)
+  - Professions (Alchemy, Cooking, Forester – 52–59)
+- How players **manage, mitigate, or cleanse** corruption in Greatwood 1–20
+
+Goal: introduce corruption as a **slow, creeping threat** and a long-term pillar without overwhelming early gameplay.
+
+---
+
+## Core Concept
+
+“Corruption” in Emberwild is:
+
+- A **spiritual + biological taint** manifested through:
+  - Twisted growths.
+  - Diseased beasts.
+  - Hollowroot infestations.
+- It is not:
+  - Just “purple goo.” It’s integrated into:
+    - Roots, spores, ash, and strange light.
+
+At 1–20, corruption is:
+
+- Mostly **localized** (Hollowroot Warren, certain glades).
+- More about **atmosphere, targeted mechanics, and foreshadowing** than full world takeover.
+
+---
+
+## Types of Corruption (Early Pass)
+
+1. **Hollowroot Corruption**
+   - Fungal, root-based.
+   - Seen in:
+     - Hollowroot Warren (65).
+     - Nearby surface pockets.
+
+2. **Ash-Touched Corruption**
+   - Burn-scar + corruption hybrid.
+   - Seen in:
+     - Burn-Scar glades.
+     - Certain beasts (Ash-Touched boar, etc.).
+
+3. **Spiritual / Ambient Corruption (Stub)**
+   - Less visible; felt as:
+     - Whispers.
+     - Emotional pressure.
+   - Mostly future content hook, light hints at 1–20.
+
+---
+
+## Player-Facing Mechanics
+
+### Corruption Exposure (Light 1–20 Model)
+
+Simple early metric:
+
+- **Corruption Exposure** – a temporary, decaying value:
+  - Increases when:
+    - Standing in corrupted patches.
+    - Hit by corrupted beast attacks.
+    - Interacting with heavily tainted objects.
+  - Decays slowly over time when:
+    - In clean environments.
+    - Resting at a camp or Lodge (77, 70).
+
+Effects at early tiers:
+
+- **Low Exposure:**
+  - Mostly flavor:
+    - Mild visual/audio distortions.
+    - Codex/Game Bible hints.
+- **Moderate Exposure:**
+  - Small debuffs:
+    - Slight reduction in stamina regen.
+    - Minor penalty to Resolve (71).
+- **High Exposure (edge of 1–20 scope):**
+  - Stronger temporary debuff:
+    - Increased damage taken from corrupted sources.
+    - Chance for periodic minor stagger/vertigo effect.
+
+No permanent character-state corruption in 1–20; keep it manageable.
+
+---
+
+### Resolve Interaction
+
+Resolve (71):
+
+- Represents:
+  - Mental/spiritual fortitude.
+- Role vs corruption:
+  - Higher Resolve:
+    - Slows buildup of Exposure.
+    - Reduces severity of corruption debuffs.
+- Early game:
+  - Resolve is lightly used:
+    - Mostly in Hollowroot/dungeon content and specific corrupted Hunts.
+
+---
+
+## Environmental Corruption
+
+### Corrupted Ground & Growths
+
+- Visuals:
+  - Twisted roots.
+  - Glowing fungi.
+  - Sickly light.
+- Mechanical effects:
+  - Standing in corrupted ground:
+    - Slowly raises Exposure.
+    - May deal minor HP chip damage over time.
+- Interactions:
+  - Certain alchemical harvests:
+    - Require stepping into or near corrupted zones.
+
+### Corruption Nodes (Future Hook)
+
+- Root clusters, heart pods, or fungal cores.
+- When destroyed:
+  - Temporarily cleans small area.
+  - Reduces ambient Exposure buildup nearby.
+- In Greatwood 1–20:
+  - Small-scale “nodes” primarily appear in Hollowroot Warren.
+
+---
+
+## Corrupted Creatures
+
+### Traits
+
+- Increased aggression.
+- Different behavior patterns (80):
+  - Less fear or altered flight responses.
+- Attacks:
+  - Apply small chunks of Exposure on hit.
+  - Some create corrupted ground patches.
+
+### Examples
+
+- **Ash-Touched Boar**
+  - Charges leave scorched, tainted patches.
+- **Hollowroot Stag Variant**
+  - Antlers and hooves pulsing with fungal growth.
+  - Leaves faint corrupted prints in dungeon floors.
+
+### World Bosses / Deeds (66)
+
+- Certain Deeds:
+  - Explicitly mark target as corrupted.
+- Boss arenas:
+  - Mix normal and corrupted ground zones.
+  - Encourage players to manage positioning vs Exposure.
+
+---
+
+## Cleansing & Mitigation
+
+### Lodge & Ember Pot (70, 85)
+
+- Lodge:
+  - Safe zone:
+    - Exposure decays faster.
+  - Eventually, services:
+    - Spiritual cleansing rituals (story, future expansions).
+
+- Ember Pot:
+  - “Comfort” and hearty food:
+    - Give small temporary resistance to minor corruption effects.
+  - Later:
+    - Special recipes tuned specifically to corruption resistance.
+
+### Camps (77)
+
+- Ordinary camps:
+  - Provide slow Exposure decay while resting.
+- Enhanced camps:
+  - With certain structures or alchemical items:
+    - Faster decay.
+    - Temporary resistance buff.
+
+### Alchemy (58)
+
+Tonics and balms:
+
+- **Corruption-Resistant Tonic**
+  - Reduces rate of Exposure gain for a duration.
+- **Purge Brew** (limited)
+  - Clears a chunk of Exposure when consumed.
+  - Comes with:
+    - Side effects (nausea, lowered stamina temporarily).
+
+Ingredients:
+
+- Hollowroot fungi.
+- Storm-caught fish oils (78).
+- Special herbs.
+
+### Forester & Ritual Sites (Future Hooks)
+
+- Foresters:
+  - Know places where the forest “fights back” against corruption.
+- Small shrines or groves:
+  - Visiting and performing simple actions there:
+    - Temporarily boosts Resolve.
+    - Helps reduce Exposure.
+
+---
+
+## Narrative & Lore Integration
+
+- Codex entries (69):
+  - Document:
+    - History of previous corruption surges.
+    - Stories of hunters lost to taint.
+- Lodge politics (83):
+  - Debates over:
+    - How to handle Hollowroot.
+    - Whether to weaponize aspects of corruption (dangerous idea).
+- Quests:
+  - “Ash in the Pot”-style arcs (56, 85) exploring contamination in food systems.
+  - Hollowroot Deeds (65, 66) focusing on containment.
+
+---
+
+## Player Feedback
+
+- UI:
+  - Minimal:
+    - A small icon or subtle vignette that intensifies with Exposure.
+    - Avoid MMO-style giant “Corruption Meter.”
+- Audio:
+  - Low whispers, droning tones.
+  - Slight muffling of ambient forest sounds at higher Exposure.
+- Visual:
+  - Occasional brief distortions:
+    - Edges of screen warping gently.
+    - Color shifts.
+
+All effects must be:
+
+- Tuned carefully to avoid discomfort.
+- Optionally reducible via accessibility settings.
+
+---
+
+## Integration With Other Systems
+
+- **Weather & Hazards (81):**
+  - Certain weather patterns:
+    - May temporarily increase corrupted activity (fog/storm near Hollowroot).
+- **Dungeons (65):**
+  - Hollowroot Warren:
+    - Primary testbed for 1–20 corruption mechanics.
+- **Talents (82):**
+  - Resolve-related perks lightly improve corruption tolerance.
+- **Trophies & Deeds (86):**
+  - Special trophies for major corruption-related kills.
+  - Achievements tied to:
+    - Cleansing certain nodes.
+    - Surviving high Exposure events.
+
+---
+
+## Next Actions
+
+- Decide:
+  - Exact Exposure thresholds and debuff values for 1–20.
+- Implement:
+  - 1–2 corrupted ground types.
+  - 2–3 corrupted beast variants for Greatwood/Hollowroot.
+- Design:
+  - 2 small cleansing/mitigation items (tonic + food).
+  - A basic Hollowroot corruption-focused Deed for testing.
