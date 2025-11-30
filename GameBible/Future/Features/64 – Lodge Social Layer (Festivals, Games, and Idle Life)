@@ -1,0 +1,210 @@
+# 64 – Lodge Social Layer: Festivals, Games, and Idle Life
+
+## Purpose
+
+Design the **social layer** of the Lodge:
+
+- Festivals and periodic events
+- Small games and activities
+- “Idle life” (NPC behaviors, routines, ambient scenes)
+
+Goal: make the Lodge feel like a **living home base**, not just a quest menu.
+
+---
+
+## Design Goals
+
+1. **Comfort & Routine**  
+   Players should feel a sense of “coming home” to the Lodge.
+
+2. **Light Interactivity**  
+   Add small games and interactions that don’t require huge systems but give texture.
+
+3. **Time & State Awareness**  
+   Lodge presence changes based on:
+   - Time of day
+   - Recent major events (wildfire, big hunts)
+   - Player progress in key questlines (56, 60)
+
+4. **Hooks into Systems**  
+   Use festivals and social events to:
+   - Boost or showcase Cooking
+   - Support Hunts and Deeds
+   - Advance profession reputation (59)
+
+---
+
+## Daily / Routine Lodge Life
+
+### NPC Routines
+
+- **Cooks**:
+  - Stirring the Ember Pot
+  - Carrying ingredients and tasting dishes
+- **Hunters**:
+  - Cleaning weapons
+  - Telling stories around smaller fires
+- **Foresters**:
+  - Studying maps, sharpening tools, preparing survey runs
+- **Woodworkers**:
+  - Working at benches, repairing bows, carving small items
+
+These can be simple animation loops + occasional barks.
+
+### Ambient Conversations
+
+- Snippets about:
+  - Hunts gone wrong/right
+  - Strange sightings in the forest
+  - Complaints and praise of the Ember Pot
+
+Some lines can hint at Hunts, Deeds, or upcoming content.
+
+---
+
+## Festivals & Named Events
+
+### 1. Ember Night Feast
+
+**Concept:**
+- A Lodge-wide feast event featuring Cooking, story, and buffed food.
+
+**Triggers:**
+- Periodic (e.g. in-world weekly cycle)
+- Or triggered after big story beats (e.g. a major Deed or world boss kill)
+
+**Activities:**
+
+- Long tables set, Ember Pot visually upgraded with special FX.
+- Special event recipes:
+  - Group buff dishes
+  - Limited-time feast foods
+
+**Rewards:**
+
+- Unique event-only recipes (cosmetic/sidegrade)
+- Strong but time-limited food buffs
+- Ember Kitchen rep (59)
+
+---
+
+### 2. Greatwood Remembrance
+
+**Concept:**
+- A quieter, somber festival remembering hunters and foresters lost.
+
+**Triggers:**
+- Tied to certain story beats (character deaths, big threats resolved).
+
+**Activities:**
+
+- Candles or lanterns lit around Lodge.
+- NPCs stand in small groups sharing stories; some new dialogue.
+- Player can participate in:
+  - Placing names on a board or memorial
+  - Bringing symbolic offerings (e.g., a crafted piece, a simple dish)
+
+**Rewards:**
+
+- Small rep boosts (Lodge-wide)
+- Cosmetic items or titles:
+  - Cloaks, pendants, keepsakes
+
+**Tone:**
+- Humanizing, slower pacing between hunts.
+
+---
+
+### 3. Wild Hunt Preparation
+
+**Concept:**
+- Build-up to a major Hunt or Deed, with the whole Lodge preparing.
+
+**Triggers:**
+- Before certain world bosses or big Deeds (61).
+
+**Activities:**
+
+- NPCs:
+  - Sharpening weapons
+  - Discussing tactics
+  - Stockpiling rations
+- Player tasks:
+  - Provide food (Cooking)
+  - Craft arrows or supplies (Woodworking)
+  - Deliver special wood or herbs (Forester)
+
+**Rewards:**
+
+- Temporary buff for the upcoming hunt
+- Hunt Board unlocks special Deed
+- Profession rep and small gear upgrades
+
+---
+
+## Small Games & Activities
+
+These should be light and optional but help sell the space.
+
+### 1. Archery Mini-Game
+
+- Simple target range behind or inside the Lodge.
+- Player can:
+  - Practice, get scored on accuracy/time.
+- Rewards:
+  - Tiny XP / coin
+  - Titles/achievements or cosmetic target props at higher scores
+
+### 2. Dice or Token Game
+
+- Hunters play a simple dice or token-based game in a corner.
+- Player can join:
+  - Low-stakes gambling or just for fun.
+- Rewards:
+  - Mostly flavor
+  - Occasional small item or rumor
+
+### 3. Knife-Throwing / Hatchet-Throwing
+
+- Target logs, chalked circles.
+- Skill-based mini-activity using simple inputs (timing).
+- Rewards:
+  - Small rep with whoever runs it
+  - Tiny buff (confidence, focus) for a short time
+
+---
+
+## Idle Details & Micro-Events
+
+Examples:
+
+- **Argument over a hunt** → short ambient scene.
+- **Drunk hunter singing** → audio + minor interaction.
+- **Lost kid in the Lodge** → tiny one-off fetch quest or escort.
+
+These don’t need huge systems; they’re simple, authored scenes that rotate.
+
+---
+
+## System Hooks
+
+- Festivals and social events can:
+  - Temporarily change Lodge vendors’ inventories
+  - Unlock limited-time Hunt Board entries
+  - Gate certain profession recipes and cosmetics (59)
+
+- Time-of-day:
+  - Morning: preparations, bustle
+  - Midday: training and craft focus
+  - Night: stories, singing, arguments, quiet reflection
+
+---
+
+## Next Actions
+
+- Decide on **1–2 festivals** to implement first (likely Ember Night Feast + Wild Hunt Prep).
+- Define:
+  - NPC schedules and simple states
+  - Festival-specific dialogues and props
+  - 1–2 small mini-games (archery, knife-throwing)
+- Integrate social layer references into existing quests (56, 60) and rep tracks (59).
