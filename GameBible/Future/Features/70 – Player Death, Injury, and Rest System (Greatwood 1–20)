@@ -1,0 +1,228 @@
+# 70 – Player Death, Injury, and Rest System (Greatwood 1–20)
+
+## Purpose
+
+Define how **dying, getting hurt, and recovering** works in Emberwild, especially in Greatwood 1–20:
+
+- Death and respawn rules
+- Injury / penalty model (if any)
+- Resting at Lodge, camps, and in the field
+- How food (52, 53), tonics (58), and profession loops tie into recovery
+
+Goal: keep it **grounded and punishing enough to matter**, but not so harsh that it kills experimentation.
+
+---
+
+## Design Goals
+
+1. **Consequences, not cruelty**  
+   Dying should matter, but not delete hours of progress.
+
+2. **Encourage preparedness**  
+   Food, tonics, and gear matter more when death has some teeth.
+
+3. **Lodge as safety anchor**  
+   The Lodge should feel like a true home base for recovery and prep.
+
+4. **Systems that scale later**  
+   Greatwood 1–20 uses simpler versions of what can be deepened in later regions.
+
+---
+
+## Death Rules (Baseline)
+
+### When HP Reaches 0
+
+- Player is:
+  - Knocked down / incapacitated briefly.
+- If solo:
+  - Timer runs, then player can:
+    - Choose to “Struggle to Safety” (respawn at nearest safe point)
+- If in group (future):
+  - Allies have a short window to revive.
+
+### Respawn Points
+
+- **Primary:** The Lodge (default safe respawn).
+- **Secondary:** Discovered outposts or camp locations.
+- **Dungeon-Specific:** Entrance or recent checkpoint inside dungeons like Hollowroot Warren (65).
+
+Respawn involves:
+
+- Time cost (short load / fade)
+- Travel cost (you’re physically somewhere else now)
+
+---
+
+## Penalties
+
+Penalties should be meaningful but recoverable.
+
+### Option: Soft Wound Debuff
+
+On death, player gains a temporary “wound state”:
+
+- **Mild version (Greatwood 1–20):**
+  - Small debuff:
+    - Slight reduction in max HP OR stamina regen
+  - Duration:
+    - Until player:
+      - Rests at Lodge
+      - Uses specific food or balm
+- **Harder versions (later content):**
+  - More complex injuries (broken arm, concussion-like penalties)
+
+For Greatwood 1–20:
+
+- Recommended: a **single unified debuff** such as:
+  - “Shaken” or “Rattled”
+  - -5% max HP, -5% stamina regen
+  - Applied on death, stack limit 1–2
+
+Removed by:
+
+- Sleeping at Lodge beds
+- Using a specific wound balm (58)
+- Possibly certain high-tier foods or Ember Pot celebration event (56, 64)
+
+---
+
+## Rest and Recovery
+
+### Lodge Rest
+
+- **Full rest** at the Lodge:
+  - Remove death debuff(s)
+  - Restore HP/stamina pools fully
+  - Maybe refresh some limited-use resources (where applicable later)
+
+- Visual/audio:
+  - Sleep, time passes
+  - Lodge ambient sounds shift (e.g., wake up at a different time)
+
+### Camp Rest
+
+- Camps in the field:
+
+- Provide:
+  - HP/stamina restoration
+  - Limited removal of minor penalties
+- Do not fully clear:
+  - Serious death debuffs (encourages returning to Lodge periodically)
+
+Ties into:
+
+- Combo structures (57), like Hanging Meat Rack or Scent-Masking Bundle.
+- Forester/Woodworker structures that improve camp quality.
+
+---
+
+## Food, Tonics, and Injuries
+
+Food (52, 53):
+
+- Good food:
+  - Mitigates attrition during prolonged play
+  - Can provide:
+    - Slight buffer against wound penalties
+    - Comfort factor (small reduction of certain debuffs)
+
+Tonics & Balms (58):
+
+- Wound balms:
+  - Clear specific minor injuries or reduce severity.
+- Tonics:
+  - Help recover from stamina loss or environmental strain.
+- Strong brews:
+  - Can mask problems in the short term (e.g. increased damage, but underlying penalties remain).
+
+---
+
+## Dungeon & Boss Death Integration
+
+In dungeons (65) and world boss fights (66):
+
+- Death loop:
+
+  - If entire group wipes:
+    - Respawn at:
+      - Dungeon entrance
+      - Or last activated checkpoint/camp
+    - Possibly with:
+      - One instance of the “Shaken” debuff
+
+  - If solo:
+    - Similar, but tuned so:
+      - Attempts feel costly, not impossible to repeat.
+
+- Optional dungeon-specific modifier:
+  - “Depth Strain”:
+    - Wounds acquired in Hollowroot may be harder to fix outside the Lodge.
+    - Encourages returning after a few deaths.
+
+---
+
+## Tracking Player Risk
+
+Not a UI meter, but design-side understanding:
+
+- A player far from Lodge with:
+  - Low food supply
+  - No wound balms
+  - No strong tonics
+
+…is effectively “extended risk mode.”
+
+Encourage this loop:
+
+1. Prep at Lodge (food, tonics, etc.).
+2. Dive into Greatwood:
+   - Hunts, Deeds, dungeon, events.
+3. Accrue:
+   - Minor wounds
+   - Spent supplies
+4. Return to Lodge:
+   - Cash in Hunts
+   - Rest
+   - Upgrade gear & professions
+   - Refresh buffs and supplies
+
+---
+
+## Edge Cases & Grace
+
+- **Falling off cliffs** or weird deaths:
+  - Still apply standard death flow, but consider not stacking extra penalties for accidental terrain death repeatedly in Greatwood 1–20.
+
+- **New players:**
+  - First few deaths:
+    - Might get a tutorial-like codex entry (69) explaining:
+      - Lodge rest
+      - Balms
+      - Food utility
+
+- **“Death loops”:**
+  - Design to avoid:
+    - Respawning in the middle of an unavoidable enemy pile.
+    - Make sure respawn points are actually safe.
+
+---
+
+## Integration
+
+- **Cooking System (52, 53, 56):**
+  - Food as a softer, proactive protection against rough attempts.
+- **Alchemy (58):**
+  - Balms and tonics as direct tools for managing injury and fatigue.
+- **Professions & Rep (54, 59):**
+  - Higher-rank Cooks and Alchemists can offer better recovery options.
+- **Events & Deeds (61, 62, 66):**
+  - Some events may explicitly play with risk of death and recovery cost.
+
+---
+
+## Next Actions
+
+- Decide on the **exact baseline penalty** for Greatwood 1–20:
+  - 
+::contentReference[oaicite:0]{index=0}
