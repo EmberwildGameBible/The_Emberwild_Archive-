@@ -1,0 +1,280 @@
+# 94 – Festivals, Seasons, and Lodge Social Events (Deep Design)
+
+## Purpose
+
+Deepen the design of **Lodge social life**:
+
+- Festivals, feasts, and ritual days (64, 85, 86)
+- Smaller recurring social events and competitions
+- How “seasons” (narrative/structural, not necessarily full dynamic seasons) affect:
+  - Hunts & Deeds (61, 66)
+  - Ember Pot & economy (85, 84)
+  - Player progression, cosmetics, and trophies (82, 86)
+
+Goal: make Emberwild feel like a **living community** with traditions and rhythms, not just a static quest hub.
+
+---
+
+## Festivals & Seasonal Rhythm
+
+### Seasonal Structure (Narrative-Level)
+
+For Greatwood 1–20, treat “seasons” as:
+
+- **Narrative/structural beats**, not literal real-time seasons:
+  - Early Season:
+    - Opening of the Hunt.
+  - Mid Season:
+    - Peak activity, bigger threats, major Deeds.
+  - Late Season:
+    - Reflection, heavy corruption hints, Ember Night.
+
+Story arcs and festival events align with these phases, giving a sense of **time passing** within the campaign.
+
+---
+
+## Core Festivals
+
+### 1. Ember Night Feast
+
+**Theme:**
+
+- Celebration of survival, community, and the Ember Pot itself (85).
+
+**Trigger Conditions:**
+
+- Ember Pot meter hits Feast threshold (85).
+- Certain story/deed milestones achieved.
+- Possibly tied to “Late Season” narrative beat.
+
+**Activities:**
+
+- Massive communal meal.
+- NPC scenes:
+  - Songs, stories of past hunts.
+  - Council members giving short speeches (83).
+- Mini-games:
+  - Eating contests.
+  - Storytelling choices with light gameplay outcomes.
+
+**Mechanical Effects:**
+
+- Strong temporary buff:
+  - e.g., for X hours or next Y Hunts:
+    - Increased stamina regen.
+    - Slight bonus to Lodge rep or coin from Hunts (84).
+- Unique vendors:
+  - Festival-specific recipes or cosmetic items (cloaks, trophies).
+- Trophy Wall update (86):
+  - Festival plaques recording key achievements.
+
+---
+
+### 2. Hunt Opening Rite
+
+**Theme:**
+
+- Kickoff of a major hunting period in Greatwood.
+
+**Timing:**
+
+- Early Season / early-mid story.
+
+**Activities:**
+
+- Ceremony at the Hunt Board (76).
+- Symbolic first Deed:
+  - Possibly a non-lethal ritual hunt.
+- Optional participation:
+  - Player may join or skip.
+
+**Mechanical Effects:**
+
+- Rewards for participation:
+  - Small talent XP bump (or early talent unlock hint – 82).
+  - Slight Hunt Board reward bonus for a limited period.
+- Introduces:
+  - Deed structure.
+  - Hunt etiquette and expectations.
+
+---
+
+### 3. Remembrance Gathering
+
+**Theme:**
+
+- Honoring fallen hunters and difficult years.
+
+**Timing:**
+
+- Mid to Late Season.
+- Triggered by:
+  - Certain story flags (e.g., major boss killed, a crisis resolved or underway).
+
+**Activities:**
+
+- Candle-lighting or quiet Ember Pot segment.
+- Short scenes at Trophy Wall and Hall of Deeds (86).
+- Optional:
+  - Player can leave a token or inscription.
+
+**Mechanical Effects:**
+
+- Reflective buffs:
+  - Temporary Resolve bonus (71).
+  - Slightly stronger defense/resilience vs corruption (91).
+- Emotional story moments:
+  - NPCs open up.
+  - Some side quests only appear here (e.g., closure arcs, promises to the dead).
+
+---
+
+## Smaller Recurring Social Events
+
+### Lodge Contests
+
+Examples:
+
+- **Archery Trials**:
+  - Informal competition at Lodge range.
+  - Rewards:
+    - Minor tokens.
+    - Cosmetics (quiver skins, target knickknacks).
+
+- **Camp Cook-Off**:
+  - Cooking minigame:
+    - Time/ingredient puzzle.
+  - Rewards:
+    - Recipe unlocks.
+    - Small Ember Pot meter bonus (85).
+
+### Informal Gatherings
+
+- Nights where:
+  - NPCs gather at fire.
+  - Short random interactions can be triggered:
+    - Jokes.
+    - Ghost stories.
+    - Lore hints.
+
+These events:
+
+- Don’t always have big mechanical rewards.
+- Serve as “breathing room” and immersion.
+
+---
+
+## Season-Driven System Changes
+
+Even with a relatively static global climate, we can use “seasons” to:
+
+- Temporarily adjust:
+
+  - Hunt Board offerings.
+  - Enemy mix in certain regions.
+  - Availability of some ingredients (e.g., certain mushrooms or fish).
+
+### Early Season
+
+- Hunts:
+  - More introductory hunts, training Deeds.
+- Economy:
+  - Ingredient prices stable.
+- Atmosphere:
+  - Lodge optimistic.
+  - Ember Pot not yet a crisis.
+
+### Mid Season
+
+- Hunts:
+  - More complex Deeds, first world boss options.
+- Economy:
+  - Some resources become scarcer, others more abundant.
+- Atmosphere:
+  - Lodge busy, minor frictions surface (83).
+
+### Late Season
+
+- Hunts:
+  - High-stakes Deeds, major bosses.
+  - Corruption-related Deeds increase (91).
+- Economy:
+  - Shortages possible; Ember Pot pressure rises (85).
+- Atmosphere:
+  - Mood more serious.
+  - Festivals like Ember Night provide catharsis.
+
+---
+
+## Player Agency & Participation
+
+- Player chooses:
+  - How much they engage festivals and events.
+- Rewards scale with participation:
+  - Casual engagement:
+    - Light buffs, flavor.
+  - Deep engagement:
+    - Unique cosmetics and recipes.
+    - More Lodge rep (59).
+    - Stronger sense of belonging.
+
+No one festival is mandatory for main story progression, but:
+
+- Ignoring Lodge life entirely:
+  - Means missing:
+    - Some talents, recipes, and narrative context.
+
+---
+
+## Integration With Other Systems
+
+- **Ember Pot & Economy (85, 84):**
+  - Festivals influence:
+    - Ingredient demand.
+    - Temporary vendor stock changes.
+- **Trophies & Achievements (86):**
+  - Festival participation:
+    - Adds entries.
+    - Unlocks social/seasonal achievements.
+- **Hunts & Deeds (61, 66):**
+  - Special festival Deeds:
+    - Limited-time hunts themed around the event.
+- **Corruption & Politics (91, 83):**
+  - Some festivals:
+    - Become moments where Lodge debates or fractures show.
+    - e.g., arguments about whether to celebrate during crisis.
+- **Talents & Growth (82):**
+  - Certain talents may:
+    - Enhance festival benefits.
+    - Provide festival-related perks (e.g., better cooking during Cook-Off).
+
+---
+
+## Presentation & UI
+
+- Festival Announcements:
+  - Short, diegetic notifications:
+    - Crier NPC.
+    - Notice at Hunt Board.
+- Calendar/Timeline (simple):
+  - Journal page showing:
+    - Current rough “season.”
+    - Known upcoming events or festival windows.
+- Visual Changes:
+  - Banners.
+  - Extra lanterns.
+  - Changes around Ember Pot area.
+
+---
+
+## Next Actions
+
+- Choose:
+  - 2–3 festivals/events to implement in Greatwood 1–20 (likely Ember Night, Hunt Opening Rite, one smaller event).
+- Define:
+  - Their trigger conditions.
+  - Buffs and rewards.
+- Write:
+  - Key scenes, NPC dialogue, and Trophy Wall text for each.
+- Plan:
+  - Hooks for future seasons and additional festivals beyond Greatwood 1–20.
