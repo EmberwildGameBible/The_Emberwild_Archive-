@@ -1,0 +1,180 @@
+# 60 – Profession Questline: “The Broken Tools of Greatwood”
+
+## Premise
+
+Across the Lodge, tools are **failing**:
+
+- Axes snap in healthy wood
+- Cooking pots crack under low heat
+- Chisels warp on simple grain
+
+At first it looks like bad craftsmanship or overuse, but the pattern points to something deeper tied to **Greatwood’s resources** and maybe subtle corruption.
+
+This questline:
+
+- Pulls together **Forester, Cook, and Woodworker** professions
+- Teaches the player more about Greatwood’s materials
+- Ends with upgraded profession tools and understanding of resource “attunement”
+
+---
+
+## Structure Overview
+
+Length: **4–5 quests**, designed to be playable around skill 5–15 in professions.
+
+Suggested quest names (working):
+
+1. **“Splinters and Cracks”** – The problem appears
+2. **“Bad Batch”** – Investigating faulty materials
+3. **“Wood That Won’t Yield”** – Forester-focused resource checks
+4. **“Fire That Bites Back”** – Cook-focused heat/ingredient problems
+5. **“Mending the Line”** – Woodworker + player fix the root cause
+
+---
+
+## Quest 1 – “Splinters and Cracks”
+
+**Goal:** Introduce the problem and involve the player.
+
+- **Setup:**
+  - Player overhears arguments in the Lodge:
+    - A woodworker swearing about a broken chisel
+    - A cook furious that a pot cracked mid-stew
+  - An NPC (maybe a neutral Lodge facilitator) asks you to help investigate.
+- **Objectives:**
+  - Talk to:
+    - A Forester, a Cook, and a Woodworker about their tool failures.
+  - Examine a few broken tools (props, inspection interactions).
+- **Reveal:**
+  - The failures are recent and clustered, not random.
+- **Reward:**
+  - Small XP, coin
+  - Intro-level profession rep for all three wings
+
+---
+
+## Quest 2 – “Bad Batch”
+
+**Goal:** Test if the problem comes from **supplies** (wood, metals, ingredients).
+
+- **Setup:**
+  - NPC suggests: “Maybe a bad batch of supplies came in.”
+- **Objectives:**
+  - Track where recent tools and pots came from:
+    - Check supply logs / talk to quartermaster
+    - Inspect a recent shipment of wood or ore
+  - Gather sample materials:
+    - Wood from normal trees
+    - Wood from suspicious patches (near corruption, weird growth)
+    - Maybe some cooking clay/metal sources
+- **Gameplay:**
+  - Basic gathering and talk-to objectives.
+- **Reveal:**
+  - Some materials are fine; some are subtly “off” despite looking normal.
+- **Reward:**
+  - XP, coin
+  - Small bump in Forester / Carpenter rep
+
+---
+
+## Quest 3 – “Wood That Won’t Yield”
+
+**Goal:** Focus on the **Forester** angle – the trees and forest itself.
+
+- **Setup:**
+  - Foresters report new growth patterns and “wrong-feeling” wood.
+- **Objectives:**
+  - Visit marked trees:
+    - Normal Greatwood tree
+    - Tree near a corruption pocket
+    - Tree near recent wildfire or strange event
+  - Chop samples with a temporary “diagnostic” axe.
+  - Bring samples back to a Forester NPC and Woodworker to test.
+- **Gameplay:**
+  - Gathering + light combat if hostile creatures defend certain trees.
+- **Reveal:**
+  - Certain regions produce wood that is subtly altered:
+    - Too brittle
+    - Too “springy”
+  - Tools fail or warp when used repeatedly with this material.
+- **Reward:**
+  - XP, coin
+  - Forester rep; potential access to a “safe wood” or “treated wood” technique later
+
+---
+
+## Quest 4 – “Fire That Bites Back”
+
+**Goal:** Focus on **Cooking** and heat sources.
+
+- **Setup:**
+  - Cooks complain that even low heat is cracking pots.
+  - Some fires are burning “weird” (color, smell).
+- **Objectives:**
+  - Test cooking with different fuel sources:
+    - Normal wood
+    - Ash-touched wood
+    - Corrupted, resin-heavy wood
+  - Use a temporary test pot to see how it responds.
+- **Gameplay:**
+  - Player lights different fires, cooks simple test dishes (or just interacts with stations).
+- **Reveal:**
+  - Certain woods + certain ingredients create unstable heat or pressure.
+  - The combination of *the wrong wood* and *certain tainted ingredients* is overstraining tools.
+- **Reward:**
+  - XP, coin
+  - Ember Kitchen rep
+  - Possibly new knowledge/recipe for safely handling risky ingredients (balms, cleansing broths)
+
+---
+
+## Quest 5 – “Mending the Line”
+
+**Goal:** Resolve the mystery and upgrade profession tools.
+
+- **Setup:**
+  - The Lodge realizes:
+    - New growth patterns and slight corruption are altering Greatwood’s resource “profile.”
+    - Old ways of crafting tools and pots aren’t enough anymore.
+  - Player is asked to help create **new, adapted tools**.
+- **Objectives:**
+  - Work with:
+    - Forester to select & harvest “stable” wood
+    - Cook to identify safe handling for dangerous ingredients (e.g. no mixing with certain fuel)
+    - Woodworker to forge/build upgraded handles, shafts, and tool heads
+  - Craft or receive:
+    - New versions of profession tools:
+      - `item_prof_forester_axe_t2` or special variant
+      - `item_prof_cook_knife_t2` or sturdy pot upgrade
+      - `item_prof_woodworker_tools_t2`
+- **Gameplay:**
+  - Final round of gathering, crafting, and delivering.
+  - Potential short encounter if corruption tries one last time to interfere (optional combat).
+- **Resolution:**
+  - Lodge stabilizes its tool supply.
+  - The player is recognized as someone who understands both the forest and the work.
+- **Reward:**
+  - Significant XP, coin
+  - Larger rep boost in all three wings (59)
+  - Unlock/award upgraded tools for each profession (54)
+  - Optional title or cosmetic acknowledging the role (e.g. “Line Mender”)
+
+---
+
+## Integration
+
+- Connects directly to:
+  - 51 – Ingredient taxonomy (for “tainted” vs normal ingredients)
+  - 54 – Profession tools and gear
+  - 55 – Specialty ingredients (some “bad” ones causing issues)
+  - 59 – Profession reputation tracks
+
+This becomes the **bridge questline** that explains *why* certain resources need special treatment and *why* your profession gear matters.
+
+---
+
+## Next Actions
+
+- Write NPC names, personalities, and sample dialogue beats.
+- Place the involved trees, fires, and POIs in specific Greatwood sub-areas.
+- Ensure final tool rewards line up with the profession progress curve.
