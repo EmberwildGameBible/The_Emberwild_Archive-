@@ -1,0 +1,188 @@
+# 61 – Greatwood Hunt Board & Deeds System
+
+## Purpose
+
+Define the **Greatwood Hunt Board** and **Deeds system** as the core loop for structured hunting content:
+
+- Gives players **repeatable, curated hunts** with clear goals  
+- Ties into Lodge reputation, professions, and special ingredients  
+- Establishes a framework that can expand to other regions later
+
+This is a design spec for **how the Hunt Board works**, what “Deeds” are, and how they tie into rewards and progression.
+
+---
+
+## Key Concepts
+
+### Hunt Board
+
+A physical board in the Lodge (and possibly outposts) where players pick up:
+
+- **Hunts:** Kill X of Y, track and kill a specific beast, capture/drive off enemy
+- **Special Assignments:** Time-limited or event-based hunts
+- **Deeds:** Longer, named challenges (mini-questlines)
+
+### Deeds
+
+**Deeds** are special, named contracts that:
+
+- Are tracked individually with their own progress
+- Have higher rewards and unique flavor
+- Often tie into story, bosses, or rare ingredients
+
+Examples:  
+- “The Boar That Wouldn’t Die”  
+- “Warden of the Hollowroot Edge”  
+- “The Beast That Hunts Fire”
+
+---
+
+## Hunt Board Structure
+
+### Board Layout
+
+- Board shows **3–5 active hunts** at a time.
+- Hunts are categorized:
+  - **Common Hunts** – simple daily-style tasks
+  - **Notices** – special or time-limited opportunities
+  - **Deeds** – ongoing boss/elite challenges
+
+### Difficulty & Scaling
+
+- Hunts are tagged with:
+  - Recommended level band (e.g. 1–5, 5–10, 10–20)
+  - Solo/Group suggestion
+- Scaling rules (implementation later):
+  - Base stats & AI scale within Greatwood’s band
+  - Deeds might have fixed levels (non-scaled “hard posts” in the zone)
+
+---
+
+## Hunt Types (Common)
+
+These are low-mid effort tasks that keep players in the loop between big content.
+
+1. **Culling Hunts**
+   - Example: “Cull 8 Ash-Touched Boar”
+   - Goal: Kill X creatures of type Y in a sub-region.
+   - Reward: Modest XP, coin, small rep, chance at relevant ingredients.
+
+2. **Track & Kill**
+   - Example: “Track the Three-Horn Stag”
+   - Goal: Follow tracks to a target spawn and kill a named or tougher variant.
+   - Reward: Better XP, coin, rep, chance at specialty drops.
+
+3. **Deterrence**
+   - Example: “Drive Off a Pack Leader”
+   - Goal: Kill the alpha of a wolf pack or similar.
+   - Reward: Similar to Track & Kill but more social/faction flavor.
+
+4. **Resource Protection**
+   - Example: “Protect the Gatherers”
+   - Goal: Defend an area or NPC while they gather.
+   - Reward: XP, coin, rep, possible extra resource bundle.
+
+---
+
+## Deeds (Named Contracts)
+
+Deeds are more substantial, with their own entries in the player’s log. They can span multiple steps.
+
+### Example Deed: “The Boar That Wouldn’t Die”
+
+- **Premise:**
+  - A specific massive boar has survived multiple hunts, scarred and enraged.
+- **Steps:**
+  1. Investigate sites of failed hunts (find broken weapons, scattered meat)
+  2. Track unique signs (deep hoof-marks, gouged trees)
+  3. Face the boar in a special arena spot (with mechanics)
+- **Rewards:**
+  - Unique trophy
+  - Specialty ingredient (e.g. `spec_ingr_ash_touched_beast_cut`)
+  - Unlock of a special recipe or profession tool
+
+### Example Deed: “The Beast That Hunts Fire”
+
+- **Premise:**
+  - Something hunts near wildfire scars and attacks anyone with a torch.
+- **Steps:**
+  1. Patrol wildfire edges at night
+  2. Survive ambush encounters
+  3. Trigger a final “lure” event using a ritual hunt offering (57)
+- **Rewards:**
+  - High-tier ingredient or alchemical reagent
+  - Stronger hunt rewards than normal
+
+---
+
+## Board Flow & Refresh
+
+### Common Hunts
+
+- Rotate on a **timer** (e.g. daily cycle, or per-session).
+- Limited number available at once (3–5).
+- Player can accept a limited number concurrently (e.g. 3 active hunts).
+
+### Deeds
+
+- Do **not** rotate as quickly.
+- Once a player unlocks a Deed:
+  - It stays available until completed or abandoned.
+- Some Deeds unlock via:
+  - Reputation thresholds (59)
+  - Previous hunts (completing X culling hunts unlocks a Deed)
+  - Quest progress (connecting to other Greatwood story beats)
+
+---
+
+## Rewards & Integration
+
+### Baseline Rewards
+
+Each completed Hunt rewards:
+
+- XP (player level)
+- Coin
+- Lodge rep (general or specific wings, depending on target)
+- Small chance at relevant ingredients (meat, pelts, herbs, etc.)
+
+### Special Rewards
+
+- Deeds can reward:
+  - Specialty ingredients (55)
+  - Profession rep (59)
+  - Unique recipes (52, 53, 57)
+  - Profession tools (54)
+  - Cosmetic trophies (wall mounts, trinkets)
+
+### Reputation & Board
+
+- Higher Lodge reputation and profession ranks:
+  - Unlock better hunts and Deeds
+  - Increase odds of valuable drops or extra rewards
+
+---
+
+## UI / UX Notes
+
+- Board should feel **physical**:
+  - Papers pinned, some crossed out, some torn.
+- Accepted hunts:
+  - Marked on the board as “Taken.”
+  - Visible in player’s quest log under a **Hunts** category.
+
+- Deeds:
+  - Have more elaborate parchment, unique icon, sometimes wax seals.
+  - Might have brief lore snippet on the board itself.
+
+---
+
+## Next Actions
+
+- Define a **first-wave list** of:
+  - 10–15 Common Hunts
+  - 3–5 Deeds for Greatwood 1–20
+- Connect Hunts & Deeds to:
+  - Actual enemy families and spawn regions in Greatwood
+  - Lodge rep and profession systems (51–60)
+- Draft quest log text for 1–2 Deeds as examples.
