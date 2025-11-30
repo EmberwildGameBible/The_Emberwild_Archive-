@@ -1,0 +1,252 @@
+# 62 – Greatwood Dynamic Events & Ambient Encounters
+
+## Purpose
+
+Define a **library of dynamic events and ambient encounters** for Greatwood that:
+
+- Make the forest feel **alive and reactive**
+- Create memorable moments between structured content (quests, dungeons, hunts)
+- Tie into existing systems (Hunt Board, professions, ingredients, reputation)
+
+This is a design catalog + ruleset, not implementation.
+
+---
+
+## Design Goals
+
+1. **Low-friction, high-flavor**  
+   Encounters shouldn’t always require prep; they just *happen* as you roam.
+
+2. **Varied intensity**  
+   Mix:
+   - Tiny vignettes (no combat, just color)
+   - Small combat encounters
+   - Occasional bigger setpieces (but still lighter than full dungeons)
+
+3. **System hooks**  
+   Events should:
+   - Use ingredients (51, 55)
+   - Feed into Hunts/Deeds (61)
+   - Touch professions (forester, cook, woodworker, alchemy)
+
+4. **Replayable patterns**  
+   Events should be parametrized enough to rerun with variation.
+
+---
+
+## Event Categories
+
+1. **Ambient Life**
+2. **Help/Rescue**
+3. **Corruption & Weirdness**
+4. **Resource Surprises**
+5. **Travel Hazards**
+6. **Micro-Social Lodge Touches**
+
+---
+
+## 1. Ambient Life Events
+
+Small, mostly non-combat scenes that make the world feel alive.
+
+### Example: “Stag in the Mist”
+
+- Trigger:
+  - Early morning in forest clearings, light fog.
+- Behavior:
+  - A non-hostile stag appears, grazes, reacts to player distance/noise.
+- Outcomes:
+  - If approached slowly, player can observe and maybe:
+    - Gain a tiny tracking XP boost
+    - See “ideal shot” tutorial hint
+  - If spooked and killed:
+    - Normal loot, but breaks the quiet moment.
+
+### Example: “Flock Scatter”
+
+- Trigger:
+  - Near roads or clearings.
+- Behavior:
+  - A flock of forest birds scatters if startled; small, pretty event.
+- Outcomes:
+  - Potential small loot: dropped feathers
+  - Might foreshadow predator presence nearby (wolf spawns)
+
+---
+
+## 2. Help / Rescue Events
+
+Short scenarios where the player can choose to intervene.
+
+### Example: “Trapped Forester”
+
+- Trigger:
+  - Specific Greatwood subzones with logging/scouting presence.
+- Behavior:
+  - A Forester NPC is pinned under a log or caught in a trap.
+- Objectives:
+  - Free them (interaction or simple tool use)
+  - Optionally fend off a nearby hostile creature.
+- Outcomes:
+  - Small XP and coin
+  - Forester rep
+  - Chance to be pointed toward a Hunt Board contract or Forester quest (61, 59)
+
+### Example: “Lost Novice Hunter”
+
+- Trigger:
+  - Deeper into Greatwood, near dangerous areas.
+- Behavior:
+  - A nervous, under-geared hunter is off-track and scared.
+- Objectives:
+  - Escort them back to a safe route or camp
+- Outcomes:
+  - XP, small Lodge rep
+  - They might later appear at the Lodge with new dialogue
+
+---
+
+## 3. Corruption & Weirdness
+
+Events that show Greatwood’s darker side.
+
+### Example: “Roots that Bleed”
+
+- Trigger:
+  - Near subtle corruption pockets.
+- Behavior:
+  - Tree roots are visibly red-black, seeping strange fluid.
+- Objectives:
+  - Player can inspect, harvest a sample, or burn it.
+- Outcomes:
+  - Sample → minor alchemical ingredient (dangerous)
+  - Burn → small rep with Forester’s Circle (they appreciate containment)
+  - Ignoring it → no immediate effect, but corruption might spread later (foreshadowing)
+
+### Example: “Whispering Hollow”
+
+- Trigger:
+  - Night, near Hollowroot-adjacent areas.
+- Behavior:
+  - Faint whispers/voices heard around certain trees or stumps.
+- Objectives:
+  - Follow the whispers → leads to a minor corrupted creature encounter or a lore object.
+- Outcomes:
+  - XP, possible ingredient (55: `spec_ingr_hollowroot_resin` or `deep_glow_spores`)
+  - Lore snippets about past hunts or forest tragedies
+
+---
+
+## 4. Resource Surprises
+
+Positive little spikes for gatherers and profession players.
+
+### Example: “Rich Foraging Patch”
+
+- Trigger:
+  - For players with certain profession skills, chance to spot special nodes:
+    - Extra mushrooms, herbs, or rare plants.
+- Behavior:
+  - Small cluster of higher-yield resource nodes.
+- Outcomes:
+  - More ingredients in one spot
+  - Potential rare spawn if over-harvested (beast shows up angry)
+
+### Example: “Old Hunter’s Cache”
+
+- Trigger:
+  - Found in off-path locations, maybe marked by subtle signs.
+- Behavior:
+  - Hidden stash with:
+    - small bundle of crafted arrows
+    - dried meats
+    - maybe a low-tier recipe scroll
+- Outcomes:
+  - XP, items, flavor note from unknown hunter
+  - Potential link to Deeds or Hunt Board (61) older contracts
+
+---
+
+## 5. Travel Hazards
+
+Light risk while moving between POIs.
+
+### Example: “Fallen Tree Ambush”
+
+- Trigger:
+  - On certain paths after a storm.
+- Behavior:
+  - Tree blocks path; player chooses to go around or clear it.
+  - Clearing may trigger:
+    - Hostile creatures hiding behind/within it
+- Outcomes:
+  - XP, small resource gain (wood, mushrooms)
+  - Chance for a Hunt Board prompt to appear: “Report the blockage” → small rep.
+
+### Example: “Sudden Fog”
+
+- Trigger:
+  - Weather system or timed event.
+- Behavior:
+  - Thick fog rolls in, reducing visibility.
+- Outcomes:
+  - Optional:
+    - Temporarily increased chance of certain rare spawns
+    - Decreased range of vision for both player and enemies
+  - Hooks into night/fog hunts and tracking quests.
+
+---
+
+## 6. Micro-Social Lodge Touches
+
+Events that connect the world back to the Lodge.
+
+### Example: “Returning Caravan”
+
+- Trigger:
+  - Near roads leading to the Lodge.
+- Behavior:
+  - Small caravan of traders/hunters moving toward or away from Lodge.
+- Outcomes:
+  - Quick trade opportunity (limited wares)
+  - Chance to overhear rumors that hint at Hunts, Deeds, or Dungeons.
+
+### Example: “Lodge Messenger”
+
+- Trigger:
+  - Out in the field, low chance.
+- Behavior:
+  - A Lodge runner catches up to player with a message:
+    - New Hunt posted
+    - Deed available
+    - Festival or Lodge event starting soon
+- Outcomes:
+  - Directs player to Lodge / Hunt Board (dynamic hook)
+  - Makes the world feel organized and reactive
+
+---
+
+## System Rules & Hooks
+
+- Events are tagged with:
+  - **Biome** (forest, river, road, cliff, lodge-adjacent)
+  - **Time of Day** (day, night, dawn, dusk)
+  - **Weather** (clear, foggy, storm)
+  - **Player State** (on a hunt, not on a hunt, near objective, etc.)
+
+- Some events:
+  - Are more likely when player has certain profession skills or reputation.
+  - Can escalate into Deeds or feed into main questlines.
+
+---
+
+## Next Actions
+
+- Build a **catalog** of at least:
+  - 15–20 ambient events
+  - 5–10 help/rescue/resource events
+- Tag each event with:
+  - Specific locations / region zones
+  - Time/weather requirements
+  - Hook(s) into Hunts, Professions, or Dungeons
+- Draft example in-game text/snippets for 3–5 events (flavor, barks, notes).
