@@ -1,0 +1,291 @@
+# 85 – Ember Pot & Lodge Cooking Loop (Deep Design, Greatwood 1–20)
+
+## Purpose
+
+Define the **core Ember Pot system** and the broader **Lodge cooking loop**:
+
+- How daily/weekly Ember Pot contributions work
+- How personal vs communal cooking is split
+- How recipes, ingredients, and events tie together (52, 53, 55, 56, 64)
+- How this loop supports:
+  - Rest & recovery (70)
+  - Social identity and Lodge politics (64, 83)
+  - Long-term progression and professions (59)
+
+Goal: make the Ember Pot feel like the **beating heart of the Lodge** – mechanically and emotionally.
+
+---
+
+## Core Concept
+
+The Ember Pot is:
+
+- A **huge communal cauldron** maintained by the Keeper of the Ember and the kitchen staff.
+- Fed by:
+  - Hunts
+  - Foraging
+  - Fishing
+  - Player-crafted ingredients and dishes.
+- Outputs:
+  - Communal meals that:
+    - Provide buffs.
+    - Serve as milestones for Lodge health and mood.
+  - Narrative beats and festival moments.
+
+Player has **two parallel cooking experiences**:
+
+1. **Personal Cooking** – small meals, travel food, experimental recipes.
+2. **Ember Pot Contributions** – big communal stews and celebratory dishes.
+
+---
+
+## Ember Pot Daily/Session Loop
+
+### Basic Flow
+
+1. Player returns from the field with:
+   - Meat, fish, herbs, mushrooms, etc. (51, 55, 78).
+2. At the Ember Pot:
+   - They can:
+     - **Contribute ingredients**.
+     - **Turn in specific recipe requests** for the daily/week stew.
+3. Pot fills a **“Satisfaction Meter”** or “Hearty Ember” meter over time.
+
+When the Pot reaches certain thresholds:
+
+- The Lodge enters **“Well-Fed”** state for some duration:
+  - Mild buffs to all hunters in Greatwood.
+- At higher thresholds:
+  - Triggers **special meal events** (Ember Night Feast variants, 64).
+
+---
+
+## Pot Metrics & States
+
+### Ember Pot Meter
+
+- Abstract measure of:
+  - How well the Pot has been fed recently.
+- Segments:
+  - Empty → Barely Enough → Hearty → Abundant → Feast-Ready
+
+**Empty / Barely Enough:**
+
+- Lodge mood:
+  - Idle lines about lean times.
+- Buffs:
+  - No global food buff.
+- Keeper of the Ember:
+  - Will explicitly ask for contributions.
+
+**Hearty:**
+
+- Lodge mood:
+  - More relaxed lines.
+- Buffs:
+  - Small global buff, e.g.:
+    - +1–2% HP/stamina regen out of combat for all players.
+
+**Abundant:**
+
+- Lodge mood:
+  - Lively; some unique idle scenes unlocked.
+- Buffs:
+  - Slightly stronger global buff.
+- Unlocks:
+  - Potential for Feast triggers (if other conditions met).
+
+**Feast-Ready (Threshold Reached):**
+
+- Allows triggering:
+  - Ember Night Feast or similar event (64).
+- Post-feast:
+  - Ember Pot meter partially resets.
+
+---
+
+## Player Contributions
+
+### Ingredient Contribution
+
+Players can:
+
+- Toss in:
+  - Raw meat, fish, mushrooms, herbs.
+- System:
+  - Each ingredient type has:
+    - A base “Heartiness” value.
+    - Possible **tags** (meaty, hearty, spicy, bitter, etc.)
+
+Contributions:
+
+- Increase Pot meter.
+- May shift **flavor profile** of the stew (for story/UI flavor only in 1–20).
+
+Keeper of the Ember may comment on:
+
+- Overuse of certain ingredients:
+  - “If you keep bringing only boar, we’re going to get sick of it.”
+
+### Recipe-Based Contributions
+
+Advanced system where player:
+
+- Fulfills **specific Ember Pot recipes** requested by Keeper:
+
+  - e.g., “Hollowroot Deep Stew,” “Storm-Caught Fish Chowder.”
+
+These:
+
+- Require:
+  - Specific ingredients, sometimes from Deeds/Hunts.
+- Provide:
+  - Big Pot Meter jumps.
+  - Special buffs & story beats.
+
+---
+
+## Personal Cooking vs Ember Pot
+
+### Personal Cooking
+
+- Done at:
+  - Ember Kitchen private stations.
+  - Camps (77) with simple pots/pans.
+- Produces:
+  - Individual dishes and travel rations.
+- Buffs:
+  - Direct personal buffs (HP, stamina, perception, etc.)
+
+### Ember Pot Cooking
+
+- Communal.
+- Produces:
+  - Global or Lodge-wide buffs.
+  - Narrative states and events.
+- Often requires:
+  - Team effort / repeated contributions over time.
+
+---
+
+## Buff Philosophy
+
+### Personal Food Buffs
+
+- Shorter duration (e.g. 20–45 minutes).
+- More targeted:
+  - “Hunter’s Stew”: HP + stamina regen.
+  - “Sharp-Eye Broth”: Perception & crit.
+
+### Ember Pot Buffs
+
+- Longer, mild Lodge-wide effects:
+  - e.g. 60–90 mins of:
+    - Slight stamina regen out of combat.
+    - Slight discount on certain Lodge services (Quartermaster).
+- Feast-level effects:
+  - During/after a major event:
+    - Stronger buffs for a shorter window (e.g., big hunt preparation).
+
+Buff stacking rules:
+
+- Personal food can stack with Ember Pot buff **within reason**:
+  - Keep numbers moderate so stacking doesn’t break tuning.
+
+---
+
+## Social & Political Hooks (64, 83)
+
+- Ember Pot status visible in:
+  - UI at Lodge.
+  - NPC chatter:
+    - “Pot’s looking thin.” vs “Pot’s overflowing today.”
+- Council:
+  - Occasionally calls for:
+    - “Contribute to the Pot before we attempt X hunt.”
+- Quests:
+  - Some story beats revolve around:
+    - Pot being poisoned, corrupted, or sabotaged (future arcs).
+    - Pot being used as stage for reconciliation or celebration.
+
+---
+
+## Events: Special Ember Pot Moments
+
+### Ember Night Feast
+
+- Trigger conditions:
+  - Ember Pot meter >= Feast threshold.
+  - Certain story flags set.
+  - Possibly time-of-day or in-world schedule.
+
+- Effects:
+  - Visual:
+    - Lodge decorated, tables set.
+  - Gameplay:
+    - Unique feast buffs.
+    - Special vendors or recipes for duration.
+  - Social:
+    - NPC scenes, songs, stories (64).
+
+### “Ash in the Pot” (Questline 56)
+
+- Narratively:
+  - Exploring what happens when:
+    - Ash-touched ingredients or corrupted elements enter the food system.
+- Ember Pot scenes:
+  - Keeper of the Ember tests dangerous new recipes, under tension from other council members.
+
+---
+
+## UI & Feedback
+
+- Ember Pot station UI:
+
+  - Panel shows:
+    - Current Pot state (Empty–Feast-Ready).
+    - Recently added ingredient summary.
+    - Optional “Flavor Profile” just for flavor text.
+
+- Contribution UI:
+
+  - Player can:
+    - Drag/drop ingredients into Pot.
+    - See small meter increments.
+  - Keeper of the Ember:
+    - Provides comments based on patterns of contributions.
+
+---
+
+## Integration
+
+- **Cooking & Recipes (52, 53, 55, 56):**
+  - Ember Pot recipes use:
+    - Specialty ingredients and quest-reward patterns.
+- **Professions & Rep (59):**
+  - Cook path:
+    - Gains special Ember Pot-related perks, like:
+      - More efficient contributions.
+      - Unlocking special Pot-only recipes.
+- **Talents & Path of the Lodge (82):**
+  - Certain perks:
+    - Could improve Pot contributions or personal synergy with Pot buffs.
+- **Lodge Economy (84):**
+  - Times of scarce ingredients:
+    - Increase ingredient prices.
+  - Times of abundance:
+    - More accessible Lodge buffs.
+
+---
+
+## Next Actions
+
+- Define:
+  - Ember Pot meter thresholds and exact buff tiers.
+- Create:
+  - 3–5 Ember Pot-specific recipes for Greatwood 1–20.
+- Write:
+  - Short Keeper of the Ember dialogue sets for:
+    - Starvation state.
+    - Comfortable state.
+    - Feast state.
