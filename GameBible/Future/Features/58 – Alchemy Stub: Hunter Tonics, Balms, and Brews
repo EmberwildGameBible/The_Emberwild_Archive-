@@ -1,0 +1,257 @@
+# 58 – Alchemy Stub: Hunter Tonics, Balms, and Brews
+
+## Purpose
+
+Lay out a **first-wave Alchemy concept** focused on hunters in Greatwood:
+
+- Simple **tonics**, **balms**, and **brews** that complement Cooking
+- Use the same ingredient taxonomy (51) where possible
+- Live comfortably next to food buffs (not replace them)
+
+This is a **stub/spec** to guide future Alchemy work, not a full system implementation.
+
+---
+
+## Design Goals
+
+1. **Differentiate from Cooking**  
+   - Cooking = more about **sustained buffs** and identity (meals, feasts)
+   - Alchemy = more about **targeted, sharper effects** (shorter duration, more specific)
+
+2. **Keep it hunter-themed**  
+   Tonics and balms should help with:
+   - Wounds
+   - Stamina/fatigue
+   - Tracking and perception
+   - Resistances (corruption, poison, cold, fire)
+
+3. **Low complexity at start**  
+   Start with a handful (10–15) of recipes that are easy to understand and use.
+
+4. **Room to scale**  
+   Leave space for higher-tier, weirder stuff later (venoms, heavy poisons, transformation brews, etc.).
+
+---
+
+## Alchemy Item Types
+
+### 1. Tonics
+
+Drinkable liquids with **short-to-medium duration buffs**.
+
+Examples:
+
+- Stamina tonics
+- Focus / perception tonics
+- Resistance tonics (cold, fire, corruption)
+
+### 2. Balms
+
+Applied to skin or gear; usually **defensive or restorative**.
+
+Examples:
+
+- Wound balms
+- Anti-venom salves
+- Frostbite protection ointments
+
+### 3. Brews
+
+“Experimental” concoctions; can be stronger with **side effects**.
+
+Examples:
+
+- Berserker brew
+- Night sight brew
+- “Heartsteel” brew (defensive, heavy drawback)
+
+---
+
+## Core Recipe Structure
+
+Each alchemical recipe:
+
+- **ID:** `alchemy_<type>_<theme>`
+- **Display Name**
+- **Type:** tonic / balm / brew
+- **Required Alchemy Skill:** (rough early range: 1–10)
+- **Ingredients:** using IDs from 51 where possible
+- **Effect:** mechanical summary
+- **Duration / Uses**
+- **Source:** vendor / quest / drop
+- **Side Effects (if any)**
+
+---
+
+## Prototype Recipe List (Greatwood 1–20)
+
+### Tonics
+
+1. **Hunter’s Stamina Tonic**
+   - ID: `alchemy_tonic_hunter_stamina`
+   - Type: tonic
+   - Ingredients:
+     - `bitterpine_needle` x1
+     - `herb_bundle_basic` x1
+   - Effect:
+     - +10% stamina regen for 10–15 min
+   - Side Effect:
+     - None at basic tier
+   - Source:
+     - Basic Alchemy trainer or Lodge vendor
+   - Notes:
+     - Pair with early hunts and travel.
+
+2. **Keen Eye Draught**
+   - ID: `alchemy_tonic_keen_eye`
+   - Type: tonic
+   - Ingredients:
+     - `whisperfern` x1
+     - `glowcap` x1
+   - Effect:
+     - Better tracking/perception (e.g. extends detection radius for tracks, highlights clues)
+     - Duration: 10 min
+   - Side Effect:
+     - Slight brightness/contrast shift
+   - Source:
+     - Reward from tracking quest chain (23)
+
+3. **Emberfire Resistance Tonic**
+   - ID: `alchemy_tonic_ember_resist`
+   - Type: tonic
+   - Ingredients:
+     - `ashcurl` x1
+     - `ember_pepper` x1
+   - Effect:
+     - Moderate Fire resistance for 10–15 min
+   - Side Effect:
+     - Slight tick of HP loss if abused / stacked too much (later)
+   - Source:
+     - Tied to wildfire event or Ash-related side quests
+
+---
+
+### Balms
+
+4. **Simple Wound Balm**
+   - ID: `alchemy_balm_simple_wound`
+   - Type: balm
+   - Ingredients:
+     - `herb_bundle_basic` x1
+     - `mossy_tongue` or equivalent herb x1
+   - Effect:
+     - Minor instant heal + slow regen over short period
+   - Side Effect:
+     - None
+   - Source:
+     - Very early: basic Alchemy or Lodge medic
+
+5. **Anti-Venom Salve**
+   - ID: `alchemy_balm_antivenom`
+   - Type: balm
+   - Ingredients:
+     - `bitterpine_needle` x1
+     - `glowcap` x1
+   - Effect:
+     - Clears weak poison effects; grants short-term poison resistance
+   - Side Effect:
+     - Slight movement speed reduction for a short time (nausea)
+   - Source:
+     - Found in a lodge medic kit / venom-focused quest
+
+6. **Frostbite Guard Ointment**
+   - ID: `alchemy_balm_frost_guard`
+   - Type: balm
+   - Ingredients:
+     - `emberleaf` x1
+     - `lodge_salt_mix` x1
+   - Effect:
+     - Cold resistance for a decent duration
+   - Side Effect:
+     - None for early-game version
+   - Source:
+     - Future hook for colder regions but can appear as a “preview” in Greatwood
+
+---
+
+### Brews (Risk/Reward)
+
+7. **Berserker’s Draft**
+   - ID: `alchemy_brew_berserker`
+   - Type: brew
+   - Ingredients:
+     - `red_vein_morel` x1
+     - `ember_pepper` x1
+   - Effect:
+     - +20% damage for 5–8 min
+   - Side Effect:
+     - -10% max HP while active
+     - Slight visual shake/heavy breathing audio
+   - Source:
+     - Rare recipe tied to dangerous Greatwood elite or side event
+   - Notes:
+     - Parallels Red Vein Hunter’s Brew from Cooking (53) but shorter, sharper.
+
+8. **Night-Sight Brew**
+   - ID: `alchemy_brew_night_sight`
+   - Type: brew
+   - Ingredients:
+     - `glowcap` x1
+     - `deep_glow_spores` x1 (55)
+   - Effect:
+     - Strong night/dark vision
+     - Duration: 10–12 min
+   - Side Effect:
+     - Color distortion / oversaturation
+   - Source:
+     - Cavern / Hollowroot dungeon reward
+
+9. **Heartsteel Draught**
+   - ID: `alchemy_brew_heartsteel`
+   - Type: brew
+   - Ingredients:
+     - `spec_ingr_elder_stag_marrow` or `corrupted_heart_tissue` (variant versions)
+   - Effect:
+     - High damage reduction or fear resistance
+   - Side Effect:
+     - Movement speed penalty while active
+     - Heavy visual “weight” (narrowed FOV)
+   - Source:
+     - End of specific high-level Greatwood quest or boss line
+   - Notes:
+     - Might be more of a late 10–20 or beyond concept; stubbed here for future use.
+
+---
+
+## System Hooks
+
+- Alchemy should use:
+  - **Stations:** small alchemy tables in Lodge, outposts, and eventually player camps
+  - **Skill track:** Alchemy 1–10 stub, extensible later
+- Recipes learned via:
+  - Trainers
+  - Quest rewards
+  - Recipe drops in relevant dungeons/events
+
+---
+
+## Relationship to Cooking
+
+- Cooking:
+  - Longer duration buffs
+  - Fits “meal before the hunt” and social identity
+- Alchemy:
+  - Shorter-term, punchy effects
+  - “Emergency tools” and targeted boosts
+
+A player should feel rewarded for **having both**, not forced to choose one.
+
+---
+
+## Next Actions
+
+- Finalize the early recipe list and map them to specific ingredients (51, 55).
+- Decide where Alchemy stations exist in Greatwood.
+- Integrate early Alchemy training into:
+  - Lodge medic / specialist NPCs
+  - Dungeon/world questlines
