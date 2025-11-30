@@ -1,0 +1,249 @@
+# 63 – Greatwood World Map, Sub-Regions, and Points of Interest
+
+## Purpose
+
+Define the **macro layout** of Greatwood:
+
+- Core sub-regions (biomes / “zones within the zone”)
+- Major and minor Points of Interest (POIs)
+- How exploration ties into Hunts, Professions, Ingredients, and Events
+
+This is a **high-level spatial design** for Greatwood 1–20, not a final navmesh or level blueprints.
+
+---
+
+## High-Level Structure
+
+Greatwood should feel like one **continuous forest region** with distinct “flavors”:
+
+- **Lodge & Immediate Surroundings** – safe-ish hub, training and early content
+- **Hunting Grounds** – classic forest with animals and low-level threats
+- **Rivers & Wetlands** – water, fish, herbs, foggy encounters
+- **Hollowroot Edge** – transitional zone toward corruption/dungeon content
+- **Burn-Scars / Wildfire Glades** – ash, char, dangerous events
+- **Cliff/Ridge Lines** – verticality, vantage points, more dangerous beasts
+
+Each has:
+
+- Primary **enemy families**
+- Primary **resource types**
+- Key **POIs** and **event hooks**
+
+---
+
+## Sub-Regions (Biome Pass)
+
+### 1. Lodge Heart & Training Grounds
+
+**Description:**  
+The immediate area around the Lodge; controlled, patrolled, slightly safer.
+
+**Key Features:**
+
+- The Lodge itself (main hub)
+- Training yard, archery range, profession wings
+- Short trails leading to basic hunting spots
+
+**Content Hooks:**
+
+- Early Cooking quests (52, 56)
+- Profession intros (Forester, Cook, Woodworker)
+- Hunt Board (61) first access
+
+---
+
+### 2. Lower Hunting Grounds
+
+**Description:**  
+Classic forest terrain: mixed trees, gentle slopes, frequent wildlife.
+
+**Key Enemy Families:**
+
+- Deer, boar, forest fowl
+- Wolves, small predators
+
+**Resources:**
+
+- Common meats, herbs (`bitterpine_needle`, `herb_bundle_basic`)
+- Basic mushrooms (`glowcap` in darker pockets)
+
+**Events/Encounters:**
+
+- Ambient life scenes (62)
+- Early hunts (culling, basic track-and-kill)
+- Old hunter’s caches
+
+---
+
+### 3. River Trails & Wetlands
+
+**Description:**  
+Rivers, streams, small waterfalls; soggy patches, reeds, mist.
+
+**Key Enemy Families:**
+
+- River beasts (otter-like predators, large fish if implemented)
+- Amphibious or wetland monsters
+- Occasional bandits or poachers
+
+**Resources:**
+
+- Fish ingredients (future use)
+- Wetland herbs
+- Water-related alchemy materials
+
+**Events/POIs:**
+
+- Fishing spots
+- “Storm-Caught River Fish” specialty event (55)
+- Bridges, fords, small broken ferries
+- Hunt Board contracts for river predators
+
+---
+
+### 4. Hollowroot Edge
+
+**Description:**  
+Transition zone into deeper, darker Greatwood and the Hollowroot Warren dungeon.
+
+**Key Enemy Families:**
+
+- Corrupted beasts
+- Hollowroot-touched creatures
+- More dangerous variants of basic enemies
+
+**Resources:**
+
+- `hollowroot_sprig`, `hollowroot_resin`
+- Darker mushrooms (`ashcurl`, deep-variant mushrooms)
+- Corruption-related alchemy bits (58)
+
+**Events/POIs:**
+
+- “Whispering Hollow” events (62)
+- Entrance(s) to Hollowroot Warren
+- Forester and Hunt Board Deeds related to corruption
+
+---
+
+### 5. Burn-Scars & Wildfire Glades
+
+**Description:**  
+Sections of forest hit by past or recent wildfires; charred trees, ash, regrowth.
+
+**Key Enemy Families:**
+
+- Ash-touched beasts
+- Fire-themed variants
+- Opportunistic predators feeding on disruption
+
+**Resources:**
+
+- `ashcurl`, `wildfire_charcoal_husk` (55)
+- Fire-aligned alchemy components (58)
+
+**Events/POIs:**
+
+- Wildfire events (dynamic)
+- “Ash in the Pot” quest beats (56)
+- Ember-related hunts (Deeds about fire-hunting beasts)
+
+---
+
+### 6. Clifftops & Overlooks
+
+**Description:**  
+Ridges and cliff edges overlooking the forest; more exposed, wind-swept.
+
+**Key Enemy Families:**
+
+- Birds of prey / flying predators (if implemented)
+- Cliff-dwelling beasts
+- Occasional human threats (bandits, rival hunters)
+
+**Resources:**
+
+- Rare herbs that like altitude
+- Special woods with wind-twisted grain
+
+**Events/POIs:**
+
+- Vantage points with views of Greatwood and distant regions
+- Hunter lookout towers
+- Ritual altars used for combo hunts (57, 61)
+
+---
+
+## Points of Interest Types
+
+### Major POIs
+
+- **The Lodge**
+- **Hollowroot Warren Entrance**
+- **Main River Crossings**
+- **Major Burn-Scar Glade**
+- **Key Clifftop Overlook / Shrine**
+
+Major POIs should have:
+
+- Map markers (once discovered)
+- Quest hubs or strong hooks
+- Event possibilities (festivals, big hunts, major story beats)
+
+### Minor POIs
+
+- Campsites / abandoned camps
+- Hunter hides and blinds
+- Small groves, clearings, rock formations
+- Mini-caves, dens, old stumps, shrines
+
+Minor POIs anchor:
+
+- Dynamic events (62)
+- Small chests/caches
+- Ingredient-rich patches
+
+---
+
+## Map Discovery & Progression
+
+- Player starts with **Lodge + immediate area** revealed.
+- Other sub-regions & POIs discovered by:
+  - Exploration
+  - Quests & Deeds
+  - Following rumors and directions from NPCs
+
+Possible systems:
+
+- **Soft fog-of-war:** map reveals as player explores.
+- **Named regions:** once discovered, region names appear on map.
+- **Signposts & markers:** Forester-style signs that provide hints.
+
+---
+
+## Integration with Systems
+
+- **Hunt Board (61):**
+  - Hunts reference specific sub-regions.
+  - Deeds send players to specific major/minor POIs.
+
+- **Professions (Forester, Cook, Woodworker, Alchemy):**
+  - Each sub-region has “signature” ingredients and materials.
+  - Foresters and Woodworkers get better tools for navigating or exploiting certain areas.
+
+- **Events (62):**
+  - Each sub-region has its own event mix:
+    - Misty stag in lowlands
+    - Wildfire echoes in burn-scar
+    - Whispers near Hollowroot
+
+---
+
+## Next Actions
+
+- Draw a **rough paper map** of Greatwood:
+  - Place Lodge, sub-regions, and 5–10 strong POIs.
+- For each sub-region:
+  - List concrete POIs (name + short description).
+  - Tag events, hunts, and profession hooks tied to each.
+- Decide which POIs are visible from the start and which must be discovered.
