@@ -1,0 +1,246 @@
+# 53 – Advanced Cooking 10–20: Signature Lodge Dishes
+
+## Purpose
+
+Define a set of **higher-tier Cooking recipes** (skill 10–20) that feel like true Lodge “signature dishes.” These should:
+
+- Use **rarer ingredients** from the Greatwood taxonomy (51)
+- Build on patterns taught in the early recipe grid (52)
+- Provide **meaningful, themed buffs** for hunters doing serious content (elites, dungeons, night hunts)
+- Feel **memorable and flavorful**, not just “+X% generic buff”
+
+This doc is for design. Numbers can be tuned later.
+
+---
+
+## Design Principles
+
+1. **Identity first, numbers second**  
+   These are iconic meals. Names, lore, and sources should stick in the player’s brain.
+
+2. **Rarer ingredients, rarer buffs**  
+   Use Uncommon/Rare/Exotic items (Elder Stag meat, Whisperfern, Hollowroot, Ashcurl, Red Vein, specialty spices).
+
+3. **Multi-step feeling**  
+   Some recipes can *feel* like multi-step (marinating, smoking) even if technically you just gather the ingredients.
+
+4. **Synergy with hunting and professions**  
+   Tie recipes to:
+   - Lodge hunts and bosses
+   - Woodworking / Forester / future Alchemy
+   - Night-only or weather-based hunts
+
+---
+
+## Recipe Structure
+
+Same format as 52, but with stronger emphasis on:
+
+- Rarity of ingredients
+- Unlock/source (quest chains, reputation ranks, bosses)
+- Unique “hook” per dish
+
+Each entry:
+
+- **ID:** `recipe_...`
+- **Display Name**
+- **Tier:** Advanced 1–5 (internal)
+- **Required Cooking Skill:** 10–20
+- **Ingredients:** IDs from taxonomy
+- **Effect:** mechanical summary
+- **Duration:** in-game minutes
+- **Source:** quest, rep, dungeon, rare drop
+- **Flavor Text**
+
+---
+
+## Signature Lodge Dish Concepts
+
+### 1. Emberwild Hunter’s Banquet
+
+- ID: `recipe_emberwild_hunters_banquet`
+- Tier: Advanced 1
+- Required Skill: 10
+- Ingredients:
+  - `deer_meat_raw` x1
+  - `boar_meat_raw` x1
+  - `forest_fowl_raw` x1
+  - `ember_pepper` x1
+  - `herb_bundle_basic` x1
+  - optional: `lodge_salt_mix` x1
+- Effect:
+  - +8% max HP
+  - +8% stamina regen
+  - +3% physical damage
+  - Duration: 30–40 min
+- Source:
+  - Lodge reputation reward (mid-rank)
+- Flavor:
+  - “The feast that marks a hunter’s first real season in the wilds.”
+
+Notes: This is the “bigger brother” of the Tier 3 Hunter’s Feast from 52.
+
+---
+
+### 2. Elder Stag Marrow Roast
+
+- ID: `recipe_elder_stag_marrow_roast`
+- Tier: Advanced 2
+- Required Skill: 12–14
+- Ingredients:
+  - `elder_stag_meat` x1
+  - `stag_antler_sliver` x1 (ground in)
+  - `bitterpine_needle` x1
+  - `smoked_bark_shavings` x1
+- Effect:
+  - +10% max HP
+  - Minor bleed resistance
+  - Slight increase to tracking radius / perception
+  - Duration: 30 min
+- Source:
+  - Reward for killing the Elder Hollow Stag world boss the first time
+  - Or rare recipe drop from its loot table
+- Flavor:
+  - “You don’t serve this unless the fire is high and the story worth telling.”
+
+Notes: Feels like the iconic “you beat the stag” reward recipe.
+
+---
+
+### 3. Hollowroot Deep Stew
+
+- ID: `recipe_hollowroot_deep_stew`
+- Tier: Advanced 2
+- Required Skill: 13–15
+- Ingredients:
+  - `deer_meat_raw` x1
+  - `hollowroot_sprig` x2
+  - `glowcap` x1
+  - `lodge_salt_mix` x1
+- Effect:
+  - Buff to dungeon survival:
+    - +5% all resistances
+    - Slightly reduced stamina cost on dodges/sprints
+    - Improved visibility in dark interiors
+  - Duration: 25–30 min
+- Source:
+  - Hollowroot Warren dungeon quest line
+- Flavor:
+  - “Thick, root-heavy, and meant for long stretches underground.”
+
+---
+
+### 4. Ash-Touched Ember Chowder
+
+- ID: `recipe_ash_touched_ember_chowder`
+- Tier: Advanced 3
+- Required Skill: 14–16
+- Ingredients:
+  - `ashcurl` x1
+  - `stringy_game_meat` x1 (or `ashen_beast_cut` for stronger version)
+  - `ember_pepper` x1
+  - `root_vegetable_mix` x1
+- Effect:
+  - +10–15% Fire resistance
+  - Small buff to Fire damage dealt (if applicable)
+  - Mild penalty: slightly slower stamina regen (“heavy meal”)
+  - Duration: 30 min
+- Source:
+  - Reward from wildfire-related world event or quest
+- Flavor:
+  - “It tastes like smoke and danger. Hunters swear by it before walking into the burned parts of the woods.”
+
+---
+
+### 5. Whisperfern Night Feast
+
+- ID: `recipe_whisperfern_night_feast`
+- Tier: Advanced 3
+- Required Skill: 15–17
+- Ingredients:
+  - `whisperfern` x1
+  - `forest_fowl_raw` x1
+  - `glowcap` x1
+  - `herb_bundle_basic` x1
+- Effect:
+  - Stronger night vision
+  - Noticeably reduced noise when moving
+  - Slight increase to crit chance against unaware enemies
+  - Duration: 20–25 min
+- Source:
+  - Reward from a Lodge “Night Hunt” quest chain
+- Flavor:
+  - “Good hunters hunt by day. Great hunters hunt when others are afraid to see.”
+
+---
+
+### 6. Red Vein Hunter’s Brew
+
+Hybrid dish/drink with clear risk/reward.
+
+- ID: `recipe_red_vein_hunters_brew`
+- Tier: Advanced 4
+- Required Skill: 16–18
+- Ingredients:
+  - `red_vein_morel` x1
+  - `bitterpine_needle` x1
+  - `lodge_salt_mix` x1
+  - `herb_bundle_basic` x1
+- Effect:
+  - +15% damage for 10–15 min
+  - -10% max HP while active
+  - Slight visual distortion / tunnel vision (for feel)
+- Source:
+  - Rare recipe page associated with a specific dangerous elite
+- Flavor:
+  - “Hunters who drink this learn fast what they’re made of.”
+
+---
+
+### 7. Ember Pot “Full Lodge” Stew
+
+This is the elevated version of the Ember Pot storyline (ties to 56).
+
+- ID: `recipe_ember_pot_full_lodge`
+- Tier: Advanced 5
+- Required Skill: 18–20
+- Ingredients:
+  - Multiple meats (2–3 different)
+  - 2 distinct herbs from the taxonomy
+  - 1 rare mushroom
+  - 1 spice (Ember Pepper or unique Ember Pot blend)
+- Effect:
+  - Strong all-around buff:
+    - +10% max HP
+    - +10% stamina regen
+    - Small buffs to resistances and damage
+  - Duration: 40+ min
+- Source:
+  - Final reward from the “Ember Pot Never Empties” questline (56)
+- Flavor:
+  - “The stew that never runs dry, as long as hunters keep coming home.”
+
+---
+
+## Integration Notes
+
+- These recipes should not be available to a fresh player. They’re tied to:
+  - Boss kills
+  - Dungeon runs
+  - Reputation ranks
+  - Quest arcs
+
+- They should **not** completely outclass alchemy or future professions; they live alongside them.
+
+---
+
+## Next Actions
+
+- Expand each concept into full entries with exact ingredients and numbers once balance is clearer.
+- Decide which recipes are:
+  - Bound to the player (recipe learned permanently)
+  - Craftable only at specific stations (Ember Pot, Lodge kitchen)
+- Hook recipes into:
+  - Lodge reputation thresholds
+  - Specific quest rewards
+  - Dungeon/world boss loot tables
