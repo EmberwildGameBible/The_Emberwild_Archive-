@@ -1,0 +1,231 @@
+# 54 – Profession Tools & Gear Sets: Forester, Cook, Woodworker
+
+## Purpose
+
+Give each early Lodge profession (Forester, Cook, Woodworker) a **visible, physical identity** through tools, gear, and trinkets that:
+
+- Slightly boost profession performance
+- Make the character LOOK like what they do
+- Provide a foundation for future profession gear tiers
+
+This is a design spec for **item concepts and progression**, not implementation code.
+
+---
+
+## Design Goals
+
+1. **Instant readability**  
+   You should be able to glance at someone and say “that’s a Cook” or “that’s a Forester.”
+
+2. **Small, meaningful bonuses**  
+   Slight bonuses to gathering, crafting success, rare proc chance, etc.  
+   Nothing so strong that it becomes mandatory to min-max.
+
+3. **Progression hooks**  
+   At least 2–3 tiers per profession to support 1–20 content now and higher tiers later.
+
+4. **Tie-in with Lodge and quests**  
+   Some tools/gear should be unlocked via Lodge rep, profession questlines, or story beats.
+
+---
+
+## Item Structure
+
+Each item entry:
+
+- **ID:** `item_prof_<profession>_<type>_<tier>`
+- **Display Name**
+- **Profession:** Forester / Cook / Woodworker
+- **Slot:** tool / hands / head / body / belt / trinket
+- **Tier:** 1–3 (early series)
+- **Effect:** small, clear benefit for that profession
+- **Source:** vendor, quest, drop, rep unlock
+- **Flavor Text**
+
+---
+
+## Forester Gear Set
+
+### Core Fantasy
+
+- Tree-marker, pathfinder, forest worker
+- Axes, measuring tools, satchels, rugged clothes
+
+### Tier 1 – Beginner Forester
+
+1. **Lodge-Issued Woodcutting Axe**
+   - ID: `item_prof_forester_axe_t1`
+   - Slot: tool (primary)
+   - Effect: +5% wood gathering yield from basic trees
+   - Source: Starter Forester quest / introduction
+   - Flavor: “Blunt, heavy, and stamped with the Lodge sigil.”
+
+2. **Forester’s Simple Satchel**
+   - ID: `item_prof_forester_satchel_t1`
+   - Slot: belt / trinket
+   - Effect: Slightly increased carrying capacity for wood/plant materials
+   - Source: Basic profession vendor
+   - Flavor: “Smells like sap and crushed needles.”
+
+### Tier 2 – Working Forester
+
+3. **Tempered Greatwood Axe**
+   - ID: `item_prof_forester_axe_t2`
+   - Slot: tool
+   - Effect:
+     - +10% chance to get an extra log from intermediate trees
+     - Faster chop action (cosmetic or minor mechanical)
+   - Source: Crafted or earned via early Forester rep
+   - Flavor: “Balanced, sharpened on Lodge stone, made for real work.”
+
+4. **Forester’s Bark-Lined Vest**
+   - ID: `item_prof_forester_vest_t2`
+   - Slot: chest
+   - Effect: Slight damage reduction from environmental hazards (falling branches, thorns)
+   - Source: Crafting recipe from a woodworker + Forester collab
+   - Flavor: “Lined with treated bark, heavy but comforting.”
+
+### Tier 3 – Senior Forester
+
+5. **Master’s Marking Hatchet**
+   - ID: `item_prof_forester_hatchet_t3`
+   - Slot: tool
+   - Effect:
+     - Higher chance at rare wood drops from special trees
+     - Small passive bonus to perception when in forests
+   - Source: Forester profession questline capstone
+   - Flavor: “Used more to mark the right tree than to cut it down.”
+
+---
+
+## Cook Gear Set
+
+### Core Fantasy
+
+- Lodge cook, field chef, campfire guru
+- Knives, pans, aprons, spice belts
+
+### Tier 1 – Kitchen Apprentice
+
+1. **Lodge Cooking Knife**
+   - ID: `item_prof_cook_knife_t1`
+   - Slot: tool
+   - Effect: Slightly reduces ingredient loss when cooking (less “burn/fail”)
+   - Source: Cooking intro quest
+   - Flavor: “A little dull, but you’ll learn on this one.”
+
+2. **Basic Ember Apron**
+   - ID: `item_prof_cook_apron_t1`
+   - Slot: chest
+   - Effect: Cosmetic + tiny buff to cooking speed (animation / craft time)
+   - Source: Vendor
+
+### Tier 2 – Lodge Cook
+
+3. **Seasoned Chef’s Knife**
+   - ID: `item_prof_cook_knife_t2`
+   - Slot: tool
+   - Effect:
+     - Reduced chance of creating low-quality food
+     - Slight bonus to creating “Improved” results on existing recipes
+   - Source: “Ember Pot” questline midpoint or Cooking rep reward
+   - Flavor: “The edge tells you where you messed up.”
+
+4. **Spice-Band Utility Belt**
+   - ID: `item_prof_cook_spice_belt_t2`
+   - Slot: belt
+   - Effect:
+     - Small buff to duration of any food buffs cooked while wearing it
+   - Source: Recipe or reward from a rare ingredient delivery quest
+
+### Tier 3 – Lodge Master Cook
+
+5. **Emberwild Master’s Ladle**
+   - ID: `item_prof_cook_ladle_t3`
+   - Slot: tool
+   - Effect:
+     - Increased chance to produce “Superior” versions of certain signature dishes
+     - Potential cosmetic effect on the Ember Pot stew
+   - Source: Final step of “Ember Pot Never Empties” questline
+   - Flavor: “If they hand you this, you’re family.”
+
+6. **Fireproof Ember Apron**
+   - ID: `item_prof_cook_apron_t3`
+   - Slot: chest
+   - Effect:
+     - Minor Fire resistance (for both vibe and utility)
+     - Slightly larger boost to food buff duration
+   - Source: Crafting recipe from rare materials
+
+---
+
+## Woodworker Gear Set
+
+### Core Fantasy
+
+- Craftsman, bow-maker, furniture/building components
+- Hammers, chisels, tool rolls, sturdy clothes
+
+### Tier 1 – Starter Woodworker
+
+1. **Lodge Carving Tools**
+   - ID: `item_prof_woodworker_tools_t1`
+   - Slot: tool
+   - Effect: Reduces chance of failed woodcrafts at low skill
+   - Source: Woodworking intro quest
+
+2. **Woodworker’s Utility Wrap**
+   - ID: `item_prof_woodworker_wrap_t1`
+   - Slot: belt / trinket
+   - Effect: Small bonus to crafting speed for simple wood items
+
+### Tier 2 – Working Woodwright
+
+3. **Tempered Chisel and Mallet**
+   - ID: `item_prof_woodworker_tools_t2`
+   - Slot: tool
+   - Effect:
+     - Increased chance to craft higher-quality bows/handles/stocks
+   - Source: Reputation or mid-profession questline
+
+4. **Sawdust-Stained Overcoat**
+   - ID: `item_prof_woodworker_coat_t2`
+   - Slot: chest
+   - Effect:
+     - Small passive buff to physical resistance while in towns/workshops
+     - Purely thematic but gives some gameplay nod
+
+### Tier 3 – Master Woodwright
+
+5. **Master’s Engraving Kit**
+   - ID: `item_prof_woodworker_tools_t3`
+   - Slot: tool
+   - Effect:
+     - Chance to add minor cosmetic variations to crafted wood gear
+     - Small extra value/resale value bonus
+   - Source: High-tier Woodworker questline
+
+6. **Greatwood Craftsman’s Cloak**
+   - ID: `item_prof_woodworker_cloak_t3`
+   - Slot: back
+   - Effect:
+     - Slight bonus when interacting with certain woodworking-related world props
+   - Source: Special reward tied to a landmark or Lodge building project
+
+---
+
+## Integration
+
+- These items drop into:
+  - Vendor inventories (basic tiers)
+  - Profession questlines
+  - Lodge reputation ranks
+- Later tiers (beyond 20) can extend these sets rather than starting over.
+
+---
+
+## Next Actions
+
+- Decide exact unlock thresholds (skill levels, rep ranks) for each tier.
+- Align item visuals with existing armor/clothing style guides.
+- Hook effects into actual profession systems once they’re implemented.
