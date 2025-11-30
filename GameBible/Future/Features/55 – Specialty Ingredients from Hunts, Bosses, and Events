@@ -1,0 +1,211 @@
+# 55 – Specialty Ingredients from Hunts, Bosses, and Events
+
+## Purpose
+
+Create a set of **specialty ingredients** that only drop from specific hunts, bosses, and world events in Greatwood. These ingredients:
+
+- Make big encounters feel economically meaningful
+- Feed into advanced Cooking (52, 53) and future Alchemy (58)
+- Help differentiate “normal hunting” from “serious hunts / dungeons / events”
+
+This is a design list + ruleset, not implementation code.
+
+---
+
+## Design Goals
+
+1. **Memorable sources**  
+   When you see an ingredient, you should remember *what* you killed or survived to get it.
+
+2. **Tightly scoped uses**  
+   Each specialty ingredient should have 1–3 **specific, high-value uses**, not be tossed into every recipe.
+
+3. **Early but expandable**  
+   Focus on Greatwood 1–20 content now, but leave room to extend this pattern to future regions.
+
+4. **Reinforce fantasy**  
+   Names, effects, and sources should reinforce the hunter / forest / Lodge themes.
+
+---
+
+## Structure for Each Ingredient
+
+Each specialty ingredient entry:
+
+- **ID:** `spec_ingr_<theme>` (e.g. `spec_ingr_elder_stag_marrow`)
+- **Display Name**
+- **Source Type:** Hunt / World Boss / Dungeon / Event / Quest
+- **Source Details:** specific enemy, event, or scenario
+- **Rarity within source:** always / chance / rare proc
+- **Suggested Uses:**
+  - 1–3 specific recipes or crafts (IDs)
+- **Effect Theme:** what kind of buffs or mechanics it leans toward
+- **Flavor Text**
+
+---
+
+## Greatwood Specialty Ingredient List (Draft)
+
+### 1. Elder Stag–Related
+
+1. **Elder Stag Marrow**
+   - ID: `spec_ingr_elder_stag_marrow`
+   - Source Type: World Boss
+   - Source: Elder Hollow Stag (first kill guaranteed, later kills chance)
+   - Rarity: Rare
+   - Uses:
+     - Key component in `recipe_elder_stag_marrow_roast` (53)
+     - Potential minor alchemy tonic later (perception/HP themed)
+   - Effect Theme:
+     - Max HP, resilience, tracking/perception
+   - Flavor: “Rich, dense marrow said to hold the memory of old hunts.”
+
+2. **Elder Antler Shard**
+   - ID: `spec_ingr_elder_antler_shard`
+   - Source Type: World Boss
+   - Source: Elder Hollow Stag (medium chance on kill, higher if certain conditions met)
+   - Rarity: Rare
+   - Uses:
+     - Upgraded cooking recipes (stronger versions of HP/defense foods)
+     - Profession charm/trinket craft for hunters
+   - Effect Theme:
+     - Physical protection, slightly improved tracking
+   - Flavor: “A broken spear that failed to kill something older than the wood itself.”
+
+---
+
+### 2. Corrupted & Ash-Touched Beasts
+
+3. **Ash-Touched Beast Cut**
+   - ID: `spec_ingr_ash_touched_beast_cut`
+   - Source Type: Elite / Event
+   - Source: Special “ash-touched” variants of beasts in wildfire-scarred regions
+   - Rarity: Rare
+   - Uses:
+     - Stronger version of `recipe_ash_touched_ember_chowder` (53)
+     - Possible future alchemy anti-fire tonic
+   - Effect Theme:
+     - High Fire resistance, but heavy / stamina penalty tradeoffs
+   - Flavor: “Meat that smells like smoke even before it hits the pan.”
+
+4. **Corrupted Heart Tissue**
+   - ID: `spec_ingr_corrupted_heart_tissue`
+   - Source Type: Dungeon / Elite
+   - Source: Corrupted beasts and bosses near Hollowroot and other tainted areas
+   - Rarity: Rare / Exotic (depending on boss)
+   - Uses:
+     - Risk/reward cooking recipes that give strong offensive buffs with HP penalties
+     - Future alchemy for dark tonics or curses
+   - Effect Theme:
+     - High damage boost + max HP reduction, unsettling side effects
+   - Flavor: “It still twitches if you stare too long.”
+
+---
+
+### 3. Hollowroot & Deep Woods
+
+5. **Hollowroot Resin**
+   - ID: `spec_ingr_hollowroot_resin`
+   - Source Type: Dungeon / POI
+   - Source: Hollowroot Warren (nodes, boss drops, special events)
+   - Rarity: Rare
+   - Uses:
+     - Core component in `recipe_hollowroot_deep_stew` (53)
+     - Potential alchemy ingredient (defense/vision in darkness)
+   - Effect Theme:
+     - Dungeon survival, dark-vision, slight stamina efficiency
+   - Flavor: “Thick, bitter sap that somehow feels heavier in the dark.”
+
+6. **Deep-Glow Spore Cluster**
+   - ID: `spec_ingr_deep_glow_spores`
+   - Source Type: Dungeon / Cave
+   - Source: Rare mushroom nodes in deep caves and Hollowroot pockets
+   - Rarity: Rare / Exotic
+   - Uses:
+     - Special night/dark-vision recipes with mild side effects
+     - Future alchemy for glow tonics or light bombs
+   - Effect Theme:
+     - Vision, stealth, strange visual distortions
+   - Flavor: “Crush it and your fingers shine for hours.”
+
+---
+
+### 4. Event-Based & Weather-Linked
+
+7. **Storm-Caught River Fish**
+   - ID: `spec_ingr_storm_caught_riverfish`
+   - Source Type: Event / Weather
+   - Source: Fishing or looting at river POIs during thunderstorms
+   - Rarity: Rare
+   - Uses:
+     - High-end stamina and focus foods
+     - Potential alchemy for weather-related buffs
+   - Effect Theme:
+     - Stamina regen, focus, lightning/fear resistance
+   - Flavor: “Flesh crackles faintly when you cut into it.”
+
+8. **Wildfire Charcoal Husk**
+   - ID: `spec_ingr_wildfire_charcoal_husk`
+   - Source Type: Event
+   - Source: Scavenging trees immediately after wildfire events
+   - Rarity: Uncommon–Rare
+   - Uses:
+     - Cooking (smoke flavor, mild defensive buffs)
+     - Alchemy (detox, cleansing, fire resistance)
+   - Effect Theme:
+     - Protection, cleansing, resilience
+   - Flavor: “It stains anything it touches, but the bitterness has its uses.”
+
+---
+
+### 5. Lodge & Social Content
+
+9. **Lodge Ember Spice Blend**
+   - ID: `spec_ingr_lodge_ember_spice`
+   - Source Type: Reputation / Quest
+   - Source: High-rank Lodge reputation or Ember Pot questline
+   - Rarity: Unique (bound to player once unlocked)
+   - Uses:
+     - Upgraded versions of many Lodge-specific recipes
+   - Effect Theme:
+     - Slight improvements across many cooking buffs (duration, potency)
+   - Flavor: “Every cook tweaks the mix. No two pinches are exactly the same.”
+
+10. **Hunter’s Celebration Brew Base**
+    - ID: `spec_ingr_hunter_celebration_base`
+    - Source Type: Event / Social
+    - Source: Lodge festival event, questline reward
+    - Rarity: Event-locked
+    - Uses:
+      - Group feast recipes or celebration dishes (buffs for multiple players)
+    - Effect Theme:
+      - Group buffs, morale, minor XP/gold gain boost for a short time
+    - Flavor: “Poured on the table, splashed into pots, passed hand to hand.”
+
+---
+
+## Rules & Integration
+
+- These ingredients should **not** drop randomly everywhere.  
+  Each has **at most a few specific sources**.
+- Most should be:
+  - Visible in loot tables for relevant bosses/encounters
+  - Referenced in:
+    - Cooking recipes (52, 53)
+    - Profession questlines
+    - Future Alchemy stub (58)
+
+- Avoid making them mandatory for all progression:
+  - They’re *special*, not “always-on” power.
+
+---
+
+## Next Actions
+
+- Lock final list of specialty ingredients for Greatwood 1–20 launch.
+- Map each ingredient to 1–3 concrete recipes/crafts (by ID).
+- Hook drops into:
+  - World boss loot tables
+  - Dungeon rewards
+  - Event reward pools
+  - Lodge reputation / quest outcomes
