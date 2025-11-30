@@ -1,188 +1,851 @@
-# 61 – Greatwood Hunt Board & Deeds System
+61 – Hunts, Targets, and the Core Hunt Loop (Greatwood 1–20)
+Purpose
 
-## Purpose
+Define how Hunts work in Emberwild for the Greatwood 1–20 slice, including:
 
-Define the **Greatwood Hunt Board** and **Deeds system** as the core loop for structured hunting content:
+What a Hunt is, structurally and fictionally.
 
-- Gives players **repeatable, curated hunts** with clear goals  
-- Ties into Lodge reputation, professions, and special ingredients  
-- Establishes a framework that can expand to other regions later
+How Hunts are:
 
-This is a design spec for **how the Hunt Board works**, what “Deeds” are, and how they tie into rewards and progression.
+Accepted (via Lodge & Hunt Board, 59).
 
----
+Prepared for (gear, alchemy, corruption).
 
-## Key Concepts
+Played out in the world (tracking, encounters, target behaviors).
 
-### Hunt Board
+Resolved (turn-in, reputation, world changes).
 
-A physical board in the Lodge (and possibly outposts) where players pick up:
+How Hunts connect to:
 
-- **Hunts:** Kill X of Y, track and kill a specific beast, capture/drive off enemy
-- **Special Assignments:** Time-limited or event-based hunts
-- **Deeds:** Longer, named challenges (mini-questlines)
+Corruption (91).
 
-### Deeds
+Alchemy (58).
 
-**Deeds** are special, named contracts that:
+Lodge circles and contracts (59).
 
-- Are tracked individually with their own progress
-- Have higher rewards and unique flavor
-- Often tie into story, bosses, or rare ingredients
+Dungeons and lairs (65, 77).
 
-Examples:  
-- “The Boar That Wouldn’t Die”  
-- “Warden of the Hollowroot Edge”  
-- “The Beast That Hunts Fire”
+This is the “spine” of the early game. Nearly everything else feeds this loop.
 
----
+Core Fantasy
 
-## Hunt Board Structure
+A Hunt in Emberwild is not just “kill 10 wolves”. It is:
 
-### Board Layout
+A contract taken in a living Lodge.
 
-- Board shows **3–5 active hunts** at a time.
-- Hunts are categorized:
-  - **Common Hunts** – simple daily-style tasks
-  - **Notices** – special or time-limited opportunities
-  - **Deeds** – ongoing boss/elite challenges
+A target with a history, patterns, and a place in the ecosystem.
 
-### Difficulty & Scaling
+A journey:
 
-- Hunts are tagged with:
-  - Recommended level band (e.g. 1–5, 5–10, 10–20)
-  - Solo/Group suggestion
-- Scaling rules (implementation later):
-  - Base stats & AI scale within Greatwood’s band
-  - Deeds might have fixed levels (non-scaled “hard posts” in the zone)
+Out from the Lodge.
 
----
+Through the wilds and corruption pockets.
 
-## Hunt Types (Common)
+To a lair, lair-equivalent, or scenario.
 
-These are low-mid effort tasks that keep players in the loop between big content.
+A return:
 
-1. **Culling Hunts**
-   - Example: “Cull 8 Ash-Touched Boar”
-   - Goal: Kill X creatures of type Y in a sub-region.
-   - Reward: Modest XP, coin, small rep, chance at relevant ingredients.
+With trophies, scars, stories, and consequences.
 
-2. **Track & Kill**
-   - Example: “Track the Three-Horn Stag”
-   - Goal: Follow tracks to a target spawn and kill a named or tougher variant.
-   - Reward: Better XP, coin, rep, chance at specialty drops.
+The player should feel:
 
-3. **Deterrence**
-   - Example: “Drive Off a Pack Leader”
-   - Goal: Kill the alpha of a wolf pack or similar.
-   - Reward: Similar to Track & Kill but more social/faction flavor.
+“I am a hunter sent to solve specific problems in a dangerous, responsive forest.”
 
-4. **Resource Protection**
-   - Example: “Protect the Gatherers”
-   - Goal: Defend an area or NPC while they gather.
-   - Reward: XP, coin, rep, possible extra resource bundle.
+Design Pillars
 
----
+Fewer Hunts, More Meaning
 
-## Deeds (Named Contracts)
+Hunts are not disposable chores.
 
-Deeds are more substantial, with their own entries in the player’s log. They can span multiple steps.
+Each Hunt is:
 
-### Example Deed: “The Boar That Wouldn’t Die”
+Tied to a threat, a place, and at least one Lodge circle.
 
-- **Premise:**
-  - A specific massive boar has survived multiple hunts, scarred and enraged.
-- **Steps:**
-  1. Investigate sites of failed hunts (find broken weapons, scattered meat)
-  2. Track unique signs (deep hoof-marks, gouged trees)
-  3. Face the boar in a special arena spot (with mechanics)
-- **Rewards:**
-  - Unique trophy
-  - Specialty ingredient (e.g. `spec_ingr_ash_touched_beast_cut`)
-  - Unlock of a special recipe or profession tool
+Typed, named, and slightly bespoke.
 
-### Example Deed: “The Beast That Hunts Fire”
+Even repeatable Hunts are framed as:
 
-- **Premise:**
-  - Something hunts near wildfire scars and attacks anyone with a torch.
-- **Steps:**
-  1. Patrol wildfire edges at night
-  2. Survive ambush encounters
-  3. Trigger a final “lure” event using a ritual hunt offering (57)
-- **Rewards:**
-  - High-tier ingredient or alchemical reagent
-  - Stronger hunt rewards than normal
+Ongoing issues.
 
----
+Shifting threats.
 
-## Board Flow & Refresh
+Preparation Matters
 
-### Common Hunts
+Food buffs (Cooking), Alchemy (58), gear, and contract knowledge are critical.
 
-- Rotate on a **timer** (e.g. daily cycle, or per-session).
-- Limited number available at once (3–5).
-- Player can accept a limited number concurrently (e.g. 3 active hunts).
+Good preparation makes:
 
-### Deeds
+Fights manageable.
 
-- Do **not** rotate as quickly.
-- Once a player unlocks a Deed:
-  - It stays available until completed or abandoned.
-- Some Deeds unlock via:
-  - Reputation thresholds (59)
-  - Previous hunts (completing X culling hunts unlocks a Deed)
-  - Quest progress (connecting to other Greatwood story beats)
+Corruption risk lower.
 
----
+Rewards more consistent.
 
-## Rewards & Integration
+Tracking and Terrain First
 
-### Baseline Rewards
+Finding the target is half the Hunt:
 
-Each completed Hunt rewards:
+Tracks.
 
-- XP (player level)
-- Coin
-- Lodge rep (general or specific wings, depending on target)
-- Small chance at relevant ingredients (meat, pelts, herbs, etc.)
+Scents.
 
-### Special Rewards
+Signs.
 
-- Deeds can reward:
-  - Specialty ingredients (55)
-  - Profession rep (59)
-  - Unique recipes (52, 53, 57)
-  - Profession tools (54)
-  - Cosmetic trophies (wall mounts, trinkets)
+The world layout matters more than UI waypoints.
 
-### Reputation & Board
+Target Behaviors Are the Point
 
-- Higher Lodge reputation and profession ranks:
-  - Unlock better hunts and Deeds
-  - Increase odds of valuable drops or extra rewards
+Each notable target has:
 
----
+Behavior traits.
 
-## UI / UX Notes
+Movement patterns.
 
-- Board should feel **physical**:
-  - Papers pinned, some crossed out, some torn.
-- Accepted hunts:
-  - Marked on the board as “Taken.”
-  - Visible in player’s quest log under a **Hunts** category.
+Phases or reactions.
 
-- Deeds:
-  - Have more elaborate parchment, unique icon, sometimes wax seals.
-  - Might have brief lore snippet on the board itself.
+The Hunt is built around those behaviors, not just their HP bar.
 
----
+World and Lodge React
 
-## Next Actions
+Completing Hunts:
 
-- Define a **first-wave list** of:
-  - 10–15 Common Hunts
-  - 3–5 Deeds for Greatwood 1–20
-- Connect Hunts & Deeds to:
-  - Actual enemy families and spawn regions in Greatwood
-  - Lodge rep and profession systems (51–60)
-- Draft quest log text for 1–2 Deeds as examples.
+Changes ZCL in pockets (91).
+
+Moves Lodge rep tracks (59).
+
+Alters spawn patterns and local stories.
+
+Components Overview
+
+Hunts are structured around:
+
+The Contract – how the Hunt is defined and accepted.
+
+The Target – who or what the Hunt is about.
+
+The Trail – how the hunter finds the target.
+
+The Encounter – how the fight or resolution plays out.
+
+The Resolution – rewards, reputation, world changes.
+
+1. The Contract
+Structure
+
+A Hunt Contract is a data object with:
+
+Contract ID and flavor name.
+
+Type and tier.
+
+Recommended level range.
+
+Target description:
+
+Single boss.
+
+Pack alpha.
+
+Cluster of threats.
+
+Region and ZCL expectations (91).
+
+Rewards:
+
+Gold.
+
+Items.
+
+Reputation with circles (59).
+
+World-state adjustments (optional).
+
+Example fields (conceptual):
+
+contract_id: hunt_greatwood_howler_01
+
+name: “The Greatwood Howler”
+
+type: APEX_BEAST
+
+tier: 1
+
+recommended_level: 8–12
+
+region: greatwood_east_ridge
+
+corruption_tag: TAINTED (ZCL 1–2)
+
+offered_by_circles: Lodge Proper, Huntmasters
+
+rewards_base: gold, materials, Huntmasters rep
+
+rewards_bonus: extra if target is killed under certain conditions.
+
+Types of Hunt Contracts (Greatwood)
+
+For 1–20, we need a tight set of core types:
+
+Cull Hunts
+
+Objective:
+
+Reduce numbers of a specific threat.
+
+Targets:
+
+Packs of beasts, corrupted variants, bands of raiders.
+
+Examples:
+
+“Cull the Hollowroot Stalkers” (reduce spawn rate near Hollowroot Fringe).
+
+Mark Hunts
+
+Objective:
+
+Kill a specific named creature or small group.
+
+Targets:
+
+Apex beasts, corrupted champions.
+
+Examples:
+
+“The Greatwood Howler.”
+
+“Black-Sap Devourer.”
+
+Trail Hunts
+
+Objective:
+
+Track a roaming target through multiple pockets.
+
+Targets:
+
+Migratory creatures.
+
+Corruption carriers.
+
+Examples:
+
+“Chasing the Sap-Drunk Elk” across several ZCL-1–3 pockets.
+
+Lair Hunts
+
+Objective:
+
+Infiltrate and clear a lair or mini-dungeon.
+
+Targets:
+
+Nesting beasts, cult bands, corruption nodes plus guardian.
+
+Examples:
+
+“Rooted in the Dark” – kill a corrupt lair boss and burn the nest.
+
+All of these reuse common pieces but emphasize different parts of the loop.
+
+2. The Target
+Target Archetypes (Greatwood)
+
+We define some early archetypes:
+
+Apex Beast
+
+Large, territorial, usually with:
+
+Roaming path.
+
+Lair.
+
+Behavior:
+
+Patrols, responds to intrusions, may flee at low health.
+
+Corrupted Champion
+
+A beast or humanoid twisted by Corruption (91).
+
+Behavior:
+
+Gains special corruption attacks or phases at high ZCL.
+
+Might empower nearby corrupted minions.
+
+Pack Alpha
+
+Leader of a smaller group.
+
+Behavior:
+
+Coordinates pack behavior.
+
+Calls reinforcements.
+
+Node-Linked Guardian
+
+Bound to a corruption node (91).
+
+Behavior:
+
+Fights near node.
+
+Gains bonuses if node remains intact.
+
+Each target has a profile:
+
+Health / damage profile.
+
+Movement and terrain preferences.
+
+Special mechanics (phases, enrages, retreats).
+
+Target Knowledge
+
+Contracts can indicate varying levels of knowledge:
+
+Well-known target:
+
+NPCs give strong hints about:
+
+Weaknesses.
+
+Patterns.
+
+Unknown or newly discovered target:
+
+Player must:
+
+Observe behavior.
+
+Experiment.
+
+Over time, the Lodge can update descriptions based on player progress, representing learning.
+
+3. The Trail (Tracking)
+Tracking Overview
+
+Finding the target involves:
+
+Reading signs in the world.
+
+Using skills and tools (including Alchemy, 58).
+
+Following a chain of clues to:
+
+A current roaming location.
+
+A lair.
+
+We avoid simple “follow the glowing line” and instead:
+
+Use multiple, overlapping clue types with optional UI assistance.
+
+Clue Types
+
+Tracks
+
+Footprints, claw marks, disturbed underbrush.
+
+Variants:
+
+Fresher tracks glow subtly in Hunter Vision.
+
+Different gait depending on target state (wounded vs healthy).
+
+Scatters and Remains
+
+Bones, carcasses, partially eaten kills.
+
+Indicate:
+
+Target diet.
+
+Possible spawn hazards (other scavengers).
+
+Sound Cues
+
+Distant howls, roars, branch breaks.
+
+Intensify as player gets closer.
+
+Environmental Effects
+
+For corrupted targets:
+
+Patches of corruption.
+
+Ichor splatters.
+
+Warped plants (91).
+
+NPC Sightings
+
+Contracts can include:
+
+Reported sighting locations.
+
+Player can:
+
+Talk to scouts or villagers in the field for updated hints.
+
+Tracking Mechanics (Greatwood Slice)
+
+Players can enter a Focused Tracking Mode:
+
+Short-duration state that:
+
+Highlights relevant clues.
+
+Suppresses some visual noise.
+
+Costs:
+
+Stamina over time.
+
+Or has a cooldown.
+
+Alchemy synergies:
+
+Nighttracker Brew (58):
+
+Buffs the visibility and range of tracks at night.
+
+Other tonics can:
+
+Extend tracking duration.
+
+Enhance scent cues or highlight signs more strongly.
+
+Difficulty:
+
+Early Hunts:
+
+Mostly linear clue paths.
+
+Later 1–20 Hunts:
+
+Branching possibilities.
+
+Need to distinguish fresh vs old trails.
+
+4. The Encounter
+Encounter Spaces
+
+The Hunt encounter can take place in:
+
+Open-World Spaces
+
+Glades, riverbanks, corrupted pockets.
+
+Players can approach from multiple angles.
+
+Hybrid Spaces
+
+Open area leading to a cave mouth or lair entrance.
+
+Target may move between inside/outside.
+
+Lairs and Mini-Dungeons
+
+Structured, smaller versions of full dungeons (65, 77).
+
+Often the location of:
+
+Pack dens.
+
+Node-guardians.
+
+Fight Phases and Behaviors
+
+For notable targets, even in 1–20, we aim for simple but meaningful phases.
+
+Example: Apex Beast (Greatwood Howler)
+
+Phase 1: Territorial Assault
+
+Charges, knockdowns, howl roar.
+
+Intermittent adds (smaller wolves).
+
+Phase 2: Wounded Fury (triggered at low health)
+
+Changes movement pattern.
+
+Uses new attack:
+
+Frenzied pounce with bleed.
+
+Attempts to retreat deeper into lair if possible:
+
+Player can chase or let it escape (with consequences).
+
+Example: Corrupted Champion
+
+Phase 1: Base Combat
+
+Standard melee or ranged attacks.
+
+Phase 2: Corruption Surge
+
+At threshold, draws from nearby corrupted ground:
+
+Gains new mutation ability.
+
+Spawns corrupted minions.
+
+Zone Interactions:
+
+High ZCL amplifies its corruption phase effects.
+
+Cleansing nodes first (91) can weaken it.
+
+Group vs Solo
+
+In Greatwood 1–20:
+
+Hunts are tuned primarily for:
+
+Solo hunters.
+
+Small groups (2–3).
+
+Scaling knobs:
+
+Additional adds in group play.
+
+Slight target health / damage adjustments.
+
+Group-specific bonuses:
+
+Group Hunts may yield:
+
+Extra trophy pieces.
+
+Bonus rep when all participants are Lodge members.
+
+5. Resolution
+Completing a Hunt
+
+A Hunt is considered complete when:
+
+Primary objective is met:
+
+Target killed.
+
+Target driven off.
+
+Node destroyed and guardian slain.
+
+Optional objectives:
+
+Minimal collateral damage.
+
+Kill without using certain tools.
+
+Kill within a time window.
+
+Results of completion:
+
+Contract updates to Completed.
+
+Player gathers:
+
+Trophies (teeth, horns, ichor, unique drops).
+
+Evidence items (tags, marks, captured data).
+
+On return to Lodge:
+
+Turn-in at:
+
+Hunt Board.
+
+Huntmaster NPC.
+
+Rewards:
+
+Payout.
+
+Reputation.
+
+World changes (if applicable).
+
+Failure and Escape
+
+Hunts can fail in multiple ways:
+
+Target escapes the region:
+
+Contract may:
+
+Expire.
+
+Downgrade to a new contract later with higher difficulty.
+
+Player dies or abandons:
+
+Contract remains active unless:
+
+Time limit exists.
+
+World event closes it.
+
+Consequences:
+
+Repeated failures or abandonments:
+
+Minor rep penalties with offering circle.
+
+Increased ZCL in the area if target is corruption-linked (91).
+
+In some story Hunts:
+
+Target surviving can:
+
+Escalate threats.
+
+Appear later as a stronger version.
+
+Hunt Tiers and Difficulty (Greatwood)
+
+Define Hunt difficulty in tiers:
+
+Tier 0: Training Hunts
+
+For new players.
+
+Simple cull contracts, no real tracking.
+
+Tier 1: Standard Hunts
+
+Basic apex beasts, low-corruption champions.
+
+Minimal phase complexity.
+
+Tier 2: Signature Hunts
+
+Named beasts with multiple phases.
+
+Clear story relevance.
+
+Tier 3: Prototype Challenge Hunts (late 1–20)
+
+Harder, optional.
+
+Tie into corruption and Lodge politics.
+
+Each tier influences:
+
+Reward bands.
+
+Reputation yield.
+
+Likelihood of world changes.
+
+Integration With Other Systems
+With Lodge & Reputation (59)
+
+Each Hunt contract card lists:
+
+Circle sponsors:
+
+Huntmasters for most combat Hunts.
+
+Wardens for corruption-heavy Hunts.
+
+Lodge Proper for region stability Hunts.
+
+Rep rewards on completion.
+
+Rank-up opportunities:
+
+Completing milestone Hunts:
+
+May unlock formal ceremonies.
+
+Advance narrative ranks (Pledged, Bound, Sworn).
+
+With Corruption & Cleansing (91)
+
+Many Hunts have:
+
+Corruption tags:
+
+Uncorrupted, Tainted, Warped, Riven-touched.
+
+ZCL requirements:
+
+Some targets only spawn if ZCL is high enough.
+
+Some Hunts aim to lower ZCL by killing key sources.
+
+Completing corruption-linked Hunts:
+
+Lowers ZCL in target pockets.
+
+Or slows their creep.
+
+Failing those Hunts:
+
+Allows ZCL to increase.
+
+May spawn new corrupted variants.
+
+With Alchemy (58)
+
+Hunts produce ingredients:
+
+Monster essences.
+
+Rare tissues.
+
+Certain Hunts:
+
+Specifically request you bring back alchemical reagents.
+
+Reward:
+
+Recipes like Purge of the Glade, Warden’s Veil, Scribe’s Focus, etc.
+
+Attempting Hunts in high-corruption zones without:
+
+Cleanses.
+
+Warding brews.
+
+Is significantly more dangerous.
+
+With Dungeons and Lairs (65, 77)
+
+Some Hunts:
+
+Start as open-world contracts.
+
+Lead into:
+
+Lair instances.
+
+Dungeon wings.
+
+Completing those Hunts:
+
+Changes the state of the dungeon:
+
+Removes or changes some enemy groups.
+
+Alters future runs.
+
+Might open:
+
+Deeper paths.
+
+Story variants.
+
+UI and Player Experience
+In Lodge
+
+Hunt Board:
+
+Tabs for Hunt types (Standard, Corruption, etc.).
+
+Icons showing:
+
+Threat type.
+
+Corruption level.
+
+Circle sponsors.
+
+Contract Details panel:
+
+Brief lore blurb about target.
+
+Region and rough ZCL indication.
+
+Known traits or rumored weaknesses.
+
+In the World
+
+Minimal HUD markers by default:
+
+Optional difficulty assists:
+
+Subtle trail markers if the player opts into more guidance.
+
+Tracking Mode:
+
+Toggled by a key.
+
+Visually emphasizes:
+
+Tracks.
+
+Clues.
+
+Hunt Status:
+
+Simple in-world UIs:
+
+Contract progress updates.
+
+Notes when target has changed location or behavior.
+
+Tuning Guidelines (Greatwood Slice)
+
+Most players should:
+
+Complete several Tier 1 Hunts.
+
+Try at least a couple of Tier 2 Signature Hunts by level 20.
+
+Time budget:
+
+A standard Hunt (contract to turn-in) should be:
+
+Roughly 15–30 minutes depending on playstyle.
+
+Failure:
+
+Allowed and expected.
+
+Should feel like:
+
+“I misjudged this target, I will come back better prepared.”
+
+Not like:
+
+“I just wasted my time for nothing.”
+
+Future Hooks Beyond Greatwood
+
+The framework here is intended to support:
+
+Larger-scale Great Hunts:
+
+Multi-phase operations over an entire region.
+
+Seasonal campaigns:
+
+Lodge posting time-limited chains of themed Hunts.
+
+Factional Hunts:
+
+Competing companies or outsiders placing their own contracts.
+
+Player-generated Hunts:
+
+Later systems where players can mark threats and have the Lodge formalize those as contracts for others.
+
+All future expansions should reuse:
+
+Contract types.
+
+Target archetypes.
+
+Trail / encounter / resolution loop.
+
+Rather than inventing entirely new mechanics, future work should deepen and specialize Hunts built on this base.
