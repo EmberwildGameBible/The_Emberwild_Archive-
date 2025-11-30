@@ -1,224 +1,737 @@
-# 59 – Lodge Profession Reputation Tracks (Forester, Cook, Woodworker)
+59 – Lodge Reputation, Hunt Board, and Contracts (Greatwood 1–20)
+Purpose
 
-## Purpose
+Define how the Lodge functions as:
 
-Define **micro-reputation tracks** inside the Lodge for key professions:
+The player’s main hub of progression.
 
-- **Forester’s Circle** (Foresters / Wood-gatherers)
-- **Ember Kitchen** (Cooks)
-- **Carpenter’s Hall** (Woodworkers)
+The source of structured Hunt Contracts.
 
-These tracks:
+A network of reputation tracks that:
 
-- Give professions a **social identity** inside the Lodge
-- Reward players for doing profession-related tasks
-- Unlock profession tools/gear (54) and recipes (52, 53, 57)
+Pay out unique rewards.
 
-This is a design spec for **rep structure and rewards**, not code.
+Unlock systems like Alchemy (58), Corruption work (91), and Professions (95).
 
----
+Reflect how the Emberwild responds to the hunter’s actions.
 
-## Design Goals
+This is the Greatwood 1–20 slice of Lodge Reputation and the Hunt Board. It must be:
 
-1. **Low-friction progression**  
-   Players gain rep just by doing the profession stuff they already want to do (turn-ins, quests, deliveries).
+Immediately usable.
 
-2. **Clear fantasy**  
-   Each wing feels different:  
-   - Forester’s Circle = trees, survey, pathfinding  
-   - Ember Kitchen = cooking, supply, morale  
-   - Carpenter’s Hall = crafting structures, tools, finer work
+Systemically connected to Hunts, Corruption, and Alchemy.
 
-3. **Small, meaningful rewards**  
-   Unlocks: recipes, tools, cosmetics, small perks. No mandatory “you must grind this” for core power.
+Ready to expand later without needing a redesign.
 
-4. **Extendable**  
-   Start with 3 wings now, but leave room for new ones later (Fletcher, Tanners, Alchemists, etc.).
+Design Pillars
 
----
+The Lodge Is Home, Not Just a Menu
 
-## Basic Rep Track Structure
+Reputation, contracts, and rewards are tied to:
 
-For each profession wing:
+Physical rooms.
 
-- **Rep Name:** e.g. Ember Kitchen Reputation
-- **Ranks (5 total):**
-  1. Stranger
-  2. Known Hand
-  3. Trusted Hand
-  4. Pillar
-  5. Keeper (or equivalent)
-- **Rep Points:** simple numeric scale (e.g. 0–1000 per wing, tuning later)
-- **Sources of Rep:**
-  - Daily / repeatable turn-ins
-  - One-time quests and story beats
-  - Profession tasks (craft X, deliver Y)
+NPCs.
 
----
+Rituals and ceremonies.
 
-## Forester’s Circle
+The player should feel like they are part of an organization, not a quest terminal.
 
-### Theme
+One Simple Loop, Many Layers
 
-- Guardians of the forest, surveyors, and path-clearers.
-- Know where everything grows and how not to anger the woods.
+Core loop:
 
-### Ranks (Flavored)
+Take contract → prepare → hunt → return → turn in → rank up.
 
-1. **Waystranger**  
-   - Newcomer, untested.
-2. **Trail Hand**  
-   - Helps with basic gathering/survey.
-3. **Line Cutter**  
-   - Trusted to clear paths and mark safe routes.
-4. **Canopy Warden**  
-   - Helps decide where trees are taken and where they’re left.
-5. **Circle Keeper**  
-   - Deeply trusted; speaks for the forest to the Lodge.
+Around this loop:
 
-### Ways to Earn Forester Rep
+Corruption levels change.
 
-- Turn in:
-  - Bundles of wood (by type) from Greatwood
-  - Rare plant samples (`whisperfern`, `hollowroot_sprig`, etc.)
-- Complete:
-  - Forester-specific bounties (mark dangerous trees/beasts, clear paths)
-  - Survey quests (marking routes for the Lodge)
+NPCs react.
 
-### Sample Rewards by Rank
+New systems unlock.
 
-- **Trail Hand (Rank 2):**
-  - Access to `item_prof_forester_axe_t1`
-  - Basic Forester gathering recipes (bundles, processed wood)
+Reputation as Story and Power
 
-- **Line Cutter (Rank 3):**
-  - `item_prof_forester_vest_t2`
-  - Recipes that unlock slightly rarer wood/plant turn-ins
+Reputation unlocks:
 
-- **Canopy Warden (Rank 4):**
-  - `item_prof_forester_hatchet_t3`
-  - Special Forester-only camp structures (advanced markers, special firewood bundles)
+Mechanical upgrades (discounts, recipes, access).
 
-- **Circle Keeper (Rank 5):**
-  - Title/cosmetic
-  - Access to rare Forester-only ingredients or world interactions (unique tree felling, secret paths)
+Narrative beats (titles, honors, politics).
 
----
+The path of progression tells the story of:
 
-## Ember Kitchen
+A hunter rising from newcomer to trusted operative.
 
-### Theme
+Expandable Structure
 
-- The hearth of the Lodge: cooks, suppliers, people who keep everyone fed.
-- Focused on Cooking outcomes and ingredient flows.
+The Greatwood Lodge is a template.
 
-### Ranks (Flavored)
+Future Lodges, outposts, and factions can reuse:
 
-1. **Scullery Hand**
-2. **Line Cook**
-3. **Pot Steward**
-4. **Hearthmaster**
-5. **Keeper of the Ember Pot**
+The rep track structure.
 
-### Ways to Earn Ember Kitchen Rep
+The contract types.
 
-- Turn in:
-  - Prepared dishes (52/53 recipes) for Lodge use
-  - Certain raw ingredient bundles (meats, spices, mushrooms)
-- Complete:
-  - Ember Pot questline steps (56)
-  - Special event catering (Lodge feast events, festivals)
+The UI patterns.
 
-### Sample Rewards by Rank
+Components Overview
 
-- **Line Cook (Rank 2):**
-  - Tier 1–2 basic recipes (if not already known)
-  - Access to `item_prof_cook_knife_t1`
+Lodge Circles – internal “factions” within the Lodge.
 
-- **Pot Steward (Rank 3):**
-  - `item_prof_cook_knife_t2`
-  - `item_prof_cook_spice_belt_t2`
-  - Signature recipe like `recipe_greatwood_hunter_feast` (52/53)
+Reputation Tracks – numeric reputation levels with thresholds and titles.
 
-- **Hearthmaster (Rank 4):**
-  - Access to more advanced Lodge-only recipes (53)
-  - Slight discounts on cooking-related supplies from Lodge vendors
+Hunt Board – the physical and UI representation of contracts.
 
-- **Keeper of the Ember Pot (Rank 5):**
-  - Unlock `recipe_ember_pot_full_lodge` (53)
-  - Unlock `item_prof_cook_ladle_t3`
-  - Cosmetic/title: “Keeper of the Ember Pot”
+Contract Types – hunts, corruption jobs, supply runs, research tasks, social favors.
 
----
+Rewards & Unlocks – what players get and when.
 
-## Carpenter’s Hall
+Progression & Tuning – how fast it moves and how it interacts with other systems.
 
-### Theme
+Lodge Circles (Internal Factions)
 
-- Builders, bow-makers, and structural craftsmen.
-- Focus on Woodworking, camp infrastructure, and combo items.
+The Greatwood Lodge has three primary circles plus a general track:
 
-### Ranks (Flavored)
+The Lodge Proper
 
-1. **Bench Hand**
-2. **Joiner**
-3. **Framewright**
-4. **Hallwright**
-5. **Master of Grain**
+The overall organization, leadership, and infrastructure.
 
-### Ways to Earn Carpenter’s Hall Rep
+Represents the hunter’s standing “with the Lodge as a whole.”
 
-- Turn in:
-  - Crafted wooden items (bows, handles, components)
-  - Camp structures (drying racks, racks, simple furniture)
-- Complete:
-  - Projects to repair or upgrade Lodge structures (rails, benches, training dummies)
-  - Combo crafts from 57 (feast table frames, blinds, racks)
+Governs:
 
-### Sample Rewards by Rank
+Access to new regions.
 
-- **Joiner (Rank 2):**
-  - `item_prof_woodworker_tools_t1`
-  - Basic woodworking pattern recipes
+Training.
 
-- **Framewright (Rank 3):**
-  - `item_prof_woodworker_tools_t2`
-  - Schematics for combo structures (e.g. `item_feast_table_frame`, `item_small_drying_rack`)
+Lodge-wide amenities.
 
-- **Hallwright (Rank 4):**
-  - `item_prof_woodworker_coat_t2`
-  - Higher-quality bow/weapon stock recipes
+The Huntmasters’ Circle
 
-- **Master of Grain (Rank 5):**
-  - `item_prof_woodworker_tools_t3`
-  - Cosmetic cloak: `item_prof_woodworker_cloak_t3`
-  - Access to special Lodge-only furniture/structure recipes (purely cosmetic but valuable)
+Veteran hunters overseeing contracts and combat training.
 
----
+Governs:
 
-## Shared Rep Rules
+High-risk hunt access.
 
-- **Separate tracks**: each wing has its own bar & ranks.
-- **Soft cross-talk**:
-  - Some tasks might give small amounts to multiple wings (e.g. big Lodge project uses wood + food).
-- **Caps**:
-  - Rank 5 should be difficult but not insane for a dedicated profession player.
+Combat perks.
 
----
+Elite gear contracts.
 
-## Integration
+The Wardens’ Circle
 
-- Forester gear & tasks link to:
-  - Tracking, field events, Greatwood environment
-- Ember Kitchen links to:
-  - Cooking systems (52, 53, 56)
-- Carpenter’s Hall links to:
-  - Woodworking, combo crafts (57), camp upgrades
+The protectors of the bounds and wards against Corruption.
 
----
+Governs:
 
-## Next Actions
+Corruption-focused contracts (91).
 
-- Nail exact rep numbers and thresholds.
-- Assign concrete turn-in items with IDs and amounts.
-- Design 1–2 small “rep intro” quests for each wing to formally enroll the player.
+Cleansing rituals.
+
+Warding-related rewards.
+
+The Scholars’ Circle
+
+Researchers, alchemists, and lorekeepers.
+
+Governs:
+
+Alchemy (58).
+
+Professions and research tasks (95).
+
+Lore and exploration bonuses.
+
+Each circle has its own Reputation Track but the player also has:
+
+A Lodge Rank that is a weighted combination of all four.
+
+Reputation Tracks
+Structure
+
+Each circle’s reputation is a numeric value, e.g. 0–10,000 in Greatwood.
+
+We define five ranks for each circle:
+
+Rank 0: Outsider
+
+Rank 1: Recognized
+
+Rank 2: Proven
+
+Rank 3: Trusted
+
+Rank 4: Pillar
+
+Greatwood 1–20 is expected to move the player from:
+
+Rank 0 → Rank 3 in at least one circle.
+
+Rank 1–2 in others, depending on playstyle.
+
+Lodge Proper – Rank Names (Example)
+
+0: Guest of the Lodge
+
+1: Pledged Hunter
+
+2: Bound Hunter
+
+3: Sworn Ember
+
+4: Warden of the Hall (beyond Greatwood, more aspirational)
+
+Huntmasters, Wardens, and Scholars can have similar rank naming but tuned to their flavor.
+
+Gaining Reputation
+
+Players earn reputation with circles via:
+
+Contracts
+
+Completing contracts from the Hunt Board:
+
+Hunts → Huntmasters and Lodge Proper.
+
+Corruption and warding contracts → Wardens and Lodge Proper.
+
+Research and supply tasks → Scholars and Lodge Proper.
+
+Story Quests
+
+Big story beats often give:
+
+Lodge Proper rep.
+
+One circle’s rep in bulk.
+
+Donations / Projects
+
+Contributing:
+
+Rare reagents.
+
+Crafted items.
+
+Corruption samples.
+
+Gains small but repeatable rep, possibly with diminishing returns.
+
+Behavior Flags
+
+Sparing or slaying certain creatures.
+
+Sparing corrupted NPCs.
+
+Choosing dialogue options that align with a circle’s philosophy.
+
+These are minor adjustments, mostly narrative color.
+
+The Hunt Board
+Physical Presentation
+
+A large board or wall in a Lodge hall:
+
+Plastered with:
+
+Papers.
+
+Ribbons.
+
+Wax-sealed orders.
+
+NPCs gather around to argue about contracts.
+
+Player interacts with:
+
+The board itself.
+
+Or a nearby Huntmaster NPC who “reads” the board for them.
+
+UI Structure
+
+The Hunt Board UI is organized into tabs or filters:
+
+Standard Hunts
+
+Corruption Contracts
+
+Supply & Support
+
+Research & Exploration
+
+(Later) Special and Timed Events
+
+Each contract card displays:
+
+Contract name.
+
+Type and difficulty.
+
+Target region (and current ZCL indicator if relevant).
+
+Primary rewards:
+
+Gold.
+
+Items.
+
+Rep breakdown by circle.
+
+Players can:
+
+Accept up to a limited number of active contracts at once (e.g., 3–5).
+
+Track them in their quest log.
+
+Abandon them with a small rep hit or no rep gain.
+
+Contract Types
+1. Standard Hunts
+
+These are bread-and-butter hunts.
+
+Examples:
+
+“Cull the Hollowroot Stalkers”
+
+“Bring Down the Greatwood Howler”
+
+Objectives:
+
+Kill a specific number of targets.
+
+Kill a named elite or pack leader.
+
+Rewards:
+
+Base gold and materials.
+
+Huntmasters and Lodge Proper rep.
+
+Hooks:
+
+Often overlap with dungeon entrances and corruption pockets (61, 65, 77).
+
+2. Corruption Contracts
+
+Directly tied to Corruption & Cleansing (91).
+
+Examples:
+
+“Cleanse the Black Sap Sapling”
+
+“Stem the Spread at the Ragged Verge”
+
+Objectives:
+
+Destroy or cleanse specific corruption nodes.
+
+Survive in a high ZCL pocket for a certain time.
+
+Escort a cleansing ritual.
+
+Rewards:
+
+Wardens rep.
+
+Corruption reagents for Alchemy (58).
+
+ZCL reductions in targeted pockets.
+
+Risk–reward:
+
+Higher corruption pockets yield better rewards but more HCL gain (91).
+
+3. Supply & Support
+
+Non-combat or light-combat contracts.
+
+Examples:
+
+“Restock the Infirmary Stores”
+
+“Deliver Fresh Timber for Repairs”
+
+“Gather Hollowcaps for the Scholars”
+
+Objectives:
+
+Gather specified materials.
+
+Deliver them to Lodge NPCs or field posts.
+
+Rewards:
+
+Lodge Proper rep.
+
+Scholars rep (if research related).
+
+Small utility items or discounts.
+
+These keep crafters, gatherers, and players between big hunts engaged.
+
+4. Research & Exploration
+
+Contracts that encourage exploring the map and interacting with lore.
+
+Examples:
+
+“Chart the Outer Gloaming”
+
+“Document Beast Behavior in the Black Sap Grove”
+
+Objectives:
+
+Reach certain landmarks.
+
+Observe or scan specific creatures without killing them.
+
+Recover ancient inscriptions or artifacts.
+
+Rewards:
+
+Scholars rep.
+
+Unlocks:
+
+Lore entries.
+
+Scribe’s Focus Draught recipe (58).
+
+Minor Lodge Proper rep.
+
+5. Special and Timed Contracts (Later Greatwood / Future)
+
+For now, Greatwood 1–20 only needs a few prototypes:
+
+Weekly big game hunt.
+
+Limited-time corruption surge event.
+
+These will be formalized in later chapters but the Hunt Board UI should support a “Featured” or “Limited” section from day one.
+
+Contract Difficulty and Tiers
+
+Each contract has:
+
+A recommended level range.
+
+A danger rating:
+
+Trivial, Standard, Risky, Deadly.
+
+In Greatwood 1–20:
+
+Standard contracts:
+
+Usually Standard or Risky.
+
+Special story-linked contracts:
+
+Can go up to Deadly.
+
+Difficulty should correlate with:
+
+Better rewards.
+
+More rep.
+
+Higher corruption risk (for corruption contracts).
+
+Rewards and Unlocks
+Base Reward Categories
+
+Each contract yields some subset of:
+
+Gold.
+
+Materials / loot.
+
+Reputation with one or more circles.
+
+Progress toward Lodge Rank.
+
+Occasionally:
+
+Titles.
+
+Cosmetics.
+
+Recipes.
+
+Lodge Proper – Reward Examples
+
+Rank 1: Pledged Hunter
+
+Access to basic training rooms.
+
+Discount at general Lodge vendors.
+
+Rank 2: Bound Hunter
+
+Unlocks:
+
+Better room in the Lodge (cosmetic, rest benefits).
+
+Additional Hunt Board contract slots.
+
+Rank 3: Sworn Ember
+
+Unlocks:
+
+Special story contracts.
+
+Priority access to corruption-cleansing projects.
+
+Lodge tab for shared stash expansion.
+
+Huntmasters’ Circle – Reward Examples
+
+Rank 1: Recognized Hunter
+
+Access to basic combat training.
+
+Rank 2: Proven Hunter
+
+Unlocks:
+
+Advanced hunt types (chain hunts, multi-target).
+
+Small passive perks while on active Hunt contracts.
+
+Rank 3: Trusted Hunter
+
+Special elite contracts.
+
+Early access to rare weapons or unique mods.
+
+Wardens’ Circle – Reward Examples
+
+Rank 1: Warden’s Hand
+
+Access to basic warding supplies and talismans.
+
+Rank 2: Warden’s Shield
+
+Unlocks:
+
+Ability to start small cleansing rituals (Purge of the Glade variants).
+
+Discounts on corruption-related Alchemy supplies.
+
+Rank 3: Warden’s Voice
+
+Influence over which pockets get attention.
+
+Ability to unlock projects that slow corruption creep (91).
+
+Scholars’ Circle – Reward Examples
+
+Rank 1: Field Assistant
+
+Access to simple research tasks and extra Alchemy recipes.
+
+Rank 2: Junior Scribe
+
+Unlocks:
+
+Scribe’s Focus Draught (58).
+
+Bonus lore drops from exploration contracts.
+
+Rank 3: Senior Adjunct
+
+Ability to propose specific research projects:
+
+Creature behavior studies.
+
+Corruption experiments.
+
+Interactions With Other Systems
+With Alchemy (58)
+
+Scholars and Wardens contracts feed:
+
+Rare reagents.
+
+New recipes.
+
+Alchemists can take:
+
+Supply and research contracts that specifically request brewed items.
+
+Completing those contracts:
+
+Gives more rep with Scholars and Lodge Proper.
+
+With Corruption (91)
+
+Wardens contracts directly:
+
+Raise or lower ZCL in pockets.
+
+Change HCL expectations for hunts.
+
+The Hunt Board can show:
+
+Corruption icons on contracts tied to high ZCL zones.
+
+With Hunts and Dungeons (61, 65, 77)
+
+Many dungeons are entered via:
+
+Hunt Board contracts (key or recommended).
+
+Contract completions:
+
+Modify dungeon states:
+
+Clear out certain enemy types.
+
+Change environmental setups for future runs.
+
+With Professions & Lodge Projects (95)
+
+Some contracts:
+
+Request specific crafted items.
+
+Ask for complete bundles (herbs + essences + balms).
+
+Turning in these contracts:
+
+Advances Lodge Projects:
+
+Upgrading the infirmary.
+
+Building new Alchemy stations.
+
+Reinforcing ward stones.
+
+Progression and Tuning (Greatwood 1–20)
+Expected Flow
+
+Player arrives at Lodge as:
+
+Guest of the Lodge.
+
+First set of contracts:
+
+Simple Standard Hunts and Supply runs.
+
+Basic Corruption awareness.
+
+By level ~10:
+
+Player is Pledged or Bound Hunter.
+
+At least Rank 1 in one circle.
+
+By level ~20:
+
+Player is Bound or Sworn Ember.
+
+Rank 2 or 3 in at least one circle.
+
+Has touched all four circles at least a bit.
+
+Rate of Gain
+
+Standard Hunts:
+
+Moderate rep.
+
+Corruption contracts:
+
+Slightly higher rep with Wardens due to higher risk.
+
+Supply/Research:
+
+Low but repeatable rep.
+
+Story beats:
+
+Large rep spikes to push players into new tiers.
+
+UI and Feedback
+In Lodge
+
+Visual indicators near NPCs:
+
+Small crest or badge showing:
+
+Current rank with their circle.
+
+Hunt Board:
+
+Icons or colored ribbons on contracts showing:
+
+Which circle is offering the job.
+
+Notifications:
+
+On rank-up:
+
+Short in-world ceremony, not just a popup.
+
+NPC reactions.
+
+In the Field
+
+Contracts tracked in a clean way:
+
+A “Contracts” tab in quest log.
+
+Some hunts show subtle overlays on targets:
+
+Markers that show contract relevance.
+
+Failure, Abandonment, and Reputation Loss
+
+Abandoning a contract:
+
+No rep gained.
+
+Small rep hit with the offering circle if repeated.
+
+Failing a contract (e.g., a target escapes or timer expires):
+
+Possible minor rep loss, depending on context.
+
+Some story contracts:
+
+May change narrative outcomes instead of pure rep loss.
+
+The system should not be overly punishing early. Losing rep should be:
+
+Rare.
+
+Mostly tied to narrative events or repeated negligence.
+
+Future Hooks Beyond Greatwood
+
+The Greatwood Lodge framework needs to scale to:
+
+Multiple Lodges in different regions.
+
+External factions with their own boards and contracts.
+
+A global “Hunter Rank” that other NPCs recognize.
+
+Future expansions may add:
+
+Competing hunter companies.
+
+Political choices:
+
+Siding with one circle over another.
+
+Season-style systems:
+
+Rotating contract themes.
+
+Regional corruption events.
+
+All of these reuse the base structure defined here: circles, rep, Hunt Board, contracts, rewards.
