@@ -1,0 +1,245 @@
+# 86 – Hunter Trophies, Achievements, and Lodge Trophy Wall
+
+## Purpose
+
+Define the **trophy and achievement layer** for Emberwild:
+
+- How player accomplishments are represented **in-world** (trophies, mounts, plaques)
+- How a light achievement system ties into:
+  - Hunts & Deeds (61, 66)
+  - Dungeons & bosses (65)
+  - Professions & Lodge contributions (52–59, 85)
+- How the **Lodge Trophy Wall / Hall of Deeds** evolves over time.
+
+Goal: make progression feel visible and tangible, especially **inside the Lodge**.
+
+---
+
+## Core Concepts
+
+1. **Physical trophies in the Lodge**
+   - Antlers, tusks, plaques, beast heads, carved reliefs.
+
+2. **Personal achievement log**
+   - A UI/log showing:
+     - Major hunts completed.
+     - Notable firsts.
+     - Milestone counters.
+
+3. **Shared vs personal recognition**
+   - Some trophies:
+     - Represent the Lodge’s collective achievements.
+   - Some small items:
+     - Belong to the player’s personal space (future rooms/housing).
+
+---
+
+## Trophy Types
+
+### 1. Beast Trophies
+
+Gained from:
+
+- World bosses (66).
+- Certain Deeds (61, 65).
+- Rare hunts.
+
+Examples:
+
+- **Elder Hollow Stag Antlers**
+- **Ash-Touched Dire Boar Head**
+- **Hollowroot Warden Carapace**
+
+Uses:
+
+- Mounted in Lodge Trophy Wall / Hall of Deeds.
+- Some trophies:
+  - Have a small mechanical function (very mild):
+    - Slight Lodge-wide buff while trophy is “fresh” (time-limited).
+  - Or purely cosmetic / bragging rights.
+
+### 2. Commemorative Plaques
+
+Text-based trophies that:
+
+- Mark events or milestones:
+
+  - “First time the Hollowroot Warren was cleared.”
+  - “Record number of successful hunts in a season.”
+
+Displayed:
+
+- On walls or stands in a dedicated Hall.
+- In UI as an achievement list.
+
+### 3. Profession Showpieces
+
+Items that represent:
+
+- Mastery in a profession or special achievement:
+
+  - Exquisite bow.
+  - Legendary stew pot.
+  - Ornate carved panel.
+
+These are:
+
+- Placed in relevant wings:
+  - Woodworker showpiece in Carpenter’s Hall.
+  - Ember Pot-related artifact in Kitchen.
+- Linked to profession quests (59) and Ember Pot loops (85).
+
+---
+
+## Lodge Trophy Wall / Hall of Deeds
+
+### Location & Layout
+
+- A dedicated room or large wall within the Lodge:
+  - Polished wood.
+  - Hanging trophies.
+  - Plaques, banners, and maps.
+
+### Behavior
+
+- As player completes major Deeds/Hunts:
+  - New trophies appear.
+  - Plaques update with text referencing:
+    - The player (if appropriate).
+    - Their group (in future co-op).
+    - Date or season in-world.
+
+- Trophy wall has:
+  - Interaction points:
+    - Player can read short text blurbs.
+    - Some are voiced/voiced barks from hunters reminiscing.
+
+---
+
+## Achievement Categories (System Stub)
+
+Achievements are **lightweight** and map directly to:
+
+1. **Hunting & Deeds**
+   - Kill specific world bosses.
+   - Complete X Hunts.
+   - Complete all Deeds in Greatwood.
+
+2. **Exploration**
+   - Discover all major POIs in Greatwood (63).
+   - Find hidden caches or rare events (62, 78).
+
+3. **Professions & Ember Pot**
+   - Cook X unique recipes.
+   - Reach high profession ranks (59).
+   - Bring the Ember Pot to Feast state Y times (85).
+
+4. **Dungeon & Hollowroot**
+   - Clear Hollowroot Warren on-level (65).
+   - Defeat boss without certain resources (challenge sub-category).
+
+5. **Social & Lodge Life**
+   - Participate in Ember Night Feast.
+   - Help host a festival (64).
+   - Resolve specific Lodge political quests (83).
+
+---
+
+## Player-Facing UI
+
+- Achievement tab in the in-game Game Bible / Archive (69):
+
+  - Organized by:
+    - Category (Hunts, Exploration, Professions, Social).
+  - Each entry:
+    - Name
+    - Short description
+    - Requirements (if discovered)
+    - Reward (if any)
+
+- Optional:
+  - Small **emblem system**:
+    - Earned icons that can appear on player nameplate, cloak patch, or weapon carving.
+
+---
+
+## Rewards & Philosophy
+
+### Reward Types
+
+- **Cosmetic gear & decor**
+  - Cloaks with Heraldry.
+  - Banner variants.
+  - Lodge-inspired armor accents.
+- **Minor mechanical bonuses**
+  - Very small stat bumps or convenience perks:
+    - Extra camp slot.
+    - Slightly better chance of specific ingredient drops.
+- **Titles / Honorifics**
+  - “Boar-Breaker,” “Watcher of the Glades,” etc.
+
+### Philosophy
+
+- Achievements are:
+  - For pride & identity.
+  - Mild mechanical perks, not mandatory grind.
+- Major progression:
+  - Still driven by:
+    - Hunts, Deeds, professions, and story.
+
+---
+
+## Dynamic Recognition
+
+### NPC Reactions
+
+- After certain achievements:
+  - NPCs:
+    - Use different dialogue:
+      - “You’re the one who took down the Elder Hollow Stag.”
+  - Some quests:
+    - Recognize your status and react accordingly.
+
+### Trophy Aging & Story
+
+- Trophies:
+  - Might get:
+    - Dusty or replaced over long arcs (future).
+- Story:
+  - Old trophies can be referenced in later expansions:
+    - “This boar’s head reminds me the forest always bites back.”
+
+---
+
+## Integration With Other Systems
+
+- **Hunts & Deeds (61, 66):**
+  - Each major Deed/world boss has:
+    - Associated trophy.
+    - Achievement entry.
+
+- **Dungeon & Hollowroot (65):**
+  - Hollowroot clear trophies decorate certain Lodge corners.
+
+- **Professions & Ember Pot (52–59, 85):**
+  - Profession showpieces and Ember Pot milestone plaques.
+
+- **Lodge Social Layer (64):**
+  - Ceremonies:
+    - Small events for placing a new major trophy on the wall.
+
+- **Talents & Growth (82):**
+  - Some talents might reference:
+    - Past hunts/achievements for narrative flavor.
+
+---
+
+## Next Actions
+
+- Create a **trophy list** for Greatwood 1–20:
+  - World bosses, Deeds, Hollowroot, profession showpieces.
+- Define:
+  - 10–20 early achievements and their rewards.
+- Draft:
+  - Example Hall of Deeds layout.
+  - Sample trophy plaques texts and associated NPC commentary.
