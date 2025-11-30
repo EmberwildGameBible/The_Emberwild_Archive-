@@ -1,0 +1,1003 @@
+B101 – Lodge Laboratories & Warding Wing (Greatwood 1–20)
+Purpose
+
+Define the physical and systemic heart of:
+
+Alchemy (58)
+
+Corruption & Cleansing (91)
+
+Lodge Reputation & Circles (59)
+
+Early Professions & Research (95, forward ref)
+
+in one coherent space inside the Greatwood Lodge:
+
+The Lodge Laboratories & Warding Wing.
+
+This feature sets up:
+
+The physical layout (rooms, stations, NPCs).
+
+The systems:
+
+Research projects
+
+Warding network maintenance
+
+Corruption sample handling
+
+Alchemy integration
+
+The progression and upgrades for 1–20.
+
+Expansion hooks for later regions and Lodges.
+
+It should feel like:
+
+“The place where the Lodge dissects the Emberwild and tries to keep it from eating everyone.”
+
+High-Level Fantasy
+
+The Warding Wing and Labs are:
+
+A cluster of rooms where:
+
+Alchemists boil down monster parts.
+
+Wardens watch over ward stones and corruption maps.
+
+Scholars argue about what the forest wants.
+
+Functionally, it is:
+
+A hub for research, crafting, and world-state manipulation.
+
+Narratively, it is:
+
+The place where players see:
+
+How seriously the Lodge takes Corruption.
+
+How messy and contested the “science of Emberwild” is.
+
+Greatwood 1–20 implements a small, dense version of this space that will later be mirrored and expanded in other Lodges.
+
+Design Pillars
+
+Space as a System Map
+
+The rooms themselves visually communicate:
+
+What systems exist.
+
+How advanced they are.
+
+Upgrades should be physically visible:
+
+More shelves, more instruments, stronger ward glows.
+
+Research as a Slow Engine, Not a Gacha Slot
+
+Research projects take:
+
+Time.
+
+Resources.
+
+Hunts.
+
+They unlock:
+
+Recipes, perks, information, and new contracts.
+
+No instant “press button, get random bonus” feeling.
+
+Wards as a Concrete, Manipulable Layer
+
+Wards are not lore wallpaper.
+
+They:
+
+Directly interact with ZCL and Corruption patterns (91).
+
+Are maintained, reinforced, and expanded via projects and contracts.
+
+Cross-Circle Ownership
+
+The Wing is jointly used by:
+
+Wardens’ Circle.
+
+Scholars’ Circle.
+
+Supported by Lodge Proper and Huntmasters.
+
+Reputation in those circles changes:
+
+What you see.
+
+What you are trusted with.
+
+Expandable Blueprint
+
+Structure should scale to:
+
+Bigger Lodges.
+
+New research fields.
+
+Endgame corruption experiments.
+
+Physical Layout (Greatwood Wing)
+
+In Greatwood, the Warding Wing branch of the Lodge has four main spaces:
+
+The Alchemical Infirmary
+
+Function:
+
+Entry-level alchemy, basic medical treatment, HCL cleansing (91).
+
+Systems:
+
+Alchemy Station (Tier 1–2).
+
+Basic cleansing rites.
+
+NPCs:
+
+Lodge Medic.
+
+Apprentice Alchemist.
+
+The Research Gallery
+
+Function:
+
+Study of beasts, plants, and minor corruption.
+
+Systems:
+
+Research projects board.
+
+Specimen displays.
+
+Lore unlocks, journals, and codices.
+
+NPCs:
+
+Scholars’ Circle representatives.
+
+Scribes.
+
+The Warding Hall
+
+Function:
+
+Monitoring and maintaining ward stones and the local warding network.
+
+Systems:
+
+Greatwood ward map.
+
+Warden-led cleansing projects.
+
+ZCL overview for key pockets (91).
+
+NPCs:
+
+Warden of Wards.
+
+Ward apprentices.
+
+The Restricted Lab
+
+Function:
+
+Controlled handling of dangerous corruption samples.
+
+Prototypical high-risk experiments.
+
+Systems:
+
+Story-gated access.
+
+Corruption experiments tied to future perks/features.
+
+NPCs:
+
+Fringe Alchemist.
+
+Occasionally a Huntmaster inspector or Lodge officer.
+
+In Greatwood 1–20, the Restricted Lab is only partially open: most of its later functionality is teased, not fully unlocked.
+
+Core Systems
+
+The Wing runs three main systemic pillars, all interconnected:
+
+Research Projects
+
+Warding Network Management
+
+Corruption Sample & Experiment Handling
+
+Alchemy (58) plugs into all three.
+
+1. Research Projects
+Concept
+
+Research projects are multi-step tasks that:
+
+Consume:
+
+Reagents.
+
+Hunt trophies.
+
+Corruption samples.
+
+Require:
+
+Time.
+
+Sometimes player actions (field collection).
+
+Produce:
+
+Recipes.
+
+Perks.
+
+New contract types.
+
+Lore and codex entries.
+
+They are initiated and tracked in the Research Gallery.
+
+Basic Flow
+
+Player talks to a Scholar NPC or interacts with a Research Ledger.
+
+They see:
+
+A list of available projects.
+
+Each with:
+
+Requirements.
+
+Estimated time.
+
+Rewards.
+
+Player funds or starts a project by:
+
+Contributing required items and sometimes gold.
+
+Project enters:
+
+An in-world time state (e.g., “completes after next 2 Hunts”).
+
+After conditions are met:
+
+Player returns to claim rewards and see changes in the Wing.
+
+Project Types (Greatwood 1–20)
+
+Bestiary Studies
+
+Focus:
+
+Beasts, corrupted variants, behaviors.
+
+Requirements:
+
+Trophies or parts from specific creatures (from Hunts, 61).
+
+Rewards:
+
+Bestiary codex entries.
+
+Minor combat tips or hints in UI.
+
+Occasional combat perks vs that creature type.
+
+Alchemical Studies
+
+Focus:
+
+New tonics, balms, brews (58).
+
+Requirements:
+
+Rare herbs.
+
+Monster essences.
+
+Rewards:
+
+New recipes.
+
+Yield or potency slight improvements for certain brews.
+
+Example:
+
+“Hollowcap Toxicology”: unlocks a better Hollowroot Soothing Balm variant.
+
+Corruption Field Studies
+
+Focus:
+
+How corruption spread behaves.
+
+Requirements:
+
+Corruption ichor samples from specific ZCL pockets (91).
+
+Completion of relevant corruption Hunts.
+
+Rewards:
+
+Improved Lodge map readings in Warding Hall.
+
+New corruption icons on Hunt Board contracts.
+
+Pre-requisite flags for warding projects.
+
+Lodge Infrastructure Studies
+
+Focus:
+
+Long-term projects that improve the Lodge’s functionality.
+
+Requirements:
+
+Mixed resource bundles:
+
+Timber.
+
+Stone.
+
+Reagents.
+
+Rewards:
+
+Small Alchemy station upgrades.
+
+Infirmary improvements.
+
+Cheaper cleansing rites.
+
+Research Project UI
+
+In the Research Gallery, the Research Ledger UI shows:
+
+Tabs:
+
+Bestiary, Alchemy, Corruption, Lodge.
+
+Project cards:
+
+Name, type, circle sponsor.
+
+Required items and approximate field tasks.
+
+Reward summary and story blurb.
+
+State:
+
+“Available”, “In Progress”, “Completed (Turn In)”.
+
+Players can have:
+
+1–2 research projects active at once in Greatwood.
+
+More slots unlocked via Scholars’ Circle rep (59).
+
+2. Warding Network Management
+Concept
+
+The Warding Hall is where:
+
+Ward stones and sigils that protect the Lodge and nearby Greatwood are monitored.
+
+Zone Corruption Levels (ZCL, 91) are visualized.
+
+Ward-based projects and contracts are initiated.
+
+The idea is:
+
+Wards are a set of magical and physical constructs that push back against Corruption. They require constant maintenance, fuel, and knowledge to remain effective.
+
+Warding Map
+
+The centerpiece of the Warding Hall is the Greatwood Ward Map:
+
+A large tabletop or wall map showing:
+
+Key pockets and regions.
+
+Their current ZCL.
+
+Ward lines leading out from the Lodge.
+
+Interactable:
+
+Player can inspect pockets for more detail:
+
+ZCL, recent changes.
+
+Known threats and contracts available nearby.
+
+Ward Stones and Lines
+
+At a systems level:
+
+Ward stones are discrete anchors in the world:
+
+Some visible near the Lodge and along major routes.
+
+Some remote, accessible via specific quests.
+
+Ward lines are:
+
+The conceptual lines connecting stones.
+
+Represent protective influence.
+
+In 1–20:
+
+The player’s main interaction is via:
+
+Ward stones near Greatwood Lodge.
+
+Occasional field ward stones (quest targets).
+
+They see the effects as:
+
+Slightly reduced ZCL or slower creep in covered regions.
+
+Different spawn patterns along warded routes.
+
+Warding Projects
+
+The Warding Hall offers projects similar to research, but explicitly tied to:
+
+Raising, repairing, or expanding the ward network.
+
+Types of warding projects:
+
+Reinforcement Projects
+
+e.g., “Shore Up the North Wards”
+
+Requirements:
+
+And/or:
+
+Stone and timber.
+
+Warding reagents.
+
+Completion of specific corruption contracts.
+
+Effect:
+
+Reduces ZCL in one or more pockets by 1.
+
+Or slows creep timers for a period.
+
+New Ward Line Projects
+
+e.g., “Extend Wards to Hollowroot Fringe”
+
+Requirements:
+
+Field quests to reach and empower a new ward stone.
+
+Protecting Wardens performing the ritual.
+
+Effect:
+
+Adds a new ward line to the map.
+
+Grants mild global buff near that pocket (slightly safer travel).
+
+Experimental Wards
+
+e.g., “Corruption Redirect Test”
+
+Requirements:
+
+Dangerous experiments in the Restricted Lab.
+
+Effect:
+
+Moves ZCL pressure from one region to another.
+
+Often with narrative consequences.
+
+Warding projects are generally sponsored by the Wardens’ Circle, and completing them yields Wardens rep (59).
+
+3. Corruption Sample & Experiment Handling
+Concept
+
+The Restricted Lab is a tightly controlled space where:
+
+Hunters deliver:
+
+Corruption ichor.
+
+Mutated tissues.
+
+Strange artifacts.
+
+Scholar-alchemists and Wardens:
+
+Run experiments.
+
+Develop advanced brews and wards.
+
+Trigger story events.
+
+In Greatwood 1–20, this system is heavily gated and used mostly to:
+
+Unlock advanced tier of corruption-related brews (58).
+
+Gate certain corruption story beats (91, 96).
+
+Sample Intake
+
+Flow:
+
+Player completes:
+
+Corruption-heavy Hunts or contracts.
+
+They gain:
+
+Specific “Specimen” or “Sample” items.
+
+Back at the Lodge:
+
+They can deliver these to the Restricted Lab intake desk.
+
+Lab staff:
+
+Logs the sample.
+
+Adds progress toward specific experimental projects.
+
+UI:
+
+A simple “Specimen Log” shows:
+
+Samples turned in.
+
+Running totals/progress toward experiments.
+
+Associated research/warding projects.
+
+Experiments
+
+Experiments are a special sub-type of research/warding projects with:
+
+Higher risk.
+
+Stronger narrative implications.
+
+Types in Greatwood 1–20:
+
+Stabilization Trials
+
+Goal:
+
+Safely store corruption samples without them affecting the Lodge.
+
+Result:
+
+Unlock certain alchemy stabilizers.
+
+Reduce risk of random corruption events in the Lodge.
+
+Purification Trials
+
+Goal:
+
+Extract “pure essence” from corrupted material.
+
+Result:
+
+Unlock recipes like Purge of the Glade and Warden’s Veil (58) in their stronger variants.
+
+Possibly create rare reagents used in later gear or story.
+
+Behavioral Trials (mostly narrative in 1–20)
+
+Goal:
+
+Understand how Corruption affects beasts and humans.
+
+Result:
+
+Codex entries.
+
+Story beats about ethics, risk, and Lodge politics.
+
+Long-term hooks for player perks or scars later.
+
+Experiments are often flagged as:
+
+Sponsored jointly by Scholars and Wardens.
+
+Requiring Lodge Proper approval as they scale.
+
+NPC Roles and Circles
+
+The Wing’s NPCs are key for making the systems feel alive.
+
+Named Roles (Greatwood)
+
+Warden of Wards
+
+Circle:
+
+Wardens.
+
+Function:
+
+Oversees Warding Hall and map.
+
+Offers warding projects and corruption contracts.
+
+Personality:
+
+Tired, practical, unsentimental.
+
+Fringe Alchemist
+
+Circles:
+
+Scholars, lightly tolerated by Wardens.
+
+Function:
+
+Leads Restricted Lab experiments.
+
+Offers high-risk alchemy projects and corruption brews.
+
+Personality:
+
+Brilliant, reckless, defensive about methods.
+
+Lodge Medic
+
+Circle:
+
+Lodge Proper, allied with Scholars.
+
+Function:
+
+Manages Alchemical Infirmary.
+
+Handles HCL cleansing for players, especially at high HCL (91).
+
+Personality:
+
+Gruff but caring.
+
+Senior Scribe
+
+Circle:
+
+Scholars.
+
+Function:
+
+Records research outcomes.
+
+Unlocks lore, codex entries, and Scribe’s Focus Draught (58).
+
+Personality:
+
+Curious, talkative, socially awkward.
+
+Each NPC’s dialogue shifts a little as:
+
+Research and warding projects complete.
+
+Player’s rep in the relevant circle goes up.
+
+World corruption state changes.
+
+Progression and Upgrades (Greatwood 1–20)
+
+The Wing begins basic and slowly upgrades.
+
+Initial State
+
+At player arrival:
+
+Alchemical Infirmary:
+
+One basic Alchemy station (Tier 1).
+
+Simple cleansing rituals.
+
+Research Gallery:
+
+Mostly empty shelves and a few specimen jars.
+
+Only basic Bestiary and Alchemical projects visible.
+
+Warding Hall:
+
+Greatwood map with only:
+
+Lodge.
+
+A few nearby pockets.
+
+Ward lines are minimal.
+
+Restricted Lab:
+
+Locked door or heavily gated.
+
+Only visible through a small window.
+
+Mid-Progression (Levels ~8–14)
+
+After some research and Hunts:
+
+Infirmary:
+
+Tier 2 Alchemy station:
+
+More recipes available.
+
+Slight efficiency improvements.
+
+New cleansing options:
+
+Better HCL reduction for a cost.
+
+Research Gallery:
+
+Several ongoing projects.
+
+Specimen displays from key beasts.
+
+Codex shelves filling with entries.
+
+Warding Hall:
+
+More ward lines active.
+
+More pockets visible on map, with live ZCL.
+
+Warding projects available.
+
+Restricted Lab:
+
+Partially opened:
+
+Player allowed inside supervised zones.
+
+First experiments online.
+
+Late Greatwood (Levels ~15–20)
+
+Near the end of the 1–20 arc:
+
+Infirmary:
+
+Fully online for the region:
+
+Most early-game alchemy and cleansing unlocked.
+
+Research Gallery:
+
+At least one major project in each category completed.
+
+Warding Hall:
+
+Ward lines extended to at least:
+
+Hollowroot Fringe.
+
+Black Sap Grove.
+
+More advanced warding projects open.
+
+Restricted Lab:
+
+Several experiments completed.
+
+At least one major corruption story event triggered here.
+
+Player relationship:
+
+Ideally has:
+
+Rank 2+ Scholars.
+
+Rank 2+ Wardens.
+
+Sufficient Lodge Proper rank to be trusted in this wing.
+
+Integration With Other Systems
+Alchemy (58)
+
+The Infirmary is the physical Alchemy hub.
+
+Research projects in the Wing unlock:
+
+New brews.
+
+Stronger variants.
+
+Slight crafting bonuses.
+
+Wording:
+
+Recipes from 58 should reference being learned:
+
+From Medic.
+
+From Fringe Alchemist.
+
+Through specific research projects.
+
+Corruption & Cleansing (91)
+
+Warding Hall:
+
+Displays ZCL from 91.
+
+Warding projects adjust ZCL and creep.
+
+Restricted Lab:
+
+Uses HCL mechanics for narrative (if player enters with high HCL, NPCs react).
+
+Cleansing:
+
+Lodge cleansing rites defined in 91 are physically performed in Infirmary.
+
+Lodge Rep & Circles (59)
+
+Scholars’ Circle:
+
+Controls research project access and count.
+
+Wardens’ Circle:
+
+Controls warding project access and potency.
+
+Lodge Proper:
+
+Gating:
+
+Access to Restricted Lab.
+
+High-level ward decisions.
+
+Rep thresholds:
+
+Should unlock new tiers of projects and privileges in the Wing.
+
+Hunts & Contracts (61)
+
+Many research and warding projects:
+
+Require completion of specific Hunts.
+
+Hunt Board:
+
+Contracts explicitly “for the Labs” or “for the Warden of Wards”.
+
+Returns:
+
+Trophies and samples turned in to Wing NPCs.
+
+Professions & Lodge Projects (95, Forward)
+
+Professions (Herbalist, Forester, etc.):
+
+Provide materials for research and warding.
+
+Lodge Projects:
+
+Larger upgrades (e.g. new wing expansions) might chain through B101.
+
+UI Considerations
+In the Wing
+
+Interactable hotspots:
+
+Alchemy Stations.
+
+Research Ledger.
+
+Warding Map.
+
+Specimen Log.
+
+Data screens:
+
+Research Ledger: projects and status.
+
+Warding Map: ZCL, ward lines, pocket details.
+
+Specimen Log: samples turned in and experiments.
+
+Outside the Wing
+
+Simple indicator on Hunt Board contracts:
+
+Small Scholar or Warden icon if relevant to a project.
+
+In the world:
+
+Ward stones with readable inscriptions that reference:
+
+Warden of Wards.
+
+Projects the player has funded.
+
+Tuning and Constraints (Greatwood Slice)
+
+Limit active projects:
+
+1–2 research + 1 warding + 1 experiment max simultaneously.
+
+Costs:
+
+Should feel significant but not grindy:
+
+Roughly equivalent to a few Hunts’ worth of income per substantial project.
+
+ZCL influence:
+
+Warding projects should be meaningful but not trivializing.
+
+Example:
+
+Reinforcing wards might reduce ZCL in one pocket by 1 or increase it elsewhere.
+
+Future Hooks Beyond Greatwood
+
+The B101 blueprint supports:
+
+Larger regional Lodges with:
+
+Multiple Labs.
+
+Specializations: beast labs, elemental labs, deep corruption labs.
+
+Faction divergence:
+
+Some Lodges may:
+
+Embrace experimental corruption use.
+
+Others focus solely on purification.
+
+Player-facing corruption perks:
+
+Experiments enabling:
+
+Corruption-powered abilities.
+
+Semi-permanent scars and quirks.
+
+Seasonal / global events:
+
+Wards failing or surging due to world meta events.
+
+The key rule:
+
+Future expansions reuse and extend this Wing structure instead of inventing unrelated “magic systems” floating in a vacuum.
