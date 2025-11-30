@@ -1,0 +1,127 @@
+# 67 – Tracking, Trail Signs, and Fieldcraft Core System
+
+## Purpose
+
+Design the **core tracking / fieldcraft system** that makes Emberwild feel like a true **hunting game**:
+
+- Track beasts via visual + systemic clues
+- Use **trail signs** (natural and player-made)
+- Tie tracking into:
+  - Hunts & Deeds (61, 66)
+  - Forester / Hunter identity
+  - Professions & combo items (57)
+  - Events (62) and regions (63)
+
+This spec defines mechanics, UI, readability, and progression.
+
+---
+
+## Design Goals
+
+1. **Readable but not trivial**  
+   Players should *learn* to read the forest, not just follow a glowing line.
+
+2. **Multiple clue types**  
+   Tracking uses:
+   - Footprints
+   - Broken branches, disturbed foliage
+   - Blood, droppings, fur
+   - Sound and ambient cues
+
+3. **Scales with skill / gear**  
+   Better tracking skill and gear = clearer clues, more options.
+
+4. **Supports solo and group**  
+   One player might lead, others follow; tracking can be a role.
+
+---
+
+## Core Tracking Concepts
+
+### Sign Types
+
+- **Footprints / tracks**
+- **Broken vegetation** (trampled grass, broken branches)
+- **Material traces** (blood, fur, droppings)
+- **Sound cues** (distant calls, movement sounds)
+- **Environmental markers** (scratch marks, gouged trees)
+
+### Track Quality
+
+Each clue/sign has:
+
+- **Freshness:** fresh / recent / old
+- **Clarity:** clear / partial / faint
+- **Direction:** rough arrow of movement
+
+Clarity and freshness are affected by:
+
+- Time since the animal passed
+- Weather (rain, wind, snow later)
+- Terrain type (mud vs rock vs leaves)
+- Player skill & gear (better perception = easier to notice / interpret)
+
+---
+
+## Player-Facing Mechanics
+
+### Base Tracking (No Special Gear)
+
+What every player can do:
+
+- See **obvious tracks** (big prints, heavy blood) at close range.
+- Inspect interactable signs:
+  - “These tracks are fresh, heading southeast.”
+- Follow a rough chain of clues to target.
+
+Limitations:
+
+- Fainter tracks may not show at all.
+- No UI overlays for direction beyond short, simple hints.
+- Easier to lose the trail in poor conditions.
+
+---
+
+### Tracking Skill & Progression
+
+Tracking can be:
+
+- A **subset** of a broader Hunter/Forester skill
+- Or a dedicated “Tracking” skill (1–10, extendable)
+
+Higher skill grants:
+
+- Increased range at which tracks are visible
+- Better clue detail:
+  - Rough estimate of group size
+  - Rarity of target
+  - Whether target is injured or spooked
+- Additional context barks:
+  - “They’re moving faster now.”
+  - “They doubled back recently.”
+
+Skill can be improved by:
+
+- Completing hunts/Deeds (61, 66)
+- Using tracking in the field (following trails, successful kills)
+- Profession quests (Forester-focused, 59)
+
+---
+
+### Trail Signs (Player-Made)
+
+Players can create their own **trail signs** to:
+
+- Mark paths
+- Indicate danger or interest
+- Communicate with other players (multiplayer future)
+
+Examples:
+
+1. **Cut Bark Marker**
+   - Simple marking on a tree.
+   - Craftable by Forester or any player with basic kit.
+   - Visible on the world and possibly on mini-map as subtle icon.
+
+2. **Ground Stack / Rock Pile**
+   - Small cairn to mark direction
