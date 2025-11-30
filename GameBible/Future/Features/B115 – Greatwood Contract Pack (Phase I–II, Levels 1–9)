@@ -1,0 +1,837 @@
+B115 – Greatwood Contract Pack (Phase I–II, Levels 1–9)
+Purpose
+
+Define the early contract lineup for Greatwood, Phases I–II (roughly levels 1–9), so that:
+
+Onboarding (B111) has specific Hunts & tasks to point at.
+
+Pockets & landmarks (B113) are used immediately.
+
+Enemy families (B114) appear in curated, teachy groupings.
+
+Systems like:
+
+Hunts & contracts (59, 61, B103)
+
+Professions (B108)
+
+Alchemy (58)
+
+Projects (B102)
+
+Social & circles (B105)
+
+get early, low-stress exposure.
+
+This does not cover Signature Hunts; those are B103. These are the everyday jobs.
+
+Contract Categories (Phase I–II)
+
+For this band we use:
+
+Tutorial Hunts (Phase I only)
+
+Standard Hunts
+
+Support & Supply Contracts
+
+Research & Observation Tasks
+
+Escort / Protection Contracts
+
+Event-Adjacent Minis (early hooks into B104)
+
+Each contract below should be thought of as a template:
+
+Can be slightly rescaled, remixed, or re-run with variants.
+
+Has:
+
+Name.
+
+Type.
+
+Pocket/landmark.
+
+Level band.
+
+Short narrative blurb.
+
+Objective structure.
+
+System notes.
+
+1. Tutorial Hunts (Phase I)
+
+These are the “guided” intro Hunts – lightly scripted and used by B111.
+
+T1 – “First Blood on the Ridge”
+
+Type: Tutorial Hunt – Kill.
+
+Pocket: Ridge Approach (near Lodge Ridge).
+
+Level Band: 1–2.
+
+Blurb:
+
+“A lone ridge-wolf has been prowling too close to the Lodge. The Keeper wants to see what your hands can do.”
+
+Objectives:
+
+Speak with Huntmaster Ruarc at the Hunt Board.
+
+Follow a short marked trail down Ridge Approach to the indicated clearing.
+
+Kill 1× Ridge Wolf (slightly weakened tutorial variant).
+
+Return to Lodge and report to Ruarc.
+
+Systems Taught:
+
+Basic Hunt UI: accept → track minimal waypoint → completion.
+
+Simple combat: light/heavy, dodge.
+
+Return & turn-in loop.
+
+Notes:
+
+No real tracking yet; just a waypoint/perched wolf.
+
+Reward:
+
+Slight upgrade of starter weapon (e.g., Ridgewood Longknife).
+
+Tiny gold, Lodge Proper rep.
+
+T2 – “Tracks in the Mud”
+
+Type: Tutorial Hunt – Tracking & kill.
+
+Pocket: Ridge Approach, branching off toward Ragged Verge.
+
+Level Band: 2–3.
+
+Blurb:
+
+“Something bigger than wolves is rooting through the supply caches on the old road. Huntmaster Ruarc wants you to follow the signs, not just the markers.”
+
+Objectives:
+
+Talk to Scout-Captain Lyss Fen by the Hunt Board.
+
+Go to a starting marker on Ridge Approach.
+
+Track:
+
+Follow 3–4 sets of clues:
+
+Footprints.
+
+Scraped bark.
+
+Disturbed brush.
+
+At trail end, fight 1× Ridge Boar.
+
+Optional: Skin the boar (Trapper hint).
+
+Confirm kill with Lyss at Lodge.
+
+Systems Taught:
+
+Tracking interface:
+
+Highlighted clues.
+
+Interact-to-continue trail.
+
+Basic “boss-lite” behavior (telegraphed boar charge).
+
+Very early Trapper profession prompt.
+
+T3 – “Quiet Eyes, Quiet Hands”
+
+Type: Tutorial Hunt – Observation / non-lethal.
+
+Pocket: Edge of Ragged Verge.
+
+Level Band: 3–4.
+
+Blurb:
+
+“Senior Scribe Elgath claims you learn more from a live beast than a dead one. Go watch, don’t kill… if you can manage it.”
+
+Objectives:
+
+Accept contract from Elgath at his desk.
+
+Travel to a specified glade in Ragged Verge.
+
+Use Field Scribe mode:
+
+Observe a small herd of Greatwood deer.
+
+Fill an observation bar by:
+
+Staying within sight without startling them.
+
+OPTIONAL:
+
+Take a non-lethal sample (e.g., shed antler, droppings).
+
+Return to Elgath with observations.
+
+Systems Taught:
+
+Non-lethal observation objectives.
+
+Soft intro to Field Scribe track.
+
+Stealth and movement discipline.
+
+2. Standard Hunts (Phase I–II)
+
+These are repeatable-ish, more “normal” Hunts that make up the bulk of early play.
+
+H1 – “Thinning the Ridge”
+
+Type: Standard Hunt – Cull.
+
+Pocket: Ridge Approach.
+
+Level Band: 2–4.
+
+Blurb:
+
+“The wolves breed quick when the weather’s good. Cera says she saw too many eyes on the ridge trail.”
+
+Objectives:
+
+Kill 5× Ridge Wolves along Ridge Approach.
+
+Optional: Harvest 3× Wolf Pelt (Trapper).
+
+Return to Hunt Board.
+
+Systems:
+
+Basic cull design.
+
+Material harvesting synergy.
+
+H2 – “Boars in the Path”
+
+Type: Standard Hunt – Targeted cull.
+
+Pocket: Ridge Approach → Crossroads.
+
+Level Band: 3–5.
+
+Blurb:
+
+“Boars have torn up the lower path so badly that carts are turning back. Clear out the worst of them.”
+
+Objectives:
+
+Kill 3× Ridge Boars along specified path segments.
+
+Inspect 2× damaged trail sections (world objects).
+
+Report to Steward Bran (ties into road/bridge projects later).
+
+Systems:
+
+Combo of:
+
+Combat.
+
+Environmental interaction.
+
+Basic tie-in to future Lodge Projects (“Look what happens when we don’t maintain the road.”).
+
+H3 – “Beasts at the Old Signal Tower”
+
+Type: Standard Hunt – Lair clear.
+
+Pocket: Near Lodge Ridge / Old Signal Tower ruin.
+
+Level Band: 4–6.
+
+Blurb:
+
+“The old signal tower ruin has become a den. The Keeper wants it cleared before something meaner moves in.”
+
+Objectives:
+
+Enter the Old Signal Tower mini-ruin.
+
+Clear 1× small pack of Ridge Wolves and 1× Ridge Boar leader inside.
+
+Optional:
+
+Recover 1× old Lodge banner scrap (decor tie-in, B106).
+
+Report back to the Hunt Board.
+
+Systems:
+
+First “mini-dungeon” style Hunt.
+
+Interior combat, multiple enemies in small space.
+
+H4 – “Echo on the Verge”
+
+Type: Standard Hunt – Mark.
+
+Pocket: Ragged Verge.
+
+Level Band: 5–7.
+
+Blurb:
+
+“Hunters heard an odd call echoing further in the Verge. Not a full Signature Hunt, but you’re to track down the source.”
+
+Objectives:
+
+Track from Crossroads into Ragged Verge using 3–4 clues.
+
+Find and kill a special Ridge Beast variant (e.g., large wolf or stag).
+
+Optional:
+
+Bring back 1× unique trophy for a small shelf memento (B106).
+
+Report to Ruarc.
+
+Systems:
+
+Mark target:
+
+Medium-difficulty, but not a full boss.
+
+Early hint of:
+
+“notable but not world-shaking” unique creatures.
+
+3. Support & Supply Contracts
+
+These feed Professions (B108) and Projects (B102).
+
+S1 – “For the Infirmary”
+
+Type: Supply – Herbs.
+
+Pocket: Ridge Approach & lower Ragged Verge.
+
+Level Band: 2–5.
+
+Blurb:
+
+“Medic Isha is already low on salves, and that’s before the real trouble. She needs Paleleaf, and plenty of it.”
+
+Objectives:
+
+Gather 10× Paleleaf from marked herb nodes.
+
+Return to Medic Isha at the Infirmary.
+
+Optional:
+
+Bring extra for a small bonus.
+
+Systems:
+
+Herbalist profession loop.
+
+Shows:
+
+Herbs have both gameplay and narrative value.
+
+S2 – “Timber for the Roof”
+
+Type: Supply – Wood (Lodge Project hook).
+
+Pocket: Ridge Approach & Ragged Verge edge.
+
+Level Band: 3–6.
+
+Blurb:
+
+“Bran says the east roof’s ‘one good storm away from letting the stars in’. He needs decent timber.”
+
+Objectives:
+
+Chop X units of basic timber (Forester nodes).
+
+Deliver to Steward Bran.
+
+Progresses:
+
+Project: Patch the East Roof (B102) by some amount.
+
+Systems:
+
+Forester profession loop.
+
+Ties:
+
+Directly into a visible Lodge Project.
+
+S3 – “Meat for the Table”
+
+Type: Supply – Meat (Cooking).
+
+Pocket: Ridge Approach & Ragged Verge.
+
+Level Band: 3–6.
+
+Blurb:
+
+“Stove doesn’t like hungry hunters. Bring back some meat before supper.”
+
+Objectives:
+
+Kill beasts and harvest enough Raw Meat (Trapper).
+
+Return to Cook Hadden (“Stove”).
+
+Reward:
+
+Basic cooked meals that grant a short, mild buff.
+
+Systems:
+
+Trapper → Cook → food buff loop.
+
+First exposure:
+
+To cooking as a buff source.
+
+4. Research & Observation Tasks
+
+Contracts that lean into Scholars & Field Scribe.
+
+R1 – “Spores on the Wind”
+
+Type: Research – Sample collection.
+
+Pocket: Edge of Hollowroot Fringe (safe sub-area).
+
+Level Band: 5–7.
+
+Blurb:
+
+“Elgath wants a baseline on the Fringe before someone kicks the nest. Gather clean spore samples while it’s still just strange, not deadly.”
+
+Objectives:
+
+Travel to 3 marked locations in Hollowroot Fringe.
+
+Collect 3× Spore Sample from non-hostile spore clusters.
+
+Avoid:
+
+Getting POISONED more than X times (optional challenge).
+
+Return samples to Elgath.
+
+Systems:
+
+Introduces:
+
+Hollowroot Fringe environment in a light version.
+
+Teases:
+
+Warren & Matron without full danger.
+
+R2 – “A Map of Quiet Trees”
+
+Type: Research – Survey.
+
+Pocket: Ragged Verge.
+
+Level Band: 4–6.
+
+Blurb:
+
+“Lyss wants updated paths through the Verge. You’re to walk them, mark them, and try not to die.”
+
+Objectives:
+
+Visit 4× path markers in Ragged Verge.
+
+At each:
+
+Use a “Survey” interaction to annotate terrain.
+
+Optional:
+
+Kill any Ridge Beasts that attack you (small bonus).
+
+Systems:
+
+Uses:
+
+Survey interactions.
+
+Slightly reveals:
+
+Map or fast travel anchors, depending on implementation.
+
+R3 – “The Quiet Before the Rot”
+
+Type: Research – Observation in Grove edge.
+
+Pocket: Edge of Black Sap Grove (low ZCL area).
+
+Level Band: 6–8.
+
+Blurb:
+
+“Neris believes the sap is changing before it spills fully rotten. Go look, carefully, and bring back what you see.”
+
+Objectives:
+
+Approach 2–3 sap seep points.
+
+Observe:
+
+Sap color, behavior.
+
+Collect:
+
+Small samples with limited exposure:
+
+(Timer / HCL threshold).
+
+Return to Neris.
+
+Systems:
+
+Intro to:
+
+Corruption pockets in low-intensity form.
+
+Soft intro to:
+
+HCL meter and “don’t linger.”
+
+5. Escort / Protection Contracts
+
+Small, focused escorts/protects, low complexity.
+
+E1 – “Herbs for the Old”
+
+Type: Escort – Herbalist.
+
+Pocket: Ridge Approach short path.
+
+Level Band: 3–5.
+
+Blurb:
+
+“One of the Lodge’s old hands still insists on picking her own herbs. Maera wants someone watching her back.”
+
+Objectives:
+
+Escort an NPC Herbalist from Lodge to a nearby herb patch and back.
+
+Defend against:
+
+2–3 small Ridge Beast attacks.
+
+Option:
+
+Gather extra herbs yourself.
+
+Systems:
+
+Simple escort fundamentals.
+
+NPC healing & survival checks.
+
+E2 – “Fixing the Waystone”
+
+Type: Protection – Repair / Ward.
+
+Pocket: Ridge Approach → Waystone at Bend.
+
+Level Band: 5–7.
+
+Blurb:
+
+“Aelric is sending a Warden apprentice to shore up the old waystone. The last thing we need is something chewing on them mid-ritual.”
+
+Objectives:
+
+Escort a Warden Apprentice to the waypoint.
+
+Hold ground while:
+
+They perform a short ritual (timer).
+
+Waves:
+
+2–3 small groups of Ridge Beasts try to interfere.
+
+Return with apprentice alive.
+
+Systems:
+
+Protect-the-caster scenario.
+
+Small hint:
+
+At Warden rituals and ward map.
+
+6. Event-Adjacent Mini Contracts (Phase II Hooks)
+
+These lightly foreshadow B104 events, even before they fully unlock.
+
+M1 – “Rumors at the Dice Table”
+
+Type: Social mini-contract.
+
+Pocket: Lodge interior / common room.
+
+Level Band: 4–6.
+
+Blurb:
+
+“Hunt delays mean more time at the dice table. Join a few rounds; you might hear something useful.”
+
+Objectives:
+
+Play through:
+
+A short, controlled dice mini-event.
+
+Talk with:
+
+2–3 hunters at table afterwards.
+
+Gain:
+
+Rumors about:
+
+The Ragged King.
+
+Black Sap Grove.
+
+Hints of Ember Feast tradition.
+
+Systems:
+
+Social layer.
+
+Early exposure to:
+
+Taletelling & rumor network.
+
+M2 – “Stocking the Feast-Pit”
+
+Type: Supply – Feast prep (repeatable-ish).
+
+Pocket: Ember Run & Ridge Approach.
+
+Level Band: 6–9.
+
+Blurb:
+
+“Stove’s talking about a feast ‘once this business calms down’. He wants casks and meat lined up, just in case.”
+
+Objectives:
+
+Deliver a mix of:
+
+Meat (Trapper).
+
+Simple herbs (Herbalist).
+
+Wine or cask items (bought, found, or rewarded).
+
+Turn in to Stove.
+
+Systems:
+
+Early connection:
+
+Professions → Ember Feast.
+
+Progress bar:
+
+Partially fills a “Feast readiness” meter (used later when B104 triggers Ember Feast early-phase events).
+
+M3 – “Faint Lines in the Dark”
+
+Type: Research – Night check.
+
+Pocket: Wardstone Hill periphery (safe path).
+
+Level Band: 7–9.
+
+Blurb:
+
+“Elgath wants to know how the old wards hum at night. A short walk, some notes, and no heroics, please.”
+
+Objectives:
+
+Travel to Wardstone Hill at night.
+
+Inspect:
+
+3 small ward sub-stones.
+
+Return safely with notes.
+
+Systems:
+
+Introduces:
+
+Wardstone Hill.
+
+Night as a slightly different experience.
+
+Light foreshadowing:
+
+Gloaming Vigil.
+
+How These Contracts Feed Systems
+Hunts & Circles (59, 61, B105)
+
+Huntmaster-aligned contracts:
+
+T1, T2, H1, H2, H3, H4.
+
+Warden-flavored:
+
+E2, M3, some research tied to wardstones.
+
+Scholar-flavored:
+
+T3, R1, R2, R3, M1.
+
+Lodge Proper / Commons:
+
+S1, S2, S3, M2, E1.
+
+Completing more of one flavor:
+
+Slightly biases:
+
+Circle rep and social epithets.
+
+Professions & Alchemy (B108, 58)
+
+Herbalist:
+
+S1, R1, R3, E1, M2.
+
+Trapper:
+
+H1, H2, H3, S3, M2.
+
+Forester:
+
+S2, some path clearing side-steps.
+
+Cook:
+
+S3, M2.
+
+Field Scribe:
+
+T3, R1, R2, R3, M3.
+
+Rewards include:
+
+Raw materials.
+
+Basic recipes.
+
+Profession XP.
+
+Projects & Lodge Growth (B102, B111)
+
+Early Projects explicitly advanced by:
+
+Patch the East Roof:
+
+S2 (“Timber for the Roof”).
+
+Carve Out Hunter Quarters (F1):
+
+“Proof of reliability” from:
+
+H1–H3 + S1–S3.
+
+Later Phase II:
+
+E2 (“Fixing the Waystone”) feeds:
+
+Early ward extension projects.
+
+The design:
+
+The first ~10 contracts easily available will, if done casually, naturally unlock F1 and make noticeable progress on 1–2 other Lodge Projects.
+
+Corruption & Warding (B91, B101, B109)
+
+Phase I–II are:
+
+Light corruption exposure only:
+
+R1 (Fringe).
+
+R3 (Grove edge).
+
+M3 (Wardstone periphery).
+
+Effects:
+
+Players:
+
+Learn ZCL/HCL vocabulary in safe-ish contexts.
+
+See:
+
+Aelric and Neris’ tug-of-war early.
+
+Suggested Availability & Flow
+
+Rough timeline in relation to B111 phases:
+
+Phase I (1–4):
+
+Available:
+
+T1, T2, T3.
+
+H1, maybe H2.
+
+S1, S3.
+
+E1.
+
+Locked / teased:
+
+R1, R3, M2, M3 (visible but greyed out / hinted).
+
+Phase II (5–9):
+
+Everything above is now available:
+
+H3, H4.
+
+S2.
+
+R1, R2, R3.
+
+E2.
+
+M1, M2, M3.
+
+Early corruption & Warden/Scholar arcs start hooking in.
