@@ -1,4 +1,4 @@
-name: Export closed issue to Game Bible (PR)
+name: Export closed issues to Game Bible
 
 on:
   issues:
@@ -6,11 +6,10 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
-  export_issue_to_bible:
-    # Only run for closed issues, not PRs or other stuff
+  export_to_bible:
+    # Only run when the issue is actually closed
     if: github.event.issue.state == 'closed'
     runs-on: ubuntu-latest
 
@@ -20,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate Game Bible file from issue
+      - name: Create Game Bible file from issue
         run: |
           mkdir -p GameBible/Future/Features
 
@@ -28,7 +27,7 @@ jobs:
           NUM="${{ github.event.issue.number }}"
           BODY="${{ github.event.issue.body }}"
 
-          # slug-ify the title
+          # Make a safe slug from the title: lowercase, underscores
           SLUG=$(echo "$TITLE" \
             | tr '[:upper:]' '[:lower:]' \
             | sed -E 's/[^a-z0-9]+/_/g' \
@@ -36,7 +35,7 @@ jobs:
 
           FILE="GameBible/Future/Features/${NUM}_${SLUG}.md"
 
-          echo "Writing issue #$NUM into $FILE"
+          echo "Writing issue #$NUM to $FILE"
 
           {
             echo "# $TITLE"
@@ -47,17 +46,19 @@ jobs:
             echo
           } > "$FILE"
 
-      - name: Create pull request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "Add Game Bible entry for issue #${{ github.event.issue.number }}"
-          title: "Game Bible export for issue #${{ github.event.issue.number }}: ${{ github.event.issue.title }}"
-          body: |
-            This PR was automatically created to add/update the Game Bible entry
-            for closed issue #${{ github.event.issue.number }}.
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-            - Issue title: ${{ github.event.issue.title }}
-            - Issue link: ${{ github.event.issue.html_url }}
+          git add GameBible/Future/Features || echo "Nothing to add"
 
-          branch: "autogen/issue-${{ github.event.issue.number }}"
-          delete-branch: true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Add Game Bible entry for issue #${{ github.event.issue.number }}"
+          git push
