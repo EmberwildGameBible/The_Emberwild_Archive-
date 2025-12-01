@@ -1,1038 +1,702 @@
-B102 – Lodge Projects & Structural Upgrades (Greatwood 1–20)
-Purpose
+# B102 – Camps, Fieldcraft & Long Hunts (Greatwood 1–20)
 
-Define how the Greatwood Lodge evolves over time through:
+## Purpose
 
-Lodge-wide Projects (shared upgrades everyone feels).
+Define how **camps and fieldcraft** work when you leave Greatwood Lodge:
 
-Structural Upgrades to wings and services.
+- Types of camps (fixed outposts vs. temporary hunter camps)
+- How you **rest, recover, and prepare** mid-hunt
+- How camps tie into:
+  - Hunts & Deeds (61)
+  - Dynamic events (62)
+  - Region layout & POIs (63)
+  - Wounds & recovery (B101)
+  - Ember Pot & cooking (85)
+  - Social & micro-scenes (64)
+  - Secrets & caches (90)
 
-Integration with:
+This is the “**what happens between Lodge and lair**” system.
 
-Personal quarters & identity (B100)
+---
 
-Labs & Warding Wing (B101)
+## Design Goals
 
-Lodge Reputation & Circles (59)
+1. **The forest is a trip, not a loading screen**
 
-Hunts & Contracts (61)
+   - Travel is:
+     - An actual phase of play.
+     - Where real decisions and small stories happen.
+   - Camps are:
+     - Checkpoints
+     - Story nodes
+     - Not just “press sleep to heal”.
 
-Professions & resources (95, forward ref)
+2. **Fieldcraft rewards preparation**
 
-This is the 1–20 slice: the Lodge is not static. As players hunt, cleanse, research, and contribute, the Lodge physically changes and gains new capabilities.
+   - Players who:
+     - Pack smart
+     - Choose good camp spots
+     - Learn wind, terrain, and event patterns
+   - Have:
+     - Safer long Hunts
+     - Better odds on high-risk Deeds.
 
-Core fantasy:
+3. **Rest is powerful but not trivial**
 
-“My Lodge actually improves because of the work we do. When I walk through its halls at level 20, it’s clearly not the same place it was when I arrived.”
+   - Camps offer:
+     - Wound recovery
+     - Buffs
+     - Crafting/prep space
+   - But also:
+     - Time cost
+     - Resource cost
+     - Ambush risk in some areas.
+
+4. **Use the systems we already have**
+
+   - Camps lean on:
+     - Ember Pot logic (field cooking)
+     - Wound rules (B101)
+     - Secrets (90)
+     - Reps & circles (59)
+   - Instead of inventing totally separate mechanics.
 
-Design Pillars
+5. **Reusable pattern**
 
-Concrete, Visible Upgrades
+   - Greatwood’s camp structure should:
+     - Port cleanly to Hollowroot, Burn-Scar, etc.
+     - With regional flavor swaps.
 
-Projects are not just numbers in a menu.
+---
 
-Each upgrade:
+## 1. Camp Types
 
-Changes the Lodge visually.
+We define **three main types** of places you can “camp” or rest:
 
-Unlocks or improves a specific feature.
+1. **Lodge & Major Outposts** – safest, fullest features.
+2. **Semi-Permanent Hunter Camps** – pre-built field camps at POIs.
+3. **Ad-Hoc Trail Camps** – player-placed, lightweight temporary camps.
+
+### 1.1 Lodge & Major Outposts
 
-Alters NPC behavior or ambient chatter.
+**Greatwood Lodge** itself:
 
-Shared Progress, Personal Flavor
+- Full services:
+  - Ember Pot (85)
+  - Bed/quarters (B100)
+  - Wound treatment (B101)
+  - Vendors, profession stations.
 
-The Lodge upgrades are shared between all hunters.
+Major outposts (examples for Greatwood 1–20, anchored to 63):
+
+- **First Watch Tower Outpost**
+- **Edge-Settlers’ Camp**
+- **Riverbend Waystation**
+- **Ash-Edge Stand Lean-to**
+
+Major outposts:
+
+- Are **fixed locations** with:
+  - Safe rest (very low or zero ambush chance)
+  - A small cookfire or “Travel Ember Pot” variant
+  - 1–2 profession hooks (e.g. basic sharpening, minimal woodwork)
+- They serve as:
+  - Mid-region respawn/return points
+  - Hunt staging areas
+
+### 1.2 Semi-Permanent Hunter Camps
+
+These are **pre-existing hunter camps** scattered around Greatwood:
+
+- Sometimes:
+  - Have a tent or lean-to
+  - Basic fire ring
+  - Crude rack or tripod
+- Some are:
+  - Always there
+  - Others appear only when:
+    - Certain Hunts are active
+    - Certain Deeds are in specific stages.
+
+Usage:
+
+- Safe-ish **short rest** points:
+  - Limited benefits compared to Lodge
+  - Cheaper to use than building your own camp
+- Place where:
+  - Dynamic events
+  - Social scenes
+  - Secret-related content can hook in.
+
+### 1.3 Ad-Hoc Trail Camps (Player-Placed)
+
+Player can **create a small camp** out on the trail.
+
+- Requires:
+  - Camp kit item (crafted or purchased)
+  - Enough space / safe-ish terrain
+  - Not too close to:
+    - Other camps
+    - Certain POIs.
+
+Traits:
+
+- Very limited footprint:
+  - Small fire
+  - Bedroll(s)
+  - Maybe a simple rack/stand.
+- Benefits:
+  - Short rest
+  - Small wound recovery
+  - Use of certain Ember Pot-inspired field recipes (simple, not full Pot).
+- Risk:
+  - Depending on region:
+    - Low chance of night attack or disturbance.
+    - Higher near Ash-Edge / Hollowroot border.
+
+---
+
+## 2. Rest & Recovery Mechanics
+
+### 2.1 Rest Types
+
+We define three rest intensities:
+
+1. **Quick Pause (No Fire)**
+2. **Short Rest (Campfire)**
+3. **Full Rest (Sleep)**
+
+#### 2.1.1 Quick Pause
+
+- Trigger:
+  - Player chooses to “catch breath” in safe-ish area (no full camp).
+- Effects:
+  - Small stamina regen burst.
+  - Tiny HP recovery (not enough to fix big mistakes).
+- Time cost:
+  - Very short (seconds).
+- Risk:
+  - Minimal to none.
+
+Mostly a pacing tool, not a system pillar.
+
+#### 2.1.2 Short Rest (Campfire)
+
+- Trigger:
+  - Use existing hunter camp
+  - Or light a campfire at:
+    - Semi-permanent camp
+    - Ad-hoc camp position.
+- Requirements:
+  - Fuel (wood) from Forester / gathered resources.
+  - Time (1–2 in-game hours).
+- Effects:
+  - Moderate HP recovery.
+  - Minor wound recovery progress (B101):
+    - Minor wounds tick toward healing.
+    - Major wounds do **not** fully heal, but may:
+      - Reduce severity slightly if multiple rests.
+  - Buff refresh:
+    - Re-applies or extends camp-related buffs (e.g. some food).
+- Risk:
+  - In safe zones/outposts:
+    - Almost zero.
+  - In wild / high-threat zones:
+    - Small chance of:
+      - Ambush (wolves, ash-eaters, bandits).
+      - Corruption event (if near Hollowroot/ash pockets).
+
+#### 2.1.3 Full Rest (Sleep)
+
+- Trigger:
+  - Sleep at:
+    - Lodge quarters (B100)
+    - Bed in major outpost
+    - Bedroll at hunter/ad-hoc camp.
+- Requirements:
+  - Longer time skip.
+  - Consumables (optional):
+    - Food before bed
+    - Specific salves to improve healing.
+- Effects:
+
+  In **Lodge / big outpost**:
+  - Full HP restoration.
+  - Minor wounds:
+    - Always heal.
+  - Major wounds:
+    - Progress strongly toward healing (depending on treatment choices in B101).
+  - Buff:
+    - “Well-Rested” or variant, small stat boost.
+
+  In **field camp**:
+  - Good HP restoration.
+  - Minor wounds:
+    - Heal or nearly so.
+  - Major wounds:
+    - Slight progress only.
+  - Buff:
+    - Weaker “Camp-Rested” buff.
+
+- Risk:
+  - Lodge & outposts: no risk.
+  - Field camp:
+    - Low to moderate chance:
+      - Night disturbances, partial rest.
+      - Event trigger (62) for specific families (HLP, TRV, COR).
+
+---
+
+## 3. Camps & Wounds (B101)
+
+### 3.1 Wound Recovery at Camps
+
+When resting at **field camps**:
+
+- Minor wounds:
+  - Tick down faster than “just walking”.
+- Major wounds:
+  - At best:
+    - Slight reduction in penalties
+    - Or shift from “fresh” to “stabilized” state.
+- Full clean-up of major wounds:
+  - Still requires:
+    - Lodge treatment
+    - Or special story-driven solutions.
+
+### 3.2 Corrupted Wounds in the Field
+
+If you have **corrupted wounds**:
+
+- Resting in certain places is **bad**:
+
+  - Near Hollowroot border, ash pockets, or corruption nodes:
+    - Rest may cause:
+      - Wound to flare.
+      - Corruption events to trigger.
+  - At Lodge / specific blessed shrines:
+    - Rest helps **contain** corruption effects.
+
+Design note:
+
+- This creates small choices:
+  - Do I push on and camp near the lair (risky for the wound)?
+  - Or fall back to safer camp / outpost?
+
+---
+
+## 4. Camps & Ember Pot / Cooking (85)
+
+### 4.1 Field Cooking vs Lodge Ember Pot
+
+At camps, you do **field cooking**, not full Ember Pot operations:
+
+- Field cooking:
+  - Limited recipes.
+  - Single-character buffs or tiny group buffs.
+- Lodge Ember Pot:
+  - Big communal stews.
+  - Shared buffs, feasts, story events.
+
+Mechanically:
+
+- Field cooking uses:
+  - A subset of Ember Pot recipe tags.
+  - Simpler inputs:
+    - 1–3 ingredients.
+- Buffs:
+  - Shorter duration.
+  - Lower magnitude.
+
+### 4.2 Field Ember Kits
+
+Players can carry **Ember Kits**:
+
+- Consumable or partially refillable items that:
+  - Allow:
+    - 1–3 uses of field-cooking actions.
+- Higher Ember Kitchen rank (59):
+  - May grant:
+    - Better field-kit efficiency.
+    - Extra slots for recipes.
+
+Example field dishes:
+
+- **Hunter’s Jerky & Root Mash**
+  - Slight stamina boost, small HP regen.
+- **Ash-Edge Bitter Brew**
+  - Tiny resistance vs ash damage for a short time.
+- **Nerve-Steadying Tea**
+  - Small fear-resistance buff.
+
+### 4.3 Camp Interactions with Ember Kitchen Rep
 
-Personal quarters (B100) add individual flavor on top.
+High Ember Kitchen rank:
 
-Players feel:
+- Unlocks:
 
-“We built this place up together.”
+  - Extra field recipes.
+  - Slightly stronger effects.
+- Influences:
+  - Mara’s commentary when you’re back at Lodge with stories of cooking out in the dark.
+
+---
 
-“…and I carved out my own corner inside it.”
+## 5. Camps, Hunts & Deeds (61)
 
-Projects as Sinks With Meaning
+### 5.1 Staging Hunts from Camps
 
-Projects consume:
+Some Hunts/Deeds:
 
-Gold.
+- Explicitly start or stage from **specific camps**.
 
-Resources from Professions.
+Examples:
 
-Hunt trophies.
+- A **night ambush** Deed stage might require:
+  - Setting camp as bait at a certain clearing.
+- Investigation Hunts:
+  - Ask you to:
+    - “Stay overnight at the glade and watch what comes.”
 
-Corruption samples.
+Mechanically:
 
-But in return:
+- Accepting such Hunts:
+  - Temporarily tags a specific camp as:
+    - “Mission Camp”.
+- Resting there:
+  - Triggers special **event phases**:
+    - Beast prowling
+    - Whispers
+    - NPC visits.
 
-Unlocks major conveniences and power.
+### 5.2 Hunt Risk & Camp Distance
 
-Influence world systems (corruption creep, research efficiency).
+Higher-risk Hunts:
 
-Circle-Driven Politics
+- Often lie **farther from safe anchors**.
 
-Different Lodge circles (59) sponsor different projects:
+Design tension:
 
-Huntmasters want training grounds and armories.
+- You can:
+  - Push deep and go “camp-light”:
+    - Fewer rests
+    - Faster, riskier.
+  - OR make staging camps along the way:
+    - Slower but safer.
 
-Wardens want wards and watchposts.
+Some Deeds:
 
-Scholars want upgraded Labs and libraries.
+- Might reward:
+  - Smart camp placement:
+    - E.g. placing a camp near a Deed lair without being detected.
 
-Lodge Proper wants dorms, kitchens, defenses.
+---
 
-Reputation affects:
+## 6. Dynamic Events at Camps (62)
 
-Which projects you see.
+Camps are **prime hooks** for dynamic events:
 
-Which you can sponsor or accelerate.
+### 6.1 Help / Rescue Events at Camps
 
-Expandable Blueprint
+Examples:
 
-B102 is the base-building template.
+- **Lost Gatherer appears at your fire** (HLP-GW-01 tie-in).
+- **Stray apprentice stumbles into your camp** after sunset.
+- **Traveler cart limps into view**, asking to share the fire.
 
-Future Lodges, outposts, and expansions reuse this pattern:
+Outcome:
 
-Projects, categories, sponsors, visual evolution.
+- Micro-quests:
+  - Escort them next day.
+  - Patch up their wound.
+  - Share food in exchange for info.
 
-Core Concepts
+### 6.2 Travel Hazards & Ambushes
 
-We define four key concepts:
+At field camps, random rolls may trigger:
 
-Lodge Project
+- **Beast sniffing the fire** – you choose:
+  - Scare it off
+  - Try to hunt it
+  - Let it be.
+- **Bandit/poacher probing** – conflict or negotiation.
+- **Ash wind** near Ash-Edge:
+  - Reduces rest effectiveness / triggers event.
 
-Project Category
+### 6.3 Corruption & Weirdness Near Hollowroot
 
-Project Sponsor
+Camps too close to:
 
-Project Resource Inputs
+- Whispershade Glade
+- Hollowroot border nodes
 
-1. Lodge Project
+…may see:
 
-A Lodge Project is:
+- Whispers around camp.
+- Shadows that don’t move right.
+- Mini COR events, like:
+  - Whispering Cache
+  - Roots That Bleed.
 
-A named, persistent upgrade to the Lodge or its immediate surroundings, such as:
+These create:
 
-“Expand the Infirmary Ward”
+- Atmosphere
+- Hooks into D-GW-004
 
-“Rebuild the East Training Yard”
+---
 
-“Extend Wards to Hollowroot Fringe”
+## 7. Social & Micro-Scenes at Camps (64)
 
-“Open the Ember Gallery”
+### 7.1 Party & NPC Moments
 
-Each project has:
+Camps are:
 
-ID, name, flavor description.
+- Natural places for **dialogue scenes**:
 
-Category & sponsor circle(s).
+  - Rival hunter:
+    - Shows up at a pre-set camp to talk or challenge.
+  - Apprentices:
+    - Ask questions or tell rumors.
+  - Traveling musician:
+    - Shares songs over a borrowed fire.
 
-Requirements (inputs).
+These scenes:
 
-Time / condition to complete.
+- Unlock based on:
+  - Rep ranks (59)
+  - Deed progress
+  - Wound history (B101)
+  - Time-of-day.
 
-A set of tangible effects.
+### 7.2 Quiet Moments
 
-2. Project Categories (Greatwood)
+Not every camp scene is big:
 
-For 1–20, we define six categories:
+- Character sits, sharpening blade.
+- Short monologue thoughts (if we support player-character perspective text).
+- Environmental audio:
+  - Distant beasts
+  - Cracking branches
+  - Ember pops.
 
-Infrastructure
+These help:
 
-Structural fixes and expansions:
+- Pacing
+- Emotional texture
+- Make the forest feel **watched** but not always hostile.
 
-Roof repairs, new dorms, kitchens, storage.
+---
 
-Services
+## 8. Camps & Secrets / Exploration (90)
 
-Vendor, training, and station upgrades:
+### 8.1 Secret-Adjacent Camps
 
-Better Alchemy stations, trainers, Hunt Board expansion.
+Some secret chains:
 
-Defense & Warding
+- Only appear or progress if you:
 
-Warding Wing and physical defenses:
+  - Camp in certain **unmarked but good spots**:
+    - E.g. cliff overhang with view of White Stag route.
+    - Remote ridge beyond Old Bark Terrace.
 
-Walls, watchtowers, ward stones (ties to B101, 91).
+Examples:
 
-Research & Archives
+- **White Stag Trail (90)**:
+  - Increased chance of stag sighting:
+    - If you camp at specific overlooks.
+- **Sleeping Giant’s Echo**:
+  - A late-night rumble only audible:
+    - When camping above certain ravines.
 
-Libraries, Labs, specimen halls:
+### 8.2 Camp as a “Secret Detector”
 
-Better research capacity, codex, experiments.
+Some secrets:
 
-Social & Culture
+- Only become interactable after:
 
-Halls, common rooms, festival spaces:
+  - You’ve rested there:
+    - Tree nearby “responds” after you sit.
+    - Whisper stone lights faintly only after long quiet.
 
-Ceremonies, feasts, ambient scenes, social buffs.
+Mechanically:
 
-Personal Spaces (Hook to B100)
+- Rest finishing at certain camp volumes:
+  - Triggers secret flag enabling:
+    - Nearby interactable or event.
 
-Hunter quarters-related upgrades:
+---
 
-Quarters tiering, customization slots, trophy mounting.
+## 9. Fieldcraft & Player Choices
 
-3. Project Sponsor
+### 9.1 What to Pack
 
-Each project is sponsored by one or more circles (59):
+Preparation:
 
-Lodge Proper
+- Deciding which combination of:
 
-Huntmasters’ Circle
+  - Camp kits
+  - Fuel bundles (wood)
+  - Food/ingredients
+  - Wound salves
+  - Tools
 
-Wardens’ Circle
+…to bring dictates:
 
-Scholars’ Circle
+- How deep you can go.
+- How many times you can rest safely.
 
-Sponsor determines:
+### 9.2 Where to Camp
 
-Required reputation threshold.
+Choosing location matters:
 
-Thematic flavor.
+- High, open camp:
+  - Better visibility
+  - More wind exposure (cold, maybe more noise).
+- Low, sheltered camp:
+  - Easier to ambush
+  - More stable temperatures & stealth.
 
-Which circle(s) you gain extra rep with by completing it.
+Some Hunts & events:
 
-4. Project Resource Inputs
+- Care about:
+  - Smoke visibility
+  - Scent travel
+  - Proximity to known beast routes.
 
-Projects consume:
+---
 
-Gold – basic currency.
+## 10. Technical / Data Model
 
-Materials – from Professions (95):
+### 10.1 Camp Definitions
 
-Wood, stone, metal, textiles.
+For **fixed camps** (Lodge, outposts, hunter camps):
 
-Reagents – alchemical and magical:
+- `camp_id`
+- `camp_type` – `lodge`, `outpost`, `hunter_camp`
+- `region_tag`, `poi_id`
+- `services[]`:
+  - `rest_quick`, `rest_short`, `rest_full`
+  - `field_cooking`
+  - `wound_treatment_light`
+- `safety_level` – influences ambush chance
+- `event_hooks[]` – IDs of events that can use this camp
+- `social_scenes[]` – possible camp-specific cutscenes/dialogues.
 
-Herbs, essences, salts, corruption samples.
+For **ad-hoc camps**:
 
-Favors / Tokens – meta resource:
+- Template definition:
+  - `camp_type` – `temporary`
+  - `max_per_region`
+  - `base_safety_level`
+  - `allowed_terrain_tags[]`
+  - `build_cost` (items/resources)
 
-Earned from Hunts, contracts, and special quests (call them Lodge_Favor or similar).
+Engine stores **instances** placed by player with:
 
-Time / Hunts:
+- `instance_id`
+- `world_position`
+- `remaining_uses` (optional)
+- `last_used_time`
 
-Some require:
+### 10.2 Rest Logic
 
-X number of Hunts completed after funding.
+On rest:
 
-A specific event trigger.
+- Check:
+  - Camp safety
+  - Time-of-day
+  - Nearby event budgets (62)
+  - Player wound state (B101)
+- Resolve:
+  1. Event chance roll.
+  2. If event triggers:
+     - Run event phases, which may:
+       - Interrupt rest
+       - Partially complete rest.
+  3. Apply:
+     - HP & resource recovery.
+     - Wound recovery increments.
+     - Buff application.
 
-Project Flow
+### 10.3 Integration Points
 
-Discover / Unlock
+- **Hunts / Deeds (61)**:
+  - Flags: `hunt_staged_from_camp`, `deed_camp_phase`.
+- **Events (62)**:
+  - `camp_event_slots` in region definitions.
+- **Rep (59)**:
+  - Certain camp-based help/rescue events grant rep.
+- **Secrets (90)**:
+  - `camp_rest_triggered_secret_ids`.
 
-Player sees a new project:
+---
 
-Posted on a Lodge Projects Board in the main hall or Warding Wing.
+## 11. Greatwood-Specific Example Camps
 
-Or pitched by an NPC sponsor.
+Just a quick sample to anchor mental picture (full detail would go in 63/POI files):
 
-Fund / Start
+1. **First Watch Tower Outpost**
+   - Type: Major Outpost
+   - Services:
+     - Short/Full rest
+     - Basic field cooking
+     - Light wound treatment
+   - Hooks:
+     - Sentries in the Boughs Hunt staging
+     - Night watch social scenes.
 
-Player contributes required resources:
+2. **Edge-Settlers’ Campfire Circle**
+   - Type: Hunter Camp / Settler hybrid
+   - Services:
+     - Short rest
+     - Simple food
+   - Hooks:
+     - Boar & field Hunts
+     - Settler micro-quests.
 
-Can be some combination of:
+3. **Raven’s Ledge Scout Camp**
+   - Type: Hunter Camp (mid-elevation)
+   - Services:
+     - Short rest only
+     - Good vantage (tactical planning)
+   - Hooks:
+     - Bird-of-prey Hunts, “Silence in the Treetops”.
 
-Gold.
+4. **Ash-Edge Stand Lean-to**
+   - Type: Rough Outpost
+   - Services:
+     - Risky full rest (ash winds)
+     - Field cooking with ash-based recipes
+   - Hooks:
+     - Ash-Eaters Hunts & Deeds
+     - Corruption event chances during rest.
 
-Materials.
+---
 
-Reagents.
+## 12. Next Actions
 
-Favors.
+1. **Mark candidate camp locations** in Greatwood layout (63):
+   - 3–4 major outposts.
+   - 4–8 hunter camps.
+   - Rules/volumes for ad-hoc camps per region.
 
-May require:
+2. **Implement basic camp template**:
+   - Short rest
+   - Field cooking
+   - Simple event hooks.
 
-Minimum rep with sponsor circle.
+3. **Hook wounds & Ember Pot** into rest logic:
+   - Minor wound ticks
+   - Field recipes vs Lodge feasts.
 
-Completion of specific story beats.
+4. **Author a first wave of camp scenes**:
+   - 2–3 rival hunter scenes.
+   - 2–3 apprentice/help scenes.
+   - 1–2 corruption tension beats near Hollowroot border.
 
-In Progress
+5. **Tune risk & benefit**:
+   - Ensure:
+     - Camps meaningfully help on Hunts.
+     - But you can’t brute-force everything by infinite camping.
 
-Time/condition-based:
-
-“Will complete after 3 more completed contracts.”
-
-“Finishes at next Lodge ‘dawn.’”
-
-“Requires one special Hunt to complete.”
-
-Completion
-
-The Lodge visually updates.
-
-Systems unlock/update.
-
-NPCs acknowledge the change.
-
-Player (and sometimes the whole region) benefits.
-
-Lodge Project Board & UI
-Physical Presentation
-
-In the Greatwood Lodge:
-
-A large framed board or table in the main hall or administration office.
-
-Papers, diagrams, sketches of the Lodge with:
-
-Colored ribbons for sponsor circles.
-
-Wax seals.
-
-Players:
-
-Interact with the board.
-
-Or talk to a Lodge Steward NPC who walks them through current projects.
-
-UI Layout
-
-Tabs or filters:
-
-All / Active / Available / Completed
-
-Category filter:
-
-Infrastructure, Services, Defense, Research, Social, Personal.
-
-Project card shows:
-
-Name, sponsor crests, category icon.
-
-Flavor blurb.
-
-Requirements:
-
-Gold.
-
-Item icons.
-
-Rep thresholds.
-
-Progress status:
-
-Not Started, In Progress, Completed.
-
-Effects summary:
-
-New rooms.
-
-Improved services.
-
-Global/system effects (e.g., +1 Hunt Board slot).
-
-Players can:
-
-Contribute resources directly from inventory/storage.
-
-See group contributions if it’s a shared world (if multiplayer; if not, still fictionally “the Lodge and others are helping”).
-
-Example Projects (Greatwood 1–20)
-
-Below is a non-exhaustive list of Greatwood projects that can exist in 1–20. You can pick and implement subsets as needed.
-
-A. Infrastructure Projects
-A1. “Patch the East Roof”
-
-Category: Infrastructure
-
-Sponsor: Lodge Proper
-
-Tier: 0 (intro project)
-
-Requirements:
-
-Gold: low.
-
-Materials:
-
-timber_basic x10
-
-stone_block x6
-
-Unlock Condition:
-
-Basically available as soon as the player joins the Lodge.
-
-Effects:
-
-Visual:
-
-Removes leaking buckets and tarps from one wing.
-
-Repaired rafters and shingles.
-
-System:
-
-Minor buff to resting benefits in adjacent dorms:
-
-Slightly faster out-of-combat regen for X minutes after resting.
-
-Narrative:
-
-NPC chatter about “finally not waking up soaked.”
-
-A2. “Reinforce the Main Hall Supports”
-
-Category: Infrastructure
-
-Sponsor: Lodge Proper
-
-Tier: 1
-
-Requirements:
-
-Gold: moderate.
-
-Materials:
-
-timber_oak x20
-
-iron_rivets x10
-
-Rep:
-
-Lodge Proper Rank 1 (Pledged Hunter).
-
-Effects:
-
-Visual:
-
-New support beams and braces in the main hall.
-
-System:
-
-Unlocks a small shared stash expansion.
-
-Slightly reduces cost of future building-type projects (better baseline structure).
-
-B. Service Projects
-B1. “Expand the Infirmary Ward”
-
-Category: Services
-
-Sponsor: Lodge Proper & Scholars’ Circle
-
-Tier: 1
-
-Requirements:
-
-Gold: moderate.
-
-Materials:
-
-linen_clean x12
-
-herb_paleleaf x6
-
-Rep:
-
-Lodge Proper Rank 1.
-
-Effects:
-
-Visual:
-
-Infirmary gets more beds, screens, and shelves.
-
-System:
-
-Unlocks an additional Alchemy Station (Tier 1–2) in B101’s Infirmary.
-
-Reduces gold cost of basic cleansing rites (91).
-
-Increases the number of hunters who can receive HCL treatment at once (relevant in co-op / fiction).
-
-B2. “Formalize the Training Yard”
-
-Category: Services
-
-Sponsor: Huntmasters’ Circle
-
-Tier: 1
-
-Requirements:
-
-Gold: moderate.
-
-Materials:
-
-timber_basic x15
-
-rope_bundles x5
-
-practice_dummies x4 (crafted)
-
-Rep:
-
-Huntmasters Rank 1.
-
-Effects:
-
-Visual:
-
-Training yard gains:
-
-Proper targets.
-
-Practice dummies.
-
-Combat markers.
-
-System:
-
-Unlocks advanced combat training:
-
-Passive perks or small bonuses while under “Training Buff” (e.g., for X minutes after training, slightly increased weapon skill gain).
-
-New tutorial / scenario hunts.
-
-B3. “Hunt Board Annex”
-
-Category: Services
-
-Sponsor: Lodge Proper + Huntmasters
-
-Tier: 2
-
-Requirements:
-
-Gold: higher.
-
-Materials:
-
-plank_fine x15
-
-ink_black x10
-
-Rep:
-
-Lodge Proper Rank 2 (Bound Hunter).
-
-Effects:
-
-Visual:
-
-New side room or extended Hunt Board wall.
-
-System:
-
-Increases active contract slot limit by +1 (61).
-
-Allows one “Special” contract to be active alongside standard ones.
-
-C. Defense & Warding Projects
-
-(These tie tightly into B101 & 91.)
-
-C1. “Restore the Old Ward Stone”
-
-Category: Defense & Warding
-
-Sponsor: Wardens’ Circle
-
-Tier: 1
-
-Requirements:
-
-Gold: low.
-
-Materials:
-
-stone_runed x4
-
-ward_ink x3
-
-Reagents:
-
-essence_corrupt_ichor x2 (from corruption Hunts).
-
-Rep:
-
-Wardens Rank 1.
-
-Effects:
-
-Visual:
-
-An old cracked ward stone near the Lodge glows faintly again.
-
-System:
-
-Slightly lowers ZCL in pockets closest to the Lodge (91).
-
-Unlocks a new “Wardstone Maintenance” contract type (59).
-
-C2. “Extend Wards to Hollowroot Fringe”
-
-Category: Defense & Warding
-
-Sponsor: Wardens’ Circle
-
-Tier: 2
-
-Requirements:
-
-Gold: moderate.
-
-Materials:
-
-stone_runed x8
-
-ward_pillars x3
-
-Reagents:
-
-essence_corrupt_ichor x4
-
-herb_embermoss x5
-
-Quests:
-
-Complete a special warding Hunt in Hollowroot Fringe (61, 91).
-
-Rep:
-
-Wardens Rank 2.
-
-Effects:
-
-Visual:
-
-New ward stones and faint lines of power appear in the outskirts.
-
-System:
-
-Adds a new ward line on B101’s map.
-
-Reduces corruption creep in Hollowroot Fringe.
-
-Slightly safer travel routes in that zone (fewer random corrupted ambushes).
-
-D. Research & Archives Projects
-D1. “Open the Ember Gallery”
-
-Category: Research & Archives
-
-Sponsor: Scholars’ Circle
-
-Tier: 1
-
-Requirements:
-
-Gold: moderate.
-
-Materials:
-
-shelf_sturdy x6
-
-lamp_oil x5
-
-Reagents:
-
-Variety of lower-tier beast trophies (symbolic, from Hunts).
-
-Rep:
-
-Scholars Rank 1.
-
-Effects:
-
-Visual:
-
-A small wing opens with:
-
-Specimen jars.
-
-Diagrams.
-
-Bones and skulls mounted.
-
-System:
-
-Unlocks Bestiary research projects (B101) with improved rewards.
-
-Enables players to inspect displays for:
-
-Combat tips.
-
-Behavior notes.
-
-D2. “Expand the Codex Vault”
-
-Category: Research & Archives
-
-Sponsor: Scholars’ Circle
-
-Tier: 2
-
-Requirements:
-
-Gold: higher.
-
-Materials:
-
-lockbox_reinforced x3
-
-parchment_bundle x10
-
-Rep:
-
-Scholars Rank 2.
-
-Effects:
-
-Visual:
-
-More locked shelves, scroll racks, and a guarded vault door.
-
-System:
-
-Increases research project slots by +1 (B101).
-
-Unlocks some advanced lore projects that may influence future perks or story choices.
-
-E. Social & Culture Projects
-E1. “Refit the Common Room”
-
-Category: Social & Culture
-
-Sponsor: Lodge Proper
-
-Tier: 1
-
-Requirements:
-
-Gold: moderate.
-
-Materials:
-
-table_sturdy x4
-
-chair_mismatched x12
-
-tapestry_basic x3
-
-Rep:
-
-Lodge Proper Rank 1.
-
-Effects:
-
-Visual:
-
-The common room gets:
-
-Better tables.
-
-More seating.
-
-Some banners.
-
-System:
-
-Resting in the common room:
-
-Applies a “Well-Met” social buff (small bonus to future rep gains for a short while).
-
-Unlocks some ambient scenes:
-
-NPC dice games.
-
-Song and storytelling.
-
-E2. “Establish the Ember Feast Day”
-
-Category: Social & Culture
-
-Sponsor: Lodge Proper + Scholars
-
-Tier: 2
-
-Requirements:
-
-Mixed:
-
-Gold, food materials, community quests.
-
-Possibly tied to:
-
-Seasonal/world meta (later).
-
-Effects:
-
-Visual:
-
-Feast decorations, banners, special tables during certain in-game times.
-
-System:
-
-Occasionally triggers Lodge-wide buff windows:
-
-Small XP, rep, or luck bonus during “Feast Days” when players are in the Lodge vicinity.
-
-Extra social quests and mini-events available.
-
-F. Personal Spaces Projects (Hooking B100)
-
-These are Lodge-level upgrades that unlock new options inside personal quarters (B100). The personal quarters details remain in B100; B102 just defines the shared structural gating.
-
-F1. “Carve Out Hunter Quarters”
-
-Category: Personal Spaces
-
-Sponsor: Lodge Proper
-
-Tier: 1
-
-Requirements:
-
-Gold: moderate.
-
-Materials:
-
-timber_basic x10
-
-straw_bedding x10
-
-Rep:
-
-Lodge Proper Rank 1.
-
-Effects:
-
-Visual:
-
-A corridor of basic hunter rooms goes from “unfinished bunk space” → “semi-private rooms.”
-
-System:
-
-Unlocks Level 1 personal quarters (B100):
-
-Small room.
-
-1–2 customization slots (bed, small shelf, maybe 1 trophy).
-
-F2. “Upgrade Hunter Quarters”
-
-Category: Personal Spaces
-
-Sponsor: Lodge Proper + Scholars
-
-Tier: 2
-
-Requirements:
-
-Gold: higher.
-
-Materials:
-
-timber_fine x10
-
-tapestry_basic x4
-
-chest_sturdy x3
-
-Rep:
-
-Lodge Proper Rank 2.
-
-Effects:
-
-Visual:
-
-Upgrades hall and rooms:
-
-Better doors, lighting, small décor.
-
-System:
-
-Unlocks Level 2 personal quarters:
-
-More space, additional décor slots.
-
-Possibly 1 functional slot (e.g., personal stash access, small workbench or writing desk that ties into other features).
-
-Progression & Tiering (Greatwood 1–20)
-
-We define rough “tier” expectations:
-
-Tier 0:
-
-Intro, almost free.
-
-Teaches system: e.g., “Patch the East Roof.”
-
-Tier 1:
-
-Affordable mid-early game.
-
-Unlocks significant early functionality:
-
-Infirmary expansion, training yard, ward stone restoration, Ember Gallery.
-
-Tier 2:
-
-Late Greatwood (14–20), more demanding.
-
-Unlocks “complete” Greatwood Lodge state:
-
-Quarters upgrade.
-
-Wards reaching Hollowroot Fringe.
-
-Hunt Board annex.
-
-Codex Vault expansion.
-
-By the time a player leaves Greatwood:
-
-The Lodge should look:
-
-Noticeably more built-out than when they arrived.
-
-System-wise, they should have:
-
-At least a couple of Tier 2 projects completed, others in progress.
-
-Integration With Other Systems
-With Circles & Reputation (59)
-
-Each project:
-
-Has one or more sponsor circles.
-
-Requires a minimum rep rank with that circle.
-
-Provides a rep bonus on completion (often more for the sponsor circle).
-
-Political flavor:
-
-If the player leans heavily into one circle:
-
-They’ll see more of that circle’s projects unlocked faster.
-
-Some projects may be:
-
-Mutually exclusive in later tiers (beyond Greatwood).
-
-With B100 – Personal Quarters & Identity
-
-Personal quarters level and options are gated via Personal Spaces projects here.
-
-B100 defines:
-
-Specific room layouts.
-
-Customization systems.
-
-Identity hooks.
-
-B102 ensures:
-
-Those systems are narratively justified as “we carved space for you” and “now we upgraded those rooms.”
-
-With B101 – Labs & Warding Wing
-
-Infirmary and Lab upgrades:
-
-Are implemented as B102 projects that modify B101 spaces.
-
-Warding projects from B101:
-
-Some require B102 structural upgrades first, e.g.:
-
-“Reinforce Warding Hall supports” before adding more ward stones.
-
-Research project slot increases and ward line expansions:
-
-Are often B102 Lodge projects triggered from B101 UI.
-
-With Hunts & Contracts (61)
-
-Many Lodge projects:
-
-Require completion of certain Hunts or contract categories.
-
-The Hunt Board:
-
-Can advertise specific projects as goals:
-
-“Complete X corruption contracts to fund Wards to Hollowroot Fringe.”
-
-Inversely:
-
-Once projects are completed, Hunts may:
-
-Use new spaces as locations.
-
-Reference upgraded Lodge features.
-
-With Corruption & Cleansing (91)
-
-Defense & Warding projects:
-
-Directly alter ZCL or creep.
-
-Some advanced projects (beyond Greatwood):
-
-Might risk increasing corruption in one region to protect another.
-
-Failure, Reversals & Limits
-
-In Greatwood 1–20:
-
-Projects do not fully fail once funded:
-
-You don’t lose your investment.
-
-Progress might be delayed if certain events/losses occur.
-
-However:
-
-Severe corruption story events may:
-
-Temporarily disable certain benefits.
-
-Damage parts of the Lodge (future content hook).
-
-Limits:
-
-Cap on simultaneous active projects:
-
-Example: 2 small + 1 major.
-
-Encourages prioritization and pacing.
-
-Future Hooks Beyond Greatwood
-
-The B102 framework supports:
-
-Region-specific Lodge identities:
-
-Mountain Lodge: lots of defense and hunting yard projects.
-
-Coastal Lodge: docks, shipwright, sea wards.
-
-Faction divergence:
-
-Player choices in which projects to fund:
-
-Might shift Lodge ideology.
-
-Could lock/unlock future storylines.
-
-Season-style Lodge meta:
-
-Rotating Lodge project sets tied to global events:
-
-“Reinforce against flood season.”
-
-“Prepare for the Ember Eclipse.”
-
-But all future expansions should still look like:
-
-New project cards on the Lodge board → visible structural changes → concrete systemic effects.
+B102 should be treated as the **“between” system**: everything that happens in the little circle of light when you’re not in the Lodge and not face-to-face with the beast yet… but the forest is already deciding what it thinks of you.
