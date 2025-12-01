@@ -1,12 +1,3 @@
-Here’s the next big piece: a full region skeleton + POI index for Greatwood.
-
-I’m treating it as:
-
-`GameBible/Future/Features/63 – Greatwood Region Layout, Landmarks & Travel Skeleton`
-
-You can rename/slot it wherever you want, but this is written to plug cleanly into 58–62.
-
-```markdown
 # 63 – Greatwood Region Layout, Landmarks & Travel Skeleton
 
 ## Purpose
