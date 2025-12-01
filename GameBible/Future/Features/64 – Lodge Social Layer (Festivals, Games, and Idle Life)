@@ -1,210 +1,631 @@
-# 64 – Lodge Social Layer: Festivals, Games, and Idle Life
+```markdown
+# 64 – Greatwood Lodge Social Layer & NPC Routine System
 
 ## Purpose
 
-Design the **social layer** of the Lodge:
+Define the **social layer** of Greatwood Lodge as an actual system, not just a backdrop:
 
-- Festivals and periodic events
-- Small games and activities
-- “Idle life” (NPC behaviors, routines, ambient scenes)
+- Who lives/works here
+- What they do across the day
+- How they react to:
+  - Hunts & Deeds (61–62)
+  - Broken Tools & professions (52–57, 60)
+  - Ember Pot state (85)
+  - Trophies & quarters (86, B100)
+  - Dynamic events & region state (62–63)
 
-Goal: make the Lodge feel like a **living home base**, not just a quest menu.
+This file is the **behavior + relationship Bible** for the Lodge.
 
 ---
 
 ## Design Goals
 
-1. **Comfort & Routine**  
-   Players should feel a sense of “coming home” to the Lodge.
+1. **Lodge feels lived-in, not static**
 
-2. **Light Interactivity**  
-   Add small games and interactions that don’t require huge systems but give texture.
+   - NPCs move, talk, eat, work, sleep.
+   - Same faces show up in believable places at believable times.
 
-3. **Time & State Awareness**  
-   Lodge presence changes based on:
-   - Time of day
-   - Recent major events (wildfire, big hunts)
-   - Player progress in key questlines (56, 60)
+2. **Social progress is subtle but real**
 
-4. **Hooks into Systems**  
-   Use festivals and social events to:
-   - Boost or showcase Cooking
-   - Support Hunts and Deeds
-   - Advance profession reputation (59)
+   - As the player:
+     - Hunts
+     - Crafts
+     - Solves problems
+   - Lodge reactions update:
+     - Barks
+     - Conversations
+     - Who invites you where.
 
----
+3. **Systems, not one-off scripts**
 
-## Daily / Routine Lodge Life
+   - Schedules
+   - Affinity
+   - Topic pools
+   - Triggered scenes
+   - Reusable across other Lodges later.
 
-### NPC Routines
+4. **Low friction, high flavor**
 
-- **Cooks**:
-  - Stirring the Ember Pot
-  - Carrying ingredients and tasting dishes
-- **Hunters**:
-  - Cleaning weapons
-  - Telling stories around smaller fires
-- **Foresters**:
-  - Studying maps, sharpening tools, preparing survey runs
-- **Woodworkers**:
-  - Working at benches, repairing bows, carving small items
+   - No “talk to 50 NPCs daily” chores.
+   - Instead:
+     - Natural chatter
+     - Opt-in deeper talks
+     - Social rewards mostly narrative/cosmetic.
 
-These can be simple animation loops + occasional barks.
+5. **Supports player identity**
 
-### Ambient Conversations
-
-- Snippets about:
-  - Hunts gone wrong/right
-  - Strange sightings in the forest
-  - Complaints and praise of the Ember Pot
-
-Some lines can hint at Hunts, Deeds, or upcoming content.
+   - Social layer:
+     - Recognizes your Hunts & Deeds
+     - Mirrors room/trophy progression
+     - Makes you feel like “one of the Lodge”.
 
 ---
 
-## Festivals & Named Events
+## 1. Social NPC Types & Roles
 
-### 1. Ember Night Feast
+### 1.1 Core Named NPCs (Anchors)
 
-**Concept:**
-- A Lodge-wide feast event featuring Cooking, story, and buffed food.
+These are the **repeat faces** the player will know.
 
-**Triggers:**
-- Periodic (e.g. in-world weekly cycle)
-- Or triggered after big story beats (e.g. a major Deed or world boss kill)
+- **Cook Mara Emberpot** – Ember Pot boss (85), Broken Tools co-lead (60).
+- **Forester Arlen Brack** – Forester lead (60).
+- **Woodworker Fen Tallow** – Carpenter lead (60).
+- **Clerk Elira** – Records, Hunt Board admin, quest hub (60, 61–62).
+- **Rival Hunter (placeholder name: Cael or Wren)** – Friendly competition (62).
+- **Apprentices (various)** – Profession trainees, errand runners.
+- **Lookout(s) at First Watch Tower** – Outer ring watchers.
+- **Alchemist (placeholder: Sister Nyra / Brother Nyra)** – Ties to 58 & corruption.
 
-**Activities:**
+Each has:
 
-- Long tables set, Ember Pot visually upgraded with special FX.
-- Special event recipes:
-  - Group buff dishes
-  - Limited-time feast foods
+- A **daily routine**
+- A **relationship track** with the player (even if lightweight)
+- A **topic pool** for:
+  - Hunts
+  - Deeds
+  - Professions
+  - Region events
 
-**Rewards:**
+### 1.2 Generic Lodge NPC Types
 
-- Unique event-only recipes (cosmetic/sidegrade)
-- Strong but time-limited food buffs
-- Ember Kitchen rep (59)
+- Hunters (various ranks)
+- Gatherers & field workers
+- Cooks & kitchen staff
+- Stablehands / quartermasters
+- Visitors / traders
+- Apprentices / initiates
 
----
-
-### 2. Greatwood Remembrance
-
-**Concept:**
-- A quieter, somber festival remembering hunters and foresters lost.
-
-**Triggers:**
-- Tied to certain story beats (character deaths, big threats resolved).
-
-**Activities:**
-
-- Candles or lanterns lit around Lodge.
-- NPCs stand in small groups sharing stories; some new dialogue.
-- Player can participate in:
-  - Placing names on a board or memorial
-  - Bringing symbolic offerings (e.g., a crafted piece, a simple dish)
-
-**Rewards:**
-
-- Small rep boosts (Lodge-wide)
-- Cosmetic items or titles:
-  - Cloaks, pendants, keepsakes
-
-**Tone:**
-- Humanizing, slower pacing between hunts.
+Generic NPCs share **behavior templates** and **bark pools**.
 
 ---
 
-### 3. Wild Hunt Preparation
+## 2. Time-of-Day & Routine Structure
 
-**Concept:**
-- Build-up to a major Hunt or Deed, with the whole Lodge preparing.
+### 2.1 Day Segments
 
-**Triggers:**
-- Before certain world bosses or big Deeds (61).
+Divide Lodge day into **4–6 segments**:
 
-**Activities:**
+1. **Dawn**
+   - Hunters prepping to leave.
+   - Light kitchen activity (strong coffee, simple food).
+2. **Midday**
+   - Some hunters out, some resting.
+   - Active crafting & paperwork.
+3. **Evening**
+   - Hunters returning.
+   - Ember Pot high activity, big social density.
+4. **Late Night**
+   - Reduced staff.
+   - Night-watchers, insomniacs, scribes.
 
-- NPCs:
-  - Sharpening weapons
-  - Discussing tactics
-  - Stockpiling rations
-- Player tasks:
-  - Provide food (Cooking)
-  - Craft arrows or supplies (Woodworking)
-  - Deliver special wood or herbs (Forester)
+Optional finer segments if needed, but socially:
 
-**Rewards:**
+- Dawn & Evening are the **peak beats**.
 
-- Temporary buff for the upcoming hunt
-- Hunt Board unlocks special Deed
-- Profession rep and small gear upgrades
+### 2.2 Routine Template
 
----
+Each NPC has:
 
-## Small Games & Activities
+- `home_location` – where they rest/sleep
+- `work_locations[]` – where they perform duties
+- `social_locations[]` – where they linger
+- `schedule` – mapping day segment → location/activity
+- `fallback_state` – what they do if something interrupts (alerts, events, story lockdown)
 
-These should be light and optional but help sell the space.
+Example (Mara Emberpot):
 
-### 1. Archery Mini-Game
-
-- Simple target range behind or inside the Lodge.
-- Player can:
-  - Practice, get scored on accuracy/time.
-- Rewards:
-  - Tiny XP / coin
-  - Titles/achievements or cosmetic target props at higher scores
-
-### 2. Dice or Token Game
-
-- Hunters play a simple dice or token-based game in a corner.
-- Player can join:
-  - Low-stakes gambling or just for fun.
-- Rewards:
-  - Mostly flavor
-  - Occasional small item or rumor
-
-### 3. Knife-Throwing / Hatchet-Throwing
-
-- Target logs, chalked circles.
-- Skill-based mini-activity using simple inputs (timing).
-- Rewards:
-  - Small rep with whoever runs it
-  - Tiny buff (confidence, focus) for a short time
+- Dawn:
+  - At Ember Pot hearth, brewing morning broth.
+- Midday:
+  - Kitchen prep, occasional trips to storeroom.
+- Evening:
+  - Ember Pot front & center, leading meals.
+- Late Night:
+  - At back table doing ledger on ingredients, occasionally sleeping in a chair.
 
 ---
 
-## Idle Details & Micro-Events
+## 3. NPC Schedules (Key Examples)
+
+### 3.1 Mara Emberpot – Ember Pot Boss
+
+- **Role:** Core social anchor, cooking lead.
+- **Schedule:**
+
+  - **Dawn:**
+    - Tending Pot, humming quietly.
+    - Short bark set about:
+      - “Starting the day’s stew.”
+      - “Need bones, roots, and patience.”
+
+  - **Midday:**
+    - Alternating between:
+      - Kitchen prep (chopping, mixing).
+      - Brief Ember Pot check-ins.
+
+  - **Evening:**
+    - At Ember Pot front:
+      - Ladling stew.
+      - Joking with hunters.
+      - Trigger point for Evening Stew event (85).
+
+  - **Late Night:**
+    - Slumped at a table with ledgers.
+    - Occasional soft talks about:
+      - Worry for the Lodge.
+      - Not enough meat/herbs.
+      - Corruption affecting food.
+
+- **Dynamic Changes:**
+  - During Broken Tools arc:
+    - More frustrated lines about cracked pots/lids.
+  - After attuned cookware:
+    - Prideful lines: “Hear that? That’s a pot that plans to see tomorrow.”
+
+---
+
+### 3.2 Forester Arlen Brack – Forester Lead
+
+- **Role:** Forestry & fieldwork anchor.
+- **Schedule:**
+
+  - **Dawn:**
+    - In the yard near log stacks:
+      - Assigning gatherers.
+      - Checking axes and saws.
+  - **Midday:**
+    - Often out of Lodge on patrols/gathering zones.
+    - When present:
+      - At a side table, mapping routes, grumbling about miscuts.
+  - **Evening:**
+    - Sometimes at Ember Pot:
+      - Short stoic comments.
+      - Brief updates on forest conditions.
+  - **Late Night:**
+    - Rarely seen; usually “already gone to ground.”
+
+- **Dynamic Changes:**
+  - Pre-Broken Tools:
+    - Blames failures on human mistakes.
+  - Mid-arc:
+    - Clearly bothered, pacing, inspecting wood samples.
+  - Post-attunement:
+    - More reflective:
+      - “We forgot to listen. That’s on us.”
+
+---
+
+### 3.3 Fen Tallow – Woodworker & Carpenter
+
+- **Role:** Woodworking & structure anchor.
+- **Schedule:**
+
+  - **Dawn:**
+    - In workshop:
+      - Checking overnight warps.
+      - Sanding and planing quietly.
+  - **Midday:**
+    - Active in workshop:
+      - Building replacements & prototypes.
+  - **Evening:**
+    - Sometimes at Ember Pot edge:
+      - Talking shop with hunters about their bows, hafts.
+  - **Late Night:**
+    - Occasionally still in workshop:
+      - Working on “that one thing” he won’t go to bed without finishing.
+
+- **Dynamic Changes:**
+  - Broken Tools arc:
+    - Surroundings cluttered with broken samples.
+    - More muttered philosophy about “lying wood.”
+  - Post-attunement:
+    - Displays prototype tools; invites player opinions.
+
+---
+
+### 3.4 Clerk Elira – Records & Hunts Admin
+
+- **Role:** Paperwork, Hunt Board, quest-line anchor.
+- **Schedule:**
+
+  - **Dawn:**
+    - In Hall, updating Hunt Board:
+      - Posted contracts.
+      - Removing resolved ones.
+  - **Midday:**
+    - At desk:
+      - Filing reports, logging incidents.
+  - **Evening:**
+    - Reviewing:
+      - Returned reports.
+    - Occasionally at Ember Pot corner:
+      - Eating while reading.
+  - **Late Night:**
+    - Sometimes in dim record room:
+      - Candle-lit writing scenes for story beats.
+
+- **Dynamic Changes:**
+  - When many Hunts unresolved:
+    - Barks about board being “too full.”
+  - After major Deeds:
+    - Proudly shows updated board & record entries.
+
+---
+
+### 3.5 Rival Hunter (Cael / Wren placeholder)
+
+- **Role:** Social foil and competition anchor.
+- **Schedule:**
+
+  - **Dawn:**
+    - In yard or hall:
+      - Flexing, bragging about plans.
+  - **Midday:**
+    - Out hunting most of the time.
+  - **Evening:**
+    - At Ember Pot:
+      - Telling tall tales.
+      - Challenging player (EVT-GW-SOC-02).
+  - **Late Night:**
+    - Sometimes half-drunk, brooding or mellow.
+
+- **Dynamic Changes:**
+  - If player outperforms them in Hunts:
+    - Tone shifts from smug to respectful-challenging.
+  - If player lags:
+    - More teasing, but still somewhat supportive.
+
+---
+
+### 3.6 Apprentices (Template)
+
+- **Role:** Errands, flavor, future content seeds.
+- **Schedule Template:**
+
+  - **Dawn:**
+    - Running errands between:
+      - Lodge Yard
+      - Kitchens
+      - Workshops.
+  - **Midday:**
+    - Assigned to:
+      - Practice ranges.
+      - Sorting storerooms.
+  - **Evening:**
+    - At Ember Pot edges:
+      - Listening wide-eyed.
+  - **Late Night:**
+    - Usually gone; if present, sneaking extra stew.
+
+- **Dynamic Changes:**
+  - Depending on player involvement:
+    - One apprentice might start hero-worshipping the player.
+    - Another might be wary of the player’s decisions.
+
+---
+
+## 4. Social Systems
+
+### 4.1 Affinity / Relationship Tracks (Lightweight)
+
+Rather than full romance/dating sim, use **low-complexity affinity**:
+
+- `npc_affinity[player]` = small scalar (e.g. -2 → +5)
+- Gains / losses from:
+  - Consistently helping their profession
+  - Choices in Deeds that align/oppose their values
+  - Direct social choices (encourage, mock, ignore)
+
+Effects:
+
+- Unlocks **extra dialogue topics**
+- Unlocks **micro-quests** (“Hey, can you look into X for me?”)
+- Slightly changes **tone** of existing lines
+
+No hard gameplay gating, mostly flavor and extra hooks.
+
+---
+
+### 4.2 Social Topics & Conversation Pools
+
+Topics should be structured like:
+
+- `topic_id`: e.g. `TOPIC_HUNT_BOARD_OVERVIEW`, `TOPIC_BROKEN_TOOLS_REFLECTION`
+- `unlock_conditions`:
+  - Minimum rep
+  - Quest state
+  - Time-of-day
+- `lines[]`:
+  - Short dialogues (2–6 lines)
+  - Variants based on player state
+
+Categories:
+
+1. **Intro Topics**
+   - “Who are you?”
+   - “What is your role?”
+2. **System Explainers**
+   - Hunts
+   - Deeds
+   - Ember Pot
+   - Attunement
+3. **State Reactors**
+   - “You just finished X Deed.”
+   - “The Pot has Y dish going.”
+   - “The forest is weird lately.”
+4. **Personal History & Opinions**
+   - Only partially unlocked; leave some mystery.
+
+---
+
+### 4.3 Barks vs Conversations
+
+- **Barks:**
+  - One-line, non-interactive.
+  - Triggered by:
+    - Proximity
+    - Events (finishing Hunt, entering hall, etc).
+- **Conversations:**
+  - Player-initiated.
+  - Offer dialogue choices occasionally.
+  - Logically branch but converge to keep scope manageable.
+
+Rules:
+
+- Barks should not fire every 2 seconds:
+  - Per-NPC cooldowns
+  - Global “lodge chatter budget”
+- Conversations:
+  - Limited new topics per time period:
+    - Avoid overwhelming content; slowly unlock.
+
+---
+
+## 5. Social Triggers & Reactions
+
+### 5.1 Player Hunt & Deed Completion
+
+When the player completes:
+
+- A **Common Hunt**:
+  - Nearby NPCs might:
+    - Quick bark:
+      - “Back from the Greybacks, I see.”
+  - If repeated:
+    - Variation referencing:
+      - “You’ve cleared that path more than once.”
+
+- A **Deed**:
+  - Trigger a short **Lodge-wide reaction**:
+    - Ember Pot feast.
+    - New Hall trophy (86).
+    - NPCs referencing the event for several cycles.
+
+### 5.2 Broken Tools Questline States
+
+- **Early Arc:**
+  - More NPC barks about:
+    - “Snapped hafts.”
+    - “Pots cracking for no good reason.”
+  - Visual: broken tools propped around.
+
+- **Mid Arc (Investigation):**
+  - NPCs comment:
+    - “Saw Elira buried in incident forms.”
+    - “Fen’s got a graveyard of failed planks.”
+
+- **Post-Resolution:**
+  - Pride:
+    - “Tools haven’t failed like that since you lot fixed it.”
+  - Some NPCs adopt new terminology:
+    - “Attuned cuts,” “grain-listening.”
+
+### 5.3 Ember Pot State (85)
+
+- Baseline stew, poor quality:
+  - NPC barks:
+    - “Thin tonight, but it’s something.”
+- High-quality stew or special dish:
+  - Hunters:
+    - “You smell that? That’s a good sign.”
+- Corruption-influenced dish attempts:
+  - Nervous jokes:
+    - “Is stew supposed to look at you back?”
+
+### 5.4 Trophies & Player Quarters (86, B100)
+
+- Visible Hall trophies:
+
+  - NPCs sometimes group under major pieces:
+    - Telling stories about them.
+  - Player’s completion state:
+    - Adjusts who calls out:
+      - “That one? Yeah, you were there for that.”
+
+- Player’s room state:
+
+  - High-tier quarters:
+    - Occasional invites:
+      - “Mind if I see what you’ve done with the place?”
+  - Key trophies placed in B100:
+    - Specific NPC lines referencing “the skull on your wall”, etc.
+
+### 5.5 Dynamic Events (62)
+
+- After helping with:
+  - Lost Gatherer
+  - Stuck Cart
+  - Cry from the Ravine
+- Some NPCs:
+  - Bring it up:
+    - “Heard you hauled a cart out of the mud today.”
+    - “That gatherer wouldn’t be here by the fire without you.”
+
+---
+
+## 6. Micro-Quests & Social Scenes
+
+Introduce **small, low-stakes quests** that only exist within the Lodge / immediate surrounds.
 
 Examples:
 
-- **Argument over a hunt** → short ambient scene.
-- **Drunk hunter singing** → audio + minor interaction.
-- **Lost kid in the Lodge** → tiny one-off fetch quest or escort.
+### 6.1 “A Bowl for the Road”
 
-These don’t need huge systems; they’re simple, authored scenes that rotate.
-
----
-
-## System Hooks
-
-- Festivals and social events can:
-  - Temporarily change Lodge vendors’ inventories
-  - Unlock limited-time Hunt Board entries
-  - Gate certain profession recipes and cosmetics (59)
-
-- Time-of-day:
-  - Morning: preparations, bustle
-  - Midday: training and craft focus
-  - Night: stories, singing, arguments, quiet reflection
+- **Giver:** Mara Emberpot
+- **Trigger:** Affinity + certain Hunt completion count.
+- **Task:**
+  - Deliver a portion of stew to:
+    - A hunter on late watch.
+- **Outcome:**
+  - Mild Ember Kitchen rep.
+  - Cute banter between watchman and the player.
 
 ---
 
-## Next Actions
+### 6.2 “The Apprentice’s First Cut”
 
-- Decide on **1–2 festivals** to implement first (likely Ember Night Feast + Wild Hunt Prep).
-- Define:
-  - NPC schedules and simple states
-  - Festival-specific dialogues and props
-  - 1–2 small mini-games (archery, knife-throwing)
-- Integrate social layer references into existing quests (56, 60) and rep tracks (59).
+- **Giver:** Arlen or Fen
+- **Trigger:** Player high in Forester/Woodworker ranks.
+- **Task:**
+  - Mentor an apprentice at the Training Glade:
+    - Correct their cut/gather pattern.
+- **Outcome:**
+  - Small profession XP.
+  - Apprentice may become a recurring named NPC.
+
+---
+
+### 6.3 “A Quiet Corner”
+
+- **Giver:** Clerk Elira
+- **Trigger:** After major Deed with heavy moral weight (e.g. A Debt in Blood).
+- **Task:**
+  - Sit and talk; essentially:
+    - A reflective conversation quest.
+- **Outcome:**
+  - No mechanical reward; narrative only.
+  - May update how Elira speaks about Lodge rules.
+
+---
+
+### 6.4 “Songs Over the Stew”
+
+- **Giver:** Traveling Musician (EVT-GW-SOC-04)
+- **Trigger:** Festival ember stew active, musician in Lodge.
+- **Task:**
+  - Provide a small contribution:
+    - Ingredient
+    - Coin
+    - Time listening.
+- **Outcome:**
+  - Minor social buff.
+  - Lore snippet about old Lodge songs.
+
+---
+
+## 7. Technical Structure
+
+### 7.1 NPC Definition
+
+Each social NPC has:
+
+- `npc_id`
+- `name`
+- `role_tags[]` – `["cook", "forester_lead", "rival_hunter"]`
+- `schedule`:
+  - `segment_id` → `location_id`, `activity_state`
+- `affinity[player]` (if needed)
+- `topic_unlocks[]` – list of topic IDs & conditions
+- `bark_sets[]` – keyed by:
+  - Time-of-day
+  - Location
+  - World state
+- `scene_triggers[]` – micro-quests & story scenes.
+
+### 7.2 Location & Activity States
+
+For each `location_id` (from Lodge layout):
+
+- `activity_states`:
+  - `working`, `idle`, `eating`, `resting`, `alert`, etc.
+
+Each combination:
+
+- Has animation sets
+- Has bark pools
+
+### 7.3 Event Hooks
+
+System events (Hunt/Deed completion, quest state, Ember Pot change) feed into:
+
+- `social_event_bus`:
+  - Broadcasts tags like:
+    - `hunt_completed:CH-GW-001`
+    - `deed_completed:D-GW-004`
+    - `questline_state:broken_tools_completed`
+    - `ember_pot:dish_changed:ASH_STEEPED`
+- NPCs subscribed on:
+  - Relevant tags:
+    - Update their bark list
+    - Enable/disable topics
+    - Trigger one-time scenes.
+
+---
+
+## 8. Tone & Writing Guidelines
+
+- **Grounded, not quippy.**
+  - These are tired, practical people.
+- **Short, loaded lines.**
+  - NPCs don’t deliver monologues unless in special scenes.
+- **Repetition with variation.**
+  - Core sentiments return, but with small twists as world state changes.
+- **Memory of the player’s actions.**
+  - Social lines should:
+    - Occasionally, not constantly, mirror the player’s history.
+
+---
+
+## 9. Next Actions
+
+1. **Lock Lodge social map**:
+   - Where does each role logically spend time?
+2. **Define schedule data** for:
+   - Mara, Arlen, Fen, Elira, Rival Hunter, 2–3 apprentices.
+3. **Author bark pools** for:
+   - Each time segment & key world states.
+4. **Author 5–10 social conversations**:
+   - One per anchor NPC focusing on:
+     - Hunts, Deeds, Broken Tools, Ember Pot, Hollowroot foreshadow.
+5. **Prototype 2–3 micro-quests** in the Lodge:
+   - “A Bowl for the Road”
+   - “The Apprentice’s First Cut”
+   - “A Quiet Corner”
+6. **Verify integration** with:
+   - 85 Ember Pot events
+   - 86 Trophy Hall
+   - B100 quarters
+   - 61–63 Hunts/Region layout.
+
+File 64 should be treated as the **social nervous system** of Greatwood Lodge, ensuring everything you’ve built—Hunts, Deeds, tools, trophies, rooms, and the Pot—feels like it belongs to a community of people who live and remember alongside the player.
+```
