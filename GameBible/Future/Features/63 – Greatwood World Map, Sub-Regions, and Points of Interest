@@ -1,249 +1,726 @@
-# 63 – Greatwood World Map, Sub-Regions, and Points of Interest
+Here’s the next big piece: a full region skeleton + POI index for Greatwood.
+
+I’m treating it as:
+
+`GameBible/Future/Features/63 – Greatwood Region Layout, Landmarks & Travel Skeleton`
+
+You can rename/slot it wherever you want, but this is written to plug cleanly into 58–62.
+
+```markdown
+# 63 – Greatwood Region Layout, Landmarks & Travel Skeleton
 
 ## Purpose
 
-Define the **macro layout** of Greatwood:
+Define the **playable 1–20 Greatwood slice** as a concrete space:
 
-- Core sub-regions (biomes / “zones within the zone”)
-- Major and minor Points of Interest (POIs)
-- How exploration ties into Hunts, Professions, Ingredients, and Events
+- Sub-regions with **level bands** and **tone**
+- Named **landmarks & POIs** (Points of Interest)
+- Primary and secondary **travel routes**
+- How Hunts, Deeds, Dynamic Events, Professions, and Corruption **attach** to places
 
-This is a **high-level spatial design** for Greatwood 1–20, not a final navmesh or level blueprints.
-
----
-
-## High-Level Structure
-
-Greatwood should feel like one **continuous forest region** with distinct “flavors”:
-
-- **Lodge & Immediate Surroundings** – safe-ish hub, training and early content
-- **Hunting Grounds** – classic forest with animals and low-level threats
-- **Rivers & Wetlands** – water, fish, herbs, foggy encounters
-- **Hollowroot Edge** – transitional zone toward corruption/dungeon content
-- **Burn-Scars / Wildfire Glades** – ash, char, dangerous events
-- **Cliff/Ridge Lines** – verticality, vantage points, more dangerous beasts
-
-Each has:
-
-- Primary **enemy families**
-- Primary **resource types**
-- Key **POIs** and **event hooks**
+This is the **region spine** that 51–62 hang off of.
 
 ---
 
-## Sub-Regions (Biome Pass)
+## Design Goals
 
-### 1. Lodge Heart & Training Grounds
+1. **Readable at a glance, deep in play**
 
-**Description:**  
-The immediate area around the Lodge; controlled, patrolled, slightly safer.
+   - Players should be able to say:
+     - “The Lodge is here, the burned edge is down there, Hollowroot is over that way.”
+   - Over time, they learn:
+     - Micro-routes, shortcuts, danger pockets, profession hotspots.
 
-**Key Features:**
+2. **Dense but not cluttered**
 
-- The Lodge itself (main hub)
-- Training yard, archery range, profession wings
-- Short trails leading to basic hunting spots
+   - Greatwood 1–20 should be:
+     - Walkable without mount/fast travel.
+     - Packed enough that travel is interesting.
+   - Gaps between points are where:
+     - Dynamic events (62)
+     - Ambient life
+     - Travel hazards live.
 
-**Content Hooks:**
+3. **Clear progression gradient**
 
-- Early Cooking quests (52, 56)
-- Profession intros (Forester, Cook, Woodworker)
-- Hunt Board (61) first access
+   - Spatially reflect:
+     - Levels 1–7 near Lodge edges.
+     - 6–14 in Mid-Greatwood.
+     - 12–20 near Deep Greatwood / Hollowroot border & burn-scars.
 
----
+4. **System hooks everywhere**
 
-### 2. Lower Hunting Grounds
+   - Every named location:
+     - At least 1 Hunt
+     - At least 1 dynamic event type
+     - At least 1 profession or story hook.
 
-**Description:**  
-Classic forest terrain: mixed trees, gentle slopes, frequent wildlife.
+5. **Reusable template**
 
-**Key Enemy Families:**
-
-- Deer, boar, forest fowl
-- Wolves, small predators
-
-**Resources:**
-
-- Common meats, herbs (`bitterpine_needle`, `herb_bundle_basic`)
-- Basic mushrooms (`glowcap` in darker pockets)
-
-**Events/Encounters:**
-
-- Ambient life scenes (62)
-- Early hunts (culling, basic track-and-kill)
-- Old hunter’s caches
+   - This layout format becomes the pattern for:
+     - Hollowroot
+     - Burn-Scar Descent
+     - Other regions.
 
 ---
 
-### 3. River Trails & Wetlands
+## 1. Region Structure Overview
 
-**Description:**  
-Rivers, streams, small waterfalls; soggy patches, reeds, mist.
+### 1.1 High-Level Zones
 
-**Key Enemy Families:**
+Greatwood 1–20 is split into **5 primary sub-regions**:
 
-- River beasts (otter-like predators, large fish if implemented)
-- Amphibious or wetland monsters
-- Occasional bandits or poachers
+1. **The Lodge Crown** (Levels 1–6)
+   - Immediate surroundings of Greatwood Lodge.
+   - Training grounds, safe practice hunts, beginner resource nodes.
 
-**Resources:**
+2. **The Low-Eaves** (Levels 3–9)
+   - Forest edge and transitional band between Lodge and farmlands.
+   - Wolves, boars, basic Hunts, Broken Tools early incidents.
 
-- Fish ingredients (future use)
-- Wetland herbs
-- Water-related alchemy materials
+3. **Mid-Greatwood** (Levels 6–14)
+   - Denser canopy, mixed elevation, more complex paths.
+   - Spiders, sentry birds, poachers, richer resource zones.
 
-**Events/POIs:**
+4. **The Ash-Edge & Old Burn-Scars** (Levels 10–18)
+   - Regions touched by **past fire**, not yet full Burn-Scar Descent.
+   - Ash-eater creatures, smoke, early fire/ash theming.
 
-- Fishing spots
-- “Storm-Caught River Fish” specialty event (55)
-- Bridges, fords, small broken ferries
-- Hunt Board contracts for river predators
+5. **Hollowroot Border** (Levels 14–20)
+   - Outer ring around Hollowroot proper (future major zone).
+   - Subtle to moderate corruption.
+   - Whispers, twisted root tunnels, early Hollowroot Deeds.
 
----
+Each sub-region has **POI clusters** (named below) and **travel spines**.
 
-### 4. Hollowroot Edge
+### 1.2 Primary Travel Axes
 
-**Description:**  
-Transition zone into deeper, darker Greatwood and the Hollowroot Warren dungeon.
-
-**Key Enemy Families:**
-
-- Corrupted beasts
-- Hollowroot-touched creatures
-- More dangerous variants of basic enemies
-
-**Resources:**
-
-- `hollowroot_sprig`, `hollowroot_resin`
-- Darker mushrooms (`ashcurl`, deep-variant mushrooms)
-- Corruption-related alchemy bits (58)
-
-**Events/POIs:**
-
-- “Whispering Hollow” events (62)
-- Entrance(s) to Hollowroot Warren
-- Forester and Hunt Board Deeds related to corruption
+- **North–South Spine:**  
+  Lodge → Mid-Greatwood → Hollowroot Border
+- **West–East Spine:**  
+  Farmland Edge → Low-Eaves → Lodge → Ash-Edge / Burn-Scars
+- **Water Spine:**  
+  Greatwood River bending through Mid-Greatwood and Ash-Edge.
 
 ---
 
-### 5. Burn-Scars & Wildfire Glades
+## 2. Key Landmarks & POI Index
 
-**Description:**  
-Sections of forest hit by past or recent wildfires; charred trees, ash, regrowth.
+### 2.1 Landmarks (Macro Anchors)
 
-**Key Enemy Families:**
+These are the “big pins” players mentally navigate by.
 
-- Ash-touched beasts
-- Fire-themed variants
-- Opportunistic predators feeding on disruption
+1. **Greatwood Lodge** – Hub; social, Hunts, professions.
+2. **First Watch Tower** – Early-game lookout with a view over Low-Eaves.
+3. **Turned Fields** – Broken farmland at the forest edge.
+4. **Riverbend Crossing** – Main river ford & bridge.
+5. **Ash-Edge Stand** – Cluster of blackened trees marking old fire.
+6. **Stone Kettle Falls** – Waterfall + pool; strong visual travel anchor.
+7. **Hollowroot Gate** – Carved stone/wood threshold hinting at the deeper zone.
+8. **Old Bark Road** – Ancient, half-buried road remnant cutting across Greatwood.
 
-**Resources:**
-
-- `ashcurl`, `wildfire_charcoal_husk` (55)
-- Fire-aligned alchemy components (58)
-
-**Events/POIs:**
-
-- Wildfire events (dynamic)
-- “Ash in the Pot” quest beats (56)
-- Ember-related hunts (Deeds about fire-hunting beasts)
+Each of these has 2–5 smaller POIs orbiting around it.
 
 ---
 
-### 6. Clifftops & Overlooks
+## 3. POI Catalog (By Sub-Region)
 
-**Description:**  
-Ridges and cliff edges overlooking the forest; more exposed, wind-swept.
+Each POI entry includes:
 
-**Key Enemy Families:**
-
-- Birds of prey / flying predators (if implemented)
-- Cliff-dwelling beasts
-- Occasional human threats (bandits, rival hunters)
-
-**Resources:**
-
-- Rare herbs that like altitude
-- Special woods with wind-twisted grain
-
-**Events/POIs:**
-
-- Vantage points with views of Greatwood and distant regions
-- Hunter lookout towers
-- Ritual altars used for combo hunts (57, 61)
+- **Name**
+- **Type** (Combat, Profession, Social, Corruption, Mixed)
+- **Level Band**
+- **Description**
+- **System Hooks** (Hunts, Deeds, Professions, Events)
+- **Travel Role** (Shortcut, Chokepoint, Vista, Hideaway)
 
 ---
 
-## Points of Interest Types
+### 3.1 The Lodge Crown (1–6)
 
-### Major POIs
+#### 3.1.1 Greatwood Lodge Grounds
 
-- **The Lodge**
-- **Hollowroot Warren Entrance**
-- **Main River Crossings**
-- **Major Burn-Scar Glade**
-- **Key Clifftop Overlook / Shrine**
+- **Type:** Social / Profession Hub
+- **Level Band:** 1–6 (safe)
+- **Description:**
+  - Central multi-level Lodge:
+    - Hall, Hunt Board, Ember Pot, profession wings, trophy spaces.
+  - Outer yard:
+    - Archery range, sparring ring, wood stacks, cart staging.
+- **System Hooks:**
+  - Files:
+    - 51–57: Professions, recipes, ingredient intros.
+    - 59: Lodge rep systems.
+    - 60: Broken Tools questline start.
+    - 61–62: Hunt Board, Greatwood Deeds.
+    - 64, B100+: Lodge social & player quarters.
+- **Travel Role:**
+  - Primary **hub / anchor**.
+  - All main roads reference distance from the Lodge.
 
-Major POIs should have:
+#### 3.1.2 Training Glade
 
-- Map markers (once discovered)
-- Quest hubs or strong hooks
-- Event possibilities (festivals, big hunts, major story beats)
+- **Type:** Combat / Tutorial
+- **Level Band:** 1–4
+- **Description:**
+  - Small fenced glade just downhill from the Lodge.
+  - Target dummies, practice beasts penned or summoned.
+- **System Hooks:**
+  - Combat tutorials.
+  - Intro Hunts:
+    - “Practice Cull” variants.
+  - Profession intros:
+    - First “safe” herb and wood nodes.
+- **Travel Role:**
+  - Gentle buffer between Lodge and the wilder forest.
 
-### Minor POIs
+#### 3.1.3 Lodge Yard Staging Area
 
-- Campsites / abandoned camps
-- Hunter hides and blinds
-- Small groves, clearings, rock formations
-- Mini-caves, dens, old stumps, shrines
+- **Type:** Profession / Social
+- **Level Band:** 1–6
+- **Description:**
+  - Carts, wagons, lumber stacks, drying racks for herbs/meat.
+- **System Hooks:**
+  - Dynamic Events:
+    - Stuck Cart (EVT-GW-HLP-02), Apprentice on Errand (SOC-01).
+  - Broken Tools:
+    - Visible broken axes, pots, beams early on (60).
+- **Travel Role:**
+  - Node where players naturally pass through on most outbound trips.
 
-Minor POIs anchor:
+#### 3.1.4 First Watch Tower
 
-- Dynamic events (62)
-- Small chests/caches
-- Ingredient-rich patches
+- **Type:** Vista / Light Combat
+- **Level Band:** 3–7
+- **Description:**
+  - Wooden stone-anchored tower overlooking Low-Eaves and Turned Fields.
+  - View of:
+    - Farmland edge
+    - Forest banding
+- **System Hooks:**
+  - Hunts:
+    - Early bird-of-prey variants.
+  - Dynamic Events:
+    - Shadow Overhead (AMB-05).
+  - Social:
+    - Lodge Gossip by the Fire variant with lookout NPCs.
+- **Travel Role:**
+  - **Vista** + minor fast-travel anchor candidate.
 
 ---
 
-## Map Discovery & Progression
+### 3.2 The Low-Eaves (3–9)
 
-- Player starts with **Lodge + immediate area** revealed.
-- Other sub-regions & POIs discovered by:
-  - Exploration
-  - Quests & Deeds
-  - Following rumors and directions from NPCs
+The forest’s “front porch”; mixes human touch and wild growth.
 
-Possible systems:
+#### 3.2.1 Low-Eaves Paths
 
-- **Soft fog-of-war:** map reveals as player explores.
-- **Named regions:** once discovered, region names appear on map.
-- **Signposts & markers:** Forester-style signs that provide hints.
+- **Type:** Travel Spine / Combat
+- **Level Band:** 3–9
+- **Description:**
+  - Winding, well-used paths under low canopy.
+  - Torches and simple trail markers.
+- **System Hooks:**
+  - Hunts:
+    - CH-GW-001 – Cull the Greybacks.
+    - Variants of basic cull Hunts.
+  - Events:
+    - Flock Scatter (AMB-02), Fox on the Road (AMB-03), Falling Limb (TRV-01).
+  - Broken Tools:
+    - Early gathering tests (Quest 2–3 of 60).
+- **Travel Role:**
+  - **Core artery** between Lodge and:
+    - Turned Fields
+    - Farmland Outskirts.
+
+#### 3.2.2 Turned Fields
+
+- **Type:** Mixed (Combat / Profession)
+- **Level Band:** 4–8
+- **Description:**
+  - Abandoned farm plots:
+    - Half reclaimed by forest.
+    - Tilted fences, furrow ghosts.
+- **System Hooks:**
+  - Hunts:
+    - CH-GW-002 – Boars in the Turned Fields.
+    - CH-GW-005 – Something in the Grain (edge node).
+  - Professions:
+    - Early cooking ingredients (roots, grains).
+  - Broken Tools:
+    - Spoiled Batch resource events (RES-05).
+- **Travel Role:**
+  - **West–East link** between outskirts road and forest interior.
+
+#### 3.2.3 Waystone Hollow
+
+- **Type:** Social / Micro-Quest
+- **Level Band:** 4–10
+- **Description:**
+  - Small hollow with a weathered waystone pillar.
+  - Carved with Lodge markings and directions.
+- **System Hooks:**
+  - Intro to map and direction mechanics.
+  - Twisting Trail (COR-03) early sign – waystone shows “true” orientation.
+- **Travel Role:**
+  - Early navigation tutorial space.
+
+#### 3.2.4 Edge-Settlers’ Camp
+
+- **Type:** Social / Help
+- **Level Band:** 4–9
+- **Description:**
+  - Camp of stubborn settlers:
+    - Too close to the forest for Lodge comfort.
+- **System Hooks:**
+  - Help/Rescue events:
+    - Lost Gatherer, Stuck Cart variations.
+  - Ember Pot on the Road event (HLP-05) variant.
+- **Travel Role:**
+  - **Rest-stop** style POI between Turned Fields and deeper forest.
 
 ---
 
-## Integration with Systems
+### 3.3 Mid-Greatwood (6–14)
 
-- **Hunt Board (61):**
-  - Hunts reference specific sub-regions.
-  - Deeds send players to specific major/minor POIs.
+Denser, more vertical, more dangerous. Where “real hunts” begin.
 
-- **Professions (Forester, Cook, Woodworker, Alchemy):**
-  - Each sub-region has “signature” ingredients and materials.
-  - Foresters and Woodworkers get better tools for navigating or exploiting certain areas.
+#### 3.3.1 Spiderway Cut
 
-- **Events (62):**
-  - Each sub-region has its own event mix:
-    - Misty stag in lowlands
-    - Wildfire echoes in burn-scar
-    - Whispers near Hollowroot
+- **Type:** Combat / Hazard
+- **Level Band:** 7–12
+- **Description:**
+  - Narrow cut through a rocky rise.
+  - Overhung by webs, with web-wrapped carcasses.
+- **System Hooks:**
+  - Hunts:
+    - CH-GW-004 – Webs Over the Path.
+  - Events:
+    - Falling Limb variant with web-weakened branches.
+- **Travel Role:**
+  - Faster route between Lodge and Riverbend, but **riskier**.
+
+#### 3.3.2 Riverbend Crossing
+
+- **Type:** Travel Hub / Profession
+- **Level Band:** 6–12
+- **Description:**
+  - Key river crossing:
+    - Simple bridge or ford + stepping stones.
+  - Visible from multiple approach paths.
+- **System Hooks:**
+  - Hunts:
+    - CH-GW-006 – Tracks Along the Riverbend.
+    - D-GW-001 – The Boar That Wouldn’t Die (arena nearby).
+  - Events:
+    - Sudden Fog Wall (TRV-02).
+  - Professions:
+    - Clay, fish, riverside herb nodes.
+- **Travel Role:**
+  - **Major intersection** between:
+    - Low-Eaves paths
+    - Mid-Greatwood interior
+    - Ash-Edge.
+
+#### 3.3.3 Canopy Ridge
+
+- **Type:** Vista / Combat
+- **Level Band:** 8–14
+- **Description:**
+  - Elevated ridge with partial canopy gaps.
+  - Good vantage points, but narrow paths.
+- **System Hooks:**
+  - Hunts:
+    - CH-GW-003 – The Sentries in the Boughs (elite birds).
+    - CH-GW-008 – Silence in the Treetops (investigation).
+  - Events:
+    - Song of the Canopy (AMB-04).
+    - Shadow Overhead (AMB-05).
+- **Travel Role:**
+  - Alternate route to bypass heavier ground-level threats.
+
+#### 3.3.4 Gatherers’ Green
+
+- **Type:** Profession / Defense
+- **Level Band:** 9–13
+- **Description:**
+  - Particularly lush glade:
+    - Herbs, fungi, good timber.
+    - Small Lodge gathering post (sheds, markers).
+- **System Hooks:**
+  - Hunts:
+    - CH-GW-007 – Guard the Gatherers.
+  - Events:
+    - Lost Gatherer, Panicked Beast (HLP-04).
+  - Broken Tools:
+    - Field experiments from Quest 3 – The Grain Remembers.
+- **Travel Role:**
+  - **Profession hub** within Mid-Greatwood.
+
+#### 3.3.5 Old Bark Road Segment
+
+- **Type:** Travel Spine (hidden/historical)
+- **Level Band:** 6–14
+- **Description:**
+  - Fragment of ancient, mostly buried stone road.
+  - Trees have grown around and through it.
+- **System Hooks:**
+  - Easier travel when found (smoother terrain).
+  - Dynamic Event:
+    - Stuck Cart, Roadblock (TRV-04).
+  - Lore:
+    - Hints of pre-Lodge civilization / routes.
+- **Travel Role:**
+  - **Hidden shortcut** that rewards exploration.
 
 ---
 
-## Next Actions
+### 3.4 Ash-Edge & Old Burn-Scars (10–18)
 
-- Draw a **rough paper map** of Greatwood:
-  - Place Lodge, sub-regions, and 5–10 strong POIs.
-- For each sub-region:
-  - List concrete POIs (name + short description).
-  - Tag events, hunts, and profession hooks tied to each.
-- Decide which POIs are visible from the start and which must be discovered.
+Fire-touched spaces. The forest remembers a burn.
+
+#### 3.4.1 Ash-Edge Stand
+
+- **Type:** Combat / Environmental
+- **Level Band:** 12–18
+- **Description:**
+  - Cluster of tall, blackened tree husks.
+  - Ground carpeted in grey-black ash.
+- **System Hooks:**
+  - Hunts:
+    - CH-GW-009 – Ash-Eaters at the Edge.
+    - D-GW-003 – Tracks in the Ash.
+  - Events:
+    - Roots that Bleed variant with ash-veins (COR-01).
+  - Professions:
+    - Ash/charcoal resource nodes.
+- **Travel Role:**
+  - Strong **visual anchor** and warning zone.
+
+#### 3.4.2 Smoking Hollows
+
+- **Type:** Corruption / Hazard
+- **Level Band:** 12–18
+- **Description:**
+  - Shallow pits whose ash occasionally smokes.
+  - Smell of burned resin and something stranger.
+- **System Hooks:**
+  - Hunts:
+    - D-GW-003 – Ash-Burrowed Alpha final arena nearby.
+  - Events:
+    - The Still Patch (COR-02), Singing Stone variant in fire-affected stone.
+  - Professions:
+    - Special ash-touched ingredients for alchemy.
+- **Travel Role:**
+  - Dangerous **detour** offering rare materials.
+
+#### 3.4.3 Stone Kettle Falls
+
+- **Type:** Vista / Profession
+- **Level Band:** 10–16
+- **Description:**
+  - Waterfall dropping into a deep, round “kettle” pool.
+  - Mist plumes and rainbow potential.
+- **System Hooks:**
+  - Events:
+    - Stag in the Mist variant, Song of the Canopy variant.
+    - Rare social events (musician, small gatherings).
+  - Professions:
+    - Rare fish, water-aligned herbs.
+- **Travel Role:**
+  - Scenic side-route.
+  - Potential fast-travel anchor.
+
+#### 3.4.4 Char-Shelter Ruins
+
+- **Type:** Social / Combat
+- **Level Band:** 11–17
+- **Description:**
+  - Ruins of an old waystation that burned.
+  - Charred beams, cracked stone hearth.
+- **System Hooks:**
+  - Hunts:
+    - Deed tie-in for fire-themed threats.
+  - Events:
+    - Ember Pot on the Road variant (cooks testing the old hearth).
+    - Hunters Turned (COR-05) variant.
+- **Travel Role:**
+  - Storm shelter / resting spot with story weight.
+
+---
+
+### 3.5 Hollowroot Border (14–20)
+
+The threshold to something deeper and wrong. This is **not** Hollowroot proper, but the ring around it.
+
+#### 3.5.1 Hollowroot Gate
+
+- **Type:** Landmark / Social / Corruption
+- **Level Band:** 15–20
+- **Description:**
+  - Stone-and-root archway marking the **forbidden entrance**.
+  - Lodge warnings, patrol markers.
+- **System Hooks:**
+  - Deeds:
+    - D-GW-004 – The Whisper in the Hollow (entry/exit staging).
+  - Events:
+    - Roots that Bleed (COR-01), Whispering Cache (COR-04).
+  - Gate Systems:
+    - Locks/unlocks based on story arcs.
+- **Travel Role:**
+  - Hard boundary to future deeper content.
+
+#### 3.5.2 Whispershade Glade
+
+- **Type:** Corruption / Investigation
+- **Level Band:** 16–20
+- **Description:**
+  - Shadowy glade with unnatural hush.
+  - Subtle, directionless whisper audio.
+- **System Hooks:**
+  - Hunts:
+    - CH-GW-012 – Whispers in the Hollow.
+  - Deeds:
+    - D-GW-004 – The Whisper in the Hollow mid-steps.
+  - Events:
+    - The Still Patch, Whispering Cache.
+- **Travel Role:**
+  - **Focal corruption POI** linked to multiple arcs.
+
+#### 3.5.3 Root-Tunnel Overlook
+
+- **Type:** Vista / Hazard
+- **Level Band:** 15–20
+- **Description:**
+  - Overlook where the ground drops into visible root tunnels.
+  - Occasional flickers of movement below.
+- **System Hooks:**
+  - Deeds:
+    - D-GW-004 – path housing.
+  - Events:
+    - Stalking Eyes variant with eyes in tunnels.
+- **Travel Role:**
+  - Looped path that lets players preview Hollowroot tunnels.
+
+#### 3.5.4 Old Hunter’s Marker Ring
+
+- **Type:** Social / Lore
+- **Level Band:** 14–20
+- **Description:**
+  - Crude ring of old Lodge markers.
+  - Some broken, some freshly repaired.
+- **System Hooks:**
+  - Social:
+    - Lodge discussion about old border lines vs new.
+  - Broken Tools:
+    - Attuned markers to resist corruption.
+- **Travel Role:**
+  - Soft **circle** around the most dangerous corruption hotspots.
+
+---
+
+## 4. Travel Skeleton & Routing
+
+### 4.1 Primary Roads
+
+1. **Lodge Road West**  
+   Lodge → Low-Eaves Paths → Turned Fields → Farmland Edge
+
+2. **Lodge Road South**  
+   Lodge → Training Glade → Low-Eaves → Mid-Greatwood (Riverbend Crossing)
+
+3. **Old Bark Route**  
+   Broken, semi-hidden ancient road segments threading:
+   - Mid-Greatwood
+   - Near Stone Kettle Falls
+   - Toward Ash-Edge Stand
+
+### 4.2 Secondary Paths
+
+- Spiderway Cut (shortcut, hazard)
+- Canopy Ridge trails (vertical, scenic, risk of falls)
+- Gatherers’ trails to Gatherers’ Green (profession-focused)
+- Patrol loops around Hollowroot Border & Old Hunter’s Marker Ring
+
+### 4.3 Travel Time Targets (Rough)
+
+- Lodge → Turned Fields:  
+  ~2–3 minutes on foot, with minimal diversion.
+- Lodge → Riverbend Crossing:  
+  ~4–6 minutes depending on path chosen.
+- Lodge → Ash-Edge Stand:  
+  ~6–8 minutes, through Mid-Greatwood or along river.
+- Lodge → Hollowroot Gate:  
+  ~8–10 minutes, crossing Mid-Greatwood and Hollowroot Border.
+
+These times are for **uninterrupted travel**; dynamic events, Hunts, resource gathering naturally stretch them.
+
+---
+
+## 5. System Attachments (Where Things Live)
+
+### 5.1 Hunts (61 & Greatwood Hunt Board Content)
+
+- CH-GW-001 – Cull the Greybacks  
+  → Low-Eaves Paths, Lodge Road South.
+
+- CH-GW-002 – Boars in the Turned Fields  
+  → Turned Fields cluster.
+
+- CH-GW-003 – The Sentries in the Boughs  
+  → Canopy Ridge, First Watch Tower vicinity.
+
+- CH-GW-004 – Webs Over the Path  
+  → Spiderway Cut.
+
+- CH-GW-005 – Something in the Grain  
+  → Turned Fields / Edge-Settlers’ Camp.
+
+- CH-GW-006 – Tracks Along the Riverbend  
+  → Riverbend Crossing and adjacent banks.
+
+- CH-GW-007 – Guard the Gatherers  
+  → Gatherers’ Green.
+
+- CH-GW-008 – Silence in the Treetops  
+  → Canopy Ridge & Mid-Greatwood canopy nodes.
+
+- CH-GW-009 – Ash-Eaters at the Edge  
+  → Ash-Edge Stand, Smoking Hollows.
+
+- CH-GW-010 – The Poachers’ Signs  
+  → Mid-Greatwood side paths, Old Bark Road segments.
+
+- CH-GW-011 – Eyes in the Fog  
+  → River valleys, Sudden Fog Wall segments.
+
+- CH-GW-012 – Whispers in the Hollow  
+  → Whispershade Glade, Hollowroot Border.
+
+Deeds plug into multiple POIs each, as defined in their own files.
+
+### 5.2 Dynamic Events (62)
+
+- Ambient events:  
+  Live across all sub-regions, with:
+  - Stag in the Mist: edges, river, Ash-Edge, Stone Kettle Falls.
+  - Fox on the Road: Low-Eaves, Lodge roads.
+  - Song of the Canopy: Canopy Ridge, Whispershade, high trees.
+
+- Help/Rescue:
+  - Lost Gatherer: Gatherers’ Green, Turned Fields, Mid-Greatwood.
+  - Stuck Cart: Lodge Yard, Old Bark Road, road spines.
+  - Cry from the Ravine: Riverbend cliffs, Root-Tunnel Overlook.
+
+- Corruption & Weirdness:
+  - Roots that Bleed: Hollowroot Border, Ash-Edge Stand.
+  - The Still Patch: Whispershade, Smoking Hollows, deep Mid-Greatwood.
+  - Twisting Trail: paths near Hollowroot Gate.
+
+- Resource Surprises:
+  - The Tree That Bends Away: logging zones near Gatherers’ Green & Low-Eaves.
+  - Singing Stone: ore outcrops by Smoking Hollows and cliffs.
+  - Overfull Clay: Riverbend, clay pits.
+
+- Travel Hazards:
+  - Falling Limb: Low-Eaves, Mid-Greatwood slopes.
+  - Sudden Fog Wall: river valleys, low grounds.
+  - Slippery Slope: hillside paths around Canopy Ridge & Ash-Edge.
+
+- Micro-Social:
+  - Apprentice on Errand: Lodge roads, First Watch Tower route.
+  - Friendly Rival: Mid-Greatwood & Ash-Edge hunting grounds.
+
+- Rare:
+  - White Stag: anywhere, but biased toward:
+    - Stone Kettle Falls
+    - Whispershade Glade
+  - Sleeping Giant: cliffs near Stone Kettle Falls / Burn-Scar-adjacent areas.
+
+### 5.3 Professions & Broken Tools (52–57, 60)
+
+- Forester:
+  - Best early zones:
+    - Training Glade, Low-Eaves Paths, Gatherers’ Green.
+  - Trees-that-bend events and attunement:
+    - Mid-Greatwood, Hollowroot Border.
+
+- Cook / Ember Pot:
+  - Ingredients: Turned Fields, Edge-Settlers’ Camp, Riverbend.
+  - Ember Pot On the Road:
+    - Edge-Settlers’ Camp, Char-Shelter Ruins, Stone Kettle Falls.
+
+- Woodworker:
+  - Beams and worked wood:
+    - Lodge Yard, Char-Shelter Ruins (rebuilding), Old Bark Road repairs.
+
+- Broken Tools Questline (60):
+  - Early incidents:
+    - Lodge Yard, Turned Fields, Low-Eaves.
+  - Field studies:
+    - Gatherers’ Green, Ash-Edge Stand, Riverbend.
+  - Attunement testing:
+    - Tree That Bends Away events scattered across Mid-Greatwood and beyond.
+
+---
+
+## 6. Implementation Notes (For Designers)
+
+### 6.1 POI Data Structure
+
+Each POI should be represented in data as:
+
+- `poi_id` – e.g. `"GW_POI_TURNED_FIELDS"`
+- `name`
+- `sub_region` – `lodge_crown`, `low_eaves`, `mid_greatwood`, `ash_edge`, `hollowroot_border`
+- `level_min`, `level_max`
+- `poi_type_tags[]` – `["combat", "profession", "vista", "social", "corruption"]`
+- `linked_systems[]` – e.g. `["hunts", "deeds", "events", "professions"]`
+- `anchored_content_ids[]` – lists of Hunt IDs, event IDs, quest IDs that reference this POI.
+- `travel_role_tags[]` – `["hub", "shortcut", "vista", "chokepoint", "hideaway"]`
+
+### 6.2 Spawn & Event Budgeting per POI
+
+Each POI defines:
+
+- Max simultaneous **events** (avoid stacking).
+- Weighting for event categories:
+  - e.g. Gatherers’ Green:
+    - High weight for: help/rescue, resource surprises.
+    - Low weight for: pure corruption events (until later in story).
+
+### 6.3 Visual Language Consistency
+
+- **Lodge Crown:**  
+  Warmer tones, controlled clearings, visible Lodge banners.
+
+- **Low-Eaves:**  
+  Mix of human-made objects and nature reclaiming (fences, cart ruts, growing roots).
+
+- **Mid-Greatwood:**  
+  Fuller canopy, moss, vertical layering, wildlife audio richer.
+
+- **Ash-Edge:**  
+  Grey/black ground, skeletal trees, occasional smoke and glowing embers.
+
+- **Hollowroot Border:**  
+  Root-veins, subtle lighting shifts (greenish/amber), whisper audio, strange moss growth.
+
+---
+
+## 7. Next Steps
+
+1. **Lock POI count and placement** on a top-down region map.
+2. **Wire Hunts & Deeds** to specific POIs with encounter designers.
+3. **Assign dynamic event weights** per sub-region and POI.
+4. **Review travel times** and adjust density of:
+   - Shortcuts
+   - Profession nodes
+   - Rest stops.
+5. **Cross-check Broken Tools & Attunement beats** against:
+   - Resource events
+   - Logging/mining/farming zones
+   - Hollowroot corruption pockets.
+
+This file should sit alongside 51–62 as the **spatial backbone** of Greatwood 1–20, ensuring that every system you’ve defined has a clear **place in the world** to live.
+```
