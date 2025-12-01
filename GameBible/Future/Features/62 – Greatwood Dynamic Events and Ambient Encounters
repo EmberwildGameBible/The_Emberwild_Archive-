@@ -1,252 +1,709 @@
-# 62 – Greatwood Dynamic Events & Ambient Encounters
+62 – Greatwood Hunt Board & Deeds System
 
-## Purpose
+# Purpose
 
-Define a **library of dynamic events and ambient encounters** for Greatwood that:
+Lock in the **Greatwood Hunt Board** and **Deeds system** as a concrete, repeatable content loop for Emberwild’s Greatwood 1–20 slice.
 
-- Make the forest feel **alive and reactive**
-- Create memorable moments between structured content (quests, dungeons, hunts)
-- Tie into existing systems (Hunt Board, professions, ingredients, reputation)
+This file assumes:
 
-This is a design catalog + ruleset, not implementation.
-
----
-
-## Design Goals
-
-1. **Low-friction, high-flavor**  
-   Encounters shouldn’t always require prep; they just *happen* as you roam.
-
-2. **Varied intensity**  
-   Mix:
-   - Tiny vignettes (no combat, just color)
-   - Small combat encounters
-   - Occasional bigger setpieces (but still lighter than full dungeons)
-
-3. **System hooks**  
-   Events should:
-   - Use ingredients (51, 55)
-   - Feed into Hunts/Deeds (61)
-   - Touch professions (forester, cook, woodworker, alchemy)
-
-4. **Replayable patterns**  
-   Events should be parametrized enough to rerun with variation.
+- 61 – Hunts, Targets, and the Core Hunt Loop defines the abstract rules.
+- This file defines the **actual contracts**, **named Deeds**, and how they plug into:
+  - Lodge reputation tracks
+  - Ingredients and professions
+  - Trophies and Lodge/room displays
 
 ---
 
-## Event Categories
+# Design Goals
 
-1. **Ambient Life**
-2. **Help/Rescue**
-3. **Corruption & Weirdness**
-4. **Resource Surprises**
-5. **Travel Hazards**
-6. **Micro-Social Lodge Touches**
-
----
-
-## 1. Ambient Life Events
-
-Small, mostly non-combat scenes that make the world feel alive.
-
-### Example: “Stag in the Mist”
-
-- Trigger:
-  - Early morning in forest clearings, light fog.
-- Behavior:
-  - A non-hostile stag appears, grazes, reacts to player distance/noise.
-- Outcomes:
-  - If approached slowly, player can observe and maybe:
-    - Gain a tiny tracking XP boost
-    - See “ideal shot” tutorial hint
-  - If spooked and killed:
-    - Normal loot, but breaks the quiet moment.
-
-### Example: “Flock Scatter”
-
-- Trigger:
-  - Near roads or clearings.
-- Behavior:
-  - A flock of forest birds scatters if startled; small, pretty event.
-- Outcomes:
-  - Potential small loot: dropped feathers
-  - Might foreshadow predator presence nearby (wolf spawns)
+1. **Player identity as a hunter**
+   - The board should always have something that feels like a real, grounded problem in the woods.
+2. **Predictable scaffolding, surprising details**
+   - The player learns the categories (Culling, Track & Kill, Defense, Investigation, Deeds).
+   - What changes: location, twists, and stakes.
+3. **Low friction, high flavor**
+   - Grab Hunts fast, turn them in fast.
+   - Content lives in the world, with strong POI ties.
+4. **Scales forward**
+   - The Greatwood implementation becomes the “Region 1 template” that later regions mirror.
 
 ---
 
-## 2. Help / Rescue Events
+# 1. The Greatwood Lodge Hunt Board
 
-Short scenarios where the player can choose to intervene.
+## 1.1 Physical Object & Placement
 
-### Example: “Trapped Forester”
+- Large wooden board in the **main hall** of the Greatwood Lodge.
+- Positioned close to:
+  - The Ember Pot hearth / cooking area
+  - The council desks / Clerk NPC
+- Visual language:
+  - Layers of curled parchment
+  - Wax seals and stamped Lodge sigils
+  - Knives, arrows, and bone pins used as tacks
+  - A few recent trophies leaning nearby (fresh pelt, cracked horn)
 
-- Trigger:
-  - Specific Greatwood subzones with logging/scouting presence.
-- Behavior:
-  - A Forester NPC is pinned under a log or caught in a trap.
-- Objectives:
-  - Free them (interaction or simple tool use)
-  - Optionally fend off a nearby hostile creature.
-- Outcomes:
-  - Small XP and coin
-  - Forester rep
-  - Chance to be pointed toward a Hunt Board contract or Forester quest (61, 59)
+## 1.2 Interaction Basics
 
-### Example: “Lost Novice Hunter”
+- Interact key → **Hunt Board UI** opens.
+- Top-level structure:
+  - Filter row: `All | Common Hunts | Deeds`
+  - Later region tabs can be added as `Greatwood | Hollowroot | …`.
+- Each entry card shows:
+  - **Name** (e.g. “Cull the Greybacks”)
+  - **Type icon** (beast / corruption / outlaw / escort / special)
+  - **Level band** (e.g. 3–6)
+  - **Solo / group suggestion**
+  - **Key reward tags** (Rep, Ingredients, Trophy, Recipe, etc.)
 
-- Trigger:
-  - Deeper into Greatwood, near dangerous areas.
-- Behavior:
-  - A nervous, under-geared hunter is off-track and scared.
-- Objectives:
-  - Escort them back to a safe route or camp
-- Outcomes:
-  - XP, small Lodge rep
-  - They might later appear at the Lodge with new dialogue
+## 1.3 Access & Limits
 
----
-
-## 3. Corruption & Weirdness
-
-Events that show Greatwood’s darker side.
-
-### Example: “Roots that Bleed”
-
-- Trigger:
-  - Near subtle corruption pockets.
-- Behavior:
-  - Tree roots are visibly red-black, seeping strange fluid.
-- Objectives:
-  - Player can inspect, harvest a sample, or burn it.
-- Outcomes:
-  - Sample → minor alchemical ingredient (dangerous)
-  - Burn → small rep with Forester’s Circle (they appreciate containment)
-  - Ignoring it → no immediate effect, but corruption might spread later (foreshadowing)
-
-### Example: “Whispering Hollow”
-
-- Trigger:
-  - Night, near Hollowroot-adjacent areas.
-- Behavior:
-  - Faint whispers/voices heard around certain trees or stumps.
-- Objectives:
-  - Follow the whispers → leads to a minor corrupted creature encounter or a lore object.
-- Outcomes:
-  - XP, possible ingredient (55: `spec_ingr_hollowroot_resin` or `deep_glow_spores`)
-  - Lore snippets about past hunts or forest tragedies
+- Unlocked by Greatwood Lodge intro chain (Chapter 1 main story).
+- Player limits:
+  - Up to **3 Common Hunts** active at once.
+  - Up to **1 active Deed** per region (here: 1 Greatwood Deed at a time).
+- Refresh logic (high level, detail in Tech section):
+  - Common Hunts: soft rotation daily/weekly per player.
+  - Deeds: static unlocks gated by story and reputation.
 
 ---
 
-## 4. Resource Surprises
+# 2. Common Hunts – Greatwood 1–20 First-Wave List
 
-Positive little spikes for gatherers and profession players.
+These are **short, repeatable contracts** designed for 10–20 minute runs.
 
-### Example: “Rich Foraging Patch”
+Each Common Hunt has:
 
-- Trigger:
-  - For players with certain profession skills, chance to spot special nodes:
-    - Extra mushrooms, herbs, or rare plants.
-- Behavior:
-  - Small cluster of higher-yield resource nodes.
-- Outcomes:
-  - More ingredients in one spot
-  - Potential rare spawn if over-harvested (beast shows up angry)
+- **ID** – stable reference
+- **Name**
+- **Type / objective**
+- **Level band**
+- **Target / area**
+- **Core objective**
+- **Baseline rewards**
+- **Variations / scaling hooks**
 
-### Example: “Old Hunter’s Cache”
-
-- Trigger:
-  - Found in off-path locations, maybe marked by subtle signs.
-- Behavior:
-  - Hidden stash with:
-    - small bundle of crafted arrows
-    - dried meats
-    - maybe a low-tier recipe scroll
-- Outcomes:
-  - XP, items, flavor note from unknown hunter
-  - Potential link to Deeds or Hunt Board (61) older contracts
+Below are **12** first-wave Hunts. More can be added later by copying the pattern.
 
 ---
 
-## 5. Travel Hazards
+## CH-GW-001 – “Cull the Greybacks”
 
-Light risk while moving between POIs.
-
-### Example: “Fallen Tree Ambush”
-
-- Trigger:
-  - On certain paths after a storm.
-- Behavior:
-  - Tree blocks path; player chooses to go around or clear it.
-  - Clearing may trigger:
-    - Hostile creatures hiding behind/within it
-- Outcomes:
-  - XP, small resource gain (wood, mushrooms)
-  - Chance for a Hunt Board prompt to appear: “Report the blockage” → small rep.
-
-### Example: “Sudden Fog”
-
-- Trigger:
-  - Weather system or timed event.
-- Behavior:
-  - Thick fog rolls in, reducing visibility.
-- Outcomes:
-  - Optional:
-    - Temporarily increased chance of certain rare spawns
-    - Decreased range of vision for both player and enemies
-  - Hooks into night/fog hunts and tracking quests.
+- **Type:** Culling
+- **Level Band:** 3–6
+- **Target:** Greyback wolves in the **Low-Eaves Paths**
+- **Core Objective:**
+  - Kill **12 Greyback wolves**.
+  - Optional: kill **1 Greyback Alpha** if it spawns.
+- **Area Notes:**
+  - Southern approaches to the Lodge, along the first forest roads.
+  - Good early-game arena to teach:
+    - Flanks
+    - Short leashes
+    - Patrolling packs
+- **Rewards:**
+  - Hunter XP + Lodge rep (small)
+  - Coin
+  - `wolf_pelt_common`, `wolf_fang` (ingredient IDs from 51)
+- **Variations / Scaling:**
+  - At higher player level, pack size and density ramps slightly.
+  - Some variants add a **bonus objective**:
+    - Return with **3 intact hides** for extra Cook + Forester rep.
 
 ---
 
-## 6. Micro-Social Lodge Touches
+## CH-GW-002 – “Boars in the Turned Fields”
 
-Events that connect the world back to the Lodge.
-
-### Example: “Returning Caravan”
-
-- Trigger:
-  - Near roads leading to the Lodge.
-- Behavior:
-  - Small caravan of traders/hunters moving toward or away from Lodge.
-- Outcomes:
-  - Quick trade opportunity (limited wares)
-  - Chance to overhear rumors that hint at Hunts, Deeds, or Dungeons.
-
-### Example: “Lodge Messenger”
-
-- Trigger:
-  - Out in the field, low chance.
-- Behavior:
-  - A Lodge runner catches up to player with a message:
-    - New Hunt posted
-    - Deed available
-    - Festival or Lodge event starting soon
-- Outcomes:
-  - Directs player to Lodge / Hunt Board (dynamic hook)
-  - Makes the world feel organized and reactive
+- **Type:** Culling / Territory Defense
+- **Level Band:** 4–7
+- **Target:** Wild boars rooting through abandoned farm plots.
+- **Core Objective:**
+  - Kill **8 raging boars**.
+  - Destroy **3 rooting grounds** (interactive ground patches).
+- **Area Notes:**
+  - “Turned Fields” POI – a liminal zone between forest and old farmlands.
+  - Visible plow lines and broken fences show the story of abandonment.
+- **Rewards:**
+  - Hunter XP + Lodge rep
+  - `boar_meat`, `boar_tusk`
+  - Small food bundle as a “thank you” from nearby settlers.
+- **Variations / Scaling:**
+  - Night variant: some boars are **night-touched** with mild corruption VFX.
+  - Occasional **“Boar Matron”** mini-elite if enough boars are pulled together.
 
 ---
 
-## System Rules & Hooks
+## CH-GW-003 – “The Sentries in the Boughs”
 
-- Events are tagged with:
-  - **Biome** (forest, river, road, cliff, lodge-adjacent)
-  - **Time of Day** (day, night, dawn, dusk)
-  - **Weather** (clear, foggy, storm)
-  - **Player State** (on a hunt, not on a hunt, near objective, etc.)
-
-- Some events:
-  - Are more likely when player has certain profession skills or reputation.
-  - Can escalate into Deeds or feed into main questlines.
+- **Type:** Track & Kill (elites)
+- **Level Band:** 6–9
+- **Target:** Hawk/owl “sentry” beasts acting as scouts for something deeper in the woods.
+- **Core Objective:**
+  - Kill **3 Screeching Sentries** perched on high limbs or cliff ledges.
+  - Optional: destroy **1 nest**.
+- **Area Notes:**
+  - Mid-Greatwood ridges and tree-cliff POIs.
+  - Vertical combat opportunities, knockback risks.
+- **Rewards:**
+  - Hunter XP + Lodge rep
+  - `feather_spec_scout` (ingredient for trinkets and perception potions).
+- **Variations / Scaling:**
+  - Some variants require the player to **climb or platform** to reach perches.
+  - Nests can reveal lore scraps about who/what is using them as scouts.
 
 ---
 
-## Next Actions
+## CH-GW-004 – “Webs Over the Path”
 
-- Build a **catalog** of at least:
-  - 15–20 ambient events
-  - 5–10 help/rescue/resource events
-- Tag each event with:
-  - Specific locations / region zones
-  - Time/weather requirements
-  - Hook(s) into Hunts, Professions, or Dungeons
-- Draft example in-game text/snippets for 3–5 events (flavor, barks, notes).
+- **Type:** Hazard Removal / Culling
+- **Level Band:** 7–10
+- **Target:** Giant spiders and their webbing choking a key travel route.
+- **Core Objective:**
+  - Burn or cut down **5 web clusters**.
+  - Kill **10 forest spiders** guarding the route.
+- **Area Notes:**
+  - A main path between Lodge and an early outpost.
+  - Visually obvious webs crossing the trail.
+- **Rewards:**
+  - Hunter XP + Lodge rep
+  - `spider_silk_basic` for tailoring/crafting.
+  - Slight lowering of random encounter chance on that road.
+- **Variations / Scaling:**
+  - Rare **Broodmother** mini-elite spawn.
+  - Elite introduces mechanics like **pulling** the player into webs or rooting them.
+
+---
+
+## CH-GW-005 – “Something in the Grain”
+
+- **Type:** Investigation / Culling
+- **Level Band:** 8–11
+- **Target:** Vermin and small corrupted pests inside grain caches.
+- **Core Objective:**
+  - Inspect **3 grain stores** near edge-settlements.
+  - Kill vermin waves that burst out.
+  - Optional: collect **1 tainted grain sample**.
+- **Area Notes:**
+  - Mix of human-crafted structures and encroaching forest.
+  - Audio: scratching behind wooden panels; sacks twitching.
+- **Rewards:**
+  - Hunter XP + Lodge rep (extra Ember Kitchen rep)
+  - `tainted_grain_sample` used in early corruption/alchemy quests.
+- **Variations / Scaling:**
+  - Some variants reveal small **corruption pustules** inside the grain.
+  - NPC dialogue in nearby hubs updates after repeated clears (“quieter walls at night”).
+
+---
+
+## CH-GW-006 – “Tracks Along the Riverbend”
+
+- **Type:** Tracking / Patrol
+- **Level Band:** 9–12
+- **Target:** An unknown predator using the river as a hunting road.
+- **Core Objective:**
+  - Follow a string of **track markers** along the riverbank.
+  - Survive scripted ambushes (predators bursting from undercut banks or shallows).
+  - Identify a **lair entrance** (without full boss fight).
+- **Area Notes:**
+  - Riverbend POIs with mud, fallen logs, and eroded banks.
+  - Small fording points that can be used by NPCs later.
+- **Rewards:**
+  - Hunter XP + Lodge rep
+  - Map reveal: a new lair/cave marker for later Deeds or dungeons.
+- **Variations / Scaling:**
+  - Different variants can lead to different lairs over time.
+  - Seasonal/weather variants change water level and ambush angles.
+
+---
+
+## CH-GW-007 – “Guard the Gatherers”
+
+- **Type:** Defense / Escort
+- **Level Band:** 10–13
+- **Target:** Waves of beasts and minor corruption threatening resource gatherers.
+- **Core Objective:**
+  - Defend **NPC gatherers** through **3 timed waves** while they:
+    - Chop marked trees
+    - Harvest herbs
+  - Failing to protect them reduces rewards.
+- **Area Notes:**
+  - Profession-rich glades (wood, herbs, fungi).
+  - Clear visual markers where gatherers are working.
+- **Rewards:**
+  - Hunter XP + Lodge rep
+  - Resource bundles:
+    - `log_common`, `herb_basic`, `fungus_common`
+  - Extra Lodge rep if no gatherers die.
+- **Variations / Scaling:**
+  - Profession-flavored versions:
+    - Forester variant emphasizes defending tree fellers.
+    - Cook variant emphasizes rare herb gathering.
+  - Higher tiers might introduce **corrupted tree-things** or enemy casters.
+
+---
+
+## CH-GW-008 – “Silence in the Treetops”
+
+- **Type:** Investigation / Scout
+- **Level Band:** 11–14
+- **Target:** The absence of normal wildlife – something is clearing the canopy.
+- **Core Objective:**
+  - Visit **3 marked perches** and **2 animal dens** that should be occupied.
+  - Document evidence of **vanished birds and small mammals**.
+- **Area Notes:**
+  - Mid-to-northern Greatwood canopy routes.
+  - Unsettling ambience – no birdsong, distant creaks.
+- **Rewards:**
+  - Hunter XP + Lodge rep
+  - Unlocks a small **Greatwood Ecology** lore entry in the Archive.
+- **Variations / Scaling:**
+  - Sometimes triggers a short mini-event of **panicked animals fleeing** a direction.
+  - Feeds hints into corruption- or predator-themed Deeds.
+
+---
+
+## CH-GW-009 – “Ash-Eaters at the Edge”
+
+- **Type:** Culling / Environmental
+- **Level Band:** 12–15
+- **Target:** Scavenger creatures feeding at old burn-scars.
+- **Core Objective:**
+  - Kill **10 ash-eater creatures** at marked burn sites.
+  - Optional: destroy **1 corrupted ash-pool**.
+- **Area Notes:**
+  - Border zones where a past fire burned through Greatwood.
+  - Ground is blackened, with skeletal tree husks.
+- **Rewards:**
+  - Hunter XP + Lodge rep
+  - `ash_touched_remnant` ingredients for alchemy and armor infusions.
+- **Variations / Scaling:**
+  - Environmental hazards:
+    - Lingering heat debuff
+    - Visibility issues from smoke wisps
+  - Rare variant: a **“Scorchling”** elemental mini-elite.
+
+---
+
+## CH-GW-010 – “The Poachers’ Signs”
+
+- **Type:** Human Threat / Recon
+- **Level Band:** 13–16
+- **Target:** Poacher camps and trap lines encroaching on Lodge territory.
+- **Core Objective:**
+  - Disarm **6 traps** (snares, pit traps, spike frames).
+  - Destroy or burn **2 poacher lean-tos/camps**.
+- **Area Notes:**
+  - Less-patrolled forest paths, hunter sign absent or defaced.
+  - Human mark-making: carved warnings, false trail markers.
+- **Rewards:**
+  - Hunter XP + Lodge rep (faction-wide)
+  - Chance at poacher gear:
+    - Light armor pieces
+    - Crude bows / daggers
+- **Variations / Scaling:**
+  - Some variants spawn a **Poacher Lieutenant** as a mini-boss.
+  - If the player fails repeatedly, more traps appear in that region in general.
+
+---
+
+## CH-GW-011 – “Eyes in the Fog”
+
+- **Type:** Ambush Control / Patrol
+- **Level Band:** 14–18
+- **Target:** Predators using thick fog for cover.
+- **Core Objective:**
+  - Patrol **3 fog-heavy POIs**.
+  - Survive ambushes and kill a quota of **fog-stalkers**.
+  - Optional: light braziers or wards to thin the fog temporarily.
+- **Area Notes:**
+  - Low-lying, damp pockets with constant mist.
+  - Visibility-reducing VFX used intentionally.
+- **Rewards:**
+  - Hunter XP + Lodge rep
+  - `fog_stalker_eye` ingredient for perception/awareness items.
+- **Variations / Scaling:**
+  - Spawn intensity tied to weather/time-of-day.
+  - Repeat clears can temporarily improve visibility for that zone.
+
+---
+
+## CH-GW-012 – “Whispers in the Hollow”
+
+- **Type:** Corruption Probe
+- **Level Band:** 16–20
+- **Target:** Early corruption manifestations near Hollowroot-adjacent areas.
+- **Core Objective:**
+  - Disrupt **3 minor corruption nodes**.
+  - Kill the **named corrupted creature** guarding each node.
+- **Area Notes:**
+  - Areas geographically closest to Hollowroot.
+  - Visuals: faintly glowing root-veins and pulsing growths.
+- **Rewards:**
+  - Hunter XP + Lodge rep (heavy on anti-corruption wing)
+  - `corruption_residue_minor`
+- **Variations / Scaling:**
+  - Progression in Hollowroot story arc can alter:
+    - Node visuals
+    - Enemy line-up
+    - Difficulty
+
+---
+
+# 3. Deeds – Named Greatwood Contracts (1–20)
+
+Deeds are **larger, named contracts** that:
+
+- Run multiple steps.
+- Have stronger narrative framing.
+- End in a unique trophy or major reputation moment.
+
+Below are **5 first-wave Deeds** for Greatwood.
+
+Each entry includes:
+
+- **ID & Name**
+- **Level band**
+- **Premise**
+- **Step breakdown (high-level)**
+- **Climactic encounter**
+- **Rewards and follow-ups**
+
+---
+
+## D-GW-001 – “The Boar That Wouldn’t Die”
+
+- **Level Band:** 8–12
+- **Premise:**
+  - A massive boar has survived several official Lodge Hunts.
+  - It returns more scarred, clever, and enraged each time.
+  - Hunters talk about it like a ghost story.
+
+### Step Flow
+
+1. **Failed Hunts**
+   - Visit **2 failed hunt sites**:
+     - Broken spears, snapped arrows
+     - Torn cloaks snagged on trees
+     - Blood trails that just stop
+   - Optional interactions:
+     - Hear campfire stories from surviving hunters in the Lodge.
+
+2. **Reading the Land**
+   - Follow environmental clues:
+     - Deep hoof gouges
+     - Trees scarred by tusks
+     - Uprooted saplings
+   - Fight smaller boars and scavengers.
+   - Identify how the boar **learned** to evade typical ambushes.
+
+3. **Final Stand**
+   - Track it to a **mud-churned arena** near a river or bog.
+   - Boss fight:
+     - Phase 1: wide sweeping charges, ground churn that creates mud slow zones.
+     - Phase 2: enrages when health low; starts using log-pushes and terrain.
+   - Optional:
+     - Use environmental traps (spiked logs, sharpened stakes) if the player preps.
+
+### Rewards & Follow-Ups
+
+- Trophy: **Boar Skull Crest** (Wall trophy + possible Lodge display variant).
+- Ingredients:
+  - High-grade boar meat and marrow (`boar_marrow_spec`).
+- Reputation:
+  - Big Hunter rep spike; some NPCs will still joke “He’ll be back” for a while.
+- Hooks:
+  - Later regions can reference this boar as a story of “the one that finally stayed down.”
+
+---
+
+## D-GW-002 – “The Beast That Hunts Fire”
+
+- **Level Band:** 10–14
+- **Premise:**
+  - Something learned that where campfires appear, prey gathers.
+  - It circles campfire light and strikes from just outside the glow.
+
+### Step Flow
+
+1. **Charred Campsites**
+   - Investigate **3 ruined campsites**:
+     - Fire pits scattered
+     - Burned tents
+     - Drag marks leading away
+   - Collect evidence that attacks happen specifically **near firelight**.
+
+2. **Baiting the Night**
+   - Set up a **decoy camp** with an NPC hunter or cook.
+   - Player:
+     - Builds fire
+     - Places scent-lures
+     - Chooses terrain (open clearing vs more cover).
+   - Short prep phase:
+     - Place simple traps, pick vantage points.
+
+3. **The Fire-Hunter**
+   - Night-time encounter:
+     - The beast darts in and out of the fire radius.
+     - Gains buffs in **dim light**, loses some in **full light** or **complete dark**.
+   - Player tools:
+     - Stoke or dampen fire mid-fight.
+     - Kiting the beast through traps.
+
+### Rewards & Follow-Ups
+
+- Trophy: **Char-Scored Fire Ring** or campfire stand for room/Lodge.
+- Ingredient: `ember_scorched_hide` used for fire-resistance or ember-themed gear.
+- Reputation:
+  - Lodge rep + Ember Kitchen appreciation if attacked campers were cooks.
+- Hooks:
+  - Unlocks new Common Hunt variants with **night ambush predators** patterned after this fight.
+
+---
+
+## D-GW-003 – “Tracks in the Ash”
+
+- **Level Band:** 12–16
+- **Premise:**
+  - Strange tracks appear **only** in old burn-scars.
+  - Whatever leaves them dislikes living undergrowth, prefers ash and cinders.
+
+### Step Flow
+
+1. **Ash Patches**
+   - Survey multiple burned clearings.
+   - Take **plaster track impressions** (simple interact).
+   - Fight off ash-eaters and minor scavengers.
+
+2. **Choking Heat**
+   - Follow the trail into a **deeper burn pocket**:
+     - Heat debuff
+     - Occluding smoke wisps
+   - Environmental hazards:
+     - Standing in ash-pools slowly drains stamina / resource.
+
+3. **Ash-Burrowed Alpha**
+   - Boss-type encounter:
+     - Burrowing predator that surfaces from ash mounds.
+     - Throws clumps of cinders, leaves burning patches.
+   - Mechanics:
+     - Player can bait it onto cooler ground to weaken certain abilities.
+     - Interrupt burrow attempts to avoid full resets.
+
+### Rewards & Follow-Ups
+
+- Trophy: **Blackened Claw** for wall or shelf.
+- Ingredients:
+  - High-tier `ash_touched_remnant`, `soot_core`.
+- Reputation:
+  - Reputation with Lodge wing studying past fires and disaster sites.
+- Hooks:
+  - Seeds lore about **old conflagrations** and hints at future fire-related powers/enemies.
+
+---
+
+## D-GW-004 – “The Whisper in the Hollow”
+
+- **Level Band:** 15–20
+- **Premise:**
+  - Hunters report voices in low hollows and root tunnels.
+  - Some return shaken; some never return.
+
+### Step Flow
+
+1. **Missing Names on the Board**
+   - Inspect Hunt Board entries marked:
+     - “Unreturned”
+     - “Suspended”
+   - Speak with NPCs who lost partners on those Hunts.
+
+2. **Echoing Hollows**
+   - Explore root caves and hollows along those missing routes.
+   - Audio:
+     - Whispers that slightly pan around the player.
+     - Occasional overlapping voices.
+   - Minor ambushes by creatures drawn to the sound.
+
+3. **Choosing Which Voice to Trust**
+   - Branching interior paths:
+     - Some whispers urge retreat, others encourage pushing deeper.
+   - Correct choices:
+     - Lead toward the real heart of the corruption.
+   - Wrong choices:
+     - Dead ends, debuffs, extra fights.
+
+4. **Confrontation**
+   - Fight a **whispering entity** linked to Hollowroot’s corruption.
+   - Mechanics:
+     - Illusions of other hunters (friendly silhouettes that become enemies).
+     - Sound-based telegraphs (attacks hinted by direction of whisper).
+     - Breakable crystals or growths that amplify the voice.
+
+### Rewards & Follow-Ups
+
+- Trophy: **Whispering Root Charm** (small, unsettling ornament).
+- Ingredient: `hollowroot_resonance` for high-tier alchemy or corruption wards.
+- Reputation:
+  - Major Lodge recognition; council explicitly names the player in dialogue.
+- Hooks:
+  - Serves as a **bridge Deed** into Hollowroot mainline content.
+
+---
+
+## D-GW-005 – “A Debt in Blood”
+
+- **Level Band:** 18–20
+- **Premise:**
+  - A Lodge rule was broken in the wilds.
+  - Someone died, and now the Lodge wants closure before the story spreads.
+
+### Step Flow
+
+1. **The Silent Corner**
+   - Talk to a senior hunter or clerk in a quiet Lodge corner.
+   - Learn:
+     - A Hunt went bad.
+     - The survivor’s story doesn’t match the wounds.
+
+2. **Following the Survivor’s Path**
+   - Retrace the doomed party’s route:
+     - Spent arrows embedded in trees.
+     - Blood on rocks.
+     - Signs of conflict between hunters themselves.
+   - Fight beasts that fed on the remains, but the real tension is in the **implied betrayal**.
+
+3. **The Broken Vow**
+   - Find the survivor in the wild:
+     - Either hiding, or obsessively trying to “finish the Hunt.”
+   - Player choice:
+     - Escort them back for formal judgment.
+     - Duel/kill them in the field.
+   - Encounter:
+     - Duel is tuned like a PvP-lite fight vs another hunter kit.
+     - Escort variant has multiple ambushes testing if the survivor still follows Lodge code.
+
+### Rewards & Follow-Ups
+
+- Trophy: **Blood-Marked Lodge Token** (etched with a rule or vow).
+- Reputation:
+  - Big Lodge rep shift:
+    - “Justice” choice makes certain strict NPCs warm up.
+    - “Mercy” choice wins over more lenient or practical hunters.
+  - Slight cosmetic/title unlock reflecting your stance.
+- Hooks:
+  - Ongoing NPC barks and small side quests respond to your decision.
+
+---
+
+# 4. System Integration
+
+This file plugs into other Game Bible sections:
+
+- **61 – Hunts, Targets, and the Core Hunt Loop**
+  - Uses its definitions for:
+    - Hunt states, failure conditions, tracking rules.
+- **51 – Ingredient Taxonomy**
+  - All ingredient references (`wolf_fang`, `ash_touched_remnant`, etc.) must map 1:1 to IDs.
+- **52–55 – Cooking & Professions**
+  - Some Hunts (e.g. Guard the Gatherers, Something in the Grain) give:
+    - Profession resources
+    - Recipe unlock tokens
+- **59 – Lodge Profession Reputation Tracks**
+  - Every Hunt/Deed carries **rep tags**:
+    - Hunter Core
+    - Forester’s Circle
+    - Ember Kitchen
+    - Carpenter’s Hall
+- **60 – Broken Tools Questline**
+  - Certain Hunts can:
+    - Drop “bad material” samples.
+    - Include side barks referencing failing tools in the field.
+- **85–86 – Ember Pot & Trophy Wall**
+  - Deed trophies:
+    - Placeable in:
+      - Lodge common areas
+      - Player quarters (B100, B101…).
+    - May unlock special Ember Pot events (e.g. “Boar Feast” after D-GW-001).
+
+---
+
+# 5. Technical / Implementation Notes
+
+High-level structure for designers/encounter scripters.
+
+## 5.1 Data Model Sketch
+
+**Common Hunts**
+
+- `id` – string, e.g. `"CH-GW-001"`.
+- `name` – localized display name.
+- `type` – enum (`cull`, `track_kill`, `escort`, `investigate`, `corruption_probe`, etc.).
+- `level_min`, `level_max`.
+- `target_family` – references enemy taxonomy.
+- `region_tags[]` – e.g. `["greatwood", "low_eaves"]`.
+- `objectives[]` – simple objective definitions (kill, interact, defend).
+- `reward_bundles[]` – loot/rep profiles.
+- `rep_tags[]` – which Lodge tracks get credit.
+
+**Deeds**
+
+- `id`, `name`.
+- `level_band`.
+- `steps[]` – each step is:
+  - `type` (travel, investigate, kill, defend, dialogue).
+  - `requirements`.
+  - `POI markers`.
+- `unique_rewards[]` – trophy IDs, recipe unlocks, etc.
+- `unlock_conditions` – story/rep gates.
+
+## 5.2 Board Refresh Logic (Summary)
+
+- Common Hunts:
+  - Each region has a pool of Hunts.
+  - On daily/weekly tick, roll a subset weighted by:
+    - Player level
+    - Which Hunts they’ve done recently
+    - Story phase
+- Deeds:
+  - No random rotation.
+  - Unlocked by:
+    - Main story progress
+    - Reputation thresholds
+    - Completion of prerequisite Hunts.
+
+## 5.3 Group Handling
+
+- Hunt credit shared for:
+  - Kills
+  - Objective interactions
+- Deeds:
+  - Step progress shared for all party members who:
+    - Have the Deed active
+    - Are in reasonable proximity.
+- UI:
+  - Board marks Hunts and Deeds already owned by party members.
+
+## 5.4 Failure & Abandonment
+
+- Common Hunts:
+  - Can be:
+    - Abandoned with no penalty (other than lost time).
+    - Soft-failed on timer; available again later.
+- Deeds:
+  - Major failures may:
+    - Lock specific branches.
+    - Unlock alternate “aftermath” dialogues or smaller follow-up Hunts.
+  - The board can show crossed-out or red-tinted entries if a Deed ends badly.
+
+---
+
+# 6. Next Extensions
+
+Once this file is locked:
+
+1. **Write quest-log copy** for:
+   - 1–2 sentences per Common Hunt (player-facing).
+   - 3–5 sentence blurbs per Deed step.
+2. **Tag enemies and POIs** in encounter design:
+   - Ensure every Hunt and Deed has a unique visual/mechanical hook.
+3. **Add 3–5 more Hunts** at higher tiers (18–25) for late-Greatwood.
+4. **Define first Hollowroot-region Hunts** in file 63+ using this as the template.
