@@ -1,737 +1,626 @@
-59 – Lodge Reputation, Hunt Board, and Contracts (Greatwood 1–20)
-Purpose
+# 59 – Greatwood Lodge Reputation, Circles & Titles
 
-Define how the Lodge functions as:
+## Purpose
 
-The player’s main hub of progression.
+Define how **reputation, circles, and titles** work in and around Greatwood Lodge:
 
-The source of structured Hunt Contracts.
+- The Lodge **reputation spine** and its sub-factions (“circles”).
+- How Hunts, Deeds, professions, events, Ember Pot, and social choices **feed rep**.
+- What **ranks/titles** you earn and what they unlock.
+- How rep ties into:
+  - Hunt Board (61)
+  - Dynamic events & region play (62–63, 90)
+  - Lodge social layer (64)
+  - Ember Pot (85)
+  - Trophy Hall & Quarters (86, B100)
+  - Broken Tools & professions (52–57, 60)
 
-A network of reputation tracks that:
+This is the **meta-progression loop** that says:
+> “You’re not just leveling, you’re becoming *someone* in this Lodge.”
 
-Pay out unique rewards.
+---
 
-Unlock systems like Alchemy (58), Corruption work (91), and Professions (95).
+## Design Goals
 
-Reflect how the Emberwild responds to the hunter’s actions.
+1. **Simple spine, deep flavor**
 
-This is the Greatwood 1–20 slice of Lodge Reputation and the Hunt Board. It must be:
+   - Easy to understand:
+     - “Do Lodge things → earn Lodge favor.”
+   - Depth comes from:
+     - *Where* you invest (which circle)
+     - *What* stories unlock at each rank.
 
-Immediately usable.
+2. **No hard-lock, strong soft pressure**
 
-Systemically connected to Hunts, Corruption, and Alchemy.
+   - Reputation should:
+     - Encourage certain play (help Ember Kitchen, Foresters, etc.)
+   - But **not**:
+     - Hard-lock core game systems behind grind walls.
 
-Ready to expand later without needing a redesign.
+3. **Titles feel earned, not spammed**
 
-Design Pillars
+   - Fewer, more meaningful titles:
+     - “New Face”, “Working Hunter”, “Named Hunter”, etc.
+   - Titles visible:
+     - In social UI
+     - In some NPC dialogue
+     - On the Hunt Board / Hall ledger.
 
-The Lodge Is Home, Not Just a Menu
+4. **Circles = lenses on the same forest**
 
-Reputation, contracts, and rewards are tied to:
+   - Lodge is one structure, but:
+     - Foresters
+     - Ember Kitchen
+     - Woodworkers
+     - Scribes/Scholars
+   - Each cares about **different actions**.
 
-Physical rooms.
+5. **Reusable pattern**
 
-NPCs.
+   - 59 is the base pattern for:
+     - Other Lodges
+     - City factions
+     - Future regions.
 
-Rituals and ceremonies.
+---
 
-The player should feel like they are part of an organization, not a quest terminal.
+## 1. Lodge Reputation Structure
 
-One Simple Loop, Many Layers
+### 1.1 Main Tracks
 
-Core loop:
+Greatwood reputation is split into:
 
-Take contract → prepare → hunt → return → turn in → rank up.
+1. **Lodge Core** – “Are you a *hunter* in good standing?”
+2. **Forester’s Circle** – Forest management, logging, path-making.
+3. **Ember Kitchen** – Food, Ember Pot, camp kitchens.
+4. **Carpenter’s Hall** – Woodworking, structures, repairs.
+5. **Scribes & Scholars** (Records) – Elira’s domain: reports, maps, lore.
+6. **(Future) Alchemist / Corruption Study** – Tied to Hollowroot & later chapters.
 
-Around this loop:
+All of these roll up under an implicit **“Greatwood Lodge Standing”** meta-score, but most rewards come from the **individual tracks**.
 
-Corruption levels change.
+### 1.2 Rank Tiers (per track)
 
-NPCs react.
+Each track uses a simple tier ladder:
 
-New systems unlock.
+- **Rank 0 – Stranger**
+- **Rank 1 – New Face**
+- **Rank 2 – Working Hand**
+- **Rank 3 – Trusted Hand**
+- **Rank 4 – Named Hunter / Pillar** (name varies by circle)
 
-Reputation as Story and Power
+Each ladder has its own flavor names, but mechanically:
 
-Reputation unlocks:
+- Rank 0: No track-specific perks, limited dialogue.
+- Rank 1: Basic services & intro discounts.
+- Rank 2: Access to better contracts/recipes, more barks.
+- Rank 3: Deeper story beats, unique items, social micro-quests.
+- Rank 4: Top tier for Greatwood 1–20:
+  - Your name in records.
+  - Bigger social recognition.
+  - Some persistent account-wide flavor hooks possible.
 
-Mechanical upgrades (discounts, recipes, access).
+---
 
-Narrative beats (titles, honors, politics).
+## 2. How You Earn Reputation
 
-The path of progression tells the story of:
+### 2.1 Core Sources
 
-A hunter rising from newcomer to trusted operative.
+Each activity contributes to **one or more tracks**:
 
-Expandable Structure
+- **Hunts (61)**
+  - Lodge Core (primary)
+  - Sometimes Foresters (if forest-safety related)
+  - Sometimes Ember Kitchen (meat & ingredient delivery).
 
-The Greatwood Lodge is a template.
+- **Deeds (61)**
+  - Big bump to Lodge Core.
+  - Secondary bumps to relevant circles:
+    - Boar Deed → Kitchen & Foresters.
+    - Ash Deed → Foresters & Scholars.
+    - Whisper / Hollowroot Deed → Scholars & Alchemists.
 
-Future Lodges, outposts, and factions can reuse:
+- **Professions & Broken Tools (52–57, 60)**
+  - Foresters: tree work, path clearing, wood scouting.
+  - Ember Kitchen: cooking for the Pot, road-cauldrons.
+  - Carpenters: repairs, attuned beams, structures.
+  - Scribes: accurate reports, maps, bestiary notes.
 
-The rep track structure.
+- **Dynamic Events (62)**
+  - Help/Rescue events → Lodge Core + relevant circle.
+  - Ember Pot on the Road → Ember Kitchen.
+  - Panicked Beast & Lost Gatherer → Foresters.
 
-The contract types.
+- **Secrets & exploration (90)**
+  - Turning in certain lore items → Scribes.
+  - Revealing new safe routes → Foresters + Lodge Core.
 
-The UI patterns.
+- **Lodge Social / Micro-Quests (64)**
+  - Micro-quests from Mara, Arlen, Fen, Elira, rival, apprentices:
+    - Small but flavorful rep bumps.
 
-Components Overview
+### 2.2 Rep Values (Tuning Concept)
 
-Lodge Circles – internal “factions” within the Lodge.
+We don’t need exact numbers here, but the *shape*:
 
-Reputation Tracks – numeric reputation levels with thresholds and titles.
+- Common Hunt completion:
+  - Small Lodge Core rep, tiny profession circle rep.
+- Deeds:
+  - Large Lodge Core bump.
+  - Medium to large circle bump (depending on theme).
+- Profession tasks / deliveries:
+  - Low rep, but frequent and stackable.
+- Secrets turned in:
+  - Moderate Scribe rep, small Lodge Core rep.
 
-Hunt Board – the physical and UI representation of contracts.
+No rep **decay** in Greatwood 1–20 baseline (unless a specific story beat demands it). Any “rep loss” is story-gated:
 
-Contract Types – hunts, corruption jobs, supply runs, research tasks, social favors.
+- e.g. siding with poachers in a Deed → one-off rep hit with Foresters/Lodge.
 
-Rewards & Unlocks – what players get and when.
+---
 
-Progression & Tuning – how fast it moves and how it interacts with other systems.
+## 3. Lodge Core Track
 
-Lodge Circles (Internal Factions)
+### 3.1 Rank Names
 
-The Greatwood Lodge has three primary circles plus a general track:
+- Rank 0: **Outsider**
+- Rank 1: **New Face**
+- Rank 2: **Working Hunter**
+- Rank 3: **Trusted Hunter**
+- Rank 4: **Named Hunter of Greatwood**
 
-The Lodge Proper
+### 3.2 Rank Unlocks
 
-The overall organization, leadership, and infrastructure.
+**Rank 0 → 1 (Outsider → New Face)**  
+Unlocked by:
 
-Represents the hunter’s standing “with the Lodge as a whole.”
+- Completing initial Lodge intro & first Hunts.
 
-Governs:
+Perks:
 
-Access to new regions.
+- Can use:
+  - Basic Hunt Board contracts.
+- Basic Ember Pot stew access.
+- Simple bed in shared quarters (B100 Tier 0).
 
-Training.
+**Rank 1 → 2 (New Face → Working Hunter)**  
+Conditions (examples):
 
-Lodge-wide amenities.
+- X common Hunts completed (CH-GW-001/002/005, etc.)
+- First Deed started OR certain region milestones.
 
-The Huntmasters’ Circle
+Perks:
 
-Veteran hunters overseeing contracts and combat training.
+- Access to slightly higher-risk Hunts on the Board.
+- Ember Kitchen:
+  - Discount on basic food.
+- Lodge treatment:
+  - Small discount on wound treatment (B101).
+- Quarters:
+  - Unlocks B100 Tier 1 (“Working Hunter” room).
 
-Governs:
+**Rank 2 → 3 (Working Hunter → Trusted Hunter)**  
 
-High-risk hunt access.
+Conditions:
 
-Combat perks.
+- Y Hunts, at least one Deed completed.
+- Positive completion of some help/rescue events.
 
-Elite gear contracts.
+Perks:
 
-The Wardens’ Circle
+- Deeds:
+  - Some high-tier Deeds show only at this trust.
+- Social:
+  - More personal dialogues:
+    - Rival hunter respects/challenges you.
+    - Elira shares deeper Lodge history.
+- Services:
+  - Better treatment discounts.
+  - Access to certain Lodge-only gear (cosmetic or minor-functional).
+- Quarters:
+  - B100 Tier 2 unlocked.
 
-The protectors of the bounds and wards against Corruption.
+**Rank 3 → 4 (Trusted Hunter → Named Hunter of Greatwood)**  
 
-Governs:
+Conditions:
 
-Corruption-focused contracts (91).
+- All Greatwood Deeds completed **or** key narrative arc finished.
+- Combined threshold on circles (you can’t totally neglect everyone).
 
-Cleansing rituals.
+Perks:
 
-Warding-related rewards.
+- Title:
+  - “Named Hunter of Greatwood” available.
+- Trophy Hall (86):
+  - Your name added to a recognition board.
+- Social:
+  - NPCs reference you in third-person stories to others.
+- Quarters:
+  - B100 Tier 3 and 4 gating: this and a circle track at Rank 3+.
 
-The Scholars’ Circle
+---
 
-Researchers, alchemists, and lorekeepers.
+## 4. Circle Tracks
 
-Governs:
+### 4.1 Forester’s Circle
 
-Alchemy (58).
+**Role:** Forest edges, path safety, logging, ash-line management.
 
-Professions and research tasks (95).
+Rank flavors:
 
-Lore and exploration bonuses.
+- R0: Stranger to the Trees
+- R1: Saw-Hand
+- R2: Line Keeper
+- R3: Grove Steadfast
+- R4: Ash-Line Warden
 
-Each circle has its own Reputation Track but the player also has:
+Core rep sources:
 
-A Lodge Rank that is a weighted combination of all four.
+- Hunts touching forest health:
+  - CH-GW-001, 002, 007, 009, 010.
+- Professions:
+  - Forester tasks, route scouting, marking hazardous trees.
+- Events:
+  - Lost Gatherer, Panicked Beast, Tree That Bends Away.
 
-Reputation Tracks
-Structure
+Perks by tier (examples):
 
-Each circle’s reputation is a numeric value, e.g. 0–10,000 in Greatwood.
+- R1:
+  - Better prices on wood tools.
+  - Forester barks acknowledge you.
+- R2:
+  - Access to:
+    - Forester-only Hunts or side-assignments.
+  - Profession:
+    - Extra “cut options” for wood yields.
+- R3:
+  - Influence on:
+    - Where new paths/loggings appear in the world.
+  - Special Forester trophy or decor for quarters.
+- R4:
+  - Named in:
+    - Forester Circle records.
+  - Foresters will:
+    - Sometimes adjust event outcomes (e.g. send help to your location more readily).
 
-We define five ranks for each circle:
+---
 
-Rank 0: Outsider
+### 4.2 Ember Kitchen
 
-Rank 1: Recognized
+**Role:** Cooking, Ember Pot, field kitchens.
 
-Rank 2: Proven
+Rank flavors:
 
-Rank 3: Trusted
+- R0: Stranger to the Fire
+- R1: Spoon-Holder
+- R2: Pot-Steward
+- R3: Ember-Hand
+- R4: Keeper of the Pot
 
-Rank 4: Pillar
+Core rep sources:
 
-Greatwood 1–20 is expected to move the player from:
+- Delivering ingredients.
+- Cooking via profession.
+- Ember Pot contributions/dishes (85).
+- Event:
+  - Ember Pot on the Road (HLP-05)
+  - Feeding hungry NPCs in micro-quests.
 
-Rank 0 → Rank 3 in at least one circle.
+Perks:
 
-Rank 1–2 in others, depending on playstyle.
+- R1:
+  - Slight discount on Lodge food / Pot fees.
+- R2:
+  - Unlock Ember Pot recipe hints & baseline Ember Pot-specific quests.
+- R3:
+  - Access to advanced recipes:
+    - Attuned Broth, Whisper-Ward Pottage, etc. (once story-unlocked).
+  - More dialogue with Mara about deeper Ember philosophy.
+- R4:
+  - Your name occasionally dropped in kitchen barks:
+    - “Use their cut, they know what they’re doing.”
+  - Room:
+    - Unique kitchen-themed trophies/decor for B100.
 
-Lodge Proper – Rank Names (Example)
+---
 
-0: Guest of the Lodge
+### 4.3 Carpenter’s Hall
 
-1: Pledged Hunter
+**Role:** Structural integrity, woodcraft, attuned beams & tools.
 
-2: Bound Hunter
+Rank flavors:
 
-3: Sworn Ember
+- R0: Unknown Hand
+- R1: Bench-Helper
+- R2: Beam-Faithful
+- R3: Grain-Listener
+- R4: Master of the Hall
 
-4: Warden of the Hall (beyond Greatwood, more aspirational)
+Core rep sources:
 
-Huntmasters, Wardens, and Scholars can have similar rank naming but tuned to their flavor.
+- Woodworking profession tasks.
+- Repairing structures in events:
+  - Stuck Cart hardware
+  - Broken ladders, bridges.
+- Broken Tools questline (60):
+  - Major injection of rep on completing key steps.
 
-Gaining Reputation
+Perks:
 
-Players earn reputation with circles via:
+- R1:
+  - Cheap access to basic gear upgrades (simple hafts, scraps).
+- R2:
+  - Recipes for attuned wood items unlocked more easily.
+- R3:
+  - Option to influence:
+    - Where new structural props appear in Lodge / nearby POIs.
+- R4:
+  - A named workbench or small plaque in Carpenter’s Hall.
+  - Special attuned tool skins or minor stat cosmetics.
 
-Contracts
+---
 
-Completing contracts from the Hunt Board:
+### 4.4 Scribes & Scholars (Records)
 
-Hunts → Huntmasters and Lodge Proper.
+**Role:** Documentation, bestiary, maps, lore; Elira’s domain.
 
-Corruption and warding contracts → Wardens and Lodge Proper.
+Rank flavors:
 
-Research and supply tasks → Scholars and Lodge Proper.
+- R0: Ink Stranger
+- R1: Margin-Note
+- R2: Ledger-Hand
+- R3: Story-Keeper
+- R4: Chronicler of Greatwood
 
-Story Quests
+Core rep sources:
 
-Big story beats often give:
+- Turning in detailed Hunt reports.
+- Collecting lore notes from secrets (90).
+- Helping Elira with specific investigation stages in Deeds.
+- Mapping POIs (63) and returning to Elira with info.
 
-Lodge Proper rep.
+Perks:
 
-One circle’s rep in bulk.
+- R1:
+  - Free access to basic bestiary entries and simple map hints.
+- R2:
+  - Advanced map overlays:
+    - You can mark personal notes and see more POI detail.
+- R3:
+  - Access to:
+    - Deeper lore dialogue.
+    - Hidden background on Deeds and Lodge history.
+  - Tiny buff:
+    - Slightly clearer tracking info in Hunts.
+- R4:
+  - Your name appears in:
+    - Record room as a Chronicler.
+  - Rare social scenes:
+    - Elira asks your perspective for the archive.
 
-Donations / Projects
+---
 
-Contributing:
+## 5. Titles & Display
 
-Rare reagents.
+### 5.1 Player Titles
 
-Crafted items.
+Titles come from:
 
-Corruption samples.
+- Lodge Core rank.
+- Specific Deeds.
+- Circle Ranks.
 
-Gains small but repeatable rep, possibly with diminishing returns.
+Examples (Greatwood 1–20 pool):
 
-Behavior Flags
+- **“New Face at the Fire”** – Lodge Core Rank 1.
+- **“Working Hunter of Greatwood”** – Lodge Core Rank 2.
+- **“Named Hunter of Greatwood”** – Lodge Core Rank 4.
+- **“Ash-Line Warden”** – Forester Rank 4.
+- **“Keeper of the Pot”** – Ember Kitchen Rank 4.
+- **“Grain-Listener”** – Carpenter Rank 3+ and Broken Tools completion.
+- **“Chronicler of Greatwood”** – Scribe Rank 4.
+- **Deed Titles:**
+  - “Boar-Breaker” (D-GW-001).
+  - “Fire-Stalker’s Bane” (D-GW-002).
+  - “Ash-Burrow’s End” (D-GW-003).
+  - “Whisper-Warden” or “Whisper-Bound” (D-GW-004 choice).
+  - “The Lodge’s Scales” (D-GW-005, depending on judgement).
 
-Sparing or slaying certain creatures.
+### 5.2 Where Titles Show
 
-Sparing corrupted NPCs.
+- Character sheet / social UI.
+- Nameplate (optional toggle).
+- NPC dialogue:
+  - Some characters use:
+    - Your chosen title.
+    - Or your highest Lodge title.
 
-Choosing dialogue options that align with a circle’s philosophy.
+Trophy Hall:
 
-These are minor adjustments, mostly narrative color.
+- Recognition Row (86) may display:
+  - “Named Hunters of Greatwood” board.
+  - “Chroniclers” plaque.
 
-The Hunt Board
-Physical Presentation
+---
 
-A large board or wall in a Lodge hall:
+## 6. Rep & The Lodge Social Layer (64)
 
-Plastered with:
+### 6.1 Unlocking Social Content
 
-Papers.
+Each rep threshold:
 
-Ribbons.
+- Unlocks new **conversation topics**:
+  - Mara cooking philosophy (Ember).
+  - Arlen’s view on overlogging vs caution.
+  - Fen’s attitudes about tools lying/attuning.
+  - Elira’s lore and worries.
 
-Wax-sealed orders.
+Micro-quests (64):
 
-NPCs gather around to argue about contracts.
+- Often gated by:
+  - Rank 2+ with appropriate circle.
+  - E.g. “The Apprentice’s First Cut” requires:
+    - Forester or Carpenter rank high enough.
 
-Player interacts with:
+### 6.2 Barks Based on Rank
 
-The board itself.
+NPCs use rank to:
 
-Or a nearby Huntmaster NPC who “reads” the board for them.
+- Change tone:
+  - “You’re not new anymore.” vs “First time out?”
+- React to your presence:
+  - Low rank:
+    - Neutral.
+  - High rank:
+    - Deference, curiosity, rivalry.
 
-UI Structure
+Rival Hunter:
 
-The Hunt Board UI is organized into tabs or filters:
+- At certain Lodge ranks:
+  - Shifts from dismissive:
+    - “Try not to die out there.”
+  - To competitive respect:
+    - “Race you to the Ash-Edge. Loser buys stew.”
 
-Standard Hunts
+---
 
-Corruption Contracts
+## 7. Rep & System Integration
 
-Supply & Support
+### 7.1 Hunts & Deeds (61)
 
-Research & Exploration
+- Some Hunts only appear above:
 
-(Later) Special and Timed Events
+  - Lodge Rank 1 or 2 (to avoid overwhelming newbies).
+- Deeds may require:
+  - Minimum Lodge or circle ranks:
+    - e.g. D-GW-005 (A Debt in Blood) might not fire until:
+      - Lodge Core Rank 2+ and certain Hunts done.
 
-Each contract card displays:
+Deed outcomes:
 
-Contract name.
+- Can boost or dent certain circles:
+  - Choosing harsh justice vs leniency in D-GW-005:
+    - Might please Foresters & core Lodge.
+    - Or please Ember Kitchen / Scribes.
+  - But no “you’re locked out forever” punishments.
 
-Type and difficulty.
+### 7.2 Ember Pot & Kitchen (85)
 
-Target region (and current ZCL indicator if relevant).
+- Higher Ember Kitchen rank:
 
-Primary rewards:
+  - Reduces ingredient requirements or cost overhead for some dishes.
+  - Unlocks special Ember Pot “communal feasts” you can initiate.
 
-Gold.
+- Ember Pot feast events:
+  - Have different tone if served under a Keeper-of-the-Pot vs baseline.
 
-Items.
+### 7.3 Broken Tools & Attunement (60)
 
-Rep breakdown by circle.
+- Broken Tools questline:
 
-Players can:
+  - Heavily boosts Carpenter & Forester rep on completion.
+- High Carpenter/Forester rep:
+  - Unlocks:
+    - Attuned recipes.
+    - Better yields from attunement tasks.
+  - Slightly more tolerant NPC attitudes:
+    - When you experiment/“break things” in field trials.
 
-Accept up to a limited number of active contracts at once (e.g., 3–5).
+### 7.4 Secrets & Exploration (90)
 
-Track them in their quest log.
+- Turning in certain notes/maps to Elira:
 
-Abandon them with a small rep hit or no rep gain.
+  - Delivers Scribe rep.
+- High Scribe rank:
+  - Might reveal additional map hints about:
+    - Secret caches.
+    - Shortcut paths.
 
-Contract Types
-1. Standard Hunts
+### 7.5 Wounds & Treatment (B101)
 
-These are bread-and-butter hunts.
+- Treatment cost scaling:
 
-Examples:
+  - Lodge Core rank:
+    - Generic discount.
+  - Ember Kitchen rank:
+    - Sometimes free healing soup or tonics.
+  - Carpenter/Forester rank:
+    - Help with physical rehab events (micro-quests for recovery).
 
-“Cull the Hollowroot Stalkers”
+---
 
-“Bring Down the Greatwood Howler”
+## 8. Tech & Data Model
 
-Objectives:
+### 8.1 Reputation Data
 
-Kill a specific number of targets.
+Per character, for Greatwood:
 
-Kill a named elite or pack leader.
+- `rep_lodge_core`
+- `rep_foresters`
+- `rep_kitchen`
+- `rep_carpenters`
+- `rep_scribes`
+- `rep_alchemists` (future)
 
-Rewards:
+Each track:
 
-Base gold and materials.
+- Derived **rank**:
+  - Threshold table.
+- Exposed **title flags**:
+  - Which titles are unlocked/eligible.
 
-Huntmasters and Lodge Proper rep.
+### 8.2 Event Hooks
 
-Hooks:
+Any action that matters fires a generic hook:
 
-Often overlap with dungeon entrances and corruption pockets (61, 65, 77).
+- `OnRepEvent(tag, value, context)`
+  - e.g. `tag = "hunt_completed", context = CH-GW-002`
+- A rep routing table maps:
+  - Tags/contexts → rep track and amounts.
 
-2. Corruption Contracts
+Ex:
 
-Directly tied to Corruption & Cleansing (91).
+- `hunt_completed:CH-GW-002`:
+  - +X Lodge Core
+  - +Y Foresters
+  - +Z Ember Kitchen (if you bring meat back).
 
-Examples:
+### 8.3 UI
 
-“Cleanse the Black Sap Sapling”
+Lodge Reputation screen:
 
-“Stem the Spread at the Ragged Verge”
+- Shows all tracks as:
+  - Bars with thresholds marked.
+- Highlight:
+  - Current rank & next unlocks.
+- Small text:
+  - “You gained favor with the Forester’s Circle from recent Hunts.”
 
-Objectives:
+Titles UI:
 
-Destroy or cleanse specific corruption nodes.
+- List of unlocked titles.
+- Choose active title.
+- Show:
+  - Source (rank, Deed, special).
 
-Survive in a high ZCL pocket for a certain time.
+---
 
-Escort a cleansing ritual.
+## 9. Next Actions
 
-Rewards:
+1. **Lock threshold values** for ranks for Greatwood’s pacing.
+2. **Fill the rep routing table** with:
+   - All Hunts & Deeds (61)
+   - Broken Tools steps (60)
+   - Key dynamic events (62)
+   - Key secrets / lore hand-ins (90).
+3. **Author rep-based dialogue variations**:
+   - Baseline, mid-rank, high-rank versions for:
+     - Mara, Arlen, Fen, Elira, rival, apprentices.
+4. **Wire quarter & Hall unlocks** to rank-based flags:
+   - B100 tiers.
+   - 86 recognition boards / plaques.
+5. **Test extremes**:
+   - Player hyper-focusing on 1 circle vs spreading out.
+   - Ensure no track becomes useless or mandatory.
 
-Wardens rep.
-
-Corruption reagents for Alchemy (58).
-
-ZCL reductions in targeted pockets.
-
-Risk–reward:
-
-Higher corruption pockets yield better rewards but more HCL gain (91).
-
-3. Supply & Support
-
-Non-combat or light-combat contracts.
-
-Examples:
-
-“Restock the Infirmary Stores”
-
-“Deliver Fresh Timber for Repairs”
-
-“Gather Hollowcaps for the Scholars”
-
-Objectives:
-
-Gather specified materials.
-
-Deliver them to Lodge NPCs or field posts.
-
-Rewards:
-
-Lodge Proper rep.
-
-Scholars rep (if research related).
-
-Small utility items or discounts.
-
-These keep crafters, gatherers, and players between big hunts engaged.
-
-4. Research & Exploration
-
-Contracts that encourage exploring the map and interacting with lore.
-
-Examples:
-
-“Chart the Outer Gloaming”
-
-“Document Beast Behavior in the Black Sap Grove”
-
-Objectives:
-
-Reach certain landmarks.
-
-Observe or scan specific creatures without killing them.
-
-Recover ancient inscriptions or artifacts.
-
-Rewards:
-
-Scholars rep.
-
-Unlocks:
-
-Lore entries.
-
-Scribe’s Focus Draught recipe (58).
-
-Minor Lodge Proper rep.
-
-5. Special and Timed Contracts (Later Greatwood / Future)
-
-For now, Greatwood 1–20 only needs a few prototypes:
-
-Weekly big game hunt.
-
-Limited-time corruption surge event.
-
-These will be formalized in later chapters but the Hunt Board UI should support a “Featured” or “Limited” section from day one.
-
-Contract Difficulty and Tiers
-
-Each contract has:
-
-A recommended level range.
-
-A danger rating:
-
-Trivial, Standard, Risky, Deadly.
-
-In Greatwood 1–20:
-
-Standard contracts:
-
-Usually Standard or Risky.
-
-Special story-linked contracts:
-
-Can go up to Deadly.
-
-Difficulty should correlate with:
-
-Better rewards.
-
-More rep.
-
-Higher corruption risk (for corruption contracts).
-
-Rewards and Unlocks
-Base Reward Categories
-
-Each contract yields some subset of:
-
-Gold.
-
-Materials / loot.
-
-Reputation with one or more circles.
-
-Progress toward Lodge Rank.
-
-Occasionally:
-
-Titles.
-
-Cosmetics.
-
-Recipes.
-
-Lodge Proper – Reward Examples
-
-Rank 1: Pledged Hunter
-
-Access to basic training rooms.
-
-Discount at general Lodge vendors.
-
-Rank 2: Bound Hunter
-
-Unlocks:
-
-Better room in the Lodge (cosmetic, rest benefits).
-
-Additional Hunt Board contract slots.
-
-Rank 3: Sworn Ember
-
-Unlocks:
-
-Special story contracts.
-
-Priority access to corruption-cleansing projects.
-
-Lodge tab for shared stash expansion.
-
-Huntmasters’ Circle – Reward Examples
-
-Rank 1: Recognized Hunter
-
-Access to basic combat training.
-
-Rank 2: Proven Hunter
-
-Unlocks:
-
-Advanced hunt types (chain hunts, multi-target).
-
-Small passive perks while on active Hunt contracts.
-
-Rank 3: Trusted Hunter
-
-Special elite contracts.
-
-Early access to rare weapons or unique mods.
-
-Wardens’ Circle – Reward Examples
-
-Rank 1: Warden’s Hand
-
-Access to basic warding supplies and talismans.
-
-Rank 2: Warden’s Shield
-
-Unlocks:
-
-Ability to start small cleansing rituals (Purge of the Glade variants).
-
-Discounts on corruption-related Alchemy supplies.
-
-Rank 3: Warden’s Voice
-
-Influence over which pockets get attention.
-
-Ability to unlock projects that slow corruption creep (91).
-
-Scholars’ Circle – Reward Examples
-
-Rank 1: Field Assistant
-
-Access to simple research tasks and extra Alchemy recipes.
-
-Rank 2: Junior Scribe
-
-Unlocks:
-
-Scribe’s Focus Draught (58).
-
-Bonus lore drops from exploration contracts.
-
-Rank 3: Senior Adjunct
-
-Ability to propose specific research projects:
-
-Creature behavior studies.
-
-Corruption experiments.
-
-Interactions With Other Systems
-With Alchemy (58)
-
-Scholars and Wardens contracts feed:
-
-Rare reagents.
-
-New recipes.
-
-Alchemists can take:
-
-Supply and research contracts that specifically request brewed items.
-
-Completing those contracts:
-
-Gives more rep with Scholars and Lodge Proper.
-
-With Corruption (91)
-
-Wardens contracts directly:
-
-Raise or lower ZCL in pockets.
-
-Change HCL expectations for hunts.
-
-The Hunt Board can show:
-
-Corruption icons on contracts tied to high ZCL zones.
-
-With Hunts and Dungeons (61, 65, 77)
-
-Many dungeons are entered via:
-
-Hunt Board contracts (key or recommended).
-
-Contract completions:
-
-Modify dungeon states:
-
-Clear out certain enemy types.
-
-Change environmental setups for future runs.
-
-With Professions & Lodge Projects (95)
-
-Some contracts:
-
-Request specific crafted items.
-
-Ask for complete bundles (herbs + essences + balms).
-
-Turning in these contracts:
-
-Advances Lodge Projects:
-
-Upgrading the infirmary.
-
-Building new Alchemy stations.
-
-Reinforcing ward stones.
-
-Progression and Tuning (Greatwood 1–20)
-Expected Flow
-
-Player arrives at Lodge as:
-
-Guest of the Lodge.
-
-First set of contracts:
-
-Simple Standard Hunts and Supply runs.
-
-Basic Corruption awareness.
-
-By level ~10:
-
-Player is Pledged or Bound Hunter.
-
-At least Rank 1 in one circle.
-
-By level ~20:
-
-Player is Bound or Sworn Ember.
-
-Rank 2 or 3 in at least one circle.
-
-Has touched all four circles at least a bit.
-
-Rate of Gain
-
-Standard Hunts:
-
-Moderate rep.
-
-Corruption contracts:
-
-Slightly higher rep with Wardens due to higher risk.
-
-Supply/Research:
-
-Low but repeatable rep.
-
-Story beats:
-
-Large rep spikes to push players into new tiers.
-
-UI and Feedback
-In Lodge
-
-Visual indicators near NPCs:
-
-Small crest or badge showing:
-
-Current rank with their circle.
-
-Hunt Board:
-
-Icons or colored ribbons on contracts showing:
-
-Which circle is offering the job.
-
-Notifications:
-
-On rank-up:
-
-Short in-world ceremony, not just a popup.
-
-NPC reactions.
-
-In the Field
-
-Contracts tracked in a clean way:
-
-A “Contracts” tab in quest log.
-
-Some hunts show subtle overlays on targets:
-
-Markers that show contract relevance.
-
-Failure, Abandonment, and Reputation Loss
-
-Abandoning a contract:
-
-No rep gained.
-
-Small rep hit with the offering circle if repeated.
-
-Failing a contract (e.g., a target escapes or timer expires):
-
-Possible minor rep loss, depending on context.
-
-Some story contracts:
-
-May change narrative outcomes instead of pure rep loss.
-
-The system should not be overly punishing early. Losing rep should be:
-
-Rare.
-
-Mostly tied to narrative events or repeated negligence.
-
-Future Hooks Beyond Greatwood
-
-The Greatwood Lodge framework needs to scale to:
-
-Multiple Lodges in different regions.
-
-External factions with their own boards and contracts.
-
-A global “Hunter Rank” that other NPCs recognize.
-
-Future expansions may add:
-
-Competing hunter companies.
-
-Political choices:
-
-Siding with one circle over another.
-
-Season-style systems:
-
-Rotating contract themes.
-
-Regional corruption events.
-
-All of these reuse the base structure defined here: circles, rep, Hunt Board, contracts, rewards.
+59 is the **“who you are to these people” file**: levels are what you can do; reputation is who remembers that you did it.
