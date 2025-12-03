@@ -1,0 +1,164 @@
+-- B143 — RELIC LORE PAGES
+-- Standalone Lua module for in-game Relic Codex flavor text.
+
+local RelicLore = {
+
+    ----------------------------------------------------------------
+    -- GREATWOOD RELICS
+    ----------------------------------------------------------------
+
+    LORE_RELIC_VEILPIERCER_DAGGER = [[
+Veilpiercer was first carried by a nameless poacher who stalked the Widow’s Crossing long before Emberwild had maps or borders. The blade itself is unremarkable steel at a glance, but its edge never quite reflects the light the way it should, as if it cuts more than the air in front of it.
+
+Locals say the poacher slipped between branches and briars like mist, striking from angles that should have been impossible. When the Thornspine Widow finally claimed him, his body was cocooned, but the dagger lay outside the web, point driven clean through a strand as thick as a wrist. Since then, those who find Veilpiercer swear it bites through armor, luck, and even fate just a little cleaner than any other knife.]],
+
+
+    LORE_RELIC_WISP_TOUCHED_CLOAK = [[
+On certain nights, when a green-blue haze drapes the Greatwood and every breath feels borrowed, the wisps drift lower than they should. Hunters once feared these nights, for beasts grew strange and fearless, but a single ranger walked among the lights and returned with a cloak of ordinary cloth that no longer moved like something woven.
+
+The Wisp-Touched Cloak never quite sits still. Its hem flickers on breezes that are not there, and lanternlight passes through it as though it were smoke. Those who wear it find the forest quieter around them, footfalls softer, dangers slower to close in. Some say the wisps are not blessing the cloak at all, merely watching to see what their chosen walker will do with their borrowed grace.]],
+
+
+    LORE_RELIC_HEARTROOT_CROWN = [[
+The first Heartroot Crown was grown, not forged. At the center of Greatwood, where roots knot into a living throne, a circle of bark split and curved into a ring under the touch of an exhausted healer who refused to let the forest die around them. They poured their last spell into the soil, and the grove answered.
+
+The Crown still carries the faint scent of wet earth and spring rain, even in the coldest halls. When worn, it tightens slightly during spells of great power, as if reminding its bearer to breathe. Those who have used it in war claim their healing flows easier, but the price is a constant whisper of the forest in the back of the mind, urging mercy even when steel calls for blood.]],
+
+
+    LORE_RELIC_GREATWOOD_HEARTSHIELD = [[
+Greatwood Heartshield is carved from a single slab of living heartroot that refused to rot. Axes bounced from it. Fire took to its surface but never spread. When the first Warden of Heartroot fell in battle, the tree that had sheltered him lowered a limb and allowed the shield to be taken, though its sap ran like tears.
+
+The face of the shield bears no crest, only the rings of the tree from which it came, each line a year of storms, droughts, and recoveries. When braced, the shield feels heavier than wood has any right to be. When its bearer stands their ground, roots that are not there seem to hold their feet. In time, it became the proof that even the patient forest can choose to stand in the path of an axe.]],
+
+
+    LORE_RELIC_GREATWOODS_ECHO = [[
+A faint hum follows Greatwood’s Echo, a vibration in the bones more than a sound in the air. The trinket itself is a simple wooden charm, once worn by a young archer who refused to leave the front line even after his bowstring snapped. He fought with stones and curses until the line held, then collapsed beneath the roots.
+
+In the nights that followed, those who held the charm found their breath and heartbeat syncing with the forest’s slow rhythm. When danger surged, so did their aim. Some say the Echo is not a blessing but a reminder: the forest does not care who wins, only that someone lives to tell the story. Those who wear it promise, in their own way, to be that someone.]],
+
+
+    ----------------------------------------------------------------
+    -- ASHEN RIDGE RELICS
+    ----------------------------------------------------------------
+
+    LORE_RELIC_CINDERKISS_BLADE = [[
+Cinderkiss was quenched in a forge that should have gone cold. When Ashen Ridge first fractured, the tunnels beneath ran with molten stone and the forges screamed as their chimneys collapsed. One smith refused to flee, hammering until the roof cracked wide and the sky poured in. When they could strike no more, they thrust the blade into the heart of the broken forge and whispered a curse for every friend the fire had already taken.
+
+The sword drinks light along its edge, a faint ember-glow always clinging to the fuller. Wounds it opens smolder before they bleed, as if offended to be anything other than ash. In battle, its wielder feels a steady warmth up their arm, encouraging them forward even when common sense says to retreat. Cinderkiss does not burn out. It simply waits for someone willing to swing it one more time.]],
+
+
+    LORE_RELIC_EMBERSTEEL_WARPLATE = [[
+Embersteel is not a metal anyone set out to make. It is what happened when ordinary steel was reforged too many times in forges that never cooled, each melt steeped in soot, fury, and stubborn survival. The Embersteel Warplate was assembled from plates that refused to crack even when their wearers did.
+
+At rest, the armor looks dull and almost soft, edges smoothed by heat and use. Under heavy blows, however, faint lines of orange race along its seams, as if the plates remember how to be molten. Those who wear it speak of a slow, deep heartbeat thrumming through their ribs whenever they stand between their allies and an oncoming strike. The longer they hold, the warmer that heartbeat becomes.]],
+
+
+    LORE_RELIC_EMBERWAKE_CONDUIT = [[
+The Emberwake Conduit began life as a simple staff used to stir coals, not command them. A novice channeler, forbidden from practicing offensive magic, would sneak to the forges after hours and trace patterns in the embers, whispering theory into the glow. On the night the tunnels collapsed, they used that “toy” staff to hold back a wave of fire long enough for others to escape.
+
+When the smoke cleared, the wood of the staff was charred but unburned, its gemstones fused into a single, molten vein. Flames drawn through it seem eager, almost joyful, and even cold mages feel a strange comfort holding it. The Conduit does not care what spells you favor; it only asks that when you call on fire, you do so with purpose rather than panic.]],
+
+
+    ----------------------------------------------------------------
+    -- FROSTMARCH RELICS
+    ----------------------------------------------------------------
+
+    LORE_RELIC_GLACIATHRAL_GREATSWORD = [[
+Legends disagree on whether Glaciathral was the name of a giant, a storm, or the glacier itself. All agree that when it fell, it did not do so quietly. This greatsword was supposedly found driven half its length into a frozen mountainside, humming with thunder that never quite faded.
+
+The blade is rimed in frost that never melts, even in summer. In battle, its swings seem to carve space from the air, leaving frozen arcs that lag behind like afterimages. Those who wield Glaciathral feel a strange calm in the heart of chaos, as if the world has slowed to the glacier’s pace and everything else is simply noise trying to keep up.]],
+
+
+    LORE_RELIC_THUNDERHIDE_WARPLATE = [[
+Hunters say a Stormhide mammoth is thunder made flesh. The Thunderhide Warplate is thunder made stubborn. Each plate in the set was cut from hides that once turned aside lightning as if it were rain, then backed with Frostmarch iron and etched with runes that mispronounce the word for “refusal” in three dead languages.
+
+The armor is heavy, but it never feels truly cold. When its wearer is struck, a faint crackle answers under the skin, spreading through the plates like distant stormlight. Those who survive long in it claim they begin to feel the rhythm of incoming blows before they land, as if the clouds themselves are warning them where the next strike will fall.]],
+
+
+    LORE_RELIC_STORMHIDE_WARHORN = [[
+This warhorn was not carved so much as coaxed from a Stormhide tusk that refused to be shaped. Every cut dulled tools. Every attempt to polish it left the surface rough and stubborn. Only when a veteran warden sat with it through an entire blizzard, carving by hand between claps of thunder, did the horn finally yield.
+
+The sound it makes is not loud in the traditional sense. It rolls through bone and snow rather than air, turning scattered allies into a line and wary beasts into stampeding threats. Those who answer its call feel their lungs open, their steps quicken, and their fear flatten into something useful: momentum. The horn does not demand heroics; it simply reminds everyone listening that they are not alone.]],
+
+
+    LORE_RELIC_ETERNAL_AURORA_STAFF = [[
+There is a place in Frostmarch where the sky forgets to move on. The aurora there hangs lower than it should, colors coiling just above the tallest peaks. The Eternal Aurora Staff was raised beneath that unmoving light, its crystal allowed to drink from the sky until it could hold no more.
+
+Even indoors, the staff’s head occasionally flickers with faint ribbons of color. Spellcasters who attune to it find their thoughts drawn upward, patterns of light flickering behind their eyes when they close them. To some, it feels like standing beneath an open sky no matter how deep underground they go. To others, it is a reminder that no spell they cast will ever be as beautiful—or as cold—as the one the world has already written overhead.]],
+
+
+    LORE_RELIC_BOREAL_TRAILCLOAK = [[
+The Boreal Trailcloak was first stitched from discarded furs and cloth scraps by a trapper who simply refused to freeze. They patched holes with whatever they had: lynx fur, tent canvas, the lining of their own bedroll. By the time they reached safety, the cloak looked more like a story than a garment.
+
+When reforged properly, the cloak kept its mismatched look but gained a strange talent: the wind always seemed to be at the wearer’s back. Tracks remained clearer. Slopes felt less steep. Snow landed on the fabric and then simply refused to stick. Those who wear the Trailcloak often walk a little farther than they intended and see a little more than they meant to. The cloak does not point the way; it just makes the wrong paths harder to stay on.]],
+
+
+    ----------------------------------------------------------------
+    -- DUSKHALLOW RELICS
+    ----------------------------------------------------------------
+
+    LORE_RELIC_RIFTHEART_BULWARK = [[
+The first Riftheart Bulwark began as a failed attempt to contain a rift, not survive one. Mages built a frame of steel and runeglass, set it before a tear in the air, and prayed. The shield shattered, the tear did not, and everything in the chamber was reduced to whispers and dust. Weeks later, a scavenger found a warped, humming plate where the heart of the shield had been.
+
+Reforged and bound in pure iron, the Bulwark still hums faintly when pressed against unseen currents. Blows that should crush bone disperse into harmless shivers along its surface. Those who carry it claim that sometimes, just before a spell strikes, they can see the line it plans to take through the air. Stepping into that line feels like daring the void itself to blink first.]],
+
+
+    LORE_RELIC_WITCH_QUEENS_EYE = [[
+The Witch-Queen’s Eye is not a gemstone so much as a decision someone failed to make. Legends say a circle of witches once bound all their doubts into a single crystal so they could act without hesitation. The ritual worked, but the Eye refused to stay quiet. It watched every spell cast, every life spared or taken, and stored those memories in its cold facets.
+
+When socketed into a trinket, the Eye appears to focus on nothing in particular, yet its bearer often finds themselves staring at weak points in armor, cracks in wards, and the exact spot where fear lives behind an enemy’s eyes. Magic cast through it presses on those fractures just a little harder. The price is simple: the longer you carry the Eye, the less your own doubts feel like your own.]],
+
+
+    LORE_RELIC_GLOAMTHREAD_DRAPE = [[
+Gloamthread is spun where daylight and shadow argue about who owns the last hour before night. The first Gloamthread Drape was woven on a balcony overlooking Duskhollow, the weaver working by memory after the candles went out. The fabric came off the loom wrong: too soft to be cloth, too heavy to be fog, and never quite the same color twice.
+
+Those who wear the Drape seem to blur at the edges under poor light. Arrows aimed for their hearts glance off shoulders instead. Words spoken against them slip from memory faster than they should. The cloak does not make its bearer invisible; it simply convinces the world that they are less important to hit than someone else.]],
+
+
+    ----------------------------------------------------------------
+    -- TIER 1 LEGENDARY RELICS (GLOBAL)
+    ----------------------------------------------------------------
+
+    LORE_RELIC_EMBERHEART_AEGIS = [[
+Emberheart Aegis is what happens when four parts of Emberwild agree, for once, on what is worth protecting. Its frame is heartroot and ashsteel, its core a lattice of frostvein shards and shadowglass, all fused in a forge that burned with fire, blizzard, and void in turn. Every blow that struck the shield before it cooled left a faint echo in the metal, a record of what it was built to endure.
+
+Those who bear the Aegis find that pain arrives muted and in order. First the bark hardens. Then the steel catches. Then the ice numbs, and only then does the shadow even get a chance to bite. In the worst moments, when everything hits at once, the shield grows warm in the hand, as if reminding its wielder: you stood here because no one else could. You remain here because no one else has to.]],
+
+
+    LORE_RELIC_EVERSHATTER_COLOSSUSBLADE = [[
+The Evershatter Colossusblade bears no maker’s mark. Its size alone suggests a giant’s weapon, yet its balance feels tuned for mortal hands. Some say it was carved from the spine of a mountain that tried to stand up and failed. Others claim it is the last fragment of a skybridge shattered in some forgotten war.
+
+Whatever its origin, the blade remembers falling. Every swing carries the suggestion of an avalanche waiting to happen. When it strikes true, the earth itself seems to flinch, cracks fanning out from the impact like spiderwebs. Those who wield it speak of a temptation to solve every problem by cutting it in half. The rare ones who learn to restrain that urge become legends. The others become cautionary tales and landmarks.]],
+
+
+    LORE_RELIC_STAR_EATER_CONDUIT = [[
+Star-Eater is an ugly name for a beautiful thing. The Conduit’s crystal looks less like a gem and more like a wound in the air where starlight got stuck. It was born of failed predictions: astronomers charting auroras, rift sages mapping tears, all of them wrong in different, overlapping ways until their mistakes resonated in the same place at the same time.
+
+Mages who channel through the Conduit describe a pulling sensation, as though each spell tugs a single bright thread from the night sky and weaves it into the world. Power comes easier, but so does hunger—for answers, for patterns, for one more question to chase. The staff does not literally eat stars, of course. It merely convinces its bearer that with enough effort, they could.]],
+
+
+    LORE_RELIC_SKYSHATTER_HUNTBOW = [[
+Skyshatter earned its name long before anyone fired an arrow from it. In the early days of Ashen Ridge’s storms, a bolt split the sky so cleanly that for a heartbeat, people swore they could see the black between worlds. A hunter standing on a cliff caught the afterimage on their bow, the wood seared with a vein of pale light that never quite faded.
+
+Arrows loosed from Skyshatter leave no visible trail, yet listeners swear they hear a distant crack a moment before each impact, as if the sky is breaking twice: once above, once inside whatever the arrow finds. Hunters who master the bow learn to listen for that crack and time their shots with it, turning ambushes into massacres and retreats into hunts.]],
+
+
+    LORE_RELIC_NIGHTVEIL_PROWLER = [[
+Nightveil Prowler is not a dagger built for show. The blade is stubby, the hilt ordinary, the metal dark enough to disappear against most leathers. Its only ornament is a faint, shifting pattern along the edge, like dried blood that refuses to either flake away or stay still.
+
+Assassins who favor the Prowler say it remembers where it has been. Wounds reopened by it bleed faster. Scars itch when it is near. Targets who have once survived it seldom do so twice, as if the weapon has learned their weaknesses and is impatient to correct a previous mistake. The dagger does not whisper, does not promise power. It simply offers to be exactly as cruel as the hand that holds it.]],
+
+
+    LORE_RELIC_DAWNSONG_COVENANT = [[
+The Dawnsong Covenant is not a single vow but an accumulation of them. Every healer who held the line one more heartbeat than they thought possible, every cleric who chose to stay rather than retreat with the wounded, every whispered promise of “I will not let you die here”—all of those words went somewhere. Some settled in this mace.
+
+Its head glows softly at the edges in low light, never bright enough to blind, always enough to find a pulse. Those who wield it feel an odd stillness in the chaos of battle, a clarity that cuts through panic and noise. When a life hangs on the edge, the Covenant grows heavy in the hand, dragging the next spell into place just a little faster, as if the weapon itself refuses to break the promises its bearers keep making.]],
+
+
+    LORE_RELIC_HEARTROOT_RELIQUARY = [[
+The Heartroot Reliquary is a box for things that do not fit anywhere else: half-remembered prayers, the warmth of a campfire shared with strangers, the steadying weight of a hand on a shoulder at just the right moment. It was grown from the same roots that birthed the first Crown, hollowed gently and lined with sap that never quite dries.
+
+When worn, the reliquary stays warm even in deep frost, as if it contains a small, stubborn summer. Healers who attune to it find their restorative spells landing where they are most needed rather than merely where they were aimed. Wounds close along lines of old scars, pain drains along paths grief already carved. The reliquary does not grant new power; it simply remembers what it felt like to be helped and nudges its bearer to do the same.]],
+}
+
+return RelicLore
