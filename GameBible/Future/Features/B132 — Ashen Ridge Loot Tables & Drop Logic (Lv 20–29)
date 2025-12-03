@@ -1,0 +1,568 @@
+B132 — ASHEN RIDGE LOOT TABLES & DROP LOGIC (LV 20–29)
+1. Ashen Ridge Loot Philosophy
+
+Ashen Ridge is the first real forging zone. Greatwood taught players:
+
+“Gear exists”
+
+“Rares exist”
+
+“World drops exist”
+
+Ashen Ridge teaches:
+
+Zones can have strong identity (fire, stone, metal)
+
+Certain mobs are primary targets for specific stats / roles
+
+Materials here push players into professions & forging
+
+High-level rules for this band:
+
+Coin is higher than Greatwood but still modest.
+
+Materials shift heavily toward metallic + energetic:
+
+Ember Ore, Glowrock, Obsidian, Molten Filament.
+
+Equipment strongly aligned to:
+
+Emberstalker (AGI leather)
+
+Basalt Vanguard (STR heavy)
+
+Pyrechanter (INT/SPI cloth)
+
+Ultra-rare / named weapons unlock distinct build fantasies.
+
+2. Enemy Loot Profiles (Lv 20–29)
+
+Covered here:
+
+Magma Wretch
+
+Igneous Skulker
+
+Charhound
+
+Emberborn Serpent
+
+Obsidian Strider
+
+Pyre Vulture
+
+Basalt Juggernaut
+
+Lavaspine Basilisk
+
+Furnacebound Golem (zone elite)
+
+Blisterback Titan / true raid-tier stuff can be reserved for a later B-block.
+
+Percentages are per kill, not per party.
+
+2.1 Magma Wretch (Lv 20–23, Elemental)
+
+Role: Exploding lava thrall, common in open lava fields.
+Fantasy: “Trash mob, but weirdly worth killing because they feed early forging and can pop a fire-themed weapon.”
+
+Common Drops
+
+Coin:
+
+16–32 copper.
+
+Materials (90% total chance, independent rolls):
+
+1–3 × Smoldering Ash
+
+0–2 × Ember Ore Fragment (low chance)
+
+Junk:
+
+1 × Cracked Magma Husk (vendor grey, flavor)
+
+Uncommon Equipment Pool (~15% chance total)
+
+One of:
+
+Emberstalker Scorched Treads (Leather, Feet, Uncommon 21)
+
+Smoldering Warder’s Bracers (Heavy, Wrist, Uncommon 21)
+
+Pyrechanter’s Cinder Sandals (Cloth, Feet, Uncommon 21)
+
+Each ~5%.
+
+Rare Pool (~1.5% total)
+
+Cinderkiss Blade (Rare AGI/STR 1H sword or dagger; fire DoT, Lv ~24–25)
+
+Exact stats can live in a later “Named Weapons” appendix.
+
+2.2 Igneous Skulker (Lv 20–23, Small Elemental)
+
+Role: Small, brittle, explosion-on-hit pests.
+Fantasy: “Annoying, but good for low-tier Ember Ore and jewelry mats.”
+
+Common Drops
+
+Coin:
+
+10–20 copper.
+
+Materials (95%):
+
+1–3 × Heat-Cracked Pebble
+
+0–2 × Lesser Ember Ore Chip
+
+Uncommon Pool (~10% total)
+
+Ashen Scout’s Signet (Uncommon AGI ring 23)
+
+Corescarred Warden’s Medallion (Uncommon STR neck 23)
+
+Each ~5%.
+
+Rare Pool (~0.8% total)
+
+Redrift Pendant (Rare neck, universal DPS; small fire resistance)
+
+2.3 Charhound (Lv 22–26, Beast)
+
+Role: Hounds that trail fire behind their steps.
+Fantasy: “Leather wearers and tanks both like these; solid mid-range gear.”
+
+Common Drops
+
+Coin:
+
+18–36 copper.
+
+Materials:
+
+1–3 × Charhound Claw
+
+1–2 × Charred Hide Strip
+
+Uncommon Equipment (~18% total)
+
+One of:
+
+Emberstalker Scorched Hood (Leather Head, Uncommon 22)
+
+Basalt Vanguard Greaves (Heavy Feet, Uncommon 21)
+
+Pyrechanter’s Cinder Hood (Cloth Head, Uncommon 22)
+
+(~6% each)
+
+Rare Pool (~2.0% total)
+
+One of:
+
+Emberstalker Flamevein Treads (Rare 26 leather boots)
+
+Basalt Vanguard Flameguard Sabatons (Rare 26 heavy boots)
+
+Pyrechanter’s Magmaveil Sandals (Rare 26 cloth boots)
+
+Ultra-Rare (~0.15% total)
+
+Hearthbound Collar
+
+Rare trinket, tankish: STA, fire resist, small fire DoT reduction.
+
+2.4 Emberborn Serpent (Lv 22–25, Beast/Elemental Hybrid)
+
+Role: Flame-spitting serpent, mid-area “priority mob.”
+Fantasy: “Hunt these if you are a hunter or caster; good bows/jewelry.”
+
+Common Drops
+
+Coin:
+
+22–40 copper.
+
+Materials:
+
+1–3 × Ember Scale
+
+0–2 × Molten Venom Gland
+
+Uncommon Equipment (~20% total)
+
+One of:
+
+Basalt-Fletched Longbow (Uncommon 23 bow)
+
+Glowrock Emberwand (Uncommon 23 wand)
+
+Ashen Emberstone Focus (Uncommon 23 caster trinket)
+
+(~6–7% each)
+
+Rare Pool (~3.0% total)
+
+One of:
+
+Magmastring Recurve Bow (Rare 28 bow, AGI / RAP / crit)
+
+Ashen Ridge Huntlord’s Pendant (Rare 28 AGI neck)
+
+Ashen Ridge Flamebinder’s Sigil (Rare 27 cloth ring)
+
+Ultra-Rare (~0.2% total)
+
+Serpentflare Coil
+
+Rare or Epic belt with AP/SP and fire-based proc (thematic).
+
+2.5 Obsidian Strider (Lv 23–27, Construct)
+
+Role: Razor-limbed obsidian construct.
+Fantasy: “High armor + tank gear + weapon for tougher encounters.”
+
+Common Drops
+
+Coin:
+
+24–44 copper.
+
+Materials:
+
+1–3 × Obsidian Fragment
+
+0–2 × Glowrock Chunk
+
+Uncommon Equipment (~18% total)
+
+One of:
+
+Smoldering Warder’s Girdle (Heavy Waist, Uncommon 22)
+
+Basalt Ridge Shield (Uncommon 23 shield)
+
+Igneous Channeler’s Sash (Cloth Waist, Uncommon 22)
+
+Rare Pool (~3.0% total)
+
+One of:
+
+Basalt Vanguard Flameguard Helm (Rare 27)
+
+Magmaheart Wall (Rare 28 shield)
+
+Ultra-Rare (~0.25% total)
+
+Blackglass Greaves
+
+Rare tank legs with high armor, STA, and minor thorns-reflect effect.
+
+2.6 Pyre Vulture (Lv 24–28, Beast)
+
+Role: Circling overhead, dropping burning feathers, dangerous in packs.
+Fantasy: “Crit and mobility for AGI and casters; iconic cloth shoulders.”
+
+Common Drops
+
+Coin:
+
+24–46 copper.
+
+Materials:
+
+1–3 × Pyre Feather
+
+0–2 × Scorched Bone Fragment
+
+Uncommon Equipment (~18% total)
+
+One of:
+
+Emberstalker Scorched Jerkin (Leather Chest, Uncommon 22)
+
+Basalt Vanguard Helm (Heavy Head, Uncommon 22)
+
+Pyrechanter’s Cinder Robe (Cloth Chest, Uncommon 22)
+
+Rare Pool (~3.0% total)
+
+One of:
+
+Emberstalker Flamevein Hood (Rare 27)
+
+Pyrechanter’s Magmaveil Hood (Rare 27)
+
+Ultra-Rare (~0.25% total)
+
+Solarplume Mantle
+
+Rare cloth shoulders with INT/SPI/SP and a small on-use or passive haste/crit-style buff.
+
+2.7 Basalt Juggernaut (Lv 26–29, Elite)
+
+Role: Slow but extremely tough elite golem.
+Fantasy: “This is a tank’s dream and a forging milestone.”
+
+Common Drops
+
+Coin:
+
+40–70 copper.
+
+Materials:
+
+2–4 × Basalt Plate
+
+2–4 × Ember Ore
+
+0–2 × Obsidian Fragment
+
+Uncommon Equipment (~30–35% total)
+
+One of:
+
+Any Basalt Vanguard Uncommon:
+
+Helm / Chestplate / Legguards / Sabatons
+
+Ashen Bulwark Mace (Uncommon 23 1H mace)
+
+Each ~5–7%.
+
+Rare Pool (~8% total)
+
+One of:
+
+Basalt Vanguard Flameguard Chestplate (Rare 27)
+
+Basalt Vanguard Flameguard Legplates (Rare 28)
+
+Cinderforged Bastion Mace (Rare 28 1H mace)
+
+Ultra-Rare (~0.3% total)
+
+Embersteel Plate
+
+Rare or Epic high-tier chest with STR/STA, armor and fire-theme; might sit slightly above the regular Basalt Vanguard set for this band.
+
+2.8 Lavaspine Basilisk (Lv 26–29, Rare Spawn)
+
+Role: Petrifying gaze; high-danger rare.
+Fantasy: “You only see a few, so it drops something memorable.”
+
+Common Drops
+
+Coin:
+
+38–68 copper.
+
+Materials:
+
+1–3 × Lavaspine Scale
+
+0–2 × Basilisk Eye (rare reagent)
+
+Rare Pool (~40% on kill, but spawn is rare)
+
+One of:
+
+Emberstalker Flameband (Rare AGI ring 27)
+
+Ashen Ridge Vanguard’s Signet (Rare STR ring 27)
+
+Ashen Ridge Flamebinder’s Sigil (Rare INT ring 27)
+
+Ultra-Rare (~1.0% total)
+
+Stonegaze Visor
+
+Rare/ Epic headpiece (heavy or mail) with STA/STR and a small chance on being hit to briefly slow/soft-root the attacker.
+
+2.9 Furnacebound Golem (Lv 28–29, Zone Elite)
+
+Role: Walking forge; near-smoldering core.
+Fantasy: “This is the Ashen Ridge boss that anchors the zone’s forging fantasy.”
+
+Guaranteed Drops
+
+Coin:
+
+80–120 copper.
+
+Materials:
+
+3–5 × Ember Ore
+
+2–4 × Glowrock
+
+1–2 × Molten Filament
+
+0–1 × Obsidian-Infused Ember Alloy (very rare, used in late recipes)
+
+Uncommon Equipment (100%: 1–2 items)
+
+Random 1–2 from:
+
+Any Emberstalker Scorched Uncommon
+
+Any Basalt Vanguard Uncommon
+
+Any Pyrechanter Cinder Uncommon
+
+Corescarred Warden’s Medallion
+
+Weights can be equal.
+
+Rare Pool (70%: 1 item)
+
+One of:
+
+Emberstalker Flamevein Jerkin (Rare 27)
+
+Basalt Vanguard Flameguard Chestplate (Rare 27)
+
+Pyrechanter’s Magmaveil Robe (Rare 27)
+
+Magmastring Recurve Bow (Rare 28 bow)
+
+Magmaheart Wall (Rare 28 shield)
+
+Coresong Channeling Staff (Rare 28 staff)
+
+Ultra-Rare Core Drop (~0.35% total)
+
+Emberforge Heart
+
+Legendary/Ultra-Rare forging core; used across multiple end-tier recipes, not just for this band.
+
+3. Ashen Ridge World Drop Table (Lv 20–29)
+
+All qualifying mobs (non-critter, Lv 20–29 in Ashen Ridge) roll this table after their regular loot.
+
+Recommended chance:
+
+Normal: ~0.05% per kill
+
+Elites/rares: 0.15–0.25% per kill
+
+This keeps world drops exciting but truly rare.
+
+Candidate World Drops
+
+All of these are tuned slightly stronger than “typical” Rare pieces of the band, but still within reason.
+
+Ashen World-Drop Ring: Emberwrought Loop
+
+Lv 26 ring
+
++Primary Stat, +STA, +1% Crit, small fire resistance
+
+Ashen World-Drop Cloak: Cinderwake Drape
+
+Lv 27 cloak
+
+Thematic for DPS or casters; AP or SP plus fire resistance.
+
+Ashen World-Drop Weapon: Flamecut Edge
+
+Lv 28–29 1H sword
+
+Balanced between AP and a small fire DoT.
+
+Ashen World-Drop Staff: Emberwake Conduit
+
+Lv 29 staff
+
+High INT/SP, minor mana-per-5, small chance to add a brief fire damage aura.
+
+You can later promote any of these to “Epic” or “Boss-tier” if you build more rarities.
+
+4. Lua Loot Table Examples
+
+Here’s how these can be represented in pseudo-Lua, mirroring the Greatwood structure.
+
+local COMMON    = "COMMON"
+local UNCOMMON  = "UNCOMMON"
+local RARE      = "RARE"
+local ULTRA     = "ULTRA"
+
+local function LootEntry(itemId, chance, minCount, maxCount)
+    return {
+        itemId   = itemId,
+        chance   = chance,   -- 0.0–1.0
+        minCount = minCount or 1,
+        maxCount = maxCount or minCount or 1,
+    }
+end
+
+LootTables = LootTables or {}
+
+-- Magma Wretch
+LootTables["AshenRidge.MagmaWretch"] = {
+    coin = { min = 16, max = 32 },
+
+    materials = {
+        LootEntry("MAT_SMOLDERING_ASH",      0.80, 1, 3),
+        LootEntry("MAT_EMBER_ORE_FRAGMENT",  0.25, 0, 2),
+    },
+
+    junk = {
+        LootEntry("JUNK_CRACKED_MAGMA_HUSK", 0.40, 1, 1),
+    },
+
+    equipment = {
+        -- Uncommon
+        LootEntry("ITEM_EMBERSTALKER_SCORCHED_TREADS", 0.05, 1, 1),
+        LootEntry("ITEM_SMOLDERING_WARDERS_BRACERS",   0.05, 1, 1),
+        LootEntry("ITEM_PYRECHANTERS_CINDER_SANDALS",  0.05, 1, 1),
+
+        -- Rare
+        LootEntry("ITEM_CINDERKISS_BLADE",             0.015, 1, 1),
+    },
+
+    worldDrop = {
+        LootEntry("ITEM_EMBERWROUGHT_LOOP", 1.0, 1, 1),
+    },
+}
+
+-- Furnacebound Golem
+LootTables["AshenRidge.FurnaceboundGolem"] = {
+    coin = { min = 80, max = 120 },
+
+    materials = {
+        LootEntry("MAT_EMBER_ORE",                    0.95, 3, 5),
+        LootEntry("MAT_GLOWROCK",                     0.90, 2, 4),
+        LootEntry("MAT_MOLTEN_FILAMENT",              0.60, 1, 2),
+        LootEntry("MAT_OBSIDIAN_INFUSED_EMBER_ALLOY", 0.15, 1, 1),
+    },
+
+    equipment = {
+        -- Uncommon pool, higher rates
+        LootEntry("ITEM_EMBERSTALKER_SCORCHED_HOOD",      0.08, 1, 1),
+        LootEntry("ITEM_BASALT_VANGUARD_CHESTPLATE",      0.08, 1, 1),
+        LootEntry("ITEM_PYRECHANTERS_CINDER_ROBE",        0.08, 1, 1),
+        LootEntry("ITEM_CORESCARRED_WARDENS_MEDALLION",   0.06, 1, 1),
+
+        -- Rare pool
+        LootEntry("ITEM_EMBERSTALKER_FLAMEVEIN_JERKIN",   0.11, 1, 1),
+        LootEntry("ITEM_BASALT_VANGUARD_FLAMEGUARD_CHEST",0.11, 1, 1),
+        LootEntry("ITEM_PYRECHANTERS_MAGMAVEIL_ROBE",     0.11, 1, 1),
+        LootEntry("ITEM_MAGMASTRING_RECURVE_BOW",         0.09, 1, 1),
+        LootEntry("ITEM_MAGMAHEART_WALL",                 0.09, 1, 1),
+        LootEntry("ITEM_CORESONG_CHANNELING_STAFF",       0.09, 1, 1),
+    },
+
+    ultra = {
+        LootEntry("ITEM_EMBERFORGE_HEART", 0.0035, 1, 1),
+    },
+
+    worldDrop = {
+        LootEntry("ITEM_EMBERWAKE_CONDUIT", 1.0, 1, 1),
+    },
+}
+
+
+You can reuse this structure for every Ashen Ridge mob, swapping IDs and chances.
