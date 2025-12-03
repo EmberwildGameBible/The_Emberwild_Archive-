@@ -1,0 +1,539 @@
+B142 — TIER 1 DUNGEONS, RAID & LOOT ROUTING (LV 60)
+1. Endgame Structure Overview
+
+At Lv 60, the core PvE loop is:
+
+Tier 1 Dungeons (Lv 60 · 5-man)
+
+Ember-Tempered Foundry
+
+Frostvein Bastion
+
+Duskhollow Catacombs
+
+Tier 1 Raid (Lv 60 · 10–20-man)
+
+Citadel of Convergence
+
+Legendary Scenarios (3–5-man or high-end solo)
+
+The Ember Crucible (Emberheart Aegis chain)
+
+Colossus Forge (Evershatter)
+
+Star-Eater Rite (Star-Eater staff)
+
+Shattered Sky Hunt (Skyshatter bow)
+
+Silent Court (Nightveil dagger)
+
+Long Night (Dawnsong mace / healer content)
+
+Dungeons → feed you:
+
+First copies of T1 set pieces (2–3 per set).
+
+Good Rares and mats to start legendary chains.
+
+Raid → finishes:
+
+The last 1–2 pieces of each set.
+
+Additional relic mats and Tier 1-only cosmetics.
+
+Scenarios → grant:
+
+The actual legendaries (weapons/trinkets) from B137–B139.
+
+2. Tier 1 Dungeons (5-Man)
+2.1 Ember-Tempered Foundry (Ashen Ridge · Fire/Metal)
+
+Theme:
+A reactivated industrial complex beneath Ashen Ridge, using Ember Ore, Glowrock and void-tainted fuels.
+
+Bosses:
+
+Forgewarden Karzun
+
+The Slagborn Twins (dual mini-boss)
+
+Prototype Ember Colossus
+
+The Runebreaker Engine (final)
+
+Boss 1 — Forgewarden Karzun
+
+Fantasy: Classic heavy-hitting forge boss, cleaves and throws molten slag.
+
+Key Drops:
+
+Emberheart Bulwark Gauntlets (Hands, Tank set)
+
+Evershatter Gauntlets (Hands, STR DPS set)
+
+Skyshatter Tracker’s Grips (Hands, AGI ranged set)
+
+Rare/Relic side-drops:
+
+EMBERFORGE_INGOT (crafting mat for tank/DPS legendaries)
+
+Chance at Embersteel Warplate upgrade recipe (cosmetic variant or small stat bump).
+
+Boss 2 — The Slagborn Twins
+
+Two brothers: one melee, one caster; swap molten pools and beams.
+
+Key Drops:
+
+Nightveil Assailant’s Gloves (Hands, AGI melee set)
+
+Star-Eater Gloves (Hands, caster set)
+
+Dawnsong Gloves (Hands, healer set)
+
+Chance at:
+
+SLAGBORN_SPARK (used in Evershatter / Skyshatter cosmetic forges).
+
+Boss 3 — Prototype Ember Colossus
+
+Big construct test-bed; heavy fire + stomp patterns.
+
+Key Drops:
+
+Emberheart Bulwark Sabatons (Feet, Tank set)
+
+Evershatter Warboots (Feet, STR DPS set)
+
+Nightveil Assailant’s Footpads (Feet, AGI melee set)
+
+Rare Relic:
+
+Small chance at Emberforge Heart (alternative source for the Emberheart Aegis chain if you missed it earlier).
+
+Boss 4 — The Runebreaker Engine
+
+Final boss: a runaway fusion of rune-schematics + forge-engine.
+
+Key Drops (higher rate):
+
+Skyshatter Tracker’s Treads (Feet, AGI ranged)
+
+Star-Eater Sandals (Feet, caster)
+
+Dawnsong Slippers (Feet, healer)
+
+Extra:
+
+Elevated chance at Cinderkiss Blade + Flamecut Edge as nostalgia/upgrade world drops.
+
+2.2 Frostvein Bastion (Frostmarch · Ice/Storm)
+
+Theme:
+Remnant fortress where Frostvein Colossi were built and Stormhide rituals took place.
+
+Bosses:
+
+Lieutenant Glaciara
+
+Stormvein Channeler Council (council fight)
+
+Frostvein War Golem
+
+Heart of the Blizzard (final elemental core)
+
+Boss 1 — Lieutenant Glaciara
+
+Fast-moving melee + icy volleys; gives a mid-tier DPS check.
+
+Key Drops:
+
+Evershatter Warhelm (Head, STR DPS)
+
+Skyshatter Tracker’s Hood (Head, AGI ranged)
+
+Nightveil Assailant’s Cowl (Head, AGI melee)
+
+Tier 0 relics:
+
+Higher chance at Glaciathral Greatsword.
+
+Boss 2 — Stormvein Channeler Council
+
+Three casters: frost, lightning, and control; kill order matters.
+
+Key Drops:
+
+Star-Eater Hood (Head, caster)
+
+Dawnsong Circlet (Head, healer)
+
+Emberheart Bulwark Helm (Head, tank)
+
+Mats:
+
+ETERNAL_FROSTVEIN_SHARD (used for Star-Eater Conduit cosmetics).
+
+Boss 3 — Frostvein War Golem
+
+Big construct with rotating frost/physical phases.
+
+Key Drops:
+
+Evershatter Legguards (Legs, STR DPS)
+
+Emberheart Bulwark Legplates (Legs, tank)
+
+Chance at:
+
+Thunderhide Warplate upgrade token (cosmetic or small stat bump).
+
+Boss 4 — Heart of the Blizzard
+
+Elemental core fight: heavy AoE, movement, debuff cleansing.
+
+Key Drops:
+
+Star-Eater Legwraps (Legs, caster)
+
+Dawnsong Leggings (Legs, healer)
+
+Skyshatter Tracker’s Legwraps (Legs, AGI ranged)
+
+Nightveil Assailant’s Legwraps (Legs, AGI melee)
+
+Loot-wise, by the end of Frostvein Bastion, a player can reasonably have:
+
+2–3 pieces of their T1 set (mix of hands/feet/head/legs).
+
+2.3 Duskhollow Catacombs (Duskhollow · Shadow/Void)
+
+Theme:
+Undercity of Duskhollow, full of sealed rituals, shades, and reliquaries.
+
+Bosses:
+
+The Penitent King
+
+Rift-Tide Behemoth
+
+The Many-Masked Choir
+
+The Sunless Reliquary (final)
+
+Boss 1 — The Penitent King
+
+Former noble locked in eternal penance; physical + holy/shadow mix.
+
+Key Drops:
+
+Emberheart Bulwark Gauntlets/Sabatons (alternative sources)
+
+Nightveil Assailant’s Gloves/Footpads (extra chances)
+
+Healer reward:
+
+Elevated chance at Heartroot Reliquary.
+
+Boss 2 — Rift-Tide Behemoth
+
+Void creature flowing through catacombs like liquid shadow.
+
+Key Drops:
+
+Evershatter Warplate (Chest, STR DPS)
+
+Skyshatter Tracker’s Jerkin (Chest, AGI ranged)
+
+Nightveil Assailant’s Vest (Chest, AGI melee)
+
+Relic:
+
+Chance at Riftheart Bulwark (for tanks who didn’t get it earlier).
+
+Boss 3 — The Many-Masked Choir
+
+Multi-add fight; singing ghosts that empower each other.
+
+Key Drops:
+
+Star-Eater Robe (Chest, caster)
+
+Dawnsong Raiment (Chest, healer)
+
+Emberheart Bulwark Breastplate (Chest, tank)
+
+Extra:
+
+Good spot to drop Witch-Queen’s Eye at a low rate.
+
+Boss 4 — The Sunless Reliquary
+
+Final: a static “heart” of shadow with rotating ward phases, add waves.
+
+Key Drops (higher chance):
+
+Additional Leg pieces or Helm for all sets (bad luck protection).
+
+Small chance at:
+
+SOVEREIGNS_SHADOWCORE (alternative mat for Emberheart/other chains).
+
+By the time a player farms:
+
+Ember-Tempered Foundry,
+
+Frostvein Bastion,
+
+Duskhollow Catacombs
+
+they should have roughly 2–4 pieces of their desired set, plus mats for legendary chains.
+
+3. Tier 1 Raid — Citadel of Convergence
+
+Theme:
+A fortress built where ley-lines from Greatwood, Ashen Ridge, Frostmarch, and Duskhollow intersect. All elements—nature, fire, frost, shadow—are converging and mutating.
+
+Format:
+10–20 players, 8 bosses in 3 wings + final.
+
+3.1 Wing Layout
+
+Wing 1 — Ember & Frost
+
+Wing 2 — Shadow & Root
+
+Wing 3 — Fractured Skies
+
+Final — The Convergence Heart
+
+Wing 1 — Ember & Frost
+
+Boss A1 — “Ignivar the Molten Warden”
+
+Fire tank busts, lava waves, cleave; warm-up boss.
+
+Drops (high):
+
+Emberheart Bulwark Chest/Legs (extra chance)
+
+Evershatter Warplate/Legguards
+
+Boss A2 — “Gelid Crown Sarya”
+
+Frost sorceress fight, lots of debuff dispels, movement.
+
+Drops:
+
+Star-Eater Hood/Robe
+
+Dawnsong Circlet/Raiment
+
+Boss A3 — “Twin Cores of the Crucible”
+
+Two linked elementals: one fire, one frost; must balance damage.
+
+Drops:
+
+Any missing Helm/Chest combinations across sets.
+
+Small chance at:
+
+EMBERFORGE_HEART
+
+ETERNAL_FROSTHEART_CORE
+
+Wing 2 — Shadow & Root
+
+Boss B1 — “Heartroot Revenant”
+
+Corrupted Heartroot ancient; massive cleaves + root mechanics.
+
+Drops:
+
+Emberheart Bulwark Helm/Legs (extra)
+
+Dawnsong Leggings/Gloves
+
+Chance at Heartroot Reliquary.
+
+Boss B2 — “The Thorned Choir”
+
+Shadow-empowered dryads; AoE, movement, debuff cleanse.
+
+Drops:
+
+Nightveil Assailant’s Cowl/Vest
+
+Skyshatter Tracker’s Hood/Jerkin
+
+Boss B3 — “Sovereign of the Hollow Crown”
+
+Royal shade using both Heartroot and Duskhollow magic.
+
+Drops:
+
+Star-Eater Legwraps/Gloves
+
+Dawnsong Gloves/Slippers
+
+Chance at Sovereign’s Shadowcore (for Emberheart chain & more).
+
+Wing 3 — Fractured Skies
+
+Boss C1 — “Aurora-Rend Wyvern”
+
+Airborne phases, targeted beams; ranged friendly.
+
+Drops:
+
+Skyshatter Tracker’s Legwraps/Grips/Treads
+
+Increased chance at Boreal Trailcloak & Skyshatter cosmetics.
+
+Boss C2 — “Void-Torn Roc”
+
+Variant of Umbral Roc; heavy knockbacks, line cleaves.
+
+Drops:
+
+Nightveil Assailant’s Legwraps/Gloves/Footpads
+
+Chance at Nightveil cosmetic dagger skin.
+
+Boss C3 — “The Star-Eater’s Eye”
+
+A fragment of the Star-Eater entity; heavy caster-centric fight.
+
+Drops:
+
+Star-Eater Robe/Legwraps/Sandals
+
+Chance at additional Star-Eater Conduit cosmetic or minor upgrade token.
+
+Final — The Convergence Heart
+
+Boss D — “The Convergence Heart”
+
+All four elements cycling:
+
+Root phase (Greatwood)
+
+Fire phase (Ashen Ridge)
+
+Frost phase (Frostmarch)
+
+Shadow/Sky phase (Duskhollow + Sky/Ether)
+
+Loot Goals:
+
+This fight is where you finish your 4-piece set, regardless of role.
+
+Also the source of rare endgame mats.
+
+Drops:
+
+One guaranteed T1 Legendary Set piece for each armor type present:
+
+Bulwark (tank)
+
+Evershatter (STR DPS)
+
+Skyshatter (AGI ranged)
+
+Nightveil (AGI melee)
+
+Star-Eater (caster)
+
+Dawnsong (healer)
+
+Extra drop table:
+
+High chance at:
+
+CORE_OF_CONVERGENCE — used for future Tier 2 legendaries.
+
+Small chance at:
+
+Random T1 legendary relic upgrade tokens (purely tuning or cosmetics).
+
+So the raid acts as:
+
+The capstone of Tier 1,
+
+The place you get your 4-piece bonus,
+
+The teaser for higher tiers.
+
+4. Legendary Scenarios as Endgame Pillars
+
+These are already defined in B137–B139, but here’s where they sit conceptually:
+
+The Ember Crucible — Tank-focused, ends in Emberheart Aegis.
+
+Colossus Forge — STR DPS-focused, ends in Evershatter Colossusblade.
+
+Star-Eater Rite — Caster DPS-focused, ends in Star-Eater Conduit.
+
+Shattered Sky Hunt — Ranged AGI-focused, ends in Skyshatter Huntbow.
+
+Silent Court — Melee AGI-focused, ends in Nightveil Prowler.
+
+Long Night — Healer-focused, ends in Dawnsong Covenant (and optionally Heartroot Reliquary).
+
+Each:
+
+Is tuned around having some T1 set pieces and solid blues.
+
+Feels like a mini “raid encounter” built just for that playstyle.
+
+Hooks into the Relic Codex as:
+
+“Legendary Scenario Completed” flags.
+
+5. Example Boss Loot Table (Lua-ish)
+
+Here’s what one endgame boss might look like in data:
+
+local function LootEntry(itemId, chance, minCount, maxCount)
+    return {
+        itemId   = itemId,
+        chance   = chance,
+        minCount = minCount or 1,
+        maxCount = maxCount or minCount or 1,
+    }
+end
+
+LootTables["Raid.Citadel.ConvergenceHeart"] = {
+    coin = { min = 0, max = 0 }, -- gold handled elsewhere
+
+    -- Tier 1 set pieces (weights assume multiple rolls)
+    equipment = {
+        LootEntry("ITEM_EMBERHEART_BULWARK_HELM",      0.10, 1, 1),
+        LootEntry("ITEM_EMBERHEART_BULWARK_BREASTPLATE",0.10, 1, 1),
+        LootEntry("ITEM_EVERSHATTER_WARHELM",          0.10, 1, 1),
+        LootEntry("ITEM_EVERSHATTER_WARPLATE",         0.10, 1, 1),
+        LootEntry("ITEM_SKYSHATTER_TRACKERS_HOOD",     0.10, 1, 1),
+        LootEntry("ITEM_SKYSHATTER_TRACKERS_JERKIN",   0.10, 1, 1),
+        LootEntry("ITEM_NIGHTVEIL_ASSAILANTS_COWL",    0.10, 1, 1),
+        LootEntry("ITEM_NIGHTVEIL_ASSAILANTS_VEST",    0.10, 1, 1),
+        LootEntry("ITEM_STAR_EATER_HOOD",              0.10, 1, 1),
+        LootEntry("ITEM_STAR_EATER_ROBE",              0.10, 1, 1),
+        LootEntry("ITEM_DAWNSONG_CIRCLET",             0.10, 1, 1),
+        LootEntry("ITEM_DAWNSONG_RAIMENT",             0.10, 1, 1),
+    },
+
+    mats = {
+        LootEntry("MAT_CORE_OF_CONVERGENCE", 0.40, 1, 1),
+        LootEntry("MAT_SOVEREIGNS_SHADOWCORE", 0.05, 1, 1),
+        LootEntry("MAT_ETERNAL_FROSTHEART_CORE",0.05,1,1),
+        LootEntry("MAT_EMBERFORGE_HEART",      0.05, 1, 1),
+    },
+
+    ultra = {
+        LootEntry("ITEM_T1_RELIC_UPGRADE_TOKEN_RANDOM", 0.02, 1, 1),
+    },
+}
+
+
+You can keep tuning these numbers, but structure-wise it’s consistent with all your earlier loot tables.
