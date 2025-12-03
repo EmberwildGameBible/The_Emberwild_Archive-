@@ -1,353 +1,340 @@
-# CHAPTER 10 — APPENDIX A; I - II — ITEM BUDGET FRAMEWORK
+CHAPTER 10 — STAT & ITEM BUDGET FRAMEWORK (V2 — FINALIZED)
 
----
+Assumes a 1–60 level range, Classic-ish pacing, and primary stats:
+STR / AGI / STA / INT / SPI
 
-### PART 1 — LEVEL BANDS & BASE BUDGET SCALING
+If you change level cap later, you only need to adjust the base budget curve.
 
-This appendix defines how much stat budget an item receives at a given level, before slot weight and rarity multipliers.
+⸻
 
-### A1.0 Level Band Table (Global Baseline)
+1. Core Goals
+	1.	Every item has a clear numeric budget based on:
+	•	Item level
+	•	Slot
+	•	Rarity
+	2.	That budget is “spent” on stats using explicit costs per stat.
+	3.	Two items with:
+	•	same level,
+	•	same slot,
+	•	same rarity
+will be within a tight power band, even if their stat mix is different.
+	4.	Classes stay balanced because:
+	•	Primary stat → AP / SP / HP follows fixed rules
+	•	Offensive stats (crit, hit, haste) are expensive
+	•	Defensive stats (armor, stamina) scale cleanly
 
-| Level Band | Intended Content | Base Item Budget |
-| --- | --- | --- |
-| 1–9 | Starting zones | Very Low |
-| 10–19 | Early adventure | Low |
-| 20–29 | Mid-lands | Moderate |
-| 30–39 | Danger zones | High |
-| 40–49 | Frontier | Very High |
-| 50–60 | Endgame overworld & dungeons | Exceptional |
+⸻
 
-A “budget” is not a number—it is a tier applied consistently across all stat-bearing items.
+2. Primary Stats & Derived Effects
 
-Numbers appear in the core budget formula:
+We keep your original stat fantasy, but clarify the math.
 
-BaseBudget = (Level × 1.0) + (SlotWeight × RarityMultiplier)
+2.1 Primary Stats
+	•	Strength (STR)
+	•	Melee AP for strength-based classes
+	•	Increases block value for shield users
+	•	Agility (AGI)
+	•	AP for agility-based classes
+	•	Increases crit chance and dodge
+	•	Ranged accuracy for hunters / agility users
+	•	Stamina (STA)
+	•	Raw HP
+	•	Intellect (INT)
+	•	Max mana (or equivalent resource)
+	•	Spell crit
+	•	Contributes to spell power (slightly)
+	•	Spirit (SPI)
+	•	Out-of-combat regen
+	•	In-combat regen for certain classes/specs
 
-(Exact numeric formulas are in Chapter 10.)
+2.2 Generic Derived Formulas
 
----
+These can be tweaked per class, but this is the baseline:
 
-# A1.1 Rarity Multipliers (Canonical Rarity Only)
+Health      = BaseHP(level, class) + STA * 10
 
-| Rarity | Multiplier | Notes |
-| --- | --- | --- |
-| Common | 1.00× | Vendor / low-trash |
-| Uncommon | 1.15× | Standard adventuring gear |
-| Rare | 1.30× | High-quality overworld finds |
-| Elite | 1.45× | Elite enemies, strongboxes |
-| Rare Elite | 1.60× | Rare spawns / minibosses |
-| Boss | 1.75× | Dungeon bosses, world bosses |
-| Ultra-Rare | N/A | Not in rarity engine; see A1.4 |
+Mana        = BaseMana(level, class) + INT * 15
 
-Ultra-Rare does not use a multiplier.
+Melee AP    = (STR * STR_AP_PER_STR[class]) 
+            + (AGI * STR_AP_FROM_AGI[class])
 
-It overwrites an existing item after it is generated.
+Ranged AP   = (AGI * AGI_RAP_PER_AGI[class])
 
----
+Spell Power = GearSP + (INT * INT_TO_SP_FACTOR[class])
 
-# A1.2 Slot Weight Table
+Regen (OOC) = SPI * SPI_OOC_FACTOR
+Regen (IC)  = SPI * SPI_IC_FACTOR[class]
 
-Applicable to all wearable slots.
+Example default values (can be overridden per class):
 
-| Slot | Weight | Notes |
-| --- | --- | --- |
-| Head | 1.00 | Core |
-| Chest | 1.15 | Largest defensive slot |
-| Legs | 1.10 | Large slot |
-| Shoulders | 0.90 | Mid slot |
-| Hands | 0.75 | Small slot |
-| Feet | 0.75 | Small slot |
-| Waist | 0.70 | Smallest armor slot |
-| Wrist | 0.65 | Smallest armor slot |
-| Back | 0.70 | Utility slot |
-| Neck | 0.60 | Jewelry |
-| Finger | 0.50 | Rings |
-| Trinket | 1.00 | High-impact utility slot |
-| Main-Hand | 2.00 | Large budget |
-| Off-Hand (weapon) | 1.50 | Mid budget |
-| Off-Hand (shield) | 1.40 | Heavy mitigation |
-| Two-Hand | 2.75 | Consolidated main budget |
-| Ranged | 1.80 | Scales with ammo |
-| Thrown | 1.10 | Smaller budget |
+STR_AP_PER_STR      = 2.0 (pure STR classes), 1.0 (hybrids)
+AGI_RAP_PER_AGI     = 2.0 (ranged classes), 1.0 (hybrids)
+INT_TO_SP_FACTOR    = 0.2 (casters), 0.0 (non-casters)
 
----
+SPI_OOC_FACTOR      = 0.5 mana / 5 sec per SPI
+SPI_IC_FACTOR       = 0.1–0.3 depending on class
 
-# A1.3 Boss Items
 
-Boss budget = base budget × 1.75 rarity multiplier
+⸻
 
-Boss items are intended to be:
+3. Armor & Mitigation
 
-- best-in-slot for early progression
-- replaced only by later dungeon bosses or deep overworld rares
+Use a classic-feeling diminishing returns formula so armor is always helpful but never insane.
 
----
+Mitigation% = Armor / (Armor + K)
 
-# A1.4 ULTRA-RARE ITEM RULESET (NEW)
+Where K = 400 + 85 * AttackerLevel
 
-The Ultra-Rare system is NOT A RARITY TIER.
+This creates intuitive curves:
+	•	Low levels: small armor still matters
+	•	High levels: big armor gains give smaller and smaller returns
 
-It is a jackpot override applied AFTER the normal drop engine creates a valid item.
+⸻
 
-### Ultra-Rare Overwrite Logic:
+4. Item Budget Model
 
-1. Normal item is generated.
-2. System rolls JackpotChance (per creature family).
-3. If Jackpot succeeds → transform the item into an Ultra-Rare variant.
+Every item has a budget.
+That budget depends on:
+	•	Level
+	•	Slot
+	•	Rarity
 
-### Ultra-Rare Properties:
+We do this in stages:
+	1.	Base budget from level
+	2.	Apply slot weight
+	3.	Apply rarity multiplier
+	4.	Spend that budget on stats
 
-✔ Derived from parent item template
+4.1 Base Budget by Level
 
-✔ Stat variance: +3% to +5% total budget
+We use a simple linear curve that grows with level.
 
-✔ Name border: unique tint (blue-violet)
+-- Returns the base budget for a level, before slot/rarity.
+function BaseItemBudget(level: number): number
+    return 4 + 1.6 * level
+end
 
-✔ Item name:
+Reference values:
 
-Ultra-Rare:
+Level	Base Budget
+1	5.6
+5	12
+10	20
+20	36
+30	52
+40	68
+50	84
+60	100
 
-✔ Global scarcity tracking enabled (“1 of X spawned worldwide”)
+This is intentionally simple.
+If you ever want “more power per level”, you just tweak the constants 4 and 1.6.
 
-✔ May gain ONE cosmetic optional modifier:
+⸻
 
-- weathering pattern
-- faint glow
-- unique engravings
-- handcrafted variant description
+4.2 Rarity Multipliers
 
-### What Ultra-Rare is NOT:
+Rarity scales the budget up or down.
 
-✘ NOT its own rarity tier
+RARITY_MULTIPLIER = {
+    COMMON   = 1.00,
+    UNCOMMON = 1.15,
+    RARE     = 1.30,
+    EPIC     = 1.45,
+    LEGENDARY= 1.60,
+    BOSS     = 1.75,
+    ULTRA    = 2.00, -- ultra-rare world drops / jackpots
+}
 
-✘ NOT part of budget multiplier tables
+You can merge or rename tiers, but the important thing is:
+	•	Difference between tiers is consistent.
+	•	Player can feel each jump.
 
-✘ NOT guaranteed
+⸻
 
-✘ NOT predictable
+4.3 Slot Weights
 
-✘ NOT farmable by normal means
+Big armor pieces and weapons get more budget than rings, boots, etc.
 
-✘ NOT dropping in dungeons (optional rule)
+SLOT_WEIGHT = {
+    HEAD      = 1.00,
+    CHEST     = 1.15,
+    LEGS      = 1.10,
+    SHOULDERS = 0.90,
+    HANDS     = 0.80,
+    FEET      = 0.80,
+    WAIST     = 0.70,
+    WRIST     = 0.60,
 
----
+    RING      = 0.50,
+    TRINKET   = 0.80,
+    NECK      = 0.70,
 
-# A1.5 Jackpot Chance Table (For Ultra-Rare)
+    MAIN_HAND = 2.00,
+    OFF_HAND  = 1.25,
+    SHIELD    = 1.40,
+    TWO_HAND  = 2.75,
+    RANGED    = 2.00,
+}
 
-This defines where Ultra-Rares are ALLOWED to roll.
+You can adjust slot weights if you want a different feel (e.g. rings matter more, etc.).
 
-Creatures not listed → CANNOT roll Ultra-Rare.
+⸻
 
-| Enemy Type | Ultra-Rare Chance | Notes |
-| --- | --- | --- |
-| Normal | 0% | Cannot drop Ultra-Rare |
-| Rare | 0.001% (1 in 100,000) | Lowest possible |
-| Elite | 0.002% (1 in 50,000) |  |
-| Rare Elite | 0.004% (1 in 25,000) |  |
-| Mini-Boss | 0.01% (1 in 10,000) |  |
-| Boss | 0.02% (1 in 5,000) |  |
-| Non-enemy systems (Fishing/Cooking/Scavenging) | 0.001% if flagged | Only specific nodes |
+4.4 Final Item Budget Formula
 
-These numbers are design placeholders—you can tune them.
+function ItemBudget(level: number, slot: string, rarity: string): number
+    local base = BaseItemBudget(level)
+    local slotWeight = SLOT_WEIGHT[slot]
+    local rarityMult = RARITY_MULTIPLIER[rarity]
+    return base * slotWeight * rarityMult
+end
 
----
+Example:
+Level 20, Rare chest:
 
-# ⸻
+local budget = ItemBudget(20, "CHEST", "RARE")
+-- base = 36
+-- slotWeight = 1.15
+-- rarity = 1.30
+-- budget ≈ 36 * 1.15 * 1.30 ≈ 53.82
 
-# APPENDIX A — PART 2
+That chest gets about 54 points of budget to spend on stats.
 
-### Slot-Specific Subweights & Stat Distribution
+⸻
 
-This segment defines how stat points are divided inside an item’s budget.
+5. Stat Costs (How Budget Is Spent)
 
----
+Each stat has a budget cost.
+More powerful effects cost more.
 
-# A2.1 Stat Distribution Per Armor Type
+These are starting values; you can tweak them, but the ratios are what matter.
 
-| Armor Type | Main Stats | Distribution |
-| --- | --- | --- |
-| Cloth | INT / SPI | 60% INT, 40% SPI |
-| Leather | AGI / STA | 60% AGI, 40% STA |
-| Mail | AGI / STA or STR / STA | 50/50 split or class-dependent |
-| Plate | STR / STA | 60% STR, 40% STA |
+5.1 Primary Stat Costs
 
-Wands / Tomes / Off-hands use INT/SPI mixes.
+STAT_COST = {
+    STR = 1.0,  -- 1 budget per 1 STR
+    AGI = 1.0,  -- 1 budget per 1 AGI
+    INT = 1.0,  -- 1 budget per 1 INT
+    STA = 1.0,  -- 1 budget per 1 STA
+    SPI = 0.8,  -- a bit cheaper, mainly regen
+}
 
-Ranged weapons use AGI/AP distributions.
+You can lean certain armor types:
+	•	Cloth: mostly INT/SPI
+	•	Leather: AGI/STA
+	•	Mail/Plate: STR/STA
 
----
+But they all use the same core costs.
 
-# A2.2 Stat Variance Allowance
+⸻
 
-Each stat may vary ±10% inside the item’s budget.
+5.2 Secondary Stat Costs
 
-Ultra-Rare uses +3–5% AFTER this.
+SECONDARY_COST = {
+    CRIT_PCT   = 8.0,  -- 8 budget per 1% crit
+    HIT_PCT    = 10.0, -- 10 budget per 1% hit (very strong)
+    HASTE_PCT  = 10.0, -- 10 budget per 1% haste
 
----
+    AP         = 0.5,  -- 2 Attack Power per 1 budget
+    SP         = 0.5,  -- 2 Spell Power per 1 budget
 
-# A2.3 Multi-Stat Jewelry Rules
+    ARMOR      = 1/6,  -- 6 armor per 1 budget (all levels, simple)
+}
 
-Neck/Ring items follow:
+You can also add:
 
-- 33% primary stat
-- 33% stamina
-- 33% secondary stat (crit/hit/resist/regen)
+    DODGE_PCT  = 9.0,
+    PARRY_PCT  = 9.0,
+    BLOCK_PCT  = 7.0,
+    BLOCK_VALUE= 0.4, -- etc.
 
----
+The key is:
+	•	Crit/Hit/Haste are expensive, so they don’t flood low-level gear.
+	•	AP/SP are [okay] efficient, but you still feel difference between “raw stats” and “direct power”.
 
-# ⸻
+⸻
 
-# APPENDIX D — ENEMY TIER RARITY CURVES
+6. Building an Item (Step-by-Step Procedure)
 
-This appendix defines what rarity bands items are pulled from based on enemy type.
+This is the core pipeline you’ll use whenever we make gear.
+	1.	Choose context:
+	•	Level (e.g. 18)
+	•	Slot (e.g. FEET)
+	•	Rarity (e.g. RARE)
+	•	Target class/role (e.g. AGI-based DPS)
+	2.	Compute item budget:
 
----
+local budget = ItemBudget(18, "FEET", "RARE")
 
-# D1.0 Enemy Types (Canonical)
 
-✔ Normal
+	3.	Choose stat mix flavor:
+	•	For AGI DPS boots: mostly AGI/STA, maybe a little dodge or movespeed
+	4.	Spend budget:
+Example:
+Say budget is ~45.
+	•	+12 AGI  → 12 * 1.0 = 12 budget
+	•	+9 STA   → 9 * 1.0  = 9 budget
+	•	+1% Dodge → 1 * 9.0 = 9 budget
+	•	+2% Movespeed (if treated as e.g. 6 budget per 1%) → 12
+Total spent: 12 + 9 + 9 + 12 = 42
+You leave 2–3 points as “slop” so items aren’t all exact same totals.
+	5.	Resulting item feels fair
+	•	Same level Rare chest for same role will be stronger, with a bigger budget
+	•	Same level Common boots will feel noticeably weaker
 
-✔ Rare
+⸻
 
-✔ Elite
+7. Worked Example (So You Can Feel It)
 
-✔ Rare Elite
+Let’s actually do one fully.
 
-✔ Mini-Boss
+Example: Level 20 Rare Hunter Chest
 
-✔ Boss
+Context:
+	•	Level 20
+	•	Slot = CHEST
+	•	Rarity = RARE
+	•	Role = Agility-based physical DPS
 
-✔ (Ultra-Rare = jackpot override, not a tier)
+Budget:
 
----
+local budget = ItemBudget(20, "CHEST", "RARE")
+-- ≈ 53.82
 
-# D1.1 Standard Drop Table Weights (per 100 rolls)
+Spend:
+	•	+18 AGI  → 18 * 1.0 = 18
+	•	+14 STA  → 14 * 1.0 = 14
+	•	+1% Crit → 1 * 8.0   = 8
+	•	+1% Hit  → 1 * 10.0  = 10
+	•	+20 Armor → 20 * (1/6) ≈ 3.3
 
-### Normal Enemies
+Total spent ≈ 18 + 14 + 8 + 10 + 3.3 = 53.3
 
-| Rarity | Weight |
-| --- | --- |
-| Common | 92 |
-| Uncommon | 8 |
-| Rare | 0 |
-| Elite | 0 |
-| Rare Elite | 0 |
-| Boss | 0 |
-| Ultra-Rare | jackpot override only |
+Budget was ~53.8, so we’re right on target.
 
----
+Final item:
 
-### Rare Enemies
+Heartroot Hunter’s Jerkin (Rare)
+Level 20, Chest (Leather)
+	•	+18 Agility
+	•	+14 Stamina
+	•	+1% Crit Chance
+	•	+1% Hit Chance
+	•	+20 Armor
 
-| Rarity | Weight |
-| --- | --- |
-| Common | 65 |
-| Uncommon | 25 |
-| Rare | 10 |
-| Elite | 0 |
-| Rare Elite | 0 |
-| Boss | 0 |
+This is:
+	•	Clearly better than an Uncommon chest in same band
+	•	Clearly worse than an Epic/Legendary chest at the same level
+	•	Balanced against other Rare chests at level 20
 
-Ultra-Rare Jackpot applies AFTER normal roll.
+⸻
 
----
-
-### Elite Enemies
-
-| Rarity | Weight |
-| --- | --- |
-| Common | 45 |
-| Uncommon | 35 |
-| Rare | 20 |
-| Elite | 0 |
-| Rare Elite | 0 |
-| Boss | 0 |
-
----
-
-### Rare Elite
-
-| Rarity | Weight |
-| --- | --- |
-| Common | 25 |
-| Uncommon | 30 |
-| Rare | 45 |
-| Elite | 0 |
-| Rare Elite | 0 |
-
----
-
-### Mini-Boss
-
-| Rarity | Weight |
-| --- | --- |
-| Uncommon | 30 |
-| Rare | 45 |
-| Elite | 25 |
-| Boss | 0 |
-
-Mini-Boss does NOT drop Boss-tier items.
-
----
-
-### Boss
-
-| Rarity | Weight |
-| --- | --- |
-| Rare | 25 |
-| Elite | 45 |
-| Rare Elite | 30 |
-| Boss | 0 |
-
-Boss items are hard-coded, not rarity-rolled.
-
----
-
-# ⸻
-
-# APPENDIX E — LOOT CURVES & MATERIAL SYSTEM (FINAL)
-
----
-
-# E1.0 Material Tiers (Final Canon)
-
-| Material Tier | Old Name | Purpose |
-| --- | --- | --- |
-| Common Material | — | Crafting basics |
-| Uncommon Material | — | Mid-tier enhancements |
-| Rare Material | — | Strong crafting |
-| Elite Material | — | High-end overworld crafting |
-| Ultra-Rare Material | — | Jackpot crafting mat, 1-in-X chance |
-
-Ultra-Rare Materials follow the same jackpot rules as Ultra-Rare Items:
-
-- NEVER part of standard tables
-- NEVER farmable reliably
-- Derived from parent material
-- +5–8% potency scaling
-- Unique tint or descriptor
-- Global 1-of-X tracking
-
----
-
-# E2.0 Material Drop Rates
-
-| Enemy | Base Material Tier | Rare Proc | Ultra-Rare Proc |
-| --- | --- | --- | --- |
-| Normal | Common | — | 0% |
-| Rare | Uncommon | Rare=5% | 0.001% |
-| Elite | Uncommon/Rare | Rare=10% | 0.002% |
-| Rare Elite | Rare | Rare=15% | 0.004% |
-| Mini-Boss | Rare/Elite | Elite=10% | 0.01% |
-| Boss | Elite | Elite=25% | 0.02% |
-
----
-
-# E3.0 Ultra-Rare Material Jackpot Pipeline
-
-1. Roll normal material
-2. Roll bonus material tier upgrade
-3. Apply Ultra-Rare jackpot roll
-4. Apply variant (+5–8% potency)
-
----
+8. How This Hooks Into The Rest Of The Game
+	1.	Classes
+	•	Classes just define how STR/AGI/INT/SPI convert into AP/SP/regen.
+	•	This framework doesn’t care which class it is; it only cares about item budget.
+	2.	Enemies & Loot Tables
+	•	Each enemy is assigned items by level/rarity.
+	•	Bosses naturally drop items with higher rarity multipliers (Boss / Ultra).
+	3.	Future Expansions
+	•	If you raise level cap to 70/80/etc. you just adjust BaseItemBudget and maybe secondary costs.
