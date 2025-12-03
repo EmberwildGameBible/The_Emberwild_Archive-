@@ -1,0 +1,609 @@
+B136 — DUSKHALLOW LOOT TABLES & DROP LOGIC (LV 40–49)
+1. Duskhollow Loot Identity
+
+Duskhollow is the first zone where loot feels truly dangerous and weird.
+
+Design goals:
+
+Themed around:
+
+Shadow, void, curses, life-drain
+
+Ambush, stealth, CC
+
+Clear reward fantasies:
+
+AGI players hunt stalkers/howlers for Umbrafang leather.
+
+Tanks go after constructs/wards for Dreadbulwark heavy.
+
+Casters chase witches/phantoms for Riftbound cloth.
+
+Materials shift toward:
+
+Nightroot, Gloomshard, Voidglass, Rift-Touched Essence.
+
+Baseline per kill:
+
+Coin roll (always).
+
+Material roll.
+
+Equipment roll (Uncommon / Rare).
+
+Special roll (ultra / zone world drops).
+
+2. Core Duskhollow Enemies (Lv 40–49)
+
+Covered here:
+
+Gloomling Creeper
+
+Nightroot Howler
+
+Umbral Stalker
+
+Gloamscour Witch
+
+Rift-Torn Construct
+
+Shadowgrasp Horror
+
+Nightroot Entangler
+
+Moonless Stag (rare spawn)
+
+Riftwound Shade (rare spawn)
+
+Shade Sovereign (zone elite / boss)
+
+You can bind these to whatever exact NPC names you already have; this is the mechanical identity.
+
+2.1 Gloomling Creeper (Lv 40–43, Insect / Spider)
+
+Role: Poison/slow spider-type in the underbrush.
+Fantasy: “Poison mats, early Duskhollow Uncommons for all three archetypes.”
+
+Common Drops
+
+Coin:
+
+40–70 copper.
+
+Materials (95% total):
+
+1–3 × Gloomling Venom Sac
+
+1–3 × Duskhollow Silk
+
+Junk:
+
+Cracked Gloom Carapace (vendor junk).
+
+Uncommon Equipment (~18% per kill)
+
+One of:
+
+Gloomstep Stalker’s Bracers (Leather Wrist, Uncommon 40)
+
+Hollow Warden’s Vambraces (Heavy Wrist, Uncommon 40)
+
+Gloomweaver’s Wraps (Cloth Wrist, Uncommon 40)
+
+Roughly ~6% each.
+
+Rare Pool (~2.0% total)
+
+One of:
+
+Umbrafang Stalker’s Bracers (Rare 46)
+
+Dreadbulwark Vambraces (Rare 46)
+
+Riftbound Wraps (Rare 46)
+
+These are the entry-point rares for each armor type.
+
+2.2 Nightroot Howler (Lv 41–45, Beast)
+
+Role: Fast pack-hound, stacked bleed or fear howl.
+Fantasy: “AGI/STA leather, rings and early Rare boots.”
+
+Common Drops
+
+Coin:
+
+42–78 copper.
+
+Materials:
+
+1–3 × Nightroot Pelt
+
+0–2 × Howler Fang
+
+Uncommon Equipment (~20% total)
+
+One of:
+
+Gloomstep Stalker’s Hood (Leather Head, Uncommon 41)
+
+Gloomstep Stalker’s Treads (Leather Feet, Uncommon 40)
+
+Umbrafang Tracker’s Seal (AGI ring, Uncommon 42)
+
+Rare Pool (~3.0% total)
+
+One of:
+
+Umbrafang Stalker’s Treads (Rare 46)
+
+Umbrafang Shadeband (Rare 47 ring)
+
+Ultra-Rare (~0.2% total)
+
+Nighthowl Collar
+
+Rare+/Legendary trinket: AGI/STA, small crit, plus minor movespeed at night or in Duskhollow.
+
+2.3 Umbral Stalker (Lv 43–47, Humanoid / Beast)
+
+Role: Stealth assassin-type; backstab, silence, escape.
+Fantasy: “High-end AGI loot, serious hunter/rogue focus.”
+
+Common Drops
+
+Coin:
+
+50–90 copper.
+
+Materials:
+
+1–3 × Umbral Hide Strip
+
+0–2 × Void-Soaked Claw
+
+Uncommon Equipment (~22% total)
+
+One of:
+
+Gloomstep Stalker’s Jerkin (Leather Chest, Uncommon 41)
+
+Gloomstep Stalker’s Legwraps (Leather Legs, Uncommon 42)
+
+Nightroot Hunter’s Pendant (Neck, Uncommon 42)
+
+Rare Pool (~4.0% total)
+
+One of:
+
+Umbrafang Stalker’s Hood (Rare 47)
+
+Umbrafang Stalker’s Legwraps (Rare 48)
+
+Gloomshard Recurve (Rare 48 bow)
+
+Umbrafang Fangblade (Rare 49 dagger)
+
+Ultra-Rare (~0.25% total)
+
+Umbral Fangring
+
+Legendary-ish ring: AGI/STA, crit, small chance for attacks from stealth/openers to deal bonus shadow damage.
+
+2.4 Gloamscour Witch (Lv 42–48, Caster Humanoid)
+
+Role: Void/curse caster, shadow bolts, fear, curses.
+Fantasy: “Top-tier caster cloth and trinkets for this band.”
+
+Common Drops
+
+Coin:
+
+52–96 copper.
+
+Materials:
+
+1–3 × Witch’s Shadowfloss
+
+0–2 × Void-Touched Residue
+
+Uncommon Equipment (~24% total)
+
+One of:
+
+Gloomweaver’s Cowl (Cloth Head, Uncommon 41)
+
+Gloomweaver’s Robe (Cloth Chest, Uncommon 41)
+
+Voidglass Focus Stone (Trinket, Uncommon 43)
+
+Duskgloom Wand (Wand, Uncommon 43)
+
+Rare Pool (~5.0% total)
+
+One of:
+
+Riftbound Hood (Rare 47)
+
+Riftbound Robe (Rare 47)
+
+Rift-torn Channeling Staff (Rare 48 staff)
+
+Gloamscour Hexwand (Rare 48 wand)
+
+Duskhollow Luminary’s Sigil (Rare 47 ring)
+
+Ultra-Rare (~0.35% total)
+
+Witch-Queen’s Eye
+
+Legendary trinket: INT/SPI/SP, small spellcrit, chance on spell hit to briefly reduce target’s shadow resistance or increase shadow damage taken.
+
+2.5 Rift-Torn Construct (Lv 44–48, Construct)
+
+Role: Heavy-hitting void construct; slow, hard to kill.
+Fantasy: “Tank/DPS plate and big weapons, plus void-flavored mats.”
+
+Common Drops
+
+Coin:
+
+56–100 copper.
+
+Materials:
+
+1–3 × Rift-Forged Shard
+
+0–2 × Voidglass Fragment
+
+Uncommon Equipment (~24% total)
+
+One of:
+
+Hollow Warden’s Chestguard (Heavy Chest, Uncommon 41)
+
+Hollow Warden’s Legplates (Heavy Legs, Uncommon 42)
+
+Shadowbastion Mace (Uncommon 43 1H mace)
+
+Hollowguard Shield (Uncommon 43 shield)
+
+Rare Pool (~5.0% total)
+
+One of:
+
+Dreadbulwark Chestguard (Rare 47)
+
+Dreadbulwark Legplates (Rare 48)
+
+Riftforged Warhammer (Rare 48 1H mace)
+
+Umbral Wall (Rare 48 shield)
+
+Ultra-Rare (~0.4% total)
+
+Riftheart Bulwark
+
+Legendary shield: strong STA/STR, armor, block chance, plus a small chance when blocking to apply a short-duration damage debuff on attacker.
+
+2.6 Shadowgrasp Horror (Lv 45–49, Aberration)
+
+Role: Tentacled void horror, pulls and fears, big threat.
+Fantasy: “Top-end off-hands, rings, and strange hybrid gear.”
+
+Common Drops
+
+Coin:
+
+60–110 copper.
+
+Materials:
+
+1–3 × Shadowgrasp Tendril
+
+0–2 × Eldritch Ichor
+
+Uncommon Equipment (~22% total)
+
+One of:
+
+Duskhollow Wardstone Medallion (STR tank neck, Uncommon 42)
+
+Nightroot Channeler’s Pendant (INT/SPI neck, Uncommon 42)
+
+Umbrafang Tracker’s Seal (AGI ring, Uncommon 42)
+
+Rare Pool (~4.5% total)
+
+One of:
+
+Umbrafang Huntlord’s Pendant (Rare 48)
+
+Dreadbulwark Signet (Rare 47 tank ring)
+
+Duskhollow Luminary’s Sigil (Rare 47 caster ring)
+
+Ultra-Rare (~0.35% total)
+
+Grasp of the Deep Rift
+
+Legendary ring: primary stat + STA, good defensive sub-stat, plus small chance on being hit to apply a minor movement slow to attacker.
+
+2.7 Nightroot Entangler (Lv 40–44, Plant / Vine)
+
+Role: Roots, slows; low mobility but high control.
+Fantasy: “Support/profession mats and mid-level slot fillers.”
+
+Common Drops
+
+Coin:
+
+38–68 copper.
+
+Materials:
+
+1–3 × Nightroot Tendril
+
+0–2 × Entangling Spores
+
+Uncommon Equipment (~16% total)
+
+One of:
+
+Gloomweaver’s Sash (Cloth Waist, Uncommon 41)
+
+Gloomstep Stalker’s Belt (Leather Waist, Uncommon 41)
+
+Hollow Warden’s Girdle (Heavy Waist, Uncommon 41)
+
+Rare Pool (~2.5% total)
+
+One of:
+
+Riftbound Sash (Rare 47)
+
+Umbrafang Stalker’s Belt (Rare 47)
+
+Dreadbulwark Girdle (Rare 47)
+
+2.8 Moonless Stag (Lv 44–47, Rare Spawn Beast)
+
+Role: Quiet rare roaming under dark sky phases.
+Fantasy: “Single-target prize for people who actually explore/don’t grind only.”
+
+Common Drops
+
+Coin:
+
+60–100 copper.
+
+Materials:
+
+1–3 × Moonless Antler Shard
+
+0–2 × Gloam-Infused Hide
+
+Rare Pool (~40% on kill, rare spawn)
+
+One of:
+
+Umbrafang Shadeband (Rare AGI ring 47)
+
+Dreadbulwark Signet (Rare STR ring 47)
+
+Duskhollow Luminary’s Sigil (Rare INT ring 47)
+
+Ultra-Rare (~1.0% total)
+
+Moonless Mantle
+
+Legendary cloak: hybrid stats, small dodge/avoid, slight movespeed at night.
+
+2.9 Riftwound Shade (Lv 46–49, Rare Spirit)
+
+Role: Teleporting, phase-shifting rare; high burst magic damage.
+Fantasy: “Caster/burst loot, high-identity drop.”
+
+Common Drops
+
+Coin:
+
+70–120 copper.
+
+Materials:
+
+1–3 × Riftwound Essence
+
+0–2 × Shattered Voidglass
+
+Rare Pool (~45% on kill, rare spawn)
+
+One of:
+
+Riftbound Hood (Rare 47)
+
+Riftbound Legwraps (Rare 48)
+
+Gloamscour Hexwand (Rare 48 wand)
+
+Ultra-Rare (~1.0% total)
+
+Riftwound Circlet
+
+Legendary head: high INT/SP, good spirit, small periodic chance to cause your next spell to be instant cast (with long internal cooldown).
+
+2.10 Shade Sovereign (Lv 49, Zone Elite / Boss)
+
+Role: The apex of Duskhollow; shadow/void boss.
+Fantasy: “This is the capstone for the 40–49 band. Players expect real loot.”
+
+Guaranteed Drops
+
+Coin:
+
+2.0–3.0 silver.
+
+Materials:
+
+3–6 × Sovereign Shadowcore
+
+2–4 × Rift-Touched Essence
+
+1–2 × Nightroot Heartwood
+
+Uncommon Equipment (100%: 1–2 items)
+
+Random from:
+
+Any Gloomstep Stalker Uncommon piece
+
+Any Hollow Warden Uncommon piece
+
+Any Gloomweaver Uncommon piece
+
+Voidglass Focus Stone
+
+Rare Pool (80%: 1 item)
+
+One of:
+
+Umbrafang Stalker’s Jerkin (Rare 47 chest)
+
+Dreadbulwark Chestguard (Rare 47 chest)
+
+Riftbound Robe (Rare 47 chest)
+
+Gloomshard Recurve (Rare 48 bow)
+
+Riftforged Warhammer (Rare 48 1H mace)
+
+Rift-torn Channeling Staff (Rare 48 staff)
+
+Ultra-Rare (~0.6% total)
+
+Sovereign’s Shadowcore
+
+Legendary crafting core used in high-end recipes beyond 49.
+
+Optionally also:
+
+One random Duskhollow world-drop legendary (see next section).
+
+3. Duskhollow World Drop Table (Lv 40–49)
+
+All non-critter mobs in Duskhollow, Lv 40–49, roll a small bonus chance at this table after their normal loot.
+
+Suggested rates:
+
+Normal mobs: ~0.05% per kill.
+
+Elites / rares: 0.15–0.4% per kill.
+
+Candidate world-drops (all slightly above regular Rare power):
+
+Gloamthread Drape (Back)
+
+AGI/INT hybrid, STA, +1% dodge or spell avoid, minor shadow resist.
+
+Umbral Signet (Ring)
+
+Primary stat, STA, +1% crit, small shadow damage bonus.
+
+Riftglass Talisman (Neck)
+
+INT/SPI, SP, small spellcrit, minor mana-per-5.
+
+Nightroot Fangblade (Dagger)
+
+AGI/STA/AP, 2% crit, small on-hit shadow proc with ICD.
+
+You can later promote some of these into the global “uniques/legendaries” B-block for higher polish, but mechanically they live here.
+
+4. Lua Loot Table Examples (Duskhollow)
+
+These follow the same structure as Greatwood / Ashen Ridge / Frostmarch.
+
+local function LootEntry(itemId, chance, minCount, maxCount)
+    return {
+        itemId   = itemId,
+        chance   = chance,
+        minCount = minCount or 1,
+        maxCount = maxCount or minCount or 1,
+    }
+end
+
+LootTables = LootTables or {}
+
+-- Gloomling Creeper
+LootTables["Duskhollow.GloomlingCreeper"] = {
+    coin = { min = 40, max = 70 },
+
+    materials = {
+        LootEntry("MAT_GLOOMLING_VENOM_SAC",  0.85, 1, 3),
+        LootEntry("MAT_DUSKHALLOW_SILK",      0.75, 1, 3),
+    },
+
+    junk = {
+        LootEntry("JUNK_CRACKED_GLOOM_CARAPACE", 0.40, 1, 1),
+    },
+
+    equipment = {
+        -- Uncommon
+        LootEntry("ITEM_GLOOMSTEP_STALKERS_BRACERS",  0.06, 1, 1),
+        LootEntry("ITEM_HOLLOW_WARDENS_VAMBRACES",    0.06, 1, 1),
+        LootEntry("ITEM_GLOOMWEAVERS_WRAPS",          0.06, 1, 1),
+
+        -- Rare
+        LootEntry("ITEM_UMBRAFANG_STALKERS_BRACERS",  0.0065, 1, 1),
+        LootEntry("ITEM_DREADBULWARK_VAMBRACES",      0.0065, 1, 1),
+        LootEntry("ITEM_RIFTBOUND_WRAPS",             0.0065, 1, 1),
+    },
+
+    worldDrop = {
+        LootEntry("ITEM_GLOAMTHREAD_DRAPE", 1.0, 1, 1),
+    },
+}
+
+-- Shade Sovereign
+LootTables["Duskhollow.ShadeSovereign"] = {
+    coin = { min = 200, max = 300 },
+
+    materials = {
+        LootEntry("MAT_SOVEREIGN_SHADOWCORE", 0.95, 3, 6),
+        LootEntry("MAT_RIFT_TOUCHED_ESSENCE", 0.90, 2, 4),
+        LootEntry("MAT_NIGHTROOT_HEARTWOOD",  0.70, 1, 2),
+    },
+
+    equipment = {
+        -- Uncommon pool
+        LootEntry("ITEM_GLOOMSTEP_STALKERS_JERKIN", 0.12, 1, 1),
+        LootEntry("ITEM_HOLLOW_WARDENS_CHESTGUARD",0.12, 1, 1),
+        LootEntry("ITEM_GLOOMWEAVERS_ROBE",        0.12, 1, 1),
+        LootEntry("ITEM_VOIDGLASS_FOCUS_STONE",    0.08, 1, 1),
+
+        -- Rare pool
+        LootEntry("ITEM_UMBRAFANG_STALKERS_JERKIN", 0.13, 1, 1),
+        LootEntry("ITEM_DREADBULWARK_CHESTGUARD",   0.13, 1, 1),
+        LootEntry("ITEM_RIFTBOUND_ROBE",            0.13, 1, 1),
+        LootEntry("ITEM_GLOOMSHARD_RECURVE",        0.09, 1, 1),
+        LootEntry("ITEM_RIFTFORGED_WARHAMMER",      0.09, 1, 1),
+        LootEntry("ITEM_RIFTTORN_CHANNELING_STAFF", 0.09, 1, 1),
+    },
+
+    ultra = {
+        LootEntry("ITEM_SOVEREIGNS_SHADOWCORE", 0.006, 1, 1),
+    },
+
+    worldDrop = {
+        LootEntry("ITEM_UMBRAL_SIGNET", 1.0, 1, 1),
+    },
+}
+
+
+You can mirror this pattern for all remaining Duskhollow mobs by just swapping:
+
+MAT_ ids for materials
+
+ITEM_ ids for armor/weapons
+
+Coin ranges and chances per role
