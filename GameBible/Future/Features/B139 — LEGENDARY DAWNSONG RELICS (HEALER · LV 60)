@@ -1,0 +1,225 @@
+B139 — LEGENDARY DAWNSONG RELICS (HEALER · LV 60)
+
+Now a healer-focused legendary pair, so support specs have a chase path:
+
+Dawnsong Covenant — 1H healer mace.
+
+Heartroot Reliquary — healer trinket or off-hand (I’ll make it a trinket; off-hand slot is crowded).
+
+1. Dawnsong Covenant (Legendary Healer Mace)
+1.1 Item Definition
+
+Dawnsong Covenant
+Level 60 · 1H Mace · Legendary
+“Forged from every prayer whispered in Emberwild’s worst nights.”
+
+Stats:
+
++40 Intellect
+
++34 Spirit
+
++30 Stamina
+
++72 Spell Power
+
++2% Healing Done
+
++8 Mana per 5 sec
+
+Passive — Dawnsong Chorus:
+
+Your single-target healing spells apply Dawnsong Chorus to the target for 8 sec:
+
+While active, 10% of your overhealing on that target becomes a small shield instead of being fully wasted (up to a cap).
+
+Internal cooldown per target: 12 sec (so you can’t spam infinite shields).
+
+Passive — Covenant of Respite:
+
+When any party or raid member falls below 30% HP:
+
+Your next healing spell cast within 6 seconds has +20% increased healing.
+
+Internal cooldown: 20 sec.
+
+1.2 Acquisition — The Dawnsong Vigil
+
+Questline name: “The Dawnsong Vigil”
+
+Fantasy: You’re healing important NPCs / events in each zone, not killing things.
+
+Step 1 — Wardens of the Wild
+
+Objectives:
+
+Greatwood: Keep a Warden of Heartroot alive through waves of Blightspore / Widow attacks.
+
+Ashen Ridge: Keep a Forge-Priest alive as they stabilize a runaway furnace.
+
+Frostmarch: Heal/cleanse a Frostmarch Hermit during a ritual to calm a blizzard.
+
+Duskhollow: Protect a Duskhollow Penitent as they atone in a shadow ritual.
+
+Each success grants:
+
+One “Dawnsong Memory” corresponding to the zone.
+
+Turn in all four to a central priest NPC, High Cantor Elyndra.
+
+Reward:
+
+“Unbound Dawnsong Mace Head” (quest item, not equip).
+
+Next quest.
+
+Step 2 — Binding the Covenant
+
+Objectives:
+
+Perform three Covenant Rites in your hubs or shrines:
+
+Rite of Ember — Ashen Ridge altar.
+
+Rite of Frost — Frostmarch altar.
+
+Rite of Shadow — Duskhollow altar.
+
+Each rite:
+
+Spawns ghostly echoes of NPCs you saved; you must keep them alive during an echo fight.
+
+After all three:
+
+Your mace head becomes “Tempered Dawnsong Covenant” (unfinished weapon object).
+
+Next quest: “The Long Night’s End.”
+
+Step 3 — The Long Night’s End (Instance)
+
+Instance: “The Long Night” — defense scenario.
+
+Wave-based event:
+
+Players defend a mixed group of NPCs from all zones (Heartroot guardian, Forge-Priest, Hermit, Penitent).
+
+If too many die, fail.
+
+Mechanics:
+
+Darkened sky, shadow/frost spawns.
+
+Periodic pulses that pressure healers.
+
+Healer must juggle:
+
+Direct healing,
+
+Cleanses,
+
+Movement.
+
+Success:
+
+Tempered Dawnsong Covenant → Dawnsong Covenant (equippable Legendary).
+
+1.3 Quest Skeleton (Lua)
+Quests["LEGENDARIES.DAWNSONG_COVENANT"] = {
+    id       = "Q_LEGENDARY_DAWNSONG",
+    name     = "The Dawnsong Vigil",
+    levelReq = 60,
+
+    steps = {
+        {
+            id = 1,
+            description = "Keep Emberwild's wardens alive through their darkest trials.",
+            subSteps = {
+                { id = "WARDEN_HEARTROOT",   scenario = "SCENARIO_WARDEN_HEARTROOT"   },
+                { id = "WARDEN_FORGEPRIEST", scenario = "SCENARIO_WARDEN_FORGEPRIEST" },
+                { id = "WARDEN_HERMIT",      scenario = "SCENARIO_WARDEN_HERMIT"      },
+                { id = "WARDEN_PENITENT",    scenario = "SCENARIO_WARDEN_PENITENT"    },
+            },
+            reward = {
+                items = { { id = "ITEM_DAWNSONG_MACE_HEAD_UNBOUND", count = 1 } },
+            },
+            nextStep = 2,
+        },
+        {
+            id = 2,
+            description = "Bind the Dawnsong Covenant through three rites.",
+            subSteps = {
+                { id = "RITE_EMBER",  ritual = "RITUAL_DAWNSONG_EMBER",  zone = "AshenRidge"  },
+                { id = "RITE_FROST",  ritual = "RITUAL_DAWNSONG_FROST",  zone = "Frostmarch" },
+                { id = "RITE_SHADOW", ritual = "RITUAL_DAWNSONG_SHADOW", zone = "Duskhollow" },
+            },
+            reward = {
+                items = { { id = "ITEM_DAWNSONG_COVENANT_TEMPERED", count = 1 } },
+            },
+            nextStep = 3,
+        },
+        {
+            id = 3,
+            description = "Endure the Long Night and protect the faithful.",
+            instance = "INSTANCE_LONG_NIGHT",
+            finalBoss = "BOSS_NIGHTFALL_ASPECT",
+            reward = {
+                items = { { id = "ITEM_DAWNSONG_COVENANT", count = 1 } },
+            },
+            nextStep = nil,
+        },
+    },
+}
+
+2. Heartroot Reliquary (Legendary Healer Trinket)
+2.1 Item Definition
+
+Heartroot Reliquary
+Level 60 · Trinket · Legendary
+
+Stats:
+
++24 Intellect
+
++20 Spirit
+
++18 Stamina
+
++1% Healing Done
+
+Passive — Roots of Recovery:
+
+Your periodic healing effects (HoTs) on a target have a small chance to:
+
+Bloom, instantly healing them for a chunk of the remaining HoT value.
+
+Internal cooldown per target: 15 sec.
+
+Use — Heartroot Bloom (2 min CD):
+
+For 12 seconds:
+
+Your HoTs tick 30% faster, but their duration is reduced accordingly (so total healing stays similar, but delivered much faster).
+
+This is a strong “tempo button” for raid healing without straight-up adding absurd HPS.
+
+2.2 Acquisition — Optional Side Chain
+
+You can either:
+
+Make it part of Dawnsong Covenant chain as a bonus if you complete optional challenges, or
+
+Give it a small side-quest:
+
+Quest Idea: “Echoes of the First Grove”
+
+Heal and cleanse corrupted Heartroot trees in Greatwood and a couple other zones.
+
+Final event: restore a Heartroot sapling in your endgame hub, which becomes a sanctuary tree.
+
+Reward: Heartroot Reliquary.
+
+You can decide whether this is:
+
+A pure quest reward,
+
+Or has very low drop chance from a special “First Grove Shade” boss.
