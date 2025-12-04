@@ -2,202 +2,556 @@
 
 ## Purpose
 
-Define a clear, structured set of early-game Cooking recipes for Greatwood (levels 1–10) using the shared ingredient taxonomy. This grid is meant to:
+Define a clear, structured set of early-game Cooking recipes for Greatwood (roughly levels 1–10, Cooking ranks 1–10) using the shared ingredient taxonomy from **51 – Greatwood Ingredient Taxonomy & Rarity Table**.
 
-- Teach the player basic “cooking language” without a tutorial wall
-- Make early Cooking feel useful (stamina, regen, resistances)
-- Establish Lodge / Greatwood food identity
-- Slot cleanly into future expansions (10–20, region 2, alchemy, etc.)
+This grid is meant to:
 
-This is a **design reference**, not implementation code.
+- Teach the player basic “cooking language” without a tutorial wall  
+- Make early Cooking feel immediately useful (HP, stamina, basic resists, travel food)  
+- Establish **Lodge / Greatwood food identity** (game stews, smoky stuff, roots, forest herbs)  
+- Slot cleanly into future expansions (10–20 advanced dishes, later regions, alchemy hooks)
+
+This is **design reference**, not implementation code.
 
 ---
 
 ## Design Goals
 
-1. **Simple patterns first**  
-   - Meat + herb  
-   - Meat + mushroom  
-   - Veg + herb  
-   - “Snack” vs “Meal”
+1. **Low-friction Onboarding**
+   - First recipes use:
+     - `stringy_game_meat`, `deer_meat_raw`, `boar_meat_raw`
+     - `stonepotato`, `emberroot_tuber`
+     - `simple_herb_bundle`, `lodge_salt_mix`, `forest_stock_light`
+   - Player should be able to cook something meaningful **within 5–10 minutes** of starting Greatwood.
 
-2. **Low friction**  
-   - Use mostly Common & Uncommon ingredients from 51_Ingredient_Taxonomy  
-   - Recipes should be realistically craftable by a player just running around Greatwood
+2. **Immediate Utility, No Gimmicks**
+   - Recipes give:
+     - Flat HP restore
+     - HP regen over time
+     - Stamina regen / max stamina
+     - Small, clear resists (cold, fire, corruption) where thematically strong
+   - No weird secondary effects yet (those start 10–20).
 
-3. **Readable buffs**  
-   - No weird edge-case effects at this tier  
-   - Direct buffs like: stamina regen, simple resistances, minor max HP
+3. **Ingredient Reuse, Not Ingredient Spam**
+   - Most recipes re-use the same ~15–20 ingredients in different combos.
+   - This reinforces identity and keeps inventory readable.
 
-4. **Identity over min-maxing**  
-   - Foods should sound like Lodge hunter staples and forest meals  
-   - Naming + flavor text matters
+4. **Clear Tiers & Roles**
+   - **Tier 0:** Onboarding basics (trainer recipes).
+   - **Tier 1:** Survival / travel (bread-and-butter meals).
+   - **Tier 2:** Lodge “home cooking” (hearty stews, meat plates).
+   - **Tier 3:** Signature early Lodge dishes (bigger buffs, longer duration).
+   - **Tier 4 (Intro Corruption):** One or two “spicy” starters that hint at weirdness.
 
----
-
-## Recipe Structure
-
-Each recipe entry should follow this format:
-
-- **ID:** `recipe_...` (e.g. `recipe_simple_venison_stew`)
-- **Display Name:** “Simple Venison Stew”
-- **Tier:** 1–5 (rough internal tier, not player-facing level)
-- **Required Cooking Skill:** 1–10
-- **Ingredients:** list of ingredient IDs from taxonomy
-- **Effect:** short mechanical summary
-- **Duration:** approximate in-game minutes
-- **Source:** how the player learns it (default, Lodge vendor, quest, drop)
-- **Flavor Text:** 1–2 lines
-
-Example:
-
-- ID: `recipe_simple_venison_stew`  
-  - Display Name: Simple Venison Stew  
-  - Tier: 1  
-  - Required Cooking Skill: 1  
-  - Ingredients:
-    - `deer_meat_raw` x1
-    - `bitterpine_needle` x1
-    - `lodge_salt_mix` x1  
-  - Effect: +5% stamina regen, +2% max HP for 20 min  
-  - Duration: 20 minutes  
-  - Source: Base Lodge Cooking trainer  
-  - Flavor: “Every hunter starts here. Hot, salty, and just enough pine to cut the gaminess.”
+5. **Hooks Into Other Systems**
+   - Specific recipes link to:
+     - Hunt Board / contracts
+     - Early dungeon (Hollowroot Warren)  
+     - Lodge vendors
+     - Social / campfire moments
 
 ---
 
-## Early Recipe Grid (Draft)
+## Recipe Schema (Design)
 
-### Tier 1 – Starter Lodge Recipes (Skill 1–3)
+Each recipe should be defined in data with at least:
 
-These are given automatically by the Lodge cook or available at zero/low cost.
+- **id** – internal ID, e.g. `recipe_simple_meat_skewer`
+- **display_name** – player name, e.g. “Simple Meat Skewer”
+- **tier** – onboarding / 1 / 2 / 3 / 4
+- **required_cooking_rank** – rough skill requirement, 1–10
+- **expected_player_level_band** – e.g. `1–4`, `5–7`, `8–10`
+- **role_tags** – e.g. `travel`, `camp_hearty`, `lodge_signature`, `corruption_intro`
+- **ingredients** – list of `{ingredient_id, quantity}` referencing doc 51
+- **base_servings** – default servings produced (2, 3, 4, etc.)
+- **effects** – design intent (no need to hard-number here yet)
+  - `hp_instant`, `hp_regen`, `stamina_regen`, `stamina_max`, `res_cold`, `res_fire`, `res_corruption`, `move_speed`, etc.
+- **duration_seconds** – target buff duration
+- **source** – how the recipe is learned
+  - trainer / quest / vendor / drop / dungeon / hunt reward
+- **notes** – flavor + implementation details
 
-1. **Field-Cut Game Skewers**
-   - ID: `recipe_field_game_skewers`
-   - Ingredients: `stringy_game_meat` x1, `lodge_salt_mix` x1
-   - Effect: +5% health regen out of combat, 10 min
-   - Source: Default recipe
-   - Notes: Very basic, low output but cheap.
-
-2. **Simple Venison Stew**
-   - ID: `recipe_simple_venison_stew`
-   - Ingredients: `deer_meat_raw` x1, `bitterpine_needle` x1, `lodge_salt_mix` x1
-   - Effect: +5% stamina regen, +2% max HP, 20 min
-   - Source: Lodge cook “Ember Pot” intro quest or trainer
-
-3. **Hunter’s Trail Ration**
-   - ID: `recipe_hunter_trail_ration`
-   - Ingredients: `forest_fowl_raw` x1, `herb_bundle_basic` (generic herb), `lodge_salt_mix` x1
-   - Effect: +3% movement speed out of combat, +5% hunger/stamina buffer, 20 min
-   - Source: Lodge vendor basic recipe
-
-4. **Charred Boar Chops**
-   - ID: `recipe_charred_boar_chops`
-   - Ingredients: `boar_meat_raw` x1, `ember_pepper` x1
-   - Effect: Small Fire resistance, +2% melee damage, 15 min
-   - Source: Dropped page from early boar-hunter quest
+Implementation will live as a Lua table keyed by recipe ID.
 
 ---
 
-### Tier 2 – Foraged Variants (Skill 3–5)
+## Tier 0 – Onboarding Basics (Cooking Rank 1, Levels 1–3)
 
-Introduce mushrooms & herbs properly. Still simple combos.
-
-5. **Glowcap Stew**
-   - ID: `recipe_glowcap_stew`
-   - Ingredients: `deer_meat_raw` x1, `glowcap` x1, `lodge_salt_mix` x1
-   - Effect: Slightly improved night visibility, +5% stamina regen, 15 min
-   - Side Effect (flavor only at this tier): mild shimmer around edges
-   - Source: Found in a hunter’s notebook at a Greatwood campsite
-
-6. **Bitterpine Broth**
-   - ID: `recipe_bitterpine_broth`
-   - Ingredients: `bitterpine_needle` x2, `herb_bundle_basic` x1
-   - Effect: Minor Cold resistance, small boost to focus/perception, 15 min
-   - Source: Lodge cook side-task
-
-7. **Forest Veg Mash**
-   - ID: `recipe_forest_veg_mash`
-   - Ingredients: `root_vegetable_mix` x1, `herb_bundle_basic` x1, `lodge_salt_mix` x1
-   - Effect: +5% health regen, 15 min
-   - Source: Basic recipe sold by trader near Lodge
+> These are “you just unlocked cooking, please don’t be confused” recipes.
 
 ---
 
-### Tier 3 – Lodge Specialties (Skill 5–7)
+### 1. Simple Meat Skewer
 
-These feel like “real” Lodge meals, require a bit more hunting/foraging.
-
-8. **Greatwood Hunter’s Feast**
-   - ID: `recipe_greatwood_hunter_feast`
-   - Ingredients: `deer_meat_raw` x1, `boar_meat_raw` x1, `forest_fowl_raw` x1, `ember_pepper` x1, `herb_bundle_basic` x1
-   - Effect: +5% max HP, +5% stamina regen, +2% physical damage, 30 min
-   - Source: Reward from completing a Lodge hunt chain
-   - Notes: This is the “big buff” early meal.
-
-9. **Smoked Bark Roast**
-   - ID: `recipe_smoked_bark_roast`
-   - Ingredients: `boar_meat_raw` x1, `smoked_bark_shavings` x1, `bitterpine_needle` x1
-   - Effect: +5% physical resistance, minor Fire resistance, 20 min
-   - Source: Learned from a woodworker NPC / crossover
-
-10. **Hollowroot Savory Stew**
-    - ID: `recipe_hollowroot_savory_stew`
-    - Ingredients: `deer_meat_raw` x1, `hollowroot_sprig` x1, `herb_bundle_basic` x1
-    - Effect: Slight buff to tracking/perception (better detection radius / subtle mechanic), 20 min
-    - Source: Recipe page dropped in Hollowroot Warren or associated quest
+- **ID:** `recipe_simple_meat_skewer`  
+- **Tier:** 0 – Onboarding  
+- **Required Cooking Rank:** 1  
+- **Expected Player Level:** 1–3  
+- **Role Tags:** `travel`, `tutorial`, `cheap_meal`  
+- **Ingredients:**
+  - `stringy_game_meat` ×1  
+  - `simple_herb_bundle` ×1  
+  - `lodge_salt_mix` ×1  
+- **Base Servings:** 2  
+- **Effects (Design Intent):**
+  - Small instant HP heal  
+  - Short HP regen over ~5 minutes  
+- **Source:** Basic trainer recipe, always available on first visit to Lodge cooking area.  
+- **Notes:**
+  - This is the “I killed anything and got some meat” baseline.  
+  - Should feel slightly better than a basic healing item, but not amazing.
 
 ---
 
-### Tier 4 – Risk/Reward Mushrooms (Skill 7–9)
+### 2. Stonepotato & Herb Mash
 
-Introduce that some foods have mild side effects in exchange for stronger buffs.
-
-11. **Red Vein Morel Hotpot**
-    - ID: `recipe_red_vein_hotpot`
-    - Ingredients: `boar_meat_raw` x1, `red_vein_morel` x1, `ember_pepper` x1
-    - Effect: +10% damage for 10 min, -5% max HP during effect
-    - Source: Rare recipe drop from challenging Greatwood elite or event
-
-12. **Ashcurl Ember Stew**
-    - ID: `recipe_ashcurl_ember_stew`
-    - Ingredients: `stringy_game_meat` x1, `ashcurl` x1, `lodge_salt_mix` x1
-    - Effect: Medium Fire resistance, small penalty to stamina regen (too heavy), 20 min
-    - Source: Lodge “experimental recipes” side quest
-
----
-
-### Tier 5 – Edge of 10–20 Content (Skill 9–10)
-
-These are at the top end of Greatwood 1–10 and can bridge into 10–20.
-
-13. **Emberwild Trail Feast (Minor)**
-    - ID: `recipe_emberwild_trail_feast_minor`
-    - Ingredients: `deer_meat_raw` x1, `forest_fowl_raw` x1, `glowcap` x1, `ember_pepper` x1
-    - Effect: +5% max HP, +5% stamina regen, tiny boost to movement out of combat, 30 min
-    - Source: Reward from early Lodge rep threshold
-
-14. **Whisperfern Night Stew**
-    - ID: `recipe_whisperfern_night_stew`
-    - Ingredients: `deer_meat_raw` x1, `whisperfern` x1, `bitterpine_needle` x1
-    - Effect: Better night vision + slight stealth/noise reduction, 20 min
-    - Source: Secret recipe found from an optional “night hunt” quest
+- **ID:** `recipe_stonepotato_herb_mash`  
+- **Tier:** 0 – Onboarding  
+- **Required Cooking Rank:** 1  
+- **Expected Player Level:** 1–3  
+- **Role Tags:** `camp_hearty`, `cheap_meal`  
+- **Ingredients:**
+  - `stonepotato` ×1  
+  - `simple_herb_bundle` ×1  
+  - `lodge_salt_mix` ×1  
+- **Base Servings:** 2  
+- **Effects (Design Intent):**
+  - Small HP regen  
+  - Very minor stamina regen (enough to notice on long fights)  
+- **Source:** Trainer / Lodge vendor sells the recipe cheaply.  
+- **Notes:**
+  - Intro to **roots** as a staple.  
+  - Pairs well with meat skewers in early quest content.
 
 ---
 
-## Sources & Unlock Flow
+### 3. Forest Stock Soup
 
-- **Default / Trainer:** 1–2 core recipes (skewers, simple stew)
-- **Lodge Vendor:** a couple of early and mid-tier recipes
-- **Quests:** special dishes tied to Lodge and Greatwood story beats
-- **World Drops:** notes found in camps, on hunters, in dungeons (Hollowroot Warren, etc.)
+- **ID:** `recipe_forest_stock_soup`  
+- **Tier:** 0 – Onboarding  
+- **Required Cooking Rank:** 1  
+- **Expected Player Level:** 1–4  
+- **Role Tags:** `camp_hearty`, `intro_broth`  
+- **Ingredients:**
+  - `forest_stock_light` ×1  
+  - `stringy_game_meat` ×1  
+  - `mossy_tongue` ×1  
+- **Base Servings:** 3  
+- **Effects (Design Intent):**
+  - Small HP regen over a medium duration  
+  - Slight stamina regen over same duration  
+- **Source:** Auto-granted upon interacting with the cooking pot the first time, or as part of a tiny “help the cook” intro quest.  
+- **Notes:**
+  - Teaches that **stocks** are a real system piece (liquid base).
 
-The idea: by Cooking 10, a player who explores has a solid library that feels like **Greatwood hunter food**, not generic MMO mush.
+---
+
+## Tier 1 – Survival & Travel Food (Cooking Rank 2–3, Levels 2–5)
+
+> These are what a fresh hunter will rely on for the first stretch of Greatwood.  
+> Ingredients stick to **common meats + simple roots + basic herbs.**
+
+---
+
+### 4. Greatwood Trail Jerky
+
+- **ID:** `recipe_greatwood_trail_jerky`  
+- **Tier:** 1 – Survival  
+- **Required Cooking Rank:** 2  
+- **Expected Player Level:** 2–5  
+- **Role Tags:** `travel`, `stamina_focus`, `long_duration`  
+- **Ingredients:**
+  - `stringy_game_meat` ×2  
+  - `ashwater_brine` ×1  
+  - `smoked_salt_flakes` ×1  
+- **Base Servings:** 4  
+- **Effects (Design Intent):**
+  - Very small instant HP  
+  - Medium stamina regen bonus  
+  - Long duration (e.g. 20–30 minutes)  
+- **Source:** Given by a hunter NPC after a “carry supplies along the trail” type quest.  
+- **Notes:**
+  - Meant to be **the default travel buff** early on.
+
+---
+
+### 5. Emberroot Stew
+
+- **ID:** `recipe_emberroot_stew`  
+- **Tier:** 1 – Survival  
+- **Required Cooking Rank:** 2  
+- **Expected Player Level:** 3–6  
+- **Role Tags:** `camp_hearty`, `res_cold`  
+- **Ingredients:**
+  - `emberroot_tuber` ×2  
+  - `deer_meat_raw` ×1  
+  - `forest_stock_light` ×1  
+  - `simple_herb_bundle` ×1  
+- **Base Servings:** 3  
+- **Effects (Design Intent):**
+  - Small flat HP heal  
+  - HP regen over time  
+  - Minor **Cold Resistance** (flavor + eventual stat)  
+- **Source:** Lodge cook vendor sells after first cold-leaning quest / event.  
+- **Notes:**
+  - Ties into Greatwood’s damp, chilly vibe.  
+  - One of the first foods that feels like a **real meal**.
+
+---
+
+### 6. River Hare Hotpot
+
+- **ID:** `recipe_river_hare_hotpot`  
+- **Tier:** 1 – Survival  
+- **Required Cooking Rank:** 3  
+- **Expected Player Level:** 3–6  
+- **Role Tags:** `combat_focus`, `stamina_focus`  
+- **Ingredients:**
+  - `river_hare_meat` ×1  
+  - `brightreach_berries` ×1  
+  - `stonepotato` ×1  
+  - `lodge_salt_mix` ×1  
+- **Base Servings:** 2  
+- **Effects (Design Intent):**
+  - Medium stamina regen  
+  - Slight boost to stamina **max**  
+  - Shorter duration (around 10–12 minutes)  
+- **Source:** Reward from a small riverbank questline (“clear the den, learn the recipe”).  
+- **Notes:**
+  - Encourages players to actually hunt near rivers.  
+  - Combines meat + root + berry = “this world is coherent” feeling.
+
+---
+
+### 7. Bitterpine Broth
+
+- **ID:** `recipe_bitterpine_broth`  
+- **Tier:** 1 – Survival  
+- **Required Cooking Rank:** 3  
+- **Expected Player Level:** 4–7  
+- **Role Tags:** `res_cold`, `focus`  
+- **Ingredients:**
+  - `bitterpine_needle` ×2  
+  - `forest_stock_light` ×1  
+  - `simple_herb_bundle` ×1  
+- **Base Servings:** 3  
+- **Effects (Design Intent):**
+  - Minor Cold Resistance  
+  - Tiny **accuracy / focus** improvement (future stat hook)  
+- **Source:** Lodge side-task (help prepare stock for a patrol).  
+- **Notes:**
+  - Teaches that **herbs alone**, plus stock, can make functional dishes.  
+  - Introduces a “bitter but effective” taste profile for Greatwood.
+
+---
+
+## Tier 2 – Lodge Home Cooking (Cooking Rank 4–6, Levels 4–8)
+
+> Recipes that feel like something you’d actually sit down with at the Lodge.  
+> Bigger plates, more ingredients, more identity.  
+
+---
+
+### 8. Boar & Stonepotato Casserole
+
+- **ID:** `recipe_boar_stonepotato_casserole`  
+- **Tier:** 2 – Lodge Home Cooking  
+- **Required Cooking Rank:** 4  
+- **Expected Player Level:** 4–8  
+- **Role Tags:** `camp_hearty`, `hp_max`, `defense_focus`  
+- **Ingredients:**
+  - `boar_meat_raw` ×2  
+  - `stonepotato` ×2  
+  - `forest_stock_light` ×1  
+  - `simple_herb_bundle` ×1  
+  - `lodge_salt_mix` ×1  
+- **Base Servings:** 4  
+- **Effects (Design Intent):**
+  - Moderate flat HP restoration  
+  - Modest **Max HP** increase  
+  - Longer HP regen duration (20+ minutes)  
+- **Source:** Sold by Lodge cook after a short “prove you can cook” task chain.  
+- **Notes:**
+  - Early “tank” meal; strongly associated with boar hunts.
+
+---
+
+### 9. Deer & Glowcap Night Stew
+
+- **ID:** `recipe_deer_glowcap_night_stew`  
+- **Tier:** 2 – Lodge Home Cooking  
+- **Required Cooking Rank:** 5  
+- **Expected Player Level:** 5–8  
+- **Role Tags:** `night_hunting`, `stamina_regen`, `light_utility`  
+- **Ingredients:**
+  - `deer_meat_raw` ×1  
+  - `glowcap` ×1  
+  - `mossy_tongue` ×1  
+  - `forest_stock_light` ×1  
+- **Base Servings:** 3  
+- **Effects (Design Intent):**
+  - Solid stamina regen  
+  - Slight enhancement to vision / readability at night (UI / FX)  
+  - Minor HP regen  
+- **Source:** Found as a note in a hunter’s abandoned camp, or rewarded after early night-hunt quest.  
+- **Notes:**
+  - Reinforces Glowcap’s identity as “soft light + corruption-adjacent safety”.
+
+---
+
+### 10. Orchardwild Apple Hand Pies
+
+- **ID:** `recipe_orchardwild_apple_hand_pie`  
+- **Tier:** 2 – Lodge Home Cooking  
+- **Required Cooking Rank:** 4  
+- **Expected Player Level:** 4–7  
+- **Role Tags:** `travel`, `quick_snack`, `morale`  
+- **Ingredients:**
+  - `orchardwild_apple` ×2  
+  - `ground_barley_flour` ×1  
+  - `honeybrick_ration_slab` ×1  
+  - `rendered_boar_fat` ×1  
+- **Base Servings:** 4  
+- **Effects (Design Intent):**
+  - Small instant HP  
+  - Small stamina regen  
+  - Very short duration (5–8 minutes) but **stackable** in multiple uses  
+- **Source:** Lodge vendor or festival reward.  
+- **Notes:**
+  - Cute, flavorful “comfort food”; good for between-fight topping off.
+
+---
+
+### 11. Greatwood Herb-Crusted Fowl
+
+- **ID:** `recipe_herb_crusted_forest_fowl`  
+- **Tier:** 2 – Lodge Home Cooking  
+- **Required Cooking Rank:** 5  
+- **Expected Player Level:** 5–8  
+- **Role Tags:** `balanced_meal`, `precision`  
+- **Ingredients:**
+  - `forest_fowl_raw` ×1  
+  - `simple_herb_bundle` ×2  
+  - `lodge_salt_mix` ×1  
+  - `rendered_boar_fat` ×1  
+- **Base Servings:** 3  
+- **Effects (Design Intent):**
+  - Mix of HP regen + stamina regen  
+  - Slight bump to **hit chance / precision** (small but noticeable)  
+- **Source:** Quest reward from helping a lodge cook impress visiting hunters.  
+- **Notes:**
+  - Introduces “precision” food without going full min-max.
+
+---
+
+### 12. Walnut & Emberroot Roast
+
+- **ID:** `recipe_walnut_emberroot_roast`  
+- **Tier:** 2 – Lodge Home Cooking  
+- **Required Cooking Rank:** 6  
+- **Expected Player Level:** 6–9  
+- **Role Tags:** `hp_max`, `stamina_regen`, `long_duration`  
+- **Ingredients:**
+  - `emberroot_tuber` ×2  
+  - `greatwood_walnut` ×2  
+  - `mossy_tongue` ×1  
+  - `forest_stock_light` ×1  
+- **Base Servings:** 3  
+- **Effects (Design Intent):**
+  - Slight Max HP increase  
+  - Solid stamina regen  
+  - Long duration (25–30 minutes)  
+- **Source:** Learned from a lodge elder after a mid-level story beat.  
+- **Notes:**
+  - Good “pre-dungeon” food for parties who don’t want to fuss.
+
+---
+
+## Tier 3 – Early Lodge Signatures (Cooking Rank 6–8, Levels 6–10)
+
+> These are the first recipes that feel like something **unique to Emberwild’s Greatwood Lodge**.  
+> They should stand out visually and mechanically.
+
+---
+
+### 13. Greatwood Hunter’s Feast
+
+- **ID:** `recipe_greatwood_hunter_feast`  
+- **Tier:** 3 – Lodge Signature  
+- **Required Cooking Rank:** 7  
+- **Expected Player Level:** 7–10  
+- **Role Tags:** `party_meal`, `hp_max`, `damage_boost`  
+- **Ingredients:**
+  - `deer_meat_raw` ×1  
+  - `boar_meat_raw` ×1  
+  - `forest_fowl_raw` ×1  
+  - `stonepotato` ×2  
+  - `simple_herb_bundle` ×1  
+  - `lodge_salt_mix` ×1  
+- **Base Servings:** 4–5  
+- **Effects (Design Intent):**
+  - Max HP increase  
+  - HP regen  
+  - Small physical damage increase  
+  - 30+ minute duration  
+- **Source:** Reward for completing an early **Hunt Board chain**.  
+- **Notes:**
+  - “The” early-group feast. Should feel worth setting up a campfire for.
+
+---
+
+### 14. Emberfin & Brightreach Fisher’s Plate
+
+- **ID:** `recipe_emberfin_brightreach_plate`  
+- **Tier:** 3 – Lodge Signature  
+- **Required Cooking Rank:** 7  
+- **Expected Player Level:** 7–10  
+- **Role Tags:** `river_content`, `stamina_regen`, `skill_focus`  
+- **Ingredients:**
+  - `emberfin_fillet` ×1  
+  - `river_trout_fillet` ×1  
+  - `brightreach_berries` ×1  
+  - `simple_herb_bundle` ×1  
+  - `ground_barley_flour` ×1  
+- **Base Servings:** 3  
+- **Effects (Design Intent):**
+  - Good stamina regen  
+  - Small bonus to skill checks related to Fishing / maybe Tracking (long-term hooks)  
+- **Source:** Fishing side-content, recipe awarded by a riverside NPC.  
+- **Notes:**
+  - Ties Fishing into the wider food ecosystem.
+
+---
+
+### 15. Glowcap Lodge Chowder
+
+- **ID:** `recipe_glowcap_lodge_chowder`  
+- **Tier:** 3 – Lodge Signature  
+- **Required Cooking Rank:** 8  
+- **Expected Player Level:** 8–10  
+- **Role Tags:** `night_hunting`, `res_corruption_light`, `camp_hearty`  
+- **Ingredients:**
+  - `river_trout_fillet` ×1  
+  - `glowcap` ×2  
+  - `stonepotato` ×1  
+  - `forest_stock_light` ×1  
+  - `lodge_salt_mix` ×1  
+- **Base Servings:** 4  
+- **Effects (Design Intent):**
+  - Modest HP regen  
+  - Slight **Corruption Resistance** (tier 1)  
+  - Mild night-vision bump  
+- **Source:** Tied to Hollowroot Warren / early corruption-adjacent content.  
+- **Notes:**
+  - Foreshadows that cooking will eventually help mitigate corruption.
+
+---
+
+### 16. Boar Crackling & Honeybrick Platter
+
+- **ID:** `recipe_boar_crackling_honeybrick_platter`  
+- **Tier:** 3 – Lodge Signature  
+- **Required Cooking Rank:** 8  
+- **Expected Player Level:** 8–10  
+- **Role Tags:** `festival`, `stamina_max`, `morale`  
+- **Ingredients:**
+  - `boar_meat_raw` ×1  
+  - `rendered_boar_fat` ×1  
+  - `honeybrick_ration_slab` ×1  
+  - `greatwood_walnut` ×1  
+  - `smoked_salt_flakes` ×1  
+- **Base Servings:** 4  
+- **Effects (Design Intent):**
+  - Max stamina increase  
+  - Minor move speed / snappiness in combat  
+  - Mid-length duration (~20 min)  
+- **Source:** Festival or Lodge celebration quest reward (repeatable recipe after story unlock).  
+- **Notes:**
+  - Shows off the “party platter” vibe visually and thematically.
+
+---
+
+## Tier 4 – Intro Corruption & Experimental Dishes (Cooking Rank 8–10)
+
+> Just a **taste** of later weird dishes.  
+> These recipes hint at risk/reward and corruption mechanics without going full endgame.
+
+---
+
+### 17. Nightglass Berry Compote
+
+- **ID:** `recipe_nightglass_berry_compote`  
+- **Tier:** 4 – Experimental / Corruption Intro  
+- **Required Cooking Rank:** 9  
+- **Expected Player Level:** 9–10  
+- **Role Tags:** `stealthy`, `res_corruption_small`, `side_effects_mild`  
+- **Ingredients:**
+  - `nightglass_berries` ×2  
+  - `orchardwild_apple` ×1  
+  - `honeybrick_ration_slab` ×1  
+- **Base Servings:** 3  
+- **Effects (Design Intent):**
+  - Small, temporary **Corruption Resistance**  
+  - Tiny stealth / detection tweak (enemies slightly slower to aggro you)  
+  - Tiny risk of “sour stomach” debuff if over-used in short time  
+- **Source:** Quest in a thin-ward area, maybe connected to early wardstone lore.  
+- **Notes:**
+  - Gentle introduction to “this food helps with corruption but feels a bit wrong”.
+
+---
+
+### 18. Hollowroot-Infused Hunter’s Stew
+
+- **ID:** `recipe_hollowroot_infused_hunter_stew`  
+- **Tier:** 4 – Experimental / Corruption Intro  
+- **Required Cooking Rank:** 10  
+- **Expected Player Level:** 9–10  
+- **Role Tags:** `dungeon_prep`, `hp_max`, `res_corruption`  
+- **Ingredients:**
+  - `deer_meat_raw` ×1  
+  - `hollowroot_resin` ×1  
+  - `stonepotato` ×1  
+  - `mossy_tongue` ×1  
+  - `forest_stock_light` ×1  
+- **Base Servings:** 3  
+- **Effects (Design Intent):**
+  - Max HP increase  
+  - Moderate Corruption Resistance buff  
+  - Slightly stronger HP regen  
+  - Short “foggy head” visual once the buff expires (flavor, no stat penalty)  
+- **Source:** Reward from Hollowroot Warren questline.  
+- **Notes:**
+  - Feels like “the correct food” to eat before corruption-heavy encounters.
+
+---
+
+## Unlock & Distribution Plan (High-Level)
+
+- **Trainers**
+  - Teach **Tier 0** and some basic Tier 1 recipes.
+- **Lodge Vendor**
+  - Sells comfort foods and a few Tier 2 staples.
+- **Hunt Board / Contracts**
+  - Reward big, hearty meals like `recipe_greatwood_hunter_feast`.
+- **Fishing / Side Professions**
+  - Tie-in recipes like `recipe_emberfin_brightreach_plate`.
+- **Dungeon / Corruption Content**
+  - Glowcap chowder + Hollowroot stew as signature unlocks.
+- **Festivals / Social**
+  - Platter-style recipes that feel special but not mandatory.
 
 ---
 
 ## Next Actions
 
-- Expand this draft into a full table with exact numbers once combat balance is clearer.
-- Sync mandatory ingredients with the final taxonomy from 51.
-- Hook specific recipes into quest rewards and vendor inventories.
+- **Numeric Tuning Pass**
+  - Convert “design intent” into exact HP / stamina / resist values.
+- **Data Implementation**
+  - Mirror this doc in a `CookingRecipes_Greatwood.lua` (or similar) table.
+  - Wire recipe IDs to skill system, UI icons, and VFX.
+- **Quest & Vendor Integration**
+  - Attach each recipe’s **source** to specific NPCs, quests, and boards.
+- **Visual Hooks**
+  - Make sure the big signature meals (Feast, Chowder, Platter) have distinct in-world and UI visuals.
+
+Once this is in, Greatwood 1–10 Cooking becomes a **coherent system** instead of a few one-off foods, fully aligned with the ingredient taxonomy in 51.
