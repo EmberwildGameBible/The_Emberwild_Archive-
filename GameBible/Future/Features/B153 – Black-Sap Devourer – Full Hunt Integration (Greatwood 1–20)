@@ -1,514 +1,837 @@
 # B153 – Black-Sap Devourer – Full Hunt Integration (Greatwood 1–20)
 
-## 0. Purpose
+---
 
-Define the **Black-Sap Devourer** as a fully integrated Hunt:
+## 0. PURPOSE & SCOPE
 
-- Clear identity and fantasy
-- Unlocks and story beats
-- Arena layout and fight phases
-- Role expectations for each profession (Hunter, Cook, Alchemist, Forager/Woodworker)
-- Rewards:
-  - Base ingredients from 51
-  - Specialty ingredients from 55
-  - Loot rules in line with B151
-  - Lodge projects, trophies, recipes, and brews from 52, 53, 57, 58
+This file defines the **Black-Sap Devourer** as a fully integrated **Greatwood Hunt** for levels 10–18 (primary band: B/C) and sets it into the larger Greatwood 1–20 ecosystem.
 
-This file is the “one stop” reference so you don’t have to cross-read six other docs to remember what this Hunt is supposed to be.
+It covers:
+
+- Identity, story, and visual/audio fantasy.
+- Unlock conditions and Lodge integration.
+- Arena layout and environment hazards.
+- Full fight structure:
+  - Approach → Phase 1 → Phase 2 → Phase 3 (soft enrage).
+- Role expectations across **combat roles** and **professions**:
+  - Hunters (melee/ranged DPS, tanks, supports).
+  - Cooks (prep and mid-fight consumables).
+  - Alchemists (wards, bombs, brews).
+  - Foragers/Woodworkers (environmental tools).
+- Rewards and loot integration:
+  - Ingredients (51, 55).
+  - Cooking & brewing hooks (52–53, 58).
+  - Lodge trophies & projects (57, B162).
+  - B151 Greatwood loot tables and specialty/pity hooks.
+- Implementation-facing notes for encounter scripting.
+
+Black-Sap Devourer should feel like:
+
+> “You went too far into the black-sap grove. Now the grove itself has decided to eat you.”
 
 ---
 
-## 1. Role in Greatwood
+## 1. HUNT IDENTITY & FANTASY
 
-**Name:** Black-Sap Devourer  
-**Region:** Deep Greatwood, near corruption-heavy glades  
-**Band:** End of Greatwood 1–20 (recommended 16–20)  
-**Type:** Signature Hunt (B117) – corruption / wardline themed
+### 1.1 High-Concept Tagline
 
-### 1.1 Narrative Identity
+- **Tagline:** “The grove that drinks hunters.”
 
 The Black-Sap Devourer is:
 
-- A creature that has **overfed on corrupted sap**, becoming a moving sink of Black Sap.
-- A visible **scar on the wardlines** around Greatwood, especially near Hollowroot and Wardstone Hill.
-- The first time players see **Black Sap** as a system:
-  - Not just a visual effect, but a resource with risk and power.
+- A **massive, corrupted stag-thing** fused with Hollowroot growths and black-sap tumors.
+- A predator that lures prey into an area saturated with choking, sticky sap.
+- Less “a monster in a forest” and more “a forest that has decided to use a monster as its mouth.”
 
-It sits at the intersection of:
+### 1.2 Visual Motifs
 
-- 55 – Black-Sap specialty ingredients  
-- 58 – Black-Sap brews and tonics  
-- 57 – Lodge Black-Sap trophy/project content  
-- B151 – loot system ownership of Black-Sap reagents
+- Body
+  - Stag skeleton warped and swollen with sap-filled sacs.
+  - Exposed ribcage with visible black-sap flow pulsing like a heart.
+  - Antlers twisted into hooks and branches dripping viscous sap.
+- Environment
+  - Trees with darkened bark and glistening black runnels.
+  - Root-like tendrils snaking along the ground toward pools of sap.
+  - Occasional **amber-like globules** hanging from branches.
+- UI / FX
+  - Black-sap puddles are glossy, almost mirror-like, with slow bubble pops.
+  - Corruption stacks represented with **sap blotches** encroaching on the edge of the HUD.
 
----
+### 1.3 Audio Motifs
 
-## 2. Unlock & Questline Flow
+- Ambience:
+  - Wet, sticky sounds; slow drip, distant “cracks” of hardened sap breaking.
+  - Muffled forest noise, as if sound is absorbed by the sap.
+- Boss:
+  - Hollow, echoing stag bellows mixed with gurgling, liquid resonance.
+  - Heavy, sucking footsteps when moving through his own sap.
+- Abilities:
+  - **Sap spit:** sharp pressure hiss → wet smack → slow “tearing” noise as it hardens.
+  - **Roots:** creaking wood, fibrous ripping, soil shifting before they emerge.
 
-### 2.1 Recommended Unlock Order
+### 1.4 Emotional Beats
 
-The Devourer should feel like **mid–late Greatwood corruption content**, ideally unlocked after:
+Player should feel:
 
-- Some progress with:
-  - Hollowroot pockets / Matron (Hollowroot intro)
-  - Wardstone Hill side content (ward basics)
-- At least one earlier Hunt (Elder Stag or Ward-Bear) completed.
+- **Curiosity** entering the grove (“this is weird, why is everything so dark and sticky?”).
+- **Dread** as the environment itself starts participating (ground hazards, roots).
+- **Panic** when sap levels rise and movement becomes constrained.
+- **Triumph + disgust** when they finally kill the Devourer and the grove exhales.
 
-Suggested prerequisites (design, not code):
-
-- Player completes:
-  - One early Hunt (Elder Stag or Ward-Bear).
-  - At least one Hollowroot pocket event.
-- Player reaches a minimum Lodge reputation threshold with Wardens/Hunters.
-
-### 2.2 Questline Beats
-
-1. **Rumors on the Hunt Board**
-   - Board posting: blurred, second-hand reports:
-     - “Something is overfeeding in the glades. Trees bleeding tar. Animals fouled.”
-   - Simple contract: investigate corrupted glades (no boss yet).
-
-2. **Evidence and Small Events**
-   - Player:
-     - Fights corrupted wildlife, collects `black_sap_nodule` from terrain or minor mobs.
-     - Brings back samples to Lodge alchemist.
-   - Alchemist NPC:
-     - Introduces the idea of **Black Sap** as a substance, not just “goo”.
-
-3. **First True Posting – “The Devourer”**
-   - Named Hunt unlocks on board:
-     - “The Devourer has been seen near a standing wardstone. If it keeps feeding, the wards will fail.”
-   - Quest chain:
-     - Track sap trails,
-     - Clear corrupt sap sprouts,
-     - Disable or brace minor wardstones.
-
-4. **Final Approach**
-   - Player is sent to:
-     - A corrupted grove where the Devourer has partially merged with the terrain.
-   - This triggers the **Hunt instance** / encounter.
-
-5. **Post-Hunt Fallout**
-   - Lodge and Ward NPCs:
-     - React to victory.
-     - Unlock:
-       - Alchemy: Black-Sap brews (58).
-       - Lodge project: Black-Sap trophy (57).
-       - Profession tools: Black-Sap gauntlets and kettle (54/57, later).
+This is a **mid-Greatwood corruption boss**, not a purely endcap. It establishes what “corrupted Greatwood” feels like.
 
 ---
 
-## 3. Arena & Encounter Space
+## 2. UNLOCK CONDITIONS & STORY FRAMING
 
-### 3.1 Visual Layout
+### 2.1 Recommended Unlock Band
 
-The arena is a **ring-shaped corrupted grove**:
+- Designed for **levels 12–16** with some flex above and below.
+- Ideal entry **Phase C** (11–15) from B152:
+  - After players have:
+    - Completed at least one earlier Hunt (Elder Stag or Ward-Bear).
+    - Seen Hollowroot corruption in lesser pockets.
+    - Unlocked a few key recipes and basic alchemy.
 
-- Outer ring:
-  - Twisted trees, Black Sap stains, minor sap pools that slow and apply light corruption.
-- Mid ring:
-  - Broken wardstone fragments, unstable wardlight flickering.
-  - Occasional safe patches where sap does not spread as easily.
-- Inner core:
-  - Devourer’s main “nest”:
-    - Large sap pool with thick, viscous surface.
-    - Several **half-absorbed deer / stag carcasses**.
-    - One or more **corrupted stag** corpses used for special mechanics.
+### 2.2 Prerequisites (Design-Level)
 
-### 3.2 Functional Zones
+The Devourer unlocks on the Hunt Board when:
 
-- **Safe-ish Zones**
-  - Slight wardlight glow.
-  - Reduced corruption stacking.
-  - Ideal for regrouping and using brews/food.
+- Player has completed:
+  - **1x early Hunt** (Elder Hollow Stag or Ward-Bear).
+  - **N Hollowroot activities**, e.g.:
+    - 2–3 Hollowroot pockets cleared.
+    - One mini-event involving black-sap pools.
+- Player has delivered at least one **Lodge project** related to:
+  - “Studying the sap” or “Fortifying against corruption.”
 
-- **Sap Pools**
-  - Standing in them:
-    - Slows movement.
-    - Applies stacking “Black Sap” debuff:
-      - Soft damage over time and/or corruption meter.
+This allows NPCs to say:
 
-- **Wardstone Shards**
-  - Interactables:
-    - Can be “struck” by players to create brief pulses:
-      - Push back sap spread.
-      - Disrupt some Devourer abilities if timed correctly.
+> “You’ve seen the sap in the shallow pockets. That’s just leakage. Something deeper is feeding it.”
 
----
+### 2.3 Narrative Setup
 
-## 4. Boss: Black-Sap Devourer – Behavior & Phases
+**Quest text tone (paraphrased):**
 
-**Category:** Beast / Corrupted Entity  
-**Fight Length Target:** 3–6 minutes for a properly prepared group
+- The Lodge has tracked unusually aggressive black-sap growth in a specific pocket.
+- Foragers have gone missing; a returning hunter speaks of:
+  > “An antlered shadow wading through a pool that tried to pull me under.”
+- The Hunt briefing:
+  - Emphasizes **terrain**, not just the boss.
+  - Warns about **sap poisoning** and recommends:
+    - Certain stews (anti-corruption).
+    - Certain brews (movement, cleansing).
 
-### 4.1 Baseline Attacks
+### 2.4 NPC & Lodge Integration
 
-These exist in multiple phases, scaled per phase.
+- Lodge NPCs involved:
+  - **Huntmaster** – posts the Hunt, explains mechanics in diegetic terms.
+  - **Sap-studying Scholar/Alchemist** – gives optional prep quests to craft brews.
+  - **Cook** – recommends stews that counteract corruption.
 
-- **Lunge & Slam**
-  - Short charge followed by a slam.
-  - Leaves a small sap puddle at the impact location.
+Hook into B162:
 
-- **Sap Spit**
-  - Ranged cone or line attack.
-  - Applies “Black Sap Spatter” debuff:
-    - Small damage over time, slight move slow.
-
-- **Devouring Swipe**
-  - Heavy melee swipe.
-  - If it hits a player already standing in sap:
-    - Amplified corruption damage.
+- Completing this Hunt:
+  - Unlocks new Lodge décor:
+    - A sap-stained antler display.
+    - A blackened tree segment with hardened sap.
+  - Progresses a Lodge project line:
+    - “Black-Sap Containment.”
 
 ---
 
-### 4.2 Phase 1 – The Hungry Beast
+## 3. ARENA & ENVIRONMENT DESIGN
 
-**Trigger:** Fight start, HP 100% → ~70%
+### 3.1 Location & Pocket
 
-Focus: establish the basics.
+Pocket tag: `POCKET_BLACK_SAP_GROVE`
 
-- Moves:
-  - Lunge & Slam
-  - Sap Spit
-  - Basic ground slam that spawns sap puddles under random players.
-- Sap behavior:
-  - Puddles:
-    - Start small, expand slowly.
-    - Clear when a wardstone shard is triggered nearby.
-- Role emphasis:
-  - Hunter:
-    - Keeps boss turned away from party.
-    - Kites it slightly between safe zones to prevent overflooding.
-  - Alchemist:
-    - Uses basic ward/cleanse brews to mitigate damage.
-  - Forager/Woodworker:
-    - Optional pre-fight set-up: placed stakes/markers can give small buffs (if you want to tie in 57 later).
+- Geography:
+  - Depressed grove, slightly bowl-shaped.
+  - Surrounded by thick trees and Hollowroot-infested trunks.
+  - One primary entry trail from safer Greatwood.
+- Verticality:
+  - Slightly lower central area where sap pools gather.
+  - Raised root-clumps / ridges around edges to create “safe spots” from sap.
 
----
+### 3.2 Layout Zones
 
-### 4.3 Phase 2 – Gorge & Swell
+Divide the arena into zones:
 
-**Trigger:** Boss reaches ~70% HP, then attempts to **feed on a nearby corrupted stag corpse**.
+- **Zone A – Outer Ring (Relatively Safe)**
+  - Firmer ground, scattered small sap patches.
+  - Root-clusters that can be used for line-of-sight and cover.
+- **Zone B – Inner Ring (Hazardous)**
+  - Frequent sap puddles that periodically expand/contract.
+  - Sap-coating on tree roots; movement penalties if stepped on.
+- **Zone C – Heart Pool**
+  - Central, larger sap basin.
+  - Devourer frequently paths through or stands in this.
+  - Late phase: sap in this zone rises and begins to spread outward.
 
-- Telegraphed event:
-  - Devourer moves to the nearest corrupted stag corpse and enters a “gorging” animation.
-- Player choice:
-  - **Interrupt it**:
-    - High DPS check or using wardstone pulses to disrupt.
-    - Prevents phase from buffing boss too much.
-  - **Allow it** (or fail interrupt):
-    - Boss enters **Gorged** state:
-      - Gains new abilities.
-      - Fight gets harder.
-      - Reward chances (special drops) can increase slightly.
+### 3.3 Hazard Types
 
-New mechanics when Gorged:
+- **Static Sap Puddles**
+  - Always present, small radius.
+  - Deals low, stacking corruption damage if stood in.
+- **Growing Sap Puddles**
+  - Spawn during fight mechanics.
+  - Start small, then expand, then harden (hazard changes).
+- **Hardened Sap Masses**
+  - Once fully hardened, act as:
+    - Line-of-sight blockers.
+    - Terrain obstacles.
+  - Can be broken with effort, leaving a temporary “safe” patch.
 
-- **Sap Geyser**
-  - Devourer slams the ground and creates **vertical geysers** of Black Sap.
-  - Geysers:
-    - Launch sap blobs that land in several locations.
-    - Create larger, higher-damage sap pools.
+### 3.4 Navigation & Readability
 
-- **Corrupted Pulse**
-  - Periodic AoE wave from the boss:
-    - Deals damage.
-    - Converts small safe zones into sap unless wardstones are pulsed.
+Design goals:
 
-- **Swollen Hide (buff)**
-  - Increases boss HP or damage temporarily.
-  - Potentially linked to better loot chances in design.
+- Players must **constantly reposition** to avoid sap spread.
+- There is always **somewhere safe**, but never too convenient.
+- Visual cues:
+  - Sap grows with a clear “creeping border” effect.
+  - Hardened sap develops a crusty texture and a different color/value.
 
 ---
 
-### 4.4 Phase 3 – Overdrawn
+## 4. MECHANICAL THEMES & OVERVIEW
 
-**Trigger:** Boss at ~30% HP; sap saturation in the arena is high.
+### 4.1 Core Themes
 
-If players have allowed multiple feeds, phase 3 becomes more intense.
+1. **Territory Control**
+   - Sap pools shrink the space.
+   - Players must guide the boss and manage where sap lands.
 
-Mechanics:
+2. **Corruption Management**
+   - Standing in sap or getting hit by certain attacks builds **Black-Sap Corruption** stacks.
+   - High stacks result in:
+     - Periodic health drain.
+     - Reduced healing taken.
+     - Slowed movement.
 
-- **Arena Saturation**
-  - Sap coverage increases over time.
-  - Wardstone shards must be timed carefully to **carve out safe rough circles**.
+3. **Target Priority & Environmental Use**
+   - Adds and rooted “sap hearts” must be killed/destroyed.
+   - Breaking hardened sap can open safe areas but costs DPS/time.
 
-- **Black Sap Storm**
-  - The sky and canopy darken.
-  - Occasional “sap rain”:
-    - Short, high-damage pulses that force players to keep moving.
-- **Frenzied Devour**
-  - Short, telegraphed channel:
-    - If a player is downed in a sap pool:
-      - Boss attempts to “consume” their position, causing a large local explosion.
+4. **Preparation Matters**
+   - Food and brews specifically targeting:
+     - Corruption resistance.
+     - Movement speed.
+     - Cleanse effects.
+   - Hunts become a stress test for **Greatwood cooking/alchemy** systems.
 
-Reward hook:
+### 4.2 Fight Structure Overview
 
-- The longer and riskier the fight (more feeds, higher sap coverage):
-  - The slightly better the **chance for ultra-rare drops**, within limits set in B151.
+Phases:
 
----
-
-## 5. Special Mechanic: Sap-Engorged Antler Condition
-
-This is the condition for dropping:
-
-- `spec_ingr_sap_engorged_antler` (55)
-
-Mechanic:
-
-1. During the fight, a **corrupted stag** is tethered near one side of the arena.
-2. If players **lure the Devourer toward the stag** and allow it to:
-   - Perform a **full feed** on the stag **once** (not interrupted).
-3. Then kill the Devourer while it is still in the **first Gorged state** (don’t allow a second feed):
-
-- Extra loot roll:
-  - Chance for `spec_ingr_sap_engorged_antler` from the boss.
-- This should be:
-  - Risky enough (harder boss due to feed buff),
-  - Not required for normal completion.
-
-Design intent:
-
-- Players who want the `sap_engorged_antler` have to **intentionally play suboptimally** on the first feed.
-- Gets communicated via Hunt tips, NPC hints, and codex entries.
+- **Phase 0 – Approach**
+  - Minor sap hazards; Devourer not yet fully enraged.
+- **Phase 1 – Sap Awakens**
+  - Basic pattern: frontal swipes, sap spit cones, small pools.
+- **Phase 2 – Grove Collusion**
+  - Roots, adds, expanding sap; players juggle boss + environment.
+- **Phase 3 – Heart Burst (Soft Enrage)**
+  - Central pool rises; high sap uptime.
+  - Players must kill the boss before the grove becomes unplayable.
 
 ---
 
-## 6. Role Expectations by Profession
+## 5. PHASE BREAKDOWNS
 
-### 6.1 Hunter
+### 5.0 Shared Mechanics & Systems
 
-- Pre-fight:
-  - Tracks sap trails, finds the correct grove.
-- In fight:
-  - Manages boss facing and movement.
-  - Coordinates where to allow sap to accumulate vs where to keep clear.
-- Post-fight:
-  - Uses **Lodge Carving Knife** or similar tools (54) to:
-    - Improve yield on `black_sap_nodule`, `black_sap_reduction`.
-    - Slightly improve chance for specialty nodules (externally in B151 logic).
+Before phases, define:
 
-### 6.2 Cook
+- **Black-Sap Corruption (Status)**
+  - Stackable debuff.
+  - Each stack:
+    - Slightly reduces healing received.
+    - Adds minor damage taken from sap interactions.
+  - If stacks above threshold `N`, player periodically **vomits sap**:
+    - Small puddle spawns at their feet.
 
-- Pre-fight:
-  - Provides food that supports:
-    - Corruption resistance (Hollowroot variants).
-    - Fire/heat resist if you tie in Ashen food.
-    - Max HP / healing-focused dishes for the party.
-
-Examples (from 52/53):
-
-- A Hollowroot stew variant.
-- Stag or boar-based hearty stews that up HP and stamina.
-
-- Post-fight:
-  - Uses:
-    - `spec_ingr_black_sap_seed_nodule` in cooking-side Purge stew variants (if desired).
-    - Ties into `Black-Sap Purge Kettle` (54/57) for Lodge rituals.
-
-### 6.3 Alchemist
-
-- Pre-fight:
-  - Crafts brews targeting:
-    - Corruption resistance.
-    - Movement + perception (for sap puddles and geysers).
-- In fight:
-  - Uses stable ward-themed brews:
-    - `brew_wardstone_skin_tonic` (basic version).
-    - `brew_hollowroot_fortifying_draught` (non-Black-Sap variant).
-- Post-fight:
-  - Uses:
-    - `spec_ingr_black_sap_seed_nodule` for `brew_black_sap_purge`.
-    - `spec_ingr_black_sap_eye_resin` for high-risk `insight` or vision brews.
-
-### 6.4 Forager / Woodworker
-
-- Pre-fight:
-  - Could prep:
-    - Temporary ward stakes around the grove entrance (later project).
-- Post-fight:
-  - Helps convert:
-    - `spec_ingr_sap_engorged_antler` into trophy/backpiece or Lodge decor (via 57 and trophy tools in 54).
-  - Helps gather:
-    - Plants/mushrooms growing in the corrupted grove after the fight cools.
+- **Sap Density Meter (Encounter Meter)**
+  - A hidden or optional visual meter representing total sap in the arena.
+  - Drives:
+    - Thresholds for new mechanic triggers.
+    - Soft enrage conditions.
 
 ---
 
-## 7. Rewards Integration
+### 5.1 Phase 0 – Approach & First Contact
 
-### 7.1 Ingredient & Specialty Mapping
+**Trigger**
 
-**Base Reagents (51):**
+- Players enter `POCKET_BLACK_SAP_GROVE` and cross a threshold (e.g. a fallen tree).
+- Ambient sap density is low but rising.
 
-- `black_sap_nodule`
-- `black_sap_reduction`
-- `sapstained_antler` (sometimes present if stag carcasses are salvaged)
-- Minor ward fragments, bone shards, etc.
+**Gameplay**
 
-**Specialty Reagents (55):**
+- A few lesser corrupted beasts (sentries) guard the path.
+- Small sap puddles required to be navigated.
+- Devourer is seen feeding at the central pool, then roars and moves to engage.
 
-- `spec_ingr_black_sap_seed_nodule`
-  - Core ingredient for:
-    - `brew_black_sap_purge`
-    - High-risk `brew_black_sap_insight_tincture`
-- `spec_ingr_black_sap_eye_resin`
-  - Used for:
-    - Ultra-rare variant brews with stronger benefits and nastier side-effects.
-    - Black-Sap wall plaque in 57.
-- `spec_ingr_sap_engorged_antler`
-  - Used for:
-    - High-end wardline/trophy crafts.
-    - Lodge plaque or totem modifications in 57.
+**Purpose**
 
-### 7.2 Loot Rules (Design, not code)
-
-Aligning with B151:
-
-- **Guaranteed each kill:**
-  - 2–3 `black_sap_nodule`
-  - 1–2 `black_sap_reduction`
-  - Coin bundle appropriate for an end Greatwood Hunt.
-
-- **Specialty:**
-  - `spec_ingr_black_sap_seed_nodule`
-    - First kill: guaranteed 2 (quest reward).
-    - Later kills:
-      - Chance to drop 1–2 (with possible pity logic).
-  - `spec_ingr_black_sap_eye_resin`
-    - Low chance (around 10–15%), optionally increased with optional objectives.
-  - `spec_ingr_sap_engorged_antler`
-    - Very low chance, only if **stag feed condition** met.
-
-- **Trophies / decor:**
-  - “Black-Sap Trophy Shard” item:
-    - Input for wall plaque project in 57.
-  - Possibly a **small chance** at unique trinkets linked to Black Sap.
+- Teaches:
+  - “Don’t stand in the shiny black stuff.”
+  - “The grove has zones; some places feel worse than others.”
 
 ---
 
-## 8. Lodge, Projects, and Trophies
+### 5.2 Phase 1 – Sap Awakens
 
-This Hunt ties into multiple Lodge projects from 57.
+**HP Range**
 
-### 8.1 Black-Sap Devourer Wall Plaque (57)
+- Devourer at 100% → ~70% HP.
 
-- **Project:** `proj_trophy_black_sap_wall_plaque`
-- Inputs:
-  - `spec_ingr_black_sap_eye_resin`
-  - `spec_ingr_sap_engorged_antler` (if obtained)
-  - `black_sap_nodule` × 2
-- Effects:
-  - Trophy that pulses faint, corrupted light.
-  - Small, passive bonus to:
-    - Corruption resist for Lodge visitors during Black-Sap-related events.
-  - Minor lore unlock about the Devourer and Black Sap.
+**Mechanics**
 
-### 8.2 Black-Sap Handling Gear
+1. **Basic Attacks**
+   - Heavy front swipes.
+   - Occasional antler gore charges (targeted at furthest or highest threat).
 
-- **Black-Sap Handling Gauntlets** (54)
-  - Crafted from:
-    - `black_sap_reduction`
-    - `black_sap_nodule`
-    - Possibly `spec_ingr_black_sap_seed_nodule`
-  - Effects:
-    - Minor personal corruption resist for the alchemist.
-    - Reduced self-debuff when brewing Black-Sap brews.
+2. **Black-Sap Spit (Cone)**
+   - Telegraph: Devourer rears back, sap glows in mouth.
+   - Fires a short cone of sap:
+     - On hit: moderate damage + 1 corruption stack.
+     - Leaves **small sap puddles** on ground.
 
-- **Black-Sap Purge Kettle** (54/57)
-  - Ember Pot / Lodge kettle upgrade:
-    - Uses seed nodules and resin.
-    - Allows group-side **Purge stew** variants with tuned side-effects.
+3. **Sap Drip Zones**
+   - Random small puddles appear in the inner ring.
+   - Provide early practice moving out of them.
 
-### 8.3 Ward Ritual Hooks
+**Player Checks**
 
-- Later ward rituals (57) can optionally require:
-
-  - A successful Devourer kill within last X time.
-  - A certain quantity of `black_sap_reduction` and/or seed nodules.
-
-This ties the Hunt into **region-level ward content**, not just one fight.
+- Tanks:
+  - Learn facing/positioning.
+- DPS:
+  - Learn not to stand in front arcs.
+- Everyone:
+  - Issues of movement and puddle avoidance.
 
 ---
 
-## 9. Codex & UI
+### 5.3 Phase 2 – The Grove Joins In
 
-### 9.1 Codex Entries
+**Trigger**
 
-- **Black-Sap Devourer – Creature Entry**
-  - Unlocks on first sighting.
-  - Expands after:
-    - Kill,
-    - Lodge analysis (turning in nodules),
-    - Crafting first Black-Sap brew.
+- Devourer reaches ~70% HP.
+- Sap Density meter passes first threshold.
 
-- **Black Sap – Substance Entry**
-  - Describes:
-    - Basic properties (corrupting, viscous).
-    - Uses in alchemy and rituals.
-    - Warnings.
+**New Mechanics Added**
 
-### 9.2 Hunt Board Presentation
+1. **Rootburst**
+   - Roots surge in a telegraphed ring or wedge.
+   - If hit:
+     - Short root/snare.
+     - 1–2 corruption stacks.
+   - Often combos with sap spit to trap players in puddles.
 
-The Devourer posting should:
+2. **Sap-Heart Bulbs (Adds)**
+   - Bulbous sap nodes emerge from the ground.
+   - Channel sap into existing puddles, causing them to:
+     - **Spread** outward.
+     - Increase damage ticks.
+   - Must be destroyed quickly to prevent arena from shrinking too much.
 
-- Clearly signal:
-  - Corruption/Black Sap theme.
-  - Recommended level band.
-  - Advisable roles:
-    - “Bring a Cook, an Alchemist, and someone who knows how to read a Wardstone.”
+3. **Hollowroot Pack Adds**
+   - Corrupted smaller beasts spawn from the outer ring.
+   - Harass healers/backline; can be kited into “safe zones” or AoE’d down.
 
-- Show icons or tags for:
-  - Specialty ingredients potential.
-  - Lodge project hooks (small symbol for trophy or fixture unlock).
+**Environmental Shift**
 
----
+- Sap in the central pool slightly rises.
+- Some outer ring areas gain **thin sap films** (small movement penalty only).
 
-## 10. Difficulty & Replay
+**Player Checks**
 
-### 10.1 First Kill vs Farm
-
-- **First Kill:**
-  - Generous:
-    - Guaranteed seed nodules.
-    - Strong coin and ingredient payout.
-    - Unlocks core Black-Sap systems (brews, kettle/gantlets progression).
-
-- **Repeat Kills:**
-  - Reduced but still meaningful:
-    - Reliably give some nodules and reduction.
-    - Chance at eye resin and sap-engorged antlers.
-  - Intended primarily for:
-    - Players leaning into Black-Sap brews,
-    - Trophy/Lodge completionists.
-
-### 10.2 Scaling
-
-Later, if you add:
-
-- **Advanced / “Overfed Devourer” version:**
-  - Higher HP and damage.
-  - More aggressive sap spread and storms.
-  - Better drop chances, possibly new specialty variants.
-
-This doc should still be valid as the **base version**.
+- Group must:
+  - Coordinate target priority (sap-hearts vs boss vs adds).
+  - Keep the Devourer away from already-heavy sap zones.
+  - Use food/brews for corruption mitigation.
 
 ---
 
-## 11. Implementation Notes (For Future You)
+### 5.4 Phase 3 – Heart Burst (Soft Enrage)
 
-- In the **Game Bible**, this doc is the integration hub for Black-Sap Devourer.
-- In **code / data**, this Hunt touches:
-  - B151 loot tables (which already reference:
-    - `black_sap_nodule`,
-    - `black_sap_reduction`,
-    - `spec_ingr_black_sap_seed_nodule`,
-    - `spec_ingr_black_sap_eye_resin`,
-    - `spec_ingr_sap_engorged_antler`).
-  - 51, 55, 58 for ingredients and brews.
-  - 54 & 57 for tools and Lodge projects.
+**Trigger**
 
-When you eventually wire it in:
+- Devourer reaches ~35–40% HP.
+- Sap Density meter crosses second threshold.
 
-- This doc is what you check to make sure:
-  - The fight, rewards, Lodge content, and brews all match what the **words** here say.
+**New Mechanics Added**
+
+1. **Heartburst Roar**
+   - Devourer slams chest; central pool surges.
+   - Sap rapidly expands from center, then stabilizes at a **higher baseline level**.
+   - Some previously safe ground is now either:
+     - Soft sap (slow + low damage).
+     - Or fully hazardous pools.
+
+2. **Black-Sap Flood (Wave)**
+   - Periodic **wave of sap** rolling outwards:
+     - Similar to a shockwave, but with sap.
+     - Players must jump, move behind hardened sap, or use movement abilities.
+
+3. **Leeching Antlers**
+   - Devourer’s attacks:
+     - Apply increased corruption.
+     - Heal the Devourer slightly when hitting highly corrupted players.
+   - Encourages chained cleanses and careful stack management.
+
+4. **Accelerated Rootburst**
+   - Rootburst occurs more frequently.
+   - Combos with Flood and saps the arena further.
+
+**Soft Enrage Condition**
+
+- If fight drags too long:
+  - Sap Density meter fills.
+  - Arena becomes nearly entirely sap:
+    - Movement/visibility heavily impaired.
+    - Damage ramps up.
+  - Practical wipe.
+
+**Player Checks**
+
+- Do they:
+  - Have enough DPS to push through last ~35%?
+  - Use cleanses and anti-corruption properly?
+  - Manage arena real estate via sap-heart destruction?
+
+---
+
+## 6. ABILITY LIST & TUNING KNOBS
+
+Below is a **data-style breakdown** so scripters can port directly into Lua tables.
+
+> Numbers are **placeholder**; they communicate relationships, not exact values.
+
+### 6.1 Core Boss Abilities
+
+- `DEVOURER_BASIC_SWIPE`
+  - Target: front arc, melee range.
+  - Damage: medium physical.
+  - Cooldown: 2–3s.
+  - Notes: baseline tank check.
+
+- `DEVOURER_ANTLER_GORE`
+  - Target: random mid/far target.
+  - Telegraph: brief pause + antler glow.
+  - Damage: high physical.
+  - Secondary: small knockback.
+  - Cooldown: 10–14s.
+
+- `DEVOURER_BLACK_SAP_SPIT`
+  - Target: cone from mouth.
+  - Damage: medium magic.
+  - On hit: +1 corruption stack.
+  - Ground effect: small sap puddle (5–8s lifetime before Phase 2; longer in Phase 3).
+  - Cooldown: 8–12s.
+
+### 6.2 Phase 2 Abilities
+
+- `ROOTBURST_LINE` / `ROOTBURST_RING`
+  - Target: line or ring patterns.
+  - Effect: root/snare ~1.5s.
+  - On hit: +1–2 corruption stacks.
+  - Cooldown: 12–16s (in Phase 2), 8–12s (Phase 3).
+
+- `SAP_HEART_SPAWN`
+  - Spawns 1–3 sap-heart bulbs around existing puddles.
+  - Each heart:
+    - Periodically “feeds” attached puddle to expand.
+    - Has low HP but must be killed quickly.
+  - Baseline spawn interval: 20–30s in Phase 2; faster in Phase 3.
+
+### 6.3 Adds
+
+- `HOLLOWROOT_BEASTLING`
+  - Small corrupted mobs:
+    - Quick melee swipes.
+    - Slight corruption application on hit.
+  - Spawn: wave of 3–6 at pocket perimeter.
+
+Add waves can be tuned for group size / difficulty modes.
+
+### 6.4 Phase 3 Abilities
+
+- `HEARTBURST_ROAR`
+  - One-time transformation when Phase 3 begins.
+  - Triggers global sap level increase and new puddle distribution.
+
+- `BLACK_SAP_FLOOD`
+  - Visual: wave of sap rolling outward.
+  - Mechanic: players must:
+    - Jump over wave.
+    - Or hide behind hardened sap.
+  - On fail: heavy damage + multiple corruption stacks.
+
+- `LEECHING_ANTLERS`
+  - Passive on boss basic attacks.
+  - On hit:
+    - Applies additional corruption.
+    - Heals Devourer by a small amount (scaled by victim’s corruption stacks).
+
+---
+
+## 7. ROLE EXPECTATIONS & PROFESSION INTEGRATION
+
+### 7.1 Combat Roles (Generic)
+
+We keep roles **system-agnostic**; the exact names/abilities depend on Emberwild’s class design.
+
+- **Frontliners / Tanks**
+  - Control boss facing and positioning:
+    - Keep Devourer out of densest sap zones when possible.
+  - Soak basic swipes and gore, with mitigation.
+  - Grab Hollowroot add aggro away from backline.
+
+- **Melee DPS**
+  - Dance around puddles while staying on boss/priority targets.
+  - Help burst sap-hearts when they spawn nearby.
+  - Provide interrupts/CC on key casts if available.
+
+- **Ranged DPS**
+  - Primary answer for:
+    - Sap-heart bulbs.
+    - Spread-out adds.
+  - Call out safe zones and heavy sap patches over VO/text.
+
+- **Healers / Support**
+  - Manage:
+    - Corruption cleanse effects.
+    - Movement buffs for Flood / Rootburst combos.
+  - Use food/brew bonuses to handle heavy healing windows (Phase 3).
+
+### 7.2 Cook Role
+
+From B151 + Cooking chapters:
+
+- **Pre-Hunt Preparation**
+  - Cook can propose a “Hunt Menu”:
+    - 1 main stew focused on **corruption resistance or cleanse**.
+    - 1 secondary dish for **movement speed or stamina**.
+  - Optional dessert/side that:
+    - Increases healing throughput or regen.
+
+- **Mid-Hunt Options**
+  - Certain higher-tier meals may:
+    - Provide **emergency cleanse** on use.
+    - Temporarily reduce sap damage at high corruption stacks.
+
+Goal: Hunts **feel better** when players take cooking seriously.
+
+### 7.3 Alchemist Role
+
+- **Brews & Tonics**
+  - Anti-corruption tonics:
+    - Reduce stack gain or accelerate decay for X seconds.
+  - Movement tonics:
+    - Short bursts of movement speed for Flood events.
+  - Resist brews:
+    - Slightly lower magic damage taken from sap sources.
+
+- **Bombs & Devices**
+  - “Sap-Burst Vials”:
+    - Targeted at hardened sap to **shatter** them and clear space.
+  - “Root-Sever Bombs”:
+    - Extra damage against sap-heart bulbs and root clusters.
+
+### 7.4 Forager / Woodworker Role
+
+- **Pre-Hunt Craftables**
+  - Deployable **root stakes**:
+    - Places breakable structures that block Rootburst lines.
+  - Lightweight **bridging planks**:
+    - Lay small “boards” across sap to create narrow safe paths.
+
+- **Mid-Hunt Interaction**
+  - May interact with certain environmental props:
+    - Cut down a sap-infested branch to create cover.
+    - Clear vine walls to open additional kiting routes.
+
+These roles give Hunts a **cross-profession** identity, not just pure combat.
+
+---
+
+## 8. LOOT & REWARD INTEGRATION (WITH B151)
+
+### 8.1 Thematic Ingredient Outputs
+
+Black-Sap Devourer is the primary source for the following (representative IDs):
+
+- `black_sap_nodule` – condensed pockets of corrupted sap.
+- `black_sap_reduction` – a processed variant (could be made via cooking/alchemy).
+- `sapstained_antler` – corrupted antler pieces (extends from non-Hunt stag antlers).
+- `devourer_heart_fragment` – small pieces of the boss’s core; rare.
+
+Drop structure:
+
+- **Base drop bundle (on kill, for all participants)**
+  - 1–3 `black_sap_nodule`.
+  - 1–2 `sapstained_antler` (or variants).
+- **Conditional / difficulty-based**
+  - Chance for additional nodules / heart fragments on higher difficulty tiers.
+
+### 8.2 Lodge Trophies & Projects
+
+Completing this Hunt:
+
+- Always drops one **trophy item** (per kill, not per player):
+  - `trophy_black_sap_antler`.
+- Lodge projects (57, B162) can require:
+  - A number of trophy pieces and nodules for:
+    - “Black-Sap Containment” line (more wards around Lodge).
+    - Visual Lodge changes (sap research corner, hardened sap lamp, etc).
+
+### 8.3 Chase Items & Rare Drops
+
+From B151’s world drop philosophy:
+
+- Devourer’s **Hunt reward bundle** has a small chance to include:
+
+  - `trinket_black_sap_charm`
+    - Passive small buff vs corruption.
+    - Flavorful text about the sap’s whisper.
+  - `recipe_scroll_black_sap_stew`
+    - Advanced stew that:
+      - Temporarily reduces corruption gain.
+      - Adds some offensive benefit to encourage risk.
+
+Ultra-rare tie-ins:
+
+- A tiny chance for a **relic-touched fragment** that references B139–B150/B143:
+  - E.g. `relic_splinter_sapbound_antler`.
+
+### 8.4 B151 Integration Hooks
+
+In `LootTables_Special_Greatwood.lua`:
+
+- Define a `HUNT_BLACK_SAP_DEVOURER_BUNDLE` using B151 schema.
+- Black-Sap specialty track in `SpecialtyPity_Greatwood.lua`:
+
+  ```lua
+  SpecialtyPity.tracks.black_sap_specialty = {
+      expected_rolls = 8,      -- typical kills before one specialty hit
+      hard_cap_rolls = 20,     -- absolutely guaranteed by then
+      min_band = "B",
+      max_band = "D",
+      sources = { "HUNT_BLACK_SAP_DEVOURER", "POCKET_BLACK_SAP_GROVE" },
+  }
+This ensures that players targeting this content see at least some specials over multiple Hunts.
+
+9. DIFFICULTY & TUNING
+9.1 Level & Band Expectations
+Recommended entry:
+
+Level 12–13 for a group.
+
+Level 15–16 for a very skilled, well-prepared smaller group/duo.
+
+Aligned with B151 Bands:
+
+Primary band: C (11–15).
+
+Spillover into late B / early D as replay content.
+
+9.2 Fight Duration & Failure Modes
+Target baseline:
+
+Fight duration: 7–10 minutes for a reasonably geared group of appropriate level.
+
+Common failure modes:
+
+Too much sap spread; arena becomes unmanageable.
+
+Corruption stacks ignored; players heal through it until Phase 3 punishes them.
+
+Ignoring sap-hearts → exponential sap hazard.
+
+9.3 Adjustables (For Tuning)
+Sap growth speed and maximum coverage.
+
+Corruption stack caps and decay speed.
+
+Add wave frequency and size.
+
+Hunt reward quantities (nodules, trophies, chase items).
+
+Soft enrage timing via Sap Density thresholds.
+
+10. IMPLEMENTATION NOTES (ENCOUNTER SCRIPTING)
+10.1 State Machine Outline
+Recommended states:
+
+STATE_IDLE – Devourer at pool; ambient behavior.
+
+STATE_AGGRO – Engages players; Phase 1 logic.
+
+STATE_PHASE2 – Roots + sap-hearts integrated.
+
+STATE_PHASE3 – Heartburst + Flood + soft enrage.
+
+STATE_RESET – Players wiped or left arena; cleanup.
+
+Pseudo-Lua skeleton:
+
+lua
+Copy code
+local Devourer = {}
+Devourer.__index = Devourer
+
+function Devourer.new(model)
+    local self = setmetatable({}, Devourer)
+    self.model = model
+    self.state = "IDLE"
+    self.hp = self:getMaxHP()
+    self.sapDensity = 0
+    return self
+end
+
+function Devourer:update(dt)
+    if self.state == "IDLE" then
+        self:updateIdle(dt)
+    elseif self.state == "AGGRO" then
+        self:updatePhase1(dt)
+    elseif self.state == "PHASE2" then
+        self:updatePhase2(dt)
+    elseif self.state == "PHASE3" then
+        self:updatePhase3(dt)
+    end
+end
+
+function Devourer:onHit(damage)
+    self.hp -= damage
+    if self.state == "AGGRO" and self.hp <= self:getMaxHP() * 0.70 then
+        self:transitionTo("PHASE2")
+    elseif self.state == "PHASE2" and self.hp <= self:getMaxHP() * 0.40 then
+        self:transitionTo("PHASE3")
+    end
+end
+10.2 Sap System Integration
+Separate module managing all sap puddles, hardened sap, and sap density:
+
+BlackSapSystem_Grove.lua.
+
+Devourer script does not directly modify puddles:
+
+Instead, triggers high-level calls:
+
+BlackSapSystem:SpawnPuddle(position, size, type)
+
+BlackSapSystem:SpawnSapHeart(position)
+
+BlackSapSystem:RaisePool(amount)
+
+This keeps environment and boss logic modular.
+
+10.3 Loot Hook
+When Devourer dies:
+
+Construct a LootContext with:
+
+mobId = "HUNT_BLACK_SAP_DEVOURER"
+
+isHuntTarget = true
+
+zoneTag = "POCKET_BLACK_SAP_GROVE"
+
+Player list = participants.
+
+Call:
+
+lua
+Copy code
+local lootBundle = ResolveLoot_Greatwood(ctx)
+-- plus explicit Hunt reward bundle injection:
+local huntBundle = HuntRewards:GetDevourerBundle(ctx)
+mergeLoot(lootBundle, huntBundle)
+awardLootToPlayers(players, lootBundle)
+11. VARIANTS & FUTURE EXPANSIONS
+Later expansions or difficulty modes could introduce:
+
+Night-Only Variant
+
+Increased sap spread.
+
+More spectral adds.
+
+Wardstone Surge Variant
+
+Ward entities attempt to contain sap during fight:
+
+Players can cooperate with, or accidentally sabotage, wards.
+
+Relic-Touched Variant (Endgame)
+
+Devourer partially fused with a minor relic:
+
+More intense mechanics.
+
+Higher chance of relic-touched drops.
+
+These variants reuse core arena and abilities but tweak parameters and add layers.
+
+12. TELEMETRY & BALANCING
+12.1 Metrics to Log
+Per encounter instance:
+
+Number of wipes vs kills.
+
+Time to kill (successful attempts).
+
+Average corruption stacks per player (over time).
+
+Sap coverage % at kill or wipe.
+
+Number of sap-space clearing actions:
+
+Hardened sap destroyed.
+
+Sap-hearts killed.
+
+Food/brew usage:
+
+Which recipes were consumed pre-Hunt.
+
+Whether anti-corruption/cleanse items were used.
+
+12.2 Success Targets
+Success rate:
+
+~30–40% for appropriately leveled, minimally prepared groups.
+
+Should climb to 60–70% with:
+
+Better gear.
+
+Correct food/brews.
+
+Learned mechanics.
+
+13. SUMMARY
+Black-Sap Devourer is the corruption keystone Hunt for Greatwood:
+
+Teaches:
+
+Territory control.
+
+Corruption management.
+
+The value of cooking, alchemy, and Lodge prep.
+
+Integrates with:
+
+B151 (loot).
+
+B152 (systems index).
+
+B153–B159 (Hunt arc).
+
+B160–B162 (Greatwood flow, Lodge projects).
+
+If Elder Stag and Ward-Bear are “Greatwood 101,”
+Black-Sap Devourer is “Greatwood 201: The woods bite back.”
