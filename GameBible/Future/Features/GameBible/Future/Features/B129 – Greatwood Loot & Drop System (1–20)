@@ -1,0 +1,848 @@
+## Greatwood 1–20
+
+---
+
+## 0. Purpose & Scope
+
+This file defines how loot **actually enters the game** for the Greatwood 1–20 band:
+
+- How ingredients from `51 – Greatwood Ingredient Taxonomy` are obtained.
+- How recipes from `52–53 – Greatwood Cooking` are supported by real drops.
+- How specialty ingredients from `55 – Specialty Ingredients` are attached to Hunts, bosses, and events.
+- How alchemy reagents from `58 – Intro Alchemy` show up.
+- How coin, gear, trophies, and world drops are distributed.
+
+This is a **design-level spec** for:
+
+- Creature loot tables
+- Chests, containers, and profession nodes
+- World drops and rare items
+- Hunts, dungeons, and events
+
+Implementation details (actual numeric tuning, item IDs, and scripts) live in Lua modules:
+
+- `LootTables_Creatures_Greatwood.lua`
+- `LootTables_Containers_Greatwood.lua`
+- `LootTables_Nodes_Greatwood.lua`
+- `LootTables_Special_Greatwood.lua`
+
+---
+
+## 1. Design Pillars
+
+Loot in Emberwild is:
+
+- **Slow** – deliberate, Classic-WoW-adjacent pacing.
+- **Rewarding** – drops matter; you can remember when you got them.
+- **Meaningful** – even common loot has a clear use (ingredients, food, brews, crafts).
+- **Grounded** – mobs drop what makes sense (meat, organs, glands, bones).
+- **Predictable-but-exciting** – you know roughly what to expect, but there are rare spikes.
+
+Hard rules:
+
+1. No “loot confetti” spray.
+2. Most enemies have **one or two meaningful drops**, not 10 junk items.
+3. Most things you loot are either:
+   - Immediately useful (food, ingredients, reagents, coin), or
+   - Stepping stones to something clearly better (trophies, specialties, rare materials).
+
+---
+
+## 2. Loot Sources Overview
+
+For Greatwood 1–20 we standardize on these loot source types:
+
+1. **Creatures**
+   - Ambient wildlife (deer, boar, wolves, fowl, critters).
+   - Region creatures (Ashen beasts, Hollowroot monsters, shadow/ward creatures).
+   - Humanoids / bandits where applicable.
+
+2. **Hunts & Bosses**
+   - Signature Hunts (Elder Stag, Ward-Bear, Hollowroot Matron, Black-Sap Devourer, Howler, Ragged King, Shadow Under Wardstone).
+   - Dungeon bosses / mini-bosses.
+
+3. **Profession Nodes**
+   - Foraging nodes: herbs, mushrooms, roots, berries.
+   - Fishing nodes: river, Ashstream, special weather-based spots.
+   - Wood / trophy nodes: carcasses, antler caches, stump caches.
+
+4. **Containers & Chests**
+   - Camp chests, lodge caches, ruin chests, dungeon coffers.
+
+5. **Events**
+   - Emberfall ash rain.
+   - Thunderstorm rivers.
+   - Wardstone surges.
+   - Hollowroot invasions.
+
+All of them feed the same **loot pipeline**, but with different buckets and weights.
+
+---
+
+## 3. Rarity Tiers & Drop Buckets
+
+We define **loot rarity tiers** as internal tags, not UI colors (those are layered later):
+
+- `COMMON`
+- `UNCOMMON`
+- `RARE`
+- `VERY_RARE`
+- `ULTRA` (very rare / unique)
+
+Each loot table has:
+
+1. **Guaranteed** bucket
+   - Things that always drop (or nearly always).
+   - Example: 1x meat or 1x trivial ingredient; small coin floor.
+
+2. **Primary Roll** (Core Table)
+   - The main roll for that creature/type.
+   - 0–2 items, usually from ingredient or coin buckets.
+
+3. **Bonus Roll(s)**
+   - Low-chance extra items: specialties, trophies, rare reagents, world drops.
+
+4. **World Drop Roll (Optional)**
+   - Very low-chance access into the **global relic / rare** list (B143 etc.).
+   - Only on specific creature tiers or sources (e.g. bosses, dangerous elites).
+
+We express each table as:
+
+- `guaranteed` items (0+)
+- `rolls` list (each with weight, items, and quantities)
+- `bonus_rolls` list (optional, rarity hooks)
+- `world_drop_chance` (optional, extremely low)
+
+---
+
+## 4. Global Loot Rules (Greatwood 1–20)
+
+1. **Minimum Value Rule**
+   - Any non-trivial combat kill (not critters) gives **some** value:
+     - At least small coin OR a scrap ingredient.
+   - Critters may drop nothing or only cosmetic fluff.
+
+2. **Coin Distribution**
+   - Coin is:
+     - Modest on ambient wildlife.
+     - Higher on humanoids, bandits, and chests.
+   - Most animals give coin as a **separate roll**, not in place of ingredients.
+
+3. **Ingredient Coverage**
+   - Every ingredient listed in `51 – Greatwood Ingredient Taxonomy` appears in:
+     - At least one **primary drop source** (mob or node).
+     - Optionally secondary sources (events, containers).
+
+4. **Specialty Ingredients**
+   - All `spec_ingr_*` items from 55 only drop from:
+     - Their named Hunts/bosses/events.
+   - They never appear in generic tables.
+
+5. **Bad Luck Protection**
+   - For specialty and key rare reagents:
+     - Use soft pity timers (e.g. after N kills, chance ramps).
+   - Implementation detail lives in code; this doc says **where** it applies.
+
+6. **Profession Hooks**
+   - Many loot tables produce:
+     - Raw ingredients that **only become valuable** when passed to Cook/Alchemist/Forager.
+   - Hunter’s butchery tools (54) modify:
+     - Yield counts and chance for better meat cuts and specialties.
+
+---
+
+## 5. Ingredient Distribution (High-Level Map)
+
+This table maps **ingredient families** from 51 to their **primary sources**.
+
+> This is not exhaustive; it’s the design “who owns what” map.
+
+### 5.1 Meat & Animal Products
+
+- Deer / Stag:
+  - `deer_meat_raw`, `young_stag_cut`
+  - Source: common deer, young stag mobs, Elder Stag Hunt.
+- Boar:
+  - `boar_meat_raw`, `rendered_boar_fat`
+  - Source: wild boars, Lodge butchery steps.
+- Wolf / Dire Wolf / Howler:
+  - `lean_wolf_flank`, `dire_wolf_flank`, `howler_alpha_fang`
+  - Source: wolves, dire wolves, Greatwood Howler.
+- Fowl:
+  - `forest_fowl_raw`, `blackfeather_grouse_meat`
+  - Source: forest fowl, grouse mobs.
+- River beasts:
+  - `river_hare_meat`, `river_trout_fillet`, `ashstream_carp_fillet`
+  - Source: river hare mobs, fishing nodes, Ashstream pockets.
+- Great beasts:
+  - `ward_bear_haunch`, `elder_stag_meat`, `ashen_beast_cut`, `ragged_king_shank`
+  - Source: Hunts and bosses only.
+
+### 5.2 Roots, Tubers, & Vegetables
+
+- `stonepotato`, `white_ember_turnip`, `emberroot_tuber`, `riverreed_rhizome`
+  - Source: foraging nodes near clearings, riverbanks, Ember Pot-adjacent gardens.
+
+### 5.3 Herbs & Leaves
+
+- Low-tier:
+  - `simple_herb_bundle`, `mossy_tongue`, `bitterpine_needle`
+- Mid/rare:
+  - `whisperfern`, `thornmint`, `wandersage_bundle`
+
+Sources:
+
+- Foraging nodes, sometimes on creature corpses (e.g. animals eating these plants).
+- Herbs cluster more heavily near:
+  - Wardstone Hill.
+  - Hollowroot pockets.
+  - Specific environmental POIs.
+
+### 5.4 Mushrooms
+
+- Common:
+  - `glowcap`, basic forest caps.
+- Rare:
+  - `embertruffle`, `blacktongue_chanterelle`, `red_vein_morel`.
+
+Sources:
+
+- Hollowroot-adjacent nodes, damp logs, cave walls.
+- Some appear on Hollowroot creatures as corpse “bonus” (e.g. fungus growing on them).
+
+### 5.5 Ward / Corruption / Fire Reagents
+
+- Ward:
+  - `wardstone_bracket`, `wardstone_crust_flake`
+  - Source: wardstone structures, ward-adjacent monsters, Ward events.
+- Corruption:
+  - `hollowroot_core_chunk`, `hollowroot_resin`, `black_sap_nodule`, `black_sap_reduction`
+  - Source: Hollowroot Matron, corruption pockets, Black-Sap Devourer.
+- Fire:
+  - `ashcurl`, `ashwater_brine`, `emberleaf`, `emberhazel_nut`, `emberfall_ash_flake`
+  - Source: burn scars, Ashstream, Emberfall events.
+
+---
+
+## 6. Loot Table Schema (Implementation-Oriented)
+
+All loot tables are expressed as Lua tables with a consistent shape.
+
+### 6.1 Base Schema
+
+```lua
+-- Example generic schema; concrete examples follow later.
+LootTables_Creatures["gw_creature_id"] = {
+    level_range = { min = 3, max = 8 },       -- for scaling, optional
+    coin = { min = 0, max = 5, chance = 0.60 }, -- independent coin roll
+
+    guaranteed = {
+        -- items that almost always drop
+        { item = "deer_meat_raw",  min = 1, max = 1, chance = 1.0 },
+    },
+
+    rolls = {
+        -- primary loot roll buckets
+        {
+            name = "ingredient_core",
+            rolls = 1,                    -- how many picks from this bucket
+            entries = {
+                { item = "deer_meat_raw",    weight = 60, min = 1, max = 1 },
+                { item = "stringy_game_meat",weight = 30, min = 1, max = 2 },
+                { item = "bone_shard_small", weight = 10, min = 1, max = 1 },
+            }
+        },
+        {
+            name = "secondary",
+            rolls = 1,
+            entries = {
+                { item = "simple_herb_bundle", weight = 40, min = 1, max = 1 },
+                { item = "mossy_tongue",       weight = 20, min = 1, max = 1 },
+                { item = "nothing",            weight = 40, min = 0, max = 0 },
+            }
+        }
+    },
+
+    bonus_rolls = {
+        {
+            name = "specialty",
+            chance = 0.05,  -- 5% chance to roll this bucket once
+            entries = {
+                { item = "spec_ingr_elder_stag_marrow", weight = 1, min = 1, max = 1 },
+            }
+        }
+    },
+
+    world_drop = {
+        chance = 0.001,    -- 0.1% chance per kill
+        table  = "WORLD_UNCOMMON_GW",
+    }
+}
+Containers and nodes use the same conceptual structure with a few variations (no coin, more rolls per open, etc.).
+
+7. Creature Loot Families (Greatwood 1–20)
+Below are the family templates used for Greatwood creatures. Individual mobs use these as base and then override specifics.
+
+7.1 Deer & Young Stag
+Typical mobs: gw_deer, gw_young_stag.
+
+Used to feed:
+
+deer_meat_raw, young_stag_cut
+
+Early stews and roasts from 52.
+
+Loot behavior:
+
+Guaranteed: 1x meat (scaled by Hunter butchery).
+
+Core roll: chance for extra meat, bone shards, simple herbs.
+
+Bonus: tiny chance at antler pieces and, in rare cases, sapstained_antler from certain spawn clusters.
+
+Example:
+
+lua
+Copy code
+LootTables_Creatures["gw_deer"] = {
+    coin = { min = 0, max = 3, chance = 0.35 },
+
+    guaranteed = {
+        { item = "deer_meat_raw", min = 1, max = 1, chance = 1.0 },
+    },
+
+    rolls = {
+        {
+            name = "extra_meat_or_bone",
+            rolls = 1,
+            entries = {
+                { item = "deer_meat_raw",      weight = 50, min = 1, max = 1 },
+                { item = "stringy_game_meat",  weight = 25, min = 1, max = 2 },
+                { item = "bone_shard_small",   weight = 15, min = 1, max = 1 },
+                { item = "nothing",            weight = 10, min = 0, max = 0 },
+            }
+        },
+        {
+            name = "herb_scraps",
+            rolls = 1,
+            entries = {
+                { item = "simple_herb_bundle", weight = 30, min = 1, max = 1 },
+                { item = "mossy_tongue",       weight = 20, min = 1, max = 1 },
+                { item = "nothing",            weight = 50, min = 0, max = 0 },
+            }
+        }
+    },
+
+    bonus_rolls = {
+        {
+            name = "antler_bits",
+            chance = 0.06,
+            entries = {
+                { item = "antler_fragment",        weight = 9, min = 1, max = 1 },
+                { item = "sapstained_antler",      weight = 1, min = 1, max = 1 },
+            }
+        }
+    },
+
+    world_drop = {
+        chance = 0.0005,
+        table  = "WORLD_UNCOMMON_GW",
+    }
+}
+Young stags are similar but with slightly higher chance of antler fragments and lean toward young_stag_cut instead of stringy_game_meat.
+
+7.2 Boar
+Mobs: gw_boar, gw_ember_tusk_boar.
+
+Drops:
+
+boar_meat_raw, rendered_boar_fat (via processing), tusks, scraps.
+
+Key use:
+
+Everyday stews, roasts, early Lodge cooking.
+
+Loot:
+
+Guaranteed: 1x boar_meat_raw.
+
+Core: extra meat/fat chance, tusks.
+
+Specialty: boar boss may drop a rare tusk trophy.
+
+7.3 Wolves, Dire Wolves, Greatwood Howler Family
+Mobs: gw_wolf, gw_dire_wolf, gw_greatwood_howler.
+
+Drops:
+
+lean_wolf_flank, dire_wolf_flank, pelts, fangs (howler_alpha_fang).
+
+Hooks:
+
+Stews: mobility / stamina foods.
+
+Brews: brew_howler_warbrew.
+
+Trophies: Howler ear fragment, throat bundle.
+
+Simplified example for a dire wolf:
+
+lua
+Copy code
+LootTables_Creatures["gw_dire_wolf"] = {
+    coin = { min = 0, max = 4, chance = 0.35 },
+
+    guaranteed = {
+        { item = "dire_wolf_flank", min = 1, max = 1, chance = 1.0 },
+    },
+
+    rolls = {
+        {
+            name = "wolf_bits",
+            rolls = 1,
+            entries = {
+                { item = "lean_wolf_flank", weight = 40, min = 1, max = 1 },
+                { item = "dire_wolf_flank", weight = 30, min = 1, max = 1 },
+                { item = "wolf_pelt_strip", weight = 20, min = 1, max = 1 },
+                { item = "nothing",         weight = 10, min = 0, max = 0 },
+            }
+        }
+    },
+
+    bonus_rolls = {
+        {
+            name = "howler_trophy_fragments",
+            chance = 0.02,
+            entries = {
+                { item = "wolf_fang", weight = 9, min = 1, max = 1 },
+                { item = "howler_alpha_fang", weight = 1, min = 1, max = 1 },
+            }
+        }
+    },
+
+    world_drop = {
+        chance = 0.0005,
+        table  = "WORLD_UNCOMMON_GW",
+    }
+}
+The Greatwood Howler (Hunt boss) uses a separate boss loot table (see section 8).
+
+7.4 River Hare & Small Game
+Mobs: gw_river_hare, gw_fox, gw_badger.
+
+Drops:
+
+river_hare_meat, light pelts, teeth.
+
+Small coin chance.
+
+Mostly feed:
+
+Chowders, stews, early armor scrap recipes.
+
+7.5 Forest Fowl & Blackfeather Grouse
+Mobs: gw_forest_fowl, gw_blackfeather_grouse.
+
+Key drops:
+
+forest_fowl_raw, blackfeather_grouse_meat, feathers.
+
+Use:
+
+Roasts, skillet dishes, early cooking “simple roast”.
+
+7.6 Ashen Beasts & Burn-Scar Creatures
+Mobs: gw_ashen_beast, gw_ashridden_wolf, burn-scar creatures.
+
+Core drops:
+
+ashen_beast_cut, ashcurl, ashwater_brine, emberleaf.
+
+Specialty:
+
+spec_ingr_ashen_beast_ember_core from named Ashen beasts (see Hunts).
+
+spec_ingr_charred_bone_fragment from skeletal / charred mobs.
+
+Their tables lean heavily into fire resist cooking and alchemy lines.
+
+7.7 Hollowroot Monsters
+Mobs: gw_hollowroot_tendril, gw_hollowroot_husk, gw_hollowroot_matron.
+
+Drops:
+
+hollowroot_core_chunk, hollowroot_resin, hollowroot_tonic_base, glowcap.
+
+Specialty:
+
+spec_ingr_hollowroot_heart_fiber
+
+spec_ingr_matron_root_eye
+
+spec_ingr_hollowroot_mire_sludge from pools and certain mobs.
+
+These heavily feed the corruption resist cooking / alchemy lines.
+
+7.8 Ward / Shadow Entities
+Mobs: gw_ward_spectral, gw_shadow_under_stone, corrupted wardlings.
+
+Drops:
+
+wardstone_bracket, wardstone_crust_flake, shadow essence.
+
+Specialty:
+
+spec_ingr_shadow_ward_core, spec_ingr_clipped_shadow_tendril from B121 encounters.
+
+These are the main delivery for ward reagents.
+
+8. Hunts & Boss Loot Framework
+Hunts and dungeons use a boss loot framework:
+
+Fixed number of:
+
+Core roll items (gear, coin, guaranteed materials).
+
+Specialty ingredient rolls (from 55).
+
+Trophy / decor pieces.
+
+They also often have access to the World Relic table (B143) at low chance.
+
+8.1 Elder Hollow Stag (Hunt)
+Core drops:
+
+elder_stag_meat × 2–4
+
+sapstained_antler × 1–2
+
+Specialty:
+
+Guaranteed (first kill): spec_ingr_elder_stag_marrow × 1
+
+Chance (with wardlight condition): spec_ingr_heartwood_antler_core
+
+Rare: spec_ingr_elder_stag_veil_hide
+
+Additional:
+
+Coin pouch, chance at stag-themed gear / appearance.
+
+Small chance of world relic roll.
+
+8.2 Ward-Bear Hunt
+Core:
+
+ward_bear_haunch × 2–4
+
+Specialty:
+
+spec_ingr_ward_bear_gelatin (guaranteed first, then chance)
+
+spec_ingr_ward_bear_spine_shard (25% chance)
+
+spec_ingr_old_warden_clot (one-time story reward)
+
+Hooks:
+
+Trophies via 57.
+
+Defensive stews and brews via 53 & 58.
+
+8.3 Hollowroot Matron (Hunt / Dungeon Boss)
+Core:
+
+High quantities of hollowroot_core_chunk, hollowroot_resin, glowcap.
+
+Specialty:
+
+spec_ingr_hollowroot_heart_fiber (first kill guaranteed, then chance)
+
+spec_ingr_matron_root_eye (very rare, channel-phase condition)
+
+spec_ingr_hollowroot_mire_sludge from environment
+
+Hooks:
+
+Strongest Hollowroot food and brews.
+
+Ward rituals and Lodge projects via 57.
+
+8.4 Black-Sap Devourer (B117)
+Core:
+
+black_sap_nodule, black_sap_reduction in consistent quantities.
+
+Specialty:
+
+spec_ingr_black_sap_seed_nodule (2x on first clear, then 1–2 with chance)
+
+spec_ingr_black_sap_eye_resin (rare)
+
+spec_ingr_sap_engorged_antler (conditional, stag-lure method)
+
+Hooks:
+
+Black Sap Purge and Insight brews.
+
+Black Sap kettle and gauntlets.
+
+Wall plaque trophy.
+
+8.5 Greatwood Howler (B119)
+Core:
+
+dire_wolf_flank, greatwood_howler_rib
+
+Specialty:
+
+spec_ingr_howler_throat_bundle (guaranteed first, then chance)
+
+spec_ingr_howler_ear_fragment (rare, mechanic condition)
+
+Hooks:
+
+Howler Warbrew and Pack Stew variants.
+
+Trophy and set gear for Hunters.
+
+8.6 Ragged King (B120)
+Core:
+
+ragged_king_shank (prime cut only if butchered correctly)
+
+ragged_king_bone_shard
+
+Specialty:
+
+spec_ingr_ragged_king_bone_shard (already special)
+
+spec_ingr_ragged_king_shank (elevated version)
+
+spec_ingr_ragged_king_ashen_fragment (ward-active condition)
+
+Hooks:
+
+Gravepot food and Wake Cake.
+
+Ragged King Quiet brew.
+
+Heavy trophies and ward echoes.
+
+8.7 Shadow Under the Wardstone (B121)
+Core:
+
+Ward / shadow essence, strong wardstone fragments.
+
+Specialty:
+
+spec_ingr_shadow_ward_core (one-time per character).
+
+spec_ingr_clipped_shadow_tendril (repeatable, events).
+
+Hooks:
+
+Late Greatwood ward rituals and future-region ward systems.
+
+9. Containers & Chests
+Containers use a simpler schema:
+
+lua
+Copy code
+LootTables_Containers["gw_ruin_chest_t1"] = {
+    coin = { min = 5, max = 20, chance = 1.0 },
+
+    rolls = {
+        {
+            name = "consumables",
+            rolls = 1,
+            entries = {
+                { item = "food_hunters_jerky",       weight = 35, min = 1, max = 2 },
+                { item = "food_simple_forest_fowl_roast", weight = 25, min = 1, max = 1 },
+                { item = "brew_bitterpine_stamina_draught", weight = 20, min = 1, max = 1 },
+                { item = "nothing",                 weight = 20, min = 0, max = 0 },
+            }
+        },
+        {
+            name = "mats",
+            rolls = 1,
+            entries = {
+                { item = "simple_herb_bundle", weight = 30, min = 1, max = 2 },
+                { item = "ground_barley_flour", weight = 20, min = 1, max = 2 },
+                { item = "greatwood_walnut",    weight = 20, min = 1, max = 2 },
+                { item = "nothing",             weight = 30, min = 0, max = 0 },
+            }
+        }
+    },
+
+    world_drop = {
+        chance = 0.002, -- better than regular mobs
+        table  = "WORLD_UNCOMMON_GW",
+    }
+}
+Types of containers:
+
+Camp Chests – bandit camps, hunter camps; mostly coin, rations, basic mats.
+
+Ruin Chests – ruins, caves; more likely to hold brews, recipes, relic fragments.
+
+Dungeon Coffers – end-of-wing chests; high chance of gear, brews, ingredients in bulk.
+
+Lodge Caches – rewards from Lodge projects and events; often profession-specific items.
+
+10. Profession Nodes & Gathering Drops
+Nodes are responsible for most herbs, mushrooms, and some roots. They also push profession fantasy.
+
+10.1 Herb Patch Nodes
+Node IDs: node_herb_forest_basic, node_herb_wardstone, etc.
+
+Example:
+
+lua
+Copy code
+LootTables_Nodes["node_herb_wardstone"] = {
+    rolls = {
+        {
+            name = "herbs",
+            rolls = 2,
+            entries = {
+                { item = "whisperfern",         weight = 35, min = 1, max = 2 },
+                { item = "bitterpine_needle",   weight = 30, min = 1, max = 3 },
+                { item = "simple_herb_bundle",  weight = 25, min = 1, max = 3 },
+                { item = "wardstone_bracket",   weight = 10, min = 1, max = 1 },
+            }
+        }
+    },
+
+    bonus_rolls = {
+        {
+            name = "rare",
+            chance = 0.05,
+            entries = {
+                { item = "wardstone_crust_flake", weight = 1, min = 1, max = 1 },
+            }
+        }
+    }
+}
+Forager tools (54) modify:
+
+rolls count.
+
+Chance of rare entries.
+
+10.2 Mushroom Nodes
+Node IDs: node_mushroom_forest, node_mushroom_hollowroot.
+
+Drop:
+
+Common caps, glowcap, embertruffle, etc.
+
+Hollowroot variant nodes are where:
+
+spec_ingr_hollowroot_mire_sludge can also be collected during events.
+
+10.3 Root & Tuber Nodes
+Node IDs: node_root_clearing, node_root_riverbank.
+
+Drop:
+
+stonepotato, white_ember_turnip, emberroot_tuber, riverreed_rhizome.
+
+Designed to support stews and travel foods.
+
+10.4 Fishing Nodes
+Node IDs: node_fish_river_basic, node_fish_ashstream, node_fish_storm.
+
+Regular:
+
+river_trout_fillet, river_hare_meat (small chance via bycatch), basic materials.
+
+Ashstream:
+
+ashstream_carp_fillet, ashwater_brine, ashcurl.
+
+Storm:
+
+Chance to yield spec_ingr_storm_caught_riverfish during thunderstorm events.
+
+11. World Drop Tables (Greatwood)
+World drop tables are small curated lists that can be rolled by multiple sources.
+
+Example:
+
+lua
+Copy code
+WORLD_UNCOMMON_GW = {
+    entries = {
+        { item = "recipe_scroll_hunters_bone_broth",  weight = 5 },
+        { item = "recipe_scroll_gw_game_stew",        weight = 5 },
+        { item = "alchemy_note_whisperfern_draught",  weight = 5 },
+        { item = "trinket_hunters_token_minor",       weight = 3 },
+        { item = "trinket_warded_charm_cracked",      weight = 2 },
+    }
+}
+Used by:
+
+Certain mobs (low chance).
+
+Chests (slightly higher).
+
+Bosses (highest chance, plus access to rarer tables later).
+
+Later tables (e.g. WORLD_RARE_GW) can hold:
+
+Early relic fragments (B143).
+
+Unique trinkets with small, flavorful bonuses.
+
+Very rare cosmetic items.
+
+12. Progression & Tuning Notes
+1–10 band
+
+Emphasis:
+
+Basic meats, roots, and herbs.
+
+Few specialties (most locked behind 10+ Hunts).
+
+Drop rates:
+
+Higher for basic ingredients, rarer for “weird” stuff.
+
+Goal:
+
+Players quickly understand:
+
+Deer = meat, wolves = meat + fangs, nodes = herbs/mushrooms.
+
+10–20 band
+
+Emphasis:
+
+Specialty ingredients from Hunts and events.
+
+Hollowroot, Ashen, ward reagents.
+
+Drop rates:
+
+Tightened for base ingredients (you now know what you’re doing).
+
+Specialty items show up in consistent but non-trivial quantities.
+
+Goal:
+
+Encourage players to engage Hunts, dungeons, Lodge projects, and profession roles.
+
+Bad Luck Protection Boundaries
+
+For each specialty ingredient from 55:
+
+Document a recommended “soft pity” range:
+
+e.g. spec_ingr_ashen_beast_ember_core: ramp chance after 5 Ashen boss kills.
+
+This data can live in a side table:
+
+SpecialtyPity_Greatwood.lua.
+
