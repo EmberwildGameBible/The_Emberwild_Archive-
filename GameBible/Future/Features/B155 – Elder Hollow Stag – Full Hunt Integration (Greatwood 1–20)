@@ -1,0 +1,700 @@
+# B155 – Elder Hollow Stag – Full Hunt Integration (Greatwood 1–20)
+
+## 0. Purpose
+
+Fully define the **Elder Hollow Stag** as a cornerstone Hunt for Greatwood:
+
+- Narrative role and fantasy
+- Unlock / questline flow
+- Arena layout and encounter phases
+- Profession roles (Hunter, Cook, Alchemist, Forager/Woodworker)
+- Core + specialty drops (51 / 55)
+- Loot rules alignment (B151)
+- Lodge projects & trophies (57)
+- Food & brew hooks (52, 53, 58)
+
+This file is the single reference for Elder Stag so you don’t have to cross-stitch 51/55/57/58 every time.
+
+---
+
+## 1. Role in Greatwood
+
+**Name:** Elder Hollow Stag  
+**Region:** Deep Greatwood groves, near Heartwood glades  
+**Band:** Mid Greatwood (recommended 12–18)  
+**Type:** Signature Hunt – iconic “forest guardian” encounter, not pure corruption
+
+### 1.1 Narrative Identity
+
+The Elder Hollow Stag is:
+
+- The **ancient heart** of Greatwood’s wild herds:
+  - Half-myth to villagers, half-real to Wardens.
+- A massive stag suffused with **Heartwood**:
+  - Antlers threaded with ambered sap and faint wardlight.
+- Not inherently malicious:
+  - It **rampages** when the forest is out of balance
+    (too many kills, ward disruption, Hollowroot spread etc.).
+
+It anchors:
+
+- “Pure forest” side of Greatwood, as a counterpoint to:
+  - Hollowroot Matron (corruption-plant horror),
+  - Black-Sap Devourer (corrupt sap beast).
+
+Mechanically it owns:
+
+- Heartwood/antler specialties:
+  - `spec_ingr_elder_stag_marrow`
+  - `spec_ingr_heartwood_antler_core`
+  - `sapstained_antler` family (55)
+- High-tier venison:
+  - `elder_stag_meat` (51)
+- Food lines:
+  - Feast and Lodge dishes centered on venison + heartwood (52/53)
+- Trophies & Lodge projects:
+  - Elder Stag antler mount, Heartwood decor (57)
+
+---
+
+## 2. Unlock & Questline Flow
+
+### 2.1 Recommended Placement
+
+Elder Stag should feel like the **first big “oh shit” Hunt**:
+
+- Less grotesque than Hollowroot/Black Sap,
+- More about respect for the forest and balance.
+
+It’s a great **first major Hunt** before the deeply corrupted stuff, IF the player:
+
+- Has done:
+  - Basic Hunts / contracts (wolves, boar, simple deer culls),
+  - Some Lodge cooking quests (56 – Ember Pot),
+  - Maybe a Wardstone visit.
+
+### 2.2 Questline Beats
+
+1. **“Too Many Bones”**
+   - Contract:
+     - Reports of overhunted clearings; deer vanish, wolves hungry.
+   - Player:
+     - Fulfills some standard culling contracts (boar/wolves).
+     - Notices **signs of something much larger** (hoofprints, scraped bark).
+
+2. **Whispered Tracks**
+   - NPC Hunter/Warden:
+     - Mentions “an older stag that should not be disturbed unless the forest is sick.”
+   - Player:
+     - Tracks huge hoof signs,
+     - Finds **ward-carved trees** and places where antlers have scored bark.
+
+3. **Sign of Imbalance**
+   - Ward NPC or Cook notes:
+     - Meat quality from normal deer is off.
+     - Foragers report:
+       - Trees bleeding sap in odd patterns near stag trails.
+   - Quest:
+     - Investigate three “sign sites”:
+       - One overhunted clearing,
+       - One Hollowroot seep,
+       - One broken wardstone.
+
+4. **Hunt Posting – “Elder Hollow Stag”**
+   - Once imbalance is clear:
+     - Board unlocks the named Hunt.
+   - Text emphasizes:
+     - This is as much **ritual and judgment** as it is a kill mission.
+
+5. **Aftermath**
+   - Depending on how the Hunt is completed:
+     - Dialogue can imply:
+       - The forest is quieter, more stable.
+       - Or that “something else will rise to replace him.”
+
+---
+
+## 3. Arena & Encounter Space
+
+### 3.1 Layout
+
+The arena is a **Greatwood heart grove**:
+
+- A wide forest hollow with:
+  - Central **Heartwood Tree** (massive trunk, faint glow).
+  - Several **standing stones** with old ward carvings.
+  - Thick underbrush and low fog.
+
+### 3.2 Functional Zones
+
+- **Heartwood Tree Area (Center)**
+  - Slight passive **regen / calm aura**:
+    - Lowers ambient damage,
+    - Might reduce the Stag’s aggression if used correctly.
+  - During the fight:
+    - Becomes focus for certain mechanics (Stag charges, ritual pulses).
+
+- **Standing Stones**
+  - 3–5 stones around the arena.
+  - Interactable:
+    - When activated in certain sequences:
+      - Create temporary safe zones,
+      - Influence Stag behavior (enrage vs calm).
+
+- **Brush / Understory**
+  - Tall grass / bushes:
+    - Can hide **Stag telegraphs** if players aren’t careful.
+  - Some clusters:
+    - Can be burned / cleared (Ashen synergy) for safer sight lines.
+
+---
+
+## 4. Boss: Elder Hollow Stag – Behavior & Phases
+
+**Category:** Beast / Heartwood-touched Guardian  
+**Fight Length Target:** ~3–6 minutes
+
+### 4.1 Core Themes
+
+- **Momentum and space control**:
+  - Charges, sweeps, repositioning.
+- **Judgment of the forest**:
+  - Fight slightly changes based on the group’s previous behavior (optional later system).
+- **Ward / Heartwood interplay**:
+  - Standing stones can calm or enrage.
+
+---
+
+### 4.2 Baseline Attacks
+
+Present across phases:
+
+- **Gore Charge**
+  - Long, telegraphed line charge.
+  - Heavy damage, knocks players aside.
+  - Leaves a **furrow** in the ground:
+    - Slight terrain groove (slows or redirects movement).
+
+- **Antler Sweep**
+  - Short-range circular sweep.
+  - Pushback around the Stag.
+
+- **Hoof Stomp**
+  - Local AoE stomp:
+    - Mini shockwave,
+    - May disturb nearby foliage or spawn “bramble spikes”.
+
+- **Heartwood Snort**
+  - Emits a wave of pollen / light:
+    - Either minor buff to the Stag
+    OR minor debuff to players (e.g., brief slow or blurry vision).
+
+---
+
+### 4.3 Phase 1 – The First Rush
+
+**Trigger:** Fight start, HP 100% → ~70%
+
+- The Stag is highly mobile, testing group positioning.
+
+Mechanics:
+
+- **Aggressive Charges**
+  - Alternates Gore Charge with Antler Sweep.
+  - Goes after:
+    - Highest threat,
+    - Players who stand near the Heartwood Tree too long.
+
+- **Ground Furrows**
+  - Each charge:
+    - Leaves temporary grooves:
+      - Slight slow,
+      - Visual clutter.
+  - If furrows cross:
+    - Create **small bramble clusters** (extra obstacles).
+
+- **Standing Stone Reaction**
+  - If a player activates a nearby standing stone during this phase:
+    - Short calming flare:
+      - Reduces Stag damage for a brief window,
+      - Also slightly reduces player damage to Stag.
+  - Encourages learning stones as a **control** tool, not just a buff.
+
+Goal:
+
+- Teach:
+  - Read telegraphs,
+  - Manage arena space,
+  - Use stones for control, not pure advantage.
+
+---
+
+### 4.4 Phase 2 – Heartwood Glow
+
+**Trigger:** HP around 70% → ~35%
+
+The Stag’s antlers and chest begin to **glow with Heartwood light**.
+
+New/amped mechanics:
+
+- **Heartwood Charge**
+  - Charge lines now leave **glowing vein trails**:
+    - Standing in them:
+      - Slight damage,
+      - But can be used to **activate** certain standing stones if crossed.
+
+- **Heartwood Beam (Antler Burst)**
+  - The Stag rears and fires a short sweeping beam of light between antler tips.
+  - It:
+    - Damages,
+    - Temporarily “marks” the ground:
+      - Marked zones become **calm patches**:
+        - Reduced ambient damage over time,
+        - But may draw focus of later attacks.
+
+- **Forest Call (Adds)**
+  - Summons 2–3:
+    - Elite deer / smaller stags, or protective beasts.
+  - They:
+    - Charge, apply slows,
+    - May attempt to **body block** players from Heartwood zones.
+
+- **Stone Patterns**
+  - If players activate **two specific stones in sequence**:
+    - The Stag reacts:
+      - Either:
+        - Momentarily stunned (“calming pattern”), or
+        - Goes into a short Enraged Rush if “wrong” pattern triggered.
+  - This can be used to set up heart-burst windows.
+
+Goal:
+
+- Get players to:
+  - Think about **patterns** on the stones,
+  - Control the fight pace instead of only reacting.
+
+---
+
+### 4.5 Phase 3 – Judgment & Antler Shatter
+
+**Trigger:** HP around ~35% → 0%
+
+The Stag is wounded, fight turns more emotional and dangerous.
+
+New/amped mechanics:
+
+- **Judgment Roar**
+  - On entering phase 3, the Stag roars:
+    - Creates a **ring of pressure** expanding from the Heartwood Tree.
+    - Players must:
+      - Dodge gaps in the wave,
+      - OR stand near specific lit stones to avoid it.
+
+- **Fractured Antler**
+  - As HP drops further:
+    - One antler fractures (visually),
+    - Pieces of **antler shard** embed in the ground:
+      - These shards:
+        - Hurt to step on,
+        - But can be collected **after the fight** (trophy / reagent).
+
+- **Rapid Charges**
+  - Charges become shorter but more frequent.
+  - If charges pass through too many calm Heartwood zones:
+    - Stag begins to **overcharge**:
+      - Gains damage and speed, but also takes extra damage temporarily.
+
+- **“Mercy” Option (Optional Future Mechanic)**
+  - If players **stop attacking** when Stag reaches very low HP and instead:
+    - Activate all standing stones in a certain calm pattern:
+      - The Stag might:
+        - Flee instead of die,
+        - Leaving behind some **non-lethal rewards** (rare reagents, different trophy).
+  - For now, treat this as a possible future alt-resolution system.
+
+Goal:
+
+- Big, emotionally loaded finish:
+  - You’re butchering a symbol of the forest.
+  - Ideally, the fight feels like **a hard choice**, not a simple boss kill.
+
+---
+
+## 5. Specialty Mechanics & Drops
+
+### 5.1 `spec_ingr_elder_stag_marrow`
+
+**Item:** `spec_ingr_elder_stag_marrow` (55)  
+**Fantasy:** Deep, glowing marrow from the Stag’s long-grown bones.
+
+**Mechanic:**
+
+- First kill:
+  - Guaranteed 1 x `spec_ingr_elder_stag_marrow` on the corpse.
+- Later kills:
+  - Drop chance linked to:
+    - How **cleanly** the fight was executed:
+      - Fewer environmental destruction,
+      - Less unnecessary standing in Heartwood zones,
+      - Potential optional conditions (stones in calming sequence at kill).
+
+Uses:
+
+- High-tier Lodge dishes:
+  - Strong max HP / stamina buffs.
+- Rare alchemy:
+  - Long-duration vitality brews.
+
+---
+
+### 5.2 `spec_ingr_heartwood_antler_core`
+
+**Item:** `spec_ingr_heartwood_antler_core` (55)  
+**Fantasy:** Dense, ambered core from one of the Elder’s antlers.
+
+**Mechanic (Conditional):**
+
+- During phase 3, when **Fractured Antler** occurs:
+  - Several antler shards stick into the ground.
+- If players:
+  - Avoid **destroying** those shards with AoE,
+  - Finish the fight with **at least one intact shard** near the Heartwood Tree,
+- Then:
+  - Extra loot roll → chance to convert that shard into `spec_ingr_heartwood_antler_core` at the Lodge (via a post-Hunt project or tool interaction), OR direct drop.
+
+Alternate hook:
+
+- Could be:
+  - Extremely low chance on normal kills,
+  - Significantly boosted if players do proper antler-aware play.
+
+Uses:
+
+- High-end Lodge trophy and fixture projects (57).
+- Powerful ward-adjacent brews and charms.
+
+---
+
+### 5.3 `sapstained_antler` Family
+
+From 51 + 55, we have `sapstained_antler` as a rare-ish antler variant.
+
+- In this Hunt:
+  - The Elder can drop:
+    - 1–2 `sapstained_antler` on non-perfect kills.
+  - Combined with:
+    - Antler fragments from lesser stags in the arena (if present).
+
+Uses:
+
+- Trophy decor.
+- Lower-tier Heartwood crafts or charms.
+
+---
+
+## 6. Profession Roles
+
+### 6.1 Hunter
+
+- Pre-fight:
+  - Tracks hoofprints, marks stag routes on map.
+  - May do pre-Hunt contract of:
+    - Thinning wolves/boar in surrounding region.
+
+- During fight:
+  - Main aggression manager:
+    - Keeps the Stag from barreling through the entire party.
+  - Guides:
+    - Charge direction,
+    - Where furrows and brambles form.
+
+- Post-fight:
+  - Carves:
+    - `elder_stag_meat` (51),
+    - Antlers,
+    - Marrow (if using extended carving interactions).
+
+---
+
+### 6.2 Cook
+
+- Pre-fight:
+  - Provides:
+    - Max HP meats,
+    - Stamina / movement dishes.
+  - Uses:
+    - Deer / boar / stag meat,
+    - Roots like `stonepotato`, `white_ember_turnip`.
+
+- Post-fight:
+  - Uses:
+    - `elder_stag_meat` for high-end Lodge dishes.
+    - `spec_ingr_elder_stag_marrow` for signature feasts:
+      - Example: “Elder Stag Marrow Feast” buffing vitality, heavy but lasting.
+
+---
+
+### 6.3 Alchemist
+
+- Pre-fight:
+  - Brews to:
+    - Boost stamina for kiting,
+    - Increase perception (easier to see telegraphs in brush),
+    - Resist minor nature/magic damage.
+
+- During fight:
+  - Uses:
+    - Clarity-style draughts to cut through pollen/fog effects.
+    - Minor heal-over-time brews.
+
+- Post-fight:
+  - Uses:
+    - `spec_ingr_heartwood_antler_core` for wardline brews.
+    - Possibly mixes `elder_stag_marrow` into rare vitality tonics.
+
+---
+
+### 6.4 Forager / Woodworker
+
+- Pre-fight:
+  - Scans grove:
+    - Clears dangerous brush,
+    - Identifies which standing stones are safe to use.
+
+- During fight:
+  - Optionally:
+    - Interacts with stones,
+    - Manages small environmental tools (placing simple markers/wards).
+
+- Post-fight:
+  - Collects:
+    - Bark, moss, and small Heartwood shards for decor.
+  - Crafts:
+    - Antler plaques,
+    - Heartwood shelf/fixture for Lodge.
+
+---
+
+## 7. Rewards Integration
+
+### 7.1 Ingredient Mapping (51 / 55)
+
+From Elder Stag you get:
+
+**Base Ingredients (51):**
+
+- `elder_stag_meat` (prime venison)
+- `sapstained_antler` (upgraded antler variant)
+- Bone shards, antler fragments, etc.
+
+**Specialties (55):**
+
+- `spec_ingr_elder_stag_marrow`
+- `spec_ingr_heartwood_antler_core`
+
+### 7.2 Loot Rules Alignment (B151)
+
+High-level behavior, consistent with B151’s boss section:
+
+- **Guaranteed:**
+  - 2–4 `elder_stag_meat`
+  - 1–2 `sapstained_antler`
+  - Coin appropriate to mid-Greatwood Hunt.
+
+- **Specialty:**
+  - `spec_ingr_elder_stag_marrow`:
+    - Guaranteed on first kill.
+    - Later: moderate chance, possibly influenced by fight cleanliness / stone usage.
+  - `spec_ingr_heartwood_antler_core`:
+    - Rare,
+    - Tied to **antler shard mechanic**.
+
+- **World Drop:**
+  - Low chance for:
+    - Rare recipes or trinkets from `WORLD_UNCOMMON_GW`.
+
+---
+
+## 8. Lodge Projects & Trophies (57)
+
+### 8.1 Elder Stag Antler Mount
+
+**Project:** `proj_trophy_elder_stag_antler_mount` (already sketched in 57)
+
+Inputs:
+
+- `spec_ingr_heartwood_antler_core` × 1
+- `sapstained_antler` × 2
+- Greatwood lumber, metal fittings
+
+Effects:
+
+- Trophy placed in Trophy Hall:
+  - Passive:
+    - Small Hunt Contract reward boost for stag/deer-related hunts.
+    - Minor Lodge reputation buff with Hunt NPCs.
+
+---
+
+### 8.2 Heartwood Reading Nook / Shelf (Optional Fixture)
+
+Optional Lodge fixture project:
+
+- **Project ID:** `proj_lodge_heartwood_shelf`
+- Inputs:
+  - Heartwood scrap (from antler core, tree bark),
+  - Antler fragments,
+  - Simple lumber / cloth.
+
+Effects:
+
+- Lodge decor:
+  - A small shelf or nook with Heartwood motifs.
+- Mechanics:
+  - Tiny passive boost to **“forest-aligned” professions**:
+    - Forager / Hunter skill gains,
+    - Or small XP boost for early Greatwood profession actions done in Lodge.
+
+---
+
+### 8.3 Feast: Elder Stag Harvest
+
+Tie into 53’s advanced dishes:
+
+- Feast dish: `feast_elder_stag_harvest`
+  - Uses:
+    - `elder_stag_meat`,
+    - Roots, herbs, optional marrow.
+
+Lodge Feast Project:
+
+- **Project ID:** `proj_feast_elder_stag_harvest`
+- Effects:
+  - Group buff:
+    - Max HP & stamina bonuses,
+    - Slight increase in **Hunt contract reward quality** for a duration.
+  - Visual:
+    - Long table with venison roasts, marrow bones, vegetables.
+
+---
+
+## 9. Food & Brew Hooks (52, 53, 58)
+
+### 9.1 Food Hooks
+
+Elder Stag meat funnels into:
+
+- High tier roasts / stews:
+  - “Elder Stag Roast on Stones”:
+    - High HP + moderate stamina buff.
+  - “Heartwood Marrow Pot”:
+    - HP and regen over long period, strong but expensive.
+
+Marrow used to:
+
+- Upgrade normal venison dishes:
+  - “Marrow-Laced Venison Stew”
+    - Adds extra buff, possibly small ward synergy.
+
+### 9.2 Brew Hooks
+
+Antler core + marrow can be used (via 58) for:
+
+- `brew_heartwood_vitality_draught`:
+  - Max HP & regen brew, limited charges.
+- `brew_heartwood_wardchime_tonic`:
+  - Minor ward synergy brew:
+    - Helps against some future wardline threats,
+    - Or interacts gently with Wardstone content.
+
+---
+
+## 10. Codex & UI
+
+### 10.1 Codex Entries
+
+- **Elder Hollow Stag – Creature**
+  - Describes:
+    - Myth, behavior, and role.
+  - Updates:
+    - After first tracks found,
+    - After first full Hunt clear.
+
+- **Heartwood & Antlers – Substance**
+  - Explains:
+    - Heartwood as a concept,
+    - How it ties to wards and forest health.
+
+### 10.2 Hunt Board Presentation
+
+Posting should:
+
+- Emphasize:
+  - This is an honored target, not just a beast.
+  - Recommended level/gear.
+- Suggest:
+  - Bringing:
+    - Hunter,
+    - Cook,
+    - At least one support (Alchemist or Forager),
+    - Because it’s about **survival + positioning**, not pure burn.
+
+Icons:
+
+- Stag/head icon.
+- Small trophy icon (for mount).
+- Small food icon (for feasts).
+
+---
+
+## 11. Difficulty & Replay
+
+### 11.1 First Kill
+
+- Generous:
+  - Guaranteed marrow.
+  - Strong venison supply.
+  - Unlock:
+    - Elder Stag recipes,
+    - Antler mount project,
+    - Some Heartwood brews.
+
+### 11.2 Farming
+
+- Repeat runs:
+  - Moderate:
+    - Additional `elder_stag_meat` for Lodge food.
+    - Occasional extra marrow.
+  - Low:
+    - Antler core (for trophy / advanced crafts).
+
+Ideal use:
+
+- Occasional re-Hunts to restock Lodge feasts.
+- Not a daily spam boss – more of a “sacred” repeatable.
+
+---
+
+## 12. Implementation Notes (Future You)
+
+This doc defines:
+
+- The story, arena, phases, specialty mechanics,
+- Who gets what and why.
+
+In data/code, it ties to:
+
+- B151 loot tables:
+  - `gw_deer`, `gw_young_stag` families,
+  - `gw_elder_stag` boss table with marrow & antler core.
+- 51 / 55 ingredient and specialty definitions.
+- 52 / 53 recipe grids (venison dishes, feasts).
+- 57 trophy & feast projects.
+
+When you eventually implement Elder Stag in game:
+
+- Use B155 as checklist:
+  - Arena built & matches vibe? ✔
+  - Charges, stones, antler mechanics present? ✔
+  - Drops align with ingredient IDs? ✔
+  - Lodge trophies, food, and brews actually consume these reagents? ✔
