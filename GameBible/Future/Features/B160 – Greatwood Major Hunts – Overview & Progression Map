@@ -1,0 +1,460 @@
+# B160 – Greatwood Major Hunts – Overview & Progression Map
+
+## 0. Purpose
+
+This file is the **big-picture map** of all major Hunts in Greatwood 1–20 and how they fit together:
+
+- Narrative roles and themes
+- Recommended progression and gating
+- How each Hunt ties into:
+  - Ingredients & specialties (51, 55)
+  - Professions & tools (54)
+  - Recipes & brews (52, 53, 58)
+  - Lodge projects & rituals (57)
+  - Loot system (B151)
+
+When you are thinking, “Which Hunts are actually in Greatwood and why do they matter?”, this is where you start.
+
+It is not a replacement for the individual integration files:
+
+- B153 – Black-Sap Devourer – Full Hunt Integration  
+- B154 – Hollowroot Matron – Full Hunt Integration  
+- B155 – Elder Hollow Stag – Full Hunt Integration  
+- B156 – Ward-Bear – Full Hunt Integration  
+- B157 – Greatwood Howler – Full Hunt Integration  
+- B158 – Ragged King – Full Hunt Integration  
+- B159 – Shadow Under the Wardstone – Full Hunt Integration  
+
+Instead, B160 tells you how those seven fit together into **one coherent Greatwood 1–20 arc**.
+
+---
+
+## 1. The Greatwood Major Hunt Roster
+
+These are the seven “big, named” Hunts for Greatwood 1–20:
+
+1. **Elder Hollow Stag** (B155) – Forest balance, vitality, Heartwood  
+2. **Ward-Bear** (B156) – Wardstone guardian, physical defense, knockback  
+3. **Greatwood Howler** (B157) – Alpha wolf, pack pressure, warbrew  
+4. **Hollowroot Matron** (B154) – Hollowroot infestation, corruption pockets  
+5. **Black-Sap Devourer** (B153) – Black Sap consumption, wardline rot  
+6. **Ragged King** (B158) – Ash, old hunts, bone and ember  
+7. **Shadow Under the Wardstone** (B159) – Wardstone Hill shadow/ward failure
+
+They are not linear in a strict “1–7” order, but they do have **recommended bands** and **narrative weight**, which this doc lays out.
+
+---
+
+## 2. Recommended Progression & Level Bands
+
+This is a **design recommendation**, not a hard rule. It ensures:
+
+- The player sees the forest, its guardians, its predators, its corruption, and its consequences in a logical arc.
+- Power spikes and reward spikes feel earned.
+
+### 2.1 Level Bands
+
+Approximate recommended ranges:
+
+- **Mid Greatwood (12–18)**:
+  - Elder Hollow Stag
+  - Greatwood Howler
+
+- **Mid–Late Greatwood (14–20)**:
+  - Ward-Bear
+  - Hollowroot Matron
+
+- **Late Greatwood (16–20)**:
+  - Black-Sap Devourer
+  - Ragged King
+  - Shadow Under the Wardstone
+
+### 2.2 Suggested Order (Soft Path)
+
+A sensible narrative/combat path might look like:
+
+1. **Elder Hollow Stag** – learn forest balance, Heartwood, and the idea that “the forest has a will”.
+2. **Greatwood Howler** – experience predator pressure, pack mechanics, and warbrew fantasy.
+3. **Ward-Bear** – step into ward/defense identity and knockback-heavy combat.
+4. **Hollowroot Matron** – dive into Hollowroot pockets and understand corruption as a systemic thing.
+5. **Black-Sap Devourer** – escalate corruption into Black Sap and heavy wardline strain.
+6. **Ragged King** – confront the accumulated consequences of old hunts, bones, and ash.
+7. **Shadow Under the Wardstone** – clean out the core of Wardstone Hill; resolve late-Greatwood ward storyline.
+
+Nothing stops you from rearranging these, but if nothing else is specified:
+
+- Stag + Howler are “early majors”.
+- Ward-Bear + Matron are “middle majors”.
+- Devourer + Ragged King + Shadow are “late majors”.
+
+---
+
+## 3. Quick Reference – Hunts at a Glance
+
+Short table for design reading:
+
+| Hunt                         | Band    | Theme                              | Core Specialties / Reagents (55/51)                            | Primary System Hooks                                      |
+|-----------------------------|---------|------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------|
+| Elder Hollow Stag (B155)    | 12–18   | Forest balance, Heartwood, vitality| `spec_ingr_elder_stag_marrow`, `spec_ingr_heartwood_antler_core`, `elder_stag_meat`, `sapstained_antler` | Vitality feasts, Heartwood trophies, forest-ward brews   |
+| Greatwood Howler (B157)     | 14–20   | Pack predator, fear, warbrew       | `spec_ingr_howler_throat_bundle`, `spec_ingr_howler_ear_fragment`, `dire_wolf_flank`, `greatwood_howler_rib` | Warbrew, pack-feast buffs, Hunter war trophies           |
+| Ward-Bear (B156)            | 14–20   | Ward guardian, defense, knockback  | `spec_ingr_ward_bear_gelatin`, `spec_ingr_ward_bear_spine_shard`, `spec_ingr_old_warden_clot`, `ward_bear_haunch` | Guardian totems, ward rituals, defensive food and brews  |
+| Hollowroot Matron (B154)    | 15–20   | Hollowroot pockets, plant corruption| `spec_ingr_hollowroot_heart_fiber`, `spec_ingr_matron_root_eye`, `spec_ingr_hollowroot_mire_sludge`, `hollowroot_core_chunk`, `hollowroot_resin` | Hollowroot Expedition crates, shrine, strong anti-corruption loop |
+| Black-Sap Devourer (B153)   | 16–20   | Black Sap, overfeeding corruption  | `spec_ingr_black_sap_seed_nodule`, `spec_ingr_black_sap_eye_resin`, `spec_ingr_sap_engorged_antler`, `black_sap_nodule`, `black_sap_reduction` | Black-Sap brews, trophies, potent wardline interactions  |
+| Ragged King (B158)          | 18–20   | Ash, bones, old hunts, ember anger | `spec_ingr_ragged_king_bone_shard`, `spec_ingr_ragged_king_shank`, `spec_ingr_ragged_king_ashen_fragment`, `ragged_king_bone_shard`, `ragged_king_shank` | Bone throne, ash pyre, top-tier marrow/ash food and brews|
+| Shadow Under Wardstone (B159)| 18–20 | Ward failure, shadow, mind pressure| `spec_ingr_shadow_ward_core`, `spec_ingr_clipped_shadow_tendril`, `wardstone_bracket`, `wardstone_crust_flake`, `shadow_essence_minor/major` | Shadow-ward focus, renewal rites, ward/stealth brews     |
+
+Use this when you need to decide:
+
+- “Which Hunt should own this new ingredient or project?”
+- “Which fight theme matches this new mechanic?”
+
+---
+
+## 4. Relation to Core System Files
+
+These seven Hunts sit on top of the **system spine** defined in:
+
+- **51 – Greatwood Ingredient Taxonomy**
+- **52 – Early Cooking Recipe Grid**
+- **53 – Advanced Cooking & Signature Lodge Dishes**
+- **54 – Profession Tools & Gear Sets**
+- **55 – Specialty Ingredients from Hunts, Bosses, and Events**
+- **57 – Profession Combo Recipes & Lodge Projects**
+- **58 – Alchemy Stub: Hunter Tonics, Balms, and Brews**
+- **B151 – Greatwood Loot & Drop System (1–20)**
+
+Each Hunt is essentially:
+
+- A **bundle** of:
+
+  - Creature/encounter design,
+  - A subset of 51 (base ingredients),
+  - A subset of 55 (specialties),
+  - Pointers into 52/53/58 (food/brews),
+  - Entrypoints into 57 (projects, trophies, rituals),
+  - And entries in B151 (actual loot tables).
+
+### 4.1 Which Hunts Own What Themes
+
+High-level ownership:
+
+- **Forest / Heartwood / balance:**
+  - Elder Hollow Stag (B155)
+- **Predators / war / pack:**
+  - Greatwood Howler (B157)
+- **Ward guardianship / physical defense:**
+  - Ward-Bear (B156)
+- **Plant corruption / Hollowroot:**
+  - Hollowroot Matron (B154)
+- **Black Sap / corrupt sap:**
+  - Black-Sap Devourer (B153)
+- **Ash / old hunts / bones:**
+  - Ragged King (B158)
+- **Wardstone failure / shadow:**
+  - Shadow Under Wardstone (B159)
+
+When adding new content, you can ask:
+
+> “Which Hunt’s theme is this closest to?”  
+> Then attach the new ingredient/project to that Hunt’s ecosystem.
+
+---
+
+## 5. Progression Web – How Hunts Unlock Each Other
+
+This section is a **design sketch** of how Hunts could unlock or reference each other. You don’t have to implement every gate exactly, but it’s useful as a mental model.
+
+### 5.1 Early Majors Feed the Mid
+
+- **Elder Hollow Stag** unlocks or nudges:
+  - Ward NPC dialogue about balance and Heartwood.
+  - Early leads that later point toward Ward-Bear and Matron.
+
+- **Greatwood Howler** unlocks or nudges:
+  - Warbrew line in 58.
+  - Hunter conversations that reference Ward-Bear and Ragged King:
+    - (“There are worse things than wolves when the bones start walking.”)
+
+### 5.2 Mid Majors Feed Corruption & Wardlines
+
+- **Ward-Bear**:
+  - Bridges:
+
+    - Wardstone Hill story,
+    - Defensive food/brews,
+    - Guardian totem projects in 57.
+
+  - Flags:
+
+    - “The wards are under pressure from Hollowroot and something under the Hill.”
+
+- **Hollowroot Matron**:
+  - Solidifies Hollowroot as:
+
+    - A systemic threat (pockets and Matron heart),
+    - A source of anti-corruption reagents (cores, heart fiber).
+
+  - Points toward:
+
+    - Black-Sap Devourer (sap thickening in certain Hollowroot-heavy areas),
+    - Ragged King (bones and sludge mixing in barrow regions).
+
+### 5.3 Late Majors Close Out the Region
+
+- **Black-Sap Devourer**:
+  - Asserts:
+
+    - Black Sap as the extreme corruption end of tree/sap systems.
+
+  - Naturally connects back to:
+
+    - Ward-Bear (wardlines under strain),
+    - Hollowroot Matron (Hollowroot and Sap colliding),
+    - Shadow Under Wardstone (wards failing due to internal corruption).
+
+- **Ragged King**:
+  - Ties:
+
+    - All prior Hunts’ bone and ash leftover together.
+
+  - Logically feels like:
+
+    - A “capstone consequence” of too many Hunts and old wars.
+
+- **Shadow Under the Wardstone**:
+  - Ties:
+
+    - Ward-Bear’s ward focus,
+    - Matron/Devourer’s corruption headaches,
+    - Ragged King’s “forest memory” theme.
+
+  - Leaves the region in:
+
+    - A stabilized state (for now) after you clear it.
+
+---
+
+## 6. System Loops by Hunt
+
+This section highlights **what loops each Hunt primarily feeds**.
+
+When you need to design new content, match it to appropriate loop(s).
+
+### 6.1 Elder Hollow Stag – Vitality & Heartwood Loop
+
+Core loops:
+
+- Forest-heart narrative.
+- Heartwood ingredients and specialties:
+  - `elder_stag_meat`, `sapstained_antler`, `spec_ingr_elder_stag_marrow`, `spec_ingr_heartwood_antler_core`.
+- Lodge outputs:
+  - Vitality feasts – big HP/regen increases.
+  - Heartwood trophies and fixtures – gentle ward/forest synergy.
+- Mechanically:
+
+  - Emphasizes dodge/positioning vs charges,
+  - Encourages calm but precise gameplay.
+
+Use this Hunt for:
+
+- New Heartwood-themed items,
+- High-end HP/vitality recipes,
+- “Honored Hunt” style content.
+
+---
+
+### 6.2 Greatwood Howler – Warbrew & Pack Loop
+
+Core loops:
+
+- Predator/pack narrative.
+- Howler/pack specialties:
+  - `dire_wolf_flank`, `greatwood_howler_rib`, `spec_ingr_howler_throat_bundle`, `spec_ingr_howler_ear_fragment`.
+- Lodge outputs:
+  - Warbrew station upgrades,
+  - War-feasts that buff group damage, crit, stamina.
+  - Trophies / war banners for pack-themed parties.
+
+Use this Hunt for:
+
+- Group aggression mechanics,
+- New war-themed food/brews,
+- Hunter prestige trophies.
+
+---
+
+### 6.3 Ward-Bear – Guardian & Ward Loop
+
+Core loops:
+
+- Old guardian narrative near Wardstone Hill.
+- Ward-bear specialties:
+  - `ward_bear_haunch`, `spec_ingr_ward_bear_gelatin`, `spec_ingr_ward_bear_spine_shard`, `spec_ingr_old_warden_clot`.
+- Lodge outputs:
+  - Guardian Totem,
+  - Ward stabilization offerings,
+  - Defensive food and tonics.
+
+Use this Hunt for:
+
+- Knockback / stagger resistance content,
+- Ward-stabilization rituals,
+- “Defensive tank” fantasy.
+
+---
+
+### 6.4 Hollowroot Matron – Hollowroot & Expedition Loop
+
+Core loops:
+
+- Hollowroot pockets and infestation.
+- Matron specialties:
+  - `hollowroot_core_chunk`, `hollowroot_resin`, `hollowroot_tonic_base`, `spec_ingr_hollowroot_heart_fiber`, `spec_ingr_matron_root_eye`, `spec_ingr_hollowroot_mire_sludge`.
+- Lodge outputs:
+  - Hollowroot Expedition Crate,
+  - Hollowroot Expedition send-off feasts,
+  - Hollowroot shrine fixtures.
+
+Use this Hunt for:
+
+- Expansion of corruption-pocket content,
+- Expedition-focused upgrades,
+- Strong anti-corruption systems and pockets meta.
+
+---
+
+### 6.5 Black-Sap Devourer – Black Sap & Wardline Risk Loop
+
+Core loops:
+
+- Black Sap overfeeding corruption theme.
+- Devourer specialties:
+  - `black_sap_nodule`, `black_sap_reduction`, `spec_ingr_black_sap_seed_nodule`, `spec_ingr_black_sap_eye_resin`, `spec_ingr_sap_engorged_antler`.
+- Lodge outputs:
+  - Black-Sap trophies and plaques,
+  - Black-Sap handling gear (gauntlets, upgraded kettles),
+  - Very strong risk-reward brews.
+
+Use this Hunt for:
+
+- Heavier corruption/ward interplay,
+- Reagents that feed the highest-tier anti-corruption or “dangerous power” brews,
+- Late Greatwood difficulty spikes.
+
+---
+
+### 6.6 Ragged King – Bone, Ash, and Memory Loop
+
+Core loops:
+
+- Old hunts / bone and ash coalescing.
+- Ragged King specialties:
+  - `ragged_king_bone_shard`, `ragged_king_shank`, `spec_ingr_ragged_king_bone_shard`, `spec_ingr_ragged_king_shank`, `spec_ingr_ragged_king_ashen_fragment`.
+- Lodge outputs:
+  - Ragged King bone throne,
+  - Ash pyre brazier,
+  - Ancestor Hunt memorial project.
+
+Use this Hunt for:
+
+- Very strong marrow/bone-based food and brews,
+- Region prestige/trophy projects,
+- Late-tier ash-based effects and rituals.
+
+---
+
+### 6.7 Shadow Under the Wardstone – Ward/Shadow Hybrid Loop
+
+Core loops:
+
+- Ward failure, shadow entity under Wardstone Hill.
+- Shadow/Ward specialties:
+  - `wardstone_bracket`, `wardstone_crust_flake`, `shadow_essence_minor`, `shadow_essence_major`, `spec_ingr_shadow_ward_core`, `spec_ingr_clipped_shadow_tendril`.
+- Lodge outputs:
+  - Shadow-Ward Focus,
+  - Clipped Tendril lanterns,
+  - Wardstone Renewal rite.
+
+Use this Hunt for:
+
+- Wardstone Hill endgame in Greatwood,
+- Hybrid ward/stealth or ward/vision content,
+- Region-level ward stabilization projects.
+
+---
+
+## 7. Player Experience Arc
+
+This is the “emotional curve” if a player does most or all Hunts in a sensible order.
+
+1. **Curiosity and respect** – Elder Hollow Stag  
+   Player learns the forest is not just a resource; it has “elders” and balance.
+
+2. **Paranoia and pack fear** – Greatwood Howler  
+   Player experiences being hunted, not just hunting.
+
+3. **Stability and guardianship** – Ward-Bear  
+   Player sees that some big things are actually protecting them and the wards.
+
+4. **Creeping corruption** – Hollowroot Matron  
+   Player confronts systemic plant corruption forming pockets underground.
+
+5. **Active devouring corruption** – Black-Sap Devourer  
+   Player faces corruption that is mobile, hungry, and hostile to wards.
+
+6. **Consequences and memory** – Ragged King  
+   Player faces the echo of countless kills and fires; the forest “remembers”.
+
+7. **Resolution and cleansing** – Shadow Under the Wardstone  
+   Player finally deals with the rot under Wardstone Hill and sets the stage for what comes after Greatwood.
+
+Use this when writing:
+
+- Quest text,
+- NPC reactions,
+- Region-level changes after each Hunt.
+
+---
+
+## 8. Implementation Notes – Data & Structure
+
+When you later translate this into actual data/code:
+
+- Each Hunt should have:
+
+  1. A **Hunt definition**:
+     - ID, name, recommended level, theme tags.
+  2. An **encounter definition**:
+     - Phases, abilities, arena hooks (from B153–B159).
+  3. A set of **loot table entries** in B151:
+     - Creature IDs, guaranteed/core/bonus/world drops.
+  4. A mapping to:
+     - Ingredients in 51,
+     - Specialties in 55,
+     - Recipes in 52/53,
+     - Brews in 58,
+     - Projects/rituals in 57.
+
+- B152 (Greatwood 1–20 Systems Index) + B160 (this file) act together as:
+
+  - The “map” for:
+    - Systems (B152),
+    - Hunts (B160).
+
+If you ever feel like:
+
+> “I want to add one new Hunt, or merge two, or cut one,”
+
+you can:
+
+- Use this file (B160) to see where it sits in:
+
+  - The progression,
+  - The themes,
+  - The system loops.
+
+Then:
+
+- Update B151, 51, 55, 52, 53, 57, 58, and the individual B15x integration doc for that Hunt accordingly.
+
+---
