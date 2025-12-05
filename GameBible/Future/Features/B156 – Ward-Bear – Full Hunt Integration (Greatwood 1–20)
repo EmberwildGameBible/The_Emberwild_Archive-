@@ -1,0 +1,712 @@
+# B156 – Ward-Bear – Full Hunt Integration (Greatwood 1–20)
+
+## 0. Purpose
+
+Define the **Ward-Bear** Hunt as a fully integrated system node:
+
+- Fantasy, story role, and unlock flow
+- Arena layout and encounter phases
+- Profession roles (Hunter, Cook, Alchemist, Forager/Woodworker)
+- Core + specialty drops (51 / 55)
+- Loot behavior aligned with B151
+- Lodge projects, trophies, and ward rituals (57)
+- Food and brew hooks (52, 53, 58)
+
+This file is the authoritative reference for Ward-Bear so you do not have to flip between multiple docs to remember why it matters.
+
+---
+
+## 1. Role in Greatwood
+
+**Name:** Ward-Bear  
+**Region:** Greatwood outskirts of Wardstone Hill and nearby ravines  
+**Band:** Mid–late Greatwood (recommended 14–20)  
+**Type:** Signature Hunt – defensive / ward-aligned guardian
+
+### 1.1 Narrative Identity
+
+The Ward-Bear is:
+
+- A massive, scarred bear that has lived near **Wardstone Hill** for decades.
+- Its hide is thick with **ward glyph scars** and faintly glowing claw-marks.
+- It acts as a semi-wild **guardian of the wardlines**:
+  - Drawn to failing wards and corrupted intrusions,
+  - Crushing anything that feels like a threat.
+
+It is not purely “good” or “evil”:
+
+- When wards are stable:
+  - It keeps predators and stray corruption at bay.
+- When wards weaken:
+  - It becomes frantic, over-aggressive, sometimes attacking caravans and outposts.
+
+Mechanically and thematically it owns:
+
+- Heavy defensive meat:
+  - `ward_bear_haunch` (51)
+- Specialty reagents:
+  - `spec_ingr_ward_bear_gelatin`
+  - `spec_ingr_ward_bear_spine_shard`
+  - `spec_ingr_old_warden_clot` (55)
+- Defensive food and brews:
+  - Physical damage reduction, knockback resistance, stability (52, 53, 58)
+- Lodge/ward content:
+  - Guardian totem, ward rituals (57)
+
+It is the “defensive sibling” to Elder Stag (vitality/balance) and a stabilizing presence against Hollowroot/Black-Sap threats.
+
+---
+
+## 2. Unlock & Questline Flow
+
+### 2.1 Recommended Placement
+
+Ward-Bear should feel like:
+
+- The Hunt you do when **Wardstone trouble** starts becoming obvious.
+- A key step in understanding how:
+  - Physical threats,
+  - Wardstone failures,
+  - And ritual defense all intersect.
+
+Suggested rough order:
+
+- Player has:
+  - Visited Wardstone Hill (basic ward tutorial).
+  - Encountered some corruption events (Hollowroot pockets, minor Black-Sap).
+  - Completed at least one earlier Hunt (Elder Stag or Howler).
+
+### 2.2 Questline Beats
+
+1. **“The Hill Roars”**
+   - Contract:
+     - Merchants and scouts report a huge bear near Wardstone Hill.
+     - It smashed a caravan that “smelled wrong”.
+   - Player:
+     - Investigates wreckage,
+     - Finds claw-marks that glow faintly where they struck ward-attuned materials.
+
+2. **Warden Consultation**
+   - Ward NPC:
+     - Identifies tracks as belonging to an old guardian-bear that:
+       - Has lived near the Hill longer than any current Warden.
+     - Worries that something has driven it into a frenzy.
+
+3. **Patrols and Proof**
+   - Player:
+     - Patrols three zones around Wardstone Hill.
+     - Fights:
+       - Corrupted beasts,
+       - Possibly a minor Hollowroot intrusion.
+     - Finds signs that the Bear is:
+       - Attacking corruption,
+       - But also slamming into ward pillars and supply caches.
+
+4. **Hunt Posting – “Ward-Bear”**
+   - Board unlocks named Hunt:
+     - “The old guardian has turned. Either calm it, or end it, before Hill and Lodge both fall.”
+
+5. **Aftermath**
+   - Depending on success:
+     - Ward NPCs acknowledge:
+       - Wards are safer for now.
+     - New ward rituals and defensive projects become available.
+
+---
+
+## 3. Arena & Encounter Space
+
+### 3.1 Layout
+
+Arena is a **rocky ravine / hillside** near Wardstone Hill:
+
+- Stepped terrain:
+  - Sloped approach,
+  - Flat-ish central fighting space,
+  - Some high ledges and low pits.
+- Ward elements:
+  - Half-buried wardstone shards,
+  - Old Warden camp remains,
+  - A cracked ward pillar at the far end.
+
+### 3.2 Functional Zones
+
+- **Central Fighting Ground**
+  - Main area where Ward-Bear engages.
+  - Moderate room for kiting, but not wide open.
+
+- **Wardstone Shards**
+  - Small standing fragments around edges.
+  - Interactable:
+    - Can be **triggered** to:
+      - Emit short ward pulses,
+      - Slightly weaken or stagger the Bear,
+      - Create momentary “ward fields” (reduced damage zones).
+
+- **Falling Debris Zones**
+  - Overhangs and loose rocks.
+  - Bear’s slams and roars can:
+    - Dislodge rocks,
+    - Create dangerous patches if fight drags on.
+
+---
+
+## 4. Boss: Ward-Bear – Behavior & Phases
+
+**Category:** Beast / Ward-attuned Guardian  
+**Fight Length Target:** ~4–7 minutes
+
+Core themes:
+
+- Heavy physical damage,
+- Ground control and knockback,
+- Interaction with ward pulses and terrain.
+
+---
+
+### 4.1 Baseline Attacks
+
+Used across phases, tuned per phase:
+
+- **Maul**
+  - Close-range, heavy swipe combo.
+  - High damage, can knock a single target down if repeated.
+
+- **Shoulder Rush**
+  - Short, brutal charge.
+  - Sends target sliding across ground.
+  - If target collides with terrain:
+    - Bonus damage / short stun.
+
+- **Ground Slam**
+  - Front or 360-degree slam.
+  - Creates fissures or shockwaves in a radial pattern.
+
+- **Ward-Bellow**
+  - Roar that:
+    - Applies a “rattle” debuff (minor stagger / aim shake).
+    - Interacts with ward shards (could charge or destabilize them).
+
+---
+
+### 4.2 Phase 1 – The Guardian Tests
+
+**Trigger:** Fight start, HP 100% → ~70%
+
+- Bear tests the group’s ability to:
+  - Handle basic knockbacks and positioning.
+  - Use or ignore ward shards intelligently.
+
+Mechanics:
+
+- **Simple Rushes and Mauls**
+  - Focus on the highest threat or nearest target.
+  - Push players around central ground.
+
+- **Controlled Ground Slams**
+  - Creates cracks in ground:
+    - Minor slow zones.
+  - Too many cracks stacked:
+    - Start to cause small periodic damage.
+
+- **Ward Pulse Interaction (Intro)**
+  - If players activate a nearby ward shard:
+    - Short protective field:
+      - Reduced damage taken inside.
+    - Bear responds:
+      - Either avoids it briefly,
+      - Or tries to smash the shard if fight drags.
+
+Goal:
+
+- Establish the “feel”:
+  - Heavy but readable,
+  - Arena is not static.
+
+---
+
+### 4.3 Phase 2 – Wards and Wrath
+
+**Trigger:** HP around ~70% → ~35%
+
+The Bear becomes more aggressive, and ward interactions deepen.
+
+New/amped mechanics:
+
+- **Enraged Shoulder Rush**
+  - Longer rush,
+  - Can hit multiple players in a line,
+  - Potentially knocks them into debris zones or off ledges.
+
+- **Fracture Slam**
+  - Variant of Ground Slam:
+    - Targets a ward shard directly.
+    - If it hits:
+      - Shard shatters,
+      - Sends ward-energy shockwave:
+        - Damages players,
+        - Leaves behind a small field of static energy.
+
+- **Ward Resonance**
+  - If players chain-activate shards in a specific pattern:
+    - Temporary:
+      - Stronger ward field,
+      - Bear is briefly weakened defensively (less armor).
+  - If shards are activated randomly:
+    - Less benefit; risk of destabilizing them.
+
+- **Rubble Hazards**
+  - Each slam near cliffs:
+    - Chance to drop rocks.
+    - Creates:
+      - Line-of-sight blockers,
+      - Small danger zones.
+
+Goal:
+
+- Push players to coordinate:
+  - How and when shards are used,
+  - Where they want the Bear to slam.
+
+---
+
+### 4.4 Phase 3 – Last Stand
+
+**Trigger:** HP around ~35% → 0%
+
+The Bear’s fur bristles, old ward scars glow, and it goes into a desperate last stand.
+
+New/amped mechanics:
+
+- **Guardian’s Rage**
+  - Short window buff:
+    - Increased damage and speed.
+  - Triggered:
+    - Periodically,
+    - Or when shards are destroyed.
+
+- **Spinequake**
+  - A more powerful slam:
+    - Bear rears and slams both forepaws down.
+    - Sends a pulse through the ground:
+      - Knock-up or heavy stagger in a wide radius.
+    - Stronger if:
+      - Many shards are shattered,
+      - Or wardlines are unstable.
+
+- **Defensive Crouch**
+  - At very low HP:
+    - Bear temporarily adopts a defensive posture:
+      - High damage reduction.
+    - Each active ward shard:
+      - Can be used by players to channel a ward pulse:
+        - Stripping stacks of defensive buff if timed correctly.
+
+Goal:
+
+- Make the last 30% feel like a serious defensive check:
+  - Greedy players ignoring shards will die.
+  - Parties that use wards smartly will outlast it.
+
+---
+
+## 5. Specialty Mechanics & Drops
+
+### 5.1 `spec_ingr_ward_bear_gelatin`
+
+**Item:** `spec_ingr_ward_bear_gelatin` (55)  
+**Fantasy:** Thick gelatin rendered from Bear’s ward-toughened cartilage and fat.
+
+Mechanic:
+
+- Drops reliably:
+  - First kill: guaranteed 1–2.
+  - Later kills: decent chance per kill.
+- Yield may be:
+  - Increased by:
+    - Proper butchery tools (54),
+    - Not shattering all ward shards (lore: less damage to body from unstable wards).
+
+Uses:
+
+- Defensive stews and Lodge-only “binder” dishes:
+  - Buffs to:
+    - Physical damage reduction,
+    - Knockback resistance.
+- Alchemical bases for:
+  - Ward-skin tonics and shock absorb brews (58).
+
+---
+
+### 5.2 `spec_ingr_ward_bear_spine_shard`
+
+**Item:** `spec_ingr_ward_bear_spine_shard` (55)  
+**Fantasy:** Dense, rune-scored shard of vertebra from the Bear’s spine.
+
+Mechanic:
+
+- Drops:
+  - As a rare or semi-rare bonus.
+- Conditional hook (optional):
+
+  - During Phase 3, on Spinequake:
+    - If players:
+      - Successfully avoid the worst of the slam (e.g., most of the group avoids hit or uses ward fields properly),
+    - Then:
+      - Extra chance for a spine shard to be recovered in loot resolution.
+
+Uses:
+
+- Core reagent for:
+  - Ward-Bear Guardian Totem (57).
+  - High-end defensive charms or trinkets.
+
+---
+
+### 5.3 `spec_ingr_old_warden_clot`
+
+**Item:** `spec_ingr_old_warden_clot` (55)  
+**Fantasy:** A strange coagulated mass of old blood and ward residue found in hard-to-reach places in the Bear’s body.
+
+Mechanic:
+
+- One-time/story-aligned drop:
+  - Often given via:
+    - First kill quest reward from a Warden NPC,
+    - Or as a guaranteed additional item on first Hunt completion.
+- Afterward:
+  - Extremely rare to drop again, if at all.
+
+Uses:
+
+- Special ward ritual:
+  - Bridging early Wardstone content to future regions.
+  - May be required once per character for a large ritual project.
+
+---
+
+## 6. Profession Roles
+
+### 6.1 Hunter
+
+- Pre-fight:
+  - Tracks the Bear through:
+    - Claw-marked trees,
+    - Wardstone-scraped rocks.
+- During fight:
+  - Controls:
+    - Bear facing,
+    - Where the slam and rush arcs end up.
+  - Keeps Bear away from fragile NPCs or quest-related objects (devices, kits).
+- Post-fight:
+  - Handles efficient carve:
+    - `ward_bear_haunch` (51),
+    - `spec_ingr_ward_bear_gelatin`,
+    - `spec_ingr_ward_bear_spine_shard`.
+
+---
+
+### 6.2 Cook
+
+- Pre-fight:
+  - Prepares:
+    - Heavy stews and roasts that focus on:
+      - HP,
+      - Armor-type buffs,
+      - Knockback/stagger resistance.
+  - Likely uses:
+    - Boar meat, root vegetables, fatty cuts.
+
+- Post-fight:
+  - Converts Ward-Bear meat and gelatin into:
+    - Strong defensive Lodge dishes:
+      - “Ward-Bear Haunch with Root Mash”,
+      - “Guardian’s Bone Broth” using spine shards and gelatin.
+
+---
+
+### 6.3 Alchemist
+
+- Pre-fight:
+  - Crafts:
+    - Basic ward-skin tonics:
+      - Reduction on physical and shock damage.
+    - Steadying draughts:
+      - Reduce knockback / stun duration.
+
+- During fight:
+  - Uses brews as:
+    - Emergency anti-stun or anti-tilt tools:
+      - Short windows of “cannot be knocked down”.
+
+- Post-fight:
+  - Uses:
+    - `spec_ingr_ward_bear_gelatin` as:
+      - Binder for ward tonics.
+    - `spec_ingr_ward_bear_spine_shard` as:
+      - Core for strong, limited-use defensive brews.
+
+---
+
+### 6.4 Forager / Woodworker
+
+- Pre-fight:
+  - Inspects ravine:
+    - Identifies weak cliffs (potential falling rock spots),
+    - Marks ward shard locations.
+- During fight:
+  - Can:
+    - Manually trigger shards,
+    - Build small barriers (if design supports pre-placed woodworks).
+- Post-fight:
+  - Can:
+    - Pull wood splinters, old camp debris, and broken ward fragments to craft:
+      - Ward-Bear Guardian Totem,
+      - Other Lodge decor.
+
+---
+
+## 7. Rewards Integration
+
+### 7.1 Ingredient Mapping (51 / 55)
+
+From Ward-Bear and its lair you get:
+
+**Base Ingredients (51):**
+
+- `ward_bear_haunch`
+- Regular bear fat/meat variants
+- Bone shards, hide strips
+
+**Specialties (55):**
+
+- `spec_ingr_ward_bear_gelatin`
+- `spec_ingr_ward_bear_spine_shard`
+- `spec_ingr_old_warden_clot` (primarily first-clear/story)
+
+### 7.2 Loot Behavior Alignment (B151)
+
+As sketched in B151 Hunt section:
+
+- **Guaranteed:**
+  - 2–4 `ward_bear_haunch`
+  - Base bear products (fat, hide)
+  - Coin bundle appropriate for mid–late Greatwood.
+
+- **Specialty:**
+  - Gelatin:
+    - High-ish chance per kill, scaling with butchery tools.
+  - Spine Shard:
+    - Lower chance, with improved odds on clean defensive play.
+  - Old Warden Clot:
+    - Guaranteed once (first kill / quest),
+    - Rare or non-repeatable afterward.
+
+- **World Drops:**
+  - Access to `WORLD_UNCOMMON_GW` with modest chance:
+    - Might drop defensive recipes and ward trinkets.
+
+---
+
+## 8. Lodge Projects & Ward Rituals (57)
+
+### 8.1 Ward-Bear Guardian Totem
+
+**Project ID:** `proj_trophy_ward_bear_guardian_totem` (already outlined in 57)
+
+Inputs:
+
+- `spec_ingr_ward_bear_spine_shard` × 1
+- `spec_ingr_ward_bear_gelatin` × 1
+- `wardstone_bracket` × 2
+- Wood / Lodge materials
+
+Effects:
+
+- Placeable totem in Lodge or Ward chamber:
+  - Passive:
+    - Small global bonus to knockback/stagger resistance for:
+      - Hunts launched from this Lodge.
+  - Minor ambient wardlight visuals.
+
+---
+
+### 8.2 Wardstone Stabilization Offering (Link)
+
+Ward-Bear reagents tie well into:
+
+- `proj_ward_wardstone_stabilization_offering` (57)
+
+Using:
+
+- Gelatin and/or Warden Clot as:
+  - Optional or required reagents to boost ritual effectiveness.
+
+Effect:
+
+- Region-level ward stabilization:
+  - Slight reduction in corruption event frequency,
+  - Better effectiveness for other ward brews.
+
+---
+
+### 8.3 Defensive Lodge Decor / Fixtures (Optional)
+
+Could add a small optional project:
+
+- **Project ID:** `proj_lodge_warden_banner` or `proj_lodge_ward_bear_hide_drapes`
+- Inputs:
+  - Ward-Bear hide strips,
+  - Simple Lodge textiles,
+  - Wardstone chips.
+- Effects:
+  - Purely cosmetic or:
+    - Minor buff to Lodge social / reputation gains with Wardens.
+
+---
+
+## 9. Food & Brew Hooks (52, 53, 58)
+
+### 9.1 Food Hooks
+
+Ward-Bear meat and gelatin fuel:
+
+- Defensive and “comfort” dishes:
+
+Examples:
+
+- `food_ward_bear_guardians_stew`
+  - Heavy stew with:
+    - Haunch, roots, and bone broth.
+  - Buffs:
+    - Physical damage reduction,
+    - Max HP or armor rating.
+
+- `food_warden_bone_broth`
+  - Bone broth leveraging gelatin and bone shards.
+  - Buff:
+    - Stagger/knockback resistance,
+    - Regen over time.
+
+These should appear in:
+
+- 52 for basic variants,
+- 53 for Lodge-only elite dishes (large group buffs).
+
+### 9.2 Brew Hooks
+
+From 58:
+
+- `brew_wardstone_skin_tonic`
+  - Uses:
+    - Ward-Bear gelatin or spine shard.
+  - Effects:
+    - Flat reduction in physical damage,
+    - Small resist against shoves/slams.
+
+- `brew_guardians_stance_draught`
+  - Longer cooldown, stronger effect:
+    - Brief window of greatly reduced knockback,
+    - Or immunity to certain displacement.
+
+Warden Clot can be a key reagent in:
+
+- A powerful but limited ritual brew:
+  - Only used in big ward rituals from 57.
+
+---
+
+## 10. Codex & UI
+
+### 10.1 Codex Entries
+
+- **Ward-Bear – Guardian of the Hill**
+  - Entry unlocked:
+    - When tracks or roar are first encountered.
+  - Expanded:
+    - On first Hunt completion,
+    - On crafting the Guardian Totem.
+
+- **Warden Clot / Gelatin / Spine**
+  - Each specialty reagent:
+    - Has a codex entry with:
+      - Lore,
+      - Suggested uses,
+      - Warnings.
+
+### 10.2 Hunt Board Presentation
+
+Ward-Bear posting should:
+
+- Emphasize:
+  - Proximity to Wardstone Hill,
+  - Danger of knockbacks and heavy hits,
+  - Recommended roles:
+    - Sturdy frontliner,
+    - Cook and Alchemist.
+
+- Tag icons:
+  - Shield/armor icon (defensive rewards),
+  - Ward icon (ritual hooks),
+  - Trophy icon (Guardian Totem).
+
+---
+
+## 11. Difficulty & Replay
+
+### 11.1 First Kill
+
+On first completion:
+
+- Guaranteed:
+  - `spec_ingr_ward_bear_gelatin`
+  - `spec_ingr_ward_bear_spine_shard`
+  - `spec_ingr_old_warden_clot` via quest hand-in or direct drop
+- Unlocks:
+
+  - Ward-Bear dishes and broths,
+  - Ward-skin tonics,
+  - Guardian Totem project,
+  - Possibly first Ward Stabilization ritual.
+
+### 11.2 Farming
+
+Subsequent clears:
+
+- Provide:
+  - Steady supply of haunch and gelatin.
+- Sometimes:
+  - Extra spine shards (rare).
+- Primary reason to farm:
+
+  - Restock defensive kits for harder Hunts (Ragged King, Black-Sap, Shadow Under Wardstone).
+  - Maintain ward rituals that require ongoing reagents.
+
+---
+
+## 12. Implementation Notes (Future You)
+
+In the Game Bible:
+
+- B156 is the integration map for Ward-Bear.
+
+In data / code:
+
+- Ties directly to:
+  - B151 creature loot for `gw_ward_bear` (if defined as a specific ID).
+  - 51 / 55 ingredients and specialties.
+  - 57 projects:
+    - Guardian Totem,
+    - Ward rituals,
+    - Optional Lodge decor.
+  - 52 / 53 / 58 for:
+    - Defensive dishes and brews.
+
+When you eventually build Ward-Bear:
+
+- Use B156 as your checklist:
+
+  - Arena matches ravine/wardstone vibe.
+  - Phases and slam/ward mechanics exist.
+  - Drops actually give haunch/gelatin/spine/clot.
+  - Lodge projects and ward rituals consume those reagents meaningfully.
