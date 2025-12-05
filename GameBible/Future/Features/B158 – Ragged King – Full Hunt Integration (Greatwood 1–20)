@@ -1,0 +1,1011 @@
+# B158 – Ragged King – Full Hunt Integration (Greatwood 1–20)
+
+## 0. Purpose
+
+Fully define the **Ragged King** as a late Greatwood signature Hunt:
+
+- Narrative role and unlock chain
+- Arena layout and encounter phases
+- Profession roles (Hunter, Cook, Alchemist, Forager/Woodworker)
+- Core + specialty drops (51 / 55)
+- Loot behavior aligned with B151
+- Lodge/trophy/ritual projects (57)
+- Food and brew hooks (52, 53, 58)
+
+This is the single integration hub for Ragged King so you don’t have to cross-reference a dozen files to remember what he is.
+
+---
+
+## 1. Role in Greatwood
+
+**Name:** Ragged King  
+**Region:** Charred barrows and bone-strewn clearings at the edge of Greatwood  
+**Band:** Late Greatwood capstone (recommended 18–20)  
+**Type:** Signature Hunt – ash, bone, and “old war” energy
+
+### 1.1 Narrative Identity
+
+The Ragged King is:
+
+- A towering, half-skeletal, half-charred beast (or beastlike humanoid silhouette) wrapped in burnt hides, broken armor, and **old hunt trophies**.
+- His body is:
+
+  - Riddled with **bone fractures** that never heal,
+  - Crusted in **ash** from old fires,
+  - Laced with faint embers in his ribs and skull.
+
+- He is less a “corruption entity” and more the **leftover anger** of old hunts:
+
+  - The bones of too many beasts taken without balance,
+  - The embers of old wars that never quite went out.
+
+Thematically he:
+
+- Sits between **Ashen Beast** and the other Hunts:
+
+  - Uses ash and fire-adjacent themes,
+  - But is primarily about **bone, death, and old grudges**.
+
+Mechanically he owns:
+
+- Heavy bone + ashen specialties:
+  - `ragged_king_bone_shard` (base)
+  - `ragged_king_shank` (base)
+  - `spec_ingr_ragged_king_bone_shard`
+  - `spec_ingr_ragged_king_shank`
+  - `spec_ingr_ragged_king_ashen_fragment` (55, B151)
+
+- Late Greatwood:
+
+  - Bone / marrow stews and ashen roasts (52, 53),
+  - Stronger death/ash brews (58),
+  - Lodge trophies and “bone throne” / pyre projects (57).
+
+He should **feel** like the last major Hunt before you move beyond Greatwood 1–20.
+
+---
+
+## 2. Unlock & Questline Flow
+
+### 2.1 Recommended Placement
+
+Ragged King should not show up until the player has:
+
+- Fought:
+
+  - At least one corruption Hunt (Matron or Black-Sap),
+  - At least one guardian Hunt (Elder Stag or Ward-Bear),
+  - One wolf/pack Hunt (Howler).
+
+- Seen enough of Greatwood’s:
+
+  - Bones,
+  - Ash scars,
+  - Leftover battlefield/old Hunt locations.
+
+He is the **consequences** of all that.
+
+### 2.2 Questline Beats
+
+1. **“Bonepiles Walk”**
+   - Contracts begin describing:
+
+     - Bone piles rearranged overnight,
+     - Old kill sites disturbed,
+     - Hunters feeling “watched” near ash patches.
+
+   - Player:
+     - Investigates three former Hunt sites:
+       - Old stag kill,
+       - Old bear pit,
+       - Abandoned Ashen campsite.
+     - Finds bones arranged in rough **crown shapes**.
+
+2. **Ash Among the Bones**
+   - Ward or Scholar NPC:
+
+     - Note that the bones are smeared with ash that doesn’t blow away.
+     - Mention rumors of “a king of the hunted, walking in the ash.”
+
+   - Player:
+     - Sent to a **burned glade** near Ashen Beast territory,
+     - Fights skeletal scavenger beasts and bone constructs.
+
+3. **Barrow Signs**
+   - Player discovers:
+
+     - A half-collapsed **barrow hill** with toppled stone markers,
+     - Scratched names/sigils of long-dead Hunters / Wardens.
+
+   - Clues indicate:
+
+     - Someone or something is gathering bones and trophies here.
+
+4. **Hunt Posting – “The Ragged King”**
+   - Board unlocks named Hunt:
+
+     - “Heaped bones, hollow eyes, and embers that will not die. The Ragged King walks. End him, or every old Hunt will rise with him.”
+
+5. **Final Approach**
+   - Player is sent to:
+
+     - The **Ragged Barrow** – charred mound and bonefield at Greatwood’s edge.
+     - Triggering the Hunt instance.
+
+6. **Aftermath**
+   - Once Ragged King is killed:
+
+     - Bone disturbances drop sharply.
+     - Ward and Hunt NPCs comment that:
+
+       - “The forest remembers differently now.”
+       - “The ash feels… cooler.”
+
+   - Unlocks:
+
+     - Bone/ash Lodge projects,
+     - Advanced marrow stews and ash brews,
+     - Possibly a cross-region ritual hook.
+
+---
+
+## 3. Arena & Encounter Space
+
+### 3.1 Layout
+
+The Ragged Barrow arena is:
+
+- A large circular depression around a **central barrow mound**:
+
+  - The mound is ringed with broken stone markers and old trophy-poles.
+  - Charred trees lean inward like ribs.
+
+- The ground is:
+
+  - Covered in ash,
+  - Littered with **bone piles** and broken weapons,
+  - Broken by occasional **magma-like ember vents**.
+
+### 3.2 Functional Zones
+
+- **Central Barrow Mound**
+
+  - Elevated central platform where Ragged King often starts and returns.
+  - Provides:
+
+    - High vantage point,
+    - Space for big “ashing” moves.
+
+- **Bonefields**
+
+  - Outer ring of arena:
+
+    - Bone piles,
+    - Fallen trophies,
+    - Old wagon frames.
+
+  - Breaking or stepping on bone piles:
+
+    - Can trigger bone spike eruptions,
+    - Or spawn skeletal adds.
+
+- **Ash Vents**
+
+  - Small fissures emitting warm, faint light.
+
+  - When triggered by:
+
+    - Ragged King’s slam,
+    - Or certain abilities,
+
+    they erupt:
+
+    - Ash plumes,
+    - Flickering flame,
+    - Damage-over-time zones.
+
+---
+
+## 4. Boss: Ragged King – Behavior & Phases
+
+**Category:** Ash/Bone Beast (or monstrous war-wight)  
+**Fight Length Target:** ~5–8 minutes (late-tier Hunt)
+
+Core themes:
+
+- Bone / ash control,
+- Heavy melee with bursts,
+- Old-Hunt ghosts / echoes.
+
+---
+
+### 4.1 Baseline Attacks
+
+Used in all phases, scaled:
+
+- **Cleaver Sweep (or Bone Club Sweep)**
+
+  - Broad horizontal sweep with heavy weapon or bone club.
+  - High damage, knockback.
+
+- **Ragged Stomp**
+
+  - Local ground slam:
+
+    - Knocks players nearby,
+    - Triggers bone piles within radius (spikes or adds).
+
+- **Ash Lash**
+
+  - Short-range lash of ash and embers from his cloak/hide.
+  - Applies:
+
+    - Minor fire/ash DoT,
+    - Slight vision haze.
+
+- **Bone Toss**
+
+  - Throws a large bone or skull:
+
+    - Impact zone fracturing,
+    - Minor AoE damage / stagger.
+
+---
+
+### 4.2 Phase 1 – Crown of Old Hunts
+
+**Trigger:** Start, HP 100% → ~70%
+
+- Focus on:
+
+  - Heavy but simple melee,
+  - Teaching bone piles as interactive hazards.
+
+Mechanics:
+
+- **Focused Sweeps & Stomps**
+
+  - King primarily targets:
+
+    - Nearest player,
+    - Or one who stays on mound too long.
+
+- **Bone Pile Reactivity**
+
+  - Every Ragged Stomp near bone piles:
+
+    - Pops bone spikes underfoot (line or circle),
+    - Or animates tiny skeletal critters.
+
+  - Encourages:
+
+    - Pulling fight off densest bonefields,
+    - Respecting positioning.
+
+- **“Crown” Visual**
+
+  - Occasionally:
+
+    - King raises arms or head,
+    - Bone piles briefly rattle as if responding,
+
+  - No mechanical effect yet, just telegraph for Phase 2.
+
+Goal:
+
+- Establish the **weight** of the boss and bone hazard language.
+
+---
+
+### 4.3 Phase 2 – Ash and Wakes
+
+**Trigger:** HP around ~70% → ~35%
+
+Ragged King:
+
+- Draws on ash/ember,
+- Summons echoes of past Hunts.
+
+New/amped mechanics:
+
+- **Ash Storm**
+
+  - Periodic:
+
+    - Wind picks up ash,
+    - Visibility drops.
+
+  - During storm:
+
+    - King gains slight evasion buff,
+    - Bone piles are harder to see.
+    - Ash plumes spawn at vents:
+      - Standing in them deals DoT and slows.
+
+- **Wake of Hunts**
+
+  - The King:
+
+    - Thrusts his weapon or bone shard into the ground.
+
+  - Echoes of old Hunts spawn briefly:
+
+    - Spectral shapes (no full lore detail needed now),
+    - As **elite skeletal beasts**:
+
+      - Wolf-wraith,
+      - Stag bones,
+      - Bear skeleton fragments.
+
+  - They:
+
+    - Charge / slam,
+    - Then shatter into bones again.
+
+- **Ash Mantle**
+
+  - Occasionally:
+
+    - King wraps himself in swirling ash.
+
+  - Effects:
+
+    - Reduced ranged damage briefly.
+    - Standing too close:
+
+      - Reduces player vision,
+      - Applies small fire/corruption tick.
+
+Goal:
+
+- Increase pressure:
+
+  - Movement + add management,
+  - Minimal safe space if bonefields/vents are mismanaged.
+
+---
+
+### 4.4 Phase 3 – Shattered Crown
+
+**Trigger:** HP around ~35% → 0%
+
+Ragged King becomes:
+
+- More frantic,
+- More brittle,
+- More explosive.
+
+New/amped mechanics:
+
+- **Crown Break**
+
+  - At the phase transition:
+
+    - He lets out a roar,
+    - A **bone crown** of trophy horns/skulls cracks.
+
+  - Shards:
+
+    - Burst outward as projectiles,
+    - Embed in ground as small hazards or loot visuals.
+
+- **Bone Frenzy**
+
+  - King chains:
+
+    - Cleaver Sweeps,
+    - Stomps,
+    - Ash Lashes,
+
+  - In unpredictable sequences.
+
+  - Bone piles:
+
+    - Get consumed into temporary **bone armor** around him:
+
+      - Extra damage reduction until players strip it by sustained hits.
+
+- **Ash Collapse**
+
+  - As HP gets very low:
+
+    - Ash vents around arena begin to flare more often.
+    - Multiple small ash plumes appear:
+
+      - Creating high DoT zones if fight drags.
+
+- **Last Shank**
+
+  - Final ~10–15% HP:
+
+    - King holds his side (where the `ragged_king_shank` cut would be).
+    - Damage windows:
+
+      - Brief, when he overcommits on swings,
+      - Punish-player-gets-punished if they whiff.
+
+Goal:
+
+- Turn the last portion into:
+
+  - A high-tension dance of:
+
+    - Avoiding bone/ash overflow,
+    - Exploiting brief openings.
+
+---
+
+## 5. Specialty Mechanics & Drops
+
+### 5.1 Base vs Specialty Items
+
+From B151 we have:
+
+- Base boss drops:
+
+  - `ragged_king_bone_shard` (base)
+  - `ragged_king_shank` (base)
+
+- Specialty variants (55):
+
+  - `spec_ingr_ragged_king_bone_shard`
+  - `spec_ingr_ragged_king_shank`
+  - `spec_ingr_ragged_king_ashen_fragment`
+
+Think of base items as:
+
+- “Regular but good Hunt loot”,
+
+and `spec_ingr_...` as:
+
+- “Special reagents” for advanced recipes / projects.
+
+---
+
+### 5.2 `spec_ingr_ragged_king_bone_shard`
+
+**Fantasy:**
+
+- A dense, jagged shard from the King’s spine or limbs:
+
+  - Hardened by ages of impacts and ash.
+
+**Mechanic:**
+
+- First kill:
+
+  - Guaranteed 1 x `spec_ingr_ragged_king_bone_shard`.
+
+- Later kills:
+
+  - Chance improved if:
+
+    - Players manage bonefields well:
+
+      - Fewer bone piles detonated,
+      - Or if they keep certain “ancestral markers” intact.
+
+Uses:
+
+- Lodge trophies:
+
+  - Bone throne pieces,
+  - Massive wall trophy bracing.
+
+- Food/brew:
+
+  - As stock bone for **very potent marrow broths**.
+  - As focus for bone/ward ritual drinks (58).
+
+---
+
+### 5.3 `spec_ingr_ragged_king_shank`
+
+**Fantasy:**
+
+- A massive, charred shank of bone and muscle from the King’s leg.
+
+**Mechanic:**
+
+- Conditional drop:
+
+  - Higher chance if:
+
+    - Players **break bone armor** multiple times in Phase 3:
+      - Forcing King’s body to crack and expose vulnerable flesh.
+
+- Rare enough to feel:
+
+  - Like a special victory,
+  - But not absurdly unobtainable.
+
+Uses:
+
+- Feasts:
+
+  - Late-game Lodge-only roasts & stews with huge buffs but heavy resource cost.
+
+- Rituals:
+
+  - Possibly burned/offered in large fire-based rituals for region effects.
+
+---
+
+### 5.4 `spec_ingr_ragged_king_ashen_fragment`
+
+**Fantasy:**
+
+- A small, ember-glowing piece of ash-crusted bone that refuses to cool.
+
+**Mechanic:**
+
+- Rare drop:
+
+  - Drop chance tied to:
+
+    - Allowing **some** ash vents to flare fully,
+    - But not letting the entire arena become lethal.
+
+- Think:
+
+  - “Riding the line” between too much ash and too little.
+
+Uses:
+
+- Alchemy:
+
+  - Very strong ash-based brews:
+
+    - High-risk (side effects) but powerful,
+    - Possibly enabling temporary fire/ash immunity or big damage.
+
+- Lodge:
+
+  - As key reagent in:
+
+    - Ash brazier projects,
+    - or cross-region rituals.
+
+---
+
+## 6. Profession Roles
+
+### 6.1 Hunter
+
+- Pre-fight:
+
+  - Tracks weird bonepile patterns.
+  - Studies previous Hunt sites.
+
+- During fight:
+
+  - Tank/space manager:
+
+    - Keeps King’s cleaver away from squishies.
+    - Positions him so:
+
+      - Bone piles popped intentionally,
+      - Vents triggered where they’re manageable.
+
+- Post-fight:
+
+  - Carves:
+
+    - Base bone shards & shank,
+    - Helps determine which parts saved as specialties.
+
+---
+
+### 6.2 Cook
+
+- Pre-fight:
+
+  - Serves:
+
+    - Heavy stews,
+    - Ash-roasted roots/meats:
+
+      - For HP and resist vs fire/DoT.
+
+- Post-fight:
+
+  - Uses:
+
+    - `ragged_king_shank` (base) and `spec_ingr_ragged_king_shank`:
+
+      - For large roasts and marrow pots.
+
+  - Dishes could:
+
+    - Boost both HP and some “resolve” / death resist theme.
+
+---
+
+### 6.3 Alchemist
+
+- Pre-fight:
+
+  - Brews:
+
+    - DoT-mitigation tonics,
+    - Ward/ash resist draughts.
+
+- During fight:
+
+  - Uses:
+
+    - Potions to:
+
+      - Cleanse ash debuffs,
+      - Temporarily harden players against bone spikes or stomps.
+
+- Post-fight:
+
+  - Processes:
+
+    - Ashen Fragments,
+    - Specialty bone shards.
+
+  - Makes:
+
+    - Tiered ash brews:
+
+      - From “mild” (small regen/DoT resist),
+      - To “volatile” (big buffs with big side effects).
+
+---
+
+### 6.4 Forager / Woodworker
+
+- Pre-fight:
+
+  - Explores barrow:
+
+    - Notes where bone piles are densest,
+    - Flags weak pillars / posts.
+
+- During fight:
+
+  - Could:
+
+    - Knock down certain posts to create partial cover,
+    - Clear trash bones in safe pockets before big phases.
+
+- Post-fight:
+
+  - Reclaims:
+
+    - Trophy poles,
+    - Charred timber,
+    - Bits of armor/weapons.
+
+  - Crafts:
+
+    - Ragged King throne,
+    - Bone shrines,
+    - Ash braziers (57).
+
+---
+
+## 7. Rewards Integration
+
+### 7.1 Ingredient Mapping (51 / 55)
+
+**Base ingredients (51):**
+
+- `ragged_king_bone_shard`
+- `ragged_king_shank`
+- Generic bone shards,
+- Ash-soaked meat scraps (if you want them for quirky recipes).
+
+**Specialties (55):**
+
+- `spec_ingr_ragged_king_bone_shard`
+- `spec_ingr_ragged_king_shank`
+- `spec_ingr_ragged_king_ashen_fragment`
+
+### 7.2 Loot Behavior (B151 Alignment)
+
+From B151’s Ragged King entry:
+
+- **Guaranteed:**
+
+  - 1 `ragged_king_bone_shard` (base)
+  - 1 `ragged_king_shank` (base)
+  - Coin bundle:
+
+    - Higher than other Hunts,
+    - End-of-region appropriate.
+
+- **Specialty:**
+
+  - `spec_ingr_ragged_king_bone_shard`:
+
+    - Moderate chance per kill,
+    - Strong chance on first kill.
+
+  - `spec_ingr_ragged_king_shank`:
+
+    - Lower chance,
+    - Gated by Phase 3 bone armor / shank behavior.
+
+  - `spec_ingr_ragged_king_ashen_fragment`:
+
+    - Rare,
+    - Tied to ash-vent management conditions.
+
+- **World Drop:**
+
+  - Above-average access to `WORLD_UNCOMMON_GW`:
+
+    - Chance to drop rare recipes or trinkets:
+
+      - Bone/ash flavored,
+      - Late-tier Greatwood items.
+
+---
+
+## 8. Lodge Projects & Trophies (57)
+
+### 8.1 Ragged King Throne
+
+**Project ID:** `proj_trophy_ragged_king_throne`
+
+Inputs:
+
+- `spec_ingr_ragged_king_bone_shard`
+- `ragged_king_shank` or `spec_ingr_ragged_king_shank`
+- Generic bones, wood, iron fittings
+
+Effects:
+
+- Massive bone-and-ash throne in Trophy Hall:
+
+  - Visual flex piece.
+  - Passive:
+
+    - Small boost to:
+
+      - Hunt board rewards for all major Hunts,
+      - Or Hunt rep gain.
+
+  - Possibly minor “resolve” buff:
+
+    - Slight reduction in death/repair penalties in-region.
+
+---
+
+### 8.2 Ash Pyre Brazier
+
+**Project ID:** `proj_lodge_ashen_pyre_brazier`
+
+Inputs:
+
+- `spec_ingr_ragged_king_ashen_fragment`
+- Ashen Beast reagents (optional synergy),
+- Coal, metal, stone.
+
+Effects:
+
+- Lodge or Ward room brazier:
+
+  - Emits:
+
+    - Dim, persistent ember light.
+    - Occasional drifting ash.
+
+- Mechanics:
+
+  - When lit:
+
+    - Small region-level buff:
+
+      - Slight DoT resistance,
+      - Slight improved drop rate for bone/ash reagents from late Greatwood content.
+
+---
+
+### 8.3 Ancestor Rite / Hunt Memorial Project
+
+**Project ID:** `proj_rite_hunt_ancestor_memorial`
+
+Inputs:
+
+- Specialty bone shard,
+- Mix of trophies from earlier Hunts:
+
+  - (Elder Stag, Ward-Bear, Howler, Matron, Devourer)
+
+Effects:
+
+- Ritual / plaque in Lodge or near Wardstone Hill:
+
+  - Symbolic:
+
+    - “We remember what we kill.”
+
+- Mechanics:
+
+  - Minor long-term:
+
+    - XP / rep buff for Hunts,
+    - Or small global quality bump for trophy/ritual projects.
+
+---
+
+## 9. Food & Brew Hooks (52, 53, 58)
+
+### 9.1 Food
+
+Ragged King meat and bone:
+
+- Belong at the **very top** of Greatwood food chain.
+
+Examples:
+
+- `food_ragged_king_marrow_pot`
+  - Big pot using:
+
+    - `spec_ingr_ragged_king_bone_shard`,
+    - Root veg and herbs.
+
+  - Buff:
+
+    - Max HP,
+    - Strong regen,
+    - Slight resistance to bone/physical damage and ash DoT.
+
+- `food_ragged_shank_roast`
+  - Feast-tier roast using shank:
+
+    - For Lodge only.
+
+  - Buff:
+
+    - HP + stamina + “resolve” buff:
+      - Slight reduction in death penalties for a time.
+
+### 9.2 Brews
+
+From 58, ashen and bone brews:
+
+- `brew_ragged_ashes_draught`
+
+  - Uses Ashen Fragment + bone shard.
+  - Effects:
+
+    - Mixed blessing:
+
+      - Partial DoT/fire resistance,
+      - Slightly increased damage taken from other sources,
+      - Maybe occasional self-ticks (flavor).
+
+- `brew_boneward_tonic`
+
+  - Uses specialty bone shard.
+  - Effects:
+
+    - Temporary large reduction in physical damage,
+    - Minor slow or stiffness as tradeoff.
+
+These should feel:
+
+- Risky but powerful end-of-region options.
+
+---
+
+## 10. Codex & UI
+
+### 10.1 Codex Entries
+
+- **Ragged King – Entity Entry**
+
+  - Unlocks:
+
+    - When player first sees his barrow sign (bone crown shapes).
+    - Expands after:
+
+      - First kill,
+      - Crafting bone throne / ash pyre.
+
+- **Old Hunts and Ash – Concept Entry**
+
+  - Explains:
+
+    - The idea that:
+
+      - Hunts leave behind more than just meat and gold,
+      - Bones and ash remember.
+
+### 10.2 Hunt Board Presentation
+
+Posting should:
+
+- Make it clear:
+
+  - This is an end-tier Greatwood Hunt.
+  - Not for under-geared parties.
+
+- Emphasize:
+
+  - Bone / ash,
+  - Old wars / old hunts,
+  - High reward.
+
+Icons:
+
+- Skull/crown icon.
+- Bone pile icon.
+- Ash flame icon.
+
+---
+
+## 11. Difficulty & Replay
+
+### 11.1 First Kill
+
+First completion:
+
+- Guaranteed:
+
+  - Base bone shard + shank,
+  - At least one specialty (bone shard),
+  - Possible Ashen Fragment via quest reward or scripted drop.
+
+- Unlocks:
+
+  - Bone throne project,
+  - Ash pyre project,
+  - Top-tier marrow/ash recipes and brews.
+
+### 11.2 Farming
+
+Repeat kills:
+
+- Provide:
+
+  - Late-tier:
+
+    - Bone/meat for feasts,
+    - Occasional specialties.
+
+- Should be:
+
+  - Slightly more rewarding than other Hunts,
+  - But slower / riskier.
+
+Main reasons to farm:
+
+- Restocking rare bone and ash reagents,
+- Building out full trophy/ritual suite,
+- Flex / prestige.
+
+---
+
+## 12. Implementation Notes (Future You)
+
+In the Game Bible:
+
+- B158 is the master doc for:
+
+  - Who Ragged King is,
+  - What he drops,
+  - What systems he feeds.
+
+In data/code (later):
+
+- Ties to:
+
+  - B151 loot for `gw_ragged_king`.
+  - Ingredient/specialty defs in 51 / 55.
+  - Late-tier recipe grids in 52 / 53 / 58.
+  - Trophy/ritual projects in 57.
+
+When implemented:
+
+- Use B158 as checklist:
+
+  - Barrow arena, bonefields, vents built? ✔
+  - Phases (bone → ash → shattered) working? ✔
+  - Loot yields match base & spec IDs? ✔
+  - Lodge projects and food/brews actually consume those reagents? ✔
