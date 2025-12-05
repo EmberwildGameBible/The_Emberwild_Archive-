@@ -1,0 +1,605 @@
+# B162 – Lodge 1–20 – Structure, Upgrades, and Integration
+
+## 0. Purpose
+
+Define the **Lodge** for levels 1–20 as a real progression system, not just a backdrop:
+
+- What the Lodge is and why it matters
+- Physical structure and rooms
+- Upgrade tiers from level 1 through 20
+- How Lodge upgrades:
+  - Tie into Hunts (B153–B159, B160)
+  - Use ingredients (51 / 55)
+  - Unlock recipes and brews (52 / 53 / 58)
+  - Enable projects and rituals (57)
+  - Reflect Greatwood region state (B151, B161)
+
+This file is the **master Lodge reference** for the Greatwood 1–20 era.
+
+---
+
+## 1. Role of the Lodge in Emberwild
+
+The Lodge is:
+
+- The **player’s home base** in Greatwood.
+- A **social and narrative hub** where NPCs gather, argue, drink, plan.
+- A **progression hub** where:
+  - Hunts are prepared and celebrated.
+  - Food, brews, tools, trophies, and rituals tie together.
+
+Design goals:
+
+1. The Lodge should **visibly change** as the player progresses:
+   - Trophies fill out.
+   - Ember Pot and kitchen get busier.
+   - Ward room and project boards get more complex.
+2. The Lodge should **mechanically matter**:
+   - Better Lodge = better buffs, projects, and tools.
+3. The Lodge should **remember** what the player has done:
+   - Hunts cleared.
+   - Rituals performed.
+   - Festivals or feasts held.
+
+---
+
+## 2. Physical Structure – Rooms and Their Jobs
+
+At a high level, the Lodge building has:
+
+1. Entry Hall / Common Room
+2. Trophy Hall
+3. Ember Pot and Kitchen
+4. Workshop / Gear Corner
+5. Ward Room / Ritual Niche
+6. Rooms/Loft / Bunks (background, social space)
+7. Yard / Exterior Fixtures
+
+Each exists at Tier 0, then upgrades as the Lodge grows.
+
+### 2.1 Entry Hall / Common Room
+
+Fantasy:
+
+- The first room you walk into:
+  - Tables,
+  - Benches,
+  - Ember Pot glow,
+  - Noise and conversation.
+
+Function:
+
+- Central “neutral” space:
+  - Quest givers sit here.
+  - Contract board might be visible here or adjacent.
+- Visual indicator of Lodge tier:
+  - Empty and drafty at Tier 0,
+  - Busy and warm by Tier 3–4.
+
+### 2.2 Trophy Hall
+
+Fantasy:
+
+- A dedicated side hall with:
+  - Carved beams,
+  - Wall hooks,
+  - Dedicated plaque space.
+
+Function:
+
+- All major Hunts (B153–B159) place visible trophies here:
+  - Elder Hollow Stag mount, Howler mount, Ward-Bear totem, Matron shrine piece, Devourer plaque, Ragged King throne, Shadow-Ward focus, etc.
+- Some Lodge projects from 57 place fixtures here:
+  - Banners, memorials, bone throne, etc.
+
+Design rule:
+
+- Every major Hunt should have at least **one visual anchor** in Trophy Hall.
+
+### 2.3 Ember Pot and Kitchen
+
+Fantasy:
+
+- A large central hearth or Ember Pot, with:
+  - Cauldrons,
+  - Hanging pans and tools,
+  - Cook NPCs.
+
+Function:
+
+- Main interface for 52 / 53:
+  - Basic and advanced cooking recipes.
+- Visual complexity grows with:
+  - More cookware,
+  - More stored ingredients,
+  - Special racks for rare meats and reagents.
+
+Mechanics:
+
+- Higher Lodge tier:
+  - More concurrent cooking slots / throughput.
+  - Access to more advanced Ember Pot actions (feasts, bulk prep).
+
+### 2.4 Workshop / Gear Corner
+
+Fantasy:
+
+- A corner or separate room with:
+  - Anvils,
+  - Tool racks,
+  - Workbenches.
+
+Function:
+
+- Main interface for:
+  - Tool and gear crafting from 54.
+  - Some Lodge projects from 57 that are “physical build” oriented (banners, furniture, trophies that require woodworking/metal).
+
+Mechanics:
+
+- Higher Lodge tier:
+  - More benches available,
+  - Faster or more efficient crafting,
+  - Access to special Lodge-only schematics.
+
+### 2.5 Ward Room / Ritual Niche
+
+Fantasy:
+
+- A side chamber or alcove near the Lodge:
+  - Small personal wardstone fragment or focus.
+  - Shelves of reagents, candles, crystals.
+
+Function:
+
+- Interface for:
+  - Ward and ritual projects from 57:
+    - Guardian Totem, Wardstone Stabilization, Shadow-Ward Focus, Renewal rites, etc.
+- Receives visual upgrades from:
+  - Ward-Bear projects,
+  - Shadow Under the Wardstone completion,
+  - Black-Sap / Hollowroot / Ragged King rituals.
+
+Mechanics:
+
+- Higher Lodge tier:
+  - More ritual slots,
+  - Better ritual success or potency.
+
+### 2.6 Rooms / Loft / Bunks
+
+Fantasy:
+
+- Player and NPC “personal space”:
+  - Bunks,
+  - Storage trunks,
+  - Small personal touches.
+
+Function:
+
+- Mostly flavor and social:
+  - NPC location,
+  - Minor interactive props.
+- Some passive buffs:
+  - Rest bonuses,
+  - Long-duration “well-rested” style buff.
+
+### 2.7 Yard / Exterior Fixtures
+
+Fantasy:
+
+- Outside the Lodge:
+  - Practice dummies,
+  - Wood piles,
+  - Hanging herbs,
+  - Tanning racks.
+
+Function:
+
+- Some Lodge projects place exterior fixtures:
+  - Pack banners,
+  - Ward-Bear hides,
+  - Simple training props.
+- Also a visual indicator of:
+  - Lodge activity level,
+  - Progression.
+
+---
+
+## 3. Lodge Tiers – 0 to 3/4
+
+For Greatwood 1–20, define clear Lodge tiers.
+
+You can think of it as **Tier 0–3**, or **Tier 0–4** if you want more granularity. Below uses Tier 0–3.
+
+### 3.1 Tier 0 – Shelter (Levels 1–5)
+
+State:
+
+- Lodge is functional but sparse:
+  - Few tables,
+  - Empty trophy wall,
+  - Ember Pot small and unimpressive.
+
+Systems:
+
+- Access to:
+  - Basic cooking from 52 (Tier 0 recipes).
+  - Simple crafting from 54:
+    - Primitive knives, axes, maybe a basic pan.
+- Limited project board:
+  - Only a couple of starter tasks.
+
+Unlock conditions:
+
+- Essentially automatic at start.
+
+Goals:
+
+- Communicate “this place could be great someday”.
+
+### 3.2 Tier 1 – Working Lodge (Levels ~5–10)
+
+State:
+
+- Lodge slightly expanded:
+  - More tables in commons,
+  - Small trophy shelf opened,
+  - Ember Pot upgraded to handle more dishes.
+
+Systems:
+
+- New:
+
+  - Tier 1 recipes from 52,
+  - First proper Lodge projects from 57:
+    - Simple trophies from minor Hunts,
+    - Basic decor.
+
+- Hitpoints:
+
+  - Trophy Hall gets its first small mounts (wolves, boar, etc).
+  - Workshop and kitchen look more used.
+
+Unlock conditions (example):
+
+- Complete:
+  - X basic contracts,
+  - One early “Lodge Setup” project,
+  - Maybe a small “Lodge Funding” quest.
+
+### 3.3 Tier 2 – Huntsman’s Lodge (Levels ~10–16)
+
+State:
+
+- Lodge now feels lively:
+  - Trophy Hall has at least 1–2 major Hunts displayed.
+  - Ember Pot area busy with pots, hooks, and stored ingredients.
+  - Workshop with extra benches and racks.
+
+Systems:
+
+- New:
+
+  - Access to large portion of 53 (advanced dishes),
+  - Most of 58’s foundational brews,
+  - More complex Lodge projects from 57.
+- Hunts:
+
+  - Elder Hollow Stag, Greatwood Howler, Ward-Bear, Hollowroot Matron integrated into Lodge via trophies and projects.
+
+Unlock conditions (example):
+
+- Player has:
+
+  - Completed at least 1–2 major Hunts,
+  - Reached a threshold of Lodge projects completed,
+  - Contributed a certain number of ingredients to Lodge stores.
+
+### 3.4 Tier 3 – Warden’s Lodge (Levels ~16–20)
+
+State:
+
+- Lodge looks like a serious operation:
+
+  - Trophy Hall nearly full of major Hunts.
+  - Bone throne, ash pyre, Shadow-Ward focus visible if built.
+  - Ward room active with rituals.
+  - Exterior decorated with banners, hides, braziers.
+
+Systems:
+
+- New or maxed:
+
+  - Full access to 53’s highest-tier dishes,
+  - Top-end brews from 58,
+  - Most or all Greatwood-level Lodge projects from 57,
+  - Multiple simultaneous ritual slots in the Ward room.
+
+- Hunts:
+
+  - Black-Sap Devourer, Ragged King, Shadow Under the Wardstone integrated via trophies, braziers, ward foci.
+
+Unlock conditions (example):
+
+- Player has:
+
+  - Cleared most or all major Hunts,
+  - Completed certain cornerstone projects (e.g., Guardian Totem, Hollowroot Expedition Crate, Bone Throne or equivalent),
+  - Hit a high Lodge reputation threshold.
+
+---
+
+## 4. Integration With Hunts (B153–B159, B160) and Region (B161)
+
+Lodge upgrades should respond to **what the player actually did**, not just XP.
+
+### 4.1 Trophies and Hunt-Linked Upgrades
+
+Each major Hunt:
+
+- Unlocks at least one **trophy** and at least one **Lodge project**.
+
+Examples:
+
+- Elder Hollow Stag:
+  - Trophy: Elder Stag mount.
+  - Projects:
+    - Heartwood shelf/nook.
+- Greatwood Howler:
+  - Trophy: Howler head mount and/or war banner.
+  - Projects:
+    - Warbanner, warbrew station upgrade.
+- Ward-Bear:
+  - Trophy: Guardian Totem.
+  - Projects:
+    - Wardstone stabilization offering.
+- Hollowroot Matron:
+  - Trophy: Hollowroot shrine.
+  - Projects:
+    - Hollowroot Expedition Crate, Expedition send-off feast.
+- Black-Sap Devourer:
+  - Trophy: Black Sap plaque, heavy gauntlets hanger.
+  - Projects:
+    - Black-Sap station and handling gear.
+- Ragged King:
+  - Trophy: Bone throne, ash decor.
+  - Projects:
+    - Ash pyre brazier, ancestor memorial.
+- Shadow Under the Wardstone:
+  - Trophy: Shadow-Ward Focus.
+  - Projects:
+    - Wardstone Renewal rite, Clipped Tendril lanterns.
+
+### 4.2 Region State Reflected in Lodge
+
+Lodge should visually **echo** B161’s region state:
+
+- When:
+
+  - Hollowroot Matron is alive and active:
+    - Hollowroot warning notes and maps pinned up in Lodge.
+  - After Matron is killed:
+    - New Hollowroot shrine / expedition table appears.
+
+- When:
+
+  - Black-Sap events escalate:
+    - Black-Sap stains on some maps, extra barrels in yard.
+  - After Devourer is killed:
+    - Black-Sap plaque, Black-Sap kit storage racks appear.
+
+- When:
+
+  - Ragged King is active:
+    - NPCs discuss bonepiles; maybe a warning notice by the door.
+  - After King falls:
+    - Bone throne and fractured bone art pieces appear.
+
+These are mostly art/writing decisions but keep them **consistent** with B160 and B161.
+
+---
+
+## 5. Lodge Progression Timeline (1–20)
+
+An example “Lodge growth” track to align with B161’s player phases.
+
+### 5.1 Levels 1–5 – Tier 0 → Tier 1 Start
+
+- Lodge is barebones at start.
+- Early upgrades:
+  - Add a second table,
+  - Slightly upgrade Ember Pot,
+  - Add first small wall trophy hooks.
+
+Triggers:
+
+- A couple of very cheap starter projects:
+  - “Patch the Roof”
+  - “Bring in More Benches”
+
+### 5.2 Levels 5–10 – Tier 1 → Early Tier 2
+
+- Player completes:
+
+  - Simple contracts,
+  - Minor Hunts.
+
+- Lodge gains:
+
+  - First small trophies (wolf heads, boar tusks),
+  - Slight kitchen expansion,
+  - Basic workshop bench.
+
+- Entry Hall feels less empty.  
+- Tier 2 threshold starts when:
+
+  - First major Hunt trophy appears,
+  - A few core projects from 57 are done.
+
+### 5.3 Levels 10–16 – Tier 2 Expansion
+
+- Elder Hollow Stag and Greatwood Howler trophies appear.
+- Ward-Bear / Hollowroot Matron trophies and fixtures join as those Hunts are cleared.
+- Lodge now has:
+
+  - Active Trophy Hall,
+  - Expanded Ember Pot and pantry,
+  - Bigger workshop area,
+  - Ward room unlocked and dimly glowing.
+
+### 5.4 Levels 16–20 – Tier 3 Endgame
+
+- Black-Sap Devourer, Ragged King, Shadow Under the Wardstone trophies appear.
+- Ward room is busy with:
+
+  - Shadow-Ward Focus,
+  - Guardian totem,
+  - Ritual tools.
+
+- Commons is:
+
+  - Crowded with NPCs,
+  - Decorations from nearly every Hunt.
+
+By level 20:
+
+- Player should look at the Lodge and see a **visual biography** of their Greatwood run.
+
+---
+
+## 6. Lodge Systems by Room
+
+This section is for hooking the specific systems into specific spaces.
+
+### 6.1 Entry Hall / Commons
+
+Systems:
+
+- Quest and contract NPCs.
+- Social buffs:
+  - Rested bonus if the player logs out or idles here.
+- Visual event hooks:
+  - Small celebrations after major Hunts or feasts.
+
+### 6.2 Trophy Hall
+
+Systems:
+
+- Trophy placement logic:
+  - Each Hunt or project corresponds to specific mount/fixture assets.
+- Trophy bonuses:
+  - Trophy hall may give small global passive bonuses:
+    - E.g. “+X% Hunt board reward” per major Hunt trophy.
+
+### 6.3 Ember Pot and Kitchen
+
+Systems:
+
+- Access to:
+
+  - Cooking recipes from 52 (basic),
+  - From 53 (advanced).
+
+- Ember Pot states:
+
+  - Standard cooking,
+  - Feast mode:
+    - Single-use large-buff dishes for entire party, consuming more resources.
+
+### 6.4 Workshop
+
+Systems:
+
+- Access to 54:
+  - Tool upgrades,
+  - Profession gear,
+  - Specialty tools (Black-Sap handling, Hollowroot gear).
+- Some 57 projects built here:
+  - Banners, mounts, structural fixtures.
+
+### 6.5 Ward Room
+
+Systems:
+
+- Interface to 57’s rituals:
+  - Ward stabilization,
+  - Shadow-Ward core focus, etc.
+- Ties into region state:
+
+  - Some rituals temporarily change B161 event weights.
+
+### 6.6 Yard / Exterior
+
+Systems:
+
+- Training dummies (small buffs after practice, optional).
+- Drying racks, tanning racks, herb lines:
+  - Visual representation of ingredient stock.
+
+---
+
+## 7. Implementation Checklist (Design & Data)
+
+When wiring the Lodge:
+
+1. **Rooms exist**:
+   - Entry/Commons,
+   - Trophy,
+   - Ember Pot & kitchen,
+   - Workshop,
+   - Ward room,
+   - Yard.
+
+2. **Tier states defined**:
+   - For each room, define:
+     - Tier 0, Tier 1, Tier 2, Tier 3 variants.
+   - Visual + mechanical differences per tier.
+
+3. **Hunts linked**:
+   - Each major Hunt (B153–B159) has:
+     - At least one trophy,
+     - At least one Lodge project in 57,
+     - At least one recipe or brew unlocked (52/53/58).
+
+4. **Projects exist and consume correct reagents**:
+   - Ingredients from 51,
+   - Specialties from 55.
+
+5. **Narrative hooks**:
+   - NPCs have lines for:
+     - Lodge tiers,
+     - Hunts done/not done,
+     - Big rituals executed.
+
+6. **Feedback and rewards**:
+   - Upgrading the Lodge:
+     - Feels meaningful.
+     - Has clear before/after impact on food, brews, and rituals.
+
+---
+
+## 8. How to Use This File Going Forward
+
+Any time you:
+
+- Add a **new Lodge project**:
+  - Place it into:
+    - Room,
+    - Tier,
+    - Hunt/theme loop in this doc.
+- Add a **new Hunt or region system**:
+  - Decide:
+    - What it does for the Lodge,
+    - What the Lodge does for it.
+- Work on **visual or UX**:
+  - Use this doc as “what should the Lodge show the player at this stage”.
+
+B161 + B162 together describe:
+
+- “What Greatwood is” (B161),
+- “What the Lodge is, and how it grows with you” (B162).
+
+They should stay in sync whenever Hunts, regions, or Lodge logic change.
+
+---
