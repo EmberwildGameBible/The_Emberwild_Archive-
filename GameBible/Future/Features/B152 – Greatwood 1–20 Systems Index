@@ -1,365 +1,781 @@
-# B152 – Greatwood 1–20 Systems Index
-
-## Purpose
-
-This file is the **map** for all Greatwood 1–20 systems so you don’t have to remember:
-
-- what “51” vs “54” vs “B151” are,
-- which doc talks about ingredients, which talks about loot,
-- or where the Hunts / Lodge / professions actually plug into each other.
-
-If you feel lost, **read this first**, then jump into the specific file it points you at.
+## B152 – GREATWOOD 1–20 SYSTEMS INDEX  
+### Vertical Slice Map, Dependencies, and Implementation Checklist
 
 ---
 
-## 0. High Level: What Greatwood 1–20 Actually Covers
+## 0. PURPOSE & SCOPE
 
-For Greatwood 1–20, the **core gameplay loop** is:
+This file is the **master map for Greatwood 1–20**.
 
-1. Go out from the Lodge into Greatwood.
-2. **Hunt, forage, fish, and fight** → bring back ingredients + specialties.
-3. **Cook and brew** at the Lodge → food, tonics, feasts.
-4. **Use them in Hunts, dungeons, and events** → get rare drops and trophies.
-5. **Invest those** into:
-   - Lodge upgrades,
-   - Profession tools and kits,
-   - Trophies and ward rituals,
-   - Future regions.
+It answers:
 
-The docs in this index are the spine of that loop.
+- What **systems** exist in Greatwood 1–20.
+- Where each system’s **detailed spec** lives (B-files and core chapters).
+- How those systems **depend on each other**.
+- How to implement Greatwood 1–20 as a **vertical slice** in **phases**, without getting lost.
+
+This is not a lore dump.  
+This is an **orchestration document**: a readable, actionable control panel.
 
 ---
 
-## 1. “Core” Greatwood Docs (51–58 + B151)
+## 1. GREATWOOD 1–20 – HIGH-LEVEL OVERVIEW
 
-These are the main system files for Greatwood 1–20.
+Greatwood 1–20 is intended to function as a **self-contained first region** that teaches:
 
-### 1.1 – 51: Greatwood Ingredient Taxonomy
+- **How Emberwild works** (loot, combat, professions, Lodge).
+- **How players make decisions** (routes, Hunts, risk vs reward).
+- **How long-term systems feel** in a small space (Relics, Lodge, contracts, Hunts).
 
-**File:** `51 – Greatwood Ingredient Taxonomy`  
-**What it is:**
+Core pillars:
 
-- The master **ingredient list** for Greatwood 1–20:
-  - Meats (deer, boar, wolf, hare, fowl, great beasts)
-  - Herbs, roots, tubers
-  - Mushrooms, berries, nuts
-  - Ward, fire, and corruption reagents (Hollowroot, Black Sap, Ashen stuff)
-- Each ingredient has:
-  - An ID, a name, a category, and rough use tags (food, brew, decor, etc.)
+1. **The Lodge** – Home base, identity hub, progression sink.
+2. **Contracts** – Structured goals that push players into pockets and Hunts.
+3. **Hunts & Major Creatures** – Signature encounters that define Greatwood’s identity.
+4. **Loot & Ingredients** – All progression (cooking, Lodge, alchemy) runs on this.
+5. **Pockets & Landmarks** – Micro-biomes that teach risk, routing, and “this place is special.”
+6. **Professions & Cooking** – First real taste of economic depth and build expression.
+7. **Onboarding & Flow** – How we actually get players from Level 1 to leaving Greatwood.
 
-**When to read:**
-
-- Anytime you’re asking:
-  - “What items EXIST in this region?”
-  - “What’s the ID for this meat/herb/mushroom/etc.?”
-
-**What it feeds:**
-
-- 52 / 53 (Cooking recipes)
-- 55 (Specialty ingredients)
-- 58 (Alchemy)
-- B151 (Loot: who actually drops/gathers these things)
+B151 handles **loot**.  
+B152 (this file) defines **everything around it** and makes sure it all lines up.
 
 ---
 
-### 1.2 – 52: Greatwood Early Cooking Recipe Grid
+## 2. SYSTEM LAYERS & WHERE THEY LIVE
 
-**File:** `52 – Greatwood Early Cooking Recipe Grid`  
-**What it is:**
+This section is a **map**. It does not re-spec everything; it points to where things are defined and how they connect.
 
-- All the **low–mid tier** food for levels 1–20:
-  - Simple roasts, game stews, chowders, travel foods, jerky.
-- Focuses on:
-  - Teaching **how cooking works**,
-  - Using common ingredients from 51 (nothing too exotic yet).
+We break Greatwood into the following system layers:
 
-**When to read:**
+1. **World & Geography**
+2. **Lodge & Home Base**
+3. **Enemy Families & Creatures**
+4. **Contracts & Tasks**
+5. **Hunts & Major Encounters**
+6. **Loot & Itemization**
+7. **Professions, Cooking & Ingredients**
+8. **Events & Dynamic Occurrences**
+9. **UX / Onboarding & Player Flow**
 
-- When you’re designing:
-  - Early-game survival / food buffs,
-  - Campfire cooking vs lodge cooking differences.
-
-**What it feeds:**
-
-- Feeds from 51 ingredients → into:
-  - Player buffs and travel sustain,
-  - B57 combo projects (expedition crates, basic feasts).
+Each layer references existing B-files and core chapters.
 
 ---
 
-### 1.3 – 53: Advanced Cooking & Signature Lodge Dishes
+### 2.1 WORLD & GEOGRAPHY
 
-**File:** `53 – Advanced Cooking  Signature Lodge Dishes`  
-**What it is:**
+**What this layer covers**
 
-- The **“big” food**:
-  - Signature Lodge stews, roasts, feasts, and special variants.
-- Uses:
-  - Rare meats (`elder_stag_meat`, `ward_bear_haunch`, etc.),
-  - Special herbs, mushrooms, and sometimes **specialty ingredients** (55).
+- Physical layout of Greatwood 1–20.
+- Pockets, paths, vistas, danger gradients.
+- Where the Lodge sits relative to early content.
 
-**When to read:**
+**Primary references**
 
-- When you’re working on:
-  - Lodge identity (what you eat there),
-  - Group feasts and big buff events.
+- `B110–B113` (Greatwood layout, pockets, routes) – exact IDs may vary, but there is a Greatwood pockets/pacing block.
+- `B160 – Greatwood Major Hunts – Overview & Progression Map`
+- `B161 – Greatwood 1–20 – Region Summary & Flow`
 
-**What it feeds:**
+**Key concepts**
 
-- B57 Feast projects.
-- Higher-tier preparation for Hunts and Hollowroot/ward content.
+- **Pockets** – Self-contained micro-areas with a defined flavor:
+  - Hollowroot bog-like pockets.
+  - Ridge / cliff pockets.
+  - Ash-touched / emberfall pockets.
+- **Travel lines** – The most common paths between:
+  - Lodge → starter hunts → mid-depth Hunts → deep Hunts.
+- **Difficulty gradient**
+  - Outer ring: safe, predictable.
+  - Inner pockets: specialized threats and better rewards.
+  - Deep pockets: signature Hunts and high-risk loops.
 
----
+**Responsibilities**
 
-### 1.4 – 54: Profession Tools & Gear Sets (Hunter, Cook, Alchemist, Forager/Woodworker)
-
-**File:** `54 – Greatwood Profession Tools & Gear Sets (1–20)`  
-**What it is:**
-
-- Defines the **profession equipment** for Greatwood:
-  - Hunter tools (skinning knives, tracking cords, harnesses)
-  - Cook tools (pots, ladles, aprons)
-  - Alchemist tools (field kits, alembics, crucibles, sap-handling gear)
-  - Forager / Woodworker tools (herb shears, mushroom baskets, trophy carver sets, fixture kits)
-
-Each tool/gear piece has:
-
-- A role (`hunter`, `cook`, etc.),
-- A tier (1–3),
-- A slot (main tool, belt, apron, etc.),
-- What it actually changes in gameplay (yield, quality, rare drop chance, etc.).
-
-**When to read:**
-
-- When you’re thinking:
-  - “What does being a **Hunter** mean in this game?”
-  - “What does the **Cook** actually DO besides a title?”
-  - “How do players get better at professions over time?”
-
-**What it feeds:**
-
-- B57 combo projects (these tools get referenced in requirements).
-- B151 loot expectations (Hunters pull more useful stuff from kills).
+- Defines where Hunts and contracts send you.
+- Defines **which enemies live where**.
+- Controls the **geographic distribution** of loot sources (creatures, nodes, containers, events).
 
 ---
 
-### 1.5 – 55: Specialty Ingredients from Hunts, Bosses, and Events
+### 2.2 LODGE & HOME BASE
 
-**File:** `55 – Specialty Ingredients from Hunts, Bosses, and Events`  
-**What it is:**
+**What this layer covers**
 
-- The **special drops** you only get from:
-  - Signature Hunts (Elder Stag, Ward-Bear, Hollowroot Matron, Black-Sap Devourer, Howler, Ragged King, Shadow Under Wardstone)
-  - Major events (Emberfall, thunderstorms, etc.)
+- Greatwood Lodge structure, upgrades, and visual growth.
+- Lodge boards (Hunt board, contract board, Lodge projects).
+- Social/identity layer for the region.
 
-Examples:
+**Primary references**
 
-- `spec_ingr_elder_stag_marrow`
-- `spec_ingr_heartwood_antler_core`
-- `spec_ingr_black_sap_seed_nodule`
-- `spec_ingr_howler_throat_bundle`
-- `spec_ingr_shadow_ward_core`
-- Etc.
+- `B106 – Lodge Identity & Facilities (Greatwood)`
+- `B160 – Greatwood Major Hunts – Overview & Progression Map` (Hunt board integration)
+- `B162 – Lodge 1–20 – Structure, Upgrades, and Integration`
+- Core systems chapters:
+  - Lodge / Housing chapter in the main Bible (`06_Systems`).
 
-Each has:
+**Key Lodge features in Greatwood**
 
-- A source (exact boss/event),
-- Uses (specific recipes/brews/projects),
-- A theme (HP, fire resist, corruption, wards, etc.).
+- **Hunt Board** – Lists major hunts, shows their “lore posters”.
+- **Contract Board** – Daily/rotating tasks tied to Greatwood pockets.
+- **Lodge Projects** – Turn in ingredients/trophies to:
+  - Improve visuals.
+  - Unlock small buffs/amenities (cooking stations, alchemy bench, trophy room).
+- **Lodge NPCs** – Quest givers, mentors for:
+  - Hunts.
+  - Cooking/professions.
+  - Relics/oddities.
 
-**When to read:**
+**Responsibilities**
 
-- When designing Hunts and asking:
-  - “What makes THIS Hunt’s loot feel different and special?”
-- When wiring advanced recipes and brews that **must stay rare**.
-
-**What it feeds:**
-
-- 53 (signature food recipes that use specialties).
-- 58 (powerful brews that use specialties).
-- B57 projects (trophies, Lodge fixtures, wards).
-- B151 loot tables (boss loot definitions).
+- Acts as **hub** for region progression.
+- Provides **short- and medium-term goals** via boards.
+- Provides **visible feedback** when players invest loot.
 
 ---
 
-### 1.6 – 57: Profession Combo Recipes & Lodge Projects
+### 2.3 ENEMY FAMILIES & CREATURES
 
-**File:** `57 – Profession Combo Recipes & Lodge Projects`  
-**What it is:**
+**What this layer covers**
 
-The **“group projects” layer** where:
+- All Greatwood-specific enemy families.
+- How each family expresses:
+  - Behavior.
+  - Loot identity.
+  - Pocket placement.
 
-- Hunter + Cook + Alchemist + Forager/Woodworker
-- Combine ingredients + specialties + tools
-- To build:
-  - Lodge fixtures (Ember Pot upgrades, smokehouse, ward alcove),
-  - Big feasts (Hunt Celebrations, Hollowroot send-offs),
-  - Expedition crates,
-  - Trophies & totems,
-  - Ward rituals,
-  - Festival projects.
+**Primary references**
 
-Each project has:
+- Enemy/creature B-files for Greatwood family breakdown (`B114` and neighbors).
+- Hunts B-files (`B153–B159`).
+- `B151 – Greatwood Loot & Drop System (1–20)`
 
-- A `project_id`,
-- Required professions + skill levels,
-- Inputs (items + tools),
-- Steps,
-- Output effects (buffs, fixtures, region changes).
+**Core families (examples)**
 
-**When to read:**
+- **Stags & Deer** – Game animals; basic meat & hide.
+- **Boars** – Rich meats, fat, more aggressive.
+- **Howlers / Wolves** – Pack predators; trophy fangs, pelts.
+- **Hollowroot Beasts** – Corrupted variants; corruption fungals/resins.
+- **Bandits & Poachers** – Humanoid loot; coin, gear, trinkets.
+- **Ward / Shadow Entities** – Wardstone-linked; ward/corruption reagents.
 
-- When thinking:
-  - “What do we **do** with all these ingredients and specialties besides craft one-off items?”
-  - “How does the Lodge evolve over time?”
+**Responsibilities**
 
-**What it feeds:**
-
-- Lodge visuals and mechanics,
-- Region-wide modifiers (ward stabilization, event frequencies),
-- Social loops and group goals.
+- Define the **loot buckets** that B151 pulls from.
+- Give pockets and Hunts a **recognizable cast of enemies**.
+- Provide **behavioral variety** to match loot variety.
 
 ---
 
-### 1.7 – 58: Alchemy Stub – Hunter Tonics, Balms, and Brews
+### 2.4 CONTRACTS & TASKS
 
-**File:** `58 – Alchemy Stub: Hunter Tonics, Balms, and Brews`  
-**What it is:**
+**What this layer covers**
 
-- The **intro alchemy layer** for Greatwood:
-  - Simple field brews (stamina, vision, warmth),
-  - Wardstone-aligned tonics,
-  - Hollowroot & Black-Sap brews.
+- Day-to-day jobs the player picks up via:
+  - Lodge contract board.
+  - NPCs that feed into the contract system.
+- How contracts push players:
+  - Into specific pockets.
+  - To interact with specific enemies/nodes.
 
-It defines:
+**Primary references**
 
-- Basic vs advanced brews,
-- What ingredients they use (from 51 + some 55),
-- How they interact with:
-  - Ward, fire, and corruption themes.
+- `B115 – Greatwood Contracts – Tier I–II`
+- `B116 – Greatwood Contracts – Tier III–IV` (levels 10–20-ish)
+- Quest/contract core systems in `07_Quests` and `06_Systems`.
 
-**When to read:**
+**Types of contracts**
 
-- When designing:
-  - Non-food buffs,
-  - Ward / corruption interactions,
-  - Alchemist identity.
+- **Hunting Contracts**
+  - “Cull X beasts from family Y in pocket Z.”
+- **Gathering Contracts**
+  - “Collect X of ingredient Y from nodes in pocket Z.”
+- **Route / Patrol Contracts**
+  - “Travel through a specific path or chain of pockets, clearing threats.”
+- **Hunt-adjacent Contracts**
+  - “Prep the Lodge for a major Hunt” via ingredient turn-ins.
 
-**What it feeds:**
+**Responsibilities**
 
-- 54 (which tools matter for brewing).
-- 57 (projects using brews as inputs).
-- B151 (which mobs/nodes need to drop what reagents).
-
----
-
-### 1.8 – B151: Greatwood Loot & Drop System (1–20)
-
-**File:** `B151 – Greatwood Loot & Drop System (1–20)`  
-**What it is:**
-
-- The **“how loot actually drops”** spec for Greatwood:
-  - Creature loot families (deer, boar, wolves, Hollowroot, Ashen, ward/shadow, etc.).
-  - Hunts & bosses loot (Elder Stag, Ward-Bear, Hollowroot Matron, Black-Sap Devourer, Howler, Ragged King, Shadow Under Wardstone).
-  - Foraging/fishing/herb/mushroom nodes.
-  - Chests and containers.
-  - World drop tables for rare recipes and trinkets.
-
-It describes:
-
-- Rarity tiers,
-- Guaranteed/core/bonus/world-drop rolls,
-- Which ingredients are primary vs secondary sources.
-
-**When to read:**
-
-- When wiring anything that needs **actual sources**:
-  - “Where do we get `whisperfern`?”
-  - “Who drops `hollowroot_resin`?”
-  - “How often should `spec_ingr_black_sap_seed_nodule` appear?”
-
-**What it feeds:**
-
-- Future Lua loot modules (actual game code).
-- Balancing and economy work.
-- Ensures 51 / 52 / 53 / 55 / 58 aren’t just vibes – they’re actually obtainable.
+- Provide **structured, repeatable progression**.
+- Teach **where loot comes from** (pocket → enemy family → ingredient).
+- Provide a steady **coin + Lodge token** stream that powers progression.
 
 ---
 
-## 2. Hunt / Contract / Dungeon Docs (B11x–B12x)
+### 2.5 HUNTS & MAJOR ENCOUNTERS
 
-You also have a bunch of **Hunt, Contract, and Dungeon** docs (B115–B121, etc.).  
+**What this layer covers**
 
-This index doesn’t rewrite them, but here’s how they plug in:
+- Greatwood’s signature boss-style creatures and set-piece hunts.
+- How they plug into:
+  - Lodge Hunt Board.
+  - Loot tables (B151).
+  - Region flow (B160/B161).
 
-- **Hunt docs**:
-  - Define **encounter flow**, phases, arena, mechanics.
-  - Now connect to:
-    - 55 (their specialty ingredients),
-    - B151 (their boss loot structure),
-    - 57 (their trophies / Lodge projects),
-    - 53 / 58 (recipes/brews that use their specialties).
+**Primary references**
 
-- **Contract / Board docs**:
-  - Define tasks like “kill X beasts” or “bring back Y ingredients”.
-  - Now connect to:
-    - 51 (what can be collected),
-    - 54 (tools that make contracts easier),
-    - B151 (expected yields / drop frequencies).
+- `B153–B159` – Hunts:
+  - Black-Sap Devourer
+  - Hollowroot Matron
+  - Elder Hollow Stag
+  - Ward-Bear
+  - Greatwood Howler (alpha)
+  - Ragged King
+  - Shadow Under the Wardstone
+- `B160 – Greatwood Major Hunts – Overview & Progression Map`
+- `B151 – Greatwood Loot & Drop System (1–20)`
 
----
+**Responsibilities**
 
-## 3. How to Read This Stuff Without Getting Lost
-
-If you’re reviewing or expanding Greatwood 1–20, a clean reading order is:
-
-1. **51 – Ingredient Taxonomy**  
-   → know what exists.
-
-2. **52 – Early Cooking**  
-   → see what basic food uses those ingredients.
-
-3. **58 – Intro Alchemy**  
-   → see what basic brews exist.
-
-4. **54 – Profession Tools & Gear**  
-   → understand who does what and how they improve.
-
-5. **55 – Specialty Ingredients**  
-   → understand why Hunts and events matter.
-
-6. **53 – Advanced Cooking**  
-   → see the “big” Lodge food and feasts.
-
-7. **57 – Profession Combo Projects**  
-   → see Lodge upgrades, expeditions, trophies, ward rituals.
-
-8. **B151 – Loot & Drop System**  
-   → confirm it all has real sources.
-
-Any time you add something new (new dish, new brew, new Hunt), make sure it:
-
-- Has ingredients in **51**.
-- Uses or can use tools in **54**.
-- Fits into projects in **57** (if it’s big enough).
-- Actually has drops/nodes defined in **B151**.
+- Provide **spikes of intensity** in the Greatwood loop.
+- Award **signature ingredients, trophies, and chase rewards**.
+- Represent **mini-stories** inside Greatwood.
 
 ---
 
-## 4. Future You / Dev Notes
+### 2.6 LOOT & ITEMIZATION
 
-When you eventually jump back into Roblox / code:
+**What this layer covers**
 
-- B151 + 51–58 become the blueprint for:
-  - `LootTables_*` modules,
-  - `Recipes_*` modules,
-  - `Professions_*` modules,
-  - `LodgeProjects_*` modules.
+- Everything that actually **drops** in Greatwood 1–20:
+  - Ingredients.
+  - Gear.
+  - Coin.
+  - Trophies.
+  - Recipes.
+  - World drops.
 
-But for **right now**, you don’t have to wire any of that:
+**Primary references**
 
-- B151 = design, lives in GameBible.
-- This file (B152) = your **map** for Greatwood systems.
-- Code can wait.
+- `B151 – Greatwood Loot & Drop System (1–20)` ← core spec.
+- Global itemization / loot chapters in `06_Systems`.
+- Items & ingredient lists in `08_Items` (Cookbook, ingredient taxonomy).
+
+**Responsibilities**
+
+- Ensure that playing Greatwood **feels rewarding** but not spray-y.
+- Ensure **consistency**:
+  - Family → drop types → recipes → Lodge projects.
+- Provide clear **knobs** for tuning:
+  - Coin per hour.
+  - Ingredient density.
+  - Rare drop frequency.
 
 ---
+
+### 2.7 PROFESSIONS, COOKING & INGREDIENTS
+
+**What this layer covers**
+
+- How loot matures into:
+  - Food.
+  - Brews.
+  - Alchemy.
+  - Lodge upgrades.
+
+**Primary references**
+
+- `51 – Greatwood Ingredient Taxonomy`
+- `52–53 – Greatwood Cooking & Recipes`
+- `54 – Tool Mastery & Gathering`
+- `55 – Specialty Ingredients`
+- `58 – Intro Alchemy` (Greatwood band)
+
+**Responsibilities**
+
+- Translate **raw drops** (B151) into:
+  - Power.
+  - Utility.
+  - Gold sinks and crafting loops.
+- Give players **medium-term goals**:
+  - “I want to unlock and perfect this stew/brew.”
+- Give the Lodge **bulk “project” turn-ins** that soak up excess ingredients.
+
+---
+
+### 2.8 EVENTS & DYNAMIC OCCURRENCES
+
+**What this layer covers**
+
+- Non-static phenomena:
+  - Emberfalls.
+  - Wardstone surges.
+  - Storm cycles (if tied to fishing).
+  - Corruption blooms.
+
+**Primary references**
+
+- B-files focused on Greatwood events (if already created).
+- Global events chapter in `06_Systems`.
+- Loot integration via `B151` (world/effect-specific drop tables).
+
+**Responsibilities**
+
+- Add **texture** and **temporal variety**:
+  - Certain ingredients or drops appear only during specific events.
+- Give players reasons to:
+  - Revisit pockets at different times.
+  - Adjust their usual routes.
+
+---
+
+### 2.9 UX / ONBOARDING & PLAYER FLOW
+
+**What this layer covers**
+
+- How players are **introduced** to Greatwood:
+  - First Lodge arrival.
+  - First contract.
+  - First simple Hunt.
+  - First use of cooking/alchemy.
+- What **UI surfaces** these systems:
+  - Hunt board UI.
+  - Contract UI.
+  - Cookbook/recipes UI.
+  - Lodge project UI.
+
+**Primary references**
+
+- Greatwood onboarding B-file(s).
+- Cookbook UI spec.
+- HUD / menu chapters in UI systems.
+
+**Responsibilities**
+
+- Make sure players:
+  - Understand the **shape of Greatwood**.
+  - Realize Loot → Ingredients → Cooking → Lodge loop exists.
+  - Do not feel overwhelmed by options.
+
+---
+
+## 3. PLAYER PROGRESSION PHASES (1–20)
+
+This is a **phase-based view** of Greatwood 1–20, combining systems.
+
+We reuse the **Bands A–D** from B151.
+
+---
+
+### PHASE A (LEVEL 1–5) – “FIRST HUNT, FIRST STEW”
+
+**Primary goals**
+
+- Learn:
+  - Basic combat.
+  - How to use the Lodge.
+  - How contracts work.
+  - That cooking/ingredients matter.
+
+**Core content**
+
+- Safe pockets near the Lodge.
+- Starter contracts:
+  - Kill simple beasts.
+  - Collect basic roots/herbs.
+- First simple Lodge projects:
+  - “Light up the Lodge.” (basic décor)
+  - “Stock the pantry.” (bulk food turn-in)
+
+**System unlocks**
+
+- Basic Cookbook:
+  - A few simple stews that use very common ingredients.
+- First Hunt preview:
+  - A small, low-risk “Huntlet” that introduces the Hunt loop without punishing failure.
+
+---
+
+### PHASE B (LEVEL 6–10) – “ROUTES & ROUTINES”
+
+**Primary goals**
+
+- Players learn to:
+  - Choose loops and pockets intentionally.
+  - Combine contracts for efficiency.
+  - Use food/brews to support Hunts.
+
+**Core content**
+
+- More complex pockets:
+  - Slightly deeper, more dangerous.
+- Contracts start chaining:
+  - “Do X in pocket A and Y in adjacent pocket B.”
+- First **real Hunts**:
+  - Black-Sap Devourer or equivalent Tier II Hunts.
+
+**System evolution**
+
+- Cooking:
+  - Unlock intermediate recipes that use “uncommon” ingredients.
+- Lodge:
+  - Opens up more meaningful perks:
+    - Local vendors.
+    - Better crafting stations.
+
+---
+
+### PHASE C (LEVEL 11–15) – “SIGNATURE HUNTS, LODGE LIFTS ITS HEAD”
+
+**Primary goals**
+
+- Greatwood now feels like a **home region**:
+  - Player has routes, favorite Hunts, and Lodge progress.
+
+**Core content**
+
+- Mid-tier Hunts:
+  - Hollowroot Matron, Elder Hollow Stag, Ward-Bear, etc.
+- Contracts that:
+  - Directly reference Hunts.
+  - Feed preparation and cleanup phases around Hunts.
+
+**System evolution**
+
+- Loot (per B151):
+  - Specialty and rare ingredients now consistent with the “farm band”.
+- Cooking / alchemy:
+  - Provide targeted advantages for specific Hunts.
+- Lodge:
+  - Trophy displays start to fill.
+  - New boards or wings open physically.
+
+---
+
+### PHASE D (LEVEL 16–20) – “SQUEEZING GREATWOOD DRY”
+
+**Primary goals**
+
+- Player is deciding how long to stay vs move on.
+- Player is chasing:
+  - Specific trophies.
+  - Specific recipes.
+  - Specific Lodge finishes.
+
+**Core content**
+
+- High-tier Hunts:
+  - Greatwood Howler alpha, Ragged King, Shadow Under the Wardstone.
+- Highest-difficulty pockets:
+  - Most corrupted, most rewarding.
+
+**System evolution**
+
+- Loot:
+  - Rare and ultra-rare tables engaged.
+- Lodge:
+  - Final Greatwood-tier projects finish.
+- Player:
+  - Has a **strong sense of closure**, but with a few clear chase items if they want to linger.
+
+---
+
+## 4. SYSTEM DEPENDENCY GRAPH (TEXTUAL)
+
+This section describes dependencies in simple, implementation-useful terms.
+
+---
+
+### 4.1 Hard Dependencies
+
+These are **must-exist-before** relationships.
+
+- **B151 (Loot) depends on:**
+  - Enemy families spec.
+  - Ingredient taxonomy (`51`).
+- **Contracts (B115–B116) depend on:**
+  - Pockets layout (B110–B113).
+  - Enemy families & nodes (for “go do X there” logic).
+- **Hunts (B153–B159) depend on:**
+  - Enemy families (for boss variants).
+  - Pockets (for their arena/biome).
+  - Lodge Hunt Board (for surfacing them).
+- **Lodge projects (B162 and core Lodge systems) depend on:**
+  - Loot tables (B151).
+  - Ingredients & trophies (51–55).
+- **Cooking & alchemy (52–53, 58) depend on:**
+  - Loot (B151).
+  - Ingredient taxonomy (51).
+
+---
+
+### 4.2 Soft Dependencies & Feedback Loops
+
+These are loops that need to **feel good** but do not have strict gated order.
+
+- **Hunts ↔ Lodge**
+  - Hunts give trophies/ingredients → Lodge projects unlock board upgrades → Board surfaces harder Hunts.
+- **Contracts ↔ Pockets**
+  - Contracts send players into pockets → Their ingredients/enemies define future contracts.
+- **Loot ↔ Professions**
+  - Loot controls ingredient supply → Professions control how ingredients turn into power/value.
+
+---
+
+## 5. IMPLEMENTATION PHASES – GREATWOOD VERTICAL SLICE
+
+This is a **practical plan** for actually building Greatwood 1–20 in stages.
+
+---
+
+### PHASE 1 – “SKELETON GREATWOOD”
+
+Goal: **You can walk around, fight, and get basic loot.**
+
+**Must-have pieces**
+
+- Base Greatwood map & pockets (graybox acceptable).
+- Enemy families implemented with:
+  - Basic AI.
+  - Health/damage tuning for 1–20.
+- **Minimal loot** wired up from B151:
+  - Meat, basic ingredients, small coin.
+- An **ugly but functional Lodge**:
+  - Spawn, basic vendor, simple contract board stub.
+
+**What works in-game**
+
+- Kill beasts, get meat + coin.
+- Turn in **one or two ultra-simple contracts**.
+- Cook one or two basic recipes manually (or via placeholder UI).
+
+---
+
+### PHASE 2 – “REAL LOOT & ROUTES”
+
+Goal: **Greatwood feels like a region, not a tech demo.**
+
+**Must-have pieces**
+
+- B151 fully implemented:
+  - Creature loot tables.
+  - Node loot tables.
+  - Basic world drop tables (no relics yet).
+- Herb, mushroom, root, and simple ore nodes placed along pockets and routes.
+- Several **pocket-specific contracts**:
+  - “Cull A family in pocket X.”
+  - “Harvest nodes in pocket Y.”
+
+**What works in-game**
+
+- Players can pick up contracts, run **real loops**, and:
+  - See consistent ingredient patterns per pocket.
+  - See coin/loot roughly match the bands from B151.
+
+---
+
+### PHASE 3 – “HUNTS & LODGE IDENTITY”
+
+Goal: **Greatwood starts to feel iconic.**
+
+**Must-have pieces**
+
+- Implement at least **3 major Hunts** (from B153–B159) end-to-end:
+  - Spawn logic.
+  - Arena setup.
+  - Basic mechanics.
+  - Hunt reward bundles (using B151 loot hooks).
+- Lodge:
+  - Hunt Board functional.
+  - Trophy turn-in and display for those Hunts.
+- More developed contracts:
+  - Prep contracts that feed into those Hunts.
+
+**What works in-game**
+
+- Player can:
+  - Hunt named creatures.
+  - Bring trophies back to the Lodge.
+  - Visibly upgrade Lodge Hunt displays.
+- Hunts feel different from normal combat and worth doing.
+
+---
+
+### PHASE 4 – “PROFESSIONS, SPECIALTY, & PITY”
+
+Goal: **Depth kicks in.**
+
+**Must-have pieces**
+
+- Cooking system:
+  - Several real recipes wired to ingredients from B151.
+  - Effects apply correctly in combat.
+- Tool Mastery:
+  - Gathering yields modified by skill.
+- `SpecialtyPity_Greatwood.lua`:
+  - Track at least 2–3 specialty tracks (e.g. Hollowroot fungi, storm fish, Hunt-only meats).
+- More advanced alchemy:
+  - A handful of brews using ward/corruption reagents.
+
+**What works in-game**
+
+- Players can:
+  - Plan routes for specific ingredients.
+  - Notice that bad streaks on specialty mats get “caught” by pity over time.
+  - Feel the Lodge and cooking powering them through Hunts.
+
+---
+
+### PHASE 5 – “FULL GREATWOOD EXPERIENCE”
+
+Goal: **Polish and completeness.**
+
+**Must-have pieces**
+
+- All major Hunts implemented from B153–B159.
+- Full Lodge project line for Greatwood (B162):
+  - Last visual stages implemented.
+- Dynamic events:
+  - At least one emberfall / wardstone surge / storm variant integrated with loot.
+- Basic Relic teasing:
+  - Rare world drops that connect to B139–B150/B143 without over-saturating.
+
+**What works in-game**
+
+- A player can:
+  - Live in Greatwood from 1–20.
+  - Learn and master its systems.
+  - Develop a strong sense of **home**.
+  - Move on to the next region with:
+    - A crystallized identity.
+    - A Lodge that reflects their run.
+    - A handful of unique stories.
+
+---
+
+## 6. TELEMETRY & TUNING HOOKS
+
+This section defines **what you should log** to check that Greatwood behaves like B151/B152 say it should.
+
+---
+
+### 6.1 Recommended Metrics
+
+Per player, per session (or per in-game hour):
+
+- **Kills per band** (A/B/C/D).
+- **Loot per band**:
+  - Count of ingredients by family (meat/herb/fungus/etc.).
+  - Coin earned (raw vs contract vs vendoring).
+- **Contracts**:
+  - Accepted, completed, abandoned.
+  - Time to complete.
+- **Hunts**:
+  - Attempts vs successes.
+  - Time per attempt.
+  - Damage taken / dealt.
+- **Node interactions**:
+  - Count per node type.
+  - Yield per node, per band, per tool mastery tier.
+- **Specialty drops**:
+  - Rolls and hits per specialty track.
+  - Pity activations.
+
+---
+
+### 6.2 Expected Ranges (Sanity)
+
+From B151:
+
+- Coin/hour roughly:
+  - 55–100 at 1–5.
+  - 100–160 at 6–10.
+  - 150–210 at 11–15.
+  - 190–270 at 16–20.
+
+When telemetry says:
+
+- Much higher than this:
+  - Check contract rewards and vendor values first.
+- Much lower:
+  - Check contract availability and drop densities.
+
+For specialty ingredients:
+
+- 1–3 per **focused farm hour** in Bands C/D.
+- If logs show:
+  - Large numbers of players going 3+ hours of focused content with **zero** specialty hits:
+    - Pity config is too stingy.
+  - Everyone drowning in specialty mats:
+    - Baseline drop rates and/or pity are too generous.
+
+---
+
+## 7. FILE INDEX – GREATWOOD 1–20
+
+This is a quick table of **what file handles what** in the Greatwood 1–20 slice.
+
+> Note: Exact filenames can be adjusted, but the structure should remain.
+
+- **B110–B113** – Greatwood pockets, landmarks, and world layout.
+- **B114** – Greatwood enemy families & creature tags.
+- **B115** – Greatwood Contracts – Tier I–II.
+- **B116** – Greatwood Contracts – Tier III–IV.
+- **B139–B150** – Relics & Relic systems (global, with Greatwood hooks).
+- **B143** – Relic Lore Pages (Lua module).
+- **B151** – Greatwood Loot & Drop System (1–20). ← Loot backbone.
+- **B152** – Greatwood 1–20 Systems Index (this file).
+- **B153–B159** – Greatwood major Hunts encounter specs.
+- **B160** – Greatwood Major Hunts – Overview & Progression Map.
+- **B161** – Greatwood 1–20 – Region Summary & Flow.
+- **B162** – Lodge 1–20 – Structure, Upgrades, and Integration.
+
+Core chapters & non-B files used by Greatwood:
+
+- `06_Systems/CHAPTER_7_ITEMIZATION_AND_LOOT.md`
+- `06_Systems/CHAPTER_LODGE_AND_HOUSING.md`
+- `06_Systems/CHAPTER_COMBAT_AND_ENEMIES.md`
+- `08_Items/EMBERWILD_COOKBOOK - INGREDIENTS.md` and related.
+- `08_Items/COOKING_RECIPES_*.md` (Greatwood subset).
+- `05_Classes/*` for class-specific interactions (buffs, Hunts synergy).
+
+---
+
+## 8. OUTSTANDING GAPS & TODO NOTES
+
+This section is a **living checklist** of things that likely still need expansion or hard decisions.
+
+> (Use checkboxes in your editor/Notion mirror if helpful.)
+
+- [ ] Finalize the list of **Greatwood pockets** and confirm each has:
+  - [ ] Enemies.
+  - [ ] Nodes.
+  - [ ] Contracts.
+  - [ ] At least one event hook or reason to revisit.
+- [ ] Confirm every **major enemy family** has:
+  - [ ] Behavior spec.
+  - [ ] Loot bucket spec (linked to B151).
+  - [ ] Placement in at least two pockets.
+- [ ] Ensure each **Hunt (B153–B159)** is:
+  - [ ] Mapped to a pocket / arena.
+  - [ ] Wired to a Hunt Board entry.
+  - [ ] Wired to a Hunt reward bundle consistent with B151.
+- [ ] Finalize the **Greatwood-specific recipe subset**:
+  - [ ] Which recipes are realistically obtainable in Greatwood.
+  - [ ] Which ones are teaser/preview for later regions.
+- [ ] Define at least:
+  - [ ] 2–3 **specialty tracks** for `SpecialtyPity_Greatwood.lua`.
+  - [ ] Their expected roll counts and hard caps.
+- [ ] Implement minimal **telemetry hooks** and confirm they log:
+  - [ ] Coin/hour.
+  - [ ] Ingredients/hour.
+  - [ ] Specialty tracks behavior.
+
+---
+
+## 9. SUMMARY
+
+B152 is the **hub** around which all Greatwood 1–20 work orbits.
+
+- It does **not** replace B151 (loot) or the Hunts/Contracts files.
+- It makes them **coherent**, so:
+  - You can build Greatwood in phases.
+  - You can check that it behaves as intended.
+  - You can see, at a glance, what’s missing.
+
+If B151 is “what drops where and why,”  
+B152 is “how all of that fits together so Greatwood actually feels like a place.”
+
+---
+
+_End of B152 – Greatwood 1–20 Systems Index_
