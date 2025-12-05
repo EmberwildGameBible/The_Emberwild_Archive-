@@ -1,709 +1,811 @@
-# 55 – Specialty Ingredients from Hunts, Bosses, and Events (Greatwood 1–20)
+# 55 – Specialty Ingredients from Hunts, Bosses, and Events
 
 ## Purpose
 
-Define the **canonical pool of specialty ingredients** that come from:
+Create a set of specialty ingredients that only drop from specific
+hunts, bosses, dungeons, and world events in Greatwood. These ingredients:
 
-- Signature Hunts
-- Named elites / mini-bosses
-- Dungeon bosses (Hollowroot Warren, etc.)
-- Environmental events and special pockets
+- Make big encounters feel economically meaningful
+- Feed directly into advanced Cooking (52, 53) and Intro Alchemy (58)
+- Show up explicitly in signature Hunts (B117–B121) and Contracts (B115–B116)
+- Help differentiate "normal hunting" from "serious Hunts / dungeons / events"
 
-These items are the **bridge layer** between:
-
-- Hunts / boss kills
-- Cooking (docs 52 & 53)
-- Alchemy (58, future)
-- Professions (trophies, lodge decor, reagents)
-
-They give Hunts tangible progression beyond raw currency and trophies, and they tie the **food/alchemy ecosystem** tightly to specific encounters.
-
-This is a **design doc**, not raw data. Implementation should mirror this in Lua data tables.
+This is a design list + ruleset, not implementation code.
 
 ---
 
 ## Design Goals
 
-1. **Every major hunt feels mechanically unique**
-   - Each Signature Hunt drops 1–3 **named specialty ingredients** that only it can provide.
-   - These feed directly into **specific recipes**, alchemy brews and lodge trophies.
+1. Memorable sources  
+   When you see a specialty ingredient, you should remember exactly  
+   what you killed, survived, or triggered to get it.
 
-2. **Consistent ID and naming scheme**
-   - All specialty ingredients use:
-     - `spec_ingr_<theme>_<descriptor>`
-   - They reference:
-     - Hunts (`hunt_elder_stag`, `hunt_ward_bear`, etc.)
-     - Dungeons (`boss_hollowroot_matron`, etc.)
-     - Events (`event_burn_scar`, `event_thin_ward`, etc.)
+2. Tightly scoped uses  
+   Each specialty ingredient should have 1–3 specific, high-value uses,
+   not be tossed into every recipe or brew.
 
-3. **Synergy with 51 / 52 / 53**
-   - 51 defines the **base taxonomy** (`elder_stag_meat`, `ragged_king_shank`, etc.).
-   - 52 & 53 define **recipes**.
-   - 55 defines the **special, hunt-tied variants and processed forms** that “slot on top” of 51.
+3. Early but expandable  
+   Focus on Greatwood 1–20 content now, but make patterns that can be
+   reused in later regions.
 
-4. **Predictable rarity & drop logic**
-   - Each specialty ingredient clearly labeled:
-     - `signature_core` – always drops on success (or via quest turn-in).
-     - `signature_rare` – high chance per clear.
-     - `signature_luxury` – rare, long-tail chase but never required for story.
-   - Loot tables should be able to reference these tags cleanly.
+4. Reinforce fantasy  
+   Names, effects, and sources should reinforce the hunter / forest /
+   Lodge / corruption / fire themes.
 
-5. **Future-proofing**
-   - This file only covers **Greatwood 1–20**.
-   - Later regions use the same patterns with region prefixes.
+5. Avoid mandatory grind  
+   These ingredients should feel special and rewarding, not a required
+   grind for baseline progression. They are "nice to have, very good",
+   not "you cannot function without this".
 
 ---
 
-## ID & Data Schema
+## Structure For Each Specialty Ingredient
 
-Each specialty ingredient should be defined in data with:
+Each specialty ingredient entry defines:
 
-- **id** – `spec_ingr_<theme>_<descriptor>`
-- **display_name** – player name
-- **rarity_band** – `signature_core`, `signature_rare`, `signature_luxury`, `event_core`, `event_rare`
-- **source_type** – `signature_hunt`, `elite`, `dungeon_boss`, `event_pocket`, `world_event`
-- **source_id** – normalized ID:
-  - e.g. `hunt_elder_stag`, `boss_black_sap_devourer`, `event_burn_scar_wildfire`
-- **base_ingredient_ids** – which base taxonomy ingredients from 51 this is conceptually built from
-  - e.g. `elder_stag_meat`, `ragged_king_bone_shard`, `black_sap_nodule`
-- **primary_uses** – `cooking`, `alchemy`, `profession_trophy`, `lodge_decor`, `quest_hook`
-- **tags** – flexible tags for systems
-  - `meat`, `bone`, `res_corruption`, `res_fire`, `vision`, `hp_max`, etc.
-- **notes** – flavor and rules
+- ID: `spec_ingr_<theme>` (e.g. `spec_ingr_elder_stag_marrow`)
+- Display Name
+- Base Ingredient Link:
+  - Which core 51-ingredient it extends (if any), e.g. `elder_stag_meat`, `black_sap_nodule`
+- Source Type:
+  - Signature Hunt / World Boss / Dungeon Boss / Elite / Event / Weather / Questline
+- Source Details:
+  - Specific enemy, event, or POI
+- Rarity Within Source:
+  - Guaranteed / Common / Uncommon / Rare / Very Rare
+- Suggested Uses:
+  - 1–3 concrete hooks:
+    - Cooking recipes (52–53)
+    - Alchemy brews (58)
+    - Profession combo crafts (57)
+    - Trophies / decor (86, B122)
+- Effect Theme:
+  - What it tends to do mechanically (HP, stamina, corruption, fire, perception, etc.)
+- Flavor:
+  - One or two lines of in-world flavor / lodge gossip
 
-Implementation note:  
-Specialty ingredients **do not replace** base ingredients from 51. They are **additional drops**, often created conceptually by “curating” or “refining” core pieces.
-
----
-
-## Section Outline
-
-1. Signature Hunts – Core Specialty Ingredients  
-   1. Elder Stag  
-   2. Ward-Bear  
-   3. Greatwood Howler  
-   4. Hollowroot Matron / Hollowroot Serpents  
-   5. Black-Sap Devourer  
-   6. Ragged King
-
-2. Named Elites & Mini-Bosses – Secondary Specialties  
-   - Dire Wolf Alpha, Ashen Beasts, Shadow Stag, etc.
-
-3. Events & Environmental Pockets – Event Specialties  
-   - Burn Scars, Thin Ward Pockets, River Events
-
-4. Lodge Processing & “Refined” Specialties  
-   - Cured, smoked, reduced, treated versions that only the Lodge can produce.
+Implementation detail:  
+Specialty ingredients are *items* built on top of the taxonomy in 51.  
+Some map 1:1 to an existing ID from 51 (flagged as "specialty"), others are
+more refined variants (marrow, cores, essences) that sit beside the base.
 
 ---
 
-## 1. Signature Hunts – Core Specialty Ingredients
+## Global Rules For Specialty Ingredients (Greatwood 1–20)
 
-Each Signature Hunt gets:
+1. All specialties are from:
+   - Signature Hunts (B117–B121)
+   - Major world bosses
+   - Dungeon bosses / capstones
+   - Major dynamic events (62)
+   - Rare weather / time-of-day events
 
-- 1x **Core Trophy Ingredient** (`signature_core`) – almost guaranteed
-- 1–2x **Rare / Luxury Ingredients** (`signature_rare` / `signature_luxury`) – higher value, lower chance
-- May reuse monster parts defined in 51 as “base” pieces
+2. Most have:
+   - A guaranteed drop on first completion (per account or per character)
+   - A lower chance on repeat clears
+   - Occasionally an extra rare "perfect" variant for bragging rights
 
-### 1.1 Elder Stag – “Crown of the Greatwood”
+3. Usage rules:
+   - Each specialty ingredient should be referenced in:
+     - At least one advanced Cooking recipe (53) OR
+     - At least one Alchemy brew (58) OR
+     - A Profession combo craft (57)
+   - Some are dual-purpose (e.g. can be eaten or brewed)
+   - A small subset is *primarily* trophy/decor but still usable in one recipe
 
-**Hunt ID:** `hunt_elder_stag`
+4. Economic role:
+   - Specialty ingredients should be trade-centric for whatever economy we allow:
+     - Hunt players farm them
+     - Cooks / alchemists / woodworkers craft high-end items
+   - Prices should feel "aspirational" but not unreachable.
 
-The Elder Stag sets the tone for “noble” Greatwood hunts. Its specialties emphasize Max HP, resilience, and prestige.
-
----
-
-#### [ES-1] Elder Stag Crown Marrow
-
-- **ID:** `spec_ingr_elder_stag_crown_marrow`  
-- **Display Name:** Elder Stag Crown Marrow  
-- **Rarity Band:** `signature_core`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_elder_stag`  
-- **Base Ingredients:**  
-  - `elder_stag_meat`  
-  - `ragged_king_bone_shard` (reference only; similar treatment style)  
-- **Primary Uses:** `cooking`, `alchemy`  
-- **Tags:** `meat`, `bone`, `hp_max`, `prestige`  
-- **Notes:**
-  - Conceptually the marrow from the Elder Stag’s crown rack and upper bones, extracted via lodge ritual.
-  - Primary ingredient in **Elder Stag Crown Roast** and potential later high-tier HP / fortitude elixirs.
-  - Should be obtained once per successful first clear, with some way to get more via repeat hunts and rep.
-
----
-
-#### [ES-2] Gilded Antler Shavings
-
-- **ID:** `spec_ingr_elder_stag_antler_shavings`  
-- **Display Name:** Elder Stag Gilded Antler Shavings  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_elder_stag`  
-- **Base Ingredients:**  
-  - `sapstained_antler`  
-- **Primary Uses:** `alchemy`, `profession_trophy`, `lodge_decor`  
-- **Tags:** `bone`, `res_corruption`, `ritual`  
-- **Notes:**
-  - Finely filed pieces of antler used in ward-ink and high-end finish for lodge trophy mounts.
-  - Some cooking recipes may “optionally” consume a small amount for a slight res_corruption bump.
+5. UX rules:
+   - Loot popups and Codex entries should clearly show:
+     - Source (e.g. "Drops from: Black-Sap Devourer – Signature Hunt")
+     - Suggested uses ("Used in: Black Sap Purge, Hollowroot Fortifying Draught variant")
+   - No completely mysterious dead-end items.
 
 ---
 
-#### [ES-3] Elder Stag Heartstring
+## Category Breakdown
 
-- **ID:** `spec_ingr_elder_stag_heartstring`  
-- **Display Name:** Elder Stag Heartstring  
-- **Rarity Band:** `signature_luxury`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_elder_stag`  
-- **Base Ingredients:**  
-  - conceptual derivative of `corrupted_heart_tissue` but in a non-corrupted, attuned form  
-- **Primary Uses:** `alchemy`, `quest_hook`  
-- **Tags:** `rare`, `ritual`, `hp_max`, `emotion`  
-- **Notes:**
-  - Thin, corded tissue dried and bound; used in rare potions and in a handful of Lodge rituals.
-  - Could later tie into relational / loyalty systems if you go there.
+For Greatwood 1–20 we define:
 
----
-
-### 1.2 Ward-Bear – “Anchor of the Lodge”
-
-**Hunt ID:** `hunt_ward_bear`
-
-Focus: tank food, ward-adjacent resilience, knockdown resistance.
+1. Elder Stag & Great Beasts (World / Signature Hunts)
+2. Ward-Bear and Defensive Hunts
+3. Ashen Beasts & Fire-Scar Creatures
+4. Hollowroot & Corruption Pockets
+5. Black-Sap Devourer (Signature Hunt B117)
+6. Greatwood Howler (Signature Hunt B119)
+7. The Ragged King (Signature Hunt B120)
+8. Shadow Under the Wardstone (B121) & Wardline Threats
+9. Dynamic Weather / Event Ingredients
+10. Lodge / Social Specialties (Festival / Ember Pot hooks)
 
 ---
 
-#### [WB-1] Ward-Bear Marrow Haunch
+## 1. Elder Stag & Great Beasts
 
-- **ID:** `spec_ingr_ward_bear_marrow_haunch`  
-- **Display Name:** Ward-Bear Marrow Haunch  
-- **Rarity Band:** `signature_core`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_ward_bear`  
-- **Base Ingredients:**  
-  - `ward_bear_haunch`  
-- **Primary Uses:** `cooking`  
-- **Tags:** `meat`, `hp_max`, `res_knockdown`, `tank_food`  
-- **Notes:**
-  - Used directly in **Ward-Bear Hearth Haunch** (53).
-  - A thick, bone-in cut designated for anchor meals.
+### 1.1 Elder Stag Marrow
 
----
-
-#### [WB-2] Ward-Bear Spine Segment
-
-- **ID:** `spec_ingr_ward_bear_spine_segment`  
-- **Display Name:** Ward-Bear Spine Segment  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_ward_bear`  
-- **Base Ingredients:**  
-  - Derived from heavy vertebrae, conceptual kin to `ironbark_taproot` in function.  
-- **Primary Uses:** `alchemy`, `profession_trophy`  
-- **Tags:** `bone`, `res_knockdown`, `res_stun`  
-- **Notes:**
-  - Used in potions that reduce stun and knockdown durations.
-  - Also used by lodge woodworkers as a reference form for carved ceremonial pauldrons.
+- ID: `spec_ingr_elder_stag_marrow`
+- Display Name: Elder Stag Marrow
+- Base Ingredient Link: derives from `elder_stag_meat` (51)
+- Source Type: World Boss / Signature Hunt
+- Source Details:
+  - Elder Hollow Stag world event / hunt chain (Greatwood deep glades)
+- Rarity Within Source:
+  - First clear: guaranteed 1
+  - Repeat clears: 30–40% chance for 1, small chance for 2 on high-rank completions
+- Suggested Uses:
+  - Cooking:
+    - High-tier upgrade to `gw_elder_stag_crown_roast` (53) variant
+    - Used in a “Marrow Feast” stew for small group feasts (later expansion)
+  - Alchemy:
+    - Optional additive in `brew_hollowroot_fortifying_draught` variant (58)
+- Effect Theme:
+  - Max HP, fortitude, subtle tracking / awareness
+- Flavor:
+  - "Old hunters say the stag remembers every arrow it’s ever carried, and all of that weight ends up in the marrow."
 
 ---
 
-#### [WB-3] Ward-Bear Sigil Fat
+### 1.2 Heartwood Antler Core
 
-- **ID:** `spec_ingr_ward_bear_sigil_fat`  
-- **Display Name:** Ward-Bear Sigil Fat  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_ward_bear`  
-- **Base Ingredients:**  
-  - Rendered from internal fat similar to `rendered_boar_fat` but heavier and denser.  
-- **Primary Uses:** `cooking`, `alchemy`  
-- **Tags:** `fat`, `hp_max`, `ward`  
-- **Notes:**
-  - Acts as a high-tier replacement for `rendered_boar_fat` in certain recipes, boosting Max HP buffs.
-  - Used in ward-candle crafting to make long-burning watch lights.
-
----
-
-### 1.3 Greatwood Howler – “Voice of the Hunts”
-
-**Hunt ID:** `hunt_greatwood_howler`
-
-Focus: damage-feast ingredients, howl-themed echoes, group aggression.
-
----
-
-#### [GH-1] Howler Prime Rib
-
-- **ID:** `spec_ingr_howler_prime_rib`  
-- **Display Name:** Howler Prime Rib  
-- **Rarity Band:** `signature_core`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_greatwood_howler`  
-- **Base Ingredients:**  
-  - `greatwood_howler_rib`  
-- **Primary Uses:** `cooking`  
-- **Tags:** `meat`, `damage_boost`, `party_feast`  
-- **Notes:**
-  - Directly used by:
-    - `recipe_smokebloom_lodge_rib_rack`  
-    - `recipe_greatwood_howler_hunters_board`  
-  - Conceptually “best cut of the Howler’s ribcage”.
+- ID: `spec_ingr_heartwood_antler_core`
+- Display Name: Heartwood Antler Core
+- Base Ingredient Link: tied to `sapstained_antler` (51)
+- Source Type: World Boss / Signature Hunt
+- Source Details:
+  - Rare carve from Elder Hollow Stag antlers when felled near Wardstone radiance
+- Rarity Within Source:
+  - First completion with special condition (within ward-light): guaranteed
+  - Otherwise: ~10% chance
+- Suggested Uses:
+  - Alchemy:
+    - Component in `brew_wardstone_skin_tonic` powerful variant
+    - High-end reagent for future ward-channeling potions
+  - Lodge:
+    - Trophy material for high-prestige antler mounts (86, B122)
+- Effect Theme:
+  - Corruption resistance, ward alignment, minor magic resistance
+- Flavor:
+  - "The inner ring of the antler glows faintly in the dark, like tree-rings from a forest that remembers too much."
 
 ---
 
-#### [GH-2] Howler Throat Bundle
+### 1.3 Elder Stag Veil-Torn Hide
 
-- **ID:** `spec_ingr_howler_throat_bundle`  
-- **Display Name:** Howler Throat Bundle  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_greatwood_howler`  
-- **Base Ingredients:**  
-  - Tissue conceptually related to vocal cords and surrounding cartilage.  
-- **Primary Uses:** `alchemy`, `quest_hook`  
-- **Tags:** `voice`, `fear`, `signal`  
-- **Notes:**
-  - Used in concoctions that affect fear / morale mechanics:
-    - Slight enemy fear resist  
-    - Or small enemy fear generation (later expansions)
-  - May be required for special Lodge banners or horns.
-
----
-
-#### [GH-3] Howler Fang Rosary
-
-- **ID:** `spec_ingr_howler_fang_rosary`  
-- **Display Name:** Howler Fang Rosary  
-- **Rarity Band:** `signature_luxury`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_greatwood_howler`  
-- **Base Ingredients:**  
-  - Multiple sharpened fangs from the Howler  
-- **Primary Uses:** `profession_trophy`, `lodge_decor`  
-- **Tags:** `bone`, `prestige`, `hunt_status`  
-- **Notes:**
-  - Crafted item representing a set of fangs strung together.
-  - Used to upgrade lodge trophy walls or as proof of multiple Howler kills.
+- ID: `spec_ingr_elder_stag_veil_hide`
+- Display Name: Veil-Torn Elder Stag Hide
+- Base Ingredient Link: conceptually attached to `shadow_stag_loin` and general stag pelts
+- Source Type: World Boss / Signature Hunt
+- Source Details:
+  - Drops only if Elder Stag is brought down during a “thin ward” phase event
+- Rarity Within Source:
+  - Very Rare (5–8% chance on qualifying kills)
+- Suggested Uses:
+  - Profession Combo (57):
+    - Woodworker + Cook + Hunter craft:
+      - Veil-lined Lodge cloak with small corruption resist and move speed bonuses
+  - Lodge Decor:
+    - Rare pelt for rooms, with small passive comfort/rep gain hooks later
+- Effect Theme:
+  - Stealth, soft movement, corruption edge protection
+- Flavor:
+  - "You can’t quite tell where the hide ends and the air begins when it’s hung in low light."
 
 ---
 
-### 1.4 Hollowroot Matron / Serpents – “Teeth of the Deepwood”
+## 2. Ward-Bear & Defensive Hunts
 
-**Hunt IDs:** `boss_hollowroot_matron`, `hunt_hollowroot_serpents`
+### 2.1 Ward-Bear Gelatinous Fat
 
-Focus: underground, Hollowroot, corruption-adjacent.
-
----
-
-#### [HM-1] Hollowroot Matron Resin Core
-
-- **ID:** `spec_ingr_hollowroot_matron_resin_core`  
-- **Display Name:** Hollowroot Matron Resin Core  
-- **Rarity Band:** `signature_core`  
-- **Source Type:** `dungeon_boss`  
-- **Source ID:** `boss_hollowroot_matron`  
-- **Base Ingredients:**  
-  - `hollowroot_resin`  
-- **Primary Uses:** `alchemy`, `cooking`  
-- **Tags:** `res_corruption`, `dungeon_prep`, `vision`  
-- **Notes:**
-  - High-tier version of `hollowroot_resin`, used in:
-    - `recipe_hollowroot_burrow_pie`  
-    - `recipe_hollowroot_dream_chowder`  
-  - Grants stronger corruption resist and vision-enhancing effects in certain brews.
+- ID: `spec_ingr_ward_bear_gelatin`
+- Display Name: Ward-Bear Gelatinous Fat
+- Base Ingredient Link: derived from `ward_bear_haunch` (51)
+- Source Type: Signature Hunt / Elite Boss
+- Source Details:
+  - Rendered from the thick fat pads of Ward-Bear during butchering at the Lodge
+- Rarity Within Source:
+  - First completion of Ward-Bear Hunt chain: guaranteed
+  - Subsequent kills: 40% chance
+- Suggested Uses:
+  - Cooking:
+    - Upgrade component for `food_ward_bear_hearth_feast` (53) “Heavy Stock” variant
+  - Alchemy:
+    - Thickening agent in `brew_ward_bear_guard_draught` (58) for longer duration
+- Effect Theme:
+  - Max HP, slow but solid regen, physical toughness
+- Flavor:
+  - "Rendered down, it sets into something halfway between fat and stone. You can stand a spoon in it."
 
 ---
 
-#### [HM-2] Matron’s Eye Cluster
+### 2.2 Ward-Bear Spine Shard
 
-- **ID:** `spec_ingr_matron_eye_cluster`  
-- **Display Name:** Matron’s Eye Cluster  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `dungeon_boss`  
-- **Source ID:** `boss_hollowroot_matron`  
-- **Base Ingredients:**  
-  - Conceptual monstrous organ cluster, not in base 51.  
-- **Primary Uses:** `alchemy`, `quest_hook`  
-- **Tags:** `vision`, `weird`, `res_corruption`  
-- **Notes:**
-  - Used for brew lines that affect perception, illusions, or detection.
-  - Could tie into future “see hidden paths” mechanics.
-
----
-
-#### [HS-1] Serpent Spine Strip
-
-- **ID:** `spec_ingr_hollowroot_serpent_spine_strip`  
-- **Display Name:** Hollowroot Serpent Spine Strip  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_hollowroot_serpents`  
-- **Base Ingredients:**  
-  - `hollowroot_serpent_fillet`  
-- **Primary Uses:** `cooking`, `alchemy`  
-- **Tags:** `meat`, `res_corruption`, `dungeon_prep`  
-- **Notes:**
-  - Used in advanced Hollowroot pies and broths.
-  - Distinct from the base fillet in 51; this is the “properly cut special piece”.
+- ID: `spec_ingr_ward_bear_spine_shard`
+- Display Name: Ward-Bear Spine Shard
+- Base Ingredient Link: conceptually tied to `boar_tusk_plain` / heavy bone category
+- Source Type: Signature Hunt
+- Source Details:
+  - Spinal fragments taken during careful butchering; one per bear at most
+- Rarity Within Source:
+  - 25% chance on any successful Ward-Bear Hunt
+- Suggested Uses:
+  - Profession Combo:
+    - Woodworker crafts reinforced hafts or shield cores using this
+    - Combined with cooking/alchemy buffs to form a “Guardian’s Kit”
+  - Lodge:
+    - Mounted Spine segment trophy
+- Effect Theme:
+  - Knockback resistance, stagger resistance, posture bonuses
+- Flavor:
+  - "The Lodge bone-saw leaves shiny scars where it tried to bite through."
 
 ---
 
-### 1.5 Black-Sap Devourer – “Canker of the Grove”
+### 2.3 Old Warden’s Clotted Blood
 
-**Hunt ID:** `boss_black_sap_devourer`
-
-Focus: harsh corruption, risk/reward food & brews.
-
----
-
-#### [BD-1] Black-Sap Heart Gland
-
-- **ID:** `spec_ingr_black_sap_heart_gland`  
-- **Display Name:** Black-Sap Heart Gland  
-- **Rarity Band:** `signature_core`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `boss_black_sap_devourer`  
-- **Base Ingredients:**  
-  - `black_sap_gland_meat`  
-  - `black_sap_nodule`  
-- **Primary Uses:** `alchemy`, `cooking`  
-- **Tags:** `corrupted`, `res_corruption_strong`, `risk_reward`  
-- **Notes:**
-  - Central component of **Black-Sap Purge Pot** (53).
-  - Extremely potent: easily overused if not paired with cleansing herbs (like `whisperfern` and `glowcap_reduction`).
+- ID: `spec_ingr_old_warden_clot`
+- Display Name: Old Warden’s Clotted Blood
+- Base Ingredient Link: uses `corrupted_heart_tissue` style monster part (51)
+- Source Type: Hunt / Story Boss
+- Source Details:
+  - Dropped from a unique Ward-Bear variant in a Warden story questline
+- Rarity Within Source:
+  - One-time guaranteed on quest resolution
+- Suggested Uses:
+  - Alchemy:
+    - One-off recipe unlocking a stronger variant of `brew_wardstone_skin_tonic`
+- Effect Theme:
+  - Defensive stamina, stubborn resistance to being moved or broken
+- Flavor:
+  - "It dries in the jar in the shape of a shield, no matter how often you shake it."
 
 ---
 
-#### [BD-2] Coagulated Sap Husk
+## 3. Ashen Beasts & Fire-Scar Creatures
 
-- **ID:** `spec_ingr_coagulated_sap_husk`  
-- **Display Name:** Coagulated Sap Husk  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `boss_black_sap_devourer`  
-- **Base Ingredients:**  
-  - Froze-over outer sap layers; conceptual derivative of `black_sap_reduction`.  
-- **Primary Uses:** `alchemy`, `profession_trophy`  
-- **Tags:** `corrupted`, `ritual`, `solid`  
-- **Notes:**
-  - Used in ritual foci, ward experiments, and experimental corruption-defense tonics.
-  - More of a long-term research resource than a day-to-day cooking ingredient.
+### 3.1 Ashen Beast Ember Core
 
----
-
-#### [BD-3] Devourer Core Slurry
-
-- **ID:** `spec_ingr_devourer_core_slurry`  
-- **Display Name:** Devourer Core Slurry  
-- **Rarity Band:** `signature_luxury`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `boss_black_sap_devourer`  
-- **Base Ingredients:**  
-  - Various internal tissues rendered and filtered (not in base 51 as a simple ingredient).  
-- **Primary Uses:** `alchemy`  
-- **Tags:** `corrupted`, `research_only`, `dangerous`  
-- **Notes:**
-  - Should be flagged “not for consumption” in lore and UI.
-  - Reserved for high-end research and future corruption systems.
+- ID: `spec_ingr_ashen_beast_ember_core`
+- Display Name: Ashen Beast Ember Core
+- Base Ingredient Link: derived from `ashen_beast_cut` and `ashen_hide_strip` (51)
+- Source Type: Signature Hunt / Elite
+- Source Details:
+  - Found lodged inside the ribcage of certain Ashen beasts in burn scar zones
+- Rarity Within Source:
+  - First time killing the named Ashen target: guaranteed
+  - Afterwards: 20–25% chance
+- Suggested Uses:
+  - Cooking:
+    - High-end variant of `food_ashen_beast_ember_roast` (53) with stronger fire resist
+  - Alchemy:
+    - Key reagent in `brew_ashen_ember_draft` rare version (58)
+- Effect Theme:
+  - Fire resistance, warmth, small HP spike
+- Flavor:
+  - "Still warm long after the body cools, as if it never believed the fire went out."
 
 ---
 
-### 1.6 Ragged King – “The Broken Crown”
+### 3.2 Charred Bone Fragment
 
-**Hunt ID:** `hunt_ragged_king`
-
-Focus: end-of-region prestige, all-rounder feast components, symbolic “end” of Greatwood slice.
-
----
-
-#### [RK-1] Ragged King Crown Shank
-
-- **ID:** `spec_ingr_ragged_king_crown_shank`  
-- **Display Name:** Ragged King Crown Shank  
-- **Rarity Band:** `signature_core`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_ragged_king`  
-- **Base Ingredients:**  
-  - `ragged_king_shank`  
-- **Primary Uses:** `cooking`  
-- **Tags:** `meat`, `hp_max`, `stamina_max`, `end_of_region`  
-- **Notes:**
-  - Pillar ingredient of **Ragged King Victory Feast** (53).
-  - Embodies the idea of “you beat the apex Greatwood hunt.”
+- ID: `spec_ingr_charred_bone_fragment`
+- Display Name: Charred Bone Fragment
+- Base Ingredient Link: generic bone/monster_part in 51
+- Source Type: Dungeon Boss / Burn-Scar Mini-boss
+- Source Details:
+  - Dropped from skeletal or heavily-burned hunters / beasts in a burn-scar dungeon
+- Rarity Within Source:
+  - Common (60–70% chance) but low stack count
+- Suggested Uses:
+  - Alchemy:
+    - Catalyst in lesser fire resist tonics
+  - Professions:
+    - Component in fire-scarred decor items for lodge rooms
+- Effect Theme:
+  - Fire resist when powdered; slight fragility / HP penalty if overused
+- Flavor:
+  - "The black never flakes off, even when you scrub. It just moves around."
 
 ---
 
-#### [RK-2] Ragged Bone Crest
+### 3.3 Stormseared Pelt Strip
 
-- **ID:** `spec_ingr_ragged_bone_crest`  
-- **Display Name:** Ragged King Bone Crest  
-- **Rarity Band:** `signature_core`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_ragged_king`  
-- **Base Ingredients:**  
-  - `ragged_king_bone_shard`  
-- **Primary Uses:** `alchemy`, `profession_trophy`, `lodge_decor`  
-- **Tags:** `bone`, `prestige`, `symbolic`  
-- **Notes:**
-  - Used in:
-    - Trophy upgrades,  
-    - High-tier all-rounder elixirs,  
-    - Lodge banners / shields.
-
----
-
-#### [RK-3] Ragged Heart Ash
-
-- **ID:** `spec_ingr_ragged_heart_ash`  
-- **Display Name:** Ragged Heart Ash  
-- **Rarity Band:** `signature_luxury`  
-- **Source Type:** `signature_hunt`  
-- **Source ID:** `hunt_ragged_king`  
-- **Base Ingredients:**  
-  - Conceptual remains of a ritual burning, not a base 51 ingredient.  
-- **Primary Uses:** `alchemy`, `quest_hook`  
-- **Tags:** `weird`, `rare`, `crossover`  
-- **Notes:**
-  - Rare drop when you resolve the Ragged King story in specific ways.
-  - Future hook for region-crossing recipes and potions.
+- ID: `spec_ingr_stormseared_pelt_strip`
+- Display Name: Stormseared Pelt Strip
+- Base Ingredient Link: variant on wolf / stag pelts
+- Source Type: Event + Elite
+- Source Details:
+  - Only drops from beasts hunted during a specific thunderstorm event in burn-scar zones
+- Rarity Within Source:
+  - Rare (10–12% chance) while event is active
+- Suggested Uses:
+  - Profession Combo:
+    - Used in crafting cloaks or grips that slightly help with fire and shock in future regions
+- Effect Theme:
+  - Fire + storm prep, future-proof defensive niche
+- Flavor:
+  - "The fur never quite lays flat, as if it remembers standing on end when the sky split."
 
 ---
 
-## 2. Named Elites & Mini-Bosses – Secondary Specialties
+## 4. Hollowroot & Corruption Pockets
 
-These are **simpler** than Signature Hunts but give flavor to repeatable elite content.
+### 4.1 Hollowroot Heart-Fiber
 
-### 2.1 Dire Wolf Alpha
-
-- **Source ID:** `elite_dire_wolf_alpha`
-
-#### [DW-1] Dire Sinew Bundle
-
-- **ID:** `spec_ingr_dire_sinew_bundle`  
-- **Display Name:** Dire Sinew Bundle  
-- **Rarity Band:** `event_rare`  
-- **Source Type:** `elite`  
-- **Source ID:** `elite_dire_wolf_alpha`  
-- **Base Ingredients:**  
-  - Related to `dire_wolf_flank`  
-- **Primary Uses:** `cooking`, `profession_trophy`  
-- **Tags:** `meat`, `stamina`, `speed`  
-- **Notes:**
-  - Used in advanced stamina-boosting recipes and bowstring / hunting gear upgrades.
-
----
-
-### 2.2 Ashen Ridge Beasts (Greatwood Edge)
-
-- **Source ID:** `elite_ashen_beast_pack`
-
-#### [AB-1] Ashen Ridge Scrim
-
-- **ID:** `spec_ingr_ashen_ridge_scrim`  
-- **Display Name:** Ashen Ridge Scrim  
-- **Rarity Band:** `event_rare`  
-- **Source Type:** `elite`  
-- **Source ID:** `elite_ashen_beast_pack`  
-- **Base Ingredients:**  
-  - Related to `ashen_beast_cut`, `ashen_hide_strip`  
-- **Primary Uses:** `cooking`, `alchemy`  
-- **Tags:** `res_fire`, `res_cold`, `bridge_region`  
-- **Notes:**
-  - Used in early Ashen Ridge hooking recipes, including `recipe_ashen_ridge_overland_ration_gw`.
+- ID: `spec_ingr_hollowroot_heart_fiber`
+- Display Name: Hollowroot Heart-Fiber
+- Base Ingredient Link: extends `hollowroot_core_chunk` and `hollowroot_resin` (51)
+- Source Type: Signature Hunt / Dungeon Boss (Hollowroot Matron – B118)
+- Source Details:
+  - Carefully harvested from the central knot of the Matron’s root mass
+- Rarity Within Source:
+  - First kill: guaranteed 1
+  - Later: 20–25% chance
+- Suggested Uses:
+  - Cooking:
+    - Added to `food_hollowroot_protectors_pot` variant for stronger corruption resist
+  - Alchemy:
+    - Premium variant of `brew_hollowroot_fortifying_draught`
+- Effect Theme:
+  - Corruption resistance, anchor, heavier feel
+- Flavor:
+  - "Coiled like a fist, and just as reluctant to open."
 
 ---
 
-### 2.3 Shadow Stag
+### 4.2 Matron’s Root-Eye
 
-- **Source ID:** `elite_shadow_stag`
-
-#### [SS-1] Shadow Stag Veil Slice
-
-- **ID:** `spec_ingr_shadow_stag_veil_slice`  
-- **Display Name:** Shadow Stag Veil Slice  
-- **Rarity Band:** `event_rare`  
-- **Source Type:** `elite`  
-- **Source ID:** `elite_shadow_stag`  
-- **Base Ingredients:**  
-  - `shadow_stag_loin`  
-- **Primary Uses:** `cooking`, `alchemy`  
-- **Tags:** `stealth`, `res_corruption`, `night_hunt`  
-- **Notes:**
-  - Enhances stealth and vision aspects of late-night foods and brews.
-
----
-
-## 3. Events & Environmental Pockets – Event Specialties
-
-These come from **non-boss** events like burn-scar pockets, thin wards, or river anomalies.
-
-### 3.1 Burn-Scar Wildfire Pockets
-
-- **Source ID:** `event_burn_scar_wildfire`
-
-#### [EV-BS-1] Charred Bark Flake
-
-- **ID:** `spec_ingr_charred_bark_flake`  
-- **Display Name:** Charred Bark Flake  
-- **Rarity Band:** `event_core`  
-- **Source Type:** `event_pocket`  
-- **Source ID:** `event_burn_scar_wildfire`  
-- **Base Ingredients:**  
-  - Derived from trees touched by the same energy as `ashcurl` and `smokebloom_petals`.  
-- **Primary Uses:** `cooking`, `alchemy`  
-- **Tags:** `res_fire`, `smoke`, `bitter`  
-- **Notes:**
-  - Used as an optional enhancer in smokebloom recipes.
-  - Slightly increases fire resistance and “smoky” flavor notes.
+- ID: `spec_ingr_matron_root_eye`
+- Display Name: Matron’s Root-Eye
+- Base Ingredient Link: unique monster part (eye-like core)
+- Source Type: Signature Hunt (Hollowroot Matron – B118)
+- Source Details:
+  - Rare drop when the killing blow is dealt while the Matron is channeling
+- Rarity Within Source:
+  - Very Rare (5–8% chance)
+- Suggested Uses:
+  - Alchemy:
+    - High-tier reagent for `brew_whisperglass_purge_tonic` variant
+  - Lodge:
+    - Placed as a “watching” trophy in certain rooms
+- Effect Theme:
+  - Detection, perception, niche anti-corruption cleanse
+- Flavor:
+  - "Some hunters swear it follows them around the room if they drink near it."
 
 ---
 
-### 3.2 Thin Ward Pockets
+### 4.3 Hollowroot Mire Sludge
 
-- **Source ID:** `event_thin_ward_pocket`
-
-#### [EV-TW-1] Ward-Torn Fiber
-
-- **ID:** `spec_ingr_ward_torn_fiber`  
-- **Display Name:** Ward-Torn Fiber  
-- **Rarity Band:** `event_core`  
-- **Source Type:** `event_pocket`  
-- **Source ID:** `event_thin_ward_pocket`  
-- **Base Ingredients:**  
-  - Conceptual: shredded remnant of old ward-cloth anchored near failing wardlines.  
-- **Primary Uses:** `alchemy`, `quest_hook`  
-- **Tags:** `res_corruption`, `vision`, `ritual`  
-- **Notes:**
-  - Used in early corruption-resist tonics and as quest fuel for ward repairs.
-
----
-
-### 3.3 River Events – Floods, Overflows, Strange Runs
-
-- **Source ID:** `event_river_surge`
-
-#### [EV-RV-1] Surge-Caught River Herbs
-
-- **ID:** `spec_ingr_surge_caught_river_herbs`  
-- **Display Name:** Surge-Caught River Herbs  
-- **Rarity Band:** `event_core`  
-- **Source Type:** `event_pocket`  
-- **Source ID:** `event_river_surge`  
-- **Base Ingredients:**  
-  - Mix of `riverreed_rhizome`, `bitterpine_needle`, `mossy_tongue`  
-- **Primary Uses:** `cooking`, `alchemy`  
-- **Tags:** `stamina_regen`, `river`, `travel_long`  
-- **Notes:**
-  - Stronger variant of river-related herbs, ideal for travel and stamina-focused recipes.
+- ID: `spec_ingr_hollowroot_mire_sludge`
+- Display Name: Hollowroot Mire Sludge
+- Base Ingredient Link: muddied variant of `hollowroot_tonic_base`
+- Source Type: Dungeon / Corruption Pocket Event
+- Source Details:
+  - Collected from sluggish pools deep in Hollowroot pockets during events
+- Rarity Within Source:
+  - Uncommon (30–40% chance from specific interactable nodes)
+- Suggested Uses:
+  - Alchemy:
+    - Cheap, risky stand-in for proper Hollowroot base in low-skill brews
+  - Cooking:
+    - Never used directly; food recipes that try to use it should be flagged as "tainted"
+- Effect Theme:
+  - Slight resist mixed with higher risk of minor corruption debuffs
+- Flavor:
+  - "The Lodge keeps a barrel of it behind the real stocks as a training warning."
 
 ---
 
-## 4. Lodge Processing & Refined Specialties
+## 5. Black-Sap Devourer (B117)
 
-The Lodge itself can **transform base and specialty ingredients** into refined forms that are:
+### 5.1 Black-Sap Seed Nodule
 
-- Used in top-end recipes
-- Given as reputation rewards
-- Required for cosmetic upgrades
-
-These refined items are also “ingredients” and should follow the same data schema.
-
-### 4.1 Lodge-Aged Marrow Stock
-
-- **ID:** `spec_ingr_lodge_aged_marrow_stock`  
-- **Display Name:** Lodge-Aged Marrow Stock  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `lodge_processing`  
-- **Source ID:** `process_marrow_stock_v1`  
-- **Base Ingredients:**  
-  - `bone_broth_thick`  
-  - Either `spec_ingr_elder_stag_crown_marrow` or `spec_ingr_ward_bear_marrow_haunch`  
-- **Primary Uses:** `cooking`  
-- **Tags:** `hp_max`, `dungeon_prep`, `prestige`  
-- **Notes:**
-  - Lodge-exclusive: not dropped as loot, produced via a long-timer process.
-  - Used in higher-tier stews and feasts for serious group prep.
+- ID: `spec_ingr_black_sap_seed_nodule`
+- Display Name: Black-Sap Seed Nodule
+- Base Ingredient Link: `black_sap_nodule` (51)
+- Source Type: Signature Hunt (Black-Sap Devourer – B117)
+- Source Details:
+  - Core nodules pried from the Devourer’s body after a successful hunt
+- Rarity Within Source:
+  - First clear: guaranteed 2
+  - Subsequent clears: 40–50% chance to drop 1–2
+- Suggested Uses:
+  - Alchemy:
+    - Core reagent for `brew_black_sap_purge` (58)  
+    - Optional risk ingredient in `brew_black_sap_insight_tincture`
+- Effect Theme:
+  - Strong corruption manipulation, both defensive and risky offensive
+- Flavor:
+  - "Like holding a rotten tooth made of tar. Hard to say whether it’s dead or just resting."
 
 ---
 
-### 4.2 Howler Smoke Rub
+### 5.2 Devourer Eye Resin
 
-- **ID:** `spec_ingr_howler_smoke_rub`  
-- **Display Name:** Howler Smoke Rub  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `lodge_processing`  
-- **Source ID:** `process_howler_smoke_rub`  
-- **Base Ingredients:**  
-  - `smokebloom_petals`  
-  - `emberleaf`  
-  - `spec_ingr_howler_throat_bundle`  
-- **Primary Uses:** `cooking`  
-- **Tags:** `damage_boost`, `crit`, `party_feast`  
-- **Notes:**
-  - Acts as a “seasoning upgrade” for the Howler rib feast recipes.
-  - Could be a separate item players must farm materials for and craft at the Lodge kitchen.
-
----
-
-### 4.3 Dream-Filtered Hollowroot Tonic Base
-
-- **ID:** `spec_ingr_dream_filtered_hollowroot_base`  
-- **Display Name:** Dream-Filtered Hollowroot Base  
-- **Rarity Band:** `signature_rare`  
-- **Source Type:** `lodge_processing`  
-- **Source ID:** `process_hollowroot_tonic_base_v2`  
-- **Base Ingredients:**  
-  - `hollowroot_tonic_base`  
-  - `spec_ingr_hollowroot_matron_resin_core`  
-  - `glowcap`  
-- **Primary Uses:** `alchemy`  
-- **Tags:** `vision`, `res_corruption`, `dungeon_prep`  
-- **Notes:**
-  - Upgraded base used in the strongest Hollowroot vision / detection potions.
-  - Ties directly into `recipe_hollowroot_dream_chowder` thematically.
+- ID: `spec_ingr_black_sap_eye_resin`
+- Display Name: Devourer Eye Resin
+- Base Ingredient Link: derived from worst of `black_sap_reduction`
+- Source Type: Signature Hunt (B117)
+- Source Details:
+  - Rare distillate taken from the Devourer’s eye-pits during a Lodge alchemy sequence
+- Rarity Within Source:
+  - Rare (10–15% chance; maybe increased with optional objective)
+- Suggested Uses:
+  - Alchemy:
+    - Ultra-rare variant of Black Sap brews with improved magnitude, worse side effects
+  - Lodge:
+    - Key resource for a high-tier wall trophy with faint moving light
+- Effect Theme:
+  - Perception, visions, light manipulation, corruption flirting
+- Flavor:
+  - "The resin catches torchlight and bends it, like it’s trying to remember sunlight."
 
 ---
 
-## Integration Notes
+### 5.3 Sap-Engorged Antler
 
-1. **Loot Tables**
-   - Signature Hunts should:
-     - Always drop their `signature_core` ingredient (with edge-case exceptions for failures).
-     - Have reasonable chances for their `signature_rare` and `signature_luxury` drops.
-   - Elites and events:
-     - Use `event_core` / `event_rare` to keep drop behavior predictable.
-
-2. **Recipes**
-   - Cooking docs (52, 53) should call out when a recipe:
-     - Requires a `spec_ingr_` item.
-     - Has **optional** specialty ingredient slots (e.g. “If present, use `spec_ingr_charred_bark_flake` to boost res_fire”).
-
-3. **Alchemy (58)**
-   - Alchemy should treat specialty ingredients as:
-     - Higher-tier components that unlock **new effects** rather than simply “stronger numbers”.
-     - Keys for experimental or high-risk brews (especially any `corrupted`-tagged item).
-
-4. **Professions & Decor**
-   - Many `spec_ingr_` items have `profession_trophy` / `lodge_decor` tags.
-   - These should feed:
-     - Trophy wall upgrades
-     - Room decorations
-     - Badge-like tokens for Lodge reputation visual progression
-
-5. **Future Regions**
-   - Greatwood’s `spec_ingr_` pool is self-contained.
-   - Ashen Ridge and beyond can reference a few of these (like `spec_ingr_ashen_ridge_scrim`) as **bridge ingredients**.
+- ID: `spec_ingr_sap_engorged_antler`
+- Display Name: Sap-Engorged Antler
+- Base Ingredient Link: upgrade of `sapstained_antler` (51)
+- Source Type: Signature Hunt / Special Condition
+- Source Details:
+  - Dropped if the Devourer is lured near a corrupted stag before death
+- Rarity Within Source:
+  - Very Rare (requires special setup; otherwise does not drop)
+- Suggested Uses:
+  - Profession Combo:
+    - High-end ward-touched decor item
+    - Optional component in a future relic or set-piece weapon quest
+- Effect Theme:
+  - Wardlines under strain, either boosting or destabilizing them
+- Flavor:
+  - "You can feel it thrum in your hand, like holding a knot of nerves."
 
 ---
 
-## Summary
+## 6. Greatwood Howler (B119)
 
-This file defines the **named, high-impact ingredients** that make Hunts, dungeons, and events feel:
+### 6.1 Howler Throat Bundle
 
-- Tangibly rewarding
-- Directly connected to Cooking & Alchemy
-- Deeply woven into Lodge life and prestige
+- ID: `spec_ingr_howler_throat_bundle`
+- Display Name: Greatwood Howler Throat Bundle
+- Base Ingredient Link: tied to `howler_alpha_fang` and `greatwood_howler_rib` (51)
+- Source Type: Signature Hunt (Greatwood Howler – B119)
+- Source Details:
+  - Harvested from the tense cords of the Howler’s throat post-kill
+- Rarity Within Source:
+  - First clear: guaranteed 1
+  - Later: 25–35% chance
+- Suggested Uses:
+  - Alchemy:
+    - Direct component in `brew_howler_warbrew` (58)
+  - Cooking:
+    - Special variant of `food_howler_pack_stew` that pushes move speed further
+- Effect Theme:
+  - Stamina, movement, a sense of directed aggression
+- Flavor:
+  - "Even off the bone it feels like it’s straining to howl again."
 
-Base ingredients (51) = “what the forest gives you.”  
-Specialty ingredients (55) = “what the hunts carve out of it.”
+---
+
+### 6.2 Echo-Laden Ear Fragment
+
+- ID: `spec_ingr_howler_ear_fragment`
+- Display Name: Echo-Laden Ear Fragment
+- Base Ingredient Link: elite ear/monster_part
+- Source Type: Signature Hunt (B119)
+- Source Details:
+  - Rare drop from the Howler if specific sound-based mechanics are respected in the fight
+- Rarity Within Source:
+  - Very Rare (5–8% chance)
+- Suggested Uses:
+  - Alchemy:
+    - Optional component in perception / detection brews
+  - Lodge:
+    - Hung from beams near the Hunt Board for a small atmospheric audio stinger
+- Effect Theme:
+  - Awareness, sound-based detection, possible future stealth counters
+- Flavor:
+  - "You can hear storm-wind in it if you put it to your ear. Or maybe that’s just your blood."
+
+---
+
+## 7. The Ragged King (B120)
+
+### 7.1 Ragged King Bone Shard (Elevated)
+
+- ID: `spec_ingr_ragged_king_bone_shard`
+- Display Name: Ragged King Bone Shard
+- Base Ingredient Link: `ragged_king_bone_shard` (51)
+- Source Type: Signature Hunt (The Ragged King – B120)
+- Source Details:
+  - Always drops once per successful Hunt completion
+- Rarity Within Source:
+  - Guaranteed 1, low chance (10%) for a second shard on high-ranking completions
+- Suggested Uses:
+  - Cooking:
+    - Core ingredient in `food_ragged_king_gravepot` and `food_ragged_king_wake_cake` (53)
+  - Alchemy:
+    - Part of `brew_ragged_king_quiet` (58)
+- Effect Theme:
+  - Corruption resistance, death-echo theming, heavy defensive posture
+- Flavor:
+  - "The marrow holes whistle faintly in bad weather."
+
+---
+
+### 7.2 Ragged King Shank (Prime Cut)
+
+- ID: `spec_ingr_ragged_king_shank`
+- Display Name: Ragged King Prime Shank
+- Base Ingredient Link: `ragged_king_shank` (51)
+- Source Type: Signature Hunt (B120)
+- Source Details:
+  - Special, higher-grade cut carved only if butchered at the Lodge with the right tools
+- Rarity Within Source:
+  - First complete Hunt chain: guaranteed 1
+  - Afterwards: 15–20% chance
+- Suggested Uses:
+  - Cooking:
+    - High-end variant of gravepot stew with feast-level HP and corruption resist
+- Effect Theme:
+  - HP max, slow, very steady recovery, a feeling of being "hard to move"
+- Flavor:
+  - "The butchers say it feels like carving old oak, not meat."
+
+---
+
+### 7.3 Ragged King Ashen Fragment
+
+- ID: `spec_ingr_ragged_king_ashen_fragment`
+- Display Name: Ragged King Ashen Fragment
+- Base Ingredient Link: niche extension of `wardstone_crust_flake`
+- Source Type: Signature Hunt (B120) – conditional drop
+- Source Details:
+  - Drops if the Ragged King is killed while specific wardstones are active
+- Rarity Within Source:
+  - Very Rare
+- Suggested Uses:
+  - Alchemy:
+    - Rare additive in Black Sap or Hollowroot lines for "echo ward" variants
+  - Lodge:
+    - Embedded in wall plaques or altars
+- Effect Theme:
+  - Wardlines, echoes, interacting with dead / memory systems
+- Flavor:
+  - "Feels like it should be hot. It never is."
+
+---
+
+## 8. Shadow Under The Wardstone (B121) & Ward Threats
+
+### 8.1 Shadow-Ward Core
+
+- ID: `spec_ingr_shadow_ward_core`
+- Display Name: Shadow-Ward Core
+- Base Ingredient Link: extension of `wardstone_crust_flake`
+- Source Type: Signature Encounter (B121)
+- Source Details:
+  - Condensed fragment from the entity beneath Wardstone Hill when stabilized
+- Rarity Within Source:
+  - One-time reward per character; later only through specific high-end contracts
+- Suggested Uses:
+  - Alchemy:
+    - Future high-tier ward brews beyond Greatwood scope
+  - Lodge:
+    - Key trophy in the Wardens’ chamber
+- Effect Theme:
+  - Wards, heavy corruption, metaphysics of the hill
+- Flavor:
+  - "It hums on a frequency you feel in your molars more than your ears."
+
+---
+
+### 8.2 Clipped Shadow Tendril
+
+- ID: `spec_ingr_clipped_shadow_tendril`
+- Display Name: Clipped Shadow Tendril
+- Base Ingredient Link: unique corrupted monster part
+- Source Type: B121 / Corrupted Ward Events
+- Source Details:
+  - Cut from manifested shadows during specific ward failure events
+- Rarity Within Source:
+  - Uncommon per event, but events themselves are rare
+- Suggested Uses:
+  - Alchemy:
+    - Experimental components in corruption and stealth brews
+- Effect Theme:
+  - Stealth, detection, corruption risk
+- Flavor:
+  - "Laid on a table, it still suspects there’s a ceiling above it."
+
+---
+
+## 9. Dynamic Weather & Event Ingredients
+
+### 9.1 Storm-Caught River Fish
+
+- ID: `spec_ingr_storm_caught_riverfish`
+- Display Name: Storm-Caught River Fish
+- Base Ingredient Link: variant of `river_trout_fillet` or `ashstream_carp_fillet`
+- Source Type: Event / Weather
+- Source Details:
+  - Fishing at river POIs only during thunderstorms (62)
+- Rarity Within Source:
+  - 15–20% chance per successful catch
+- Suggested Uses:
+  - Cooking:
+    - Storm-laced chowders/soups with better stamina or perception
+  - Alchemy:
+    - Minor storm / static resist brews (future region hooks)
+- Effect Theme:
+  - Energy, restlessness, electrical / storm prep
+- Flavor:
+  - "The flesh flakes in bright arcs instead of neat lines."
+
+---
+
+### 9.2 Emberfall Ash Flake
+
+- ID: `spec_ingr_emberfall_ash_flake`
+- Display Name: Emberfall Ash Flake
+- Base Ingredient Link: related to `ashcurl` and `ashwater_brine`
+- Source Type: Event (Emberfall – ash rain scenario)
+- Source Details:
+  - Collected from specific ash drifts that appear during Emberfall events
+- Rarity Within Source:
+  - Gathered via limited-time nodes; moderate yield but event rare
+- Suggested Uses:
+  - Cooking:
+    - Optional seasoning in Ashen stews or roasts for flavor + small fire resist
+  - Alchemy:
+    - Mild fire-resist tonics when regular Ashcurl is scarce
+- Effect Theme:
+  - Fire, ash, smoke; low-level resist, flavor identity
+- Flavor:
+  - "Leaves a soft grit on the teeth and a memory of distant fires."
+
+---
+
+### 9.3 Fog-Bloom Petal Cluster
+
+- ID: `spec_ingr_fog_bloom_cluster`
+- Display Name: Fog-Bloom Petal Cluster
+- Base Ingredient Link: cousin to `smokebloom_petals`
+- Source Type: Event / Time-of-Day
+- Source Details:
+  - Appears at dawn in specific Greatwood pockets when fog density is high
+- Rarity Within Source:
+  - Nodes appear rarely, but clusters yield 2–3 items
+- Suggested Uses:
+  - Alchemy:
+    - Ingredient for low-risk visibility / perception brews
+  - Cooking:
+    - High-end aromatic addition to fish dishes
+- Effect Theme:
+  - Soft vision, calm, mild awareness
+- Flavor:
+  - "Smells like wet stone and pine needles just before the sun fully commits."
+
+---
+
+## 10. Lodge / Social Specialties
+
+### 10.1 Ember Pot Seasoning Stone
+
+- ID: `spec_ingr_ember_pot_seasoning_stone`
+- Display Name: Ember Pot Seasoning Stone
+- Base Ingredient Link: none; unique Lodge item
+- Source Type: Lodge Event / Ember Pot Quests (85, 56)
+- Source Details:
+  - Earned through Lodge cooking questline “The Ember Pot Never Empties” (56)
+- Rarity Within Source:
+  - One per questline completion; possibly upgradable versions later
+- Suggested Uses:
+  - Cooking:
+    - When placed in the Ember Pot, it passively upgrades many stews by a small margin
+  - Lodge:
+    - Unlocks cosmetic glow / status on the Ember Pot
+- Effect Theme:
+  - Slight boosts to HP/stamina regen from Ember Pot dishes, communal buff feel
+- Flavor:
+  - "No one remembers who placed the first one in the Pot. No one wants to take it out."
+
+---
+
+### 10.2 Festival Spice Bundle
+
+- ID: `spec_ingr_festival_spice_bundle`
+- Display Name: Festival Spice Bundle
+- Base Ingredient Link: extension of `wandersage_bundle` and `simple_herb_bundle`
+- Source Type: Lodge Festival Events (64)
+- Source Details:
+  - Given as a reward during seasonal Lodge games / festivals
+- Rarity Within Source:
+  - Common during event, unavailable outside it
+- Suggested Uses:
+  - Cooking:
+    - Swaps into almost any lodge dish to create "Festival" variants with small social / rep modifiers
+  - Economy:
+    - Tradeable during the festival for other limited items
+- Effect Theme:
+  - Social buffs, Lodge reputation, "feel-good" regen
+- Flavor:
+  - "Smells like every good night at the Lodge, all at once."
+
+---
+
+### 10.3 Old Cook’s Apron String
+
+- ID: `spec_ingr_old_cooks_apron_string`
+- Display Name: Old Cook’s Apron String
+- Base Ingredient Link: none; unique charm item
+- Source Type: Personal Quest / Lodge Storyline
+- Source Details:
+  - Reward from siding with or helping a specific Cook NPC in a Lodge storyline
+- Rarity Within Source:
+  - One-time per character, non-tradeable
+- Suggested Uses:
+  - Profession Combo:
+    - Used as a minor charm ingredient in certain Cook-only recipes or tools (54, 57)
+- Effect Theme:
+  - Tiny quality-of-life bonuses, better "feel" for cooking minigames
+- Flavor:
+  - "Frayed, stained, and somehow lucky. It smells faintly of onions and smoke."
+
+---
+
+## How To Wire This Into The Rest Of Greatwood
+
+1. Ingredient Data (51)
+   - Mark each specialty ingredient as:
+     - `is_specialty = true`
+     - `source_tag = <hunt/region/event>`
+   - Keep them in the same taxonomy tables used by Cooking (52–53) and Alchemy (58).
+
+2. Hunts & Encounters (B115–B121)
+   - Each signature Hunt should list:
+     - Its guaranteed specialty ingredients
+     - Its rare specialty ingredients
+     - Their primary recipe / brew hooks
+
+3. Cooking (52–53)
+   - Advanced recipes should call out when they use a specialty:
+     - Example: "Upgrades with Elder Stag Marrow" in description
+   - Some feasts should be strictly specialty-gated to feel prestigious.
+
+4. Alchemy (58)
+   - Hollowroot, Wardstone, Fire, and Black Sap lines all have:
+     - A basic version (core ingredients from 51)
+     - An improved or risky version (specialty ingredients from 55)
+
+5. Professions & Combo Crafts (54, 57)
+   - Specialty ingredients appear in:
+     - Multi-profession recipes (Hunter + Woodworker + Cook)
+     - Lodge room decor, trophies, and weapon hafts
+
+6. Progression & Economy
+   - Signature Hunts and Dungeons feel valuable beyond loot tables:
+     - Even if you don’t need the armor, the specialties still matter.
+   - Contract packs (B115–B116) can occasionally target specialties explicitly:
+     - “Bring back 2 Storm-Caught River Fish and 1 Ashen Beast Ember Core.”
+
+---
+
+## Next Actions
+
+- Confirm final specialty ingredient list for Greatwood 1–20 launch.
+- For each ingredient, wire:
+  - Drop rules into Hunts, bosses, and events
+  - At least one Cooking or Alchemy use (and mark future use placeholders)
+- Ensure Codex / UI surfaces:
+  - Source and primary uses clearly
+- Align with future systems:
+  - Trophy Hall & Quarters (86, B100)
+  - Ember Pot and Lodge festivals (56, 64, 85)
+  - Reputation and circles (59)
