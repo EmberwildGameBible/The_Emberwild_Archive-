@@ -1,0 +1,920 @@
+# B159 – Shadow Under the Wardstone – Full Hunt Integration (Greatwood 1–20)
+
+## 0. Purpose
+
+Define **Shadow Under the Wardstone** as a fully integrated late-Greatwood Hunt:
+
+- Narrative role and unlock chain
+- Arena layout and encounter phases
+- Profession roles (Hunter, Cook, Alchemist, Forager/Woodworker)
+- Core + specialty drops (51 / 55)
+- Loot behavior aligned with B151
+- Lodge projects, trophies, and ward rituals (57)
+- Food and brew hooks (52, 53, 58)
+
+This file is the single reference for Shadow Under the Wardstone so you don’t have to cross-stitch multiple docs to work on it.
+
+---
+
+## 1. Role in Greatwood
+
+**Name:** Shadow Under the Wardstone  
+**Region:** Beneath/around **Wardstone Hill**, in a subsurface chamber of failed wards  
+**Band:** Late Greatwood capstone (recommended 18–20)  
+**Type:** Signature Hunt – ward failure / shadow entity / mind pressure
+
+### 1.1 Narrative Identity
+
+Shadow Under the Wardstone is:
+
+- A **coalesced shadow presence** living inside the hollow beneath a main Wardstone structure.
+- Born of:
+  - Leaked ward energy,
+  - Old binding rituals,
+  - Corruption that seeped in through neglected cracks.
+- It is not just “a monster”:
+  - It is what happens when wards are **maintained poorly**, when power is left to rot.
+
+Visually/feel:
+
+- Fragments of **Wardstone** jut through the chamber.
+- The entity itself is:
+  - A shifting silhouette with **tendrils** and **glinting eyes**, or
+  - A mass of shadow anchored to Wardstone brackets and crust.
+
+Mechanically it owns:
+
+- Ward/Shadow reagents:
+  - `wardstone_bracket`
+  - `wardstone_crust_flake`
+  - `shadow_essence_minor`
+  - `shadow_essence_major`
+  - `spec_ingr_shadow_ward_core`
+  - `spec_ingr_clipped_shadow_tendril` (55, B151)
+
+It is:
+
+- The “ward failure” counterpart to:
+  - Ward-Bear (ward guardian),
+  - Hollowroot Matron / Black Sap (corruption out in the wild),
+  - Ragged King (old hunts/ash).
+
+When this fight is done, the player should feel like they’ve “cleaned out under the floorboards” of Greatwood’s wards.
+
+---
+
+## 2. Unlock & Questline Flow
+
+### 2.1 Recommended Placement
+
+Shadow Under the Wardstone should not be available until:
+
+- Player has:
+  - Dealt with multiple Hunts (at least two of Stag / Ward-Bear / Howler / Matron / Devourer / Ragged King).
+  - Participated in some ward rituals or stabilization projects (57).
+  - Seen **Wardstone flickers** and minor ward anomalies.
+
+It is best positioned as:
+
+- The final “check” on the Wardstone Hill storyline in Greatwood 1–20.
+
+### 2.2 Questline Beats
+
+1. **“The Hill Hums Wrong”**
+   - Wardens and villagers report:
+     - Wardstone Hill humming at odd times,
+     - Flickers of wardlight at night,
+     - Shadows that linger longer than they should.
+   - Player:
+     - Go to Wardstone Hill at dusk/night,
+     - Witness wardlight flickers and see shadows that don’t match any object.
+
+2. **Cracks Below**
+   - Warden NPC:
+     - Reveals there is an **old service shaft** beneath the Hill:
+       - Used generations ago to inspect the Wardstone’s foundation.
+     - Believes something has nested there.
+   - Player:
+     - Descends a small side-dungeon:
+       - Encounters minor shadow creatures and unstable ward glyphs.
+       - Finds **wardstone brackets** knocked loose and crust flakes scattered.
+
+3. **The Shadowed Echo**
+   - At the shaft’s deepest point:
+     - Player sees a partial manifestation:
+       - A shadow tendril or silhouette recoiling from their light.
+   - NPCs:
+     - Explain the danger:
+       - If the entity grows, it could **invert** the Wardstone’s effect, turning it into a beacon for corruption.
+
+4. **Hunt Posting – “Shadow Under the Wardstone”**
+   - Hunt board unlocks named posting:
+     - “There is something under the Hill that is not meant to be. Descend with light, and either bind it or cut it loose.”
+
+5. **Aftermath**
+   - After the Hunt:
+     - Wardstone Hill feels different:
+       - Wards pulse steadier,
+       - Shadows behave normally (for now).
+     - Ward NPCs unlock:
+       - Shadow/Ward hybrid rituals,
+       - Projects using `spec_ingr_shadow_ward_core` and clipped tendrils.
+
+---
+
+## 3. Arena & Encounter Space
+
+### 3.1 Layout
+
+The arena is a **subterranean ward chamber** beneath Wardstone Hill:
+
+- Central:
+
+  - A **massive Wardstone plinth** or pillar that extends up into the Hill.
+  - Multiple **metal/stone brackets** (wardstone_brackets) anchor it to the cavern.
+
+- Surrounding:
+
+  - Broken platforms and ledges.
+  - Pits and channels where wardlight once flowed.
+
+- Ambient:
+
+  - Ward glyphs carved into walls and floor.
+  - Some glyphs flicker weakly; some are fully dead.
+
+### 3.2 Functional Zones
+
+- **Wardstone Core Platform (Center)**
+  - Main zone where Shadow entity manifests.
+  - Ward pulses emanate periodically:
+
+    - Sometimes helping players,
+    - Sometimes destabilized and harmful.
+
+- **Bracket Rings**
+  - Circular arrangement of Wardstone brackets and reinforcement structures.
+  - Interactable:
+
+    - Can be re-aligned or struck to:
+      - Emit stable Ward pulses,
+      - Or inadvertently feed the Shadow.
+
+- **Shadow Wells**
+  - Dark pits and cracks beyond normal light.
+  - Shadow tendrils emerge from these wells.
+  - Standing too close:
+
+    - Applies slow “Shadow Soak” stacks (DoT, vision dimming).
+
+---
+
+## 4. Boss: Shadow Under the Wardstone – Behavior & Phases
+
+**Category:** Shadow/Ward Entity  
+**Fight Length Target:** ~5–8 minutes
+
+Core themes:
+
+- Interplay between light and shadow,
+- Ward pulses and bracket management,
+- Mind/vision pressure, not just HP damage.
+
+---
+
+### 4.1 Baseline Patterns
+
+The “boss” is both:
+
+- A central visible form (core shadow mass), and
+- Multiple tendrils/echoes coming from wells and walls.
+
+Key repeated tools:
+
+- **Shadow Swipe**
+  - Melee-range tendril lash.
+  - Leaves a lingering darkness streak on ground (short-lived hazard).
+
+- **Gloom Dart**
+  - Ranged projectiles of condensed shadow.
+  - On hit:
+    - Chip damage,
+    - Short “blur” effect on vision.
+
+- **Ward Pulse (Ambient)**
+  - Periodic pulses from the Wardstone core:
+
+    - If stable:
+      - Light pushback vs shadows.
+    - If destabilized:
+      - Short radial damage / debuff for players.
+
+---
+
+### 4.2 Phase 1 – Flickering Anchor
+
+**Trigger:** Start, “boss HP” 100% → ~70%
+
+Focus:
+
+- Introduce shadow vs ward interplay
+- Teach bracket function
+
+Mechanics:
+
+- **Shadow Manifest**
+  - Core form appears as:
+    - A hulking humanoid silhouette or beast-shaped shadow anchored to Wardstone base.
+  - Uses:
+    - Shadow Swipe,
+    - Simple Gloom Darts.
+
+- **Bracket Tuning**
+  - Around arena, some Wardstone brackets are:
+
+    - Misaligned,
+    - Emitting unstable sparks.
+
+  - Players can interact (or strike them):
+
+    - Correctly tuned bracket:
+      - Emits **stabilizing Ward pulse**:
+        - Damages Shadow,
+        - Pushes back hazards.
+    - Incorrectly tuned:
+      - Overloads:
+        - Small explosion,
+        - Damages players and slightly feeds Shadow.
+
+- **Shadow Wells – Minor Activity**
+  - Wells occasionally emit:
+
+    - Small shadow wisp adds,
+    - Minor darkness patches.
+
+Goal:
+
+- Let players experiment with:
+
+  - Brackets as “light switches”,
+  - Basic shadow hazards.
+
+---
+
+### 4.3 Phase 2 – Inverted Glyphs
+
+**Trigger:** HP around ~70% → ~35%
+
+The entity draws deeper on the corrupted glyphs.
+
+New/amped mechanics:
+
+- **Glyph Inversion**
+  - Room’s floor/wall glyphs begin to invert:
+
+    - Some glow red/black instead of blue/white.
+    - Stepping on or near inverted glyph:
+
+      - Applies “Inverted Ward” debuff:
+        - Increased damage from shadow,
+        - Reduced benefit from Ward pulses.
+
+- **Shadow Echoes**
+  - Entity splits parts of itself into:
+
+    - 2–3 discrete “echo” forms on different ledges.
+
+  - Each echo:
+
+    - Uses Gloom Darts and small swipes.
+    - Must be damaged/cleared to reduce overall pressure.
+
+- **Dark Wave**
+  - The main core form occasionally:
+
+    - Sends a radial wave of shadow along the floor.
+
+  - Players can:
+
+    - Hide behind Wardstone brackets or pillars,
+    - Or use timed Ward pulses to neutralize it.
+
+- **Bracket Risks**
+  - Tournament-level twist:
+
+    - Some brackets now have **inactive** glyphs beside them:
+
+      - Reactivating the wrong bracket sequence:
+        - Causes more Ward destabilization,
+        - Possibly spawning extra echoes.
+
+Goal:
+
+- Increase complexity:
+
+  - Movement puzzle with glyphs and brackets,
+  - Multiple threats across verticality.
+
+---
+
+### 4.4 Phase 3 – Heart of Shadow/Light
+
+**Trigger:** HP around ~35% → 0%
+
+The entity partially merges with the Wardstone core.
+
+New/amped mechanics:
+
+- **Core Merge**
+  - Shadow pulls into the Wardstone pillar and:
+
+    - The whole pillar darkens.
+    - Ward pulses become rarer but stronger.
+
+- **Light/Shadow Swap**
+  - Periodically:
+
+    - The arena flips:
+
+      - Some previously “safe” zones darken.
+      - Some Shadow Wells become sources of dim safe light.
+
+  - Encourages:
+
+    - Adapting to changing safe spots,
+    - Watching visual cues.
+
+- **Tendril Cage**
+  - In short windows:
+
+    - Multiple tendrils burst from floor/walls around a player or zone.
+
+  - If players fail to break enough tendrils quickly:
+
+    - Cage collapses:
+
+      - Heavy AoE hit,
+      - High stacking Shadow DoT.
+
+- **Ward Core Exposure**
+  - At low HP:
+
+    - Short windows where the **pure core** of Wardstone is visible as bright light.
+
+  - During these windows:
+
+    - Players can:
+
+      - Channel or align a specific set of brackets to fire a focused pulse that:
+
+        - Stuns the Shadow,
+        - Greatly amplifies damage taken.
+
+Goal:
+
+- Make the last phase a “dance” of:
+
+  - Safe zone swaps,
+  - Tendril management,
+  - Coordinated Ward pulses.
+
+---
+
+## 5. Specialty Mechanics & Drops
+
+### 5.1 Base vs Specialty
+
+From B151’s loot for `gw_shadow_under_wardstone`, we have:
+
+- Base items:
+
+  - `wardstone_bracket`
+  - `wardstone_crust_flake`
+  - `shadow_essence_minor`
+  - `shadow_essence_major`
+
+- Specialty items (55):
+
+  - `spec_ingr_shadow_ward_core`
+  - `spec_ingr_clipped_shadow_tendril`
+
+---
+
+### 5.2 `spec_ingr_shadow_ward_core`
+
+**Fantasy:**
+
+- A dense, faintly glowing shard of Wardstone core, tainted but not overtaken by shadow.
+
+**Mechanic:**
+
+- First kill:
+
+  - Guaranteed 1 x `spec_ingr_shadow_ward_core`.
+
+- Subsequent kills:
+
+  - Drop chance tied to:
+
+    - Successfully triggering **Core Exposure** pulses in Phase 3:
+      - Players must have:
+
+        - Used bracket sequences correctly,
+        - Allowed the Wardstone core to flare and damage the Shadow.
+
+- If fight is messy (lots of inverted glyph use, bracket overloads):
+
+  - Chance for core shard may be reduced (lore: core too unstable to safely recover).
+
+Uses:
+
+- High-tier ward rituals:
+
+  - Stabilization or reorientation of wardlines (57).
+- Powerful hybrid food/brews:
+
+  - Ward-aligned but with a shadow twist (52/53/58).
+- Potential cross-region ward projects.
+
+---
+
+### 5.3 `spec_ingr_clipped_shadow_tendril`
+
+**Fantasy:**
+
+- A piece of shadow that behaves like a physical strand, clipped off in solid form and bound in wardlight.
+
+**Mechanic:**
+
+- Drops as:
+
+  - Moderate chance per kill,
+  - Enhanced if:
+
+    - Players break multiple **Tendril Cage** events successfully.
+    - Or interrupt several tendril attacks in earlier phases.
+
+Uses:
+
+- Ingredients for:
+
+  - Shadow-ward charms,
+  - Limited-use “shadow step” brews,
+  - Lodge decorations with subtle animated shadow effects.
+
+---
+
+### 5.4 Wardstone Parts and Shadow Essences
+
+From B151:
+
+- `wardstone_bracket` and `wardstone_crust_flake`:
+
+  - Base crafting materials:
+    - Used for small ward fixtures and charms.
+
+- `shadow_essence_minor` / `shadow_essence_major`:
+
+  - Alchemy reagents:
+    - For vision, stealth, or dangerous power brews (58).
+
+They drop more frequently than core/tendrils:
+
+- As standard Hunt loot for this boss.
+
+---
+
+## 6. Profession Roles
+
+### 6.1 Hunter
+
+- Pre-fight:
+
+  - Works with Wardens:
+
+    - Scouting ward anomalies.
+    - Helping guard the descent while ward engineers prepare.
+
+- During fight:
+
+  - Keeps the Shadow’s core manifestations focused:
+
+    - Calls where main form is,
+    - Coordinates where group stacks and splits.
+
+  - Manages:
+
+    - Melee threat zones around bracket clusters,
+    - Avoids getting knocked into Shadow Wells.
+
+- Post-fight:
+
+  - Assists with:
+
+    - Securing the chamber,
+    - Ensuring no loose shadow “scraps” remain.
+
+---
+
+### 6.2 Cook
+
+- Pre-fight:
+
+  - Provides:
+
+    - Nerve-steadying food,
+    - Food that supports:
+
+      - Corruption/Mind resist,
+      - Steady regen.
+
+- Post-fight:
+
+  - Uses:
+
+    - `shadow_essence_minor/major` sparingly in:
+
+      - Lodge-only dishes that may:
+
+        - Temporarily sharpen awareness,
+        - But not as brutally as the most extreme brews.
+
+  - Draws from both:
+
+    - Ward-Bear defensive food lines,
+    - Howler/corruption lines for inspiration.
+
+---
+
+### 6.3 Alchemist
+
+- Pre-fight:
+
+  - Crafts:
+
+    - Light and ward-skin brews,
+    - Anti-fear / focus brews.
+
+- During fight:
+
+  - Uses:
+
+    - Brew effects to counter:
+
+      - Gloom Dart vision blur,
+      - Inverted glyph debuffs.
+
+- Post-fight:
+
+  - Processes:
+
+    - `shadow_essence_minor`,
+    - `shadow_essence_major`,
+    - Shadow-Ward Core and Clipped Tendrils.
+
+  - Makes:
+
+    - Hybrid brews:
+
+      - Ward-boosting tonics,
+      - Carefully measured stealth/vision concoctions.
+
+---
+
+### 6.4 Forager / Woodworker
+
+- Pre-fight:
+
+  - Helps Wardens:
+
+    - Stabilize access tunnels,
+    - Clear basic debris.
+
+- During fight:
+
+  - May be responsible for:
+
+    - Marking safe zones,
+    - Interacting with physical brackets/structures (if design leans that way).
+
+- Post-fight:
+
+  - Harvests:
+
+    - Wardstone crusts from walls,
+    - Physical bracket pieces.
+
+  - Crafts:
+
+    - Shadow-ward fixtures,
+    - Lodge decor with controlled glow/shadow interplay.
+
+---
+
+## 7. Rewards Integration
+
+### 7.1 Ingredient Mapping (51 / 55)
+
+From Shadow Under the Wardstone, we get:
+
+**Base (51):**
+
+- `wardstone_bracket`
+- `wardstone_crust_flake`
+- `shadow_essence_minor`
+- `shadow_essence_major`
+
+**Specialty (55):**
+
+- `spec_ingr_shadow_ward_core`
+- `spec_ingr_clipped_shadow_tendril`
+
+### 7.2 Loot Behavior (B151 Alignment)
+
+From B151’s `gw_shadow_under_wardstone` entry:
+
+- **Guaranteed:**
+
+  - 2–3 `wardstone_bracket`
+  - 1–2 `wardstone_crust_flake`
+  - 1–2 `shadow_essence_minor`
+
+- **Additional:**
+
+  - Chance for:
+
+    - `shadow_essence_major`
+    - More brackets/crust depending on difficulty/tuning.
+
+- **Specialty:**
+
+  - `spec_ingr_shadow_ward_core`:
+
+    - Guaranteed at least once (first clear).
+    - Later: moderate but not trivial chance, improved by good bracket/glyph management.
+
+  - `spec_ingr_clipped_shadow_tendril`:
+
+    - Reasonable chance per kill,
+    - Improved by breaking Tendril Cages and interrupting tendril attacks.
+
+- **World Drop:**
+
+  - Slightly above-average `WORLD_UNCOMMON_GW` access:
+
+    - Favors ward/ritual recipes and trinkets.
+
+---
+
+## 8. Lodge Projects & Ward Rituals (57)
+
+### 8.1 Shadow-Ward Core Focus
+
+**Project ID:** `proj_ward_shadow_core_focus`
+
+Inputs:
+
+- `spec_ingr_shadow_ward_core`
+- `wardstone_bracket`
+- `wardstone_crust_flake`
+- Simple metals/stone
+
+Effects:
+
+- Constructs a **Shadow-Ward Focus** in Ward room:
+
+  - Mechanically:
+
+    - Small global bonus to ward rituals (success or duration),
+    - Slight reduction in ward destabilization events.
+
+  - Visually:
+
+    - A hovering shard with rotating brackets projecting controlled shadow/light.
+
+---
+
+### 8.2 Clipped Tendril Lantern
+
+**Project ID:** `proj_lodge_clipped_tendril_lantern`
+
+Inputs:
+
+- `spec_ingr_clipped_shadow_tendril`
+- Glass, metal, minor ward reagents
+
+Effects:
+
+- Lantern or sconce in Lodge:
+
+  - Emits:
+
+    - Soft, not-quite-normal light,
+    - Slight motion in surrounding shadows.
+
+- Mechanics:
+
+  - Minor buff:
+
+    - Slight increase in detection of stealth enemies or ambush events,
+    - Slight improvement to player perception in darker content.
+
+---
+
+### 8.3 Wardstone Renewal Rite
+
+**Project ID:** `proj_rite_wardstone_renewal`
+
+Inputs:
+
+- `spec_ingr_shadow_ward_core`
+- Ward-Bear reagents (gelatin/spine shard),
+- Hollowroot/Black-Sap reagents as “balance cost” (optional),
+- Lodge ritual resources
+
+Effects:
+
+- Region-level ritual:
+
+  - Cleans up Wardstone Hill’s lingering anomalies.
+  - Mechanical:
+
+    - Temporary bonus to ward-related defenses,
+    - Reduced frequency of corruption events near Wardstone Hill.
+
+---
+
+## 9. Food & Brew Hooks (52, 53, 58)
+
+### 9.1 Food Hooks
+
+While a “shadow under the hill” doesn’t scream food, its reagents still tie into:
+
+- Specialized dishes:
+
+  - `food_wardstone_night_watch_stew`:
+
+    - Uses shadow essences in small amounts,
+    - Effects:
+
+      - Night/dark-vision buff,
+      - Modest mental/fear resist.
+
+  - `food_shadebound_feast` (Lodge-only, high-tier):
+
+    - Uses Wardstone crust + small amounts of essences,
+    - Effects:
+
+      - Big buffs for ward/ritual tasks,
+      - Very minor weird visual side effects for flavor.
+
+These should be:
+
+- Clearly flagged as “Lodge experiments” rather than everyday meals.
+
+### 9.2 Brew Hooks
+
+From 58, shadow/ward brews:
+
+- `brew_shadow_ward_sight_draught`
+
+  - Uses:
+
+    - `shadow_essence_minor`,
+    - `spec_ingr_clipped_shadow_tendril`.
+
+  - Effects:
+
+    - Improved vision in low light,
+    - Slight resistance to fear/illusion.
+
+- `brew_pure_wardlight_tonic` (very limited use)
+
+  - Uses:
+
+    - `spec_ingr_shadow_ward_core`.
+
+  - Effects:
+
+    - Short-duration huge resistance to:
+
+      - Shadow,
+      - Corruption.
+
+    - But:
+
+      - Might also temporarily weaken shadow-based brews and abilities.
+
+These brews should feel:
+
+- Powerful,
+- Rare,
+- Very tied to Wardstone content.
+
+---
+
+## 10. Codex & UI
+
+### 10.1 Codex Entries
+
+- **Shadow Under the Wardstone – Entity Entry**
+
+  - Unlocks:
+
+    - After first descent into shaft.
+  - Expands after:
+
+    - Hunt completion,
+    - Construction of Shadow-Ward Focus.
+
+- **Wardstone Foundations – Concept Entry**
+
+  - Explains:
+
+    - Why Wardstones have sub-chambers,
+    - How neglect can birth things like this.
+
+### 10.2 Hunt Board Presentation
+
+Posting should:
+
+- Make clear:
+
+  - This is a **Wardstone Hill** fight.
+  - Recommended for experienced, ward-aware parties.
+
+- Emphasize:
+
+  - Light vs shadow,
+  - Bracket/glyph interplay.
+
+Icons:
+
+- Wardstone icon.
+- Shadow/tendril icon.
+- Ritual icon.
+
+---
+
+## 11. Difficulty & Replay
+
+### 11.1 First Kill
+
+On first completion:
+
+- Guaranteed:
+
+  - `spec_ingr_shadow_ward_core`
+  - Several `wardstone_bracket` and `wardstone_crust_flake`
+  - `shadow_essence_minor` and at least one `shadow_essence_major`
+
+- Unlocks:
+
+  - Shadow-Ward Focus project,
+  - Clipped Tendril Lantern,
+  - Renewal Rite route,
+  - Shadow/ward brews and niche dishes.
+
+### 11.2 Farming
+
+Repeat kills:
+
+- Used for:
+
+  - Restocking ward/ritual reagents,
+  - Shadow essences,
+  - Additional Clipped Tendrils.
+
+Specialty core shards:
+
+- Kept rare so the Renewal Rite and big tonic feel special.
+
+---
+
+## 12. Implementation Notes (Future You)
+
+In the Game Bible:
+
+- B159 ties together:
+
+  - Wardstone Hill late-game,
+  - Ward/Shadow reagents,
+  - Ward-focused Lodge and ritual projects.
+
+In data/code later:
+
+- Ties to:
+
+  - B151 loot table for `gw_shadow_under_wardstone`.
+  - Ingredient/specialty ids from 51 / 55.
+  - Ward food & brew lines in 52 / 53 / 58.
+  - Wardstone-related projects and rituals in 57.
+
+When implemented:
+
+- Use B159 as checklist:
+
+  - Subterranean Wardstone arena built? ✔
+  - Phases (flicker → inverted glyphs → merge) working? ✔
+  - Loot yields correct brackets/crust/essences/core/tendrils? ✔
+  - Lodge projects and rituals consume those reagents in a meaningful way? ✔
