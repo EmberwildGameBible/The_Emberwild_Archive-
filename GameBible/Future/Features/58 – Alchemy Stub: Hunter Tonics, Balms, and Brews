@@ -1,820 +1,638 @@
-58 – Alchemy: Hunter Tonics, Balms, and Brews (Greatwood 1–20)
-Purpose
+# 58 – Intro Alchemy Grid (Greatwood 1–20)
 
-Define a first-wave Alchemy system for Emberwild that:
+## Purpose
 
-Focuses on hunter-facing outputs: tonics, balms, and brews.
+Define the **first full layer of alchemy** for Greatwood, tightly bound to:
 
-Uses the same ingredient taxonomy as Cooking and professions (51, 55, 95).
+- Ingredient taxonomy (51)
+- Cooking spines (52–53)
+- Hunt / corruption / ward systems (1.4 Part 5, B103+ hunts, B143 relics)
 
-Lives next to food buffs, not on top of them.
+This file answers:
 
-Scales cleanly from Greatwood 1–20 with forward hooks into:
+- Which **potions, tonics, oils, and salves** exist in Greatwood 1–20?
+- What do they do, and how do they differ from cooked food?
+- How do early alchemists progress from “camp mixtures” to “serious ward brews”?
+- How do these brews hook into:
+  - Wardstones
+  - Corruption
+  - Fire / burn-scar content
+  - Hunts and lodges
 
-Corruption & cleansing (91)
+This is a **design reference** doc.  
+Implementation lives in future Lua data modules:
 
-Professions synergy & Lodge infrastructure (95)
+- `Alchemy_Reagents_Greatwood.lua`
+- `Alchemy_Brews_Greatwood.lua`
 
-Narrative & personal arcs (96)
+---
 
-This is a playable, shippable first pass, not just a vague stub. It should feel like a mini-profession that slots naturally into the early game loop:
+## Design Pillars
 
-Hunt → Gather ingredients → Brew → Rest / prepare → Return to the wild.
+1. **Different from cooking, not just bottled food**
+   - Food = sustain and long-duration, low-friction buffs.
+   - Alchemy = **sharper**, riskier, more situational.
+   - Many brews have **side effects** or tradeoffs.
 
-Design Pillars
+2. **Reagents feel like a map of the world**
+   - Glowcaps, Hollowroot, Ashcurl, Black Sap, Wardstone crusts, etc.
+   - When you pick up a weird mushroom or gland, it should scream “alchemy”.
 
-Targeted, Tactical Power
+3. **Low failure, high learning**
+   - Intro alchemy has **very few true failures**, but many weak or “off” brews.
+   - Skill increases **quality, duration, side-effects control**, not just unlock counts.
 
-Alchemy doesn’t give broad “+all stats forever” power.
+4. **Thematic: ward, rot, and fire**
+   - Greatwood alchemy, at this band, leans on:
+     - Corruption resistance, fire resistance, stamina, and clarity.
+     - Bit of vision/sense manipulation via mushrooms and herbs.
 
-It gives sharp, situational tools:
+---
 
-“I need to track this beast at night.”
+## Progression Bands (Alchemy Skill 1–20)
 
-“We’re going into a poison-heavy hollowroot burrow.”
+Rough, tunable tiers:
+
+- **Skill 1–4: Field Mixes & Simple Tonics**
+  - Bitterpine teas, basic poultices, minor regen/stamina brews.
+  - Low-risk, widely usable, cheap reagents.
+
+- **Skill 5–10: Ward & Elemental Basics**
+  - First real corruption / fire resistance tonics.
+  - Glowcap, Ashcurl, Whisperfern, Wardstone brackets become core.
+
+- **Skill 11–16: Hollowroot & Black Sap**
+  - Stronger corruption tools, Hollowroot fortifiers.
+  - Black Sap shows up as a dangerous but powerful line.
+
+- **Skill 17–20: Signature Brews & Campaign Prep**
+  - Hunt-tied brews (Howler Warbrew, Ragged King tonics), group support brews.
+  - High reagent cost, strong identity, careful side effects.
+
+---
+
+## Reagent Taxonomy (Greatwood 1–20)
+
+> Reagents are “alchemical faces” of ingredients from 51.  
+> Many are 1:1 with raw items, but some are refined forms.
+
+### Base Reagents (solvents / carriers)
+
+- `river_herb_infusion` – Simple herbal water; low power, safe.
+- `hollowroot_tonic_base` – Thick, bitter base from Hollowroot; stabilizes corruption-facing brews.
+- `bone_broth_thick` – Used for heavier, body-focused tonics and “drinkable salves”.
+- `ashwater_brine` – Salty, mineral-rich carrier tied to fire and scars.
+- `glowcap_reduction` – Reduced Glowcap syrup, faintly luminous.
+
+### Core Reagents (primary effect drivers)
+
+- `bitterpine_needle` – Stamina/focus tilt; harsh but predictable.
+- `glowcap` – Low-level corruption & darkness interactions.
+- `whisperfern` – Stronger corruption/ward alignment.
+- `ashcurl` – Fire resistance, heat tolerance, slight agitation.
+- `hollowroot_core_chunk` – Fortification, anchoring, heavier debuff risk.
+- `hollowroot_resin` – Sticky binding, strong corruption interactions.
+- `ravencap_leaf` – Poison/bleed vector, antidote hooks.
+- `nightglass_berries` – Subtle sense-shifting, ward-thin vibes.
+- `wardstone_bracket` – Ward-aligned fungal growth, defensive lean.
+- `wardstone_crust_flake` – Direct wardline resonance, strong but touchy.
+- `black_sap_nodule` – Raw corruption reagent; extremely dangerous.
+- `black_sap_reduction` – Concentrated Black Sap; used sparingly.
+
+### Modifiers & Catalysts
+
+- `lowlight_clover` – Gentle luck/crit/awareness nudge.
+- `thornmint` – Aggressive movement/stamina tweak, “edge” feeling.
+- `smokebloom_petals` – Smoke, fire, and scent interaction.
+- `emberleaf` – Heat, warmth; pushed toward fire resistance or aggression.
+- `wandersage_bundle` – Rounding, stabilizing, “makes it behave”.
+
+---
+
+## Brew Schema
+
+Each brew is defined with:
+
+- **brew_id** – canonical internal ID (`alch_*`)
+- **display_name** – player-facing name
+- **tier** – recommended skill band (1–20)
+- **station** – where it’s crafted:
+  - `field_kit_basic`, `lodge_alembic`, `lodge_crucible`
+- **category** – functional group:
+  - `tonic`, `potion`, `salve`, `oil`, `tincture`, `elixir`, `bomb`
+- **reagents_core** – exact reagents/ingredients required (51 IDs + refined forms)
+- **reagents_flex** – optional modifiers / “seasonings”
+- **output_item_id** – the potion item
+- **effects** – intended mechanical impact (tags)
+- **duration_profile** – `very_short`, `short`, `medium`, `long`
+- **side_effects** – optional downsides / quirks
+- **notes** – design + narrative
+
+Implementation detail:  
+Recipes live in an Alchemy module; buff templates live in a shared effect data layer.
+
+---
+
+## 1. Field Mixes & Simple Tonics (Skill 1–4)
+
+### 1.1 – Bitterpine Stamina Draught
+
+- **brew_id:** `alch_bitterpine_stamina_draught`
+- **display_name:** Bitterpine Stamina Draught
+- **tier:** 1–2
+- **station:** `field_kit_basic` or `lodge_alembic`
+- **category:** `tonic`
+- **reagents_core:**
+  - `bitterpine_needle`
+  - `river_herb_infusion`
+- **reagents_flex:**
+  - Optional: `wandersage_bundle` for a smoother variant (longer duration, slightly weaker peak)
+- **output_item_id:** `brew_bitterpine_stamina_draught`
+- **effects:**
+  - `stamina_regen_small`
+- **duration_profile:** `short`
+- **side_effects:**
+  - Very minor “bitter aftertaste” flavor only; no mechanical downside at low alchemy skill.
+- **notes:**
+  - This is **day-one alchemy**: cheap, safe, and easy.
+  - Should reinforce that alchemy can give you sharper, quicker stamina tools than food.
+
+---
+
+### 1.2 – Simple Mending Poultice
+
+- **brew_id:** `alch_simple_mending_poultice`
+- **display_name:** Simple Mending Poultice
+- **tier:** 1–3
+- **station:** `field_kit_basic`
+- **category:** `salve`
+- **reagents_core:**
+  - `mossy_tongue`
+  - `stonepotato` mash (small, processed)
+  - `river_herb_infusion`
+- **reagents_flex:**
+  - Optional: `bitterpine_needle` (tiny) for slightly faster onset
+- **output_item_id:** `salve_simple_mending_poultice`
+- **effects:**
+  - Small, **instant** `hp_flat_small`
+  - Very short `hp_regen_very_small`
+- **duration_profile:** `very_short`
+- **side_effects:**
+  - None beyond flavor text (“itching under bandages”).
+- **notes:**
+  - Acts as an early “combat heal” alternative to food, but with modest numbers.
+
+---
+
+### 1.3 – Glowcap Field Draught
+
+- **brew_id:** `alch_glowcap_field_draught`
+- **display_name:** Glowcap Field Draught
+- **tier:** 3–4
+- **station:** `field_kit_basic`
+- **category:** `tonic`
+- **reagents_core:**
+  - `glowcap`
+  - `glowcap_reduction`
+- **reagents_flex:**
+  - Optional: `lowlight_clover`
+- **output_item_id:** `brew_glowcap_field_draught`
+- **effects:**
+  - Very small `res_corruption_very_small`
+  - Small “low-light comfort” visual/effects
+- **duration_profile:** `short`
+- **side_effects:**
+  - At very low alchemy skill, occasional slight visual flicker (purely cosmetic).
+- **notes:**
+  - Introductory corruption-adjacent brew; weaker than later tonics but thematic.
+
+---
+
+### 1.4 – Ashcurl Warmth Tincture
+
+- **brew_id:** `alch_ashcurl_warmth_tincture`
+- **display_name:** Ashcurl Warmth Tincture
+- **tier:** 3–4
+- **station:** `field_kit_basic`
+- **category:** `tincture`
+- **reagents_core:**
+  - `ashcurl`
+  - `ashwater_brine`
+- **reagents_flex:**
+  - Optional: `emberleaf`
+- **output_item_id:** `brew_ashcurl_warmth_tincture`
+- **effects:**
+  - Very small `res_cold_small`
+  - Mild `hp_regen_very_small`
+- **duration_profile:** `medium`
+- **side_effects:**
+  - Slight “heat rush” visual effect when first consumed.
+- **notes:**
+  - Pairs nicely with cold pockets and rain-heavy runs.
+  - Sets up the idea that Ashcurl is “heat/ward” facing, not just fire.
+
+---
+
+## 2. Ward & Elemental Basics (Skill 5–10)
+
+### 2.1 – Whisperfern Minor Ward Draught
+
+- **brew_id:** `alch_whisperfern_minor_ward_draught`
+- **display_name:** Whisperfern Minor Ward Draught
+- **tier:** 5–6
+- **station:** `lodge_alembic`
+- **category:** `tonic`
+- **reagents_core:**
+  - `whisperfern`
+  - `river_herb_infusion`
+- **reagents_flex:**
+  - Optional: `glowcap`
+- **output_item_id:** `brew_whisperfern_minor_ward_draught`
+- **effects:**
+  - `res_corruption_small`
+- **duration_profile:** `medium`
+- **side_effects:**
+  - Slight feeling of pressure in ears, as if under a ward dome.
+- **notes:**
+  - This is the **first proper “I am going near corruption” bottle**.
+  - Mechanically stronger than Glowcap Field Draught.
+
+---
+
+### 2.2 – Wardstone Skin Tonic
+
+- **brew_id:** `alch_wardstone_skin_tonic`
+- **display_name:** Wardstone Skin Tonic
+- **tier:** 6–7
+- **station:** `lodge_alembic` or `lodge_crucible`
+- **category:** `tonic`
+- **reagents_core:**
+  - `wardstone_bracket`
+  - `wardstone_crust_flake` (tiny)
+  - `hollowroot_tonic_base`
+- **reagents_flex:**
+  - Optional: `bitterpine_needle` for a more “alert” feel
+- **output_item_id:** `brew_wardstone_skin_tonic`
+- **effects:**
+  - `res_corruption_small`
+  - Slight `res_magic_generic_small` (future tag)
+- **duration_profile:** `medium`
+- **side_effects:**
+  - Brief, mild stiffness debuff at low skill (reduced dodge/turn speed for a few seconds).
+- **notes:**
+  - Tied thematically to Wardstone Hill and warden NPCs.
+  - Stronger, more stable than Whisperfern draught but with a small nuisance side effect.
+
+---
+
+### 2.3 – Ashcurl Fireguard Tonic
+
+- **brew_id:** `alch_ashcurl_fireguard_tonic`
+- **display_name:** Ashcurl Fireguard Tonic
+- **tier:** 7–8
+- **station:** `lodge_alembic`
+- **category:** `tonic`
+- **reagents_core:**
+  - `ashcurl`
+  - `ashwater_brine`
+  - `emberleaf`
+- **reagents_flex:**
+  - Optional: `smokebloom_petals` for an upgraded variant
+- **output_item_id:** `brew_ashcurl_fireguard_tonic`
+- **effects:**
+  - `res_fire_medium`
+- **duration_profile:** `medium`
+- **side_effects:**
+  - Minor HP drain over first few seconds (burning throat, then fine).
+- **notes:**
+  - Should be the **standard fire-prep potion** for Greatwood burn-scar content.
+  - Pairs with Ashstream Guard Pot (stew) for layered fire resilience.
+
+---
+
+### 2.4 – Ravencap Coagulant Vial
+
+- **brew_id:** `alch_ravencap_coagulant_vial`
+- **display_name:** Ravencap Coagulant Vial
+- **tier:** 8–9
+- **station:** `lodge_crucible`
+- **category:** `potion`
+- **reagents_core:**
+  - `ravencap_leaf`
+  - `hollowroot_tonic_base`
+  - `bone_broth_thick`
+- **reagents_flex:**
+  - Optional: `bitterpine_extract`
+- **output_item_id:** `brew_ravencap_coagulant_vial`
+- **effects:**
+  - Moderate `hp_regen_small` over time
+  - Minor `res_bleed_small`
+- **duration_profile:** `medium`
+- **side_effects:**
+  - Slightly reduced `move_speed` for a few seconds as body “thickens”.
+- **notes:**
+  - Thematically tied to bleed-based mobs and Hunts.
+  - Telegraphed as “good against anything that likes to open you up.”
+
+---
+
+## 3. Hollowroot & Corruption Line (Skill 11–16)
+
+### 3.1 – Hollowroot Fortifying Draught (Alchemy Version)
+
+> Mirrors but is **stronger / more configurable** than the cooking-side Glowcap/Hollowroot brews.
+
+- **brew_id:** `alch_hollowroot_fortifying_draught`
+- **display_name:** Hollowroot Fortifying Draught
+- **tier:** 11–13
+- **station:** `lodge_crucible`
+- **category:** `elixir`
+- **reagents_core:**
+  - `hollowroot_tonic_base`
+  - `hollowroot_core_chunk`
+  - `hollowroot_resin`
+- **reagents_flex:**
+  - Optional: `glowcap` or `whisperfern` for variant profiles
+- **output_item_id:** `brew_hollowroot_fortifying_draught`
+- **effects:**
+  - `res_corruption_medium`
+  - Small `hp_max_small` or `hp_regen_small` depending on variant
+- **duration_profile:** `medium`
+- **side_effects:**
+  - At low skill, brief “heavy limbs” (tiny move_speed penalty on first ticks).
+- **notes:**
+  - This is the **workhorse corruption elixir** for serious Hollowroot delves.
+  - Cooking food handles longer-term sustain; this handles sharper defensive windows.
+
+---
+
+### 3.2 – Lowlight Focus Vial
+
+- **brew_id:** `alch_lowlight_focus_vial`
+- **display_name:** Lowlight Focus Vial
+- **tier:** 11–12
+- **station:** `lodge_alembic`
+- **category:** `potion`
+- **reagents_core:**
+  - `lowlight_clover`
+  - `glowcap_reduction`
+  - `river_herb_infusion`
+- **reagents_flex:**
+  - Optional: `nightglass_berries` (for risky focus variant)
+- **output_item_id:** `brew_lowlight_focus_vial`
+- **effects:**
+  - Small `perception_small`
+  - Very small `crit_chance_very_small`
+- **duration_profile:** `short` to `medium`
+- **side_effects:**
+  - With nightglass: occasional brief dimming of peripheral vision.
+- **notes:**
+  - For scouts and ranged characters working in caves / Hollowroot pockets.
+
+---
+
+### 3.3 – Wardstone Anchor Oil
+
+- **brew_id:** `alch_wardstone_anchor_oil`
+- **display_name:** Wardstone Anchor Oil
+- **tier:** 14–15
+- **station:** `lodge_crucible`
+- **category:** `oil`
+- **reagents_core:**
+  - `wardstone_crust_flake`
+  - `wardstone_bracket`
+  - `hollowroot_resin`
+- **reagents_flex:**
+  - Optional: `wandersage_bundle`
+- **output_item_id:** `oil_wardstone_anchor`
+- **effects:**
+  - When applied to armor or ward equipment:
+    - `res_corruption_small`
+    - Slight `res_knockback_small` (anchor effect)
+- **duration_profile:** `long` (equipment-bound until death/change)
+- **side_effects:**
+  - May **amplify** certain ward backlash events in niche edge cases (design hook).
+- **notes:**
+  - Core reagent for ward teams and advanced hunts.
+  - Should appear in small, expensive quantities.
+
+---
+
+### 3.4 – Whisperglass Purge Tonic
+
+- **brew_id:** `alch_whisperglass_purge_tonic`
+- **display_name:** Whisperglass Purge Tonic
+- **tier:** 13–15
+- **station:** `lodge_crucible`
+- **category:** `elixir`
+- **reagents_core:**
+  - `whisperfern`
+  - `nightglass_berries`
+  - `hollowroot_tonic_base`
+- **reagents_flex:**
+  - Optional: `glowcap`
+- **output_item_id:** `brew_whisperglass_purge_tonic`
+- **effects:**
+  - Moderate `res_corruption_medium`
+  - Small, immediate cleansing of low-stacks corruption debuffs
+- **duration_profile:** `short` to `medium`
+- **side_effects:**
+  - Short “ringing” audio effect and brief screen desaturation.
+- **notes:**
+  - Designed as an **active cleanse tool**, distinct from slower food-based resist.
+
+---
+
+## 4. Black Sap Line (Risk / Reward, Skill 15–20)
+
+### 4.1 – Black Sap Purge (Refined Alchemy Spec)
+
+> This is the alchemy-side definition of the same brew referenced in cooking.  
+> Cooking version is more “ritual stew”; this is the raw bottle form.
+
+- **brew_id:** `alch_black_sap_purge`
+- **display_name:** Black Sap Purge
+- **tier:** 17–20
+- **station:** `lodge_crucible`
+- **category:** `elixir`
+- **reagents_core:**
+  - `black_sap_reduction`
+  - `whisperfern`
+  - `hollowroot_resin`
+  - `glowcap_reduction`
+- **reagents_flex:**
+  - None; deliberately strict
+- **output_item_id:** `brew_black_sap_purge`
+- **effects:**
+  - Strong `res_corruption_high` for a fixed window
+  - Immediate purge of most low- and mid-tier corruption debuffs
+- **duration_profile:** `short` to `medium` (strong peak, not long trivial uptime)
+- **side_effects:**
+  - Short but sharp `hp_flat_loss_small` on drink
+  - Brief `move_speed_small_penalty`
+- **notes:**
+  - Signature “we are going straight into something awful” brew.
+  - NPC alchemists should heavily warn about risks.
+
+---
+
+### 4.2 – Black Sap Insight Tincture (Experimental)
+
+- **brew_id:** `alch_black_sap_insight_tincture`
+- **display_name:** Black Sap Insight Tincture
+- **tier:** 18–20
+- **station:** `lodge_crucible`
+- **category:** `tincture`
+- **reagents_core:**
+  - `black_sap_nodule`
+  - `lowlight_clover`
+  - `river_herb_infusion`
+- **reagents_flex:**
+  - Optional: `nightglass_berries` for more extreme variant
+- **output_item_id:** `brew_black_sap_insight_tincture`
+- **effects:**
+  - Very small `perception_small`
+  - Tiny `crit_chance_small`
+- **duration_profile:** `short`
+- **side_effects:**
+  - Low chance of temporary self-applied small corruption stack.
+- **notes:**
+  - Risk line for players chasing performance in corruption-heavy content.
+  - May be tuned erring on the side of “overscary” so only dedicated alchemists use it.
+
+---
+
+## 5. Hunt & Lodge Signature Brews (Skill 15–20)
+
+These connect directly to the **Greatwood advanced cooking and hunts**.
+
+### 5.1 – Howler’s Warbrew (Alchemy Variant)
+
+- **brew_id:** `alch_howler_warbrew`
+- **display_name:** Greatwood Howler Warbrew
+- **tier:** 16–18
+- **station:** `lodge_alembic`
+- **category:** `tonic`
+- **reagents_core:**
+  - `howler_alpha_fang`
+  - `bitterpine_extract`
+  - `thornmint`
+  - `river_herb_infusion`
+- **reagents_flex:**
+  - Optional: `lowlight_clover`
+- **output_item_id:** `brew_howler_warbrew`
+- **effects:**
+  - `stamina_max_small`
+  - `move_speed_small`
+- **duration_profile:** `short` to `medium`
+- **side_effects:**
+  - Slight audio distortion for a few seconds (howl-like hum).
+- **notes:**
+  - Aggressive brew for mobile hunts and hit-and-run tactics.
+  - Should pair tightly with the cooking version for full “Howler kit”.
+
+---
+
+### 5.2 – Ward-Bear Guard Draught
+
+- **brew_id:** `alch_ward_bear_guard_draught`
+- **display_name:** Ward-Bear Guard Draught
+- **tier:** 15–17
+- **station:** `lodge_crucible`
+- **category:** `elixir`
+- **reagents_core:**
+  - `ward_bear_haunch` (small rendered essence)
+  - `bone_broth_thick`
+  - `wardstone_bracket`
+- **reagents_flex:**
+  - Optional: `wandersage_bundle`
+- **output_item_id:** `brew_ward_bear_guard_draught`
+- **effects:**
+  - `hp_max_small`
+  - Small `res_corruption_small`
+- **duration_profile:** `medium`
+- **side_effects:**
+  - None beyond flavor text (“heavy chest, stubborn stance”).
+- **notes:**
+  - Defensive anchor brew for players who like to hold frontline vs corruption.
+
+---
+
+### 5.3 – Ragged King’s Quiet
+
+- **brew_id:** `alch_ragged_king_quiet`
+- **display_name:** Ragged King’s Quiet
+- **tier:** 19–20
+- **station:** `lodge_crucible`
+- **category:** `potion`
+- **reagents_core:**
+  - `ragged_king_bone_shard`
+  - `nightglass_berries`
+  - `whisperfern`
+- **reagents_flex:**
+  - Optional: `glowcap`
+- **output_item_id:** `brew_ragged_king_quiet`
+- **effects:**
+  - Strong but temporary `perception_small` and detection buffs vs “restless dead / echoes” style enemies.
+- **duration_profile:** `short`
+- **side_effects:**
+  - After-effect fatigue: small `stamina_regen_penalty` once buff ends.
+- **notes:**
+  - A lore-heavy, niche-use brew; more “tool for a particular hunt” than general-use potion.
+  - Can be a narrative reward for finishing the Ragged King arc.
+
+---
+
+## Integration Notes
+
+### With 51 – Ingredient Taxonomy
+
+- All reagents and brews in this file:
+  - Use ingredient IDs from 51 as their **source**.
+  - Refined reagents (e.g. `glowcap_reduction`, `bitterpine_extract`) are **crafting transforms** of the same items, not new world drops.
+- Node and loot tables should:
+  - Drop **base ingredients**, not finished reagents (with rare exceptions).
+  - Let alchemy and cooking refine them into higher-value forms.
+
+### With 52–53 – Cooking
+
+- Some brews share names/roles with cooking-side items:
+  - `Glowcap Tonic`, `Hollowroot Fortifying Draught`, `Howler Warbrew`, `Black Sap Purge`.
+- Cooking versions:
+  - Longer durations, more “comfortable”, tied to meals and lodge.
+- Alchemy versions:
+  - Shorter, sharper, more side effects, more portable.
+- The UI should clearly show:
+  - Food vs Brew categories
+  - Shared icon elements for related recipes (same ingredient constellation).
+
+### UI & Stations
+
+- Alchemy UI can be split into:
+  - **Field Kit** (tier 1–4): simple mixtures, tonics, poultices.
+  - **Lodge Alembic** (tier 5–14): standard tonics and potions.
+  - **Lodge Crucible** (tier 10+): elixirs, oils, Black Sap, and ward-level brews.
+- Each brew should list:
+  - Ingredients
+  - Required station
+  - Buff summary
+  - Side effects clearly, so players feel informed about risk.
+
+### Future Expansion
+
+- Later regions add:
+  - New reagent lines (frost, lightning, deep corruption, etc.).
+  - New Black Sap-adjacent or entirely different corruption reagents.
+- Greatwood remains the **introductory ward/corruption/fire curriculum**:
+  - Player should leave Greatwood understanding:
+    - “Food keeps you going. Brews let you **cheat** specific problems for a while.”
+
+---
+
+This gives you a full **Intro Alchemy Grid** for Greatwood 1–20 that:
+
+- Re-uses the ingredient taxonomy (51),
+- Lines up with the cooking spine (52–53),
+- Hooks into signature hunts and ward/corruption themes,
+- And establishes a clear design language for future regions’ alchemy.
 
-“We’re pushing deeper into corruption; we need cleanses.”
-
-Stacks With, Not Over, Cooking
-
-Food = slow rhythm, long duration, broad buffs.
-
-Alchemy = shorter bursts, emergency responses, specific counters.
-
-Player should feel rewarded for having both:
-
-Eat before you leave → cook buffs set your baseline.
-
-Brew before (and during) the hunt → alchemy covers spikes and weird edge cases.
-
-Low UI Surface, High World Texture
-
-Small, grounded list of early recipes; no Diablo-style potion spam.
-
-Most alchemy flavor comes from:
-
-Ingredient names & sources.
-
-Visuals and sounds of brewing.
-
-Where you learn recipes in the world.
-
-Expandable Framework
-
-Core concepts should later support:
-
-Weapon oils, poisons, and ammo coatings.
-
-Bombs, flasks, and thrown tools.
-
-Endgame Lodge infrastructure upgrades (95).
-
-Scope & Boundaries (Greatwood 1–20)
-
-In scope now:
-
-One core profession track: Hunter Alchemy (can be merged into global “Alchemy” later).
-
-3 major output categories:
-
-Tonics – personal, drinkable buffs.
-
-Balms – applied to body/armor, mostly mitigation and regeneration.
-
-Brews – weird, utility-focused concoctions (vision, tracking, cleansing, etc.).
-
-~12–18 early recipes, 6–8 of which are realistically usable in normal play loops.
-
-Lodge + field brewing access:
-
-Lodge alchemy table.
-
-Portable field “still” / kit unlock later in the 1–20 track.
-
-Explicitly out of scope for this block:
-
-Full bomb/grenade system.
-
-Dedicated poison / oil coating system for weapons.
-
-Cross-region reagent economy beyond Greatwood 1–20.
-
-Endgame professions “raiding consumable” meta.
-
-All of that gets handled under advanced Alchemy & Professions synergy (95) and future B-series blocks.
-
-System Positioning vs Cooking
-Buff Categories
-
-Food Buffs (Cooking, 52–57)
-
-Duration: ~30–60 minutes.
-
-Strength: moderate, multi-stat.
-
-Identity: “I ate well before hunting; I’m prepared.”
-
-Alchemy Buffs (this chapter)
-
-Duration: ~5–20 minutes (or single-use / instant).
-
-Strength: sharp, focused, reactive.
-
-Identity: “I brewed tools to adapt mid-hunt.”
-
-Stacking Rules
-
-A hunter may have:
-
-1 food buff active at a time.
-
-1 tonic active (personal drink).
-
-1 balm active (applied effect).
-
-Any number of instant brews used (cleanses, short-lived effects), but with shared cooldowns.
-
-So in the UI, you see three persistent buff slots:
-
-Plate icon (Food) • Flask icon (Tonic) • Bandage icon (Balm)
-
-Brews mostly sit as instant-use items with cooldowns.
-
-Core Loop
-
-Gather
-
-Harvest herbs, fungi, monster fluids, and mineral salts from Greatwood.
-
-Gather nodes hook into:
-
-Profession nodes (Forester, Herbalist) (6, 51, 95).
-
-Monster-specific drops (55, 79, 80).
-
-Corrupted nodes in late Greatwood (91).
-
-Brew
-
-Use an Alchemy Station:
-
-Lodge infirmary alcove.
-
-Field camp portable kit (mid-1–20).
-
-Select recipe → confirm ingredients → brew with a short animation.
-
-Output is 1–3 charges depending on recipe and Alchemy skill.
-
-Use
-
-Assign tonics/balms/brews to quick slots.
-
-Drink / apply / throw in combat or camp.
-
-Gain buff(s), sometimes with side effects.
-
-Refine & Progress
-
-Level Alchemy by:
-
-Brewing new recipes.
-
-Successfully using them in hunts / quests.
-
-Higher skill:
-
-Improves yield.
-
-Reduces side effects.
-
-Unlocks advanced variations of familiar recipes.
-
-Ingredients & Reagents
-
-Alchemy leans on existing taxonomy (51, 55), with a thin extra layer of reagents.
-
-Base Categories
-
-Herbs & Fungi
-
-herb_paleleaf, herb_sparkbloom, fungus_hollowcap, etc.
-
-Found near:
-
-Rivers, glades, corruption edges.
-
-Used for:
-
-Regen, clarity, minor resistances.
-
-Monster Essences
-
-essence_beast_blood, essence_sporecloud, essence_wyrm_venom.
-
-Dropped from specific:
-
-Beasts, corrupted fauna, dungeon sub-bosses.
-
-Used for:
-
-Potent offensive or defensive effects, and corruption-related brews.
-
-Mineral Salts & Stabilizers
-
-salt_greatwood, powdered_quartz, binding_resin.
-
-Gained from:
-
-Mining nodes.
-
-Bought from Lodge suppliers in small amounts.
-
-Used to:
-
-Increase duration, stabilize volatile concoctions.
-
-Lodge Supplies
-
-distilled_spirit, clean_water_flask, basic_vial.
-
-Provided by:
-
-Lodge quartermaster for a small fee.
-
-Acts as:
-
-Crafting sink & soft gold sink.
-
-Crafting Flow & UI
-
-Interact with Alchemy Station (Lodge or field kit).
-
-UI opens with the following tabs:
-
-Tonics
-
-Balms
-
-Brews
-
-(Later: “Advanced” tab for bombs/oils).
-
-Recipe view includes:
-
-Name & tier.
-
-Short fantasy description.
-
-Ingredients.
-
-Effect + Duration.
-
-Side effect (if any).
-
-Minimum Alchemy skill required.
-
-Brew action:
-
-Choose batch size (if you have ingredients).
-
-Quick brew bar (~3–5 seconds).
-
-On success:
-
-Items appear in inventory.
-
-Chance for “Overbrew” (extra charge) at high skill.
-
-Progression & Skill
-Skill Ranks (Greatwood Slice)
-
-Rank 1–25: Apprentice
-
-Lodge training, basic tonics and balms.
-
-Failure chance on more complex recipes.
-
-Rank 26–50: Adept
-
-Access to corruption-related brews and specialized hunts tonics.
-
-Recipes tied to Hollowroot Warren and late-Greatwood quests.
-
-Gaining Skill
-
-Brew any recipe (small exp).
-
-Brew a recipe for the first time (bonus exp).
-
-Complete Alchemy-related Lodge tasks:
-
-Supply small batches of tonics for hunts.
-
-Support NPC expeditions (mini-quests).
-
-Buff Logic & Scaling
-Baseline Tuning (Greatwood 1–20)
-
-Tier 1 tonic:
-
-~10–20% improvement in a focused stat or regen.
-
-10–15 minutes duration.
-
-Tier 2 tonic:
-
-~20–30% improvement, 15–20 minutes duration.
-
-Often includes mild side effects or conditional downsides.
-
-Simple Scaling Model
-
-Each recipe has:
-
-Base Potency P_base
-
-Alchemy Skill Modifier P_skill
-
-Player Level Modifier P_level (light)
-
-Example formula:
-
-Effective Potency = P_base × (1 + AlchemySkill / 200) × (0.8 + PlayerLevel / 50)
-
-This keeps early recipes relevant a bit longer without letting them scale infinitely.
-
-Recipe List (Greatwood 1–20)
-A. Core Tonics
-1. Emberheart Tonic
-
-ID: alchemy_tonic_emberheart
-
-Tier: 1
-
-Effect:
-
-+15% Health regeneration while out of combat.
-
-+5% maximum Health.
-
-Duration: 15 minutes.
-
-Side Effect:
-
-Slight -5% Stamina regeneration in combat (you feel heavy and warm).
-
-Ingredients:
-
-herb_paleleaf x2
-
-essence_beast_blood x1
-
-clean_water_flask x1
-
-Source:
-
-Learned from Lodge medic after a basic Alchemy intro quest.
-
-2. Keen Eye Draught
-
-ID: alchemy_tonic_keen_eye
-
-Tier: 1
-
-Effect:
-
-+10% Ranged accuracy / crit chance.
-
-Slightly brighter vision, improved highlight on interactables.
-
-Duration: 10 minutes.
-
-Side Effect:
-
--10% melee damage (your focus shifts to precision).
-
-Ingredients:
-
-herb_sparkbloom x1
-
-powdered_quartz x1
-
-basic_vial x1
-
-Source:
-
-Recipe rewarded from an archery range side-quest near the Lodge.
-
-3. Ironbark Fortifier
-
-ID: alchemy_tonic_ironbark
-
-Tier: 1
-
-Effect:
-
-+10% physical damage reduction vs beasts.
-
-+5% Stagger resistance.
-
-Duration: 15 minutes.
-
-Side Effect:
-
--5% movement speed (body feels heavy, bark-like).
-
-Ingredients:
-
-herb_bitterbark x2
-
-salt_greatwood x1
-
-clean_water_flask x1
-
-Source:
-
-Learned from a Greatwood patrol captain after helping with beast-hunts (61, 79).
-
-B. Balms (Mitigation & Sustain)
-4. Hollowroot Soothing Balm
-
-ID: alchemy_balm_hollowroot
-
-Tier: 1
-
-Effect:
-
-+20% healing received from bandages & basic healing items.
-
-Small, constant trickle heal while out of combat.
-
-Duration: 10 minutes.
-
-Side Effect:
-
-Skin becomes slightly sensitive: +5% damage from fire.
-
-Ingredients:
-
-fungus_hollowcap x2
-
-binding_resin x1
-
-linen_wrap x1 (from basic crafting)
-
-Source:
-
-Recipe from Hollowroot Warren questline (first few floors) (65, 77).
-
-5. Ember Ward Balm
-
-ID: alchemy_balm_emberward
-
-Tier: 2
-
-Effect:
-
-+20% resistance to burning / searing damage.
-
-Reduces duration of “On Fire” debuff by 40%.
-
-Duration: 15 minutes.
-
-Side Effect:
-
-You feel damp and sluggish: -5% attack speed.
-
-Ingredients:
-
-herb_embermoss x2
-
-salt_greatwood x1
-
-binding_resin x1
-
-Source:
-
-Tied to Burn-Scar Descent (98) or similar fiery threats.
-
-C. Brews (Utility & Weird Effects)
-6. Nighttracker Brew
-
-ID: alchemy_brew_nighttracker
-
-Tier: 1
-
-Effect:
-
-Enhances footprint & scent trail visibility at night (67).
-
-Slightly increases detection radius for nearby beasts.
-
-Duration: 8 minutes.
-
-Side Effect:
-
--10% ranged accuracy (eyes adjusting constantly).
-
-Ingredients:
-
-fungus_nightsweat x1
-
-essence_beast_blood x1
-
-distilled_spirit x1
-
-Source:
-
-Award from tracking tutorial chain near Greatwood edges.
-
-7. Windwake Draft
-
-ID: alchemy_brew_windwake
-
-Tier: 1
-
-Effect:
-
-Short, 10-second movement speed burst on consume.
-
-Clears minor movement slows.
-
-Cooldown: 60 seconds.
-
-Side Effect:
-
-After-effect: 3-second -15% speed “winded” debuff.
-
-Ingredients:
-
-herb_sparkbloom x1
-
-clean_water_flask x1
-
-salt_greatwood x1
-
-Source:
-
-Buyable as a recipe from a Lodge runner / courier NPC.
-
-8. Cleansebrew Tonic
-
-ID: alchemy_brew_cleanse
-
-Tier: 1
-
-Effect:
-
-Instantly removes one stack of basic poison, bleed, or disease.
-
-Cooldown: 90 seconds.
-
-Side Effect:
-
-Short 3-second nausea: -10% accuracy.
-
-Ingredients:
-
-herb_paleleaf x1
-
-herb_bitterbark x1
-
-distilled_spirit x1
-
-Source:
-
-Tied into early corruption awareness quests (91) and Lodge infirmary tasks.
-
-D. Corruption-Linked Brews (Late Greatwood)
-9. Purge of the Glade
-
-ID: alchemy_brew_purge_glade
-
-Tier: 2
-
-Effect:
-
-When consumed at a campfire, performs a small AoE corruption cleanse:
-
-Reduces local corruption intensity in a small radius.
-
-Slightly lowers spawn rate of corrupted creatures around camp.
-
-Duration: Instant effect, plus 15-min “Purified Ground” buff to camp.
-
-Side Effect:
-
-Drains user: -10% max stamina for 10 minutes.
-
-Ingredients:
-
-herb_paleleaf x2
-
-essence_corrupt_ichor x1
-
-powdered_quartz x1
-
-distilled_spirit x1
-
-Source:
-
-Reward for major corruption storyline step (91, 96).
-
-10. Warden’s Veil
-
-ID: alchemy_brew_wardens_veil
-
-Tier: 2
-
-Effect:
-
-Short-term resistance vs corruption sanity effects:
-
--25% intensity of hallucinations / screen effects.
-
-+10% resistance to fear / panic mechanics.
-
-Duration: 8 minutes.
-
-Side Effect:
-
-While active, -10% charisma / social checks with NPCs (you smell and look weird).
-
-Ingredients:
-
-fungus_hollowcap x1
-
-essence_corrupt_ichor x1
-
-binding_resin x1
-
-distilled_spirit x1
-
-Source:
-
-Taught by a fringe Lodge alchemist who studies corruption.
-
-E. Group Utility & Social Hooks
-11. Shared Flask of Concord
-
-ID: alchemy_brew_concord
-
-Tier: 1
-
-Effect:
-
-Placeable item at camp:
-
-Up to 4 hunters can drink once.
-
-Grants a minor, shared buff:
-
-+3% all damage vs marked Hunt target (61).
-
-Duration: 20 minutes.
-
-Side Effect:
-
-Minor “Tipsy” emote set unlocks while buff is active (fun social layer).
-
-Ingredients:
-
-herb_embermoss x1
-
-clean_water_flask x1
-
-distilled_spirit x1
-
-salt_greatwood x1
-
-Source:
-
-Learned from Lodge celebrations / festivals (64, 94).
-
-12. Scribe’s Focus Draught
-
-ID: alchemy_tonic_scribes_focus
-
-Tier: 1
-
-Effect:
-
-+20% EXP gain or progression boost tied to:
-
-Lore discoveries.
-
-Region survey tasks.
-
-(Exact benefit defined under progression systems (9).)
-
-Duration: 20 minutes.
-
-Side Effect:
-
--10% physical damage (you’re studying, not fighting).
-
-Ingredients:
-
-herb_paleleaf x1
-
-powdered_quartz x1
-
-basic_vial x1
-
-Source:
-
-Tied to exploration / lore questline (96, 63).
-
-World Integration
-NPCs & Stations
-
-Lodge Infirmary
-
-Primary Alchemy station in early Greatwood.
-
-Staffed by:
-
-One stern medic (teaches safety).
-
-One slightly unhinged experimental alchemist (unlocks corruption recipes).
-
-Field Kits
-
-Later in 1–20, players unlock a Portable Still:
-
-Limited set of recipes.
-
-Reduced batch size.
-
-Requires fuel (e.g. camp_fuel).
-
-Quest Hooks
-
-“Bitter Medicine”
-
-Deliver tonics to a wounded hunting party.
-
-Teaches Emberheart / Cleansebrew basics.
-
-“Smoke in the Roots”
-
-Track and cure a corrupted beast using Purge of the Glade.
-
-Teases deeper corruption mechanics.
-
-“Three Sips for the Road”
-
-Learn three simple brews that each help a different type of hunt:
-
-Tracking.
-
-Mobility.
-
-Defense.
-
-Lodge Economy & Professions Synergy (95)
-
-Alchemy provides:
-
-Supply contracts: Lodge posts small orders for tonics before big hunts.
-
-Profession bundles:
-
-Forester brings special barks & resins.
-
-Hunter brings essences.
-
-Alchemist combines them into hunt-ready kits.
-
-This ties into:
-
-Lodge reputation tracks (59, 95).
-
-Future infrastructure upgrades:
-
-Expanded infirmary.
-
-Additional Alchemy stations near training grounds.
-
-Future Hooks Beyond Greatwood
-
-These are not implemented in the 1–20 slice but the framework prepares for them:
-
-Weapon Oils & Poisons
-
-Temporary coatings that add special on-hit effects.
-
-Thrown Flasks / Bombs
-
-Area denial, soft CC, and elemental zones.
-
-Advanced Corruption Alchemy
-
-Dangerous brews that trade sanity / health for huge power spikes.
-
-Regional Flavors
-
-Shattercoast, highlands, and other zones get unique reagents and signature brews.
-
-All future Alchemy work should extend this foundation, not replace it: tonics, balms, and brews remain the core hunter toolkit, with advanced stuff layered on top.
