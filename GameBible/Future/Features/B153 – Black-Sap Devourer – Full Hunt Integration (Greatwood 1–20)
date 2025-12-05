@@ -835,3 +835,932 @@ B160–B162 (Greatwood flow, Lodge projects).
 
 If Elder Stag and Ward-Bear are “Greatwood 101,”
 Black-Sap Devourer is “Greatwood 201: The woods bite back.”
+
+End of B153 – Black-Sap Devourer – Full Hunt Integration (Greatwood 1–20)
+
+vbnet
+Copy code
+
+If you want me to keep going in this same groove, next **proceed** I’ll probably use to blow out another Hunt (Hollowroot Matron or Elder Hollow Stag) or wire up the actual Greatwood loot Lua tables based on B151.
+
+
+
+
+
+You said:
+proceed
+
+
+
+ChatGPT said:
+
+Thought for 8s
+Alright, keeping the Greatwood Hunt arc rolling.
+
+Next up: a full, giant Hunt file for the Elder Hollow Stag – the “iconic but slightly tragic” Greatwood boss that’s less corrupted than Devourer, but still deeply tied into the forest.
+
+Below is a complete replacement for:
+
+GameBible/Future/Features/B154 – Elder Hollow Stag – Full Hunt Integration (Greatwood 1–20)
+
+You can paste this in as the whole file.
+
+markdown
+Copy code
+# B154 – Elder Hollow Stag – Full Hunt Integration (Greatwood 1–20)
+
+---
+
+## 0. PURPOSE & SCOPE
+
+This file defines the **Elder Hollow Stag** as a fully integrated **Greatwood Hunt** for levels ~8–15 (primary band: late B into C) and positions it as:
+
+- The **“iconic Greatwood Hunt”** most players will encounter early-mid.
+- A bridge between:
+  - Purely natural Greatwood stags.
+  - Hollowroot / corruption themes.
+  - The heavier corruption of Black-Sap Devourer (B153).
+
+It covers:
+
+- Identity, story, visual and audio fantasy.
+- Unlock conditions and how it fits the **Hunt Board arc**.
+- Arena layout and environmental features.
+- Full combat structure:
+  - Approach → Phase 1 → Phase 2 → Phase 3 (rage).
+- Role expectations and how **professions (cooking, alchemy, foraging)** matter.
+- Loot and Lodge integration:
+  - Unique ingredients and trophies.
+  - Recipes and Lodge décor.
+- Implementation notes for scripting and tuning.
+
+This Hunt should feel like **Greatwood’s soul stepping forward to test the player** – not purely evil, but no longer safe.
+
+---
+
+## 1. HUNT IDENTITY & FANTASY
+
+### 1.1 High-Concept Tagline
+
+- **Tagline:** “The forest remembers what you take.”
+
+The Elder Hollow Stag is:
+
+- The **oldest, largest stag** in Greatwood, partially hollowed out by quiet Hollowroot growth.
+- A creature that has seen many seasons of hunting and has adapted:
+  - Branch-antlers crowned with fungus and moss.
+  - Hollow cavities in its chest, ribs, and limbs that glow faintly.
+- Less overtly corrupted than Black-Sap Devourer, but clearly **not natural** anymore.
+
+Emotionally, this Hunt is closer to:
+
+> “You are fighting a guardian that has finally decided you’ve taken enough.”
+
+### 1.2 Visual Motifs
+
+- Body
+  - Massive stag frame with **visible age**:
+    - Scars, worn hide, patchy fur.
+  - Sections of body where **bark-like Hollowroot growth** replaces bone or muscle.
+  - Hollow cavities glowing dim, fungal or greenish light.
+- Antlers
+  - Extremely broad, branch-like antlers:
+    - Covered in moss, lichen, and small shelf-fungi.
+  - Portions broken and re-grown in crooked arcs.
+- Environment
+  - Arena is a **quiet glade** with:
+    - Soft light shafts through canopy.
+    - Old stones, standing logs, and a central hollow tree.
+    - Mushrooms and soft moss underfoot.
+
+In short: it’s beautiful and slightly eerie, not full-on horror.
+
+### 1.3 Audio Motifs
+
+- Ambience:
+  - Wind through leaves, distant creaking limbs, birds that go quiet when the fight starts.
+  - Occasional deep wood-groans like trees shifting.
+- Boss:
+  - Deep, resonant bellows that reverberate in the chest cavity.
+  - Hollow echoes from within its ribcage on certain moves.
+- Abilities:
+  - **Stomp:** heavy thud + a wooden ring.
+  - **Charge:** tearing underbrush + cracking branches.
+  - **Hollowcall:** layered stag calls with faint whispers or wind-sigh harmonics.
+
+### 1.4 Emotional Beats
+
+Player should feel:
+
+- **Awe** on first sight: “That’s *the* Greatwood stag.”
+- **Conflict**: it’s threatening, but it also feels like they’re trespassing.
+- **Urgency**:
+  - In later phases, the glade becomes wilder and more dangerous.
+- **Respect** on kill:
+  - The Lodge treats it as a serious mark of a hunter’s status.
+
+---
+
+## 2. UNLOCK CONDITIONS & STORY FRAMING
+
+### 2.1 Recommended Unlock Band
+
+- Intended for **levels 9–13**:
+  - Comfortable for groups at 10–12.
+  - Challenging for smaller, lower-level groups.
+- Sits in progression:
+  - After some early Hunts or mini-Hunts.
+  - Before or parallel to Black-Sap Devourer for most players.
+
+### 2.2 Prerequisites (Design-Level)
+
+Hunt appears on the **Hunt Board** when:
+
+- Player has:
+  - Completed a set number of **stag-related contracts**:
+    - “Cull young stags.”
+    - “Drive herds toward safer ground.”
+  - Completed at least one **introductory Hunt or Huntlet**:
+    - A lesser Greatwood stag or similar.
+- Player has turned in certain Lodge contributions:
+  - Enough stag hides, antlers, or meat for a Lodge project.
+
+In dialogue, this allows NPCs to say:
+
+> “You’ve been hunting his kin. If you insist on taking from the herds, at least have the spine to face the one who leads them.”
+
+### 2.3 Narrative Setup
+
+**Quest framing:**
+
+- The Elder Hollow Stag:
+  - Has been seen leading unusually coordinated herd movements.
+  - Is driving game away from traditional hunting grounds.
+  - May have killed or maimed hunters who ignored warning signs.
+
+Lodge’s perspective:
+
+- Some see it as a **sacred guardian** that should be left alone.
+- Others see it as a **force of nature** that must be faced, tested, or felled.
+- The Hunt is framed as:
+  - “A test of your claim as a Greatwood hunter.”
+  - Not strictly “go kill the monster,” but “go face it.”
+
+### 2.4 NPC & Lodge Integration
+
+- **Huntmaster**:
+  - Treats this Hunt with ceremony:
+    - Special dialogue.
+    - Possibly a different board UI presentation.
+- **Cook**:
+  - Talks about how the Elder’s meat (if taken) is rich, rare, and should not be wasted.
+- **Old Hunter NPC**:
+  - Offers optional reflection on whether you **must** kill it:
+    - (In later expansions you might support alternative outcomes; for now, full kill is canonical.)
+
+Lodge upgrades:
+
+- First completion:
+  - Unlocks prominent **antler display** in the Lodge.
+  - Grants access to:
+    - A new recipe or Lodge perk that references the Elder.
+- Repeats:
+  - Provide **trophy tokens** and extra ingredients.
+
+---
+
+## 3. ARENA & ENVIRONMENT DESIGN
+
+### 3.1 Location & Pocket
+
+Pocket tag: `POCKET_ELDER_HOLLOW_GLADE`
+
+- Geography:
+  - Broad, slightly elevated woodland glade surrounded by denser forest.
+  - Few, clearly readable **natural obstacles**:
+    - Old logs.
+    - Fallen branches.
+    - Mossy rocks.
+- Light:
+  - Dappled, soft, with subtle brightness changes as fight escalates.
+  - Late phases: the light flickers, as if canopy is swaying unnaturally.
+
+### 3.2 Layout Zones
+
+Divide into:
+
+- **Zone A – Outer Tree Line**
+  - Sparse trees at the glade edge.
+  - Slightly more cover but less visibility.
+- **Zone B – Central Clearing**
+  - Primary combat space.
+  - Large enough for kiting and maneuvers.
+- **Zone C – Hollow Tree & Fungal Ring**
+  - A large **hollow stump or tree** at one edge.
+  - Fungal ring around it:
+    - Mushrooms that react to the Stag’s abilities.
+    - Deals minimal damage early; becomes more dangerous late.
+
+### 3.3 Environmental Features
+
+- **Hollow Roots**
+  - Semi-exposed root systems that:
+    - Slightly alter movement.
+    - Can be jumped over or used as soft obstacles.
+- **Fungal Patches**
+  - Mushrooms that:
+    - Release spores if trampled or stomped near.
+    - In early phases, mild nuisance.
+    - In later phases, key hazards.
+
+### 3.4 Navigation & Readability
+
+Design goals:
+
+- Clear sense of “this is the arena,” not just random woods.
+- Enough open space for a big, charging boss.
+- Distinct visual reads:
+  - Hollow tree = “weird stuff happens here.”
+  - Fungal ring = “don’t ignore these.”
+
+---
+
+## 4. MECHANICAL THEMES & OVERVIEW
+
+### 4.1 Core Themes
+
+1. **Momentum & Positioning**
+   - Elder Stag charges, circles, and repositions frequently.
+   - Players must **control the dance**, not just turret.
+
+2. **Respect for Territory**
+   - Certain areas are “sacred” or highly reactive:
+     - Fungal ring.
+     - Hollow tree.
+   - Stepping/clashing in these zones causes environmental blowback.
+
+3. **Hollow Resonance (Light Corruption)**
+   - The Stag’s partially hollow body resonates with its environment.
+   - Certain abilities cause:
+     - Echo damage waves.
+     - Movement debuffs.
+     - Mild, “natural” corruption (less harsh than Black-Sap).
+
+4. **Phased Wildness**
+   - As HP goes down, the glade **feels more alive and aggressive**.
+   - Not full corruption, but wild magic / Hollowroot stirring.
+
+### 4.2 Fight Structure Overview
+
+Phases:
+
+- **Phase 0 – Approach & Recognition**
+  - Quiet entry, visual intro.
+- **Phase 1 – Test of Footwork**
+  - Basic charges, stomps, and light environment reactions.
+- **Phase 2 – Hollow’s Call**
+  - Hollow resonance, fungal interactions, more complex patterns.
+- **Phase 3 – Elder’s Last Stand**
+  - Aggressive charges, empowered stomps, glade going wild.
+
+---
+
+## 5. PHASE BREAKDOWNS
+
+### 5.0 Shared Mechanics / Systems
+
+Before phases:
+
+- **Hollow Resonance Stacks (Status)**
+  - Light, stacking debuff:
+    - At low stacks: minor movement slow.
+    - At high stacks: occasional stumble / brief movement stun.
+  - Applied by certain sonic/hollow abilities.
+
+- **Fungal Overgrowth State (Arena)**
+  - Tracks how many times:
+    - Fungal patches are triggered.
+    - Environmental responses are activated.
+  - Higher overgrowth:
+    - Stronger fungal effects.
+    - More frequent spore clouds.
+
+---
+
+### 5.1 Phase 0 – Approach & Recognition
+
+**Trigger**
+
+- Player group crosses a subtle threshold in the glade.
+- Cinematic-lite moment:
+  - Elder Stag quietly grazes or stands near the hollow tree.
+  - Raises its head, meets the party’s gaze.
+
+**Gameplay**
+
+- No combat yet:
+  - Just a brief, slow walk/approach distance.
+- On approaching close enough:
+  - Stag gives a warning bellow.
+  - Fight begins with a short opening charge.
+
+**Purpose**
+
+- To show off:
+  - Size.
+  - Silhouette.
+  - Detail.
+- To set tone:
+  - This fight is personal and ceremonial.
+
+---
+
+### 5.2 Phase 1 – Test of Footwork
+
+**HP Range**
+
+- 100% → ~70% HP.
+
+**Mechanics**
+
+1. **Gore Charge**
+   - Target: farthest or random non-tank player within line of sight.
+   - Telegraph:
+     - Stag paws ground and lowers antlers.
+   - Behavior:
+     - Quick linear charge, stops on first hit or after max distance.
+   - Effects:
+     - High physical damage.
+     - Knockdown or short knockback.
+   - Players can:
+     - Sidestep or roll out of the line.
+     - Use obstacles (logs, rocks) to block/deflect.
+
+2. **Elder Stomp**
+   - Short-range AoE around the Stag.
+   - Telegraph: slight rear and raised hooves.
+   - Effects:
+     - Moderate damage.
+     - Applies minor **Hollow Resonance** stack to those hit.
+   - Combos with fungal patches if stomp happens on/near them:
+     - Triggers spore clouds (low-intensity in Phase 1).
+
+3. **Branch-Antler Sweep**
+   - Wide frontal sweep.
+   - Telegraph: side turn of the head.
+   - Effect:
+     - Medium damage.
+     - Slight pushback.
+   - Promotes careful positioning in front/side arcs.
+
+**Player Checks**
+
+- Early movement & spatial awareness test:
+  - Can they dodge linear charges?
+  - Can they recognize stomp/range cues?
+
+---
+
+### 5.3 Phase 2 – Hollow’s Call
+
+**Trigger**
+
+- Stag hits ~70% HP.
+- Hollow cavities glow slightly brighter.
+- Fungal patches quietly spread in coverage/number.
+
+**New/Upgraded Mechanics**
+
+1. **Hollowcall (Cone Echo)**
+   - The Stag lifts head and releases a deep bellow.
+   - Cone of **latent resonance** travels across arena.
+   - Effects:
+     - Medium damage to players hit.
+     - 1–2 Hollow Resonance stacks.
+   - Some environmental props vibrate; spores may fall.
+
+2. **Fungal Burst**
+   - Triggered when:
+     - Stomp occurs on fungal patches.
+     - Players sprint heavily through fungal clusters.
+   - Effects:
+     - Spore cloud that lingers briefly:
+       - Low damage over time.
+       - Minor Hollow Resonance stack per tick.
+       - Slight visibility reduction.
+
+3. **Glade Shift (Minor)**
+   - On certain HP thresholds:
+     - Branches tilt; light shifts.
+   - Minor gameplay effects:
+     - Certain areas become **“muffled,”** slightly reducing incoming healing.
+     - Others become **“vital,”** slightly increasing stamina/regen.
+   - These zones are telegraphed with color/FX differences.
+
+**Adds (Optional Mode)**
+
+- For group variants or higher difficulty:
+  - A small pack of **younger stags** may join temporarily:
+    - Light attacks.
+    - Break line of sight.
+  - Killing them is not strictly required but simplifies the fight.
+
+**Player Checks**
+
+- Group must:
+  - Start respecting Hollow Resonance stacking.
+  - Avoid triggering fungal patches unnecessarily.
+  - Position in beneficial glade zones where possible.
+
+---
+
+### 5.4 Phase 3 – Elder’s Last Stand
+
+**Trigger**
+
+- Stag hits ~40% HP.
+- Hollow growth glows more intensely; glade becomes louder/wilder.
+
+**New/Upgraded Mechanics**
+
+1. **Rage-Fueled Charges**
+   - Gore Charge:
+     - Faster.
+     - Slight tracking on moving targets.
+   - Additional pattern:
+     - Sometimes chains multiple shorter charges.
+
+2. **Empowered Elder Stomp**
+   - Larger radius.
+   - Higher damage.
+   - Applies more Hollow Resonance stacks.
+   - If performed near the **hollow tree**:
+     - Tree pulses, causing a radial shockwave:
+       - Moderate damage and a distinct stagger.
+
+3. **Hollow Resonance Threshold**
+   - At certain stack levels on a player:
+     - They experience **stumble events**:
+       - Brief movement stun or forced step.
+   - At very high stacks:
+     - Short, but intense echo burst:
+       - Small AoE around the player.
+
+4. **Fungal Overrun (Soft Enrage Flavor)**
+   - Fungal patches:
+     - Grow larger and more reactive.
+   - Overgrowth meter:
+     - If triggered frequently, spore clouds become:
+       - Heavier damage.
+       - Longer duration.
+       - Higher resonance stacks.
+
+5. **Final Rally**
+   - At ~10–15% HP:
+     - Stag does an extended, dramatic roar.
+   - For a short window:
+     - Gains increased damage.
+     - Faster movement.
+   - But:
+     - Takes slightly more damage in return (symbolizing exhaustion).
+
+**Soft Enrage Condition**
+
+- If fight drags on:
+  - Fungal Overgrowth and Resonance stacks across party become unmanageable.
+  - Not a hard timer, but a **gradual slide** into chaos:
+    - Frequent stumbles.
+    - Spore-laden ground.
+    - High incoming damage.
+
+**Player Checks**
+
+- Does the group:
+  - Handle movement and positioning under pressure?
+  - Manage Resonance stacks (via cleanses, movement, positioning)?
+  - Avoid needlessly feeding Overgrowth?
+
+---
+
+## 6. ABILITY LIST & TUNING KNOBS
+
+> Exact numbers are placeholders; actual tuning can be done in data.
+
+### 6.1 Core Abilities
+
+- `ELDER_GORE_CHARGE`
+  - Target: farthest/marked player.
+  - Damage: high physical.
+  - Cooldown: ~10–14s (faster in Phase 3).
+  - Interruptible only via heavy CC, if system supports it.
+
+- `ELDER_STOMP`
+  - Target: area around Stag.
+  - Damage: medium (Phase 1), medium-high (Phase 2/3).
+  - Hollow Resonance: 1 stack (Phase 1), 2 stacks (later).
+  - Cooldown: ~8–12s.
+
+- `ELDER_ANTLER_SWEEP`
+  - Target: frontal cone.
+  - Damage: medium.
+  - Pushback: minor.
+
+### 6.2 Phase 2 Abilities
+
+- `HOLLOWCALL_CONE`
+  - Target: frontal wide cone.
+  - Damage: medium magic/echo.
+  - Resonance: 1–2 stacks.
+  - Cooldown: ~15s.
+
+- `FUNGAL_BURST_TRIGGER`
+  - Trigger: players or boss walking/running/stomping through fungal patches.
+  - Effect: spawn `FUNGAL_SPORE_CLOUD`.
+
+- `FUNGAL_SPORE_CLOUD`
+  - Radius: small to medium.
+  - Duration: ~6–10s.
+  - Damage: low DoT.
+  - Resonance: 1 stack every 2–3 ticks.
+
+### 6.3 Phase 3 Abilities
+
+- `GLADE_PULSE_HOLLOWTREE`
+  - Trigger: Elder Stomp near hollow tree.
+  - Effect: radial shockwave from tree:
+    - Medium damage.
+    - Minor knockback.
+
+- `RESONANCE_STUMBLE`
+  - Trigger: high Resonance stacks on a player.
+  - Effect: 0.5–1s movement stun / stagger.
+
+- `FINAL_RALLY_MODE`
+  - Trigger: low HP threshold.
+  - Effect: temporary buff to Stag:
+    - +X% damage.
+    - +Y% movement speed.
+
+---
+
+## 7. ROLE EXPECTATIONS & PROFESSION INTEGRATION
+
+### 7.1 Combat Roles
+
+- **Tanks**
+  - Keep Stag oriented away from group when possible.
+  - Bait/position charges:
+    - Ideally across safer parts of the glade.
+  - Avoid dragging boss through fungal patches.
+
+- **Melee DPS**
+  - Stick to back/flanks.
+  - Watch for stomp and antler sweep cues.
+  - Help pop any optional adds that join.
+
+- **Ranged DPS**
+  - Spread enough to avoid being chain-hit by cones.
+  - Maintain good lines of sight across clearing.
+  - Call out safe spots and heavy fungal clusters.
+
+- **Healers / Support**
+  - Manage sustained damage from DoTs and Resonance.
+  - Use positional buffs or movement abilities:
+    - For charges and stomp combos.
+  - Choose food/brews that:
+    - Assist with healing throughput and minor resistance to nature/echo damage.
+
+### 7.2 Cook & Food Integration
+
+From Greatwood cooking:
+
+- **Ideal Pre-Hunt Meals**
+  - Stews focusing on:
+    - Stamina/energy management (for movement-heavy fight).
+    - Moderate nature/echo resistance.
+  - Sides that:
+    - Improve regen or healing received.
+
+- **Thematic Recipes**
+  - `elder_stag_haunch_roast`
+    - Long-term regenerative buff.
+  - `hollowroot_herb_stag_stew`
+    - Slight Hollow Resonance resistance.
+    - Moderate health increase.
+
+Cooking gives real, felt advantage—but fight is still beatable without it.
+
+### 7.3 Alchemy & Foraging
+
+- **Brews**
+  - Movement tinctures:
+    - Short bursts for dodging charges.
+  - Minor cleanse brews:
+    - Reduce Resonance stacks or spore DoT intensity.
+
+- **Foraging Tools**
+  - Prior collection of herbs/fungi from Greatwood pockets:
+    - Directly relevant to the above brews.
+  - Thematically:
+    - Certain mushrooms in glade may match ingredients players have seen.
+
+Overall: professions help **smooth difficulty curve** and reward preparation.
+
+---
+
+## 8. LOOT & REWARD INTEGRATION (WITH B151)
+
+### 8.1 Unique/Hunt-Weighted Ingredients
+
+Examples (IDs must align with Ingredient Taxonomy):
+
+- `elder_stag_prime_haunch`
+  - Rare meat cut from Elder.
+  - Used in high-tier roasts and prestige dishes.
+- `hollow_antler_core`
+  - Fragment of internal antler/hollowroot fusion.
+  - Important for certain Lodge décor and advanced recipes.
+- `elder_stag_marrow`
+  - Rich marrow component; key in restorative stews.
+
+Baseline reward bundle:
+
+- Each participant gets:
+  - 1–3 `elder_stag_prime_haunch` (subject to tuning).
+  - 1–2 `hollow_antler_core` or similar trophy bits.
+
+### 8.2 Lodge Trophies & Décor
+
+- **Primary Trophy**
+  - `trophy_elder_hollow_stag_antlers`
+- Lodge projects:
+  - A dedicated **Elder Hollow Stag display**:
+    - Mounted antlers with subtle Hollowroot glow.
+  - Projects like:
+    - “Honor the Elder”: add ceremonial elements to Lodge.
+    - “Elder’s Blessing”: minor Lodge-wide buff or convenience.
+
+Repeat kills:
+
+- Award **Lodge trophy tokens** + extra trophy shards or lesser antlers.
+
+### 8.3 Chase Items & Rare Drops
+
+Low chance drops:
+
+- `trinket_elder_stag_charm`
+  - Grants small, permanent buff:
+    - Slight increase in stamina or movement speed.
+  - Flavor text: references “moving like the forest remembers you.”
+
+- `recipe_scroll_elder_stag_royal_roast`
+  - Very strong feast-level recipe:
+    - Group-wide buff (if group eating is supported).
+    - Rare enough to feel special.
+
+Very low chance world-drop tie-in:
+
+- Some relic-adjacent scrap:
+  - `relic_splinter_woodheart`
+    - Stories pointing toward deeper Relic content.
+
+### 8.4 B151 Hook
+
+In `LootTables_Special_Greatwood.lua`:
+
+- Define `HUNT_ELDER_HOLLOW_STAG_BUNDLE` with B151 schema.
+- Optionally create a specialty track in `SpecialtyPity_Greatwood.lua`:
+
+```lua
+SpecialtyPity.tracks.elder_stag_specialty = {
+    expected_rolls = 6,      -- typical kills before a special
+    hard_cap_rolls = 15,
+    min_band = "B",          -- 6–10
+    max_band = "C",          -- 11–15
+    sources = { "HUNT_ELDER_HOLLOW_STAG", "POCKET_ELDER_HOLLOW_GLADE" },
+}
+This ensures that players who put in multiple Elder kills see some of the rarer rewards.
+
+9. DIFFICULTY & TUNING
+9.1 Intended Audience
+Designed to be:
+
+First or second “serious” Hunt for many players.
+
+A mid-tier challenge that:
+
+Punishes tunnel vision.
+
+Rewards movement, awareness, and prep.
+
+9.2 Fight Duration & Fail Modes
+Baseline:
+
+Duration: ~6–9 minutes for appropriate group.
+
+Common fail states:
+
+Too many players hit by charges.
+
+Stomps + fungal bursts overwhelming healers.
+
+High Resonance stacks leading to chain stumbles in Phase 3.
+
+9.3 Tuning Levers
+Charge damage and tracking.
+
+Stomp damage and radius.
+
+Resonance stack thresholds for stumbles.
+
+Fungal patch density and burst strength.
+
+Reward quantity and rarity.
+
+10. IMPLEMENTATION NOTES (SCRIPTING)
+10.1 State Machine Outline
+States:
+
+IDLE
+
+PHASE1
+
+PHASE2
+
+PHASE3
+
+RESET
+
+Simplified skeleton:
+
+lua
+Copy code
+local ElderStag = {}
+ElderStag.__index = ElderStag
+
+function ElderStag.new(model)
+    local self = setmetatable({}, ElderStag)
+    self.model = model
+    self.state = "IDLE"
+    self.hp = self:getMaxHP()
+    self.resonance = {} -- per-player stacks
+    return self
+end
+
+function ElderStag:update(dt)
+    if self.state == "IDLE" then
+        self:updateIdle(dt)
+    elseif self.state == "PHASE1" then
+        self:updatePhase1(dt)
+    elseif self.state == "PHASE2" then
+        self:updatePhase2(dt)
+    elseif self.state == "PHASE3" then
+        self:updatePhase3(dt)
+    end
+end
+
+function ElderStag:onHit(damage)
+    self.hp -= damage
+    local hpPct = self.hp / self:getMaxHP()
+
+    if self.state == "PHASE1" and hpPct <= 0.70 then
+        self:transitionTo("PHASE2")
+    elseif self.state == "PHASE2" and hpPct <= 0.40 then
+        self:transitionTo("PHASE3")
+    end
+end
+10.2 Environment Controller
+A separate module:
+
+ElderGladeEnvironment.lua
+
+Manages:
+
+Fungal patches & triggers.
+
+Resonance zones (muffled/vital areas).
+
+Light/shader changes across phases.
+
+Hunt script calls into it for:
+
+Environment:TriggerFungalBurst(position)
+
+Environment:ShiftGladePhase(phaseIndex)
+
+10.3 Loot Hook
+On death:
+
+lua
+Copy code
+local ctx = {
+    mobId = "HUNT_ELDER_HOLLOW_STAG",
+    isHuntTarget = true,
+    zoneTag = "POCKET_ELDER_HOLLOW_GLADE",
+    -- player list, band, etc...
+}
+
+local lootBundle = ResolveLoot_Greatwood(ctx)
+local huntBundle = HuntRewards:GetElderStagBundle(ctx)
+mergeLoot(lootBundle, huntBundle)
+awardLootToPlayers(players, lootBundle)
+11. VARIANTS & FUTURE OPTIONS
+Potential later variants:
+
+Pacifist / Alternative Resolution Route
+
+In some future update:
+
+Allow players to complete the Hunt without killing:
+
+Outlast certain phases.
+
+Achieve some ritual or Lodge project.
+
+Reward differently (non-meat items, special titles).
+
+Night Hunt Variant
+
+Fight at night with:
+
+More dangerous fungal glow.
+
+Different soundtrack and ambient threats.
+
+Challenge Mode
+
+Stronger charges & resonance:
+
+Extra drops and cosmetic rewards.
+
+12. TELEMETRY & BALANCING
+12.1 Metrics to Capture
+Per fight:
+
+Attempts vs kills.
+
+Time to kill.
+
+Average damage taken from:
+
+Charges.
+
+Stomps.
+
+Fungal bursts.
+
+Resonance stack distribution:
+
+Average stacks per player.
+
+Number of stumbles triggered.
+
+Number/frequency of:
+
+Fungal patches triggered.
+
+Optional adds killed (if used).
+
+12.2 Target Success Rates
+For first-time groups at intended level:
+
+~30–50% success after 2–3 attempts.
+
+For experienced groups or overleveled players:
+
+70–90% success.
+
+Adjust:
+
+Damage/ranges.
+
+Resonance thresholds.
+
+Fungal density.
+
+Until telemetry lines up with target feel.
+
+13. SUMMARY
+The Elder Hollow Stag is Greatwood’s ceremonial benchmark Hunt:
+
+It teaches:
+
+Movement, positioning, and respecting the environment.
+
+Using cooking and alchemy deliberately.
+
+It sits:
+
+Midway between “just animals” and fully corrupted horrors like Black-Sap Devourer.
+
+It feeds:
+
+Lodge status (trophy and décor).
+
+Advanced recipes and subtle long-term buffs.
+
+Player’s personal narrative of becoming a real hunter.
+
+If Black-Sap Devourer is “corruption keystone,”
+Elder Hollow Stag is “Greatwood’s heart testing your right to call this home.”
+
