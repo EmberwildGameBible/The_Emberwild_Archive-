@@ -1,560 +1,831 @@
-# B161 – Greatwood 1–20 – Region Summary & Flow
-
-## 0. Purpose
-
-This file is the **top-level region overview** for Greatwood 1–20.
-
-It explains:
-
-- What Greatwood *is* (tone, fantasy, role in Emberwild)
-- How the **player’s first 1–20 hours** roughly flow here
-- How Hunts, contracts, dungeons, events, professions, Lodge, and Wardstone Hill all interlock
-- How to **use** the more detailed files:
-  - B151 (Loot)
-  - 51 / 55 (Ingredients & Specialties)
-  - 52 / 53 (Cooking)
-  - 54 (Tools)
-  - 57 (Lodge Projects)
-  - 58 (Brews)
-  - B153–B159 (Hunts)
-  - B160 (Hunts progression map)
-
-This is where you start if you’re asking:
-> “What happens in Greatwood 1–20, and why does it all make sense together?”
+# B161 – Greatwood Ingredient Atlas & Foraging Biomes (Greatwood 1–20)
 
 ---
 
-## 1. Region Concept – What is Greatwood?
+## 0. PURPOSE & SCOPE
 
-**Greatwood** is:
+This chapter is the **definitive ingredient atlas** for **Greatwood 1–20**.
 
-- The **first major outdoor region** the player lives in, not just visits.
-- A **temperate, slightly haunted forest frontier** where:
-  - Villages and Lodges cling to clearings,
-  - Wardstones keep a fragile peace,
-  - The forest itself feels ancient and opinionated.
+It exists to:
 
-Core tone:
+- Catalog all **major ingredients** found in Greatwood:
+  - Meats & animal parts
+  - Fungi & molds
+  - Herbs & leafy plants
+  - Roots & vegetables
+  - Fruits, nuts & seeds
+  - Special reagents (sap, spores, ward dust, etc.)
+- Map each ingredient to:
+  - **Biomes / pockets / Hunts**
+  - **Band expectations** (A–D, 1–20)
+  - **Profession hooks** (Cooking, Alchemy, Foraging, Lodgecraft)
+- Provide an **alphabetical A–Z index** for quick cross-reference.
 
-- Low fantasy, grounded, Classic-WoW-ish pacing:
-  - Fewer, more meaningful drops.
-  - Hunts feel like events, not routine chores.
-- “Old forest” energy:
-  - Everything has a prior history:
-    - Hunts,
-    - Wardstone rituals,
-    - Old expeditions,
-    - Abandoned camps.
+This file is **design-facing**:
 
-Core fantasy pillars:
-
-1. **Hunting & Stewardship**
-   - You’re not just killing monsters:
-     - You’re managing populations,
-     - Respecting or ignoring “forest elders” (Stag, Bear, Howler, etc.).
-2. **Wards & Corruption**
-   - Wardstone Hill is the anchor.
-   - Hollowroot pockets and Black Sap glades push back.
-   - Weird things happen when ward maintenance fails.
-3. **Food, Lodge, and Community**
-   - You’re cooking what you hunt.
-   - Lodge is a social hub, a progression hub, and a narrative hub.
-4. **Old Scars**
-   - Ash patches, barrows, and bones (Ragged King).
-   - The forest remembers what was done to it.
-5. **Shadows Underneath**
-   - Shadow Under the Wardstone makes clear:
-     - Even the *tools* used to keep the forest safe can go wrong.
+- It does NOT encode final numbers.
+- It defines **what exists**, **where it lives**, and **how it’s themed**.
+- Numeric tuning (drop rates, stack counts, yield multipliers, etc.) live in:
+  - B151 – Greatwood Loot & Drop System (1–20)
+  - B155 – Greatwood Creature Loot Tables
+  - Core Profession data tables
 
 ---
 
-## 2. Level Bands & Player Phases
+## 1. TAXONOMY OVERVIEW
 
-Greatwood 1–20 is divided into soft **experience phases**. These are *design* structures, not hard-coded gates.
+### 1.1 Ingredient Categories
 
-### 2.1 Phase A – Arrival & Learning (Levels ~1–8)
+We classify Greatwood ingredients into the following top-level categories:
 
-Player learns:
+1. **Meats & Animal Products**
+   - e.g. stag haunch, howler flank, marrow bones.
+2. **Fungi & Molds**
+   - e.g. hollowroot sporecap, mire fungus, dampcap.
+3. **Herbs & Leafy Plants**
+   - e.g. softleaf herb, brightcap herb, predator mint.
+4. **Roots & Vegetables**
+   - e.g. forest root veg, wildroot tuber, ironroot veg.
+5. **Fruits, Nuts & Seeds**
+   - e.g. brambleberry, moonfall nut, thornpod seed.
+6. **Special Reagents**
+   - Saps, spores, wardstone dust, relic splinters, etc.
 
-- Basic combat and movement.
-- What a Lodge is.
-- That food and gear matter.
+Each ingredient entry includes:
 
-Content focus:
-
-- Very small Hunts / contracts:
-  - Wolves, boars, basic stags.
-- Simple professions introduction:
-  - Cooking starter recipes from 52.
-  - Basic gathering and early tool unlocks in 54.
-- Safe-ish subzones:
-  - Near starting village / Lodge.
-  - Edge of deeper Greatwood, but not Hollowroot or Black Sap.
-
-### 2.2 Phase B – Settling In (Levels ~8–14)
-
-Player first sees:
-
-- Heartwood / Elders (Stag).
-- Pack pressure (Howler’s wolves).
-- Early ward hints (Wardstone Hill presence).
-
-Content focus:
-
-- More complex contracts:
-  - Multi-step, touching two or three subzones.
-- Introduction of early dungeons or “mini-delves”:
-  - Small caves, animal dens.
-- First real Hunts unlock:
-  - **Elder Hollow Stag**,
-  - **Greatwood Howler** (at the upper end).
-
-Professions:
-
-- Cooking matures:
-  - Tier 2 food grid from 52 starts to matter.
-- Tools:
-  - Better knives, axes, Lodge cookware unlocks in 54.
-
-### 2.3 Phase C – Pressure & Corruption (Levels ~12–18)
-
-Player feels:
-
-- Wards under strain.
-- Forest pushed out of balance.
-- Corruption pockets and creep.
-
-Content focus:
-
-- **Wardstone Hill story** wakes up:
-  - Ward-Bear references,
-  - Ward anomalies.
-- **Hollowroot pockets** show up:
-  - First events,
-  - Matron foreshadowing.
-- **Wolf packs** escalate:
-  - Greatwood Howler shows up fully as a Hunt.
-- Major Hunts playable:
-  - Elder Hollow Stag,
-  - Greatwood Howler,
-  - Ward-Bear,
-  - Hollowroot Matron.
-
-Professions:
-
-- Lodge projects from 57 start to come online:
-  - Basic trophies,
-  - Early Expedition Crates,
-  - Entry-level ward offerings.
-- Brews from 58 become more important:
-  - Tonics, anti-corruption, warbrews.
-
-### 2.4 Phase D – Resolution & Consequence (Levels ~16–20)
-
-Player confronts:
-
-- Corruption in its “active feeding” form (Devourer).
-- Bones, ash, and long-term consequences (Ragged King).
-- Ward failure in the core (Shadow Under the Wardstone).
-
-Content focus:
-
-- Late-game Greatwood events:
-  - Multi-step expedition chains.
-  - Larger combat set pieces.
-- Major late Hunts:
-  - **Black-Sap Devourer**,
-  - **Ragged King**,
-  - **Shadow Under the Wardstone**.
-- Region-shaping rituals and Lodge projects:
-  - Ward stabilization,
-  - Memorials,
-  - High-tier trophies and feasts.
-
-Professions:
-
-- High-end recipes from 53.
-- Top-tier brews from 58.
-- More complex multi-input projects from 57.
+- **Name (ID + display)**
+- **Bands** (A–D)
+- **Primary Biomes / Pockets**
+- **Primary Uses** (Cooking / Alchemy / Foraging / Lodgecraft)
+- **Short Flavor Hook**
 
 ---
 
-## 3. Subzones & Their Jobs
+## 2. GREATWOOD FORAGING BIOMES (1–20)
 
-This is a **functional** view of subzones. Exact names/final art can change, but each plays a role.
+These are the main **foraging biomes** tied to Hunts and pockets.
 
-### 3.1 Home Clearing / Starting Village
+### 2.1 Elder Hollow Glade (Stag / Nature Biome)
 
-- Safe-ish hub:
-  - Basic NPCs:
-    - Starter Cook,
-    - Early Hunter guide,
-    - Generic villagers.
-- Early contracts:
-  - Simple pests, boars, wolves.
-- Onboarding for:
-  - Food basics,
-  - Simple gear.
+- Pocket: `POCKET_ELDER_HOLLOW_GLADE`
+- Feel:
+  - Quiet, mossy, shafts of sunlight.
+  - Old trees, shallow roots, gentle fungi.
+- Ingredient Themes:
+  - Gentle herbs, roots, and ceremonial plants.
+  - Good for regen and stamina.
 
-### 3.2 Lodge & Lodge Grounds
+### 2.2 Warden’s Glade (Wardstone Biome)
 
-- Primary player-facing **“home base”** in Greatwood.
-- Systems anchored here:
-  - Trophy hall:
-    - All big Hunts feed into this.
-  - Ember Pot / kitchen:
-    - Advanced dishes (52/53).
-  - Workbenches:
-    - Tools, gear, profession items from 54.
-  - Project boards:
-    - Lodge Projects and Rituals from 57.
+- Pocket: `POCKET_WARDEN_GLADE`
+- Feel:
+  - Wardstone pillars, faint humming, glowing moss.
+- Ingredient Themes:
+  - Ward-aligned mosses and crusts.
+  - Dense roots, arcane-touched bulbs.
 
-Narratively:
+### 2.3 Black-Sap Grove (Corruption Biome)
 
-- The place where people argue about:
-  - Whether Stag/Howler/Bear/Matron/Devourer/King/Shadow should be killed, respected, avoided, or bound.
+- Pocket: `POCKET_BLK_SAP_GROVE`
+- Feel:
+  - Dark, slick bark, slow drip of black sap.
+- Ingredient Themes:
+  - Purifier blooms, corruption-touched tubers and bark.
+  - High risk, high alchemy value.
 
-### 3.3 Wardstone Hill & Approaches
+### 2.4 Hollowroot Nest (Fungal Biome)
 
-- Geographical and narrative center of Ward mechanics.
-- Contains:
-  - Wardstone & upper plateau.
-  - Warden NPCs.
-  - Path down into:
-    - Shadow Under the Wardstone’s sub-chamber.
-- Ward-related content:
-  - Ward diagnostics,
-  - Offerings,
-  - Rituals (via 57),
-  - Early glimpses of ward failures.
+- Pocket: `POCKET_HOLLOWROOT_NEST`
+- Feel:
+  - Dim, damp bowl crowded with mushrooms and mycelium.
+- Ingredient Themes:
+  - Sporecaps, wet fungi, fibrous mycelium.
+  - Best for detox/DoT concoctions.
 
-### 3.4 Deep Forest Groves & Heartwood Glades
+### 2.5 Howler Den (Predator Biome)
 
-- Habitat for:
-  - Elder Hollow Stag,
-  - Some Heartwood beasts.
-- Emotion:
-  - Sacred, quiet, “this space mattered before you”.
-- Content hooks:
-  - Heartwood gathering nodes (51).
-  - Early Heartwood food and brew recipes.
+- Pocket: `POCKET_HOWLER_DEN`
+- Feel:
+  - Trampled brush, bones, dens beneath roots.
+- Ingredient Themes:
+  - Stamina and reaction herbs, quick-burn tubers.
+  - Things that keep you alive when the forest is chasing you.
 
-### 3.5 Hills, Ridges, and Pack Territories
+### 2.6 Neutral Greatwood (General Forest Biome)
 
-- Terrain:
-  - Ridges,
-  - Cliffs,
-  - Foggy passes.
-- Habitat for:
-  - Wolves,
-  - Greatwood Howler.
-- Content hooks:
-  - Pack contracts,
-  - Stealth / ambush events.
-
-### 3.6 Hollowroot Pockets & Underforest
-
-- Underground or partially covered:
-  - Hollowroot dens and pockets.
-- Habitat for:
-  - Hollowroot Matron,
-  - Hollowroot tendrils and husks.
-- Content hooks:
-  - Hollowroot Expedition Crates,
-  - Anti-corruption food and brews,
-  - Pocket events.
-
-### 3.7 Black-Sap Glades & Corrupted Groves
-
-- Late-phase corruption subzones:
-  - Black Sap trees,
-  - Sap pools,
-  - Rotting fauna.
-- Habitat for:
-  - Black-Sap Devourer.
-- Content hooks:
-  - Black Sap reagents,
-  - Very dangerous world mobs tied to B151.
-
-### 3.8 Barrows, Ash Patches & Old Battlefields
-
-- Charred clearings,
-- Ash piles and barrows,
-- Broken weapons and old wagons.
-- Habitat for:
-  - Ragged King,
-  - Skeletal beasts,
-  - Bone scavengers.
-- Content hooks:
-  - Bone/ash reagents,
-  - Lore about old Hunts and wars,
-  - Previews of scarred regions outside Greatwood.
+- Spread:
+  - Non-Hunt pockets, paths, riversides.
+- Ingredient Themes:
+  - General purpose herbs, berries, roots.
+  - Shared pool that interlocks with all Hunts.
 
 ---
 
-## 4. Content Pillars – What the Player Actually Does
+## 3. MEATS & ANIMAL PRODUCTS (CREATURE-DROPPED)
 
-### 4.1 Hunts (B153–B159, B160)
+> Many of these are also defined in B155; here we expand their **profession-facing identity**.
 
-- 7 Major Hunts define:
-  - High points of combat,
-  - Key narrative beats,
-  - Owners of specialty reagents and Lodge projects.
-- Hunts integrate:
-
-  - Loot (B151),
-  - Ingredients (51/55),
-  - Food (52/53),
-  - Tools (54),
-  - Brews (58),
-  - Lodge Projects (57).
-
-### 4.2 Contracts & Minor Hunts
-
-- Repeatable or smaller content vs:
-
-  - Wolves, boars, basic Hollowroot growths, minor corruption, bandits (later).
-- Feed:
-
-  - Basic ingredient inflow (51),
-  - Some coins,
-  - Incremental rep and Lodge project progress.
-
-Contracts are the **day-to-day loop**:
-
-- Hunts are the **big moments**.
-
-### 4.3 Dungeons, Pockets & Events
-
-Examples:
-
-- Hollowroot pockets:
-  - Mini-dungeons tied to Matron.
-- Black Sap outflow events:
-  - Previews of Devourer.
-- Shadow anomalies near Wardstone:
-  - Previews of Shadow Under the Wardstone.
-- Barrow delves:
-  - Previews of Ragged King.
-
-These give:
-
-- Extra “chapters” between Hunts.
-- Situations where:
-
-  - Food and brews matter,
-  - Group coordination matters.
-
-### 4.4 Professions
-
-Core professions here:
-
-- **Hunter**:
-  - Direct owner of Hunts and contracts.
-- **Cook**:
-  - Converts ingredients into survival and performance.
-- **Alchemist**:
-  - Brews tonics, salves, warbrews, ward brews.
-- **Forager/Woodworker**:
-  - Gathers plants, mushrooms, wood,
-  - Crafts trophies, totems, Lodge fixtures.
-
-Greatwood is the **tutorial but not baby tier** for all four:
-
-- You get full loops, just not extreme complexity yet.
+Entries are alphabetical by **ID**.
 
 ---
 
-## 5. System Cross-Links (Hunts ↔ Lodge ↔ Region State)
+### 3.1 A–C
 
-This is the “why this region feels alive” section.
+#### 3.1.1 `antler_fragment` – Antler Fragment
 
-### 5.1 Hunts Impacting Region
+- **Bands:** B–C
+- **Biomes / Sources:** Stags (general), Elder Hollow Stag; Elder Hollow Glade
+- **Uses:**
+  - *Cooking:* Gelatinous stock booster (bone broth).
+  - *Alchemy:* Forest Guard Tincture (beast resist).
+  - *Lodgecraft:* Mounted décor, ritual charms.
+- **Flavor:** Shaped by years of rut; etched by bark and time.
 
-Example patterns:
+#### 3.1.2 `bearward_claw_fragment` – Ward-Bear Claw Fragment
 
-- Killing **Elder Hollow Stag**:
-  - Slightly lowers deer population for a while.
-  - Some contracts adjust:
-    - More wolves (less prey),
-    - Or more nervous villagers.
+- **Bands:** B–D
+- **Biomes / Sources:** Ward-Bear Hunt; Warden’s Glade
+- **Uses:**
+  - *Alchemy:* Wardsense Draught, Wardbreaker Tincture catalyst.
+  - *Lodgecraft:* Inlaid into shield displays and ward totems.
+- **Flavor:** Heavy with wardstone etchings that never quite stop glowing.
 
-- Killing **Greatwood Howler**:
-  - Wolf ambushes decrease.
-  - Some predators redistribute into other subzones.
+#### 3.1.3 `boar_belly_strip` – Boar Belly Strip
 
-- Killing **Hollowroot Matron**:
-  - Hollowroot pocket frequency drops.
-  - Anti-corruption tasks become easier for a while.
+- **Bands:** A–C
+- **Biomes / Sources:** Boar family; general Greatwood
+- **Uses:**
+  - *Cooking:* Fat-rich skillet meals (Boar Fat Skillet), Wardbear Ironstew base.
+  - *Alchemy:* Rendered fat for salves and pastes.
+- **Flavor:** Thick and marbled; prized in every camp kitchen.
 
-- Killing **Black-Sap Devourer**:
-  - Black Sap glades retreat a bit.
-  - Some wardline pressure is relieved.
+#### 3.1.4 `boar_hide_patch` – Boar Hide Patch
 
-- Killing **Ragged King**:
-  - Bonepiles stop “walking”.
-  - Ash events quiet down.
+- **Bands:** A–C
+- **Biomes / Sources:** Boar family; general Greatwood
+- **Uses:**
+  - *Lodgecraft / Armorcraft:* Light armor, Lodge benches, bedrolls.
+- **Flavor:** Tough, coarse, simple—standard field leather.
 
-- Killing **Shadow Under the Wardstone**:
-  - Wardstone Hill anomalies normalize.
-  - Warden NPCs stop freaking out (for now).
+#### 3.1.5 `boar_shank` – Boar Shank
 
-You don’t need to simulate all this in code day one, but this is what **NPC dialogue, contracts, and event weights** should roughly align to.
+- **Bands:** A–C
+- **Biomes / Sources:** Boar family; common in low/mid pockets.
+- **Uses:**
+  - *Cooking:* High-hearty stews (Wardbear Ironstew, Hunter’s Stews).
+- **Flavor:** Muscle-heavy joint that loves slow, patient cooking.
 
-### 5.2 Lodge Projects & Rituals Feeding Back into Region
+#### 3.1.6 `bristled_ridge_pelt` – Bristled Ridge Pelt (NEW)
 
-Examples from 57:
-
-- **Guardian Totem (Ward-Bear)**:
-  - Slightly boosts knockback resist for Hunts launched from this Lodge.
-
-- **Hollowroot Expedition Crate & Send-Off**:
-  - Makes Hollowroot pockets safer/easier to farm.
-
-- **Black-Sap Plaques / Handling Gear**:
-  - Makes Black-Sap handling less punishing.
-
-- **Ragged King Bone Throne & Ash Pyre**:
-  - Tiny boosts to Hunt rep and ash/bone drops.
-
-- **Shadow-Ward Focus / Renewal Rites**:
-  - Reduce ward anomalies and related events.
-
-It should feel like:
-
-> “We cleared a nightmare and brought back a piece of it to the Lodge. Now the Lodge is better equipped, and the forest reacts.”
+- **Bands:** B–C
+- **Biomes / Sources:** Ridge boars / wild variant in higher Greatwood.
+- **Uses:**
+  - *Lodgecraft:* Rug / wall hangings.
+  - *Armorcraft:* Lighter, thorn-resistant cloak lining.
+- **Flavor:** Stiff bristles that remember every thorn they parted.
 
 ---
 
-## 6. Golden Path – Example Player Journey 1–20
+### 3.2 D–H
 
-This is an **example**, not a fixed script. It’s mainly for designers and writers to have a shared mental picture.
+#### 3.2.1 `devourer_tooth_fragment` – Black-Sap Devourer Tooth Fragment
 
-1. **1–5 – First Steps**
-   - New player arrives at starting village / clearing.
-   - Learns:
-     - Basic combat vs small wolves, boars.
-     - Crafting simple food.
-   - Visits Lodge for the first time, sees empty trophy hall.
+- **Bands:** C–D
+- **Biomes / Sources:** Black-Sap Devourer Hunt.
+- **Uses:**
+  - *Alchemy:* Sap Cleanser, corruption-edge tonics.
+  - *Lodgecraft:* Set into “Seal the Veins” displays.
+- **Flavor:** Edges blackened with sap that never dries.
 
-2. **5–10 – Lodge Hunter**
-   - Starts doing:
-     - Contracts for wolves, deer, critters.
-   - Meets:
-     - Hunter NPCs talking about Elder Stag, Howler.
-     - Cook showing interest in better meat.
-   - Visits Wardstone Hill once; sees wards but doesn’t understand yet.
+#### 3.2.2 `fang_chip` – Fang Chip
 
-3. **10–14 – First Major Hunts**
-   - Unlocks:
-     - **Elder Hollow Stag** and/or **Greatwood Howler**.
-   - Completes one:
-     - Trophy appears in the Lodge,
-     - New food and brews unlock.
-   - Region changes a bit:
-     - Fewer stags / less howling at night.
+- **Bands:** A–C
+- **Biomes / Sources:** Howlers, wolves, scavengers; broad Greatwood.
+- **Uses:**
+  - *Alchemy:* Hunter’s Focus, Corrupted Edge Tonic.
+  - *Trinketcraft:* Basic predator charms.
+- **Flavor:** The forest’s simplest warning: everything here has teeth.
 
-4. **14–16 – Wards & Corruption**
-   - Ward anomalies start happening:
-     - Ward-Bear rumored near Wardstone Hill.
-   - Hollowroot pockets appear in small ways:
-     - Event chains.
-   - Unlocks:
-     - **Ward-Bear** Hunt,
-     - **Hollowroot Matron** Hunt.
-   - Lodge begins:
-     - Guardian Totem project,
-     - Hollowroot Expedition crates.
+#### 3.2.3 `forest_marrow_bone` – Forest Marrow Bone (NEW)
 
-5. **16–18 – Corruption & Old Scars**
-   - Black Sap glades start creeping into the forest:
-     - Minor mobs, events.
-   - Ash barrows feel more active:
-     - Bonepiles moving, weird rattles.
-   - Unlocks:
-     - **Black-Sap Devourer**,
-     - **Ragged King**.
-   - Lodge:
-     - Gains Black-Sap fixtures,
-     - Starts building bone throne / ash pyre.
+- **Bands:** A–C
+- **Biomes / Sources:** Larger beasts (stags, boars, bears).
+- **Uses:**
+  - *Cooking:* Bone broth, marrow roasts.
+  - *Alchemy:* Potent base for regen draughts.
+- **Flavor:** Heavy bone that keeps popping up in old Lodge recipes.
 
-6. **18–20 – Shadow Under the Hill**
-   - Wardstone Hill anomalies spike:
-     - Flickering wardlight,
-     - NPC panic.
-   - Unlocks:
-     - **Shadow Under the Wardstone** Hunt.
-   - Player descends, cleans the sub-chamber.
-   - After victory:
-     - Ward rituals stabilize,
-     - Greatwood 1–20 is considered “region complete”.
+#### 3.2.4 `howler_alpha_pelt` – Alpha Howler Pelt
 
-At this point, the player has:
+- **Bands:** B–C
+- **Biomes / Sources:** Greatwood Howler (Hunt).
+- **Uses:**
+  - *Lodgecraft:* Pack banners, floor rugs.
+  - *Trinketcraft:* Alpha Howl Charm components.
+- **Flavor:** When worn or displayed, you always feel like something’s watching the door.
 
-- Seen all major Hunts.
-- Unlocked most Greatwood Lodge projects.
-- Acquired a set of recipes, brews, reagents.
-- Emotionally “finished” Greatwood and is ready for the next region.
+#### 3.2.5 `howler_fang_alpha` – Alpha Howler Fang
 
----
+- **Bands:** B–C
+- **Biomes / Sources:** Greatwood Howler.
+- **Uses:**
+  - *Alchemy:* Anti-Bleed Draught, Focus Tincture catalysts.
+  - *Trinket:* Alpha Howl Charm.
+- **Flavor:** Still hums with the memory of pack calls.
 
-## 7. Implementation Checklist
+#### 3.2.6 `howler_flank` – Howler Flank
 
-When you build or review Greatwood 1–20, use this as a checklist:
+- **Bands:** B–C
+- **Biomes / Sources:** Howler family; general pockets & Hunt.
+- **Uses:**
+  - *Cooking:* Greatwood Hunter’s Stew, simpler roasts.
+- **Flavor:** Lean, gamey, perfect for the kind of people who run toward howls.
 
-1. **Subzones:**
-   - Starting clearing / village,
-   - Lodge & Lodge grounds,
-   - Wardstone Hill & approaches,
-   - Deep forest glades (Stag),
-   - Ridge/pack territory (Howler),
-   - Hollowroot pockets (Matron),
-   - Black-Sap glades (Devourer),
-   - Barrow/ash zone (Ragged King),
-   - Wardstone underchamber (Shadow).
+#### 3.2.7 `howler_flank_prime` – Prime Howler Flank
 
-2. **Core loops in place:**
-   - Contracts and minor Hunts feed basic loot (B151).
-   - Hunts B153–B159 exist and are reachable.
-   - Professions (Hunter/Cook/Alchemist/Forager) all have viable loops.
+- **Bands:** B–C
+- **Biomes / Sources:** Greatwood Howler; high-roll drop.
+- **Uses:**
+  - *Cooking:* Alpha Hunter’s Stew; premium band-B/C meals.
+- **Flavor:** A rare cut from a creature that never stopped moving.
 
-3. **Systems connected:**
-   - Ingredients from Hunts exist in 51 and tie into 52/53/58.
-   - Specialties exist in 55 and tie into 57 projects and/or advanced recipes.
-   - Loot tables in B151 for all major creatures align with integration docs.
+#### 3.2.8 `howler_pelt_tuft` – Howler Pelt Tuft
 
-4. **Narrative continuity:**
-   - NPCs mention Hunts appropriately.
-   - Region state changes (even if just in dialogue & small event weight shifts) when major Hunts are cleared.
-   - Wardstone Hill story starts mild and escalates to Shadow Under the Wardstone.
-
-5. **Lodge feels like a “trophy of your run”:**
-   - Major Hunts visibly change the Lodge:
-     - Trophies, banners, braziers, thrones, shrines, expeditions, etc.
+- **Bands:** A–C
+- **Biomes / Sources:** All howlers; common.
+- **Uses:**
+  - *Alchemy:* Focus Tincture.
+  - *Lodgecraft:* Minor décor, stuffing, small fetishes.
+- **Flavor:** Smells of wet fur and cold nights.
 
 ---
 
-## 8. How to Use This File Going Forward
+### 3.3 H–Z
 
-Whenever you’re:
+#### 3.3.1 `hollowroot_shell_plate` – Hollowroot Shell Plate
 
-- Adding **a new Hunt**:
-  - Ask: does it fit Greatwood thematically?
-  - If yes:
-    - Add it here in the roster and loops.
-    - Create a B15x integration doc for it.
-    - Wire it into 51/55/57/58/B151.
+- **Bands:** C–D
+- **Biomes / Sources:** Hollowroot Matron; Nest.
+- **Uses:**
+  - *Lodgecraft:* Containment shells, fungal displays.
+  - *Alchemy:* Overgrowth Phials (late-game), structural reagent.
+- **Flavor:** Feels like bark, sounds like bone, grows like neither.
 
-- Adding **a new project, recipe, or brew**:
-  - Ask: which Hunt or subzone does this belong to?
-  - Map it into the loop here so it doesn’t float.
+#### 3.3.2 `marrow_bone_piece` – Marrow Bone Piece
 
-- Planning **next regions**:
-  - Use Greatwood as the “baseline”:
-    - Pacing,
-    - Number of Hunts,
-    - Depth of integration.
+- **Bands:** A–C
+- **Biomes / Sources:** Boars, stags, wolves.
+- **Uses:**
+  - *Cooking:* Ceremonial Bone Broth; marrow roasts.
+  - *Alchemy:* General restorative bases.
+- **Flavor:** The oldest comfort food in the forest.
 
-This file (B161) + B160 (Hunts map) + B151 (Loot spine) = the mental atlas for early Emberwild.
+#### 3.3.3 `stag_haunch` – Stag Haunch
+
+- **Bands:** A–C
+- **Biomes / Sources:** Stag family; Elder Stag.
+- **Uses:**
+  - *Cooking:* Elder’s Supper; many base stews and roasts.
+- **Flavor:** The standard by which every Ranger judges a cook.
+
+#### 3.3.4 `stringy_game_meat` – Stringy Game Meat
+
+- **Bands:** A–C
+- **Biomes / Sources:** Low-tier beasts, e.g., smaller stags, boars, howlers.
+- **Uses:**
+  - *Cooking:* Lower-quality stews, Black-Sap Hotpot.
+- **Flavor:** Tough, but better than starving.
 
 ---
+
+## 4. FUNGI & MOLDS
+
+Alphabetical; many centered on Hollowroot Nest and corrupted pockets.
+
+---
+
+### 4.1 A–F
+
+#### 4.1.1 `ambergill_cluster` – Ambergill Cluster (NEW)
+
+- **Bands:** B–C
+- **Biomes / Sources:** Elder Hollow Glade fallen logs; rare.
+- **Uses:**
+  - *Cooking:* Sweet-earthy flavor for mid-tier stews.
+  - *Alchemy:* Minor focus / clarity brews.
+- **Flavor:** Sun-colored gills on a mushroom that never sees direct light.
+
+#### 4.1.2 `black_sap_growth` – Black-Sap Growth
+
+- **Bands:** C–D
+- **Biomes / Sources:** Black-Sap Grove; Devourer proximity.
+- **Uses:**
+  - *Alchemy:* High-end corruption brews and cleansers.
+  - *Lodgecraft:* “Do not touch” displays.
+- **Flavor:** A fungal colony fed entirely on sap that wants everything dead.
+
+#### 4.1.3 `dampcap` – Dampcap
+
+- **Bands:** B–D
+- **Biomes / Sources:** Hollowroot Nest; wet roots in shaded pockets.
+- **Uses:**
+  - *Cooking:* Component in Matron Detox Feast; damp, chewy.
+  - *Alchemy:* Anti-Spore Tincture; detox brews.
+- **Flavor:** Spongey cap that never quite feels dry, even in your pack.
+
+#### 4.1.4 `mire_fungus` – Mire Fungus
+
+- **Bands:** B–D
+- **Biomes / Sources:** Low muddy depressions, Hollowroot Nest perimeter.
+- **Uses:**
+  - *Cooking:* Hollowroot Stew; heavy, earthy base.
+  - *Alchemy:* Spore/rot synergy; poisons and antidotes.
+- **Flavor:** Smells like wet leather left too long by the river.
+
+#### 4.1.5 `mossveil_cap` – Mossveil Cap (NEW)
+
+- **Bands:** A–B
+- **Biomes / Sources:** Neutral Greatwood; tree bases, mossy logs.
+- **Uses:**
+  - *Cooking:* Light stews; adds gentle umami.
+  - *Alchemy:* Very mild regen tonics.
+- **Flavor:** Moss-textured mushroom that melts if overcooked.
+
+---
+
+### 4.2 G–R
+
+#### 4.2.1 `glowcap_ember` – Ember Glowcap (NEW)
+
+- **Bands:** B–C
+- **Biomes / Sources:** Near faint relic traces, Hollowroot Nest edges.
+- **Uses:**
+  - *Alchemy:* Rare reagent for light / vision tonics.
+  - *Lodgecraft:* Decorative jars and lamps.
+- **Flavor:** Its gills glow like embers when disturbed.
+
+#### 4.2.2 `hollowroot_sporecap` – Hollowroot Sporecap
+
+- **Bands:** C–D
+- **Biomes / Sources:** Hollowroot Nest; on Matron husks.
+- **Uses:**
+  - *Cooking:* Hollowroot Stew; risky but potent.
+  - *Alchemy:* Anti-Spore Tincture, Detox Draught component.
+- **Flavor:** Each cap is a tiny forest of spores waiting to happen.
+
+#### 4.2.3 `latchmold` – Latchmold (NEW)
+
+- **Bands:** B–C
+- **Biomes / Sources:** Abandoned dens, old leather, forgotten gear.
+- **Uses:**
+  - *Alchemy:* Adhesives, sticky toxins.
+  - *Lodgecraft:* Minor adhesives or aged effect props.
+- **Flavor:** Grows wherever people leave things and don’t come back.
+
+#### 4.2.4 `moss_silk_mycelium` – Moss-Silk Mycelium (NEW)
+
+- **Bands:** A–C
+- **Biomes / Sources:** Under thick moss carpets in Elder Glade.
+- **Uses:**
+  - *Cooking:* Thickens broths; mild flavor.
+  - *Alchemy:* Stabilizer in complex brews.
+- **Flavor:** Feels like spider silk woven from damp forest floor.
+
+---
+
+### 4.3 S–Z
+
+#### 4.3.1 `spore_drift_filaments` – Spore Drift Filaments (NEW)
+
+- **Bands:** C–D
+- **Biomes / Sources:** Upper air in Hollowroot Nest during Matron phases.
+- **Uses:**
+  - *Alchemy:* High-tier spore mechanics; advanced content.
+  - *Lodgecraft:* Suspended in jars for “moving fog” displays.
+- **Flavor:** You can never quite decide if you actually see them moving—or if it’s the spores.
+
+#### 4.3.2 `tainted_game_mold` – Tainted Game Mold (NEW)
+
+- **Bands:** C–D
+- **Biomes / Sources:** Beasts that die near Hollowroot or Black-Sap pockets.
+- **Uses:**
+  - *Cooking:* Risky; mostly avoided except by certain “tough” NPCs.
+  - *Alchemy:* Potent but dangerous reagent for curse brews.
+- **Flavor:** The forest’s way of saying, “this meat should never have been eaten.”
+
+---
+
+## 5. HERBS & LEAFY PLANTS
+
+---
+
+### 5.1 A–H
+
+#### 5.1.1 `brightcap_herb` – Brightcap Herb
+
+- **Bands:** A–C
+- **Biomes / Sources:** Neutral Greatwood; edges of clearings.
+- **Uses:**
+  - *Alchemy:* Focus, crit, and concentration tonics.
+- **Flavor:** Smells like crushed pine needles and fresh rain.
+
+#### 5.1.2 `forest_marrow_herb` – Forest Marrow Herb
+
+- **Bands:** B–C
+- **Biomes / Sources:** Elder Glade; shady spots by roots.
+- **Uses:**
+  - *Alchemy:* Wardsense Draught, regen tonics.
+  - *Cooking:* Added to broths for light bitterness.
+- **Flavor:** Bitter stem, sweet aftertaste.
+
+#### 5.1.3 `predator_mint` – Predator Mint
+
+- **Bands:** B–C
+- **Biomes / Sources:** Howler Den; trails used for stalking.
+- **Uses:**
+  - *Alchemy:* Awareness / reaction brews, anti-fear support.
+  - *Cooking:* Sharp, cooling note in certain stews.
+- **Flavor:** A cold, biting mint that seems to clear your ears as much as your nose.
+
+#### 5.1.4 `purifier_bloom` – Purifier Bloom
+
+- **Bands:** C–D
+- **Biomes / Sources:** Black-Sap Grove only; extremely rare.
+- **Uses:**
+  - *Alchemy:* Sap Cleanser Draught, Detox, high-tier purifiers.
+  - *Cooking:* In Purified Sap Stew.
+- **Flavor:** Petals glow faintly when near corruption—as if arguing with it.
+
+#### 5.1.5 `softleaf_herb` – Softleaf Herb
+
+- **Bands:** A–B
+- **Biomes / Sources:** Neutral Greatwood, Elder Glade.
+- **Uses:**
+  - *Cooking:* Elder’s Supper, basic regen dishes.
+  - *Alchemy:* Gentle regen and beast resist tonics.
+- **Flavor:** The standard “if you don’t know what to add, add Softleaf.”
+
+---
+
+### 5.2 I–Z
+
+#### 5.2.1 `thornveil_leaf` – Thornveil Leaf (NEW)
+
+- **Bands:** B–C
+- **Biomes / Sources:** Around dens and predator paths.
+- **Uses:**
+  - *Alchemy:* Light armor hardening oils.
+  - *Cooking:* Rare; can toughen meat if misused.
+- **Flavor:** Leaves with veins that feel like tiny thorns.
+
+#### 5.2.2 `whisperfern_sprig` – Whisperfern Sprig (NEW)
+
+- **Bands:** A–B
+- **Biomes / Sources:** Quiet, windless corners of Elder Glade.
+- **Uses:**
+  - *Alchemy:* Calm / silence brews (RP & niche mechanics).
+  - *Cooking:* Minimal; subtle flavor note.
+- **Flavor:** Shifts as if listening when you speak near it.
+
+---
+
+## 6. ROOTS & VEGETABLES
+
+---
+
+### 6.1 A–M
+
+#### 6.1.1 `forest_root_veg` – Forest Root Vegetable
+
+- **Bands:** A–C
+- **Biomes / Sources:** General forest floor; Elder Glade patches.
+- **Uses:**
+  - *Cooking:* Base veg for almost everything.
+- **Flavor:** Somewhere between potato and rutabaga, depending on who cooked it.
+
+#### 6.1.2 `ironroot_veg` – Ironroot Vegetable
+
+- **Bands:** B–D
+- **Biomes / Sources:** Warden’s Glade; near wardstones.
+- **Uses:**
+  - *Cooking:* Wardbear Ironstew; “heavy” meals.
+  - *Alchemy:* Minor stabilization in defensive brews.
+- **Flavor:** Dense, fibrous; more chewed than eaten.
+
+#### 6.1.3 `shadowroot_tuber` – Shadowroot Tuber
+
+- **Bands:** C–D
+- **Biomes / Sources:** Black-Sap Grove, darker riverbanks.
+- **Uses:**
+  - *Cooking:* Rare, risky stews; pairs with Black-Sap recipes.
+  - *Alchemy:* Night vision / shadow synergy.
+- **Flavor:** Bitter, almost metallic, but some swear by its kick.
+
+#### 6.1.4 `wildroot_tuber` – Wildroot Tuber
+
+- **Bands:** A–C
+- **Biomes / Sources:** Howler Den and general predator biomes.
+- **Uses:**
+  - *Cooking:* Hunter’s Stews and simple roasted sides.
+- **Flavor:** Starchy, slightly peppery when roasted properly.
+
+---
+
+### 6.2 N–Z
+
+#### 6.2.1 `mycelium_web` – Mycelium Web
+
+- **Bands:** B–D
+- **Biomes / Sources:** Hollowroot Nest, under thick fungal mats.
+- **Uses:**
+  - *Lodgecraft:* Containment displays, wall panels.
+  - *Alchemy:* Stabilizer or catalyst in fungal brews.
+- **Flavor:** You do NOT eat this, generally.
+
+#### 6.2.2 `rootcoil_bulb` – Rootcoil Bulb (NEW)
+
+- **Bands:** B–C
+- **Biomes / Sources:** Twisted tree roots; mostly in mixed biomes.
+- **Uses:**
+  - *Cooking:* Strong-flavor bulb; used in spicy/meaty dishes.
+  - *Alchemy:* Slight energy restoration.
+- **Flavor:** Somewhere between garlic and wild onion, but more stubborn.
+
+---
+
+## 7. FRUITS, NUTS & SEEDS
+
+---
+
+### 7.1 A–M
+
+#### 7.1.1 `brambleberry` – Brambleberry
+
+- **Bands:** A–C
+- **Biomes / Sources:** Howler Den, Neutral Greatwood thickets.
+- **Uses:**
+  - *Cooking:* Sweet-tart additions to stews and snacks.
+  - *Alchemy:* Minor focus and mood buffs.
+- **Flavor:** Tastes best eaten from your hand while pretending nothing is stalking you.
+
+#### 7.1.2 `elderbloom_flower` – Elderbloom Flower
+
+- **Bands:** B–C
+- **Biomes / Sources:** Elder Glade only; rare.
+- **Uses:**
+  - *Cooking:* Ceremonial desserts or broths.
+  - *Lodgecraft:* Pressed into honor plaques.
+- **Flavor:** Soft floral note; most cooks are afraid to ruin it.
+
+#### 7.1.3 `moonfall_nut` – Moonfall Nut (NEW)
+
+- **Bands:** B–D
+- **Biomes / Sources:** High branches; shaken down during certain weather events.
+- **Uses:**
+  - *Cooking:* High-fat, energy-dense snacks.
+  - *Alchemy:* Sleep and dream tonics.
+- **Flavor:** Buttery, with a faint copper aftertaste that some find unsettling.
+
+---
+
+### 7.2 N–Z
+
+#### 7.2.1 `thornpod_seed` – Thornpod Seed (NEW)
+
+- **Bands:** A–C
+- **Biomes / Sources:** Shrubs that grow near game trails.
+- **Uses:**
+  - *Cooking:* Toasted for crunch in stews/breads.
+  - *Alchemy:* Slight inflammation / “heat” in blood tonics.
+- **Flavor:** Crunchy, nutty, with a slow build of spice.
+
+---
+
+## 8. SPECIAL REAGENTS (SAPS, STONES, ESSENCES, RELIC SPLINTERS)
+
+---
+
+### 8.1 Saps & Corruption
+
+#### 8.1.1 `black_sap_nodule` – Black-Sap Nodule
+
+- **Bands:** C–D
+- **Biomes / Sources:** Black-Sap Grove; Devourer fights.
+- **Uses:**
+  - *Cooking:* Black-Sap Hotpot, risky buffs.
+  - *Alchemy:* Corrupted Edge Tonic, Overgrowth Phial.
+- **Flavor:** Thick, bitter syrup that stains everything.
+
+#### 8.1.2 `blacksap_resin_clot` – Black-Sap Resin Clot
+
+- **Bands:** C–D
+- **Biomes / Sources:** Black-Sap Devourer.
+- **Uses:**
+  - *Alchemy:* Sap Cleanser Draught, Purified Sap Stew.
+- **Flavor:** Feels heavier than it should in the vial.
+
+---
+
+### 8.2 Wards & Spirits
+
+#### 8.2.1 `wardstone_core_shard` – Wardstone Core Shard
+
+- **Bands:** C–D
+- **Biomes / Sources:** Ward-Bear Hunt, Warden’s Glade.
+- **Uses:**
+  - *Alchemy:* Wardbreaker, advanced ward brews.
+  - *Lodgecraft:* Ward research annex.
+- **Flavor:** Crystalline shard that “vibrates” in your hand when near other wards.
+
+#### 8.2.2 `wardstone_crust_flake` – Wardstone Crust Flake
+
+- **Bands:** B–D
+- **Biomes / Sources:** Wardstone pillars, Ward-Bear environment.
+- **Uses:**
+  - *Cooking:* Stonehide Skillet (light reflect).
+  - *Alchemy:* Stabilizers, stabilizing phials.
+- **Flavor:** Tasteless grit; cooks argue about whether you should ever put it in food.
+
+#### 8.2.3 `spectral_mote_faint` – Faint Spectral Mote
+
+- **Bands:** C–D
+- **Biomes / Sources:** Ward entities, rare ambient occurrences.
+- **Uses:**
+  - *Alchemy:* Wardsense, spiritual sensitivity tonics.
+  - *Lodgecraft:* Decorative lamps.
+- **Flavor:** Purely conceptual; no one has ever eaten one on purpose.
+
+---
+
+### 8.3 Relic Splinters
+
+> Detailed Relic systems live elsewhere; here we just name key splinters touched by Greatwood.
+
+- `relic_splinter_woodheart`
+- `relic_splinter_sapbound_antler`
+- `relic_splinter_hollowheart`
+- `relic_splinter_shieldstone`
+- `relic_splinter_echoing_fang`
+
+Bands: Generally C–D, all rare.
+
+Uses:
+
+- Long-term Relic progression.
+- Future Hunts and dungeons.
+- Key Lodge “endgame” projects.
+
+---
+
+## 9. A–Z INGREDIENT QUICK INDEX (DESIGN REFERENCE)
+
+> This is a **flat A–Z** list of all named Greatwood 1–20 ingredients defined so far in B151/B155/B156–B160/B159/B161.  
+> (Duplicates across files are intentional; names must stay consistent.)
+
+**A**
+
+- `alpha_hunters_stew` (recipe – see B159)
+- `ambergill_cluster`
+- `antler_fragment`
+
+**B**
+
+- `bearward_claw_fragment`
+- `black_sap_growth`
+- `black_sap_nodule`
+- `blacksap_resin_clot`
+- `boar_belly_strip`
+- `boar_hide_patch`
+- `boar_shank`
+- `brambleberry`
+- `bristled_ridge_pelt`
+
+**C**
+
+- `ceremonial_bone_broth` (recipe)
+- `corrupted_hide_shard`
+
+**D**
+
+- `dampcap`
+- `devourer_tooth_fragment`
+
+**E**
+
+- `elderbloom_flower`
+
+**F**
+
+- `fang_chip`
+- `forest_marrow_bone`
+- `forest_marrow_herb`
+- `forest_root_veg`
+
+**G**
+
+- `glowcap_ember`
+- `glowward_moss` (named earlier in Hunts/Professions)
+- `gw_game_stew` (recipe scroll defined in B151/B159)
+
+**H**
+
+- `hollowroot_matron_core`
+- `hollowroot_resin`
+- `hollowroot_shell_plate`
+- `hollowroot_sporecap`
+- `howler_alpha_pelt`
+- `howler_fang_alpha`
+- `howler_flank`
+- `howler_flank_prime`
+- `howler_pelt_tuft`
+- `hunters_bone_broth` (recipe scroll)
+
+**I**
+
+- `ironroot_veg`
+
+**L**
+
+- `latchmold`
+- `lore_scrap_greatwood_legend`
+- `lore_scrap_poachers_route`
+
+**M**
+
+- `matron_spore_cluster`
+- `mire_fungus`
+- `moonfall_nut`
+- `moss_silk_mycelium`
+- `mossveil_cap`
+- `mycelium_web`
+
+**P**
+
+- `predator_mint`
+- `purifier_bloom`
+
+**R**
+
+- `recipe_scroll_alpha_hunters_stew`
+- `recipe_scroll_boar_fat_feast`
+- `recipe_scroll_gw_game_stew`
+- `recipe_scroll_hollowroot_stew`
+- `recipe_scroll_hunters_bone_broth`
+- `recipe_scroll_matron_detox_feast`
+- `recipe_scroll_wardbear_ironstew`
+- `relic_splinter_echoing_fang`
+- `relic_splinter_hollowheart`
+- `relic_splinter_sapbound_antler`
+- `relic_splinter_shieldstone`
+- `relic_splinter_woodheart`
+- `rootcoil_bulb`
+
+**S**
+
+- `sap-scarred_bark`
+- `shadowroot_tuber`
+- `softleaf_herb`
+- `spore_drift_filaments`
+- `stag_haunch`
+- `stringy_game_meat`
+
+**T**
+
+- `tainted_game_mold`
+- `thornpod_seed`
+- `thornveil_leaf`
+
+**W**
+
+- `warded_charm_cracked`
+- `warded_howler_tooth`
+- `wardstone_bear_plate`
+- `wardstone_bracket`
+- `wardstone_core_shard`
+- `wardstone_crust_flake`
+- `whisperfern_sprig`
+- `wildroot_tuber`
+
+---
+
+## 10. SUMMARY
+
+B161 turns Greatwood from:
+
+- “That place with trees and some animals”
+
+into:
+
+- A **fully stocked pantry and reagent garden**,
+- A network of **foraging biomes** each tied to a Hunt,
+- A foundation for:
+  - Cooking balance.
+  - Alchemy trees.
+  - Lodge progression.
+  - Future Relic and expansion hooks.
+
+Any future work that needs **“what ingredients exist in Greatwood”** should reference this file first.
+
+---
+
+_End of B161 – Greatwood Ingredient Atlas & Foraging Biomes (Greatwood 1–20)_
