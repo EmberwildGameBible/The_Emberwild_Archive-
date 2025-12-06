@@ -1,605 +1,1241 @@
-# B162 – Lodge 1–20 – Structure, Upgrades, and Integration
-
-## 0. Purpose
-
-Define the **Lodge** for levels 1–20 as a real progression system, not just a backdrop:
-
-- What the Lodge is and why it matters
-- Physical structure and rooms
-- Upgrade tiers from level 1 through 20
-- How Lodge upgrades:
-  - Tie into Hunts (B153–B159, B160)
-  - Use ingredients (51 / 55)
-  - Unlock recipes and brews (52 / 53 / 58)
-  - Enable projects and rituals (57)
-  - Reflect Greatwood region state (B151, B161)
-
-This file is the **master Lodge reference** for the Greatwood 1–20 era.
+# B162 – Greatwood Cooking Recipe Compendium (Tier 1–3)
 
 ---
 
-## 1. Role of the Lodge in Emberwild
+## 0. PURPOSE & SCOPE
 
-The Lodge is:
+This chapter is the **complete cooking reference** for **Greatwood 1–20**.
 
-- The **player’s home base** in Greatwood.
-- A **social and narrative hub** where NPCs gather, argue, drink, plan.
-- A **progression hub** where:
-  - Hunts are prepared and celebrated.
-  - Food, brews, tools, trophies, and rituals tie together.
+It exists to:
 
-Design goals:
+- Define all **core recipes** a player can learn in Greatwood:
+  - Snacks (short, punchy buffs)
+  - Meals (solo long-duration buffs)
+  - Feasts (group-wide buffs)
+- Tie recipes directly to:
+  - **Ingredient atlas** (B161)
+  - **Hunts & loops** (B153–B160, especially B159)
+- Establish:
+  - **Tiers** (1–3) aligned to player bands (A–D).
+  - Standard **mechanical patterns** (durations, stacking rules, categories).
 
-1. The Lodge should **visibly change** as the player progresses:
-   - Trophies fill out.
-   - Ember Pot and kitchen get busier.
-   - Ward room and project boards get more complex.
-2. The Lodge should **mechanically matter**:
-   - Better Lodge = better buffs, projects, and tools.
-3. The Lodge should **remember** what the player has done:
-   - Hunts cleared.
-   - Rituals performed.
-   - Festivals or feasts held.
+This file is **design-facing**:
 
----
-
-## 2. Physical Structure – Rooms and Their Jobs
-
-At a high level, the Lodge building has:
-
-1. Entry Hall / Common Room
-2. Trophy Hall
-3. Ember Pot and Kitchen
-4. Workshop / Gear Corner
-5. Ward Room / Ritual Niche
-6. Rooms/Loft / Bunks (background, social space)
-7. Yard / Exterior Fixtures
-
-Each exists at Tier 0, then upgrades as the Lodge grows.
-
-### 2.1 Entry Hall / Common Room
-
-Fantasy:
-
-- The first room you walk into:
-  - Tables,
-  - Benches,
-  - Ember Pot glow,
-  - Noise and conversation.
-
-Function:
-
-- Central “neutral” space:
-  - Quest givers sit here.
-  - Contract board might be visible here or adjacent.
-- Visual indicator of Lodge tier:
-  - Empty and drafty at Tier 0,
-  - Busy and warm by Tier 3–4.
-
-### 2.2 Trophy Hall
-
-Fantasy:
-
-- A dedicated side hall with:
-  - Carved beams,
-  - Wall hooks,
-  - Dedicated plaque space.
-
-Function:
-
-- All major Hunts (B153–B159) place visible trophies here:
-  - Elder Hollow Stag mount, Howler mount, Ward-Bear totem, Matron shrine piece, Devourer plaque, Ragged King throne, Shadow-Ward focus, etc.
-- Some Lodge projects from 57 place fixtures here:
-  - Banners, memorials, bone throne, etc.
-
-Design rule:
-
-- Every major Hunt should have at least **one visual anchor** in Trophy Hall.
-
-### 2.3 Ember Pot and Kitchen
-
-Fantasy:
-
-- A large central hearth or Ember Pot, with:
-  - Cauldrons,
-  - Hanging pans and tools,
-  - Cook NPCs.
-
-Function:
-
-- Main interface for 52 / 53:
-  - Basic and advanced cooking recipes.
-- Visual complexity grows with:
-  - More cookware,
-  - More stored ingredients,
-  - Special racks for rare meats and reagents.
-
-Mechanics:
-
-- Higher Lodge tier:
-  - More concurrent cooking slots / throughput.
-  - Access to more advanced Ember Pot actions (feasts, bulk prep).
-
-### 2.4 Workshop / Gear Corner
-
-Fantasy:
-
-- A corner or separate room with:
-  - Anvils,
-  - Tool racks,
-  - Workbenches.
-
-Function:
-
-- Main interface for:
-  - Tool and gear crafting from 54.
-  - Some Lodge projects from 57 that are “physical build” oriented (banners, furniture, trophies that require woodworking/metal).
-
-Mechanics:
-
-- Higher Lodge tier:
-  - More benches available,
-  - Faster or more efficient crafting,
-  - Access to special Lodge-only schematics.
-
-### 2.5 Ward Room / Ritual Niche
-
-Fantasy:
-
-- A side chamber or alcove near the Lodge:
-  - Small personal wardstone fragment or focus.
-  - Shelves of reagents, candles, crystals.
-
-Function:
-
-- Interface for:
-  - Ward and ritual projects from 57:
-    - Guardian Totem, Wardstone Stabilization, Shadow-Ward Focus, Renewal rites, etc.
-- Receives visual upgrades from:
-  - Ward-Bear projects,
-  - Shadow Under the Wardstone completion,
-  - Black-Sap / Hollowroot / Ragged King rituals.
-
-Mechanics:
-
-- Higher Lodge tier:
-  - More ritual slots,
-  - Better ritual success or potency.
-
-### 2.6 Rooms / Loft / Bunks
-
-Fantasy:
-
-- Player and NPC “personal space”:
-  - Bunks,
-  - Storage trunks,
-  - Small personal touches.
-
-Function:
-
-- Mostly flavor and social:
-  - NPC location,
-  - Minor interactive props.
-- Some passive buffs:
-  - Rest bonuses,
-  - Long-duration “well-rested” style buff.
-
-### 2.7 Yard / Exterior Fixtures
-
-Fantasy:
-
-- Outside the Lodge:
-  - Practice dummies,
-  - Wood piles,
-  - Hanging herbs,
-  - Tanning racks.
-
-Function:
-
-- Some Lodge projects place exterior fixtures:
-  - Pack banners,
-  - Ward-Bear hides,
-  - Simple training props.
-- Also a visual indicator of:
-  - Lodge activity level,
-  - Progression.
+- It describes **what recipes exist** and **what they do conceptually**.
+- Numeric tuning (exact buff values, durations, etc.) live in:
+  - Core profession balance tables.
+- But each recipe includes:
+  - Intended use case.
+  - Relative power level.
+  - Band & Tier expectations.
 
 ---
 
-## 3. Lodge Tiers – 0 to 3/4
+## 1. COOKING SYSTEM – DESIGN RULES (GREATWOOD 1–20)
 
-For Greatwood 1–20, define clear Lodge tiers.
+### 1.1 Tiers & Player Bands
 
-You can think of it as **Tier 0–3**, or **Tier 0–4** if you want more granularity. Below uses Tier 0–3.
+Cooking tiers are roughly mapped to character level bands:
 
-### 3.1 Tier 0 – Shelter (Levels 1–5)
+- **Tier 1 – Novice Recipes**
+  - Intended for **Band A → early Band B** (levels 1–7).
+  - Very simple inputs, small buffs.
+- **Tier 2 – Apprentice Recipes**
+  - Intended for **Band B–C** (levels 8–14).
+  - Introduces Hunt-tied ingredients.
+  - Moderate buffs tuned for early Hunts.
+- **Tier 3 – Journeyman Recipes**
+  - Intended for **Band C–D** (levels 15–20).
+  - Heavier use of Hunt loot.
+  - Strong buffs, often with conditions / tradeoffs.
 
-State:
-
-- Lodge is functional but sparse:
-  - Few tables,
-  - Empty trophy wall,
-  - Ember Pot small and unimpressive.
-
-Systems:
-
-- Access to:
-  - Basic cooking from 52 (Tier 0 recipes).
-  - Simple crafting from 54:
-    - Primitive knives, axes, maybe a basic pan.
-- Limited project board:
-  - Only a couple of starter tasks.
-
-Unlock conditions:
-
-- Essentially automatic at start.
-
-Goals:
-
-- Communicate “this place could be great someday”.
-
-### 3.2 Tier 1 – Working Lodge (Levels ~5–10)
-
-State:
-
-- Lodge slightly expanded:
-  - More tables in commons,
-  - Small trophy shelf opened,
-  - Ember Pot upgraded to handle more dishes.
-
-Systems:
-
-- New:
-
-  - Tier 1 recipes from 52,
-  - First proper Lodge projects from 57:
-    - Simple trophies from minor Hunts,
-    - Basic decor.
-
-- Hitpoints:
-
-  - Trophy Hall gets its first small mounts (wolves, boar, etc).
-  - Workshop and kitchen look more used.
-
-Unlock conditions (example):
-
-- Complete:
-  - X basic contracts,
-  - One early “Lodge Setup” project,
-  - Maybe a small “Lodge Funding” quest.
-
-### 3.3 Tier 2 – Huntsman’s Lodge (Levels ~10–16)
-
-State:
-
-- Lodge now feels lively:
-  - Trophy Hall has at least 1–2 major Hunts displayed.
-  - Ember Pot area busy with pots, hooks, and stored ingredients.
-  - Workshop with extra benches and racks.
-
-Systems:
-
-- New:
-
-  - Access to large portion of 53 (advanced dishes),
-  - Most of 58’s foundational brews,
-  - More complex Lodge projects from 57.
-- Hunts:
-
-  - Elder Hollow Stag, Greatwood Howler, Ward-Bear, Hollowroot Matron integrated into Lodge via trophies and projects.
-
-Unlock conditions (example):
-
-- Player has:
-
-  - Completed at least 1–2 major Hunts,
-  - Reached a threshold of Lodge projects completed,
-  - Contributed a certain number of ingredients to Lodge stores.
-
-### 3.4 Tier 3 – Warden’s Lodge (Levels ~16–20)
-
-State:
-
-- Lodge looks like a serious operation:
-
-  - Trophy Hall nearly full of major Hunts.
-  - Bone throne, ash pyre, Shadow-Ward focus visible if built.
-  - Ward room active with rituals.
-  - Exterior decorated with banners, hides, braziers.
-
-Systems:
-
-- New or maxed:
-
-  - Full access to 53’s highest-tier dishes,
-  - Top-end brews from 58,
-  - Most or all Greatwood-level Lodge projects from 57,
-  - Multiple simultaneous ritual slots in the Ward room.
-
-- Hunts:
-
-  - Black-Sap Devourer, Ragged King, Shadow Under the Wardstone integrated via trophies, braziers, ward foci.
-
-Unlock conditions (example):
-
-- Player has:
-
-  - Cleared most or all major Hunts,
-  - Completed certain cornerstone projects (e.g., Guardian Totem, Hollowroot Expedition Crate, Bone Throne or equivalent),
-  - Hit a high Lodge reputation threshold.
+Unlock levels are suggestions. Data tables can adjust.
 
 ---
 
-## 4. Integration With Hunts (B153–B159, B160) and Region (B161)
+### 1.2 Buff Categories & Stacking
 
-Lodge upgrades should respond to **what the player actually did**, not just XP.
+For Greatwood 1–20, cooking uses **three main buff categories**:
 
-### 4.1 Trophies and Hunt-Linked Upgrades
+1. **Meal Buff** – Solo, long-duration.
+   - Only **one** Meal buff can be active at a time.
+   - Replaced by eating another Meal.
+2. **Snack Buff** – Solo, short-duration.
+   - Only **one** Snack buff can be active at a time.
+   - Intended for targeted moments (e.g., pre-boss).
+3. **Feast Buff** – Group, long-duration.
+   - Affects all party members who “consume” the feast.
+   - Only **one Feast buff** can be active on a player at a time.
 
-Each major Hunt:
+Rules:
 
-- Unlocks at least one **trophy** and at least one **Lodge project**.
-
-Examples:
-
-- Elder Hollow Stag:
-  - Trophy: Elder Stag mount.
-  - Projects:
-    - Heartwood shelf/nook.
-- Greatwood Howler:
-  - Trophy: Howler head mount and/or war banner.
-  - Projects:
-    - Warbanner, warbrew station upgrade.
-- Ward-Bear:
-  - Trophy: Guardian Totem.
-  - Projects:
-    - Wardstone stabilization offering.
-- Hollowroot Matron:
-  - Trophy: Hollowroot shrine.
-  - Projects:
-    - Hollowroot Expedition Crate, Expedition send-off feast.
-- Black-Sap Devourer:
-  - Trophy: Black Sap plaque, heavy gauntlets hanger.
-  - Projects:
-    - Black-Sap station and handling gear.
-- Ragged King:
-  - Trophy: Bone throne, ash decor.
-  - Projects:
-    - Ash pyre brazier, ancestor memorial.
-- Shadow Under the Wardstone:
-  - Trophy: Shadow-Ward Focus.
-  - Projects:
-    - Wardstone Renewal rite, Clipped Tendril lanterns.
-
-### 4.2 Region State Reflected in Lodge
-
-Lodge should visually **echo** B161’s region state:
-
-- When:
-
-  - Hollowroot Matron is alive and active:
-    - Hollowroot warning notes and maps pinned up in Lodge.
-  - After Matron is killed:
-    - New Hollowroot shrine / expedition table appears.
-
-- When:
-
-  - Black-Sap events escalate:
-    - Black-Sap stains on some maps, extra barrels in yard.
-  - After Devourer is killed:
-    - Black-Sap plaque, Black-Sap kit storage racks appear.
-
-- When:
-
-  - Ragged King is active:
-    - NPCs discuss bonepiles; maybe a warning notice by the door.
-  - After King falls:
-    - Bone throne and fractured bone art pieces appear.
-
-These are mostly art/writing decisions but keep them **consistent** with B160 and B161.
+- A player can have:
+  - **1 Meal** + **1 Snack** + **1 Feast** buff simultaneously.
+- If a recipe intends to ignore these rules (rare), it is flagged as:
+  - `special_stack = true` and must be handled manually.
 
 ---
 
-## 5. Lodge Progression Timeline (1–20)
+### 1.3 Recipe Structure (Design Notation)
 
-An example “Lodge growth” track to align with B161’s player phases.
+Each recipe entry is:
 
-### 5.1 Levels 1–5 – Tier 0 → Tier 1 Start
+- **ID** – Stable internal string.
+- **Display Name**
+- **Tier & Bands**
+- **Origin & Theme**
+- **Inputs** (required ingredients)
+- **Effects** (conceptual)
+- **UI Tags** and **Recommended Content**
+- **Flavor Text**
 
-- Lodge is barebones at start.
-- Early upgrades:
-  - Add a second table,
-  - Slightly upgrade Ember Pot,
-  - Add first small wall trophy hooks.
-
-Triggers:
-
-- A couple of very cheap starter projects:
-  - “Patch the Roof”
-  - “Bring in More Benches”
-
-### 5.2 Levels 5–10 – Tier 1 → Early Tier 2
-
-- Player completes:
-
-  - Simple contracts,
-  - Minor Hunts.
-
-- Lodge gains:
-
-  - First small trophies (wolf heads, boar tusks),
-  - Slight kitchen expansion,
-  - Basic workshop bench.
-
-- Entry Hall feels less empty.  
-- Tier 2 threshold starts when:
-
-  - First major Hunt trophy appears,
-  - A few core projects from 57 are done.
-
-### 5.3 Levels 10–16 – Tier 2 Expansion
-
-- Elder Hollow Stag and Greatwood Howler trophies appear.
-- Ward-Bear / Hollowroot Matron trophies and fixtures join as those Hunts are cleared.
-- Lodge now has:
-
-  - Active Trophy Hall,
-  - Expanded Ember Pot and pantry,
-  - Bigger workshop area,
-  - Ward room unlocked and dimly glowing.
-
-### 5.4 Levels 16–20 – Tier 3 Endgame
-
-- Black-Sap Devourer, Ragged King, Shadow Under the Wardstone trophies appear.
-- Ward room is busy with:
-
-  - Shadow-Ward Focus,
-  - Guardian totem,
-  - Ritual tools.
-
-- Commons is:
-
-  - Crowded with NPCs,
-  - Decorations from nearly every Hunt.
-
-By level 20:
-
-- Player should look at the Lodge and see a **visual biography** of their Greatwood run.
+Optional: Pseudo-Lua data snippet for implementation reference.
 
 ---
 
-## 6. Lodge Systems by Room
+## 2. TIER 1 – NOVICE RECIPES (LEVELS 1–7, BAND A → EARLY B)
 
-This section is for hooking the specific systems into specific spaces.
+Tier 1 is about:
 
-### 6.1 Entry Hall / Commons
+- Teaching players:
+  - “Food exists.”
+  - “Food is cheap, helpful, and simple.”
+- Using mostly:
+  - `forest_root_veg`, `stringy_game_meat`, `boar_belly_strip`, `softleaf_herb`, simple fungi/berries.
 
-Systems:
-
-- Quest and contract NPCs.
-- Social buffs:
-  - Rested bonus if the player logs out or idles here.
-- Visual event hooks:
-  - Small celebrations after major Hunts or feasts.
-
-### 6.2 Trophy Hall
-
-Systems:
-
-- Trophy placement logic:
-  - Each Hunt or project corresponds to specific mount/fixture assets.
-- Trophy bonuses:
-  - Trophy hall may give small global passive bonuses:
-    - E.g. “+X% Hunt board reward” per major Hunt trophy.
-
-### 6.3 Ember Pot and Kitchen
-
-Systems:
-
-- Access to:
-
-  - Cooking recipes from 52 (basic),
-  - From 53 (advanced).
-
-- Ember Pot states:
-
-  - Standard cooking,
-  - Feast mode:
-    - Single-use large-buff dishes for entire party, consuming more resources.
-
-### 6.4 Workshop
-
-Systems:
-
-- Access to 54:
-  - Tool upgrades,
-  - Profession gear,
-  - Specialty tools (Black-Sap handling, Hollowroot gear).
-- Some 57 projects built here:
-  - Banners, mounts, structural fixtures.
-
-### 6.5 Ward Room
-
-Systems:
-
-- Interface to 57’s rituals:
-  - Ward stabilization,
-  - Shadow-Ward core focus, etc.
-- Ties into region state:
-
-  - Some rituals temporarily change B161 event weights.
-
-### 6.6 Yard / Exterior
-
-Systems:
-
-- Training dummies (small buffs after practice, optional).
-- Drying racks, tanning racks, herb lines:
-  - Visual representation of ingredient stock.
+### 2.1 Meals (Tier 1)
 
 ---
 
-## 7. Implementation Checklist (Design & Data)
+#### 2.1.1 `meal_basic_stag_roast` – Basic Stag Roast
 
-When wiring the Lodge:
+- **Tier:** 1
+- **Bands:** A–B
+- **Origin:** General Greatwood; stag drops.
+- **Type:** Meal
+- **Inputs:**
+  - 1x `stag_haunch` *or* `young_stag_cut`
+  - 1x `forest_root_veg`
+  - 1x `softleaf_herb`
+- **Effects (Intention):**
+  - Small, long-duration **health regen**.
+  - Tiny **stamina** boost (or equivalent).
+- **Use Case:**
+  - Baseline food for new hunters.
+  - Good enough for minor Hunts and early pockets.
+- **UI Tags:**
+  - `["meal", "regen", "early", "stag", "greatwood"]`
+- **Flavor Text:**
+  - “There’s nothing ‘basic’ about a stag roast when it means you lived to eat it.”
 
-1. **Rooms exist**:
-   - Entry/Commons,
-   - Trophy,
-   - Ember Pot & kitchen,
-   - Workshop,
-   - Ward room,
-   - Yard.
+_Pseudo-data:_
+```lua
+RecipeDefs["meal_basic_stag_roast"] = {
+    tier = 1,
+    bands = { min = "A", max = "B" },
+    type = "meal",
 
-2. **Tier states defined**:
-   - For each room, define:
-     - Tier 0, Tier 1, Tier 2, Tier 3 variants.
-   - Visual + mechanical differences per tier.
+    inputs = {
+        { itemId = "stag_haunch", quantity = 1, orItemId = "young_stag_cut" },
+        { itemId = "forest_root_veg", quantity = 1 },
+        { itemId = "softleaf_herb", quantity = 1 },
+    },
 
-3. **Hunts linked**:
-   - Each major Hunt (B153–B159) has:
-     - At least one trophy,
-     - At least one Lodge project in 57,
-     - At least one recipe or brew unlocked (52/53/58).
+    effects = {
+        { type = "regen_flat", value = "small", duration = "long" },
+        { type = "stamina_max_mult", value = "very_small" },
+    },
+}
+2.1.2 meal_boar_root_hotpot – Boar-Root Hotpot
+Tier: 1
 
-4. **Projects exist and consume correct reagents**:
-   - Ingredients from 51,
-   - Specialties from 55.
+Bands: A–B
 
-5. **Narrative hooks**:
-   - NPCs have lines for:
-     - Lodge tiers,
-     - Hunts done/not done,
-     - Big rituals executed.
+Origin: General boar pockets.
 
-6. **Feedback and rewards**:
-   - Upgrading the Lodge:
-     - Feels meaningful.
-     - Has clear before/after impact on food, brews, and rituals.
+Type: Meal
 
----
+Inputs:
 
-## 8. How to Use This File Going Forward
+1x boar_shank
 
-Any time you:
+2x forest_root_veg
 
-- Add a **new Lodge project**:
-  - Place it into:
-    - Room,
-    - Tier,
-    - Hunt/theme loop in this doc.
-- Add a **new Hunt or region system**:
-  - Decide:
-    - What it does for the Lodge,
-    - What the Lodge does for it.
-- Work on **visual or UX**:
-  - Use this doc as “what should the Lodge show the player at this stage”.
+Optional: mossveil_cap (improves quality if present)
 
-B161 + B162 together describe:
+Effects:
 
-- “What Greatwood is” (B161),
-- “What the Lodge is, and how it grows with you” (B162).
+Modest health regen.
 
-They should stay in sync whenever Hunts, regions, or Lodge logic change.
+Slight max HP or mitigation bump (tiny).
 
----
+Use Case:
+
+“Hearty pot” for low-level dungeon runs or longer pockets.
+
+UI Tags:
+
+["meal", "hearty", "boar", "early"]
+
+Flavor Text:
+
+“Tastes like having time to sit down for once.”
+
+2.1.3 meal_simple_game_stew – Simple Game Stew
+Tier: 1
+
+Bands: A–B
+
+Origin: Works with any game scraps.
+
+Type: Meal
+
+Inputs:
+
+2x stringy_game_meat
+
+1x forest_root_veg
+
+1x any basic herb: softleaf_herb or brightcap_herb
+
+Effects:
+
+Modest regen.
+
+Very slight attack power or damage buff.
+
+Use Case:
+
+Cheap, flexible, “anything in the pot” stew.
+
+UI Tags:
+
+["meal", "cheap", "generic", "early"]
+
+Flavor Text:
+
+“Throw it in and keep stirring. If it moves, cook it more.”
+
+2.2 Snacks (Tier 1)
+Short, punchy buffs.
+
+2.2.1 snack_brambleberry_handful – Handful of Brambleberries
+Tier: 1
+
+Bands: A–B
+
+Type: Snack
+
+Inputs:
+
+3x brambleberry
+
+Effects:
+
+Tiny, short stamina regen.
+
+Very small focus boost for a short duration.
+
+Use Case:
+
+Between pulls, on-the-move snack.
+
+UI Tags:
+
+["snack", "stamina", "focus", "foraging"]
+
+Flavor Text:
+
+“Sticky fingers, better aim.”
+
+2.2.2 snack_roasted_moonfall_shavings – Roasted Moonfall Shavings
+Tier: 1 (but rare)
+
+Bands: A–C
+
+Inputs:
+
+1x moonfall_nut (yields multiple servings)
+
+Effects:
+
+Short burst of energy / movement speed.
+
+Followed by a mild crash (minor short debuff).
+
+Use Case:
+
+Sprint moments, repositioning, “we need to get over there now.”
+
+UI Tags:
+
+["snack", "movement", "burst", "risky"]
+
+Flavor Text:
+
+“You feel like you can run forever—right up until you can’t.”
+
+2.3 Feasts (Tier 1)
+True feasts are mostly Tier 2+, but one early option exists.
+
+2.3.1 feast_campfire_potluck – Campfire Potluck
+Tier: 1
+
+Bands: A–B
+
+Type: Feast
+
+Inputs:
+
+Any combination of:
+
+stringy_game_meat x3
+
+forest_root_veg x3
+
+2x random herb (Softleaf/Brightcap)
+
+Effects:
+
+Party-wide:
+
+Very small regen.
+
+Very small stamina or morale buff.
+
+Use Case:
+
+Low-tier group buff for early shared Hunts or dungeon runs.
+
+UI Tags:
+
+["feast", "party", "early"]
+
+Flavor Text:
+
+“Who brought this? Doesn’t matter, it’s warm.”
+
+3. TIER 2 – APPRENTICE RECIPES (LEVELS 8–14, BAND B–C)
+Tier 2 is where Hunts really show up in cooking.
+
+Uses:
+
+howler_flank, stag_haunch, boar_shank, wardstone_bear_plate shavings, hollowroot_sporecap, black_sap_nodule, etc.
+
+Many recipes were introduced in B159; here they’re fully detailed.
+
+3.1 Meals (Tier 2)
+3.1.1 meal_elders_supper – Elder’s Supper
+Tier: 2
+
+Bands: B–C
+
+Origin: Elder Hollow Stag (B154), Elder Hollow Glade.
+
+Type: Meal
+
+Inputs:
+
+1x stag_haunch
+
+1x forest_root_veg
+
+1x softleaf_herb
+
+Optional: elderbloom_flower (upgrades stew quality)
+
+Effects:
+
+Solid long-duration regen.
+
+Small stamina increase.
+
+Slight resistance vs beasts (tiny).
+
+Use Case:
+
+Generic “good food” for most Band B–C Hunts.
+
+UI Tags:
+
+["meal", "regen", "stag", "elder", "midband"]
+
+Flavor Text:
+
+“You eat this when you want the forest to know you’re not just passing through.”
+
+3.1.2 meal_gw_hunters_stew – Greatwood Hunter’s Stew
+Tier: 2
+
+Bands: B–C
+
+Origin: Greatwood Howler (B158), Howler pockets.
+
+Type: Meal
+
+Inputs:
+
+1x howler_flank
+
+1x wildroot_tuber
+
+1x forest_marrow_herb
+
+Effects:
+
+Moderate health regen.
+
+Small bleed resistance or faster bleed decay.
+
+Use Case:
+
+Ideal for:
+
+Howler Hunt itself.
+
+Any content with frequent bleeds.
+
+UI Tags:
+
+["meal", "bleed_resist", "howler", "hunt"]
+
+Flavor Text:
+
+“You can feel it thickening your blood just enough to keep it inside.”
+
+3.1.3 meal_alpha_hunters_stew – Alpha Hunter’s Stew
+Tier: 2 (Top end)
+
+Bands: B–C
+
+Origin: Greatwood Howler; rare prime cut.
+
+Type: Meal
+
+Inputs:
+
+1x howler_flank_prime
+
+1x wildroot_tuber
+
+1x brambleberry
+
+Effects:
+
+Strong regen for Tier 2.
+
+Notable stamina boost.
+
+Good bleed mitigation.
+
+Use Case:
+
+Long, attrition-heavy fights (Howler, Matron, Devourer).
+
+UI Tags:
+
+["meal", "premium", "bleed_resist", "stamina"]
+
+Flavor Text:
+
+“The pack eats first. Tonight, you’re the pack.”
+
+3.1.4 meal_hollowroot_stew – Hollowroot Stew
+Tier: 2
+
+Bands: B–C (edges into C–D if tuned strong)
+
+Origin: Hollowroot Nest pockets.
+
+Type: Meal
+
+Inputs:
+
+1x stringy_game_meat or tainted_game_meat
+
+1x hollowroot_sporecap
+
+1x mire_fungus
+
+Effects (Intent):
+
+Mixed:
+
+Mild damage increase (especially vs Hollowroot/fungal targets).
+
+Mild self-DoT (representing fungal risk).
+
+Use Case:
+
+For players who want more DPS and are confident in healing.
+
+UI Tags:
+
+["meal", "offense", "risky", "hollowroot"]
+
+Flavor Text:
+
+“You taste the infection, and it tastes you back.”
+
+3.1.5 meal_blacksap_hotpot – Black-Sap Hotpot
+Tier: 2
+
+Bands: C–D leaning (but accessible late Band B with risk)
+
+Origin: Black-Sap Grove; Devourer.
+
+Type: Meal
+
+Inputs:
+
+1x stringy_game_meat
+
+1x black_sap_nodule
+
+1x bitterroot_herb (implicit from B159; could be new Greatwood herb)
+
+Effects (Intent):
+
+Strong offensive buff:
+
+Increased damage.
+
+Bonus vs corrupted enemies.
+
+Adds a low corruption DoT to the player.
+
+Use Case:
+
+High-risk, high-reward pre-Hunt meal.
+
+UI Tags:
+
+["meal", "offense", "corruption", "risky"]
+
+Flavor Text:
+
+“You’re not sure if you’re hotter or the stew is.”
+
+3.1.6 meal_stonehide_skillet – Stonehide Skillet
+Tier: 2
+
+Bands: B–C
+
+Origin: Ward-Bear; Warden’s Glade.
+
+Type: Meal
+
+Inputs:
+
+1x boar_belly_strip
+
+1x wardstone_crust_flake (shaved)
+
+1x rootcoil_bulb
+
+Effects:
+
+Short-medium duration damage reduction vs basic physical hits.
+
+Minor reflect vs low-tier melee.
+
+Possible side-effect:
+
+Slight increase in incoming ward/arcane damage (tuning lever).
+
+Use Case:
+
+Trash waves, minor Hunts, content with lots of small physical hits.
+
+UI Tags:
+
+["meal", "defense", "reflect", "ward"]
+
+Flavor Text:
+
+“Tastes like chewing a shield, but you’ll live longer.”
+
+3.2 Snacks (Tier 2)
+3.2.1 snack_spiced_root_skewer – Spiced Root Skewers
+Tier: 2
+
+Bands: B–C
+
+Inputs:
+
+1x wildroot_tuber
+
+1x rootcoil_bulb
+
+1x thornpod_seed (sprinkled)
+
+Effects:
+
+Short attack speed / casting speed increase.
+
+Small, brief burn DoT on the eater (minor).
+
+Use Case:
+
+Openers on Hunts, burst windows.
+
+UI Tags:
+
+["snack", "burst", "offense", "spicy"]
+
+Flavor Text:
+
+“Hot going in, hotter when the fight starts.”
+
+3.2.2 snack_predator_mint_chew – Predator Mint Chew
+Tier: 2
+
+Bands: B–C
+
+Inputs:
+
+2x predator_mint
+
+1x brambleberry (for binding)
+
+Effects:
+
+Short-duration perception / awareness buff:
+
+Slight boost to dodge or reaction-type buffs.
+
+Tiny reduction to fear/stagger duration.
+
+Use Case:
+
+Greatwood Howler Hunt, any content with sudden ambush / howls.
+
+UI Tags:
+
+["snack", "awareness", "anti_fear", "howler"]
+
+Flavor Text:
+
+“The world sharpens into shapes you don’t always like.”
+
+3.2.3 snack_softleaf_wrap – Softleaf Wrap
+Tier: 2
+
+Bands: A–C
+
+Inputs:
+
+1x softleaf_herb
+
+1x sliver of any cooked meat (leftover flagged as cooked_meat_generic)
+
+Effects:
+
+Small, quick regen burst.
+
+Very small resist vs nature/poison for a short duration.
+
+Use Case:
+
+Between pulls in Matron/Devourer pockets, minor spore/corruption coverage.
+
+UI Tags:
+
+["snack", "regen", "nature_resist"]
+
+Flavor Text:
+
+“Tastes like medicine. Works like medicine.”
+
+3.3 Feasts (Tier 2)
+3.3.1 feast_hunters_bone_broth – Hunter’s Bone Broth (Feast Version)
+Tier: 2
+
+Bands: B–C
+
+Origin: recipe_scroll_hunters_bone_broth.
+
+Type: Feast
+
+Inputs:
+
+3x marrow_bone_piece or forest_marrow_bone
+
+2x stag_hide_strip (boiled for gelatin)
+
+2x forest_root_veg
+
+2x softleaf_herb
+
+Effects:
+
+Party-wide:
+
+Moderate regen.
+
+Slight max HP boost.
+
+Use Case:
+
+All-purpose group feast for Hunts.
+
+UI Tags:
+
+["feast", "party", "regen", "hp"]
+
+Flavor Text:
+
+“If a Lodge doesn’t smell like this at least once a week, something’s wrong.”
+
+3.3.2 feast_hollowroot_field_stew – Hollowroot Field Stew
+Tier: 2
+
+Bands: B–C
+
+Inputs:
+
+2x stringy_game_meat
+
+2x mossveil_cap
+
+2x forest_root_veg
+
+1x hollowroot_sporecap (low dose)
+
+Effects:
+
+Party-wide:
+
+Small damage increase.
+
+Very slight self-DoT / risk mechanic.
+
+Use Case:
+
+For groups who want a touch of risk in exchange for DPS.
+
+UI Tags:
+
+["feast", "offense", "risky", "hollowroot"]
+
+Flavor Text:
+
+“You all agree not to talk about the tingle in your teeth.”
+
+4. TIER 3 – JOURNEYMAN RECIPES (LEVELS 15–20, BAND C–D)
+Tier 3 is about:
+
+High-stakes Hunts:
+
+Hollowroot Matron, Black-Sap Devourer, Ward-Bear, late iterations of Stag/Howler.
+
+Strong buffs with thematic costs or gating:
+
+Some require Lodge project progress or multiple Hunt completions.
+
+4.1 Meals (Tier 3)
+4.1.1 meal_wardbear_ironstew – Wardbear Ironstew
+Tier: 3
+
+Bands: C–D
+
+Origin: Ward-Bear, Warden’s Glade.
+
+Type: Meal
+
+Inputs:
+
+1x boar_shank or stag_haunch
+
+1x wardstone_bear_plate (shavings)
+
+1x ironroot_veg
+
+1x forest_marrow_herb
+
+Effects (Intention):
+
+Significant physical damage reduction.
+
+Notable ward/arcane damage reduction.
+
+Slight movement speed penalty (“heavy stew”).
+
+Use Case:
+
+Ward-Bear; any content with heavy physical bursts, early Wardstone dungeons.
+
+UI Tags:
+
+["meal", "defense", "ward", "high_tier"]
+
+Flavor Text:
+
+“You don’t so much eat it as negotiate with it.”
+
+4.1.2 meal_purified_sap_stew – Purified Sap Stew
+Tier: 3
+
+Bands: C–D
+
+Origin: Black-Sap Devourer.
+
+Type: Meal
+
+Inputs:
+
+1x blacksap_resin_clot
+
+2x purifier_bloom
+
+1x forest_root_veg
+
+Effects:
+
+On consumption:
+
+Removes multiple corruption stacks.
+
+Duration:
+
+Grants corruption resistance and a small regen effect.
+
+Use Case:
+
+Devourer Hunt; pockets with heavy corruption DoTs.
+
+UI Tags:
+
+["meal", "corruption_resist", "cleanse", "high_tier"]
+
+Flavor Text:
+
+“You’re pretty sure this is what mercy tastes like.”
+
+4.1.3 meal_matron_detox_feast_solo – Matron Detox Bowl (Solo Version)
+NOTE: The group feast version is in Feasts; this is a scaled-down solo variant using the same logic.
+
+Tier: 3
+
+Bands: C–D
+
+Inputs:
+
+1x matron_spore_cluster
+
+1x dampcap
+
+1x forest_veg_bundle (abstracted as a mixed veg item)
+
+Effects:
+
+Immediately removes some Spore Sickness stacks from the eater.
+
+Grants a short detox regen and small spore resistance.
+
+Use Case:
+
+Solo players or smaller groups who can’t manage full feasts.
+
+UI Tags:
+
+["meal", "spore_resist", "detox"]
+
+Flavor Text:
+
+“Nothing that smells this wrong should help this much.”
+
+4.1.4 meal_nightwatchers_stew – Nightwatcher’s Stew (New high-tier generic)
+Tier: 3
+
+Bands: C–D
+
+Origin: Greatwood general; synergy with predator & ward biomes.
+
+Inputs:
+
+1x howler_flank or stag_haunch
+
+1x shadowroot_tuber
+
+1x predator_mint
+
+1x brightcap_herb
+
+Effects:
+
+Moderate regen.
+
+Moderate awareness / dodge / reaction buff.
+
+Slight nightvision / telegraph clarity (design interpretation).
+
+Use Case:
+
+Any Hunt with heavy telegraphs and night/low-light variants.
+
+UI Tags:
+
+["meal", "awareness", "night", "generic_high"]
+
+Flavor Text:
+
+“For when the worst things don’t attack at noon.”
+
+4.2 Snacks (Tier 3)
+4.2.1 snack_sap_shot – Sap Shot
+Tier: 3
+
+Bands: C–D
+
+Inputs:
+
+1x black_sap_nodule
+
+1x brambleberry (to cut the taste)
+
+Effects:
+
+Very short but huge damage spike.
+
+Immediately applies a stack of corruption (self).
+
+Use Case:
+
+Last-phase burn, DPS checks, “push now or wipe.”
+
+UI Tags:
+
+["snack", "burst", "corruption", "risky"]
+
+Flavor Text:
+
+“The worst part is wanting another one.”
+
+4.2.2 snack_ward_crust_chips – Ward Crust Chips
+Tier: 3
+
+Bands: C–D
+
+Inputs:
+
+1x wardstone_crust_flake
+
+1x thornpod_seed (for crunch)
+
+Effects:
+
+Short ward/arcane resistance spike.
+
+Slight chance to reflect minor spells.
+
+Use Case:
+
+Bursty ward/arcane phases, ward-themed Hunts/dungeons.
+
+UI Tags:
+
+["snack", "ward_resist", "reflect"]
+
+Flavor Text:
+
+“It’s like chewing gravel and ducking lightning at the same time.”
+
+4.2.3 snack_sporeveil_bite – Sporeveil Bite
+Tier: 3
+
+Bands: C–D
+
+Inputs:
+
+1x mossveil_cap
+
+1x spore_drift_filaments
+
+Effects:
+
+Brief Spore Sickness immunity window (or drastically reduced gain).
+
+Slight visual distortion / hallucination flavor (cosmetic).
+
+Use Case:
+
+Spore-heavy Matron phases.
+
+UI Tags:
+
+["snack", "spore_resist", "immunity", "matron"]
+
+Flavor Text:
+
+“The world goes soft around the edges, but the spores don’t stick.”
+
+4.3 Feasts (Tier 3)
+4.3.1 feast_matron_detox_feast – Matron Detox Feast
+Tier: 3
+
+Bands: C–D
+
+Origin: Hollowroot Matron; B159.
+
+Type: Feast
+
+Inputs:
+
+2x matron_spore_cluster
+
+3x dampcap
+
+2x forest_veg_bundle
+
+Effects (Party-wide):
+
+Immediately removes multiple Spore Sickness stacks from all party members.
+
+Strong regen for a moderate duration.
+
+Notable spore resistance for the feast duration.
+
+Use Case:
+
+Matron Hunts.
+
+Any spore-heavy dungeon/raid content.
+
+UI Tags:
+
+["feast", "detox", "spore_resist", "matron"]
+
+Flavor Text:
+
+“If this is what victory tastes like, you can see why the Lodge keeps going back.”
+
+4.3.2 feast_wardbear_bastion – Ward-Bear’s Bastion Feast
+Tier: 3
+
+Bands: C–D
+
+Origin: Ward-Bear.
+
+Type: Feast
+
+Inputs:
+
+2x boar_shank
+
+2x ironroot_veg
+
+1x wardstone_bear_plate (ground)
+
+2x forest_marrow_herb
+
+Effects (Party-wide):
+
+Significant physical damage reduction.
+
+Moderate ward/arcane resistance.
+
+Small movement penalty (heavier, sluggish).
+
+Use Case:
+
+Ward-Bear and any heavy incoming damage fights.
+
+UI Tags:
+
+["feast", "defense", "wardbear", "high_tier"]
+
+Flavor Text:
+
+“After this, if you’re still standing, you’ll owe the cook.”
+
+4.3.3 feast_gw_game_stew – Greatwood Game Feast
+Tier: 3
+
+Bands: C–D
+
+Origin: recipe_scroll_gw_game_stew.
+
+Type: Feast
+
+Inputs:
+
+A mix of:
+
+stag_haunch, boar_shank, howler_flank
+
+forest_root_veg
+
+2x brightcap_herb
+
+1x moss_silk_mycelium (thickener)
+
+Effects (Party):
+
+Balanced:
+
+Moderate regen.
+
+Medium stamina boost.
+
+Very small damage bump.
+
+Use Case:
+
+Well-rounded feast when you don’t know what’s coming.
+
+UI Tags:
+
+["feast", "balanced", "greatwood"]
+
+Flavor Text:
+
+“Everything that tried to eat you, in one pot.”
+
+5. RECIPE UNLOCKS & HUNT HOOKS
+Each major Hunt is associated with a cluster of recipes.
+
+5.1 Elder Hollow Stag – Unlock Summary
+First Kill Unlocks:
+
+meal_elders_supper
+
+feast_hunters_bone_broth (if scroll obtained)
+
+Optional via Scrolls:
+
+meal_basic_stag_roast gets improved quality when cooked by higher-tier Cooks.
+
+Lodge Project Synergy:
+
+“Honor the Elder” may give:
+
++1 yield when cooking stag recipes in Lodge.
+
+5.2 Greatwood Howler – Unlock Summary
+First Kill:
+
+meal_gw_hunters_stew
+
+Subsequent Kills + Scroll:
+
+meal_alpha_hunters_stew
+
+Pocket Foraging:
+
+predator_mint & wildroot_tuber spawn more frequently after completing the Hunt.
+
+5.3 Ward-Bear – Unlock Summary
+First Kill:
+
+meal_stonehide_skillet
+
+Lodge Ward Project Threshold:
+
+Unlock meal_wardbear_ironstew
+
+Unlock feast_wardbear_bastion
+
+Wardstone Biome Shift:
+
+More ironroot_veg and glowward_moss spawns near Warden’s Glade.
+
+5.4 Black-Sap Devourer – Unlock Summary
+First Kill:
+
+meal_blacksap_hotpot
+
+Hunt + Purifier-related Lodge Project:
+
+meal_purified_sap_stew
+
+snack_sap_shot
+
+Biome Changes:
+
+More purifier_bloom nodes.
+
+5.5 Hollowroot Matron – Unlock Summary
+First Kill:
+
+meal_hollowroot_stew (if not already learned via scroll)
+
+Containment Project Tier 2:
+
+meal_matron_detox_feast_solo
+
+feast_matron_detox_feast
+
+Fungal Foraging:
+
+Increased dampcap, mycelium_web, and spore_drift_filaments yields.
+
+6. UI / UX NOTES FOR COOKING IN GREATWOOD
+6.1 Recommendation System
+In cooking UI:
+
+Each recipe should list:
+
+Recommended Hunts:
+
+e.g. “Recommended for: Hollowroot Matron, Fungal Pockets”
+
+Buff Category:
+
+Meal, Snack, Feast.
+
+Primary Benefit Icons:
+
+Heart (regen), Shield (defense), Sword (offense), Leaf (resist), Eye (awareness).
+
+Example for meal_gw_hunters_stew:
+
+Icons: Heart + Blood Drop (bleed).
+
+Text:
+
+“Good against: bleeding, long fights with lots of small hits.”
+
+6.2 Context Tips
+When entering a Hunt pocket:
+
+Hint window may pop:
+
+“You are entering Hollowroot Nest. Consider consuming:
+
+Matron Detox Feast (if available)
+
+Softleaf Wraps
+
+Anti-Spore Tincture (Alchemy)”
+
+Cooking recipes from B162 should be first in line for these suggestions.
+
+7. SUMMARY
+B162 pulls together:
+
+The core Greatwood recipes:
+
+Early novice meals.
+
+Hunt-tied Tier 2 dishes.
+
+High-impact Tier 3 meals & feasts.
+
+It concretizes the loops defined in:
+
+B159 (Hunts & Profession Loops).
+
+B161 (Ingredient Atlas).
+
+Once implemented, the player experience should be:
+
+Early: “Food exists and helps.”
+
+Mid: “I should bring the right food to the right Hunt.”
+
+Late Greatwood: “Our lodge’s Hunt cuisine is part of how we beat this forest.”
+
+When in doubt while designing new content in Greatwood:
+
+If there’s a new threat, there should probably be a new pot on the fire.
