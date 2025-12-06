@@ -1,1011 +1,1068 @@
-# B158 – Ragged King – Full Hunt Integration (Greatwood 1–20)
-
-## 0. Purpose
-
-Fully define the **Ragged King** as a late Greatwood signature Hunt:
-
-- Narrative role and unlock chain
-- Arena layout and encounter phases
-- Profession roles (Hunter, Cook, Alchemist, Forager/Woodworker)
-- Core + specialty drops (51 / 55)
-- Loot behavior aligned with B151
-- Lodge/trophy/ritual projects (57)
-- Food and brew hooks (52, 53, 58)
-
-This is the single integration hub for Ragged King so you don’t have to cross-reference a dozen files to remember what he is.
+# B158 – Greatwood Howler – Full Hunt Integration (Greatwood 1–20)
 
 ---
 
-## 1. Role in Greatwood
+## 0. PURPOSE & POSITION IN GREATWOOD
 
-**Name:** Ragged King  
-**Region:** Charred barrows and bone-strewn clearings at the edge of Greatwood  
-**Band:** Late Greatwood capstone (recommended 18–20)  
-**Type:** Signature Hunt – ash, bone, and “old war” energy
+The **Greatwood Howler** is the primary **pack predator** Hunt for Greatwood 1–20.
 
-### 1.1 Narrative Identity
+It sits alongside:
 
-The Ragged King is:
+- Elder Hollow Stag (B154) – ceremonial nature guardian.
+- Ward-Bear (B157) – wardstone/shield guardian.
+- Black-Sap Devourer (B153) – corruption keystone.
+- Hollowroot Matron (B156) – fungal/infestation keystone.
 
-- A towering, half-skeletal, half-charred beast (or beastlike humanoid silhouette) wrapped in burnt hides, broken armor, and **old hunt trophies**.
-- His body is:
+This file defines the Greatwood Howler Hunt as:
 
-  - Riddled with **bone fractures** that never heal,
-  - Crusted in **ash** from old fires,
-  - Laced with faint embers in his ribs and skull.
+- A **Band B–C** major Hunt for levels **8–14**.
+- A keystone for:
+  - **Pack AI and threat management**.
+  - **Audio telegraphs** (howls that change fight state).
+  - **Multi-target, multi-front pressure**.
 
-- He is less a “corruption entity” and more the **leftover anger** of old hunts:
+Scope:
 
-  - The bones of too many beasts taken without balance,
-  - The embers of old wars that never quite went out.
+- Identity, story, and fantasy.
+- Unlock conditions and Lodge integration.
+- Arena and environment design.
+- Full combat structure:
+  - Pack behavior, phases, leader howler patterns.
+- Role expectations and profession cross-links.
+- Loot, Lodge projects, and long-term progression hooks.
+- Implementation notes and telemetry for tuning.
 
-Thematically he:
+This Hunt answers the question:
 
-- Sits between **Ashen Beast** and the other Hunts:
-
-  - Uses ash and fire-adjacent themes,
-  - But is primarily about **bone, death, and old grudges**.
-
-Mechanically he owns:
-
-- Heavy bone + ashen specialties:
-  - `ragged_king_bone_shard` (base)
-  - `ragged_king_shank` (base)
-  - `spec_ingr_ragged_king_bone_shard`
-  - `spec_ingr_ragged_king_shank`
-  - `spec_ingr_ragged_king_ashen_fragment` (55, B151)
-
-- Late Greatwood:
-
-  - Bone / marrow stews and ashen roasts (52, 53),
-  - Stronger death/ash brews (58),
-  - Lodge trophies and “bone throne” / pyre projects (57).
-
-He should **feel** like the last major Hunt before you move beyond Greatwood 1–20.
+> “What does it feel like when the forest hunts you back?”
 
 ---
 
-## 2. Unlock & Questline Flow
+## 1. HUNT IDENTITY & FANTASY
 
-### 2.1 Recommended Placement
+### 1.1 High-Concept Tagline
 
-Ragged King should not show up until the player has:
+> “When one howls, the forest joins in.”
 
-- Fought:
+The **Greatwood Howler** is:
 
-  - At least one corruption Hunt (Matron or Black-Sap),
-  - At least one guardian Hunt (Elder Stag or Ward-Bear),
-  - One wolf/pack Hunt (Howler).
+- A large, lean alpha predator:
+  - Not grotesque, not corrupted.
+  - Pure forest predator with heightened presence and intelligence.
+- Leader of a **pack of howlers** that:
+  - Coordinate attacks.
+  - Use sound and positioning to pressure the party.
+- The embodiment of:
+  - Greatwood’s predatory instinct.
+  - The feeling of being watched and stalked between trees.
 
-- Seen enough of Greatwood’s:
+Unlike Hollowroot Matron or Devourer, the Howler is not an aberration:
 
-  - Bones,
-  - Ash scars,
-  - Leftover battlefield/old Hunt locations.
+- It is the forest’s **natural teeth**.
 
-He is the **consequences** of all that.
+### 1.2 Visual Motifs
 
-### 2.2 Questline Beats
+- Alpha Howler:
+  - Larger than standard wolves/howlers.
+  - Fur:
+    - Darker along spine, lighter along sides.
+    - Subtle patterning that evokes:
+      - Tree shadows.
+      - Stripes of moonlight.
+  - Eyes:
+    - Bright, reflective, readable from a distance.
+    - Color can vary slightly by band (paler at lower bands, brighter at higher).
+  - Scar patterns:
+    - Old wounds from earlier Hunts and prey.
+- Packmates:
+  - Slightly smaller but coordinated.
+  - Tagging marks (notches in ears, fur patterns) to distinguish roles:
+    - Flankers.
+    - Harriers.
+    - Howl-echoers.
+- Environment:
+  - Den area with:
+    - Bones, scattered pelts.
+    - Trampled paths in underbrush.
+    - Elevated rocks used as watch points.
 
-1. **“Bonepiles Walk”**
-   - Contracts begin describing:
+### 1.3 Audio Motifs
 
-     - Bone piles rearranged overnight,
-     - Old kill sites disturbed,
-     - Hunters feeling “watched” near ash patches.
+Audio is central to this Hunt.
 
-   - Player:
-     - Investigates three former Hunt sites:
-       - Old stag kill,
-       - Old bear pit,
-       - Abandoned Ashen campsite.
-     - Finds bones arranged in rough **crown shapes**.
+- Ambient:
+  - Distant, occasional howls that:
+    - Shift in direction.
+    - Fade in and out as the player approaches the den.
+- In-fight Howls:
+  - Distinct howl “vocab”:
+    - Rally howl:
+      - Summoning or buffing pack members.
+    - Hunt howl:
+      - Marks a target or shifts aggro focus.
+    - Panic howl:
+      - Signals low health or phase transition.
+  - Echo effects:
+    - Pack howls can overlap, creating a brief, disorienting chorus.
+- Foley:
+  - Rustling underbrush.
+  - Footfalls circling at the edge of vision.
+  - Growls and teeth-clicking close to the player’s ear in some sequences.
 
-2. **Ash Among the Bones**
-   - Ward or Scholar NPC:
+### 1.4 Emotional Beats
 
-     - Note that the bones are smeared with ash that doesn’t blow away.
-     - Mention rumors of “a king of the hunted, walking in the ash.”
+Players should feel:
 
-   - Player:
-     - Sent to a **burned glade** near Ashen Beast territory,
-     - Fights skeletal scavenger beasts and bone constructs.
+- Stalked before the fight:
+  - Occasional glimpses of eyeshine and rustling.
+- Suddenly overwhelmed when the Hunt begins:
+  - Pack originating from multiple angles.
+- Gradually empowered as they:
+  - Read howl telegraphs.
+  - Control adds and pack structure.
+- Satisfied but wary after the kill:
+  - They have become “apex” in a place that previously hunted them.
 
-3. **Barrow Signs**
-   - Player discovers:
-
-     - A half-collapsed **barrow hill** with toppled stone markers,
-     - Scratched names/sigils of long-dead Hunters / Wardens.
-
-   - Clues indicate:
-
-     - Someone or something is gathering bones and trophies here.
-
-4. **Hunt Posting – “The Ragged King”**
-   - Board unlocks named Hunt:
-
-     - “Heaped bones, hollow eyes, and embers that will not die. The Ragged King walks. End him, or every old Hunt will rise with him.”
-
-5. **Final Approach**
-   - Player is sent to:
-
-     - The **Ragged Barrow** – charred mound and bonefield at Greatwood’s edge.
-     - Triggering the Hunt instance.
-
-6. **Aftermath**
-   - Once Ragged King is killed:
-
-     - Bone disturbances drop sharply.
-     - Ward and Hunt NPCs comment that:
-
-       - “The forest remembers differently now.”
-       - “The ash feels… cooler.”
-
-   - Unlocks:
-
-     - Bone/ash Lodge projects,
-     - Advanced marrow stews and ash brews,
-     - Possibly a cross-region ritual hook.
-
----
-
-## 3. Arena & Encounter Space
-
-### 3.1 Layout
-
-The Ragged Barrow arena is:
-
-- A large circular depression around a **central barrow mound**:
-
-  - The mound is ringed with broken stone markers and old trophy-poles.
-  - Charred trees lean inward like ribs.
-
-- The ground is:
-
-  - Covered in ash,
-  - Littered with **bone piles** and broken weapons,
-  - Broken by occasional **magma-like ember vents**.
-
-### 3.2 Functional Zones
-
-- **Central Barrow Mound**
-
-  - Elevated central platform where Ragged King often starts and returns.
-  - Provides:
-
-    - High vantage point,
-    - Space for big “ashing” moves.
-
-- **Bonefields**
-
-  - Outer ring of arena:
-
-    - Bone piles,
-    - Fallen trophies,
-    - Old wagon frames.
-
-  - Breaking or stepping on bone piles:
-
-    - Can trigger bone spike eruptions,
-    - Or spawn skeletal adds.
-
-- **Ash Vents**
-
-  - Small fissures emitting warm, faint light.
-
-  - When triggered by:
-
-    - Ragged King’s slam,
-    - Or certain abilities,
-
-    they erupt:
-
-    - Ash plumes,
-    - Flickering flame,
-    - Damage-over-time zones.
+The Howler is about **pace and tension** rather than heavy visual corruption or spell-like mechanics.
 
 ---
 
-## 4. Boss: Ragged King – Behavior & Phases
+## 2. UNLOCK CONDITIONS & STORY FRAMING
 
-**Category:** Ash/Bone Beast (or monstrous war-wight)  
-**Fight Length Target:** ~5–8 minutes (late-tier Hunt)
+### 2.1 Recommended Band & Placement
 
-Core themes:
+- Recommended player level: **8–14**
+  - Comfortable at 10–12.
+  - Challenging but doable at 8–9 with good play.
+- Hunt Band: **B–C**
+- Position in progression:
+  - Often the **first major Hunt** players see as a clear “go fight this alpha predator” marker.
+  - Sometimes alternate-first with Elder Hollow Stag depending on play sequence.
 
-- Bone / ash control,
-- Heavy melee with bursts,
-- Old-Hunt ghosts / echoes.
+### 2.2 Preconditions (Design-Level)
+
+Greatwood Howler Hunt appears on the Hunt Board when:
+
+- Player has:
+  - Cleared a minimum number of **wolf/howler-related contracts**:
+    - “Cull the pack near X.”
+    - “Protect caravans from howler attacks.”
+  - Encountered howlers in **open-world pockets** at least a few times.
+- Lodge has:
+  - Logged complaints of:
+    - Missing hunters.
+    - Disrupted travel routes near the den.
+- Optional extras:
+  - A small pre-Hunt quest chain:
+    - Track a maimed survivor’s story.
+    - Investigate partially eaten prey.
+
+Narratively, this sets up:
+
+> “You’ve been nipping at the edges of the problem. Time to cut off the head of the pack.”
+
+### 2.3 Hunt Board & NPC Framing
+
+- Hunt Board entry:
+  - Strong, stylized wolf head.
+  - Short description:
+    - Talks about hearing overlapping howls.
+    - Warns: “Do not go alone.”
+- Huntmaster / Lodge NPC quotes:
+  - Acknowledge:
+    - Howlers are not inherently evil.
+  - Emphasize:
+    - The pack is now brave enough to approach travel routes and the Lodge itself.
+- Optional “Old Hunter” flavor:
+  - Shares their first Howler Hunt story.
+  - Hints at key mechanics:
+    - “When they all howl together, you don’t want to be standing in the open.”
 
 ---
 
-### 4.1 Baseline Attacks
+## 3. ARENA & ENVIRONMENT DESIGN
 
-Used in all phases, scaled:
+### 3.1 Pocket Tag & Location
 
-- **Cleaver Sweep (or Bone Club Sweep)**
+Pocket tag: `POCKET_HOWLER_DEN`
 
-  - Broad horizontal sweep with heavy weapon or bone club.
-  - High damage, knockback.
+- Geography:
+  - A sloping woodland rise that opens into a semi-cleared den area.
+  - Mixed cover:
+    - Fallen logs.
+    - Low boulders.
+    - Thicker brush clumps.
+  - Exits and entries:
+    - Side trails where howlers can enter or retreat.
+- Light:
+  - Dappled canopy.
+  - Slightly lower light level than surrounding forest:
+    - Feels like “their” space.
+  - Night or evening variants possible for challenge modes (later).
 
-- **Ragged Stomp**
+### 3.2 Zones
 
-  - Local ground slam:
+Divide into:
 
-    - Knocks players nearby,
-    - Triggers bone piles within radius (spikes or adds).
+- **Zone A – Approach Trail**
+  - Narrower path.
+  - Occasional small howlers to hint at pack.
+  - Early ambience of being watched.
 
-- **Ash Lash**
+- **Zone B – Den Core**
+  - Central combat arena.
+  - Compact enough to feel pressured.
+  - With:
+    - Mid-height rocks for line-of-sight breaks.
+    - Areas of thicker underbrush that slow movement slightly.
 
-  - Short-range lash of ash and embers from his cloak/hide.
-  - Applies:
+- **Zone C – Perimeter Shadows**
+  - Edge areas of the den.
+  - Howlers can:
+    - Enter from here.
+    - Retreat here briefly before re-engaging.
+  - Players can use:
+    - For line-of-sight resets.
+    - For kiting.
 
-    - Minor fire/ash DoT,
-    - Slight vision haze.
+### 3.3 Environmental Role
 
-- **Bone Toss**
+Environment is:
 
-  - Throws a large bone or skull:
+- Not covered in active hazards like Matron’s nest.
+- Instead:
+  - Shapes angles of attack.
+  - Provides obstacles for:
+    - Breaking charge lines.
+    - Playing line-of-sight with pack howlers.
 
-    - Impact zone fracturing,
-    - Minor AoE damage / stagger.
+Visual language:
+
+- Slightly wider lines-of-sight than some Dungeons, but enough cover to matter.
 
 ---
 
-### 4.2 Phase 1 – Crown of Old Hunts
+## 4. MECHANICAL THEMES & OVERVIEW
 
-**Trigger:** Start, HP 100% → ~70%
+### 4.1 Core Themes
 
-- Focus on:
+1. **Pack Pressure**
+   - Players fight:
+     - The alpha.
+     - Multiple packmates.
+   - Danger comes from:
+     - Being flanked.
+     - Being surrounded.
+     - Poor target priority.
 
-  - Heavy but simple melee,
-  - Teaching bone piles as interactive hazards.
+2. **Howl-Based State Changes**
+   - Different howls represent:
+     - Pack rally.
+     - Hunt focus.
+     - Fear/retreat.
+   - Players learn:
+     - To treat sound as a major telegraph channel, not just visuals.
 
-Mechanics:
+3. **Dynamic Threat & Targeting**
+   - The alpha may:
+     - Mark a target with a howl.
+     - Redirect pack aggro.
+   - Fight encourages:
+     - Protective behavior.
+     - Role recognition (frontline vs backline).
 
-- **Focused Sweeps & Stomps**
+4. **Introductory Multi-Front Encounter**
+   - This is the “pack boss” to teach:
+     - You cannot tunnel one target.
+     - You must handle multiple threats simultaneously.
 
-  - King primarily targets:
+### 4.2 Fight Structure Overview
 
-    - Nearest player,
-    - Or one who stays on mound too long.
+Phases:
 
-- **Bone Pile Reactivity**
+- **Phase 0 – Stalked on the Approach**
+  - Ambient pre-fight.
+- **Phase 1 – First Engagement: The Circle**
+  - Pack tests the group’s defenses and mobility.
+- **Phase 2 – Full Pack Fury**
+  - Coordinated howls, focus fires, elite howlers.
+- **Phase 3 – Lone Alpha**
+  - Pack numbers reduced; alpha goes desperate and dangerous.
 
-  - Every Ragged Stomp near bone piles:
+The structure ensures:
 
-    - Pops bone spikes underfoot (line or circle),
-    - Or animates tiny skeletal critters.
+- Front-loaded pressure, but with:
+  - Smoother tail when players break pack structure.
 
-  - Encourages:
+---
 
-    - Pulling fight off densest bonefields,
-    - Respecting positioning.
+## 5. PACK COMPOSITION & AI CONCEPTS
 
-- **“Crown” Visual**
+### 5.1 Pack Roles
 
-  - Occasionally:
+The pack contains several **role archetypes**:
 
-    - King raises arms or head,
-    - Bone piles briefly rattle as if responding,
+- **Alpha – Greatwood Howler (Boss)**
+  - Highest HP and damage.
+  - Commands pack and issues howls.
+  - Has unique ability set.
 
-  - No mechanical effect yet, just telegraph for Phase 2.
+- **Flankers**
+  - Medium HP, high mobility.
+  - Try to:
+    - Reach backline.
+    - Attack from sides or behind.
+  - Limited special abilities:
+    - Quick bites.
+    - Short leaps.
+
+- **Harriers**
+  - Lower HP, disruptive.
+  - Focus on:
+    - Applying light bleeds.
+    - Distracting certain players (e.g., healers).
+
+- **Echo Howlers**
+  - Smaller howlers that:
+    - Copy alpha howls at reduced strength.
+  - Increase:
+    - Duration or area of certain howl effects.
+
+### 5.2 AI Behaviors (High-Level Design)
+
+- Pack wants to maintain:
+  - Partial encirclement around the group.
+- Flankers:
+  - Try to get around behind or onto isolated players.
+- Harriers:
+  - Prefer targets with:
+    - Low armor.
+    - Low current health.
+- Echo Howlers:
+  - Stay a bit farther out, avoiding direct melee.
+  - Time their howls with the alpha.
+
+AI should feel:
+
+- Smart but not psychic.
+- Punishing if players:
+  - Stand clumped in the open.
+  - Let pack roam free.
+
+---
+
+## 6. PHASE BREAKDOWNS
+
+### 6.0 Shared Systems
+
+**Bleed (Howler Wound)**
+
+- Common debuff:
+  - Applied by bites and certain abilities.
+- At low stacks:
+  - Small damage over time.
+- At higher stacks:
+  - Heavier DoT, potential minor stamina drain.
+- Some food/brews can:
+  - Reduce bleed damage.
+  - Accelerate bleed decay.
+
+**Pack Morale (Invisible Meter)**
+
+- Internal meter tracking:
+  - Number of active howlers.
+  - Relative health of alpha.
+- Drives:
+  - When minor howlers flee or re-engage.
+  - Intensity of howls.
+
+---
+
+### 6.1 Phase 0 – Stalked on the Approach
+
+**Trigger**
+
+- Entering `POCKET_HOWLER_DEN` approach.
+
+**Gameplay**
+
+- Small pairs/trios of howlers:
+  - Appear briefly at edge of vision.
+  - Attack then retreat, or simply stalk.
+- Audio:
+  - Single howls, one at a time.
+  - Occasional rustling movement.
+
+**Purpose**
+
+- Atmosphere.
+- Soft tutorial:
+  - Show:
+    - Howlers come from multiple angles.
+    - Howls are meaningful.
+
+No major mechanics yet, just:
+
+- A sense of pursuing and being pursued.
+
+---
+
+### 6.2 Phase 1 – First Engagement: The Circle
+
+**Trigger**
+
+- Party reaches Den Core.
+- Alpha appears on a rock or rise, silhouetted.
+- First major howl cuts through, summoning pack inward.
+
+**HP Range**
+
+- Alpha at 100% → ~70% HP.
+
+**Pack Composition**
+
+- Alpha Howler (boss).
+- 2–4 Flankers.
+- 1–2 Harriers.
+
+**Abilities – Alpha**
+
+1. **Raking Bite**
+   - Single-target melee.
+   - Applies light Howler Wound bleed.
+
+2. **Lunging Pounce**
+   - Short leap toward target.
+   - Moderate damage, brief knockdown if direct hit.
+   - Used to punish players:
+     - Out of position.
+     - Standing too far from group.
+
+3. **Hunt Howl (Target Mark)**
+   - Alpha locks eyes on a player and howls.
+   - Effect:
+     - That player is “marked”:
+       - Pack members prefer to attack them.
+       - Marked player takes slightly more damage from howlers.
+   - Visual:
+     - Subtle glow or mark above target.
+   - Duration:
+     - Finite, or until overwritten.
+
+**Abilities – Pack**
+
+- Flankers:
+  - Quick bites (low bleed).
+  - Side approaches.
+- Harriers:
+  - Minor leaps, mild interrupts.
+
+**Player Checks**
+
+- Can group:
+  - Recognize when someone is marked.
+  - Protect that target.
+  - Avoid being totally surrounded.
+
+This phase sets tone:
+
+- The pack is coordinated but not yet fully unleashed.
+
+---
+
+### 6.3 Phase 2 – Full Pack Fury
+
+**Trigger**
+
+- Alpha at ~70% HP.
+- Pack Morale above threshold (still strong pack).
+
+Alpha howls a **Rally Howl**, summoning more howlers and activating echo behavior.
+
+**Pack Composition**
+
+- Alpha Howler.
+- New spawns:
+  - 1–2 Echo Howlers.
+  - Additional Flankers.
+- Harriers become more aggressive.
+
+**New/Upgraded Alpha Abilities**
+
+1. **Rally Howl**
+   - Large, drawn-out howl.
+   - Effects:
+     - Summons new packmates from Perimeter.
+     - Grants short buff:
+       - Increased attack speed and movement to pack.
+   - Echo:
+     - Echo Howlers repeat part of the howl, extending buff duration.
+
+2. **Frenzy Wave**
+   - After Rally:
+     - Pack simultaneously lunges and attacks.
+   - Simple pattern:
+     - Short, high-pressure window where everyone is taking damage.
+
+3. **Coordinated Howl**
+   - Alpha + Echo Howlers:
+     - Howl in sequence.
+   - Effects:
+     - Applies small fear or stagger to players if they:
+       - Are outside certain safe zones.
+       - Or do not break line-of-sight with terrain.
+   - Teaches:
+     - Use of environment as shield against acoustic effects.
+
+**Pack Upgrades**
+
+- Flankers:
+  - Use more aggressive pathing to reach backline.
+- Harriers:
+  - Focus more on healer or marked target.
+
+**Player Checks**
+
+- Group must:
+  - Kill Echo Howlers quickly to limit howl extension.
+  - Decide:
+    - When to break from the alpha to control adds.
+  - Use terrain:
+    - Duck behind rocks/logs when Coordinated Howl starts.
+
+If players ignore Echo Howlers:
+
+- Rally buffs stack up.
+- Coherent howl sequences cause control loss and heavy damage.
+
+---
+
+### 6.4 Phase 3 – Lone Alpha
+
+**Trigger**
+
+- Once enough packmates are dead and/or Alpha HP drops below ~35–40%.
+- Pack Morale falls below threshold:
+  - Minor howlers flee or die.
+  - Only the Alpha (and possibly one last elite packmate) remains.
+
+Tone shift:
+
+- Fight becomes less about multi-front control.
+- More about:
+  - A desperate, dangerous single enemy.
+
+**Alpha Behavior Changes**
+
+- No longer issues Rally Howls:
+  - No new pack spawns.
+- Gains new abilities or upgrades:
+
+1. **Desperation Howl**
+   - Shorter, more aggressive howl.
+   - Self-buff:
+     - Increased damage.
+     - Possible temporary damage reduction.
+   - Occurs at regular intervals.
+
+2. **Savage Combo**
+   - Lunge → Bite → Rake sequence.
+   - High single-target damage.
+   - Designed to test:
+     - Tank and healer coordination.
+     - Defensive cooldown usage.
+
+3. **Wounded Retreat and Re-Engage**
+   - At very low HP:
+     - Alpha may retreat briefly to perimeter then charge in.
+   - Serves as:
+     - Climactic moment.
+     - Last test of player movement and awareness.
+
+**Player Checks**
+
+- With pack largely gone:
+  - Can players:
+    - Respect the Alpha’s upgraded damage.
+    - Avoid greed pulling and unnecessary deaths.
+- Evaluates:
+  - Classic “boss at 15%” execution.
+  - Cooldown management to finish cleanly.
+
+---
+
+## 7. ROLE EXPECTATIONS & PROFESSION INTEGRATION
+
+### 7.1 Combat Roles
+
+**Tanks / Frontliners**
+
+- Job:
+  - Hold Alpha’s attention facing away from group.
+  - Deny easy paths for flankers onto backline.
+  - Intercept charges/lunges when possible.
+- Responsibilities:
+  - Call out:
+    - Hunt Howl target.
+    - Incoming Frenzy windows.
+    - Desperation phases.
+
+**Melee DPS**
+
+- Job:
+  - Stay on Alpha or high-value pack targets without:
+    - Overextending into isolated positions.
+  - Help peel flankers off healers when necessary.
+- Responsibilities:
+  - Respect pounce telegraphs.
+  - Avoid stacking too tightly when howls suggest area effects.
+
+**Ranged DPS**
+
+- Job:
+  - Execute priority targets:
+    - Echo Howlers.
+    - Harriers on healers.
+  - Maintain situational awareness:
+    - Where pack is circling.
+- Responsibilities:
+  - Use terrain to avoid Coordinated Howls.
+  - Maintain pressure on Alpha when safe.
+
+**Healers / Support**
+
+- Job:
+  - Keep the group up through:
+    - Repeated small hits from pack.
+    - Bleeds.
+  - Manage resources for:
+    - Frenzy windows.
+    - Phase 3 Savage Combos.
+- Responsibilities:
+  - Communicate:
+    - When they are under direct pressure from pack.
+  - Prefer:
+    - Positioning near partial cover, not in open center.
+
+### 7.2 Cooking Integration
+
+Howler-focused Hunts benefit from:
+
+- **High-Satiety Meats**
+  - Stag, boar, and howler flanks turned into:
+    - Stews that boost stamina or heal over time.
+
+- Example dishes:
+  - “Greatwood Hunter’s Stew”:
+    - Modest stamina/energy buff.
+    - Slight increase to bleed resistance.
+  - “Howler Flank Skewers”:
+    - Short-duration burst buff:
+      - Increased movement or attack speed.
+
+Cooking impact:
+
+- This fight is about **sustained attrition**.
+- Groups that eat beforehand:
+  - Feel noticeably better over 8–10 minute engagements.
+
+### 7.3 Alchemy Integration
+
+Relevant brews:
+
+- **Anti-Bleed Draught**
+  - Reduces damage from Howler Wound.
+  - Or speeds up bleed decay.
+
+- **Night-Eye Tonic (optional future expansion)**
+  - If Howler has night variant:
+    - Improves visibility and telegraph clarity.
+
+- **Focus Tincture**
+  - Slightly improves resistance to fear/stagger from Coordinated Howls.
+
+The Howler Hunt is not as mechanically tied to alchemy as Matron, but:
+
+- Pre-Hunt alchemy still makes a real difference in:
+  - Bleed survivability.
+  - Panic/fear mechanics.
+
+### 7.4 Foraging Integration
+
+Foragers who have explored Greatwood:
+
+- Already know:
+  - Where howler dens and trails are.
+  - Small foragable items in predator-rich zones (e.g., bones with marrow, certain herbs).
+- Greatwood Howler pockets may include:
+  - Unique shrubs or grasses exposed by overhunting.
+  - Predatory-scavenger related ingredients.
+
+This encourages:
+
+- Players to treat predator pockets as:
+  - Resource zones as well as danger zones.
+
+---
+
+## 8. LOOT & LODGE INTEGRATION
+
+### 8.1 Thematic Ingredients & Items
+
+Core drops:
+
+- `howler_alpha_pelt`
+  - Premium pelt used for:
+    - Cloaks, bedrolls, Lodge decor.
+- `howler_fang_alpha`
+  - Large fang used in:
+    - Trinkets.
+    - Totems.
+- `howler_flank_prime`
+  - Meat cut suitable for:
+    - High-value roasts or combat meals.
+
+Secondary/common materials:
+
+- `howler_pelt_tuft`
+- `howler_rib_meat`
+- `fang_chip`
+- `warded_howler_tooth` (rare, from pack or alpha depending on design)
+
+### 8.2 Lodge Trophies & Projects
+
+Primary trophy:
+
+- `trophy_greatwood_howler_skull`
+  - Mounted skull with subtle howling pose.
+
+Lodge projects:
+
+1. **Songs of the Pack**
+   - Inputs:
+     - Howler pelts.
+     - Alpha fangs.
+   - Outcome:
+     - Cosmetic:
+       - Pack-themed Lodge banners or totems.
+     - Mechanical:
+       - Slight group buff in Hunts:
+         - Small boost to stamina/regen or group movement.
+
+2. **Quiet the Trails**
+   - Inputs:
+     - Repeated Howler kills.
+     - Contracts turned in.
+   - Outcome:
+     - Cosmetic:
+       - Lodge map showing cleared routes.
+     - Mechanical:
+       - Slight reduction in howler density along certain travel paths.
+
+### 8.3 Chase Items
+
+- **Trinket: `trinket_alpha_howl_charm`**
+  - Passive effect:
+    - Slight reduction in fear/stagger duration.
+    - Minor bonus to damage vs beasts.
+
+- **Recipe: `recipe_scroll_alpha_hunters_stew`**
+  - Upgrade to standard hunter’s stew:
+    - Increased regen.
+    - Possibly a small bleed mitigation buff.
+
+- Low chance Relic hint:
+  - `relic_splinter_echoing_fang`
+    - A shard associated with ancient predatory relics.
+
+### 8.4 Greatwood Loot System Hooks (B151/B155)
+
+In the Greatwood loot system:
+
+- Add an entry for the Hunt:
+
+  - `HUNT_GREATWOOD_HOWLER`
+  - Associated pocket: `POCKET_HOWLER_DEN`.
+
+- Specialty track (in `SpecialtyPity_Greatwood.lua`):
+
+  ```lua
+  SpecialtyPity.tracks.greatwood_howler_specialty = {
+      expected_rolls   = 6,
+      hard_cap_rolls   = 15,
+      min_band         = "B",
+      max_band         = "C",
+      sources          = { "HUNT_GREATWOOD_HOWLER", "POCKET_HOWLER_DEN" },
+  }
+This guarantees:
+
+Players farming Howler for pelts and fangs:
+
+See premium and chase drops at a healthy long-term rate.
+
+9. DIFFICULTY & TUNING
+9.1 Intended Audience
+Early-to-mid progression players:
+
+Likely one of the first major Hunts they tackle.
+
+Recommended gear:
+
+Basic upgrades from Greatwood early play.
+
+Some cooking/alchemy support.
+
+Difficulty target:
+
+Easier than Devourer and Matron.
+
+On par or slightly easier than Ward-Bear in overall complexity, but:
+
+More punishing for groups that ignore multi-target management.
+
+9.2 Fight Duration & Failure Modes
+Target duration:
+
+7–10 minutes.
+
+Common failure modes:
+
+Party allows pack to:
+
+Stay at full strength too long.
+
+Swarm healer/backline.
+
+Echo Howlers not killed:
+
+Leading to extended Rally buffs and widespread fear/stagger.
+
+Marked targets from Hunt Howl:
+
+Not protected or repositioned.
+
+Phase 3 Alpha:
+
+Underestimation of Savage Combos and Desperation Howls.
+
+9.3 Tuning Levers
+Main knobs:
+
+Number of packmates spawned per Rally.
+
+Bleed magnitude and decay rates.
+
+Duration and availability of fear/stagger from Coordinated Howls.
+
+Alpha’s HP and damage in Phase 3.
+
+Echo Howler contributions:
+
+Length and power of howl extensions.
+
+Design philosophy:
+
+Punish:
+
+Ignoring adds.
+
+Failing to protect marked players.
+
+Reward:
+
+Good target priority.
+
+Smart use of terrain against acoustic abilities.
+
+Simple pre-fight prep.
+
+10. IMPLEMENTATION NOTES (HIGH-LEVEL)
+This section describes how the encounter might be structured in code terms, without binding to engine specifics.
+
+10.1 Pack Controller
+Separate module, e.g. GreatwoodHowlerPackController:
+
+Holds:
+
+References to Alpha.
+
+Lists of pack members by role (Flankers, Harriers, Echo).
+
+Pack Morale value.
+
+Responsibilities:
+
+Spawning/despawning pack members.
+
+Reacting to:
+
+Howls.
+
+Death of specific pack roles.
+
+Updating Morale:
+
+Higher when pack is large, Alpha is healthy.
+
+Lower when key roles die, Alpha is low HP.
+
+Alpha AI queries:
+
+PackController:GetFlankTargets()
+
+PackController:GetMorale()
+
+PackController:SummonPackWave(waveSpec)
+
+10.2 Howl System
+Howls should be:
+
+Clearly defined events with:
+
+Type (Rally, Hunt, Coordinated, Desperation).
+
+Source (Alpha, Echo).
+
+Area/targets.
+
+Design suggests:
+
+Central HowlerHowlSystem that:
+
+Handles audio triggers.
+
+Handles buff/debuff distribution.
+
+Handles fear/stagger logic.
+
+Example flow:
+
+Alpha triggers HowlSystem:StartHowl("RALLY", alpha).
+
+Echo Howlers, based on AI, decide to echo:
+
+HowlSystem:EchoHowl("RALLY", echoHowler).
+
+System:
+
+Calculates resulting buff durations.
+
+Applies to pack.
+
+Possibly applies fear to players during Coordinated sequences.
+
+10.3 Loot Hook
+On Alpha death:
+
+Construct context:
+
+mobId = "HUNT_GREATWOOD_HOWLER"
+
+zoneTag = "POCKET_HOWLER_DEN"
+
+isHuntTarget = true
+
+Pass to:
+
+Greatwood creature loot tables.
+
+Hunt reward module.
+
+Specialty pity track.
+
+Minor pack howlers may:
+
+Use standard Greatwood creature loot entries (HOWLER_FAMILY) from B155.
+
+11. TELEMETRY & BALANCING
+11.1 Metrics to Capture
+For Greatwood Howler, log:
+
+Attempts vs kills.
+
+Fight duration.
+
+Death causes by:
+
+Bleeds.
+
+Pack damage vs Alpha damage.
+
+Fear/stagger plus follow-up hits.
+
+Pack stats:
+
+Number of Echo Howlers killed vs left alive.
+
+Average lifespan of pack members by role.
+
+Mark mechanic:
+
+How often Hunt Howl marks the same player repeatedly.
+
+Damage taken by marked players relative to others.
+
+11.2 Targets & Adjustments
+If:
+
+Most wipes are due to:
+
+Bleed ticks alone:
+
+Reduce base bleed damage or provide more obvious counters.
+
+Most wipes are due to:
+
+Fear chain into immediate death:
+
+Increase telegraphing or reduce fear duration.
+
+Fight is overly easy:
+
+Increase pack numbers slightly.
+
+Increase Rally frequency at higher morale.
 
 Goal:
 
-- Establish the **weight** of the boss and bone hazard language.
+A fight that feels:
 
----
+Fast, predatory, and punishing if you ignore the pack.
 
-### 4.3 Phase 2 – Ash and Wakes
+Fair and learnable if you respect howls and adds.
 
-**Trigger:** HP around ~70% → ~35%
+12. SUMMARY
+The Greatwood Howler is the region’s pack predator keystone Hunt:
 
-Ragged King:
+Thematically:
 
-- Draws on ash/ember,
-- Summons echoes of past Hunts.
+Forest as hunter, not just scenery.
 
-New/amped mechanics:
+Mechanically:
 
-- **Ash Storm**
+Teaches pack control, add priority, and audio telegraphs.
 
-  - Periodic:
+Progression-wise:
 
-    - Wind picks up ash,
-    - Visibility drops.
+Often the first or second major Hunt.
 
-  - During storm:
+Sets expectations for coordinating as a group.
 
-    - King gains slight evasion buff,
-    - Bone piles are harder to see.
-    - Ash plumes spawn at vents:
-      - Standing in them deals DoT and slows.
+Together with Elder Hollow Stag, Ward-Bear, Black-Sap Devourer, and Hollowroot Matron, the Greatwood Howler:
 
-- **Wake of Hunts**
+Ensures the player has faced:
 
-  - The King:
+Predatory pressure (Howler).
 
-    - Thrusts his weapon or bone shard into the ground.
+Ceremonial nature trial (Stag).
 
-  - Echoes of old Hunts spawn briefly:
+Shield/ward puzzles (Ward-Bear).
 
-    - Spectral shapes (no full lore detail needed now),
-    - As **elite skeletal beasts**:
+Corruption territory control (Devourer).
 
-      - Wolf-wraith,
-      - Stag bones,
-      - Bear skeleton fragments.
+Infestation and spore management (Matron).
 
-  - They:
+After completing this Hunt, the player should feel:
 
-    - Charge / slam,
-    - Then shatter into bones again.
+“I’ve survived the forest stalking me. I can start hunting it on my own terms.”
 
-- **Ash Mantle**
-
-  - Occasionally:
-
-    - King wraps himself in swirling ash.
-
-  - Effects:
-
-    - Reduced ranged damage briefly.
-    - Standing too close:
-
-      - Reduces player vision,
-      - Applies small fire/corruption tick.
-
-Goal:
-
-- Increase pressure:
-
-  - Movement + add management,
-  - Minimal safe space if bonefields/vents are mismanaged.
-
----
-
-### 4.4 Phase 3 – Shattered Crown
-
-**Trigger:** HP around ~35% → 0%
-
-Ragged King becomes:
-
-- More frantic,
-- More brittle,
-- More explosive.
-
-New/amped mechanics:
-
-- **Crown Break**
-
-  - At the phase transition:
-
-    - He lets out a roar,
-    - A **bone crown** of trophy horns/skulls cracks.
-
-  - Shards:
-
-    - Burst outward as projectiles,
-    - Embed in ground as small hazards or loot visuals.
-
-- **Bone Frenzy**
-
-  - King chains:
-
-    - Cleaver Sweeps,
-    - Stomps,
-    - Ash Lashes,
-
-  - In unpredictable sequences.
-
-  - Bone piles:
-
-    - Get consumed into temporary **bone armor** around him:
-
-      - Extra damage reduction until players strip it by sustained hits.
-
-- **Ash Collapse**
-
-  - As HP gets very low:
-
-    - Ash vents around arena begin to flare more often.
-    - Multiple small ash plumes appear:
-
-      - Creating high DoT zones if fight drags.
-
-- **Last Shank**
-
-  - Final ~10–15% HP:
-
-    - King holds his side (where the `ragged_king_shank` cut would be).
-    - Damage windows:
-
-      - Brief, when he overcommits on swings,
-      - Punish-player-gets-punished if they whiff.
-
-Goal:
-
-- Turn the last portion into:
-
-  - A high-tension dance of:
-
-    - Avoiding bone/ash overflow,
-    - Exploiting brief openings.
-
----
-
-## 5. Specialty Mechanics & Drops
-
-### 5.1 Base vs Specialty Items
-
-From B151 we have:
-
-- Base boss drops:
-
-  - `ragged_king_bone_shard` (base)
-  - `ragged_king_shank` (base)
-
-- Specialty variants (55):
-
-  - `spec_ingr_ragged_king_bone_shard`
-  - `spec_ingr_ragged_king_shank`
-  - `spec_ingr_ragged_king_ashen_fragment`
-
-Think of base items as:
-
-- “Regular but good Hunt loot”,
-
-and `spec_ingr_...` as:
-
-- “Special reagents” for advanced recipes / projects.
-
----
-
-### 5.2 `spec_ingr_ragged_king_bone_shard`
-
-**Fantasy:**
-
-- A dense, jagged shard from the King’s spine or limbs:
-
-  - Hardened by ages of impacts and ash.
-
-**Mechanic:**
-
-- First kill:
-
-  - Guaranteed 1 x `spec_ingr_ragged_king_bone_shard`.
-
-- Later kills:
-
-  - Chance improved if:
-
-    - Players manage bonefields well:
-
-      - Fewer bone piles detonated,
-      - Or if they keep certain “ancestral markers” intact.
-
-Uses:
-
-- Lodge trophies:
-
-  - Bone throne pieces,
-  - Massive wall trophy bracing.
-
-- Food/brew:
-
-  - As stock bone for **very potent marrow broths**.
-  - As focus for bone/ward ritual drinks (58).
-
----
-
-### 5.3 `spec_ingr_ragged_king_shank`
-
-**Fantasy:**
-
-- A massive, charred shank of bone and muscle from the King’s leg.
-
-**Mechanic:**
-
-- Conditional drop:
-
-  - Higher chance if:
-
-    - Players **break bone armor** multiple times in Phase 3:
-      - Forcing King’s body to crack and expose vulnerable flesh.
-
-- Rare enough to feel:
-
-  - Like a special victory,
-  - But not absurdly unobtainable.
-
-Uses:
-
-- Feasts:
-
-  - Late-game Lodge-only roasts & stews with huge buffs but heavy resource cost.
-
-- Rituals:
-
-  - Possibly burned/offered in large fire-based rituals for region effects.
-
----
-
-### 5.4 `spec_ingr_ragged_king_ashen_fragment`
-
-**Fantasy:**
-
-- A small, ember-glowing piece of ash-crusted bone that refuses to cool.
-
-**Mechanic:**
-
-- Rare drop:
-
-  - Drop chance tied to:
-
-    - Allowing **some** ash vents to flare fully,
-    - But not letting the entire arena become lethal.
-
-- Think:
-
-  - “Riding the line” between too much ash and too little.
-
-Uses:
-
-- Alchemy:
-
-  - Very strong ash-based brews:
-
-    - High-risk (side effects) but powerful,
-    - Possibly enabling temporary fire/ash immunity or big damage.
-
-- Lodge:
-
-  - As key reagent in:
-
-    - Ash brazier projects,
-    - or cross-region rituals.
-
----
-
-## 6. Profession Roles
-
-### 6.1 Hunter
-
-- Pre-fight:
-
-  - Tracks weird bonepile patterns.
-  - Studies previous Hunt sites.
-
-- During fight:
-
-  - Tank/space manager:
-
-    - Keeps King’s cleaver away from squishies.
-    - Positions him so:
-
-      - Bone piles popped intentionally,
-      - Vents triggered where they’re manageable.
-
-- Post-fight:
-
-  - Carves:
-
-    - Base bone shards & shank,
-    - Helps determine which parts saved as specialties.
-
----
-
-### 6.2 Cook
-
-- Pre-fight:
-
-  - Serves:
-
-    - Heavy stews,
-    - Ash-roasted roots/meats:
-
-      - For HP and resist vs fire/DoT.
-
-- Post-fight:
-
-  - Uses:
-
-    - `ragged_king_shank` (base) and `spec_ingr_ragged_king_shank`:
-
-      - For large roasts and marrow pots.
-
-  - Dishes could:
-
-    - Boost both HP and some “resolve” / death resist theme.
-
----
-
-### 6.3 Alchemist
-
-- Pre-fight:
-
-  - Brews:
-
-    - DoT-mitigation tonics,
-    - Ward/ash resist draughts.
-
-- During fight:
-
-  - Uses:
-
-    - Potions to:
-
-      - Cleanse ash debuffs,
-      - Temporarily harden players against bone spikes or stomps.
-
-- Post-fight:
-
-  - Processes:
-
-    - Ashen Fragments,
-    - Specialty bone shards.
-
-  - Makes:
-
-    - Tiered ash brews:
-
-      - From “mild” (small regen/DoT resist),
-      - To “volatile” (big buffs with big side effects).
-
----
-
-### 6.4 Forager / Woodworker
-
-- Pre-fight:
-
-  - Explores barrow:
-
-    - Notes where bone piles are densest,
-    - Flags weak pillars / posts.
-
-- During fight:
-
-  - Could:
-
-    - Knock down certain posts to create partial cover,
-    - Clear trash bones in safe pockets before big phases.
-
-- Post-fight:
-
-  - Reclaims:
-
-    - Trophy poles,
-    - Charred timber,
-    - Bits of armor/weapons.
-
-  - Crafts:
-
-    - Ragged King throne,
-    - Bone shrines,
-    - Ash braziers (57).
-
----
-
-## 7. Rewards Integration
-
-### 7.1 Ingredient Mapping (51 / 55)
-
-**Base ingredients (51):**
-
-- `ragged_king_bone_shard`
-- `ragged_king_shank`
-- Generic bone shards,
-- Ash-soaked meat scraps (if you want them for quirky recipes).
-
-**Specialties (55):**
-
-- `spec_ingr_ragged_king_bone_shard`
-- `spec_ingr_ragged_king_shank`
-- `spec_ingr_ragged_king_ashen_fragment`
-
-### 7.2 Loot Behavior (B151 Alignment)
-
-From B151’s Ragged King entry:
-
-- **Guaranteed:**
-
-  - 1 `ragged_king_bone_shard` (base)
-  - 1 `ragged_king_shank` (base)
-  - Coin bundle:
-
-    - Higher than other Hunts,
-    - End-of-region appropriate.
-
-- **Specialty:**
-
-  - `spec_ingr_ragged_king_bone_shard`:
-
-    - Moderate chance per kill,
-    - Strong chance on first kill.
-
-  - `spec_ingr_ragged_king_shank`:
-
-    - Lower chance,
-    - Gated by Phase 3 bone armor / shank behavior.
-
-  - `spec_ingr_ragged_king_ashen_fragment`:
-
-    - Rare,
-    - Tied to ash-vent management conditions.
-
-- **World Drop:**
-
-  - Above-average access to `WORLD_UNCOMMON_GW`:
-
-    - Chance to drop rare recipes or trinkets:
-
-      - Bone/ash flavored,
-      - Late-tier Greatwood items.
-
----
-
-## 8. Lodge Projects & Trophies (57)
-
-### 8.1 Ragged King Throne
-
-**Project ID:** `proj_trophy_ragged_king_throne`
-
-Inputs:
-
-- `spec_ingr_ragged_king_bone_shard`
-- `ragged_king_shank` or `spec_ingr_ragged_king_shank`
-- Generic bones, wood, iron fittings
-
-Effects:
-
-- Massive bone-and-ash throne in Trophy Hall:
-
-  - Visual flex piece.
-  - Passive:
-
-    - Small boost to:
-
-      - Hunt board rewards for all major Hunts,
-      - Or Hunt rep gain.
-
-  - Possibly minor “resolve” buff:
-
-    - Slight reduction in death/repair penalties in-region.
-
----
-
-### 8.2 Ash Pyre Brazier
-
-**Project ID:** `proj_lodge_ashen_pyre_brazier`
-
-Inputs:
-
-- `spec_ingr_ragged_king_ashen_fragment`
-- Ashen Beast reagents (optional synergy),
-- Coal, metal, stone.
-
-Effects:
-
-- Lodge or Ward room brazier:
-
-  - Emits:
-
-    - Dim, persistent ember light.
-    - Occasional drifting ash.
-
-- Mechanics:
-
-  - When lit:
-
-    - Small region-level buff:
-
-      - Slight DoT resistance,
-      - Slight improved drop rate for bone/ash reagents from late Greatwood content.
-
----
-
-### 8.3 Ancestor Rite / Hunt Memorial Project
-
-**Project ID:** `proj_rite_hunt_ancestor_memorial`
-
-Inputs:
-
-- Specialty bone shard,
-- Mix of trophies from earlier Hunts:
-
-  - (Elder Stag, Ward-Bear, Howler, Matron, Devourer)
-
-Effects:
-
-- Ritual / plaque in Lodge or near Wardstone Hill:
-
-  - Symbolic:
-
-    - “We remember what we kill.”
-
-- Mechanics:
-
-  - Minor long-term:
-
-    - XP / rep buff for Hunts,
-    - Or small global quality bump for trophy/ritual projects.
-
----
-
-## 9. Food & Brew Hooks (52, 53, 58)
-
-### 9.1 Food
-
-Ragged King meat and bone:
-
-- Belong at the **very top** of Greatwood food chain.
-
-Examples:
-
-- `food_ragged_king_marrow_pot`
-  - Big pot using:
-
-    - `spec_ingr_ragged_king_bone_shard`,
-    - Root veg and herbs.
-
-  - Buff:
-
-    - Max HP,
-    - Strong regen,
-    - Slight resistance to bone/physical damage and ash DoT.
-
-- `food_ragged_shank_roast`
-  - Feast-tier roast using shank:
-
-    - For Lodge only.
-
-  - Buff:
-
-    - HP + stamina + “resolve” buff:
-      - Slight reduction in death penalties for a time.
-
-### 9.2 Brews
-
-From 58, ashen and bone brews:
-
-- `brew_ragged_ashes_draught`
-
-  - Uses Ashen Fragment + bone shard.
-  - Effects:
-
-    - Mixed blessing:
-
-      - Partial DoT/fire resistance,
-      - Slightly increased damage taken from other sources,
-      - Maybe occasional self-ticks (flavor).
-
-- `brew_boneward_tonic`
-
-  - Uses specialty bone shard.
-  - Effects:
-
-    - Temporary large reduction in physical damage,
-    - Minor slow or stiffness as tradeoff.
-
-These should feel:
-
-- Risky but powerful end-of-region options.
-
----
-
-## 10. Codex & UI
-
-### 10.1 Codex Entries
-
-- **Ragged King – Entity Entry**
-
-  - Unlocks:
-
-    - When player first sees his barrow sign (bone crown shapes).
-    - Expands after:
-
-      - First kill,
-      - Crafting bone throne / ash pyre.
-
-- **Old Hunts and Ash – Concept Entry**
-
-  - Explains:
-
-    - The idea that:
-
-      - Hunts leave behind more than just meat and gold,
-      - Bones and ash remember.
-
-### 10.2 Hunt Board Presentation
-
-Posting should:
-
-- Make it clear:
-
-  - This is an end-tier Greatwood Hunt.
-  - Not for under-geared parties.
-
-- Emphasize:
-
-  - Bone / ash,
-  - Old wars / old hunts,
-  - High reward.
-
-Icons:
-
-- Skull/crown icon.
-- Bone pile icon.
-- Ash flame icon.
-
----
-
-## 11. Difficulty & Replay
-
-### 11.1 First Kill
-
-First completion:
-
-- Guaranteed:
-
-  - Base bone shard + shank,
-  - At least one specialty (bone shard),
-  - Possible Ashen Fragment via quest reward or scripted drop.
-
-- Unlocks:
-
-  - Bone throne project,
-  - Ash pyre project,
-  - Top-tier marrow/ash recipes and brews.
-
-### 11.2 Farming
-
-Repeat kills:
-
-- Provide:
-
-  - Late-tier:
-
-    - Bone/meat for feasts,
-    - Occasional specialties.
-
-- Should be:
-
-  - Slightly more rewarding than other Hunts,
-  - But slower / riskier.
-
-Main reasons to farm:
-
-- Restocking rare bone and ash reagents,
-- Building out full trophy/ritual suite,
-- Flex / prestige.
-
----
-
-## 12. Implementation Notes (Future You)
-
-In the Game Bible:
-
-- B158 is the master doc for:
-
-  - Who Ragged King is,
-  - What he drops,
-  - What systems he feeds.
-
-In data/code (later):
-
-- Ties to:
-
-  - B151 loot for `gw_ragged_king`.
-  - Ingredient/specialty defs in 51 / 55.
-  - Late-tier recipe grids in 52 / 53 / 58.
-  - Trophy/ritual projects in 57.
-
-When implemented:
-
-- Use B158 as checklist:
-
-  - Barrow arena, bonefields, vents built? ✔
-  - Phases (bone → ash → shattered) working? ✔
-  - Loot yields match base & spec IDs? ✔
-  - Lodge projects and food/brews actually consume those reagents? ✔
