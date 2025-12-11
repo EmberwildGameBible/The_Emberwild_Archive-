@@ -46,13 +46,3 @@ If you want the edits made here to appear on GitHub, run these commands from the
    After the first push on a branch you can use `git push` without the `-u` flag.
 4. Open GitHub, create a Pull Request from `<branch-name>` into your main branch (often `main` or `master`), and click **Merge** when ready.
 
-### How to confirm it’s on GitHub
-After you push, you can double-check that GitHub has the branch by comparing your local branch to the remote copy:
-
-```bash
-git fetch origin
-git log --oneline -1
-git log --oneline -1 origin/<branch-name>
-```
-
-If the top commits match, the latest changes from this workspace are now on GitHub. If they differ, re-run the push command from step 3.
