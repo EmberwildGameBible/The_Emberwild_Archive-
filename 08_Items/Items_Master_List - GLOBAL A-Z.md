@@ -2479,4 +2479,3 @@ Description: A reinforced satchel with resin-lined pockets for specimens.
 Uses: Increases gather yields and reduces breakage for delicate finds.
 Drop Sources: Lodge deed rewards and trailwarden contracts.
 File: tool_trailwardens_satchel.png
-
