@@ -9,6 +9,11 @@ Core references and navigation for itemization, crafting, and recipe content.
 
 - ITEM SETS & SIGNATURE DROPS.md — Regional signatures, boss legendaries, and small set bonuses with synergy notes.
 - ITEM COLLECTIONS & CURIOS.md — Collection groupings for trophies, curios, relics, and maps by region.
+- Items_Flavor_Notes.md — Tooltip and examine flavor text for all rare-and-up items plus key common staples.
+- Regions/REGION_NAME - ITEM FLAVOR PACK.md — Ambient/world item packs for Greatwood, Hollowroot, Ashen Ridge, Frostmarch, Duskhollow, Shattered Verge, and Shiverstone Coast.
+
+- ITEM SETS & SIGNATURE DROPS.md — Regional signatures, boss legendaries, and small set bonuses with synergy notes.
+- ITEM COLLECTIONS & CURIOS.md — Collection groupings for trophies, curios, relics, and maps by region.
 
 ## Professions & Materials
 - Professions/PROFESSION COMPONENTS & CRAFTABLES.md — Gathering inputs, crafted gear/consumables, and specialization notes.
@@ -21,6 +26,7 @@ Core references and navigation for itemization, crafting, and recipe content.
 
 - Professions/PROFESSION PROGRESSION LADDERS.md — Tiered key items per profession, aligned to the global list.
 
+- Professions/PROFESSION PROGRESSION LADDERS.md — Tiered key items per profession, aligned to the global list.
 
 ## Recipes & Ingredients
 - Recipes/COOKBOOK EXCERPT - “Fisherman’s Broth”.md
@@ -35,6 +41,11 @@ Core references and navigation for itemization, crafting, and recipe content.
 - Enchants_Enhancements/CHAPTER 10 - APPENDIX C - GEAR ENHANCEMENTS & ENCH.md
 - Gear/CHAPTER 10 - APPENDIX B; I - RESIST GEAR & SET BON.md
 - Gear/EMBERWILD ARMORY - WEAPONS & ARMOR.md — Tiered weapons/armor, class sets, and balance guardrails for loot tables.
+
+## Flavor, Vendors, and Hooks
+- NPC_SHOPS_AND_INVENTORIES.md — Named vendor stock by region and reputation tier.
+- QUEST_HOOKS_FROM_ITEMS.md — Quest and micro-quest seeds driven by items and drops.
+- ITEM COLLECTIONS & CURIOS.md — Updated with regional collection groupings tied to ambient flavor packs.
 
 ## Data Tables
 - items_table.csv — Machine-readable summary of the global item list.

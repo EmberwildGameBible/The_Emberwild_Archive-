@@ -2479,3 +2479,703 @@ Description: A reinforced satchel with resin-lined pockets for specimens.
 Uses: Increases gather yields and reduces breakage for delicate finds.
 Drop Sources: Lodge deed rewards and trailwarden contracts.
 File: tool_trailwardens_satchel.png
+
+[249 — Greatwood Waystone Rubbing]
+Category: Curio – Document
+Rarity: Common
+Profession Tags: None
+Biome / Region: Greatwood
+Description: Charcoal impression taken from a moss-grown waystone rune.
+Uses: Collection scrap traded among lorekeepers and scouts.
+Drop Sources: Found at waystones and druid shrines throughout Greatwood.
+File: curio_waystone_rubbing.png
+
+[250 — Hearthlight Pinecone]
+Category: Curio – Trinket
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Greatwood
+Description: A resin-rich pinecone that glows faintly when warmed by a fire.
+Uses: Keepsake that soothes campers and charms innkeeps for discounts.
+Drop Sources: Gifted by lodge hosts or found in campfire circles.
+File: curio_hearthlight_pinecone.png
+
+[251 — Ranger's Whisper Whistle]
+Category: Curio – Tool
+Rarity: Uncommon
+Profession Tags: Hunting;Foraging
+Biome / Region: Greatwood
+Description: A carved wooden whistle tuned to scatter small beasts.
+Uses: Tool for gentle herding or calming startled pack animals.
+Drop Sources: Sold by trailwardens or recovered from ranger packs.
+File: tool_ranger_whistle.png
+
+[252 — Lodge Guest Ledger]
+Category: Curio – Document
+Rarity: Common
+Profession Tags: None
+Biome / Region: Greatwood
+Description: A tea-stained logbook of names, favors owed, and trail gossip.
+Uses: Quest hook for lodging favors and old debts.
+Drop Sources: Left on lodge counters and ranger bunkhouses.
+File: doc_lodge_guest_ledger.png
+
+[253 — Moss-Stitched Satchel Patch]
+Category: Curio – Patch
+Rarity: Common
+Profession Tags: Tailoring
+Biome / Region: Greatwood
+Description: A patch sewn with living moss to mark safe camps.
+Uses: Vendor trinket or tailoring motif for field gear.
+Drop Sources: Traded between foragers and camp quartermasters.
+File: curio_moss_patch.png
+
+[254 — Old Grove Map Scrap]
+Category: Curio – Map
+Rarity: Uncommon
+Profession Tags: Cartography
+Biome / Region: Greatwood
+Description: A tattered scrap showing forgotten footpaths between groves.
+Uses: Map fragment for collection sets and quest breadcrumbs.
+Drop Sources: Found in hollow logs and surveyor satchels.
+File: map_old_grove_scrap.png
+
+[255 — Bramblethorn Medallion]
+Category: Curio – Token
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Greatwood
+Description: A thorn-etched coin awarded for defending Greatwood caravans.
+Uses: Respect token for lodge vendors and faction checks.
+Drop Sources: Granted after escort events and rare caravan chests.
+File: curio_bramblethorn_medallion.png
+
+[256 — Trailwarden's Woodcut Charm]
+Category: Curio – Charm
+Rarity: Uncommon
+Profession Tags: Foraging;Hunting
+Biome / Region: Greatwood
+Description: A cedar charm etched with tally marks from patrols.
+Uses: Small reputation trinket traded to trailwardens.
+Drop Sources: Carried by senior patrol leads and posted at watchtowers.
+File: curio_trailwarden_charm.png
+
+[257 — Sap-Sealed Favor Knot]
+Category: Curio – Token
+Rarity: Common
+Profession Tags: None
+Biome / Region: Greatwood
+Description: Twine knotted and sealed with sap to mark a traded favor.
+Uses: Quest hook item for small favors and barter.
+Drop Sources: Left on posts at camps or gifted by grateful NPCs.
+File: curio_favor_knot.png
+
+[258 — Dawnwatch Tea Tin]
+Category: Curio – Tin
+Rarity: Uncommon
+Profession Tags: Cooking
+Biome / Region: Greatwood
+Description: A battered tin of smoky tea leaves favored by dawn patrols.
+Uses: Brewed for morale bonuses or traded to tea collectors.
+Drop Sources: Sold by lodge cooks and found in camp cupboards.
+File: curio_dawnwatch_tea.png
+
+[259 — Hollowroot Spore Jar]
+Category: Curio – Jar
+Rarity: Uncommon
+Profession Tags: Alchemy
+Biome / Region: Hollowroot
+Description: A sealed jar swirling with bioluminescent spores.
+Uses: Quest reagent or alchemy curiosity for glowdrafts.
+Drop Sources: Harvested from spore nests and fungal crates.
+File: curio_spore_jar.png
+
+[260 — Glowcap Lantern Shard]
+Category: Curio – Shard
+Rarity: Common
+Profession Tags: None
+Biome / Region: Hollowroot
+Description: Broken prism from a lantern lined with glowcap resin.
+Uses: Vendor trinket or small light source.
+Drop Sources: Scattered around collapsed myconid camps.
+File: curio_lantern_shard.png
+
+[261 — Fungal Study Notes]
+Category: Curio – Document
+Rarity: Uncommon
+Profession Tags: Scribing;Alchemy
+Biome / Region: Hollowroot
+Description: Pages on spore behavior written in cramped script.
+Uses: Quest hook for scholars and alchemists.
+Drop Sources: Recovered from abandoned research camps.
+File: doc_fungal_notes.png
+
+[262 — Burrower's Talon Charm]
+Category: Trophy – Charm
+Rarity: Rare
+Profession Tags: Hunting
+Biome / Region: Hollowroot
+Description: Carved talon charm taken from a tunnel burrower alpha.
+Uses: Trophy charm for hunters and guild turn-ins.
+Drop Sources: Dropped by Hollowroot burrower champions.
+File: trophy_burrower_charm.png
+
+[263 — Moldy Ledger of Tunnels]
+Category: Curio – Document
+Rarity: Common
+Profession Tags: None
+Biome / Region: Hollowroot
+Description: A damp ledger mapping trade tunnels now overrun by fungus.
+Uses: Quest breadcrumb for rerouting supply runs.
+Drop Sources: Found near collapsed carts and forgotten caches.
+File: doc_moldy_ledger.png
+
+[264 — Stalactite Drip Vial]
+Category: Curio – Vial
+Rarity: Common
+Profession Tags: Alchemy
+Biome / Region: Hollowroot
+Description: A glass vial coated with mineral crust from ceiling drips.
+Uses: Minor alchemy curiosity or vendor trinket.
+Drop Sources: Collected from cavern drip points and alchemy kits.
+File: curio_drip_vial.png
+
+[265 — Root-etched Prayer Beads]
+Category: Curio – Beads
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Hollowroot
+Description: Wooden beads carved with prayers to keep tunnels steady.
+Uses: Collection piece traded to miners and pilgrims.
+Drop Sources: Left at underground shrines and tunnel entrances.
+File: curio_prayer_beads.png
+
+[266 — Sporeling Plush Toy]
+Category: Curio – Toy
+Rarity: Common
+Profession Tags: None
+Biome / Region: Hollowroot
+Description: A soft toy shaped like a friendly sporeling.
+Uses: Ambience item or gift for camp children.
+Drop Sources: Sold at makeshift markets or dropped by families fleeing tunnels.
+File: toy_sporeling_plush.png
+
+[267 — Mycelial Map Ribbon]
+Category: Curio – Map
+Rarity: Uncommon
+Profession Tags: Cartography
+Biome / Region: Hollowroot
+Description: A ribbon of cured mycelium with etched tunnel routes.
+Uses: Map fragment for explorers and collection sets.
+Drop Sources: Recovered from lost survey teams and fungal scouts.
+File: map_mycelial_ribbon.png
+
+[268 — Hollowroot Queen's Chit]
+Category: Key – Token
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Hollowroot
+Description: A lacquered chitin token granting passage through guarded burrows.
+Uses: Key item for deep Hollowroot chambers and barter.
+Drop Sources: Rare drop from Hollowroot royal guards.
+File: key_hollowroot_chit.png
+
+[269 — Ashen Ridge Ember Pouch]
+Category: Curio – Pouch
+Rarity: Common
+Profession Tags: None
+Biome / Region: Ashen Ridge
+Description: Cloth pouch stained by volcanic ash and ember dust.
+Uses: Vendor trash or small fireproof container.
+Drop Sources: Found on ridge scouts and ash runners.
+File: curio_ember_pouch.png
+
+[270 — Lava-Singed Scout Journal]
+Category: Curio – Document
+Rarity: Uncommon
+Profession Tags: Scribing
+Biome / Region: Ashen Ridge
+Description: Journal pages brittle from heat and soot.
+Uses: Quest hook for rescue leads and scouting intel.
+Drop Sources: Recovered from fallen scouts and ridge bunkers.
+File: doc_scout_journal.png
+
+[271 — Obsidian Flake Token]
+Category: Curio – Token
+Rarity: Common
+Profession Tags: Smithing
+Biome / Region: Ashen Ridge
+Description: Shattered obsidian shard drilled to wear on a cord.
+Uses: Traded among forgehands as proof of survival.
+Drop Sources: Scavenged near obsidian flows and forge camps.
+File: curio_obsidian_flake.png
+
+[272 — Scoria Prayer Stone]
+Category: Curio – Relic
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Ashen Ridge
+Description: A pumice charm inscribed to ward emberquakes.
+Uses: Collection relic carried by ash pilgrims.
+Drop Sources: Found at ash shrines and volcanic pilgrim routes.
+File: curio_scoria_stone.png
+
+[273 — Coalbed Trinket Chain]
+Category: Curio – Trinket
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Ashen Ridge
+Description: Chain of blackened beads handed out to coal haulers.
+Uses: Vendor trinket or minor reputation charm.
+Drop Sources: Carried by ridge haulers and supply captains.
+File: curio_coalbed_chain.png
+
+[274 — Emberwake Wanted Poster]
+Category: Curio – Document
+Rarity: Common
+Profession Tags: None
+Biome / Region: Ashen Ridge
+Description: Torn poster warning of raiders and smelter thieves.
+Uses: Quest breadcrumb toward ridge bounties.
+Drop Sources: Pinned to barricades and tavern boards.
+File: doc_wanted_poster.png
+
+[275 — Charred Caravan Plaque]
+Category: Trophy – Plaque
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Ashen Ridge
+Description: Half-melted plaque from a burned caravan crest.
+Uses: Collection trophy and evidence for bounty boards.
+Drop Sources: Recovered from destroyed caravans along the ridge.
+File: trophy_caravan_plaque.png
+
+[276 — Smolderglass Marble]
+Category: Curio – Toy
+Rarity: Common
+Profession Tags: None
+Biome / Region: Ashen Ridge
+Description: A marble of cooled smolderglass that stays warm to the touch.
+Uses: Ambience toy traded by ash kids and collectors.
+Drop Sources: Found near glassfields and in traveler pockets.
+File: toy_smolderglass_marble.png
+
+[277 — Fireline Signal Flag]
+Category: Curio – Flag
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Ashen Ridge
+Description: A flag dyed in ashline colors for warning of eruptions.
+Uses: Quest hook for evacuation drills and defense events.
+Drop Sources: Stored at ridge watchpoints and militia lockers.
+File: curio_signal_flag.png
+
+[278 — Ashen Ridge Toll Scrip]
+Category: Curio – Currency
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Ashen Ridge
+Description: Stamped clay scrip used to pay safe-passage tolls.
+Uses: Barter chip for roadblocks and smugglers.
+Drop Sources: Held by toll collectors and smugglers.
+File: curio_toll_scrip.png
+
+[279 — Frostmarch Ice Chime]
+Category: Curio – Trinket
+Rarity: Common
+Profession Tags: None
+Biome / Region: Frostmarch
+Description: Wind chime that freezes in place until touched.
+Uses: Ambience item hung at camp porches.
+Drop Sources: Found at frozen cabins and hunter lodges.
+File: curio_ice_chime.png
+
+[280 — Tundra Hunter's Tag]
+Category: Curio – Tag
+Rarity: Uncommon
+Profession Tags: Hunting
+Biome / Region: Frostmarch
+Description: Metal tag etched with a crest to track hunter kills.
+Uses: Turn-in token for lodge bounties.
+Drop Sources: Carried by guild hunters and awarded for contracts.
+File: curio_hunter_tag.png
+
+[281 — Snowbound Sketchbook]
+Category: Curio – Document
+Rarity: Common
+Profession Tags: Cartography
+Biome / Region: Frostmarch
+Description: Sketches of ice formations and patrol routes.
+Uses: Quest breadcrumb and cartography collection piece.
+Drop Sources: Lost near frozen surveyor camps.
+File: doc_snowbound_sketchbook.png
+
+[282 — Glacier Wayfinder Pin]
+Category: Curio – Pin
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Frostmarch
+Description: Silver pin awarded to pathfinders who cross the glacier.
+Uses: Respected badge opening lodge doors and vendors.
+Drop Sources: Awarded from end-of-route caches and boss hunts.
+File: curio_wayfinder_pin.png
+
+[283 — Frostworn Camp Mug]
+Category: Curio – Trinket
+Rarity: Common
+Profession Tags: Cooking
+Biome / Region: Frostmarch
+Description: Tin mug frosted with permanent rime.
+Uses: Ambience item or traded to cooks for favors.
+Drop Sources: Found in sled packs and camp tables.
+File: curio_camp_mug.png
+
+[284 — Icefloe Ferry Ticket]
+Category: Curio – Document
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Frostmarch
+Description: Stamped ticket for crossing the icefloe ferries.
+Uses: Quest hook for ferry operators and smugglers.
+Drop Sources: Sold at river posts or taken from smugglers.
+File: doc_ferry_ticket.png
+
+[285 — Hoarfrost Bone Charm]
+Category: Trophy – Charm
+Rarity: Uncommon
+Profession Tags: Hunting
+Biome / Region: Frostmarch
+Description: Carved bone charm coated in hoarfrost.
+Uses: Hunter charm for trade or minor warding.
+Drop Sources: Dropped by Frostmarch prowlers and hunted beasts.
+File: trophy_hoarfrost_charm.png
+
+[286 — Polar Sledge Strap]
+Category: Curio – Gear
+Rarity: Common
+Profession Tags: None
+Biome / Region: Frostmarch
+Description: Leather strap from a sledge harness.
+Uses: Vendor trash or crafting motif.
+Drop Sources: Found along sledge trails and broken harnesses.
+File: curio_sledge_strap.png
+
+[287 — Frostmarch Prayer Cloth]
+Category: Curio – Cloth
+Rarity: Uncommon
+Profession Tags: Tailoring
+Biome / Region: Frostmarch
+Description: Embroidered cloth with prayers against whiteouts.
+Uses: Collection cloth and minor talisman sewing pattern.
+Drop Sources: Left at shrine cairns and mountain passes.
+File: curio_prayer_cloth.png
+
+[288 — Frozen Orchard Jam Jar]
+Category: Curio – Food
+Rarity: Uncommon
+Profession Tags: Cooking
+Biome / Region: Frostmarch
+Description: Jar of preserved berries harvested from frost orchards.
+Uses: Cooking flavoring or gift to homesteaders.
+Drop Sources: Bartered at orchard huts and sled markets.
+File: curio_frozen_jam.png
+
+[289 — Duskhollow Candle Stub]
+Category: Curio – Candle
+Rarity: Common
+Profession Tags: None
+Biome / Region: Duskhollow
+Description: Half-burnt candle scented with grave herbs.
+Uses: Ambience item or vigil offering.
+Drop Sources: Gathered from graveyard vigils and chapel ruins.
+File: curio_candle_stub.png
+
+[290 — Whispering Locket]
+Category: Curio – Trinket
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Duskhollow
+Description: Tarnished locket that hums softly when opened.
+Uses: Curio prized by mourners and spirit-watchers.
+Drop Sources: Found near mausoleums and dusk spirits.
+File: curio_whispering_locket.png
+
+[291 — Graveyard Mapping Chalk]
+Category: Curio – Tool
+Rarity: Common
+Profession Tags: Cartography
+Biome / Region: Duskhollow
+Description: Stick of chalk used to mark safe paths between tombs.
+Uses: Quest tool for guiding mourners and scouts.
+Drop Sources: Left on crypt steps and lantern posts.
+File: curio_mapping_chalk.png
+
+[292 — Midnight Sermon Pamphlet]
+Category: Curio – Document
+Rarity: Common
+Profession Tags: None
+Biome / Region: Duskhollow
+Description: Folded pamphlet recounting a midnight sermon on the veil.
+Uses: Lore scrap and quest breadcrumb.
+Drop Sources: Handed out near shrines and midnight gatherings.
+File: doc_midnight_sermon.png
+
+[293 — Ravenfeather Fetish]
+Category: Curio – Charm
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Duskhollow
+Description: Charm braided with raven feathers and bone.
+Uses: Protective trinket traded among hunters.
+Drop Sources: Carried by dusk hunters and altar attendants.
+File: curio_ravenfetish.png
+
+[294 — Mourner's Token Coin]
+Category: Curio – Currency
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Duskhollow
+Description: Coin pressed into palms at funerary rites.
+Uses: Collection piece or offering for crypt access.
+Drop Sources: Left on memorial stones and crypt gates.
+File: curio_mourner_coin.png
+
+[295 — Pale Lantern Hook]
+Category: World Object – Hook
+Rarity: Common
+Profession Tags: None
+Biome / Region: Duskhollow
+Description: Rusty hook meant for lanterns lining the mourning roads.
+Uses: Ambience prop or minor furnishing.
+Drop Sources: Found along lantern chains and ruined posts.
+File: world_pale_hook.png
+
+[296 — Hollow Bell Fragment]
+Category: Curio – Fragment
+Rarity: Common
+Profession Tags: None
+Biome / Region: Duskhollow
+Description: Broken bell shard that rings quietly when jostled.
+Uses: Ambience trinket or offering.
+Drop Sources: Scattered near fallen bell towers.
+File: curio_bell_fragment.png
+
+[297 — Shadehunter's Tally Sticks]
+Category: Curio – Tool
+Rarity: Uncommon
+Profession Tags: Hunting
+Biome / Region: Duskhollow
+Description: Paired sticks notched for tracked shades and spirits.
+Uses: Hunter quest item and collection piece.
+Drop Sources: Carried by shadehunters and dusk patrols.
+File: curio_tally_sticks.png
+
+[298 — Duskhollow Crypt Key]
+Category: Key – Key
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Duskhollow
+Description: Iron key for sealed crypt wings beneath Duskhollow.
+Uses: Unlocks crypt doors and advanced vigil quests.
+Drop Sources: Held by crypt custodians and rare chests.
+File: key_duskhollow_crypt.png
+
+[299 — Verge Skyshard Prism]
+Category: Curio – Relic
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Shattered Verge
+Description: Prismatic shard crackling with static from the Verge storms.
+Uses: Collection relic prized by stormwatchers.
+Drop Sources: Found atop storm pillars and elite rift foes.
+File: curio_skyshard_prism.png
+
+[300 — Broken Anchor Charm]
+Category: Curio – Charm
+Rarity: Common
+Profession Tags: None
+Biome / Region: Shattered Verge
+Description: Charm carved like a broken anchor, symbol of exiled crews.
+Uses: Vendor trinket or collection filler.
+Drop Sources: Dropped near skyship wrecks and exile camps.
+File: curio_anchor_charm.png
+
+[301 — Lightning-Split Banner Scrap]
+Category: Curio – Banner
+Rarity: Common
+Profession Tags: None
+Biome / Region: Shattered Verge
+Description: Scrap of banner charred by lightning strikes.
+Uses: Ambience scrap and storm proof-of-survival.
+Drop Sources: Scattered along battlements and rift breaches.
+File: curio_banner_scrap.png
+
+[302 — Windcarved Flute]
+Category: Curio – Instrument
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Shattered Verge
+Description: Flute hollowed by grit and wind, eerie when played.
+Uses: Ambience instrument; rumored to soothe storm spirits.
+Drop Sources: Found near cliffside camps and stormwatcher nests.
+File: curio_wind_flute.png
+
+[303 — Stormrunner's Ledger]
+Category: Curio – Document
+Rarity: Uncommon
+Profession Tags: Scribing
+Biome / Region: Shattered Verge
+Description: Ledger tracking trade runs made during storm lulls.
+Uses: Quest hook for smuggler routes and storm breaks.
+Drop Sources: Recovered from stormrunner camps and wrecks.
+File: doc_stormrunner_ledger.png
+
+[304 — Riftwatcher's Lens]
+Category: Curio – Lens
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Shattered Verge
+Description: Crystal lens that flickers with distant silhouettes.
+Uses: Curio for spotting rift anomalies; collection relic.
+Drop Sources: Held by riftwatch captains and storm scouts.
+File: curio_rift_lens.png
+
+[305 — Shattered Verge Map Stitch]
+Category: Curio – Map
+Rarity: Uncommon
+Profession Tags: Cartography
+Biome / Region: Shattered Verge
+Description: Patchwork map showing the fractured plateaus.
+Uses: Collection map; hints at safe routes between shards.
+Drop Sources: Found on messenger bodies and broken carts.
+File: map_verge_stitch.png
+
+[306 — Faultline Rubble Keepsake]
+Category: Curio – Keepsake
+Rarity: Common
+Profession Tags: None
+Biome / Region: Shattered Verge
+Description: Smooth stone kept as a reminder of the first faultline.
+Uses: Vendor trinket or memory token.
+Drop Sources: Gathered at memorial cairns and cliff edges.
+File: curio_faultline_keepsake.png
+
+[307 — Exile's Oath Bracelet]
+Category: Curio – Bracelet
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Shattered Verge
+Description: Braided bracelet sworn by exiles who patrol the Verge.
+Uses: Collection token and social barter piece.
+Drop Sources: Worn by exile patrols and traded at camps.
+File: curio_exile_bracelet.png
+
+[308 — Skybound Meal Tin]
+Category: Curio – Food
+Rarity: Common
+Profession Tags: Cooking
+Biome / Region: Shattered Verge
+Description: Tin of dried rations sealed for skybridge crossings.
+Uses: Vendor food tin or trade good for hungry scouts.
+Drop Sources: Left in skybridge caches and rope winch stations.
+File: curio_skybound_tin.png
+
+[309 — Salt-Crusted Sailcloth Patch]
+Category: Curio – Patch
+Rarity: Common
+Profession Tags: Tailoring
+Biome / Region: Shiverstone Coast
+Description: Patch of sailcloth stiff with salt and tar.
+Uses: Vendor scrap or tailoring motif for seafarers.
+Drop Sources: Found on wrecked sails and dock piles.
+File: curio_sailcloth_patch.png
+
+[310 — Tidecaller's Brass Bell]
+Category: Curio – Trinket
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Shiverstone Coast
+Description: Small brass bell used to time the tides.
+Uses: Curio and timing tool for fishers.
+Drop Sources: Hung near piers or kept by tidecallers.
+File: curio_tidecaller_bell.png
+
+[311 — Barnacle Etched Compass]
+Category: Curio – Tool
+Rarity: Uncommon
+Profession Tags: Fishing;Cartography
+Biome / Region: Shiverstone Coast
+Description: Compass scratched by barnacles but still true.
+Uses: Navigation aid for sailors and shore trackers.
+Drop Sources: Recovered from wreck lockers and smuggler chests.
+File: curio_barnacle_compass.png
+
+[312 — Driftglass Keepsake Bottle]
+Category: Curio – Bottle
+Rarity: Common
+Profession Tags: None
+Biome / Region: Shiverstone Coast
+Description: Bottle filled with smooth driftglass shards.
+Uses: Collection trinket and ambient shelf piece.
+Drop Sources: Collected along tidepools and sea caves.
+File: curio_driftglass_bottle.png
+
+[313 — Smuggler's Ledger Page]
+Category: Curio – Document
+Rarity: Uncommon
+Profession Tags: None
+Biome / Region: Shiverstone Coast
+Description: Torn ledger page noting illicit cargo and tide windows.
+Uses: Quest hook toward smugglers and coastal events.
+Drop Sources: Found in hidden caches and smuggler packs.
+File: doc_smuggler_ledger.png
+
+[314 — Sea-Worn Prayer Knot]
+Category: Curio – Charm
+Rarity: Common
+Profession Tags: None
+Biome / Region: Shiverstone Coast
+Description: Twisted cord charm meant to keep boats steady.
+Uses: Collection charm or offering at dock shrines.
+Drop Sources: Left on mooring posts and shrine tables.
+File: curio_prayer_knot.png
+
+[315 — Shiverstone Dried Kelp Snack]
+Category: Ingredient – Snack
+Rarity: Common
+Profession Tags: Cooking;Fishing
+Biome / Region: Shiverstone Coast
+Description: Paper-thin sheets of kelp dried with brine.
+Uses: Travel snack or cooking garnish.
+Drop Sources: Sold at pier stalls and packed by sailors.
+File: food_dried_kelp.png
+
+[316 — Coastal Beacon Oil Flask]
+Category: Curio – Vial
+Rarity: Uncommon
+Profession Tags: Alchemy
+Biome / Region: Shiverstone Coast
+Description: Flask of thick oil used to light fog beacons.
+Uses: Quest item for lighthouse upkeep and alchemy fuel.
+Drop Sources: Stored near beacons and lighthouse stores.
+File: curio_beacon_oil.png
+
+[317 — Stormwashed Coin Stack]
+Category: Curio – Currency
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Shiverstone Coast
+Description: Stack of coins fused together by sea salt and lightning.
+Uses: Valuable curio for collectors and treasure hunters.
+Drop Sources: Recovered from storm-tossed wreck treasure.
+File: curio_stormwashed_coins.png
+
+[318 — Dockmaster's Wharf Key]
+Category: Key – Key
+Rarity: Rare
+Profession Tags: None
+Biome / Region: Shiverstone Coast
+Description: Heavy iron key that opens secured wharf warehouses.
+Uses: Unlocks coastal warehouses and late-night shipments.
+Drop Sources: Held by dockmasters or stolen by smugglers.
+File: key_dockmaster_wharf.png

@@ -314,3 +314,4 @@ Rarity: Epic
 Tier / Progression: Late
 Source: Duskhollow assassins and veilrunner events.
 Primary Uses: Stealth-focused hood for rogues and rangers.
+Primary Uses: Stealth-focused hood for rogues and rangers.
