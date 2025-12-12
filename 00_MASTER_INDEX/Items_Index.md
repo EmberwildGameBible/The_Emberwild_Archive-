@@ -1,14 +1,35 @@
 # Items Index
 
+Core references and navigation for itemization, crafting, and recipe content.
+
+## Global References
+- ITEM CATALOG - A TO Z.md — Alphabetized items across rarities with sources, roles, and classic-friendly hooks.
+- Items_Master_List - GLOBAL A-Z.md — Unified item entries with category, rarity, drops, and profession tags across all families.
+- ITEM_TAXONOMY - GLOBAL OVERVIEW.md — Shared item family definitions, rarity usage, and profession/system touchpoints.
+
+## Professions & Materials
+- Professions/PROFESSION COMPONENTS & CRAFTABLES.md — Gathering inputs, crafted gear/consumables, and specialization notes.
+- Professions/Cooking_Items_A-Z.md
+- Professions/Fishing_Items_A-Z.md
+- Professions/Hunting_Items_A-Z.md
+- Professions/Alchemy_Items_A-Z.md
+- Professions/Smithing_Items_A-Z.md
+- Professions/Tailoring_Items_A-Z.md
+
+## Recipes & Ingredients
+- Recipes/COOKBOOK EXCERPT - “Fisherman’s Broth”.md
+- Recipes/COOKBOOK PAGE - “Cheap Meal for Long Days”.md
+- Recipes/EMBERWILD COOKBOOK - CAMPFIRE RECIPES.md — Low-level, classic-style meals that use the ingredient catalog and support class roles.
+- Recipes/EMBERWILD COOKBOOK - FIELD RATIONS & BUFFS.md — Travel snacks, dungeon prep meals, and war supply crates using the existing ingredient list.
+- Recipes/EMBERWILD COOKBOOK - INGREDIENTS.md — Legacy ingredients list (40 entries) spanning herbs, roots, fruits, fish, meats, and spices.
+- Recipes/EMBERWILD COOKBOOK - INGREDIENTS (EXTENDED MASTER LIST).md — Extended ingredient catalog aligned to the global item format.
+
+## Gear, Enchants, and Budgets
 - Budgets/CHAPTER 10 - APPENDIX A; I - II - ITEM BUDGET FRAM.md
 - Enchants_Enhancements/CHAPTER 10 - APPENDIX C - GEAR ENHANCEMENTS & ENCH.md
 - Gear/CHAPTER 10 - APPENDIX B; I - RESIST GEAR & SET BON.md
 - Gear/EMBERWILD ARMORY - WEAPONS & ARMOR.md — Tiered weapons/armor, class sets, and balance guardrails for loot tables.
-- ITEM CATALOG - A TO Z.md — Alphabetized items across rarities with sources, roles, and classic-friendly hooks.
-- Professions/PROFESSION COMPONENTS & CRAFTABLES.md — Gathering inputs, crafted gear/consumables, and specialization notes.
-- Recipes/COOKBOOK EXCERPT - “Fisherman’s Broth”.md
-- Recipes/COOKBOOK PAGE - “Cheap Meal for Long Days”.md
-- Recipes/EMBERWILD COOKBOOK - INGREDIENTS.md — Expanded ingredient list (60 entries) spanning herbs, roots, grains, meats, fish, and spices.
-- Recipes/EMBERWILD COOKBOOK - CAMPFIRE RECIPES.md — Low-level, classic-style meals that use the ingredient catalog and support class roles.
-- Recipes/EMBERWILD COOKBOOK - FIELD RATIONS & BUFFS.md — Travel snacks, dungeon prep meals, and war supply crates using the existing ingredient list.
-- Recipes/EMBERWILD COOKBOOK - INGREDIENTS.md — Ingredients list (40 entries) spanning herbs, roots, fruits, fish, meats, and spices.
+
+## Data Tables
+- items_table.csv — Machine-readable summary of the global item list.
+- Professions/profession_items_table.csv — Machine-readable summary of profession item usage.
