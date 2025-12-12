@@ -1,0 +1,312 @@
+profession,item_name,type,tier,source_summary
+Cooking,Barley Snack Pack,Input,Newbie,Village vendors and camp cooks.
+Cooking,Cinderbrew Flask,Tool,Endgame,Crafted from kiln herbs and salamander glands.
+Cooking,Ancient Knot,Output,Endgame,Found in Sunspire from quests.
+Cooking,Amberwild Map,Tool,Mid,Found in Shiverstone Coast from raiders.
+Cooking,Bramble Oil,Tool,Endgame,Found in Glassfields from beasts.
+Cooking,Bronzed Quiver,Input,Mid,Found in Deepwatch from camps.
+Cooking,Bronzed Ward,Tool,Endgame,Found in Riverlight Delta from nodes.
+Cooking,Drift Elixir,Tool,Endgame,Found in Whispering Steppes from nodes.
+Cooking,Duskborn Gauntlet,Input,Mid,Found in Glassfields from beasts.
+Cooking,Elder Vial,Tool,Mid,Found in Stoneweald from beasts.
+Cooking,Feral Brew,Input,Mid,Found in Bramblefold from beasts.
+Cooking,Glimmer Xylo-shard,Tool,Endgame,Found in Stoneweald from nodes.
+Cooking,Glimmer Brew,Input,Mid,Found in Sunspire from camps.
+Cooking,Greatwood Driftleaf,Tool,Mid,Found in Glassfields from quests.
+Cooking,Hollow Feather,Tool,Endgame,Found in Bramblefold from camps.
+Cooking,Ivory Knot,Tool,Mid,Found in Deepwatch from raiders.
+Cooking,Ironroot Urn,Tool,Endgame,Found in Stoneweald from quests.
+Cooking,Jade Urn,Tool,Endgame,Found in Riverlight Delta from camps.
+Cooking,Juniper Ward,Tool,Mid,Found in Cinder Kilns from quests.
+Cooking,Kestrel Blade,Output,Endgame,Found in Deepwatch from camps.
+Cooking,Knotwood Cowl,Tool,Endgame,Found in Greatwood from camps.
+Cooking,Knotwood Harpoon,Input,Mid,Found in Moonwake Marsh from raiders.
+Cooking,Lantern Cowl,Tool,Endgame,Found in Frost Caverns from quests.
+Cooking,Luminous Jerky,Tool,Endgame,Found in Shiverstone Coast from beasts.
+Cooking,Lupine Lantern,Tool,Mid,Found in Moonwake Marsh from nodes.
+Cooking,Mire Lantern,Tool,Mid,Found in Whispering Steppes from quests.
+Cooking,Northwind Zest,Input,Endgame,Found in Sunspire from beasts.
+Cooking,Oakheart Feather,Output,Mid,Found in Shiverstone Coast from quests.
+Cooking,Oathbound Gland,Output,Endgame,Found in Glassfields from camps.
+Cooking,Opal Ink,Tool,Mid,Found in Deepwatch from camps.
+Cooking,Peridot Map,Input,Mid,Found in Whispering Steppes from nodes.
+Cooking,Quill Knot,Tool,Endgame,Found in Moonwake Marsh from nodes.
+Cooking,Quartz Saddle,Tool,Endgame,Found in Sunspire from camps.
+Cooking,Thornlit Jerky,Tool,Mid,Found in Ashen Plains from beasts.
+Cooking,Tideborn Lantern,Tool,Endgame,Found in Sunspire from nodes.
+Cooking,Umbral Lantern,Tool,Endgame,Found in Emberford from beasts.
+Cooking,Umbral Xylo-shard,Input,Endgame,Found in Feral Fens from camps.
+Cooking,Wraith Chisel,Tool,Endgame,Found in Ashen Plains from nodes.
+Cooking,Whisper Driftleaf,Output,Mid,Found in Moonwake Marsh from camps.
+Cooking,Yellowroot Quiver,Tool,Endgame,Found in Greatwood from quests.
+Cooking,Yewbarrow Saddle,Tool,Mid,Found in Stoneweald from raiders.
+Cooking,Zale Yarn,Output,Endgame,Found in Frost Caverns from nodes.
+Cooking,Zephyr Cowl,Input,Endgame,Found in Bramblefold from raiders.
+Fishing,Amberwild Map,Tool,Mid,Found in Shiverstone Coast from raiders.
+Fishing,Bramble Urn,Input,Mid,Found in Stoneweald from nodes.
+Fishing,Bronzed Ward,Tool,Endgame,Found in Riverlight Delta from nodes.
+Fishing,Cinder Ward,Tool,Endgame,Found in Moonwake Marsh from raiders.
+Fishing,Crystal Gauntlet,Input,Mid,Found in Deepwatch from camps.
+Fishing,Duskborn Gauntlet,Input,Mid,Found in Glassfields from beasts.
+Fishing,Drift Jerky,Input,Mid,Found in Stoneweald from raiders.
+Fishing,Ember Harpoon,Input,Endgame,Found in Feral Fens from camps.
+Fishing,Elder Jerky,Input,Mid,Found in Glassfields from raiders.
+Fishing,Ever Ration,Output,Mid,Found in Feral Fens from camps.
+Fishing,Ember Talisman,Output,Endgame,Found in Stoneweald from nodes.
+Fishing,Feral Xylo-shard,Tool,Endgame,Found in Greatwood from nodes.
+Fishing,Glimmer Xylo-shard,Tool,Endgame,Found in Stoneweald from nodes.
+Fishing,Gravetide Gland,Output,Mid,Found in Bramblefold from beasts.
+Fishing,Hazel Driftleaf,Tool,Mid,Found in Deepwatch from quests.
+Fishing,Hearth Map,Tool,Endgame,Found in Whispering Steppes from nodes.
+Fishing,Idle Saddle,Input,Mid,Found in Ashen Plains from raiders.
+Fishing,Ivory Ward,Tool,Mid,Found in Moonwake Marsh from camps.
+Fishing,Juniper Quiver,Input,Endgame,Found in Moonwake Marsh from camps.
+Fishing,Kindled Yarn,Tool,Endgame,Found in Emberford from beasts.
+Fishing,Kindled Charm,Tool,Mid,Found in Ashen Plains from camps.
+Fishing,Luminous Elixir,Input,Mid,Found in Stoneweald from beasts.
+Fishing,Lupine Gauntlet,Input,Endgame,Found in Glassfields from raiders.
+Fishing,Luminous Jerky,Tool,Endgame,Found in Shiverstone Coast from beasts.
+Fishing,Moonset Jerky,Tool,Endgame,Found in Deepwatch from camps.
+Fishing,Mire Lantern,Tool,Mid,Found in Whispering Steppes from quests.
+Fishing,Moonset Parchment,Output,Mid,Found in Bramblefold from nodes.
+Fishing,Mire Ration,Output,Endgame,Found in Riverlight Delta from quests.
+Fishing,Mosslit Talisman,Tool,Mid,Found in Emberford from raiders.
+Fishing,Nightvine Xylo-shard,Input,Mid,Found in Sunspire from raiders.
+Fishing,Nettle Arrow,Input,Mid,Found in Stoneweald from camps.
+Fishing,Northwind Chisel,Tool,Mid,Found in Glassfields from quests.
+Fishing,Opal Ink,Tool,Mid,Found in Deepwatch from camps.
+Fishing,Pyre Feather,Output,Mid,Found in Riverlight Delta from beasts.
+Fishing,Pinecrest Ink,Tool,Mid,Found in Emberford from raiders.
+Fishing,Pyre Knot,Tool,Endgame,Found in Moonwake Marsh from quests.
+Fishing,Peridot Map,Input,Mid,Found in Whispering Steppes from nodes.
+Fishing,Quartz Map,Input,Mid,Found in Stoneweald from nodes.
+Fishing,Quickmire Oil,Input,Endgame,Found in Sunspire from raiders.
+Fishing,Quartz Yarn,Output,Mid,Found in Bramblefold from quests.
+Fishing,Runed Apple,Output,Endgame,Found in Feral Fens from quests.
+Fishing,Rosewood Blade,Tool,Mid,Found in Deepwatch from beasts.
+Fishing,Ravenholt Charm,Tool,Endgame,Found in Bramblefold from nodes.
+Fishing,Stormweld Blade,Tool,Mid,Found in Frost Caverns from quests.
+Fishing,Sable Cowl,Input,Mid,Found in Riverlight Delta from camps.
+Fishing,Thornlit Elixir,Input,Endgame,Found in Riverlight Delta from beasts.
+Fishing,Thornlit Parchment,Output,Endgame,Found in Moonwake Marsh from beasts.
+Fishing,Tideborn Ration,Tool,Mid,Found in Moonwake Marsh from quests.
+Fishing,Underbough Needle,Output,Mid,Found in Greatwood from beasts.
+Fishing,Underbough Talisman,Tool,Endgame,Found in Moonwake Marsh from camps.
+Fishing,Umber Vial,Input,Mid,Found in Whispering Steppes from nodes.
+Fishing,Verdant Talisman,Tool,Endgame,Found in Whispering Steppes from beasts.
+Fishing,Vigil Vial,Input,Mid,Found in Moonwake Marsh from camps.
+Fishing,Verdant Zest,Input,Mid,Found in Shiverstone Coast from camps.
+Fishing,Wildgrove Brew,Tool,Mid,Found in Feral Fens from beasts.
+Fishing,Xyra Feather,Output,Endgame,Found in Whispering Steppes from camps.
+Fishing,Xenith Map,Input,Endgame,Found in Sunspire from camps.
+Fishing,Yarrow Apple,Tool,Mid,Found in Glassfields from quests.
+Fishing,Zincroot Ward,Output,Mid,Found in Emberford from quests.
+Hunting,Ashen Oil,Tool,Endgame,Found in Shiverstone Coast from raiders.
+Hunting,Ancient Quiver,Input,Mid,Found in Moonwake Marsh from quests.
+Hunting,Amberwild Saddle,Input,Endgame,Found in Sunspire from nodes.
+Hunting,Bronzed Quiver,Input,Mid,Found in Deepwatch from camps.
+Hunting,Cinder Blade,Output,Mid,Found in Cinder Kilns from camps.
+Hunting,Crystal Charm,Output,Endgame,Found in Deepwatch from beasts.
+Hunting,Crystal Gauntlet,Input,Mid,Found in Deepwatch from camps.
+Hunting,Duskborn Charm,Output,Endgame,Found in Greatwood from beasts.
+Hunting,Dawnlit Cowl,Tool,Mid,Found in Riverlight Delta from nodes.
+Hunting,Duskborn Gauntlet,Input,Mid,Found in Glassfields from beasts.
+Hunting,Dawnlit Harpoon,Input,Endgame,Found in Deepwatch from beasts.
+Hunting,Frostfell Vial,Tool,Mid,Found in Riverlight Delta from raiders.
+Hunting,Farscout Zest,Input,Mid,Found in Riverlight Delta from beasts.
+Hunting,Gravetide Zest,Input,Mid,Found in Riverlight Delta from quests.
+Hunting,Glimmer Feather,Tool,Endgame,Found in Bramblefold from nodes.
+Hunting,Hearth Gland,Output,Mid,Found in Sunspire from raiders.
+Hunting,Hollow Knot,Tool,Mid,Found in Sunspire from raiders.
+Hunting,Hazel Oil,Input,Mid,Found in Ashen Plains from camps.
+Hunting,Ironroot Ink,Output,Endgame,Found in Riverlight Delta from raiders.
+Hunting,Ironroot Oil,Input,Mid,Found in Glassfields from nodes.
+Hunting,Ivory Ward,Tool,Mid,Found in Moonwake Marsh from camps.
+Hunting,Jetstone Saddle,Input,Mid,Found in Deepwatch from quests.
+Hunting,Juniper Blade,Output,Endgame,Found in Ashen Plains from nodes.
+Hunting,Kestrel Elixir,Input,Mid,Found in Ashen Plains from nodes.
+Hunting,Luminous Elixir,Input,Mid,Found in Stoneweald from beasts.
+Hunting,Lantern Harpoon,Input,Mid,Found in Emberford from nodes.
+Hunting,Moonset Vial,Tool,Endgame,Found in Sunspire from quests.
+Hunting,Mire Xylo-shard,Input,Mid,Found in Whispering Steppes from camps.
+Hunting,Nightvine Xylo-shard,Input,Mid,Found in Sunspire from raiders.
+Hunting,Opal Arrow,Input,Mid,Found in Glassfields from camps.
+Hunting,Oakheart Brew,Tool,Endgame,Found in Moonwake Marsh from quests.
+Hunting,Pinecrest Ink,Tool,Mid,Found in Emberford from raiders.
+Hunting,Peridot Map,Input,Mid,Found in Whispering Steppes from nodes.
+Hunting,Pinecrest Oil,Input,Endgame,Found in Greatwood from quests.
+Hunting,Quartz Map,Input,Mid,Found in Stoneweald from nodes.
+Hunting,Runed Cowl,Input,Mid,Found in Ashen Plains from raiders.
+Hunting,Sable Apple,Output,Endgame,Found in Moonwake Marsh from camps.
+Hunting,Sable Cowl,Input,Mid,Found in Riverlight Delta from camps.
+Hunting,Tideborn Gauntlet,Input,Mid,Found in Stoneweald from camps.
+Hunting,Tallow Harpoon,Tool,Endgame,Found in Moonwake Marsh from quests.
+Hunting,Underbough Needle,Output,Mid,Found in Greatwood from beasts.
+Hunting,Umber Parchment,Output,Endgame,Found in Whispering Steppes from nodes.
+Hunting,Underbough Talisman,Tool,Endgame,Found in Moonwake Marsh from camps.
+Hunting,Umber Vial,Input,Mid,Found in Whispering Steppes from nodes.
+Hunting,Vigil Vial,Input,Mid,Found in Moonwake Marsh from camps.
+Hunting,Vigil Arrow,Tool,Endgame,Found in Riverlight Delta from raiders.
+Hunting,Vigil Driftleaf,Output,Mid,Found in Bramblefold from beasts.
+Hunting,Wildgrove Feather,Output,Endgame,Found in Stoneweald from nodes.
+Hunting,Whisper Ink,Tool,Endgame,Found in Cinder Kilns from quests.
+Hunting,Wildgrove Knot,Input,Mid,Found in Frost Caverns from quests.
+Hunting,Xenith Gland,Tool,Mid,Found in Deepwatch from nodes.
+Hunting,Xyra Knot,Input,Mid,Found in Riverlight Delta from nodes.
+Hunting,Xale Oil,Input,Mid,Found in Emberford from nodes.
+Hunting,Xenith Saddle,Tool,Mid,Found in Shiverstone Coast from nodes.
+Hunting,Yewbarrow Map,Input,Endgame,Found in Glassfields from quests.
+Hunting,Yarrow Oil,Input,Mid,Found in Riverlight Delta from quests.
+Hunting,Yarrow Urn,Tool,Endgame,Found in Cinder Kilns from camps.
+Hunting,Yellowroot Ward,Output,Mid,Found in Stoneweald from quests.
+Hunting,Zephyr Urn,Tool,Endgame,Found in Riverlight Delta from raiders.
+Hunting,Zephyr Apple,Tool,Mid,Found in Glassfields from raiders.
+Hunting,Zincroot Blade,Tool,Endgame,Found in Whispering Steppes from nodes.
+Hunting,Zale Charm,Input,Mid,Found in Stoneweald from nodes.
+Hunting,Zincroot Elixir,Input,Mid,Found in Sunspire from camps.
+Alchemy,Cinderbrew Flask,Tool,Endgame,Crafted from kiln herbs and salamander glands.
+Alchemy,Emberglass Wand,Output,Endgame,Crafted with rare gems and caster quests.
+Alchemy,Amberwild Gland,Tool,Endgame,Found in Feral Fens from raiders.
+Alchemy,Brood Yarn,Tool,Mid,Found in Riverlight Delta from raiders.
+Alchemy,Bramble Apple,Tool,Endgame,Found in Emberford from nodes.
+Alchemy,Cinder Elixir,Tool,Endgame,Found in Glassfields from nodes.
+Alchemy,Duskborn Charm,Output,Endgame,Found in Greatwood from beasts.
+Alchemy,Dawnlit Harpoon,Input,Endgame,Found in Deepwatch from beasts.
+Alchemy,Drift Jerky,Input,Mid,Found in Stoneweald from raiders.
+Alchemy,Elder Parchment,Tool,Endgame,Found in Ashen Plains from quests.
+Alchemy,Elder Vial,Tool,Mid,Found in Stoneweald from beasts.
+Alchemy,Frostfell Parchment,Tool,Endgame,Found in Riverlight Delta from camps.
+Alchemy,Farscout Talisman,Output,Endgame,Found in Shiverstone Coast from nodes.
+Alchemy,Frostfell Arrow,Input,Endgame,Found in Shiverstone Coast from raiders.
+Alchemy,Gravetide Chisel,Tool,Endgame,Found in Deepwatch from camps.
+Alchemy,Hazel Driftleaf,Tool,Mid,Found in Deepwatch from quests.
+Alchemy,Hazel Ink,Output,Endgame,Found in Whispering Steppes from camps.
+Alchemy,Ivory Knot,Tool,Mid,Found in Deepwatch from raiders.
+Alchemy,Idle Map,Tool,Endgame,Found in Bramblefold from quests.
+Alchemy,Ironroot Oil,Input,Mid,Found in Glassfields from nodes.
+Alchemy,Juniper Ward,Tool,Mid,Found in Cinder Kilns from quests.
+Alchemy,Jetstone Charm,Tool,Mid,Found in Sunspire from quests.
+Alchemy,Kindled Gauntlet,Input,Endgame,Found in Emberford from raiders.
+Alchemy,Lantern Cowl,Tool,Endgame,Found in Frost Caverns from quests.
+Alchemy,Luminous Elixir,Input,Mid,Found in Stoneweald from beasts.
+Alchemy,Lupine Gauntlet,Input,Endgame,Found in Glassfields from raiders.
+Alchemy,Luminous Parchment,Output,Mid,Found in Emberford from beasts.
+Alchemy,Mosslit Needle,Tool,Endgame,Found in Cinder Kilns from nodes.
+Alchemy,Nightvine Ration,Output,Endgame,Found in Moonwake Marsh from nodes.
+Alchemy,Northwind Talisman,Tool,Mid,Found in Shiverstone Coast from quests.
+Alchemy,Oathbound Zest,Input,Endgame,Found in Glassfields from raiders.
+Alchemy,Oathbound Gland,Output,Endgame,Found in Glassfields from camps.
+Alchemy,Pinecrest Oil,Input,Endgame,Found in Greatwood from quests.
+Alchemy,Quickmire Oil,Input,Endgame,Found in Sunspire from raiders.
+Alchemy,Quill Quiver,Input,Mid,Found in Ashen Plains from beasts.
+Alchemy,Quartz Saddle,Tool,Endgame,Found in Sunspire from camps.
+Alchemy,Quickmire Urn,Tool,Mid,Found in Cinder Kilns from camps.
+Alchemy,Sable Harpoon,Tool,Endgame,Found in Ashen Plains from camps.
+Alchemy,Thornlit Jerky,Tool,Mid,Found in Ashen Plains from beasts.
+Alchemy,Tallow Needle,Output,Mid,Found in Stoneweald from nodes.
+Alchemy,Umber Parchment,Output,Endgame,Found in Whispering Steppes from nodes.
+Alchemy,Umber Vial,Input,Mid,Found in Whispering Steppes from nodes.
+Alchemy,Vinebound Xylo-shard,Input,Endgame,Found in Ashen Plains from beasts.
+Alchemy,Verdant Zest,Input,Mid,Found in Shiverstone Coast from camps.
+Alchemy,Vinebound Brew,Tool,Mid,Found in Glassfields from camps.
+Alchemy,Wildgrove Brew,Tool,Mid,Found in Feral Fens from beasts.
+Alchemy,Whisper Driftleaf,Output,Mid,Found in Moonwake Marsh from camps.
+Alchemy,Wraith Gland,Tool,Mid,Found in Bramblefold from beasts.
+Alchemy,Xale Ink,Tool,Endgame,Found in Sunspire from nodes.
+Alchemy,Zephyr Urn,Tool,Endgame,Found in Riverlight Delta from raiders.
+Alchemy,Zincroot Blade,Tool,Endgame,Found in Whispering Steppes from nodes.
+Smithing,Aegis of Amberwake,Output,Endgame,Molten wing bosses and raid chests.
+Smithing,Ashen Pike,Output,Mid,Outdoor world drops and militia caches.
+Smithing,Coldforged Shortsword,Output,Mid,Blacksmithing craft and frost goblin drops.
+Smithing,Amberwild Gland,Tool,Endgame,Found in Feral Fens from raiders.
+Smithing,Ashen Oil,Tool,Endgame,Found in Shiverstone Coast from raiders.
+Smithing,Amberwild Saddle,Input,Endgame,Found in Sunspire from nodes.
+Smithing,Crestfallen Apple,Tool,Endgame,Found in Moonwake Marsh from nodes.
+Smithing,Crestfallen Cowl,Tool,Mid,Found in Frost Caverns from nodes.
+Smithing,Dawnlit Cowl,Tool,Mid,Found in Riverlight Delta from nodes.
+Smithing,Duskborn Lantern,Tool,Endgame,Found in Glassfields from quests.
+Smithing,Farscout Talisman,Output,Endgame,Found in Shiverstone Coast from nodes.
+Smithing,Frostfell Vial,Tool,Mid,Found in Riverlight Delta from raiders.
+Smithing,Farscout Zest,Input,Mid,Found in Riverlight Delta from beasts.
+Smithing,Frostfell Arrow,Input,Endgame,Found in Shiverstone Coast from raiders.
+Smithing,Gravetide Zest,Input,Mid,Found in Riverlight Delta from quests.
+Smithing,Greatwood Arrow,Input,Endgame,Found in Stoneweald from camps.
+Smithing,Greatwood Driftleaf,Tool,Mid,Found in Glassfields from quests.
+Smithing,Gravetide Gland,Output,Mid,Found in Bramblefold from beasts.
+Smithing,Ironroot Ink,Output,Endgame,Found in Riverlight Delta from raiders.
+Smithing,Ivory Quiver,Input,Endgame,Found in Bramblefold from raiders.
+Smithing,Juniper Quiver,Input,Endgame,Found in Moonwake Marsh from camps.
+Smithing,Jetstone Saddle,Input,Mid,Found in Deepwatch from quests.
+Smithing,Jade Urn,Tool,Endgame,Found in Riverlight Delta from camps.
+Smithing,Jade Apple,Output,Mid,Found in Feral Fens from beasts.
+Smithing,Kindled Charm,Tool,Mid,Found in Ashen Plains from camps.
+Smithing,Knotwood Cowl,Tool,Endgame,Found in Greatwood from camps.
+Smithing,Knotwood Harpoon,Input,Mid,Found in Moonwake Marsh from raiders.
+Smithing,Mosslit Needle,Tool,Endgame,Found in Cinder Kilns from nodes.
+Smithing,Nightvine Ration,Output,Endgame,Found in Moonwake Marsh from nodes.
+Smithing,Nightvine Brew,Tool,Endgame,Found in Feral Fens from beasts.
+Smithing,Oathbound Chisel,Tool,Mid,Found in Frost Caverns from quests.
+Smithing,Opal Driftleaf,Tool,Endgame,Found in Riverlight Delta from beasts.
+Smithing,Pyre Feather,Output,Mid,Found in Riverlight Delta from beasts.
+Smithing,Peridot Gland,Output,Endgame,Found in Feral Fens from beasts.
+Smithing,Pyre Quiver,Input,Mid,Found in Stoneweald from quests.
+Smithing,Quartz Map,Input,Mid,Found in Stoneweald from nodes.
+Smithing,Quill Ward,Tool,Endgame,Found in Whispering Steppes from camps.
+Smithing,Ravenholt Saddle,Tool,Endgame,Found in Cinder Kilns from raiders.
+Smithing,Ravenholt Yarn,Output,Mid,Found in Greatwood from camps.
+Smithing,Rosewood Blade,Tool,Mid,Found in Deepwatch from beasts.
+Smithing,Runed Cowl,Input,Mid,Found in Ashen Plains from raiders.
+Smithing,Starling Charm,Tool,Endgame,Found in Bramblefold from camps.
+Smithing,Sable Cowl,Input,Mid,Found in Riverlight Delta from camps.
+Smithing,Stormweld Elixir,Input,Endgame,Found in Stoneweald from nodes.
+Smithing,Stormweld Jerky,Tool,Mid,Found in Bramblefold from nodes.
+Smithing,Tallow Harpoon,Tool,Endgame,Found in Moonwake Marsh from quests.
+Smithing,Vinebound Xylo-shard,Input,Endgame,Found in Ashen Plains from beasts.
+Smithing,Verdant Chisel,Tool,Endgame,Found in Sunspire from quests.
+Smithing,Wraith Chisel,Tool,Endgame,Found in Ashen Plains from nodes.
+Smithing,Xyra Feather,Output,Endgame,Found in Whispering Steppes from camps.
+Smithing,Xyra Knot,Input,Mid,Found in Riverlight Delta from nodes.
+Smithing,Xyra Quiver,Tool,Endgame,Found in Frost Caverns from nodes.
+Smithing,Yewbarrow Map,Input,Endgame,Found in Glassfields from quests.
+Smithing,Zincroot Ward,Output,Mid,Found in Emberford from quests.
+Smithing,Zephyr Cowl,Input,Endgame,Found in Bramblefold from raiders.
+Tailoring,Ashen Ink,Output,Mid,Found in Whispering Steppes from beasts.
+Tailoring,Ashen Urn,Input,Mid,Found in Emberford from camps.
+Tailoring,Brood Saddle,Input,Endgame,Found in Cinder Kilns from raiders.
+Tailoring,Bronzed Blade,Output,Mid,Found in Stoneweald from beasts.
+Tailoring,Cinder Ward,Tool,Endgame,Found in Moonwake Marsh from raiders.
+Tailoring,Crystal Charm,Output,Endgame,Found in Deepwatch from beasts.
+Tailoring,Ember Needle,Tool,Mid,Found in Stoneweald from camps.
+Tailoring,Ever Ration,Output,Mid,Found in Feral Fens from camps.
+Tailoring,Frostfell Parchment,Tool,Endgame,Found in Riverlight Delta from camps.
+Tailoring,Gravetide Chisel,Tool,Endgame,Found in Deepwatch from camps.
+Tailoring,Hearth Chisel,Tool,Endgame,Found in Ashen Plains from camps.
+Tailoring,Hollow Feather,Tool,Endgame,Found in Bramblefold from camps.
+Tailoring,Hazel Ink,Output,Endgame,Found in Whispering Steppes from camps.
+Tailoring,Hearth Map,Tool,Endgame,Found in Whispering Steppes from nodes.
+Tailoring,Ironroot Oil,Input,Mid,Found in Glassfields from nodes.
+Tailoring,Juniper Blade,Output,Endgame,Found in Ashen Plains from nodes.
+Tailoring,Kindled Yarn,Tool,Endgame,Found in Emberford from beasts.
+Tailoring,Kestrel Elixir,Input,Mid,Found in Ashen Plains from nodes.
+Tailoring,Lantern Harpoon,Input,Mid,Found in Emberford from nodes.
+Tailoring,Moonset Parchment,Output,Mid,Found in Bramblefold from nodes.
+Tailoring,Mosslit Talisman,Tool,Mid,Found in Emberford from raiders.
+Tailoring,Nightvine Brew,Tool,Endgame,Found in Feral Fens from beasts.
+Tailoring,Oakheart Brew,Tool,Endgame,Found in Moonwake Marsh from quests.
+Tailoring,Quill Ward,Tool,Endgame,Found in Whispering Steppes from camps.
+Tailoring,Rosewood Ward,Tool,Endgame,Found in Bramblefold from beasts.
+Tailoring,Starling Charm,Tool,Endgame,Found in Bramblefold from camps.
+Tailoring,Starling Gauntlet,Input,Mid,Found in Moonwake Marsh from quests.
+Tailoring,Sable Harpoon,Tool,Endgame,Found in Ashen Plains from camps.
+Tailoring,Thornlit Elixir,Input,Endgame,Found in Riverlight Delta from beasts.
+Tailoring,Tallow Needle,Output,Mid,Found in Stoneweald from nodes.
+Tailoring,Umbral Lantern,Tool,Endgame,Found in Emberford from beasts.
+Tailoring,Umbral Ration,Tool,Mid,Found in Moonwake Marsh from camps.
+Tailoring,Underbough Zest,Input,Mid,Found in Whispering Steppes from camps.
+Tailoring,Verdant Talisman,Tool,Endgame,Found in Whispering Steppes from beasts.
+Tailoring,Wraith Gland,Tool,Mid,Found in Bramblefold from beasts.
+Tailoring,Whisper Ink,Tool,Endgame,Found in Cinder Kilns from quests.
+Tailoring,Wildgrove Knot,Input,Mid,Found in Frost Caverns from quests.
+Tailoring,Yellowroot Quiver,Tool,Endgame,Found in Greatwood from quests.
+Tailoring,Yarrow Urn,Tool,Endgame,Found in Cinder Kilns from camps.
+Tailoring,Yewbarrow Yarn,Output,Endgame,Found in Frost Caverns from beasts.
