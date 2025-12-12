@@ -1,0 +1,249 @@
+id,name,category,subcategory,rarity,professions,region,short_uses,file_name
+1,Aegis of Amberwake,Gear,Shield,Rare,Smithing,Molten wings delves,Tank block and fire resist anchor for dungeons.,gear_aegis_amberwake.png
+2,Ashen Pike,Gear,Polearm,Uncommon,Smithing,Ashen fields,Leveling tanks and polearm specialists.,gear_ashen_pike.png
+3,Band of the Blue Stream,Gear,Ring,Rare,Jewelry,Stream caves,Mana regen for casters and healers.,gear_band_bluestream.png
+4,Barley Snack Pack,Ingredient,Grain,Common,Cooking,Farmlands,Cheap stamina snack to cut downtime.,ing_barley_snack_pack.png
+5,Briarshot Cartridges,Gear,Ammo,Uncommon,Bowyer,Bramble stands,Bonus bleed chance on critical hits.,ammo_briarshot.png
+6,Cinderbrew Flask,Alchemy,Tonic,Rare,Alchemy;Cooking,Cinder kilns,Short firepower burst with long cooldown.,tonic_cinderbrew.png
+7,Coldforged Shortsword,Gear,1H Sword,Uncommon,Smithing,Frost caverns,+parry for leveling tanks and duelists.,gear_coldforged_shortsword.png
+8,Dawnstar Talisman,Trinket,,Epic,Jewelry,Sunspire summit,On-use heal amplification sharing trinket cooldowns.,trinket_dawnstar.png
+9,Deepwatch Pauldrons,Gear,Plate Shoulders,Rare,Armorsmithing,Deepwatch,Threat on-hit and small armor aura.,armor_deepwatch_pauldrons.png
+10,Emberglass Wand,Gear,Wand,Rare,Alchemy;Jewelry,Glassfields,Fire damage with scorch debuff maintenance.,gear_emberglass_wand.png
+11,Amberwild Gland,Material,Essence,Epic,Smithing;Alchemy,Feral Fens,Cooking buff meals and rations,item_amberwild_gland.png
+12,Ashen Ink,Gear,Armor,Uncommon,Tailoring;Bowyer,Whispering Steppes,Socketing into runic gear,item_ashen_ink.png
+13,Ancient Knot,Gear,Off-hand,Epic,Jewelry;Cooking,Sunspire,Turning in for faction reputation,item_ancient_knot.png
+14,Amberwild Map,Curio,,Uncommon,Cooking;Fishing,Shiverstone Coast,Enchanting catalysts for late-game crafts,item_amberwild_map.png
+15,Ashen Oil,Profession Tool,,Epic,Smithing;Hunting,Shiverstone Coast,Socketing into runic gear,item_ashen_oil.png
+16,Ancient Quiver,Ingredient,Meat,Uncommon,None;Jewelry,Moonwake Marsh,Cooking buff meals and rations,item_ancient_quiver.png
+17,Amberwild Saddle,Ingredient,Fungus,Epic,Hunting;Smithing,Sunspire,Enchanting catalysts for late-game crafts,item_amberwild_saddle.png
+18,Ashen Urn,Ingredient,Grain,Uncommon,Tailoring;None,Emberford,Forging mid-tier weapons,item_ashen_urn.png
+19,Bramble Oil,Profession Tool,,Epic,Jewelry;Cooking,Glassfields,Cooking buff meals and rations,item_bramble_oil.png
+20,Bronzed Quiver,Ingredient,Meat,Uncommon,Cooking;Hunting,Deepwatch,Enchanting catalysts for late-game crafts,item_bronzed_quiver.png
+21,Brood Saddle,Ingredient,Fungus,Epic,Tailoring;Jewelry,Cinder Kilns,Crafting advanced alchemy tonics,item_brood_saddle.png
+22,Bramble Urn,Ingredient,Grain,Uncommon,Fishing;None,Stoneweald,Socketing into runic gear,item_bramble_urn.png
+23,Bronzed Ward,Material,Wood,Epic,Cooking;Fishing,Riverlight Delta,Tailoring resilient gear,item_bronzed_ward.png
+24,Brood Yarn,Material,Leather,Uncommon,Bowyer;Alchemy,Riverlight Delta,Socketing into runic gear,item_brood_yarn.png
+25,Bramble Apple,Material,Essence,Epic,None;Alchemy,Emberford,Crafting advanced alchemy tonics,item_bramble_apple.png
+26,Bronzed Blade,Gear,Armor,Uncommon,None;Tailoring,Stoneweald,Tailoring resilient gear,item_bronzed_blade.png
+27,Cinder Ward,Material,Wood,Epic,Fishing;Tailoring,Moonwake Marsh,Tailoring resilient gear,item_cinder_ward.png
+28,Crystal Yarn,Material,Leather,Uncommon,Bowyer;None,Bramblefold,Upgrading profession tools,item_crystal_yarn.png
+29,Crestfallen Apple,Material,Essence,Epic,Smithing;Jewelry,Moonwake Marsh,Tailoring resilient gear,item_crestfallen_apple.png
+30,Cinder Blade,Gear,Armor,Uncommon,None;Hunting,Cinder Kilns,Enchanting catalysts for late-game crafts,item_cinder_blade.png
+31,Crystal Charm,Gear,Off-hand,Epic,Hunting;Tailoring,Deepwatch,Forging mid-tier weapons,item_crystal_charm.png
+32,Crestfallen Cowl,Curio,,Uncommon,Bowyer;Smithing,Frost Caverns,Cooking buff meals and rations,item_crestfallen_cowl.png
+33,Cinder Elixir,Profession Tool,,Epic,Bowyer;Alchemy,Glassfields,Fuel for campfire survival kits,item_cinder_elixir.png
+34,Crystal Gauntlet,Ingredient,Meat,Uncommon,Fishing;Hunting,Deepwatch,Socketing into runic gear,item_crystal_gauntlet.png
+35,Duskborn Charm,Gear,Off-hand,Epic,Alchemy;Hunting,Greatwood,Socketing into runic gear,item_duskborn_charm.png
+36,Dawnlit Cowl,Curio,,Uncommon,Hunting;Smithing,Riverlight Delta,Fuel for campfire survival kits,item_dawnlit_cowl.png
+37,Drift Elixir,Profession Tool,,Epic,Cooking;None,Whispering Steppes,Crafting advanced alchemy tonics,item_drift_elixir.png
+38,Duskborn Gauntlet,Ingredient,Meat,Uncommon,Cooking;Fishing,Glassfields,Upgrading profession tools,item_duskborn_gauntlet.png
+39,Dawnlit Harpoon,Ingredient,Fungus,Epic,Alchemy;Hunting,Deepwatch,Fuel for campfire survival kits,item_dawnlit_harpoon.png
+40,Drift Jerky,Ingredient,Grain,Uncommon,Alchemy;Fishing,Stoneweald,Turning in for faction reputation,item_drift_jerky.png
+41,Duskborn Lantern,Material,Wood,Epic,Bowyer;Smithing,Glassfields,Turning in for faction reputation,item_duskborn_lantern.png
+42,Dawnlit Needle,Material,Leather,Uncommon,None;Jewelry,Frost Caverns,Socketing into runic gear,item_dawnlit_needle.png
+43,Ember Harpoon,Ingredient,Fungus,Epic,Fishing;Jewelry,Feral Fens,Socketing into runic gear,item_ember_harpoon.png
+44,Elder Jerky,Ingredient,Grain,Uncommon,Fishing;None,Glassfields,Upgrading profession tools,item_elder_jerky.png
+45,Ever Lantern,Material,Wood,Epic,None;Bowyer,Moonwake Marsh,Crafting advanced alchemy tonics,item_ever_lantern.png
+46,Ember Needle,Material,Leather,Uncommon,Bowyer;Tailoring,Stoneweald,Socketing into runic gear,item_ember_needle.png
+47,Elder Parchment,Material,Essence,Epic,Bowyer;Alchemy,Ashen Plains,Cooking buff meals and rations,item_elder_parchment.png
+48,Ever Ration,Gear,Armor,Uncommon,Fishing;Tailoring,Feral Fens,Forging mid-tier weapons,item_ever_ration.png
+49,Ember Talisman,Gear,Off-hand,Epic,Bowyer;Fishing,Stoneweald,Forging mid-tier weapons,item_ember_talisman.png
+50,Elder Vial,Curio,,Uncommon,Alchemy;Cooking,Stoneweald,Enchanting catalysts for late-game crafts,item_elder_vial.png
+51,Frostfell Parchment,Material,Essence,Epic,Tailoring;Alchemy,Riverlight Delta,Turning in for faction reputation,item_frostfell_parchment.png
+52,Feral Ration,Gear,Armor,Uncommon,None;Bowyer,Frost Caverns,Forging mid-tier weapons,item_feral_ration.png
+53,Farscout Talisman,Gear,Off-hand,Epic,Alchemy;Smithing,Shiverstone Coast,Fuel for campfire survival kits,item_farscout_talisman.png
+54,Frostfell Vial,Curio,,Uncommon,Smithing;Hunting,Riverlight Delta,Tailoring resilient gear,item_frostfell_vial.png
+55,Feral Xylo-shard,Profession Tool,,Epic,Jewelry;Fishing,Greatwood,Upgrading profession tools,item_feral_xylo-shard.png
+56,Farscout Zest,Ingredient,Meat,Uncommon,Smithing;Jewelry,Riverlight Delta,Turning in for faction reputation,item_farscout_zest.png
+57,Frostfell Arrow,Ingredient,Fungus,Epic,Alchemy;Smithing,Shiverstone Coast,Forging mid-tier weapons,item_frostfell_arrow.png
+58,Feral Brew,Ingredient,Grain,Uncommon,Cooking;None,Bramblefold,Upgrading profession tools,item_feral_brew.png
+59,Glimmer Xylo-shard,Profession Tool,,Epic,Fishing;Cooking,Stoneweald,Upgrading profession tools,item_glimmer_xylo-shard.png
+60,Gravetide Zest,Ingredient,Meat,Uncommon,None;Smithing,Riverlight Delta,Upgrading profession tools,item_gravetide_zest.png
+61,Greatwood Arrow,Ingredient,Fungus,Epic,None;Smithing,Stoneweald,Tailoring resilient gear,item_greatwood_arrow.png
+62,Glimmer Brew,Ingredient,Grain,Uncommon,Cooking;Jewelry,Sunspire,Cooking buff meals and rations,item_glimmer_brew.png
+63,Gravetide Chisel,Material,Wood,Epic,Alchemy;Tailoring,Deepwatch,Tailoring resilient gear,item_gravetide_chisel.png
+64,Greatwood Driftleaf,Material,Leather,Uncommon,Smithing;Cooking,Glassfields,Fuel for campfire survival kits,item_greatwood_driftleaf.png
+65,Glimmer Feather,Material,Essence,Epic,Hunting;Bowyer,Bramblefold,Socketing into runic gear,item_glimmer_feather.png
+66,Gravetide Gland,Gear,Armor,Uncommon,Fishing;Smithing,Bramblefold,Turning in for faction reputation,item_gravetide_gland.png
+67,Hearth Chisel,Material,Wood,Epic,Tailoring;Bowyer,Ashen Plains,Completing regional quests,item_hearth_chisel.png
+68,Hazel Driftleaf,Material,Leather,Uncommon,Fishing;Alchemy,Deepwatch,Fuel for campfire survival kits,item_hazel_driftleaf.png
+69,Hollow Feather,Material,Essence,Epic,Tailoring;Cooking,Bramblefold,Completing regional quests,item_hollow_feather.png
+70,Hearth Gland,Gear,Armor,Uncommon,Hunting;Jewelry,Sunspire,Upgrading profession tools,item_hearth_gland.png
+71,Hazel Ink,Gear,Off-hand,Epic,Tailoring;Alchemy,Whispering Steppes,Upgrading profession tools,item_hazel_ink.png
+72,Hollow Knot,Curio,,Uncommon,Hunting;Bowyer,Sunspire,Socketing into runic gear,item_hollow_knot.png
+73,Hearth Map,Profession Tool,,Epic,Tailoring;Fishing,Whispering Steppes,Socketing into runic gear,item_hearth_map.png
+74,Hazel Oil,Ingredient,Meat,Uncommon,Jewelry;Bowyer,Ashen Plains,Enchanting catalysts for late-game crafts,item_hazel_oil.png
+75,Ironroot Ink,Gear,Off-hand,Epic,Smithing;Hunting,Riverlight Delta,Turning in for faction reputation,item_ironroot_ink.png
+76,Ivory Knot,Curio,,Uncommon,Cooking;Alchemy,Deepwatch,Completing regional quests,item_ivory_knot.png
+77,Idle Map,Profession Tool,,Epic,Jewelry;Alchemy,Bramblefold,Socketing into runic gear,item_idle_map.png
+78,Ironroot Oil,Ingredient,Meat,Uncommon,Alchemy;Tailoring,Glassfields,Upgrading profession tools,item_ironroot_oil.png
+79,Ivory Quiver,Ingredient,Fungus,Epic,Bowyer;Smithing,Bramblefold,Crafting advanced alchemy tonics,item_ivory_quiver.png
+80,Idle Saddle,Ingredient,Grain,Uncommon,Fishing;Bowyer,Ashen Plains,Tailoring resilient gear,item_idle_saddle.png
+81,Ironroot Urn,Material,Wood,Epic,Cooking;None,Stoneweald,Crafting advanced alchemy tonics,item_ironroot_urn.png
+82,Ivory Ward,Material,Leather,Uncommon,Fishing;Hunting,Moonwake Marsh,Crafting advanced alchemy tonics,item_ivory_ward.png
+83,Juniper Quiver,Ingredient,Fungus,Epic,Fishing;Smithing,Moonwake Marsh,Cooking buff meals and rations,item_juniper_quiver.png
+84,Jetstone Saddle,Ingredient,Grain,Uncommon,Hunting;Smithing,Deepwatch,Socketing into runic gear,item_jetstone_saddle.png
+85,Jade Urn,Material,Wood,Epic,Smithing;Cooking,Riverlight Delta,Completing regional quests,item_jade_urn.png
+86,Juniper Ward,Material,Leather,Uncommon,Cooking;Alchemy,Cinder Kilns,Completing regional quests,item_juniper_ward.png
+87,Jetstone Yarn,Material,Essence,Epic,Bowyer;None,Cinder Kilns,Forging mid-tier weapons,item_jetstone_yarn.png
+88,Jade Apple,Gear,Armor,Uncommon,Bowyer;Smithing,Feral Fens,Turning in for faction reputation,item_jade_apple.png
+89,Juniper Blade,Gear,Off-hand,Epic,Tailoring;Hunting,Ashen Plains,Fuel for campfire survival kits,item_juniper_blade.png
+90,Jetstone Charm,Curio,,Uncommon,Alchemy;Bowyer,Sunspire,Cooking buff meals and rations,item_jetstone_charm.png
+91,Kindled Yarn,Material,Essence,Epic,Fishing;Tailoring,Emberford,Fuel for campfire survival kits,item_kindled_yarn.png
+92,Knotwood Apple,Gear,Armor,Uncommon,None;Bowyer,Glassfields,Turning in for faction reputation,item_knotwood_apple.png
+93,Kestrel Blade,Gear,Off-hand,Epic,Cooking;Bowyer,Deepwatch,Completing regional quests,item_kestrel_blade.png
+94,Kindled Charm,Curio,,Uncommon,Fishing;Smithing,Ashen Plains,Enchanting catalysts for late-game crafts,item_kindled_charm.png
+95,Knotwood Cowl,Profession Tool,,Epic,Smithing;Cooking,Greatwood,Socketing into runic gear,item_knotwood_cowl.png
+96,Kestrel Elixir,Ingredient,Meat,Uncommon,Tailoring;Hunting,Ashen Plains,Completing regional quests,item_kestrel_elixir.png
+97,Kindled Gauntlet,Ingredient,Fungus,Epic,Bowyer;Alchemy,Emberford,Cooking buff meals and rations,item_kindled_gauntlet.png
+98,Knotwood Harpoon,Ingredient,Grain,Uncommon,Cooking;Smithing,Moonwake Marsh,Upgrading profession tools,item_knotwood_harpoon.png
+99,Lantern Cowl,Profession Tool,,Epic,Alchemy;Cooking,Frost Caverns,Crafting advanced alchemy tonics,item_lantern_cowl.png
+100,Luminous Elixir,Ingredient,Meat,Uncommon,Fishing;Alchemy,Stoneweald,Enchanting catalysts for late-game crafts,item_luminous_elixir.png
+101,Lupine Gauntlet,Ingredient,Fungus,Epic,Alchemy;Fishing,Glassfields,Forging mid-tier weapons,item_lupine_gauntlet.png
+102,Lantern Harpoon,Ingredient,Grain,Uncommon,Tailoring;Hunting,Emberford,Turning in for faction reputation,item_lantern_harpoon.png
+103,Luminous Jerky,Material,Wood,Epic,Fishing;Cooking,Shiverstone Coast,Upgrading profession tools,item_luminous_jerky.png
+104,Lupine Lantern,Material,Leather,Uncommon,Jewelry;Cooking,Moonwake Marsh,Completing regional quests,item_lupine_lantern.png
+105,Lantern Needle,Material,Essence,Epic,Bowyer;Jewelry,Deepwatch,Fuel for campfire survival kits,item_lantern_needle.png
+106,Luminous Parchment,Gear,Armor,Uncommon,Alchemy;Jewelry,Emberford,Socketing into runic gear,item_luminous_parchment.png
+107,Moonset Jerky,Material,Wood,Epic,Fishing;Jewelry,Deepwatch,Enchanting catalysts for late-game crafts,item_moonset_jerky.png
+108,Mire Lantern,Material,Leather,Uncommon,Fishing;Cooking,Whispering Steppes,Turning in for faction reputation,item_mire_lantern.png
+109,Mosslit Needle,Material,Essence,Epic,Smithing;Alchemy,Cinder Kilns,Cooking buff meals and rations,item_mosslit_needle.png
+110,Moonset Parchment,Gear,Armor,Uncommon,Fishing;Tailoring,Bramblefold,Fuel for campfire survival kits,item_moonset_parchment.png
+111,Mire Ration,Gear,Off-hand,Epic,Fishing;None,Riverlight Delta,Socketing into runic gear,item_mire_ration.png
+112,Mosslit Talisman,Curio,,Uncommon,Fishing;Tailoring,Emberford,Tailoring resilient gear,item_mosslit_talisman.png
+113,Moonset Vial,Profession Tool,,Epic,Hunting;Jewelry,Sunspire,Tailoring resilient gear,item_moonset_vial.png
+114,Mire Xylo-shard,Ingredient,Meat,Uncommon,None;Hunting,Whispering Steppes,Completing regional quests,item_mire_xylo-shard.png
+115,Nightvine Ration,Gear,Off-hand,Epic,Alchemy;Smithing,Moonwake Marsh,Cooking buff meals and rations,item_nightvine_ration.png
+116,Northwind Talisman,Curio,,Uncommon,Alchemy;None,Shiverstone Coast,Enchanting catalysts for late-game crafts,item_northwind_talisman.png
+117,Nettle Vial,Profession Tool,,Epic,Jewelry;Bowyer,Bramblefold,Cooking buff meals and rations,item_nettle_vial.png
+118,Nightvine Xylo-shard,Ingredient,Meat,Uncommon,Fishing;Hunting,Sunspire,Crafting advanced alchemy tonics,item_nightvine_xylo-shard.png
+119,Northwind Zest,Ingredient,Fungus,Epic,Jewelry;Cooking,Sunspire,Fuel for campfire survival kits,item_northwind_zest.png
+120,Nettle Arrow,Ingredient,Grain,Uncommon,Fishing;Bowyer,Stoneweald,Upgrading profession tools,item_nettle_arrow.png
+121,Nightvine Brew,Material,Wood,Epic,Smithing;Tailoring,Feral Fens,Forging mid-tier weapons,item_nightvine_brew.png
+122,Northwind Chisel,Material,Leather,Uncommon,Fishing;None,Glassfields,Forging mid-tier weapons,item_northwind_chisel.png
+123,Oathbound Zest,Ingredient,Fungus,Epic,Jewelry;Alchemy,Glassfields,Tailoring resilient gear,item_oathbound_zest.png
+124,Opal Arrow,Ingredient,Grain,Uncommon,None;Hunting,Glassfields,Completing regional quests,item_opal_arrow.png
+125,Oakheart Brew,Material,Wood,Epic,Tailoring;Hunting,Moonwake Marsh,Turning in for faction reputation,item_oakheart_brew.png
+126,Oathbound Chisel,Material,Leather,Uncommon,Jewelry;Smithing,Frost Caverns,Crafting advanced alchemy tonics,item_oathbound_chisel.png
+127,Opal Driftleaf,Material,Essence,Epic,Jewelry;Smithing,Riverlight Delta,Enchanting catalysts for late-game crafts,item_opal_driftleaf.png
+128,Oakheart Feather,Gear,Armor,Uncommon,Bowyer;Cooking,Shiverstone Coast,Upgrading profession tools,item_oakheart_feather.png
+129,Oathbound Gland,Gear,Off-hand,Epic,Cooking;Alchemy,Glassfields,Turning in for faction reputation,item_oathbound_gland.png
+130,Opal Ink,Curio,,Uncommon,Fishing;Cooking,Deepwatch,Tailoring resilient gear,item_opal_ink.png
+131,Pinecrest Driftleaf,Material,Essence,Epic,Jewelry;Bowyer,Greatwood,Enchanting catalysts for late-game crafts,item_pinecrest_driftleaf.png
+132,Pyre Feather,Gear,Armor,Uncommon,Smithing;Fishing,Riverlight Delta,Turning in for faction reputation,item_pyre_feather.png
+133,Peridot Gland,Gear,Off-hand,Epic,Bowyer;Smithing,Feral Fens,Upgrading profession tools,item_peridot_gland.png
+134,Pinecrest Ink,Curio,,Uncommon,Fishing;Hunting,Emberford,Cooking buff meals and rations,item_pinecrest_ink.png
+135,Pyre Knot,Profession Tool,,Epic,Fishing;Bowyer,Moonwake Marsh,Crafting advanced alchemy tonics,item_pyre_knot.png
+136,Peridot Map,Ingredient,Meat,Uncommon,Fishing;Cooking,Whispering Steppes,Upgrading profession tools,item_peridot_map.png
+137,Pinecrest Oil,Ingredient,Fungus,Epic,Alchemy;Hunting,Greatwood,Crafting advanced alchemy tonics,item_pinecrest_oil.png
+138,Pyre Quiver,Ingredient,Grain,Uncommon,Smithing;Bowyer,Stoneweald,Upgrading profession tools,item_pyre_quiver.png
+139,Quill Knot,Profession Tool,,Epic,Jewelry;Cooking,Moonwake Marsh,Upgrading profession tools,item_quill_knot.png
+140,Quartz Map,Ingredient,Meat,Uncommon,Fishing;Smithing,Stoneweald,Completing regional quests,item_quartz_map.png
+141,Quickmire Oil,Ingredient,Fungus,Epic,Fishing;Alchemy,Sunspire,Crafting advanced alchemy tonics,item_quickmire_oil.png
+142,Quill Quiver,Ingredient,Grain,Uncommon,None;Alchemy,Ashen Plains,Turning in for faction reputation,item_quill_quiver.png
+143,Quartz Saddle,Material,Wood,Epic,Alchemy;Cooking,Sunspire,Cooking buff meals and rations,item_quartz_saddle.png
+144,Quickmire Urn,Material,Leather,Uncommon,None;Alchemy,Cinder Kilns,Completing regional quests,item_quickmire_urn.png
+145,Quill Ward,Material,Essence,Epic,Tailoring;Smithing,Whispering Steppes,Fuel for campfire survival kits,item_quill_ward.png
+146,Quartz Yarn,Gear,Armor,Uncommon,Bowyer;Fishing,Bramblefold,Completing regional quests,item_quartz_yarn.png
+147,Ravenholt Saddle,Material,Wood,Epic,Jewelry;Smithing,Cinder Kilns,Enchanting catalysts for late-game crafts,item_ravenholt_saddle.png
+148,Runed Urn,Material,Leather,Uncommon,Jewelry;None,Deepwatch,Upgrading profession tools,item_runed_urn.png
+149,Rosewood Ward,Material,Essence,Epic,Jewelry;Tailoring,Bramblefold,Fuel for campfire survival kits,item_rosewood_ward.png
+150,Ravenholt Yarn,Gear,Armor,Uncommon,Smithing;Jewelry,Greatwood,Completing regional quests,item_ravenholt_yarn.png
+151,Runed Apple,Gear,Off-hand,Epic,Fishing;Jewelry,Feral Fens,Upgrading profession tools,item_runed_apple.png
+152,Rosewood Blade,Curio,,Uncommon,Fishing;Smithing,Deepwatch,Upgrading profession tools,item_rosewood_blade.png
+153,Ravenholt Charm,Profession Tool,,Epic,Jewelry;Fishing,Bramblefold,Turning in for faction reputation,item_ravenholt_charm.png
+154,Runed Cowl,Ingredient,Meat,Uncommon,Smithing;Jewelry,Ashen Plains,Upgrading profession tools,item_runed_cowl.png
+155,Sable Apple,Gear,Off-hand,Epic,Hunting;Bowyer,Moonwake Marsh,Crafting advanced alchemy tonics,item_sable_apple.png
+156,Stormweld Blade,Curio,,Uncommon,Fishing;Jewelry,Frost Caverns,Turning in for faction reputation,item_stormweld_blade.png
+157,Starling Charm,Profession Tool,,Epic,Smithing;Tailoring,Bramblefold,Cooking buff meals and rations,item_starling_charm.png
+158,Sable Cowl,Ingredient,Meat,Uncommon,Fishing;Smithing,Riverlight Delta,Tailoring resilient gear,item_sable_cowl.png
+159,Stormweld Elixir,Ingredient,Fungus,Epic,Smithing;Bowyer,Stoneweald,Forging mid-tier weapons,item_stormweld_elixir.png
+160,Starling Gauntlet,Ingredient,Grain,Uncommon,Jewelry;Tailoring,Moonwake Marsh,Enchanting catalysts for late-game crafts,item_starling_gauntlet.png
+161,Sable Harpoon,Material,Wood,Epic,Alchemy;Tailoring,Ashen Plains,Tailoring resilient gear,item_sable_harpoon.png
+162,Stormweld Jerky,Material,Leather,Uncommon,Bowyer;Smithing,Bramblefold,Tailoring resilient gear,item_stormweld_jerky.png
+163,Thornlit Elixir,Ingredient,Fungus,Epic,Tailoring;Fishing,Riverlight Delta,Tailoring resilient gear,item_thornlit_elixir.png
+164,Tideborn Gauntlet,Ingredient,Grain,Uncommon,None;Hunting,Stoneweald,Tailoring resilient gear,item_tideborn_gauntlet.png
+165,Tallow Harpoon,Material,Wood,Epic,Smithing;Hunting,Moonwake Marsh,Crafting advanced alchemy tonics,item_tallow_harpoon.png
+166,Thornlit Jerky,Material,Leather,Uncommon,Cooking;Alchemy,Ashen Plains,Crafting advanced alchemy tonics,item_thornlit_jerky.png
+167,Tideborn Lantern,Material,Essence,Epic,Jewelry;Cooking,Sunspire,Cooking buff meals and rations,item_tideborn_lantern.png
+168,Tallow Needle,Gear,Armor,Uncommon,Alchemy;Tailoring,Stoneweald,Cooking buff meals and rations,item_tallow_needle.png
+169,Thornlit Parchment,Gear,Off-hand,Epic,None;Fishing,Moonwake Marsh,Fuel for campfire survival kits,item_thornlit_parchment.png
+170,Tideborn Ration,Curio,,Uncommon,Jewelry;Fishing,Moonwake Marsh,Completing regional quests,item_tideborn_ration.png
+171,Umbral Lantern,Material,Essence,Epic,Tailoring;Cooking,Emberford,Enchanting catalysts for late-game crafts,item_umbral_lantern.png
+172,Underbough Needle,Gear,Armor,Uncommon,Fishing;Hunting,Greatwood,Completing regional quests,item_underbough_needle.png
+173,Umber Parchment,Gear,Off-hand,Epic,Alchemy;Hunting,Whispering Steppes,Socketing into runic gear,item_umber_parchment.png
+174,Umbral Ration,Curio,,Uncommon,Tailoring;None,Moonwake Marsh,Tailoring resilient gear,item_umbral_ration.png
+175,Underbough Talisman,Profession Tool,,Epic,Fishing;Hunting,Moonwake Marsh,Enchanting catalysts for late-game crafts,item_underbough_talisman.png
+176,Umber Vial,Ingredient,Meat,Uncommon,Alchemy;Fishing,Whispering Steppes,Cooking buff meals and rations,item_umber_vial.png
+177,Umbral Xylo-shard,Ingredient,Fungus,Epic,Cooking;None,Feral Fens,Enchanting catalysts for late-game crafts,item_umbral_xylo-shard.png
+178,Underbough Zest,Ingredient,Grain,Uncommon,Tailoring;None,Whispering Steppes,Cooking buff meals and rations,item_underbough_zest.png
+179,Verdant Talisman,Profession Tool,,Epic,Tailoring;Fishing,Whispering Steppes,Turning in for faction reputation,item_verdant_talisman.png
+180,Vigil Vial,Ingredient,Meat,Uncommon,Fishing;Jewelry,Moonwake Marsh,Fuel for campfire survival kits,item_vigil_vial.png
+181,Vinebound Xylo-shard,Ingredient,Fungus,Epic,Alchemy;Smithing,Ashen Plains,Completing regional quests,item_vinebound_xylo-shard.png
+182,Verdant Zest,Ingredient,Grain,Uncommon,Fishing;Alchemy,Shiverstone Coast,Cooking buff meals and rations,item_verdant_zest.png
+183,Vigil Arrow,Material,Wood,Epic,Jewelry;Hunting,Riverlight Delta,Forging mid-tier weapons,item_vigil_arrow.png
+184,Vinebound Brew,Material,Leather,Uncommon,Bowyer;Alchemy,Glassfields,Cooking buff meals and rations,item_vinebound_brew.png
+185,Verdant Chisel,Material,Essence,Epic,Bowyer;Smithing,Sunspire,Cooking buff meals and rations,item_verdant_chisel.png
+186,Vigil Driftleaf,Gear,Armor,Uncommon,Hunting;None,Bramblefold,Upgrading profession tools,item_vigil_driftleaf.png
+187,Whisper Arrow,Material,Wood,Epic,Jewelry;None,Ashen Plains,Crafting advanced alchemy tonics,item_whisper_arrow.png
+188,Wildgrove Brew,Material,Leather,Uncommon,Alchemy;Fishing,Feral Fens,Socketing into runic gear,item_wildgrove_brew.png
+189,Wraith Chisel,Material,Essence,Epic,Smithing;Cooking,Ashen Plains,Forging mid-tier weapons,item_wraith_chisel.png
+190,Whisper Driftleaf,Gear,Armor,Uncommon,Alchemy;Cooking,Moonwake Marsh,Enchanting catalysts for late-game crafts,item_whisper_driftleaf.png
+191,Wildgrove Feather,Gear,Off-hand,Epic,Hunting;Jewelry,Stoneweald,Upgrading profession tools,item_wildgrove_feather.png
+192,Wraith Gland,Curio,,Uncommon,Alchemy;Tailoring,Bramblefold,Tailoring resilient gear,item_wraith_gland.png
+193,Whisper Ink,Profession Tool,,Epic,Tailoring;Hunting,Cinder Kilns,Cooking buff meals and rations,item_whisper_ink.png
+194,Wildgrove Knot,Ingredient,Meat,Uncommon,None;Tailoring,Frost Caverns,Turning in for faction reputation,item_wildgrove_knot.png
+195,Xyra Feather,Gear,Off-hand,Epic,Fishing;Smithing,Whispering Steppes,Tailoring resilient gear,item_xyra_feather.png
+196,Xenith Gland,Curio,,Uncommon,Hunting;None,Deepwatch,Enchanting catalysts for late-game crafts,item_xenith_gland.png
+197,Xale Ink,Profession Tool,,Epic,Bowyer;Alchemy,Sunspire,Crafting advanced alchemy tonics,item_xale_ink.png
+198,Xyra Knot,Ingredient,Meat,Uncommon,Jewelry;Smithing,Riverlight Delta,Cooking buff meals and rations,item_xyra_knot.png
+199,Xenith Map,Ingredient,Fungus,Epic,Fishing;None,Sunspire,Turning in for faction reputation,item_xenith_map.png
+200,Xale Oil,Ingredient,Grain,Uncommon,Bowyer;Hunting,Emberford,Tailoring resilient gear,item_xale_oil.png
+201,Xyra Quiver,Material,Wood,Epic,Smithing;Bowyer,Frost Caverns,Forging mid-tier weapons,item_xyra_quiver.png
+202,Xenith Saddle,Material,Leather,Uncommon,Hunting;Bowyer,Shiverstone Coast,Fuel for campfire survival kits,item_xenith_saddle.png
+203,Yewbarrow Map,Ingredient,Fungus,Epic,Hunting;Smithing,Glassfields,Upgrading profession tools,item_yewbarrow_map.png
+204,Yarrow Oil,Ingredient,Grain,Uncommon,None;Hunting,Riverlight Delta,Socketing into runic gear,item_yarrow_oil.png
+205,Yellowroot Quiver,Material,Wood,Epic,Tailoring;Cooking,Greatwood,Socketing into runic gear,item_yellowroot_quiver.png
+206,Yewbarrow Saddle,Material,Leather,Uncommon,Jewelry;Cooking,Stoneweald,Enchanting catalysts for late-game crafts,item_yewbarrow_saddle.png
+207,Yarrow Urn,Material,Essence,Epic,Hunting;Tailoring,Cinder Kilns,Completing regional quests,item_yarrow_urn.png
+208,Yellowroot Ward,Gear,Armor,Uncommon,Hunting;Jewelry,Stoneweald,Cooking buff meals and rations,item_yellowroot_ward.png
+209,Yewbarrow Yarn,Gear,Off-hand,Epic,Bowyer;Tailoring,Frost Caverns,Enchanting catalysts for late-game crafts,item_yewbarrow_yarn.png
+210,Yarrow Apple,Curio,,Uncommon,Bowyer;Fishing,Glassfields,Upgrading profession tools,item_yarrow_apple.png
+211,Zephyr Urn,Material,Essence,Epic,Hunting;Alchemy,Riverlight Delta,Fuel for campfire survival kits,item_zephyr_urn.png
+212,Zincroot Ward,Gear,Armor,Uncommon,Fishing;Smithing,Emberford,Tailoring resilient gear,item_zincroot_ward.png
+213,Zale Yarn,Gear,Off-hand,Epic,Bowyer;Cooking,Frost Caverns,Completing regional quests,item_zale_yarn.png
+214,Zephyr Apple,Curio,,Uncommon,Hunting;Jewelry,Glassfields,Forging mid-tier weapons,item_zephyr_apple.png
+215,Zincroot Blade,Profession Tool,,Epic,Alchemy;Hunting,Whispering Steppes,Upgrading profession tools,item_zincroot_blade.png
+216,Zale Charm,Ingredient,Meat,Uncommon,None;Hunting,Stoneweald,Tailoring resilient gear,item_zale_charm.png
+217,Zephyr Cowl,Ingredient,Fungus,Epic,Smithing;Cooking,Bramblefold,Fuel for campfire survival kits,item_zephyr_cowl.png
+218,Zincroot Elixir,Ingredient,Grain,Uncommon,None;Hunting,Sunspire,Socketing into runic gear,item_zincroot_elixir.png
+219,Heartwood Vowblade,Gear,1H Sword,Epic,Hunting;Smithing,Greatwood (Ragged King),Signature hunt reward for melee hunters and wardens.,gear_heartwood_vowblade.png
+220,Hollowroot Matron's Warding Band,Gear,Ring,Legendary,Jewelry;Alchemy,Hollowroot Warren,Defensive charm amplifying poison resist and cleansing tonics.,gear_hollowroot_wardingband.png
+221,Sap-Slick Jerkin,Gear,Leather Chest,Rare,Tailoring;Hunting,Greatwood,Bleed-resistant ranger armor.,gear_sap_slick_jerkin.png
+222,Greatwood Trailboots,Gear,Boots,Rare,Tailoring;Hunting,Greatwood,Movement speed and snare resistance for scouts.,gear_greatwood_trailboots.png
+223,Warden's Grove Map,Quest,Map,Rare,Cartography;Hunting,Greatwood,Unlocks new hunt board routes and cache spawns.,quest_wardens_grove_map.png
+224,Burn-Scar Chasmbreaker,Gear,2H Axe,Epic,Smithing,Burn-Scar Descent,Cleave-focused set piece for melee brawlers.,gear_burnscar_chasmbreaker.png
+225,Magmaforged Links,Material,Chain,Rare,Smithing;Armorsmithing,Burn-Scar Descent,Crafting fire-resistant mail and tether tools.,mat_magmaforged_links.png
+226,Hollowroot Sporesplice,Ingredient,Fungus,Rare,Cooking;Alchemy,Hollowroot Warren,Potent curing broths and antitoxin brews.,ing_hollowroot_sporesplice.png
+227,Matron's Broodguard,Gear,Shield,Epic,Smithing;Hunting,Hollowroot Warren,High-block shield for poison-heavy encounters.,gear_matrons_broodguard.png
+228,Glacierbite Bow,Gear,Bow,Epic,Bowyer;Hunting,Frostmarch Tundra,Ice-aspected ranged option with slow procs.,gear_glacierbite_bow.png
+229,Permafrost Greaves,Gear,Plate Legs,Rare,Armorsmithing,Frostmarch Tundra,Heavy leg armor for chill-heavy routes.,gear_permafrost_greaves.png
+230,Tundra Howl Totem,Curio,Totem,Epic,Alchemy;Hunting,Frostmarch Tundra,Summoning lure and cold resistance buff component.,curio_tundra_howl_totem.png
+231,Frostmarch Seal,Quest,Seal,Rare,Cartography;Alchemy,Frostmarch Tundra,Unlocks Frostmarch vault doors and wards.,quest_frostmarch_seal.png
+232,Ashen Ridge Emberplate,Gear,Chestplate,Epic,Armorsmithing;Smithing,Ashen Ridge,Tank chest for volcanic encounters.,gear_ashen_ridge_emberplate.png
+233,Cinderstorm Javelin,Gear,Spear,Epic,Weaponsmithing,Ashen Ridge,Mid-range strength weapon with burn-over-time.,gear_cinderstorm_javelin.png
+234,Sootglass Eye,Curio,Trinket,Rare,Jewelry;Alchemy,Ashen Ridge,Perception boost for lava vents and unstable nodes.,curio_sootglass_eye.png
+235,Cragfeather Cape,Gear,Cloak,Rare,Tailoring,Ashen Ridge,Minor fire ward cloak with glide control.,gear_cragfeather_cape.png
+236,Nightspire Lantern,Gear,Off-hand,Epic,Jewelry;Alchemy,Duskhollow,Shadow damage boost and hidden path reveal.,gear_nightspire_lantern.png
+237,Hollow Veil Hood,Gear,Hood,Epic,Tailoring,Duskhollow,Stealth-focused headpiece for rogues and rangers.,gear_hollow_veil_hood.png
+238,Duskfang Dagger,Gear,Dagger,Rare,Weaponsmithing,Duskhollow,Paired dagger option with shadow bleed.,gear_duskfang_dagger.png
+239,Mistwoven Cloak,Gear,Cloak,Rare,Tailoring,Duskhollow,Evasion cloak that sheds threat.,gear_mistwoven_cloak.png
+240,Vergebreaker Maul,Gear,Two-Hand Maul,Legendary,Weaponsmithing,Shattered Verge,High-burst stagger weapon that sunders barriers.,gear_vergebreaker_maul.png
+241,Veilshard Circuit,Curio,Relic,Epic,Alchemy;Jewelry,Shattered Verge,Relic powering portal stability and spell haste.,curio_veilshard_circuit.png
+242,Fractured Sigil,Quest,Sigil,Rare,Cartography,Shattered Verge,Reassembles into keys for verge vaults.,quest_fractured_sigil.png
+243,Nullvein Bracer,Gear,Wristguard,Rare,Armorsmithing;Alchemy,Shattered Verge,Spell-dampening wrist slot with focus regen.,gear_nullvein_bracer.png
+244,Emberpot Lodge Stew,Consumable,Meal,Rare,Cooking,Greatwood Lodge,Group feast buff to stamina regen and cold resistance.,food_emberpot_stew.png
+245,Frostbloom Draught,Alchemy,Potion,Rare,Alchemy,Frostmarch Tundra,Cold resistance potion with crit clarity.,alch_frostbloom_draught.png
+246,Ashen Spice Rub,Ingredient,Spice,Uncommon,Cooking,Ashen Ridge,Seasoning for fire-aspected meals and jerky.,ing_ashen_spice_rub.png
+247,Deepcurrent Tea,Consumable,Drink,Uncommon,Cooking;Fishing,Shiverstone Coast,Fishing luck drink with chill tolerance.,drink_deepcurrent_tea.png
+248,Trailwarden's Satchel,Profession Tool,,Rare,Foraging;Hunting,Greatwood,Increases gather yields and reduces breakage.,tool_trailwardens_satchel.png
