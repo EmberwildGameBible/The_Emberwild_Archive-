@@ -5,9 +5,6 @@ Entry points for class design work. Use the template when drafting or refactorin
 ## Templates
 - [Class Kit Template](../05_Classes/_TEMPLATE_Classic_Class_Kit.md) — guidance for fantasy, resource pacing, leveling ladders, and utility.
 
-## Training & Milestones
-- [Class Training - Level Milestones](../05_Classes/Training/CLASS%20TRAINING%20-%20LEVEL%20MILESTONES.md) — level-by-level trainer pacing, weapon skills, and class quest beats. _(Draft)_
-
 ## Companion System
 - [Tamer & Companion System](../05_Classes/Companion_System/CHAPTER%2030%20-%20THE%20TAMER%20&%20THE%20COMPANION%20SYSTEM%20A.md) — Pet taming rules, growth, and synergy with class kits. _(Draft)_
 
