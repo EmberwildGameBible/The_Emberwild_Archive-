@@ -2,7 +2,7 @@
 
 ---
 
-# **LETTER A — INGREDIENTS (FINAL EXPANDED LIST, 52 TOTAL)**
+# **INGREDIENTS (EXPANDED LIST, 40 TOTAL)**
 
 (Alphabetized categories, A+C hybrid, WoW-style, Emberwild tone)
 
@@ -4339,3 +4339,175 @@ Description: Ice-blue berry with chilling sweetness.
 Uses: Frost desserts, cold teas.
 
 File: ingredient_frostpearl_berry.png
+────────────────────────────────────────
+
+# **FISH & SHELLFISH (F)**
+
+──────────────────────────
+
+[INGREDIENT 31 — EMBERFIN TROUT]
+
+Category: Fish
+
+Rarity: Uncommon
+
+Biome: Mountain lakes
+
+Description: Bright-finned trout that gathers heat from volcanic springs.
+
+Uses: Hearty stews, stamina-focused chowders.
+
+File: ingredient_emberfin_trout.png
+
+──────────────────────────
+
+[INGREDIENT 32 — MUDSHELL CLAM]
+
+Category: Shellfish
+
+Rarity: Common
+
+Biome: River deltas
+
+Description: Thick-shelled clam with clean, briny meat.
+
+Uses: Chowders, travel rations.
+
+File: ingredient_mudshell_clam.png
+
+──────────────────────────
+
+[INGREDIENT 33 — STORMSCALE CARP]
+
+Category: Fish
+
+Rarity: Rare
+
+Biome: Tempest coasts
+
+Description: Silver carp with crackling scales that hold a static charge.
+
+Uses: Lightning-aspected feasts, agility meals.
+
+File: ingredient_stormscale_carp.png
+
+──────────────────────────
+
+[INGREDIENT 34 — GLOAM EEL]
+
+Category: Fish
+
+Rarity: Uncommon
+
+Biome: Swamp shallows
+
+Description: Dark, oily eel that thrives under driftwood and reeds.
+
+Uses: Smoked strips, energy-restoring soups.
+
+File: ingredient_gloam_eel.png
+
+────────────────────────────────────────
+
+# **MEATS & GAME (M)**
+
+──────────────────────────
+
+[INGREDIENT 35 — SMOLDERHORN SHANK]
+
+Category: Meat
+
+Rarity: Uncommon
+
+Biome: Highland slopes
+
+Description: Dense shank from heat-touched aurochs.
+
+Uses: Strength stews, long-roast feasts.
+
+File: ingredient_smolderhorn_shank.png
+
+──────────────────────────
+
+[INGREDIENT 36 — VERDANT FOWL]
+
+Category: Poultry
+
+Rarity: Common
+
+Biome: Farmsteads
+
+Description: Free-range fowl with herb-rich diet.
+
+Uses: Campfire roasts, travel jerky.
+
+File: ingredient_verdant_fowl.png
+
+──────────────────────────
+
+[INGREDIENT 37 — EMBERWOLF RIB]
+
+Category: Meat
+
+Rarity: Rare
+
+Biome: Ashen forests
+
+Description: Sinewy rib cut from packs that stalk ember-lit groves.
+
+Uses: High-protein roasts, raid feast platters.
+
+File: ingredient_emberwolf_rib.png
+
+────────────────────────────────────────
+
+# **GRAINS & SPICES (G)**
+
+──────────────────────────
+
+[INGREDIENT 38 — HEARTHGRAIN MALT]
+
+Category: Grain
+
+Rarity: Common
+
+Biome: Farmlands
+
+Description: Kiln-dried grain with smoky sweetness.
+
+Uses: Travel breads, restorative ales.
+
+File: ingredient_hearthgrain_malt.png
+
+──────────────────────────
+
+[INGREDIENT 39 — SUNPEPPER]
+
+Category: Spice
+
+Rarity: Uncommon
+
+Biome: Arid terraces
+
+Description: Amber peppercorns that radiate gentle heat.
+
+Uses: Spice rubs, warming soups.
+
+File: ingredient_sunpepper.png
+
+──────────────────────────
+
+[INGREDIENT 40 — FROSTTHISTLE]
+
+Category: Spice
+
+Rarity: Rare
+
+Biome: High tundra
+
+Description: Needle-like spice with cooling bite.
+
+Uses: Frost-resistant tonics, chilled desserts.
+
+File: ingredient_frostthistle.png
+
