@@ -3180,7 +3180,6 @@ Uses: Unlocks coastal warehouses and late-night shipments.
 Drop Sources: Held by dockmasters or stolen by smugglers.
 File: key_dockmaster_wharf.png
 
-
 [539 — Wayfinder's Bark Etching]
 Category: Document – Map Scrap
 Rarity: Common
@@ -4680,3 +4679,5 @@ Description: Braided wire charm that hums softly when storms near.
 Uses: Weather omen curio and collector item.
 Drop Sources: Stormcatcher satchels and arcane caches.
 File: curio_shiverwire_trinket.png
+
+File: key_dockmaster_wharf.png
