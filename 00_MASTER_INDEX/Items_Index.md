@@ -11,3 +11,4 @@
 - Recipes/EMBERWILD COOKBOOK - INGREDIENTS.md — Expanded ingredient list (60 entries) spanning herbs, roots, grains, meats, fish, and spices.
 - Recipes/EMBERWILD COOKBOOK - CAMPFIRE RECIPES.md — Low-level, classic-style meals that use the ingredient catalog and support class roles.
 - Recipes/EMBERWILD COOKBOOK - FIELD RATIONS & BUFFS.md — Travel snacks, dungeon prep meals, and war supply crates using the existing ingredient list.
+- Recipes/EMBERWILD COOKBOOK - INGREDIENTS.md — Ingredients list (40 entries) spanning herbs, roots, fruits, fish, meats, and spices.

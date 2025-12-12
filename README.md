@@ -25,6 +25,7 @@ A design codex for Emberwild that leans into a classic MMO ethos—slow-burn exp
 
 ## Contributing
 - Prefer short, linked chapters over giant monoliths.
+
 - Add a status note (Draft/Playable/Final) to index entries when you touch a file.
 - Use the class kit template in `05_Classes` when drafting new classes to keep the "classic WoW" feel consistent.
 
@@ -45,3 +46,5 @@ git push -u origin <branch-name>
 ```
 After the first push on a branch you can use `git push` without the `-u` flag.
 Open GitHub, create a Pull Request from `<branch-name>` into your main branch (often `main` or `master`), and click Merge when ready.
+
+- Add a status note (Draft/Playable/Final) to index entries when you touch a file.

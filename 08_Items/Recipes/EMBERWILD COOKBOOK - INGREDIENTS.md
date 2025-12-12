@@ -3,6 +3,7 @@
 ---
 
 # **INGREDIENTS (EXPANDED LIST, 60 TOTAL)**
+# **INGREDIENTS (EXPANDED LIST, 40 TOTAL)**
 
 (Alphabetized categories, A+C hybrid, WoW-style, Emberwild tone)
 
