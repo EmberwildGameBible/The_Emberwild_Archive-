@@ -1,6 +1,7 @@
 # The Emberwild Archive
 
 
+
 ## How to navigate
 - **00_MASTER_INDEX**: Entry point. Each index links to the detailed chapters in the repo.
 - **01_World / 02_Regions**: Macro worldbuilding—continents, factions, travel, and zone progression.
@@ -29,5 +30,3 @@
 
 ## Publishing your changes to GitHub
 If you want the edits made here to appear on GitHub, run these commands from the repo root in this workspace:
-
-
