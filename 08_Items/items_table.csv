@@ -537,6 +537,157 @@ id,name,category,subcategory,rarity,professions,region,short_uses,file_name
 536,Wispnet Honey Drop,Ingredient,Sweetener,Rare,Cooking;Alchemy,Hollowroot,Glow teas and rare desserts.,ing_wispnet_honey_drop.png
 537,Woodsmoke Cheddar,Ingredient,Dairy,Uncommon,Cooking,Greatwood,"Sandwiches, gratins, and snack slices.",ing_woodsmoke_cheddar.png
 538,Yarrowchill Slaw Mix,Ingredient,Vegetable,Common,Cooking,Riverlight,Fresh slaws and sandwich toppers.,ing_yarrowchill_slaw_mix.png
+539,Wayfinder's Bark Etching,Document,Map Scrap,Common,None,Greatwood,Breadcrumb note for explorers.,doc_wayfinder_bark_etching.png
+540,Warden's Beacon Stone,Curio,Signal Stone,Uncommon,None,Greatwood,Trail signal token and favor chip.,curio_wardens_beacon_stone.png
+541,Riverlight Reed Lantern,Curio,Lantern,Common,None,Greatwood,Ambient river lantern and vendor trinket.,curio_riverlight_reed_lantern.png
+542,Lodge Hearth Poker,World Object,Hearth Tool,Common,None,Greatwood,Ambient hearth prop bartered for quick fixes.,prop_lodge_hearth_poker.png
+543,Elder Grove Prayer Ribbon,Curio,Ribbon,Uncommon,None,Greatwood,Grovekeeper favor ribbon and collection piece.,curio_elder_grove_prayer_ribbon.png
+544,Hollow Stump Cache Token,Key,Token,Uncommon,None,Greatwood,Opens stump caches and marks shared supplies.,key_hollow_stump_cache.png
+545,Sap-Touched Trail Rope,Curio,Rope,Common,None,Greatwood,Climbing aid coated in sap.,curio_sap_touched_trail_rope.png
+546,Mossbinder's Needle Set,Tool,Sewing,Uncommon,Tailoring,Greatwood,Quiet stitching kit for field repairs.,tool_mossbinder_needles.png
+547,Skybranch Feather Charm,Curio,Charm,Rare,None,Greatwood,Climber luck charm prized by collectors.,curio_skybranch_feather_charm.png
+548,Glade Wedding Keepsake Band,Curio,Keepsake,Rare,None,Greatwood,Sentimental bark ring curio.,curio_glade_wedding_band.png
+549,Druidic Circle Chalk Tin,Document,Ritual Notes,Common,None,Greatwood,Chalk diagrams for small rituals.,doc_druidic_circle_chalk_tin.png
+550,Ranger's Spare Bowstring Coil,Tool,Archery,Common,Hunting;Smithing,Greatwood,Waxed spare bowstrings for field use.,tool_spare_bowstring_coil.png
+551,Greatwood Honey Mead Recipe Scroll,Document,Recipe,Uncommon,Cooking,Greatwood,Sweet mead instructions and quest hook.,doc_honey_mead_recipe.png
+552,Stag-Tusk Button,Curio,Tailoring Motif,Uncommon,Tailoring,Greatwood,Leaf-etched tusk button for adornments.,curio_stag_tusk_button.png
+553,Lanternbug Lure Jar,Curio,Jar,Rare,None,Greatwood,Sap-lined jar that attracts lanternbugs.,curio_lanternbug_lure_jar.png
+554,Trail Cookbook Leaflet,Document,Cookbook Leaf,Common,Cooking,Greatwood,Camp recipe pamphlet for stew and bread.,doc_trail_cookbook_leaflet.png
+555,Orchard Tallies Ledger,Document,Ledger,Common,None,Greatwood,Cider and crate tally notes.,doc_orchard_tallies_ledger.png
+556,Pine Resin Field Patch,Curio,Patch,Common,Tailoring,Greatwood,Sticky patch for quick coat repair.,curio_pine_resin_patch.png
+557,Cartographer's Twig Compass,Curio,Compass,Uncommon,None,Greatwood,Simple twig compass for surveyors.,curio_twig_compass.png
+558,Barkhide Repair Kit,Tool,Repair,Uncommon,Smithing;Tailoring,Greatwood,Armor repair kit of bark and pitch.,tool_barkhide_repair.png
+559,Nightwatch Emberstone,Curio,Lightstone,Rare,None,Greatwood,Ever-warm emberstone for night vigils.,curio_nightwatch_emberstone.png
+560,Spriggin Carved Figurine,Toy,Figurine,Common,None,Greatwood,Wooden spriggin toy and barter charm.,toy_spriggin_figurine.png
+561,Riverstone Skipping Stack,Curio,Game Piece,Common,None,Greatwood,Stack of smooth stones for skipping contests.,curio_riverstone_skipping_stack.png
+562,Forager's Weather Strip,Curio,Weather Charm,Uncommon,None,Greatwood,Humidity-shifting strip for field checks.,curio_foragers_weather_strip.png
+563,Lodge Service Chit,Curio,Token,Uncommon,None,Greatwood,Chit for firewood, stew, or linens.,curio_lodge_service_chit.png
+564,Glowcap Spore Jar,Curio,Sample Jar,Uncommon,Alchemy,Hollowroot,Luminous spore sample for study.,curio_glowcap_spore_jar.png
+565,Root-Tangle Knot Charm,Curio,Charm,Common,None,Hollowroot,Superstitious knot trinket.,curio_root_tangle_charm.png
+566,Hollowroot Forager's Mask,Curio,Mask,Uncommon,None,Hollowroot,Spore-dulling mask for deep forage.,curio_hollowroot_forager_mask.png
+567,Fungus Ring Sketchbook,Document,Field Notes,Common,None,Hollowroot,Sketches of mushroom ring routes.,doc_fungus_ring_sketchbook.png
+568,Mycelial Thread Spool,Curio,Thread,Rare,Tailoring,Hollowroot,Strong mycelial thread for special seams.,curio_mycelial_thread_spool.png
+569,Subterranean Echo Bell,Curio,Bell,Uncommon,None,Hollowroot,Tunnel safety bell tuned for echoes.,curio_subterranean_echo_bell.png
+570,Hollow Lantern Husk,World Object,Lantern,Common,None,Hollowroot,Glowmoss-lined gourd lantern.,prop_hollow_lantern_husk.png
+571,Lichen-Scribed Prayer Stone,Curio,Stone,Common,None,Hollowroot,Lichen-marked pebble for cave offerings.,curio_lichen_prayer_stone.png
+572,Mudscript Tablet,Document,Tablet,Common,None,Hollowroot,Clay tablet pressed with finger script.,doc_mudscript_tablet.png
+573,Burrowing Beetle Husk Ornament,Trophy,Trinket,Uncommon,None,Hollowroot,Necklace made from polished beetle shell.,trophy_beetle_husk_ornament.png
+574,Fungal Dye Vial,Curio,Dye,Uncommon,Tailoring;Alchemy,Hollowroot,Deep violet dye brewed from cave fungus.,curio_fungal_dye_vial.png
+575,Mushroom Circle Map,Map,Portal Routes,Uncommon,None,Hollowroot,Portal ring map with warnings.,map_mushroom_circle.png
+576,Dewdrop Collector Funnel,Curio,Funnel,Common,None,Hollowroot,Leaf funnel to gather clean drips.,curio_dewdrop_collector_funnel.png
+577,Glowworm Threading Needle,Tool,Needle,Uncommon,Tailoring,Hollowroot,Needle for threading live glowworms.,tool_glowworm_threading_needle.png
+578,Cavern Tuning Fork,Curio,Instrument,Rare,None,Hollowroot,Tuning fork that hums near unstable tunnels.,curio_cavern_tuning_fork.png
+579,Sporecloud Sample Satchel,Curio,Satchel,Uncommon,Alchemy,Hollowroot,Filtered bag to capture spore clouds.,curio_sporecloud_satchel.png
+580,Root-Barter Token,Curio,Token,Common,None,Hollowroot,Carved root chip for secret barter.,curio_root_barter_token.png
+581,Hollowroot Drip Flask,Curio,Flask,Common,None,Hollowroot,Clay flask chilling water drip by drip.,curio_hollowroot_drip_flask.png
+582,Nightsoil Ledger,Document,Ledger,Uncommon,None,Hollowroot,Fertilizer and spore harvest record.,doc_nightsoil_ledger.png
+583,Wispnet Lantern Mantle,Curio,Lantern Mantle,Rare,None,Hollowroot,Glowing mesh that attracts wispnets.,curio_wispnet_lantern_mantle.png
+584,Pit Echo Recording Shell,Curio,Shell,Rare,None,Hollowroot,Shell that stores faint cavern echoes.,curio_pit_echo_shell.png
+585,Veilcap Pouch,Curio,Pouch,Uncommon,Foraging,Hollowroot,Breathable pouch for delicate veilcaps.,curio_veilcap_pouch.png
+586,Undertrail Chalk Pack,Curio,Chalk,Common,None,Hollowroot,Roll of bright chalk for safe routes.,curio_undertrail_chalk_pack.png
+587,Cave Fisherman's Net Weight,Curio,Fishing Weight,Common,Fishing,Hollowroot,Stone weights for underground nets.,curio_cave_net_weight.png
+588,Stalactite Shard Charm,Curio,Charm,Uncommon,None,Hollowroot,Polished shard charm warding cave-ins.,curio_stalactite_shard_charm.png
+589,Emberglass Vial,Curio,Vial,Uncommon,Alchemy,Ashen Ridge,Ember-speckled vial for experiments.,curio_emberglass_vial.png
+590,Ashen Scout Bandana,Curio,Cloth,Common,None,Ashen Ridge,Bandana used to filter ash.,curio_ashen_scout_bandana.png
+591,Lavaflow Survey Rod,Curio,Measuring Rod,Uncommon,None,Ashen Ridge,Rod for measuring lava crust depth.,curio_lavaflow_survey_rod.png
+592,Basalt Prayer Beads,Curio,Beads,Uncommon,None,Ashen Ridge,Basalt beads warm to the touch.,curio_basalt_prayer_beads.png
+593,Scoria Shard Reliquary,Curio,Reliquary,Rare,None,Ashen Ridge,Case holding a whispered scoria shard.,curio_scoria_reliquary.png
+594,Charred Banner Scrap,Curio,Banner Scrap,Common,None,Ashen Ridge,Blackened banner proof of battle.,curio_charred_banner_scrap.png
+595,Smoldering Tinderbox,Curio,Firestarter,Uncommon,None,Ashen Ridge,Tinderbox that keeps a coal alive.,curio_smoldering_tinderbox.png
+596,Emberclasp Lock,Key,Lock,Rare,None,Ashen Ridge,Heat-runed clasp for supply crates.,key_emberclasp_lock.png
+597,Volcanic Map Segment,Map,Terrain Scrap,Common,None,Ashen Ridge,Map scrap of vents and flows.,map_volcanic_segment.png
+598,Sulfur-Stained Satchel,Curio,Satchel,Common,None,Ashen Ridge,Sulfur-scented satchel from fume fields.,curio_sulfur_satchel.png
+599,Ashen Ridge Stamp Coin,Curio,Coin,Uncommon,None,Ashen Ridge,Toll coin stamped with ridge crest.,curio_ashen_stamp_coin.png
+600,Blazegutter Oil Can,Curio,Tool,Common,Smithing,Ashen Ridge,Oil can tuned for ash storm upkeep.,curio_blazegutter_oil_can.png
+601,Cragdrake Tooth Trophy,Trophy,Tooth,Rare,Hunting,Ashen Ridge,Serrated cragdrake tooth clasp.,trophy_cragdrake_tooth.png
+602,Seared Rope Coil,Curio,Rope,Common,None,Ashen Ridge,Fireproofed rope coil for climbers.,curio_seared_rope_coil.png
+603,Ashen Ridge Climbing Hook,Tool,Climbing,Uncommon,None,Ashen Ridge,Hook with slag-biting teeth.,tool_ashen_climbing_hook.png
+604,Charcoal Sketch Roll,Document,Sketches,Common,None,Ashen Ridge,Smudged sketches of vents and crags.,doc_charcoal_sketch_roll.png
+605,Magma Warden Seal,Curio,Seal,Rare,None,Ashen Ridge,Iron seal showing official clearance.,curio_magma_warden_seal.png
+606,Firewatcher's Lens,Curio,Lens,Uncommon,None,Ashen Ridge,Amber lens spotting heat distortions.,curio_firewatcher_lens.png
+607,Sootscrape Brush,Tool,Maintenance,Common,Smithing,Ashen Ridge,Brush for clearing soot from seams.,tool_sootscrape_brush.png
+608,Emberbrand Wagon Tag,Curio,Tag,Common,None,Ashen Ridge,Caravan route tag burned with rune.,curio_emberbrand_wagon_tag.png
+609,Skyscour Scout Flare,Curio,Flare,Uncommon,None,Ashen Ridge,Cobalt flare used for clear-sky signals.,curio_skyscour_scout_flare.png
+610,Ridge Beacon Wick,Curio,Wick,Common,None,Ashen Ridge,Pitch-soaked wick for beacon relights.,curio_ridge_beacon_wick.png
+611,Forgemarch Supply Receipt,Document,Receipt,Common,None,Ashen Ridge,Charred receipt of ore and coal.,doc_forgemarch_supply_receipt.png
+612,Melted Coin Brooch,Curio,Brooch,Rare,None,Ashen Ridge,Brooch shaped from fused melted coins.,curio_melted_coin_brooch.png
+613,Ashen Ridge Embercore Pebble,Curio,Pebble,Rare,None,Ashen Ridge,Glowing pebble warm to the touch.,curio_embercore_pebble.png
+614,Frostbitten Prayer Knot,Curio,Charm,Common,None,Frostmarch,Traveler knot charm frosted stiff.,curio_frostbitten_prayer_knot.png
+615,Iceworn Trail Marker,Curio,Marker,Common,None,Frostmarch,Cloth-capped marker for snowy routes.,curio_iceworn_trail_marker.png
+616,Snowmelt Sample Vial,Curio,Sample Vial,Uncommon,Alchemy,Frostmarch,Pristine snowmelt kept for study.,curio_snowmelt_sample_vial.png
+617,Hearthbound Story Spoon,Curio,Utensil,Common,Cooking,Frostmarch,Spoon carved with winter hunt scenes.,curio_hearthbound_story_spoon.png
+618,Frostmarch Ski Strap,Curio,Strap,Common,None,Frostmarch,Leather strap for skis or snowshoes.,curio_frostmarch_ski_strap.png
+619,Frozen Map Overlay,Map,Overlay,Uncommon,None,Frostmarch,Overlay marking avalanche paths.,map_frozen_overlay.png
+620,Tundra Bloom Pressing,Curio,Pressed Flower,Uncommon,None,Frostmarch,Pressed blue bloom sealed in wax.,curio_tundra_bloom_pressing.png
+621,Glacial Scribe's Ink,Curio,Ink,Uncommon,None,Frostmarch,Ice-resistant ink for field notes.,curio_glacial_scribes_ink.png
+622,Icewind Whistle,Curio,Whistle,Common,None,Frostmarch,Bone whistle that cuts through blizzards.,curio_icewind_whistle.png
+623,Argent Fang Trophy,Trophy,Fang,Rare,Hunting,Frostmarch,Silvered frost predator fang.,trophy_argent_fang.png
+624,Frost-Twig Kindling Bundle,Curio,Kindling,Common,None,Frostmarch,Sap-rich twigs that light in sleet.,curio_frost_twig_bundle.png
+625,Aurora Glass Shard,Curio,Glass,Rare,None,Frostmarch,Shard refracting aurora into ribbons.,curio_aurora_glass_shard.png
+626,Winterwatch Patrol Log,Document,Logbook,Common,None,Frostmarch,Patrol routes and sightings log.,doc_winterwatch_patrol_log.png
+627,Frostmarch Boot Spikes,Tool,Traction,Uncommon,Smithing,Frostmarch,Strap-on spikes for icy terrain.,tool_frostmarch_boot_spikes.png
+628,Emberbraid Hand Warmer,Curio,Warmer,Rare,None,Frostmarch,Knitted warmer woven with ember thread.,curio_emberbraid_hand_warmer.png
+629,Reindeer Bell Charm,Curio,Bell,Common,None,Frostmarch,Guiding bell for beasts in fog.,curio_reindeer_bell_charm.png
+630,Frosted Scout Goggles,Curio,Goggles,Uncommon,None,Frostmarch,Frost-shedding lenses for scouts.,curio_frosted_scout_goggles.png
+631,Glacier Crossing Permit,Document,Permit,Uncommon,None,Frostmarch,Permit for monitored glacier passage.,doc_glacier_crossing_permit.png
+632,Snowblind Salve Tin,Curio,Salve,Uncommon,None,Frostmarch,Herbal salve to soothe glare-burned eyes.,curio_snowblind_salve_tin.png
+633,Permafrost Core Sample,Curio,Sample,Rare,None,Frostmarch,Glass-sealed cylinder of ancient ice.,curio_permafrost_core.png
+634,Iceshard Lantern Prism,Curio,Prism,Rare,None,Frostmarch,Prism throwing cold blue lantern light.,curio_iceshard_lantern_prism.png
+635,Coldforge Chisel Tip,Tool,Chisel,Common,Smithing,Frostmarch,Hardened chisel tip for frozen stone.,tool_coldforge_chisel_tip.png
+636,Frostmarch Tent Patch,Curio,Patch,Common,None,Frostmarch,Waxed canvas patch for cold tents.,curio_frostmarch_tent_patch.png
+637,Frozen Path Rubbing,Document,Rubbing,Common,None,Frostmarch,Rubbing of runes buried in ice.,doc_frozen_path_rubbing.png
+638,Stormbound Banner Scrap,Curio,Banner Scrap,Uncommon,None,Frostmarch,Frost-stiff banner piece from sieges.,curio_stormbound_banner_scrap.png
+639,Gravebloom Petal Bundle,Curio,Offering,Uncommon,None,Duskhollow,Petal bundle left as grave offerings.,curio_gravebloom_petals.png
+640,Whispering Candle Stub,Curio,Candle,Common,None,Duskhollow,Candle that crackles with faint whispers.,curio_whispering_candle_stub.png
+641,Duskhollow Mourning Band,Curio,Band,Common,None,Duskhollow,Charcoal band worn for wakes.,curio_duskhollow_mourning_band.png
+642,Lanternmoth Cage,Curio,Cage,Uncommon,None,Duskhollow,Cage meant for faintly glowing moths.,curio_lanternmoth_cage.png
+643,Cemetery Gate Key Tag,Key,Tag,Rare,None,Duskhollow,Iron tag for old cemetery gates.,key_cemetery_gate_tag.png
+644,Mourner's Prayer Card,Document,Prayer Card,Common,None,Duskhollow,Simple printed prayer card.,doc_mourners_prayer_card.png
+645,Hollowbell Chime String,Curio,Chime,Common,None,Duskhollow,Bells that ring only when spirits near.,curio_hollowbell_chime_string.png
+646,Dust-Etched Memorial Tile,Curio,Tile,Common,None,Duskhollow,Memorial tile fragment with faded names.,curio_memorial_tile.png
+647,Undertaker's Ledger Page,Document,Ledger Page,Uncommon,None,Duskhollow,Ledger scrap of burials and debts.,doc_undertaker_ledger_page.png
+648,Wraithsilk Ribbon,Curio,Ribbon,Rare,None,Duskhollow,Pale ribbon drifting as if underwater.,curio_wraithsilk_ribbon.png
+649,Crypt Dowel Charm,Curio,Charm,Common,None,Duskhollow,Warding dowel charm from coffin shops.,curio_crypt_dowel_charm.png
+650,Tomb-Etched Map Fragment,Map,Crypt Routes,Uncommon,None,Duskhollow,Stone-scratched map of sealed passages.,map_tomb_etched_fragment.png
+651,Shadehunter's Chalk Markers,Curio,Chalk,Uncommon,None,Duskhollow,Soot-black chalk to track specters.,curio_shadehunter_chalk.png
+652,Dirge Recorder Shell,Curio,Shell,Rare,None,Duskhollow,Shell echoing faint dirges.,curio_dirge_recorder_shell.png
+653,Gravewarden's Shovel Pin,Curio,Pin,Common,None,Duskhollow,Tin pin shaped like a small shovel.,curio_gravewarden_shovel_pin.png
+654,Mourning Veil Scrap,Curio,Cloth,Common,None,Duskhollow,Tattered veil scrap smelling of incense.,curio_mourning_veil_scrap.png
+655,Moonlit Vigil Incense Cone,Curio,Incense,Uncommon,None,Duskhollow,Herb ash cone burning pale smoke.,curio_moonlit_vigil_incense.png
+656,Bone Lantern Frame,World Object,Lantern Frame,Uncommon,None,Duskhollow,Lantern frame built from bone rods.,prop_bone_lantern_frame.png
+657,Shadowglass Marble,Curio,Marble,Rare,None,Duskhollow,Smoked glass marble that dims candles.,curio_shadowglass_marble.png
+658,Burial Knot Cord,Curio,Cord,Common,None,Duskhollow,Ritual knot cord from burials.,curio_burial_knot_cord.png
+659,Mausoleum Wax Seal,Curio,Seal,Uncommon,None,Duskhollow,Wax seal with crossed torch crest.,curio_mausoleum_wax_seal.png
+660,Night Vigil Token,Curio,Token,Common,None,Duskhollow,Token given to night-long mourners.,curio_night_vigil_token.png
+661,Restless Soil Vial,Curio,Vial,Rare,Alchemy,Duskhollow,Soil that shifts as if breathing.,curio_restless_soil_vial.png
+662,Spirit Anchor Bauble,Curio,Bauble,Rare,None,Duskhollow,Binding rune weight used in rituals.,curio_spirit_anchor_bauble.png
+663,Silent Choir Songbook Leaf,Document,Sheet Music,Uncommon,None,Duskhollow,Loose sheet of crossed-out hymns.,doc_silent_choir_songbook_leaf.png
+664,Stormbreak Compass Rose,Curio,Compass,Uncommon,None,Shattered Verge,Compass face etched with storm tracks.,curio_stormbreak_compass.png
+665,Shattered Relay Conduit,Curio,Salvage,Common,None,Shattered Verge,Bent conduit humming with residual energy.,curio_shattered_relay_conduit.png
+666,Riftglass Talisman,Curio,Talisman,Rare,None,Shattered Verge,Glass pendant shimmering with void light.,curio_riftglass_talisman.png
+667,Lightning-Kissed Banner,Curio,Banner Scrap,Uncommon,None,Shattered Verge,Banner strip seared by lightning.,curio_lightning_kissed_banner.png
+668,Broken Obelisk Glyph,Curio,Stone Glyph,Common,None,Shattered Verge,Stone shard etched with broken glyph.,curio_broken_obelisk_glyph.png
+669,Verge Salvager's Tag,Curio,Tag,Common,None,Shattered Verge,Salvage permission tag.,curio_verge_salvager_tag.png
+670,Tempest Chart Fragment,Map,Wind Chart,Uncommon,None,Shattered Verge,Chart scrap of volatile winds.,map_tempest_chart_fragment.png
+671,Fractured Waystone Shard,Curio,Shard,Uncommon,None,Shattered Verge,Magic waystone shard pulsing faintly.,curio_fractured_waystone_shard.png
+672,Thunderscout Signal Flare,Curio,Flare,Uncommon,None,Shattered Verge,Flare that pops with thunderclap.,curio_thunderscout_signal_flare.png
+673,Edgewalker Rope Kit,Tool,Rope Kit,Common,None,Shattered Verge,Stormproof rope kit for cliff work.,tool_edgewalker_rope_kit.png
+674,Shattered Verge Memory Stone,Curio,Stone,Rare,None,Shattered Verge,Stone that replays echoes under stormlight.,curio_verge_memory_stone.png
+675,Static-Etched Token,Curio,Token,Common,None,Shattered Verge,Metal chip scarred by static.,curio_static_etched_token.png
+676,Voidtouched Pebble,Curio,Pebble,Rare,None,Shattered Verge,Weightless chill pebble from rift fallout.,curio_voidtouched_pebble.png
+677,Windscarred Sailcloth,Curio,Cloth,Common,None,Shattered Verge,Razor-wind frayed sailcloth strip.,curio_windscarred_sailcloth.png
+678,Sparking Coil Spool,Curio,Coil,Uncommon,None,Shattered Verge,Copper coil that crackles softly.,curio_sparking_coil_spool.png
+679,Ruptured Map Tube,Curio,Container,Common,None,Shattered Verge,Split map tube smelling of ozone.,curio_ruptured_map_tube.png
+680,Gale-Forged Hook,Tool,Hook,Uncommon,None,Shattered Verge,Hook shaped to catch windblown lines.,tool_gale_forged_hook.png
+681,Singed Expedition Journal,Document,Journal,Common,None,Shattered Verge,Singed journal of anomaly notes.,doc_singed_expedition_journal.png
+682,Nullcurrent Vial,Curio,Vial,Rare,Alchemy,Shattered Verge,Vial swirling with black static.,curio_nullcurrent_vial.png
+683,Shardbound Prayer Ring,Curio,Ring,Uncommon,None,Shattered Verge,Iron ring studded with shard chips.,curio_shardbound_prayer_ring.png
+684,Starlit Glass Marbles,Curio,Toy,Common,None,Shattered Verge,Glitter-flecked marbles glowing in storms.,toy_starlit_glass_marbles.png
+685,Cracked Navigator's Lens,Curio,Lens,Common,None,Shattered Verge,Cracked lens kept for salvage.,curio_cracked_navigator_lens.png
+686,Verge Anchoring Spike,Curio,Spike,Common,None,Shattered Verge,Heavy spike pinning lines in high winds.,curio_verge_anchoring_spike.png
+687,Broken Sky Chart,Map,Sky Routes,Uncommon,None,Shattered Verge,Torn chart of layered storm paths.,map_broken_sky_chart.png
+688,Shiverwire Trinket,Curio,Trinket,Rare,None,Shattered Verge,Braided wire charm humming near storms.,curio_shiverwire_trinket.png
+=======
 =======
 id,name,category,subcategory,rarity,professions,region,short_uses,file_name
 1,Aegis of Amberwake,Gear,Shield,Rare,Smithing,Molten wings delves,Tank block and fire resist anchor for dungeons.,gear_aegis_amberwake.png
