@@ -36,16 +36,7 @@ git push origin main
 
 That’s all you need to publish the changes created here onto GitHub.
 
-## How to confirm GitHub has your branch
-If you want to verify the push worked, compare your latest local commit with the remote copy after pushing:
 
-```bash
-git fetch origin
-git log --oneline -1
-git log --oneline -1 origin/<branch-name>
-```
-
-If the top commit hashes and messages match, GitHub has the newest version. If they don’t, re-run the push command from step 3 above.
 
 ## Quick command sequence
 Copy/paste this from the repo root, replacing `<branch-name>` with your branch (for example, `work`):
