@@ -217,3 +217,33 @@ id,name,category,subcategory,rarity,professions,region,short_uses,file_name
 216,Zale Charm,Ingredient,Meat,Uncommon,None;Hunting,Stoneweald,Tailoring resilient gear,item_zale_charm.png
 217,Zephyr Cowl,Ingredient,Fungus,Epic,Smithing;Cooking,Bramblefold,Fuel for campfire survival kits,item_zephyr_cowl.png
 218,Zincroot Elixir,Ingredient,Grain,Uncommon,None;Hunting,Sunspire,Socketing into runic gear,item_zincroot_elixir.png
+219,Heartwood Vowblade,Gear,1H Sword,Epic,Hunting;Smithing,Greatwood (Ragged King),Signature hunt reward for melee hunters and wardens.,gear_heartwood_vowblade.png
+220,Hollowroot Matron's Warding Band,Gear,Ring,Legendary,Jewelry;Alchemy,Hollowroot Warren,Defensive charm amplifying poison resist and cleansing tonics.,gear_hollowroot_wardingband.png
+221,Sap-Slick Jerkin,Gear,Leather Chest,Rare,Tailoring;Hunting,Greatwood,Bleed-resistant ranger armor.,gear_sap_slick_jerkin.png
+222,Greatwood Trailboots,Gear,Boots,Rare,Tailoring;Hunting,Greatwood,Movement speed and snare resistance for scouts.,gear_greatwood_trailboots.png
+223,Warden's Grove Map,Quest,Map,Rare,Cartography;Hunting,Greatwood,Unlocks new hunt board routes and cache spawns.,quest_wardens_grove_map.png
+224,Burn-Scar Chasmbreaker,Gear,2H Axe,Epic,Smithing,Burn-Scar Descent,Cleave-focused set piece for melee brawlers.,gear_burnscar_chasmbreaker.png
+225,Magmaforged Links,Material,Chain,Rare,Smithing;Armorsmithing,Burn-Scar Descent,Crafting fire-resistant mail and tether tools.,mat_magmaforged_links.png
+226,Hollowroot Sporesplice,Ingredient,Fungus,Rare,Cooking;Alchemy,Hollowroot Warren,Potent curing broths and antitoxin brews.,ing_hollowroot_sporesplice.png
+227,Matron's Broodguard,Gear,Shield,Epic,Smithing;Hunting,Hollowroot Warren,High-block shield for poison-heavy encounters.,gear_matrons_broodguard.png
+228,Glacierbite Bow,Gear,Bow,Epic,Bowyer;Hunting,Frostmarch Tundra,Ice-aspected ranged option with slow procs.,gear_glacierbite_bow.png
+229,Permafrost Greaves,Gear,Plate Legs,Rare,Armorsmithing,Frostmarch Tundra,Heavy leg armor for chill-heavy routes.,gear_permafrost_greaves.png
+230,Tundra Howl Totem,Curio,Totem,Epic,Alchemy;Hunting,Frostmarch Tundra,Summoning lure and cold resistance buff component.,curio_tundra_howl_totem.png
+231,Frostmarch Seal,Quest,Seal,Rare,Cartography;Alchemy,Frostmarch Tundra,Unlocks Frostmarch vault doors and wards.,quest_frostmarch_seal.png
+232,Ashen Ridge Emberplate,Gear,Chestplate,Epic,Armorsmithing;Smithing,Ashen Ridge,Tank chest for volcanic encounters.,gear_ashen_ridge_emberplate.png
+233,Cinderstorm Javelin,Gear,Spear,Epic,Weaponsmithing,Ashen Ridge,Mid-range strength weapon with burn-over-time.,gear_cinderstorm_javelin.png
+234,Sootglass Eye,Curio,Trinket,Rare,Jewelry;Alchemy,Ashen Ridge,Perception boost for lava vents and unstable nodes.,curio_sootglass_eye.png
+235,Cragfeather Cape,Gear,Cloak,Rare,Tailoring,Ashen Ridge,Minor fire ward cloak with glide control.,gear_cragfeather_cape.png
+236,Nightspire Lantern,Gear,Off-hand,Epic,Jewelry;Alchemy,Duskhollow,Shadow damage boost and hidden path reveal.,gear_nightspire_lantern.png
+237,Hollow Veil Hood,Gear,Hood,Epic,Tailoring,Duskhollow,Stealth-focused headpiece for rogues and rangers.,gear_hollow_veil_hood.png
+238,Duskfang Dagger,Gear,Dagger,Rare,Weaponsmithing,Duskhollow,Paired dagger option with shadow bleed.,gear_duskfang_dagger.png
+239,Mistwoven Cloak,Gear,Cloak,Rare,Tailoring,Duskhollow,Evasion cloak that sheds threat.,gear_mistwoven_cloak.png
+240,Vergebreaker Maul,Gear,Two-Hand Maul,Legendary,Weaponsmithing,Shattered Verge,High-burst stagger weapon that sunders barriers.,gear_vergebreaker_maul.png
+241,Veilshard Circuit,Curio,Relic,Epic,Alchemy;Jewelry,Shattered Verge,Relic powering portal stability and spell haste.,curio_veilshard_circuit.png
+242,Fractured Sigil,Quest,Sigil,Rare,Cartography,Shattered Verge,Reassembles into keys for verge vaults.,quest_fractured_sigil.png
+243,Nullvein Bracer,Gear,Wristguard,Rare,Armorsmithing;Alchemy,Shattered Verge,Spell-dampening wrist slot with focus regen.,gear_nullvein_bracer.png
+244,Emberpot Lodge Stew,Consumable,Meal,Rare,Cooking,Greatwood Lodge,Group feast buff to stamina regen and cold resistance.,food_emberpot_stew.png
+245,Frostbloom Draught,Alchemy,Potion,Rare,Alchemy,Frostmarch Tundra,Cold resistance potion with crit clarity.,alch_frostbloom_draught.png
+246,Ashen Spice Rub,Ingredient,Spice,Uncommon,Cooking,Ashen Ridge,Seasoning for fire-aspected meals and jerky.,ing_ashen_spice_rub.png
+247,Deepcurrent Tea,Consumable,Drink,Uncommon,Cooking;Fishing,Shiverstone Coast,Fishing luck drink with chill tolerance.,drink_deepcurrent_tea.png
+248,Trailwarden's Satchel,Profession Tool,,Rare,Foraging;Hunting,Greatwood,Increases gather yields and reduces breakage.,tool_trailwardens_satchel.png

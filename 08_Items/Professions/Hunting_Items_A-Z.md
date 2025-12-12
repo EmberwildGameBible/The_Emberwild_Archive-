@@ -440,3 +440,31 @@ Rarity: Uncommon
 Tier / Progression: Mid
 Source: Found in Sunspire from camps.
 Primary Uses: Socketing into runic gear
+
+Heartwood Vowblade
+Type: Output
+Rarity: Epic
+Tier / Progression: Mid
+Source: Earned from Ragged King hunt in Greatwood.
+Primary Uses: Signature hunt blade with bleed cleanse proc.
+
+Matron's Broodguard
+Type: Output
+Rarity: Epic
+Tier / Progression: Mid
+Source: Hollowroot Matron shield fragments and broodguard rares.
+Primary Uses: High-block shield tuned for poison hunts.
+
+Trailwarden's Satchel
+Type: Tool
+Rarity: Rare
+Tier / Progression: Newbie
+Source: Lodge deed rewards and trailwarden contracts.
+Primary Uses: Increases gather yields and reduces breakage for specimens.
+
+Warden's Grove Map
+Type: Tool
+Rarity: Rare
+Tier / Progression: Mid
+Source: Lodge archivist quests and elder stag trophies.
+Primary Uses: Unlocks hidden hunt routes and cache markers.

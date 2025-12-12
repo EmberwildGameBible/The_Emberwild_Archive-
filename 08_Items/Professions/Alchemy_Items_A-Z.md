@@ -356,3 +356,10 @@ Rarity: Epic
 Tier / Progression: Endgame
 Source: Found in Whispering Steppes from nodes.
 Primary Uses: Upgrading profession tools
+
+Frostbloom Draught
+Type: Output
+Rarity: Rare
+Tier / Progression: Mid
+Source: Crafted from frostbloom petals and glacier water in Frostmarch.
+Primary Uses: Cold resistance potion with a minor crit clarity boost.

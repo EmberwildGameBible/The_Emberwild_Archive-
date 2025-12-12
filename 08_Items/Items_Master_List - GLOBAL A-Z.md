@@ -2179,3 +2179,303 @@ Description: A ingredient that carries a faint ember glow.
 Uses: Socketing into runic gear
 Drop Sources: Found in Sunspire from camps.
 File: item_zincroot_elixir.png
+
+[219 — Heartwood Vowblade]
+Category: Gear – 1H Sword
+Rarity: Epic
+Profession Tags: Hunting, Smithing
+Biome / Region: Greatwood (Ragged King)
+Description: A heartwood blade bound with vow-marked ribbon, humming when hunts are called.
+Uses: Signature hunt reward for melee hunters and wardens.
+Drop Sources: Ragged King hunt encounter in Greatwood; elite grove caches.
+File: gear_heartwood_vowblade.png
+
+[220 — Hollowroot Matron's Warding Band]
+Category: Gear – Ring
+Rarity: Legendary
+Profession Tags: Jewelry, Alchemy
+Biome / Region: Hollowroot Warren
+Description: A bark-ring set with amber motes that pulse like brood-heartbeats.
+Uses: Defensive charm that amplifies poison resist and brood-cleansing tonics.
+Drop Sources: Hollowroot Matron boss chest and rare broodguard steals.
+File: gear_hollowroot_wardingband.png
+
+[221 — Sap-Slick Jerkin]
+Category: Gear – Leather Chest
+Rarity: Rare
+Profession Tags: Tailoring, Hunting
+Biome / Region: Greatwood
+Description: A supple jerkin sealed with resin to shed thorns and claws.
+Uses: Early-game ranger armor tuned for bleed resistance.
+Drop Sources: Greatwood hunt board targets and bramble caches.
+File: gear_sap_slick_jerkin.png
+
+[222 — Greatwood Trailboots]
+Category: Gear – Boots
+Rarity: Rare
+Profession Tags: Tailoring, Hunting
+Biome / Region: Greatwood
+Description: Trailworn boots with barkguard soles that grip wet roots.
+Uses: Movement speed and snare resistance for scouts.
+Drop Sources: Lodge deed rewards and trail cache chests in Greatwood.
+File: gear_greatwood_trailboots.png
+
+[223 — Warden's Grove Map]
+Category: Quest – Map
+Rarity: Rare
+Profession Tags: Cartography, Hunting
+Biome / Region: Greatwood
+Description: Hand-inked vellum showing hidden groves and wardstone pylons.
+Uses: Unlocks new hunt board routes and reveals cache spawns.
+Drop Sources: Lodge archivist quests and elder stag trophies.
+File: quest_wardens_grove_map.png
+
+[224 — Burn-Scar Chasmbreaker]
+Category: Gear – 2H Axe
+Rarity: Epic
+Profession Tags: Smithing
+Biome / Region: Burn-Scar Descent
+Description: A slag-edged battleaxe quenched in lava plumes, heavy enough to cleave basalt.
+Uses: Cleave-focused set piece for melee brawlers.
+Drop Sources: Burn-Scar Descent final chest and magma colossus trophy turn-ins.
+File: gear_burnscar_chasmbreaker.png
+
+[225 — Magmaforged Links]
+Category: Material – Chain
+Rarity: Rare
+Profession Tags: Smithing, Armorsmithing
+Biome / Region: Burn-Scar Descent
+Description: Chains heat-tempered in fuming vents, still warm to the touch.
+Uses: Crafting fire-resistant mail and tether tools.
+Drop Sources: Burn-Scar chasm nodes and salamander wardens.
+File: mat_magmaforged_links.png
+
+[226 — Hollowroot Sporesplice]
+Category: Ingredient – Fungus
+Rarity: Rare
+Profession Tags: Cooking, Alchemy
+Biome / Region: Hollowroot Warren
+Description: Luminescent spores braided into a living filament.
+Uses: Potent curing broths and antitoxin brews.
+Drop Sources: Hollowroot spore pods and broodling packs.
+File: ing_hollowroot_sporesplice.png
+
+[227 — Matron's Broodguard]
+Category: Gear – Shield
+Rarity: Epic
+Profession Tags: Smithing, Hunting
+Biome / Region: Hollowroot Warren
+Description: A chitin bulwark lacquered with amber sap, patterned after broodplate.
+Uses: High-block shield tuned for poison-heavy encounters.
+Drop Sources: Hollowroot Matron shield fragment drops and broodguard rares.
+File: gear_matrons_broodguard.png
+
+[228 — Glacierbite Bow]
+Category: Gear – Bow
+Rarity: Epic
+Profession Tags: Bowyer, Hunting
+Biome / Region: Frostmarch Tundra
+Description: A frost-laced recurve that exhales mist with every draw.
+Uses: Ice-aspected ranged option with slow procs.
+Drop Sources: Frostmarch alpine hunt rares and icebound world boss caches.
+File: gear_glacierbite_bow.png
+
+[229 — Permafrost Greaves]
+Category: Gear – Plate Legs
+Rarity: Rare
+Profession Tags: Armorsmithing
+Biome / Region: Frostmarch Tundra
+Description: Plate greaves lined with snowseal felt to keep joints limber.
+Uses: Heavy leg armor for chill-heavy routes.
+Drop Sources: Frostmarch warband chests and tundra patrol events.
+File: gear_permafrost_greaves.png
+
+[230 — Tundra Howl Totem]
+Category: Curio – Totem
+Rarity: Epic
+Profession Tags: Alchemy, Hunting
+Biome / Region: Frostmarch Tundra
+Description: A carved horn totem that echoes the tundra howlers' calls.
+Uses: Summoning lure for hunts and cold resistance buff component.
+Drop Sources: Frostmarch Howler packs and shrine offerings.
+File: curio_tundra_howl_totem.png
+
+[231 — Frostmarch Seal]
+Category: Quest – Seal
+Rarity: Rare
+Profession Tags: Cartography, Alchemy
+Biome / Region: Frostmarch Tundra
+Description: A rune-stamped sigil granting passage through icegate vaults.
+Uses: Unlocks Frostmarch vault doors and alchemical wards.
+Drop Sources: Regional questlines and icegate sentinels.
+File: quest_frostmarch_seal.png
+
+[232 — Ashen Ridge Emberplate]
+Category: Gear – Chestplate
+Rarity: Epic
+Profession Tags: Armorsmithing, Smithing
+Biome / Region: Ashen Ridge
+Description: A soot-dark plate with ember veins that flare under strain.
+Uses: Tank chest for volcanic encounters and fire retaliation builds.
+Drop Sources: Ashen Ridge siege commanders and emberforged caches.
+File: gear_ashen_ridge_emberplate.png
+
+[233 — Cinderstorm Javelin]
+Category: Gear – Spear
+Rarity: Epic
+Profession Tags: Weaponsmithing
+Biome / Region: Ashen Ridge
+Description: A javelin tipped with obsidian shardglass that ignites on impact.
+Uses: Mid-range strength weapon with burn-over-time.
+Drop Sources: Ashen Ridge skirmish bosses and warband coffers.
+File: gear_cinderstorm_javelin.png
+
+[234 — Sootglass Eye]
+Category: Curio – Trinket
+Rarity: Rare
+Profession Tags: Jewelry, Alchemy
+Biome / Region: Ashen Ridge
+Description: A polished shard of sootglass that records ember tremors.
+Uses: Trinket that boosts perception of lava vents and unstable nodes.
+Drop Sources: Ashen Ridge geomancer drops and faultline caches.
+File: curio_sootglass_eye.png
+
+[235 — Cragfeather Cape]
+Category: Gear – Cloak
+Rarity: Rare
+Profession Tags: Tailoring
+Biome / Region: Ashen Ridge
+Description: A cape lined with basalt feathers that shed ash.
+Uses: Light cloak granting minor fire ward and glide control.
+Drop Sources: Ashen Ridge harpy rares and sky-nest chests.
+File: gear_cragfeather_cape.png
+
+[236 — Nightspire Lantern]
+Category: Gear – Off-hand
+Rarity: Epic
+Profession Tags: Jewelry, Alchemy
+Biome / Region: Duskhollow
+Description: A voidlit lantern that stains mist purple, guiding through gloom.
+Uses: Off-hand that boosts shadow damage and reveals hidden paths.
+Drop Sources: Duskhollow Nightspire bosses and shade caches.
+File: gear_nightspire_lantern.png
+
+[237 — Hollow Veil Hood]
+Category: Gear – Hood
+Rarity: Epic
+Profession Tags: Tailoring
+Biome / Region: Duskhollow
+Description: A whisper-thin hood that muffles footfalls and cloaks heat signatures.
+Uses: Stealth-focused headpiece for rogues and rangers.
+Drop Sources: Duskhollow assassins and veilrunner events.
+File: gear_hollow_veil_hood.png
+
+[238 — Duskfang Dagger]
+Category: Gear – Dagger
+Rarity: Rare
+Profession Tags: Weaponsmithing
+Biome / Region: Duskhollow
+Description: A curved dagger that drinks lamplight and leaves cold cuts.
+Uses: Paired dagger option with shadow bleed.
+Drop Sources: Duskhollow shadowblade elites and lockbox caches.
+File: gear_duskfang_dagger.png
+
+[239 — Mistwoven Cloak]
+Category: Gear – Cloak
+Rarity: Rare
+Profession Tags: Tailoring
+Biome / Region: Duskhollow
+Description: A cloak woven from mist-silk that blurs the wearer at the edges.
+Uses: Evasion and threat-shed option for light armor users.
+Drop Sources: Duskhollow mistmoth rares and hidden wardrobe caches.
+File: gear_mistwoven_cloak.png
+
+[240 — Vergebreaker Maul]
+Category: Gear – Two-Hand Maul
+Rarity: Legendary
+Profession Tags: Weaponsmithing
+Biome / Region: Shattered Verge
+Description: A maul forged from vergeplate, crackling with planar static.
+Uses: High-burst stagger weapon that sunders barriered foes.
+Drop Sources: Shattered Verge incursion bosses and verge fracture events.
+File: gear_vergebreaker_maul.png
+
+[241 — Veilshard Circuit]
+Category: Curio – Relic
+Rarity: Epic
+Profession Tags: Alchemy, Jewelry
+Biome / Region: Shattered Verge
+Description: A loop of crystal circuitry harvested from verge pylons.
+Uses: Relic slot item powering portal stability and spell haste.
+Drop Sources: Verge pylon cores and anomaly custodians.
+File: curio_veilshard_circuit.png
+
+[242 — Fractured Sigil]
+Category: Quest – Sigil
+Rarity: Rare
+Profession Tags: Cartography
+Biome / Region: Shattered Verge
+Description: A broken sigil tablet etched with half-lost coordinates.
+Uses: Reassembles into keys for verge vaults.
+Drop Sources: Shattered Verge patrol caches and anomaly scouts.
+File: quest_fractured_sigil.png
+
+[243 — Nullvein Bracer]
+Category: Gear – Wristguard
+Rarity: Rare
+Profession Tags: Armorsmithing, Alchemy
+Biome / Region: Shattered Verge
+Description: A bracer lined with nullmetal threads that mute stray mana.
+Uses: Wrist slot option with spell dampening and focus regen.
+Drop Sources: Verge nullling packs and arcway chests.
+File: gear_nullvein_bracer.png
+
+[244 — Emberpot Lodge Stew]
+Category: Consumable – Meal
+Rarity: Rare
+Profession Tags: Cooking
+Biome / Region: Greatwood Lodge
+Description: A bubbling stew of venison, root vegetables, and ember spices kept warm in the lodge hearth.
+Uses: Group feast buff to stamina regen and cold resistance.
+Drop Sources: Lodge festival vendors and cooking reputation rewards.
+File: food_emberpot_stew.png
+
+[245 — Frostbloom Draught]
+Category: Alchemy – Potion
+Rarity: Rare
+Profession Tags: Alchemy
+Biome / Region: Frostmarch Tundra
+Description: A crisp draught distilled from frostbloom petals and glacier water.
+Uses: Cold resistance potion with minor crit clarity boost.
+Drop Sources: Crafted from tundra herbs; sold by Frostmarch alchemists.
+File: alch_frostbloom_draught.png
+
+[246 — Ashen Spice Rub]
+Category: Ingredient – Spice
+Rarity: Uncommon
+Profession Tags: Cooking
+Biome / Region: Ashen Ridge
+Description: A smoky blend of charred peppers and ember salt packaged for field cooks.
+Uses: Seasoning for fire-aspected meals and jerky.
+Drop Sources: Ashen Ridge camp vendors and cookfire caches.
+File: ing_ashen_spice_rub.png
+
+[247 — Deepcurrent Tea]
+Category: Consumable – Drink
+Rarity: Uncommon
+Profession Tags: Cooking, Fishing
+Biome / Region: Shiverstone Coast
+Description: A strong kelp-and-spice tea favored by dockworkers and anglers.
+Uses: Short-term fishing luck and chill tolerance.
+Drop Sources: Coastal vendors and pier-side daily quests.
+File: drink_deepcurrent_tea.png
+
+[248 — Trailwarden's Satchel]
+Category: Profession Tool
+Rarity: Rare
+Profession Tags: Foraging, Hunting
+Biome / Region: Greatwood
+Description: A reinforced satchel with resin-lined pockets for specimens.
+Uses: Increases gather yields and reduces breakage for delicate finds.
+Drop Sources: Lodge deed rewards and trailwarden contracts.
+File: tool_trailwardens_satchel.png

@@ -300,3 +300,24 @@ Rarity: Epic
 Tier / Progression: Endgame
 Source: Found in Bramblefold from raiders.
 Primary Uses: Fuel for campfire survival kits
+
+Ashen Spice Rub
+Type: Input
+Rarity: Uncommon
+Tier / Progression: Early
+Source: Ashen Ridge camp vendors and cookfire caches.
+Primary Uses: Seasoning base for fire-aspected meals and jerky.
+
+Emberpot Lodge Stew
+Type: Output
+Rarity: Rare
+Tier / Progression: Mid
+Source: Lodge festival vendors and cooking reputation rewards.
+Primary Uses: Group feast buff to stamina regen and cold resistance.
+
+Deepcurrent Tea
+Type: Output
+Rarity: Uncommon
+Tier / Progression: Mid
+Source: Coastal vendors and pier-side daily quests.
+Primary Uses: Fishing luck drink that boosts chill tolerance.

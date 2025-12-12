@@ -279,3 +279,38 @@ Rarity: Epic
 Tier / Progression: Endgame
 Source: Found in Frost Caverns from beasts.
 Primary Uses: Enchanting catalysts for late-game crafts
+
+Sap-Slick Jerkin
+Type: Output
+Rarity: Rare
+Tier / Progression: Early
+Source: Greatwood hunt board targets and bramble caches.
+Primary Uses: Bleed-resistant leather chest for rangers.
+
+Greatwood Trailboots
+Type: Output
+Rarity: Rare
+Tier / Progression: Early
+Source: Lodge deed rewards and trail cache chests in Greatwood.
+Primary Uses: Movement speed and snare resistance for scouts.
+
+Cragfeather Cape
+Type: Output
+Rarity: Rare
+Tier / Progression: Mid
+Source: Ashen Ridge harpy rares and sky-nest chests.
+Primary Uses: Minor fire ward and glide control.
+
+Mistwoven Cloak
+Type: Output
+Rarity: Rare
+Tier / Progression: Late
+Source: Duskhollow mistmoth rares and hidden wardrobe caches.
+Primary Uses: Evasion cloak that sheds threat.
+
+Hollow Veil Hood
+Type: Output
+Rarity: Epic
+Tier / Progression: Late
+Source: Duskhollow assassins and veilrunner events.
+Primary Uses: Stealth-focused hood for rogues and rangers.

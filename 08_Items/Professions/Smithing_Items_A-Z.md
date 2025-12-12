@@ -384,3 +384,38 @@ Rarity: Epic
 Tier / Progression: Endgame
 Source: Found in Bramblefold from raiders.
 Primary Uses: Fuel for campfire survival kits
+
+Ashen Ridge Emberplate
+Type: Output
+Rarity: Epic
+Tier / Progression: Late
+Source: Forged from siege commander salvages in Ashen Ridge.
+Primary Uses: Tank chest with fire retaliation aura.
+
+Burn-Scar Chasmbreaker
+Type: Output
+Rarity: Epic
+Tier / Progression: Endgame
+Source: Burn-Scar Descent final chest and magma colossus trophies.
+Primary Uses: Cleave-heavy two-handed axe for frontline bruisers.
+
+Cinderstorm Javelin
+Type: Output
+Rarity: Epic
+Tier / Progression: Mid
+Source: Ashen Ridge skirmish bosses and warband coffers.
+Primary Uses: Mid-range spear with escalating burn stacks.
+
+Matron's Broodguard
+Type: Output
+Rarity: Epic
+Tier / Progression: Mid
+Source: Hollowroot Warren broodguard fragments.
+Primary Uses: Poison-tuned shield with high block.
+
+Vergebreaker Maul
+Type: Output
+Rarity: Legendary
+Tier / Progression: Endgame
+Source: Shattered Verge incursion bosses and fracture events.
+Primary Uses: Barrier-sundering maul for stagger builds.

@@ -7,6 +7,9 @@ Core references and navigation for itemization, crafting, and recipe content.
 - Items_Master_List - GLOBAL A-Z.md — Unified item entries with category, rarity, drops, and profession tags across all families.
 - ITEM_TAXONOMY - GLOBAL OVERVIEW.md — Shared item family definitions, rarity usage, and profession/system touchpoints.
 
+- ITEM SETS & SIGNATURE DROPS.md — Regional signatures, boss legendaries, and small set bonuses with synergy notes.
+- ITEM COLLECTIONS & CURIOS.md — Collection groupings for trophies, curios, relics, and maps by region.
+
 ## Professions & Materials
 - Professions/PROFESSION COMPONENTS & CRAFTABLES.md — Gathering inputs, crafted gear/consumables, and specialization notes.
 - Professions/Cooking_Items_A-Z.md
@@ -15,6 +18,9 @@ Core references and navigation for itemization, crafting, and recipe content.
 - Professions/Alchemy_Items_A-Z.md
 - Professions/Smithing_Items_A-Z.md
 - Professions/Tailoring_Items_A-Z.md
+
+- Professions/PROFESSION PROGRESSION LADDERS.md — Tiered key items per profession, aligned to the global list.
+
 
 ## Recipes & Ingredients
 - Recipes/COOKBOOK EXCERPT - “Fisherman’s Broth”.md
