@@ -95,3 +95,5 @@
 - **Tidecaller's Brass Bell** — Tide bell kept near Coastal Beacon Oil Flasks.
 - **Stormwashed Coin Stack** — Prize coin tower set beside Smuggler's Ledger Pages.
 - **Dockmaster's Wharf Key** — Heavy key locked with other pier gate relics.
+
+- **Dockmaster's Wharf Key** — Heavy key locked with other pier gate relics.
