@@ -216,6 +216,7 @@ Weapons use separate weapon-DPS budgets from Chapter 4.
 - Small chance at Epic (low)
 - Can drop Ultra-Rares at “creature-family bracket”
 - Always drop flavor/lore items
+    - Pull tooltip tone from Items_Flavor_Notes.md and match curios to the appropriate REGION ITEM FLAVOR PACK.
 - Always drop something useful
 
 ### 7.5.3 Elite Enemies
