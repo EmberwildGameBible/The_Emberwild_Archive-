@@ -6,10 +6,14 @@ Core references and navigation for itemization, crafting, and recipe content.
 - ITEM CATALOG - A TO Z.md — Alphabetized items across rarities with sources, roles, and classic-friendly hooks.
 - Items_Master_List - GLOBAL A-Z.md — Unified item entries with category, rarity, drops, and profession tags across all families.
 - ITEM_TAXONOMY - GLOBAL OVERVIEW.md — Shared item family definitions, rarity usage, and profession/system touchpoints.
+
 - ITEM SETS & SIGNATURE DROPS.md — Regional signatures, boss legendaries, and small set bonuses with synergy notes.
 - ITEM COLLECTIONS & CURIOS.md — Collection groupings for trophies, curios, relics, and maps by region.
 - Items_Flavor_Notes.md — Tooltip and examine flavor text for all rare-and-up items plus key common staples.
 - Regions/REGION_NAME - ITEM FLAVOR PACK.md — Ambient/world item packs for Greatwood, Hollowroot, Ashen Ridge, Frostmarch, Duskhollow, Shattered Verge, and Shiverstone Coast.
+
+- ITEM SETS & SIGNATURE DROPS.md — Regional signatures, boss legendaries, and small set bonuses with synergy notes.
+- ITEM COLLECTIONS & CURIOS.md — Collection groupings for trophies, curios, relics, and maps by region.
 
 ## Professions & Materials
 - Professions/PROFESSION COMPONENTS & CRAFTABLES.md — Gathering inputs, crafted gear/consumables, and specialization notes.
@@ -19,6 +23,9 @@ Core references and navigation for itemization, crafting, and recipe content.
 - Professions/Alchemy_Items_A-Z.md
 - Professions/Smithing_Items_A-Z.md
 - Professions/Tailoring_Items_A-Z.md
+
+- Professions/PROFESSION PROGRESSION LADDERS.md — Tiered key items per profession, aligned to the global list.
+
 - Professions/PROFESSION PROGRESSION LADDERS.md — Tiered key items per profession, aligned to the global list.
 
 ## Recipes & Ingredients

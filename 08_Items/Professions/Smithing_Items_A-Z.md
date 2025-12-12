@@ -419,3 +419,6 @@ Rarity: Legendary
 Tier / Progression: Endgame
 Source: Shattered Verge incursion bosses and fracture events.
 Primary Uses: Barrier-sundering maul for stagger builds.
+Source: Shattered Verge incursion bosses and fracture events
+Primary Uses: Barrier-sundering maul for stagger builds.
+Primary Uses: Barrier-sundering maul for stagger builds.

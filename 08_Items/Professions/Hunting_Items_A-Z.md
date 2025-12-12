@@ -468,3 +468,4 @@ Rarity: Rare
 Tier / Progression: Mid
 Source: Lodge archivist quests and elder stag trophies.
 Primary Uses: Unlocks hidden hunt routes and cache markers.
+Primary Uses: Unlocks hidden hunt routes and cache markers.
