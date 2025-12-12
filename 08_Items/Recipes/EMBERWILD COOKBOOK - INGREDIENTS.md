@@ -2,7 +2,7 @@
 
 ---
 
-# **LETTER A — INGREDIENTS (FINAL EXPANDED LIST, 52 TOTAL)**
+# **INGREDIENTS (EXPANDED LIST, 60 TOTAL)**
 
 (Alphabetized categories, A+C hybrid, WoW-style, Emberwild tone)
 
@@ -4339,3 +4339,495 @@ Description: Ice-blue berry with chilling sweetness.
 Uses: Frost desserts, cold teas.
 
 File: ingredient_frostpearl_berry.png
+────────────────────────────────────────
+
+# **FISH & SHELLFISH (F)**
+
+──────────────────────────
+
+[INGREDIENT 31 — EMBERFIN TROUT]
+
+Category: Fish
+
+Rarity: Uncommon
+
+Biome: Mountain lakes
+
+Description: Bright-finned trout that gathers heat from volcanic springs.
+
+Uses: Hearty stews, stamina-focused chowders.
+
+File: ingredient_emberfin_trout.png
+
+──────────────────────────
+
+[INGREDIENT 32 — MUDSHELL CLAM]
+
+Category: Shellfish
+
+Rarity: Common
+
+Biome: River deltas
+
+Description: Thick-shelled clam with clean, briny meat.
+
+Uses: Chowders, travel rations.
+
+File: ingredient_mudshell_clam.png
+
+──────────────────────────
+
+[INGREDIENT 33 — STORMSCALE CARP]
+
+Category: Fish
+
+Rarity: Rare
+
+Biome: Tempest coasts
+
+Description: Silver carp with crackling scales that hold a static charge.
+
+Uses: Lightning-aspected feasts, agility meals.
+
+File: ingredient_stormscale_carp.png
+
+──────────────────────────
+
+[INGREDIENT 34 — GLOAM EEL]
+
+Category: Fish
+
+Rarity: Uncommon
+
+Biome: Swamp shallows
+
+Description: Dark, oily eel that thrives under driftwood and reeds.
+
+Uses: Smoked strips, energy-restoring soups.
+
+File: ingredient_gloam_eel.png
+
+────────────────────────────────────────
+
+# **MEATS & GAME (M)**
+
+──────────────────────────
+
+[INGREDIENT 35 — SMOLDERHORN SHANK]
+
+Category: Meat
+
+Rarity: Uncommon
+
+Biome: Highland slopes
+
+Description: Dense shank from heat-touched aurochs.
+
+Uses: Strength stews, long-roast feasts.
+
+File: ingredient_smolderhorn_shank.png
+
+──────────────────────────
+
+[INGREDIENT 36 — VERDANT FOWL]
+
+Category: Poultry
+
+Rarity: Common
+
+Biome: Farmsteads
+
+Description: Free-range fowl with herb-rich diet.
+
+Uses: Campfire roasts, travel jerky.
+
+File: ingredient_verdant_fowl.png
+
+──────────────────────────
+
+[INGREDIENT 37 — EMBERWOLF RIB]
+
+Category: Meat
+
+Rarity: Rare
+
+Biome: Ashen forests
+
+Description: Sinewy rib cut from packs that stalk ember-lit groves.
+
+Uses: High-protein roasts, raid feast platters.
+
+File: ingredient_emberwolf_rib.png
+
+────────────────────────────────────────
+
+# **GRAINS & SPICES (G)**
+
+──────────────────────────
+
+[INGREDIENT 38 — HEARTHGRAIN MALT]
+
+Category: Grain
+
+Rarity: Common
+
+Biome: Farmlands
+
+Description: Kiln-dried grain with smoky sweetness.
+
+Uses: Travel breads, restorative ales.
+
+File: ingredient_hearthgrain_malt.png
+
+──────────────────────────
+
+[INGREDIENT 39 — SUNPEPPER]
+
+Category: Spice
+
+Rarity: Uncommon
+
+Biome: Arid terraces
+
+Description: Amber peppercorns that radiate gentle heat.
+
+Uses: Spice rubs, warming soups.
+
+File: ingredient_sunpepper.png
+
+──────────────────────────
+
+[INGREDIENT 40 — FROSTTHISTLE]
+
+Category: Spice
+
+Rarity: Rare
+
+Biome: High tundra
+
+Description: Needle-like spice with cooling bite.
+
+Uses: Frost-resistant tonics, chilled desserts.
+
+File: ingredient_frostthistle.png
+
+
+──────────────────────────
+
+[INGREDIENT 41 — EVERGOLD FIG]
+
+Category: Fruit
+
+Rarity: Uncommon
+
+Biome: Sun-dappled groves
+
+Description: Honey-sweet fig with long shelf life.
+
+Uses: High-calorie travel rations, sweeteners for healer brews.
+
+File: ingredient_evergoldfig.png
+
+──────────────────────────
+
+[INGREDIENT 42 — SAILOR’S CUTTLE]
+
+Category: Fish
+
+Rarity: Common
+
+Biome: Coastal shallows
+
+Description: Tender cuttlefish with brine-rich ink.
+
+Uses: Ink for scrolls, savory stews for stamina.
+
+File: ingredient_sailorcuttle.png
+
+──────────────────────────
+
+[INGREDIENT 43 — FROSTROOT BULB]
+
+Category: Root
+
+Rarity: Rare
+
+Biome: Permafrost caves
+
+Description: Glacial bulb that numbs the tongue.
+
+Uses: Frost resistance tonics, chilled desserts for events.
+
+File: ingredient_frostrootbulb.png
+
+──────────────────────────
+
+[INGREDIENT 44 — BRIGHTCRUST BREAD LOAF]
+
+Category: Grain
+
+Rarity: Common
+
+Biome: Bakery staple
+
+Description: Crackling crust bread baked with ambergrain.
+
+Uses: Base for buff sandwiches, vendor food upgrades.
+
+File: ingredient_brightcrust.png
+
+──────────────────────────
+
+[INGREDIENT 45 — DEEPWOOL THREAD]
+
+Category: Cloth
+
+Rarity: Uncommon
+
+Biome: Cavern pastures
+
+Description: Dense thread sheared from cavern sheep.
+
+Uses: Tailoring linings, bag upgrades, insulation for resist gear.
+
+File: ingredient_deepwool.png
+
+──────────────────────────
+
+[INGREDIENT 46 — STARFALL BLOOM]
+
+Category: Herb
+
+Rarity: Rare
+
+Biome: Meteor craters
+
+Description: Luminescent flower that glows at night.
+
+Uses: Arcane/holy potions, raid-tier elixirs with long cooldowns.
+
+File: ingredient_starfallbloom.png
+
+──────────────────────────
+
+[INGREDIENT 47 — COPPERBACK SALMON]
+
+Category: Fish
+
+Rarity: Uncommon
+
+Biome: River shallows
+
+Description: Fatty salmon with metallic scales.
+
+Uses: Tanking stew base, high omega oils for buff foods.
+
+File: ingredient_copperback.png
+
+──────────────────────────
+
+[INGREDIENT 48 — VOLCANIC SALT]
+
+Category: Spice
+
+Rarity: Uncommon
+
+Biome: Geothermal vents
+
+Description: Dark, mineral-heavy salt that crackles on heat.
+
+Uses: Fire-aspected dishes, weapon-brine for blacksmithing quench.
+
+File: ingredient_volcanicsalt.png
+
+──────────────────────────
+
+[INGREDIENT 49 — WINDLEAF]
+
+Category: Herb
+
+Rarity: Common
+
+Biome: Highlands
+
+Description: Feather-light leaf that wilts in still air.
+
+Uses: Teas that reduce travel fatigue; swift rations for scouts.
+
+File: ingredient_windleafe.png
+
+──────────────────────────
+
+[INGREDIENT 50 — RIVERREED STALK]
+
+Category: Vegetable
+
+Rarity: Common
+
+Biome: Riverbanks
+
+Description: Crunchy reed with watery sweetness.
+
+Uses: Stir-fry filler, soup thickener, bait for fishing quests.
+
+File: ingredient_riverreed.png
+
+──────────────────────────
+
+[INGREDIENT 51 — HIGHLAND RAM SHANK]
+
+Category: Meat
+
+Rarity: Uncommon
+
+Biome: Mountain slopes
+
+Description: Heavy red meat with dense marrow.
+
+Uses: Hearty strength meals, crafting fat for torches.
+
+File: ingredient_ramshank.png
+
+──────────────────────────
+
+[INGREDIENT 52 — DREADMIRE CHILI]
+
+Category: Spice
+
+Rarity: Rare
+
+Biome: Swamp fumaroles
+
+Description: Intense chili pepper with smoky heat.
+
+Uses: DPS spice rubs with fire procs; brew additive for burn resistance.
+
+File: ingredient_dreadmirechili.png
+
+──────────────────────────
+
+[INGREDIENT 53 — SHADOWCAP MUSHROOM]
+
+Category: Fungus
+
+Rarity: Uncommon
+
+Biome: Shadowed grottos
+
+Description: Dark cap that dulls light.
+
+Uses: Stealth rations, low-visibility dyes for leather.
+
+File: ingredient_shadowcap.png
+
+──────────────────────────
+
+[INGREDIENT 54 — GLASSWING HONEY]
+
+Category: Sweetener
+
+Rarity: Uncommon
+
+Biome: Crystal hives
+
+Description: Clear honey that refracts light.
+
+Uses: Mana-recoup teas, glaze for caster foods.
+
+File: ingredient_glasswinghoney.png
+
+──────────────────────────
+
+[INGREDIENT 55 — MOONLIT LOTUS]
+
+Category: Herb
+
+Rarity: Epic
+
+Biome: Lunar pools
+
+Description: Night-blooming lotus with faint arcane aura.
+
+Uses: Endgame elixirs, attunement ritual components.
+
+File: ingredient_moonlitlotus.png
+
+──────────────────────────
+
+[INGREDIENT 56 — OLDWORLD HARDTACK]
+
+Category: Bread
+
+Rarity: Common
+
+Biome: Ship stores
+
+Description: Long-lasting travel biscuit.
+
+Uses: Base ration for war supply crates; combo with dried meats.
+
+File: ingredient_hardtack.png
+
+──────────────────────────
+
+[INGREDIENT 57 — SPARKWATER VIAL]
+
+Category: Liquid
+
+Rarity: Rare
+
+Biome: Storm peaks
+
+Description: Electrified spring water stored in stoppered vials.
+
+Uses: Lightning tonics, enchanting catalysts with charge themes.
+
+File: ingredient_sparkwater.png
+
+──────────────────────────
+
+[INGREDIENT 58 — EARTHEN TRUFFLE]
+
+Category: Fungus
+
+Rarity: Epic
+
+Biome: Deep caverns
+
+Description: Dense truffle with mineral crunch.
+
+Uses: High-end feast dishes, luxury trader goods.
+
+File: ingredient_earthentruffle.png
+
+──────────────────────────
+
+[INGREDIENT 59 — THUNDERBIRD EGG]
+
+Category: Egg
+
+Rarity: Rare
+
+Biome: Cliff eyries
+
+Description: Large egg crackling with static.
+
+Uses: Endgame omelets with lightning resist; quest turn-ins for sky tribes.
+
+File: ingredient_thunderbirdegg.png
+
+──────────────────────────
+
+[INGREDIENT 60 — WARMSTONE COCOA]
+
+Category: Spice
+
+Rarity: Uncommon
+
+Biome: Volcanic foothills
+
+Description: Earthy cocoa bean that radiates faint heat.
+
+Uses: Stamina drinks for tanks, morale-boosting desserts.
+
+File: ingredient_warmstonecocoa.png
