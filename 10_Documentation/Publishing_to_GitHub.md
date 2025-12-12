@@ -37,7 +37,6 @@ git push origin main
 That’s all you need to publish the changes created here onto GitHub.
 
 
-
 ## Quick command sequence
 Copy/paste this from the repo root, replacing `<branch-name>` with your branch (for example, `work`):
 ```bash

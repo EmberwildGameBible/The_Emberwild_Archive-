@@ -26,7 +26,3 @@
 ## Contributing
 - Prefer short, linked chapters over giant monoliths.
 - Add a status note (Draft/Playable/Final) to index entries when you touch a file.
-
-
-## Publishing your changes to GitHub
-If you want the edits made here to appear on GitHub, run these commands from the repo root in this workspace:
