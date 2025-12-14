@@ -9,9 +9,11 @@
 - Core/Weapons_And_Proficiencies/CHAPTER 3 - WEAPONS, FIREARMS & CLASS PROFICIENCIE.md
 - Dungeons_And_Raids/CHAPTER 18 - DUNGEON LOCKOUTS, RESET RULES & INSTA.md
 - Dungeons_And_Raids/CHAPTER 19 - WORLD BOSSES, TIMERS & SERVER-WIDE EV.md
+- AI_And_Encounter_Logic/Bestiary_Expansion.md — New enemy families with abilities, resistances, habitats, and loot hooks.
 - Itemization_And_Loot/CHAPTER 10 - APPENDIX O - CORPSE LOOT, SKINNING, A.md
 - Itemization_And_Loot/CHAPTER 10 - APPENDIX P - TREASURE CHESTS, WORLD C.md
 - Itemization_And_Loot/CHAPTER 7 - ITEMIZATION & LOOT SYSTEM (FINAL).md
+- Itemization_And_Loot/LootTables_Expansion.md — Loot routing for new zones, enemies, vendors, and quest hooks.
 - Meta_And_Tech/CHAPTER 10 - APPENDIX D - PROFESSIONS, CRAFTING RE.md
 - Meta_And_Tech/CHAPTER 10 - APPENDIX I - DURABILITY, MATERIAL WEA.md
 - Meta_And_Tech/CHAPTER 13 - FACTION SYSTEM, ALIGNMENTS, REGIONAL.md
@@ -31,6 +33,7 @@
 - Professions_And_Crafting/CHAPTER 29 - SKINNING.md
 - Professions_And_Crafting/CHAPTER 31 - WOODWORKING.md
 - Professions_And_Crafting/CHAPTER 6 - PROFESSIONS & CRAFTING SYSTEM (FINAL).md
+- Professions_And_Crafting/RECIPES_EXPANSION.md — Cross-discipline crafting recipes aligned to new materials and gear.
 - Professions_And_Crafting/FISHING ACCIDENT REPORT - “Broken Line”.md
 - Professions_And_Crafting/FISHING BOAT MAINTENANCE NOTE - “Hull Creaks”.md
 - Professions_And_Crafting/FISHING LOG - “Shattercoast Trip #12”.md
