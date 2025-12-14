@@ -2,6 +2,8 @@
 
 Core references and navigation for itemization, crafting, and recipe content.
 
+Contributor quickref: see [Content Block Conventions & Checklist](../10_Documentation/Contributor_Content_Block_Guide.md) for naming, rarity, and cross-link guidance.
+
 ## Global References
 - ITEM CATALOG - A TO Z.md — Alphabetized items across rarities with sources, roles, and classic-friendly hooks.
 - Items_Master_List - GLOBAL A-Z.md — Unified item entries with category, rarity, drops, and profession tags across all families.
