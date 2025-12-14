@@ -1,0 +1,805 @@
+# 91 – Corruption & Cleansing (Greatwood 1–20)
+Purpose
+
+Define a playable, first-slice version of Corruption in Emberwild for the Greatwood 1–20 band, including:
+
+What Corruption is (fiction + mechanics).
+
+How it affects:
+
+The world (terrain, spawns, density, difficulty).
+
+The hunter (mental state, debuffs, long-term risk).
+
+Hunts, dungeons, and professions.
+
+How players push back:
+
+Cleansing actions.
+
+Alchemy and rituals.
+
+Lodge infrastructure.
+
+This is not the full global/endgame corruption system yet. It’s the Greatwood prototype that must be fun, readable, and scalable.
+
+Core Fantasy
+
+Corruption is the sickness of Emberwild:
+
+It twists:
+
+The land (dark sap, warped trees, bleeding stone).
+
+The wildlife (mutations, erratic behavior, new attack patterns).
+
+Human minds (whispers, paranoia, hallucinations).
+
+It slowly pushes back against hunter activity:
+
+Areas you ignore get worse.
+
+Hunts in corrupted zones are more dangerous, but more rewarding.
+
+Hunters don’t “erase” corruption; they manage and redirect it.
+
+In Greatwood 1–20, Corruption should feel like:
+
+“A creeping disease at the forest edges that you can push back for a while, but never fully cure.”
+
+Design Pillars
+
+Tangible But Trackable
+
+Corruption must be visible and readable in the world:
+
+Visual markers, UI pips, enemy variants.
+
+Players should always understand:
+
+“This place is relatively safe” vs “We are deep in it.”
+
+Risk–Reward Driver
+
+More corruption = more:
+
+Rare spawns, essences, and loot.
+
+Dangerous affixes, environmental hazards.
+
+Useful for:
+
+High-risk hunts.
+
+Alchemy ingredients (58).
+
+Late-Greatwood story beats.
+
+Local First, Global Later
+
+1–20 focuses mostly on local corruption pockets:
+
+Glades, groves, dens, dungeon wings.
+
+Global corruption meta (world map state) is hinted at but not fully online.
+
+Cleansing Is Meaningful Work
+
+Cleansing a pocket:
+
+Feels like a mini-event, not a button press.
+
+Has visible aftermath.
+
+Buys time and space; doesn’t reset everything globally.
+
+Key Concepts
+
+We define four main concepts:
+
+Zone Corruption Level (ZCL)
+
+A rating for a small region (e.g., “North Hollowroot Fringe”).
+
+Ranges from 0 to 5 in Greatwood:
+
+0 = Clean
+
+1 = Tainted
+
+2 = Blighted
+
+3 = Warped
+
+4 = Overgrown
+
+5 = Riven (max for this slice)
+
+Each step bumps:
+
+Spawn tables.
+
+Visuals.
+
+Encounter modifiers.
+
+Local Corruption Nodes
+
+Concrete in-world “anchors”:
+
+Corrupted trees, crystal growths, fungal hearts, ichor wells.
+
+Destroying or cleansing them:
+
+Lowers ZCL or slows its rise.
+
+Feeds progression / quests.
+
+Hunter Corruption Load (HCL)
+
+A personal meter per hunter:
+
+Tracks how long they’ve been in corrupted zones, what they’ve touched, what debuffs they’ve taken.
+
+Low (0–25): Mild visual/audio hints.
+
+Medium (26–60): Debuffs, occasional hallucinations.
+
+High (61–100): Severe effects, risk of permanent scars/conditions (narrative hooks, not necessarily permanent stat losses in 1–20).
+
+Cleansing Actions
+
+Bundled into three categories:
+
+Immediate cleanses (e.g., Cleansebrew, bandages, Lodge infirmary treatment).
+
+Ritual cleanses (Purge of the Glade, campside rites).
+
+Structural cleanses (destroying nodes, Lodge projects).
+
+Zone Corruption Level (ZCL) – Detail
+ZCL Effects Table (Greatwood)
+
+For each ZCL tier, define:
+
+Visuals
+
+Spawn Behavior
+
+Ambient Effects
+
+Rewards
+
+ZCL 0 – Clean
+
+Visuals:
+
+Normal Greatwood foliage.
+
+Occasional “old scars” from past corruption, but dormant.
+
+Spawns:
+
+Standard beasts, minimal mutants/corrupted.
+
+Ambient:
+
+Gentle SFX, calm ambience.
+
+Rewards:
+
+Baseline.
+
+ZCL 1 – Tainted
+
+Visuals:
+
+Slight discoloration of foliage.
+
+Occasional black-veined leaves, faint motes in the air.
+
+Spawns:
+
++5–10% chance of corrupted variants.
+
+First appearance of minor corrupted critters.
+
+Ambient:
+
+Low drone in ambience, rare whispered SFX.
+
+Rewards:
+
++5% chance for corruption-aligned reagents (ichor droplets, tainted bark).
+
+ZCL 2 – Blighted
+
+Visuals:
+
+Patches of dead or fungus-choked ground.
+
+Small, pulsing growths around trees.
+
+Spawns:
+
+Standard beasts appear rarely; corrupted variants become common.
+
+Ambient hazards (small thorns, toxic puddles).
+
+Ambient:
+
+More frequent whispers, occasional brief visual distortions.
+
+Rewards:
+
++10–15% chance for corruption reagents.
+
+Slightly better loot tables on corrupted elites.
+
+ZCL 3 – Warped
+
+Visuals:
+
+Trees bent or spiraled unnaturally.
+
+Thick, vein-like roots channeling ichor.
+
+Spawns:
+
+Regular beasts nearly absent; mostly corrupted or mutated.
+
+Occasional mid-tier corrupted elites.
+
+Ambient:
+
+Screen edge darkening, heavier audio layering.
+
+Rewards:
+
+Increased chance of rare essences.
+
+Corrupted mini-bosses with special loot.
+
+ZCL 4 – Overgrown
+
+Visuals:
+
+Dense corruption growth; almost no “normal” ground.
+
+Environmental hazards (spore clouds, ichor sprays).
+
+Spawns:
+
+Constant corrupted presence, chain pulls are common.
+
+Rare chance of unique corrupted champions.
+
+Ambient:
+
+Heavy visual distortion, heartbeat-like sound layers.
+
+Rewards:
+
+Strongest Greatwood corruption loot tables.
+
+High chance for corruption-specific alchemy reagents.
+
+ZCL 5 – Riven (Cap for Greatwood)
+
+Visuals:
+
+Reality fractures: cracks in air, unnatural geometry.
+
+Limited to specific, story-gated pockets.
+
+Spawns:
+
+Scripted encounters, not just random open-world spawns.
+
+Often tied to major story or dungeon events.
+
+Ambient:
+
+Severe, scripted hallucinations and set pieces.
+
+Rewards:
+
+Unique items, key essences.
+
+Quest-critical drops.
+
+Zone Corruption Dynamics
+How ZCL Changes
+
+ZCL is driven by three main factors:
+
+Time & Neglect
+
+Many pockets slowly drift upward if left alone:
+
+E.g., every in-game day, some zones have a chance to increase ZCL by 1.
+
+Named “creep timers” per pocket.
+
+Events & Bosses
+
+Certain bosses or events:
+
+Increase corruption if ignored.
+
+Reduce it when defeated.
+
+Example:
+
+A corrupted beast roams the edges; if players don’t hunt it in time, nearby pockets tick up.
+
+Player Actions (Cleansing / Feeding)
+
+Destroying nodes, completing rituals:
+
+Reduces ZCL or dampens its growth.
+
+Sometimes players can choose to “harvest” instead of cleanse:
+
+Gain extra resources but increase ZCL.
+
+Hunter Corruption Load (HCL) – Detail
+Sources of Corruption
+
+HCL increases from:
+
+Time spent in zones with ZCL > 0 (rate scales with ZCL).
+
+Taking certain debuffs:
+
+Corruption poison, madness, ichor burns.
+
+Interacting with:
+
+Corruption nodes.
+
+Certain alchemy experiments gone wrong.
+
+Using forbidden / high-risk powers in future systems (not fully implemented in Greatwood).
+
+HCL Bands & Effects
+
+We treat HCL as 0–100. Effects are banded:
+
+0–25: Touched
+
+Effects:
+
+Mild audio whispers.
+
+Very occasional HUD flicker.
+
+Gameplay:
+
+No mechanical penalties yet.
+
+Cleansing:
+
+Quickly reset by resting at Lodge or using basic brews.
+
+26–60: Strained
+
+Effects:
+
+Periodic mild debuffs:
+
+Brief -5% accuracy.
+
+Tiny max health dips in strong pockets.
+
+Occasional short hallucinations:
+
+A non-existent enemy flickers in the corner of vision.
+
+Gameplay:
+
+Social: some NPCs notice something is off (dialogue lines).
+
+Cleansing:
+
+Requires stronger or multiple cleanses:
+
+Lodge infirmary treatment.
+
+Moderate alchemy (Warden’s Veil, Cleansebrew).
+
+Ritual cleanse at campfire.
+
+61–100: Frayed
+
+Effects:
+
+Significant periodic debuffs:
+
+Short panic/fear procs in high ZCL zones.
+
+Heavy visual distortion in corrupted events.
+
+Potential narrative flags:
+
+The Lodge records your state.
+
+Gameplay:
+
+Hunters at high HCL risk:
+
+Temporary lockout from certain story steps until cleansed.
+
+Taking additional corruption might trigger a “break” event (scripted).
+
+Cleansing:
+
+Must combine:
+
+Lodge ritual treatment.
+
+Rare reagents or special quests.
+
+After cleansing, some narrative residue may remain (scars, dreams, minor perks or quirks later in the game).
+
+Cleansing Methods
+
+We break cleanses into three functional categories:
+
+1. Immediate Cleanses (Combat / Field)
+
+Examples:
+
+Cleansebrew Tonic (58):
+
+Removes one stack of poison/bleed/disease, slightly chips away at HCL.
+
+Basic field “purge bandages”:
+
+Clears a specific corruption debuff.
+
+Rules:
+
+Short cooldowns.
+
+Mostly targeted at status effects, with small HCL relief.
+
+Limited effect on ZCL (zone stays corrupted).
+
+2. Ritual Cleanses (Camp & Lodge)
+
+These are structured, small “moments”:
+
+Purge of the Glade (58):
+
+Used at a campfire in moderate-to-high ZCL zones.
+
+Creates a Purified Ground buffer:
+
+Slightly reduces local ZCL.
+
+Creates a safe bubble around camp.
+
+Lodge Cleansing Rites:
+
+Resting in certain Lodge rooms with:
+
+Alchemical baths.
+
+Wards and incense.
+
+Reduces HCL heavily, minor impact on ZCL in nearby pockets.
+
+Rules:
+
+Require:
+
+Special reagents (ichor, rare herbs, salts).
+
+Sometimes multiple hunters participating.
+
+Tradeoffs:
+
+Consumes resources that could be sold or used for crafting.
+
+Sometimes inflicts temporary debuffs (drained, exhausted).
+
+3. Structural Cleanses (Nodes & Projects)
+
+These affect ZCL at its root:
+
+Destroy corruption nodes:
+
+Fungal hearts, sap pools, corrupted crystals.
+
+Usually defended by elites or small encounter waves.
+
+Complete Lodge projects:
+
+“Reinforce Greatwood wards.”
+
+“Erect new warding stones along the North ridge.”
+
+Results:
+
+Step-downs in ZCL for specific pockets.
+
+Slower creep timers for whole segments of the forest.
+
+World Integration: Greatwood 1–20
+Corruption Pockets in Greatwood
+
+Greatwood has several named pockets, each with:
+
+Starting ZCL.
+
+Max ZCL for 1–20.
+
+Node types.
+
+Tied content.
+
+Example pockets (you can rename to match existing map docs):
+
+The Hollowroot Fringe
+
+Start: ZCL 1
+
+Max: ZCL 3
+
+Nodes:
+
+Fungal hearts, spore pillars.
+
+Content:
+
+Tutorial corruption events.
+
+Early Cleansebrew questlines (58).
+
+Hollowroot Warren entrances (65).
+
+The Black Sap Grove
+
+Start: ZCL 2
+
+Max: ZCL 4
+
+Nodes:
+
+Bleeding trees, ichor pools.
+
+Content:
+
+Mid-tier corrupted beasts.
+
+Warden’s Veil questline.
+
+First appearance of Riven fractures (scripted).
+
+The Ragged Verge
+
+Start: ZCL 0
+
+Max: ZCL 2
+
+Behavior:
+
+Slowly corrupts over time if certain hunts are ignored.
+
+Content:
+
+Demonstrates creep clearly to new players.
+
+Pale Glaive Ruins (Dungeon-adjacent)
+
+Start: ZCL 3
+
+Max: ZCL 5
+
+Content:
+
+Story dungeon wing.
+
+Early “Riven” event at 5 (scripted spike, not random).
+
+Hunts & Dungeons
+Hunts (61)
+
+Corruption ties directly into hunts:
+
+Each hunt contract has a corruption tag:
+
+Uncorrupted, Tainted, Warped, Riven-touched.
+
+Effects:
+
+Corrupted hunts:
+
+Scale enemy stats and add affixes.
+
+Increase reward weights:
+
+More essences.
+
+Higher chance of special drops or alchemy reagents.
+
+Meta:
+
+Some hunts require going into highly corrupted areas:
+
+Special monster variants only spawn at ZCL ≥ 3.
+
+Dungeons (65, 77, etc.)
+
+Dungeon wings have:
+
+Local corruption density, independent but related to their above-ground pocket.
+
+“Safe” wings vs “Deep corruption” wings:
+
+Safes:
+
+Primarily standard enemies, light corruption.
+
+Deep:
+
+Heavy hallucinations.
+
+Environmental corruption hazards.
+
+Bosses (mini and major):
+
+Often act as dynamic ZCL levers:
+
+Killing a boss might drop the overworld pocket ZCL by 1.
+
+Leaving a boss alive might let it “pulse” corruption over time.
+
+Lodge, Story, & NPCs (59, 94, 96)
+Lodge Systems
+
+The Lodge treats Corruption as:
+
+A tracked threat level in reports.
+
+A source of:
+
+Research.
+
+Contracts.
+
+Political tension with other factions.
+
+Hooks:
+
+Lodge Reputation:
+
+Cleansing pockets and treating corruption cases increases trust with certain Lodge circles.
+
+Professions:
+
+Herbalists and alchemists get unique jobs:
+
+Sample collection runs.
+
+Ward maintenance.
+
+Story Arc (Greatwood Slice)
+
+At 1–20, Corruption’s story arc should:
+
+Introduce:
+
+Corruption as a known, ancient threat, not a new apocalypse.
+
+Show:
+
+It is worsening in certain pockets.
+
+Give:
+
+The player concrete, mechanical ways to push back:
+
+Cleanses, nodes, hunts.
+
+Leave:
+
+Bigger questions unresolved:
+
+Why it’s intensifying now.
+
+What’s behind the deepest Riven pockets.
+
+NPC examples:
+
+The Warden of Wards:
+
+A tired veteran responsible for ward stones.
+
+Gives structural cleanse quests.
+
+The Fringe Alchemist:
+
+The one referenced in 58 for corruption brews.
+
+Flirts with dangerous experiments.
+
+UI & Feedback
+Minimal UI, Heavy Diegesis
+
+Zone UI:
+
+Small corruption icon near minimap:
+
+Pips or Roman numerals I–V for ZCL.
+
+Hunter HCL UI:
+
+Thin bar or gauge near the health/stamina cluster.
+
+Only shows numbers if hovered / inspected; normally just banded state.
+
+FX & Audio:
+
+Visual layers for:
+
+Zone intensity.
+
+HCL bands.
+
+Audio layers (whispers, distant roars) scale with:
+
+ZCL.
+
+HCL.
+
+Tuning Guidelines (Greatwood Slice)
+
+Target:
+
+A normal player can’t ignore corruption forever.
+
+ZCL:
+
+Most “common path” play should experience:
+
+ZCL 1–3 frequently.
+
+ZCL 4 occasionally.
+
+ZCL 5 in curated story moments.
+
+HCL:
+
+HCL 0–25: the norm between hunts.
+
+HCL 26–60: “I’ve been pushing hard; I should consider cleansing.”
+
+HCL 61+: only for players who:
+
+Stay too long in deep corruption.
+
+Chase rewards with minimal cleansing.
+
+Future Hooks Beyond Greatwood
+
+This foundation must support:
+
+Regional variation:
+
+Different corruption “flavors” (sap, frost, sand, deep sea).
+
+Player-side corruption powers:
+
+Forbidden perks that trade sanity/health for big damage or utility.
+
+Global corruption tides:
+
+World map biomes waxing/waining with seasonal or story events.
+
+Endgame activities:
+
+Corruption storms, invasions, corrupted raids.
+
+But Greatwood 1–20 sticks to the above structure: clear, readable ZCL/HCL, meaningful but manageable threat.

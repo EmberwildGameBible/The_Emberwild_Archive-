@@ -1,0 +1,898 @@
+# B135 — DUSKHALLOW GEAR MATRIX (LV 40–49)
+1. AGI DPS — “Umbrafang Stalker” Leather (Lv 40–49)
+
+Shadow-flavored leather for rogues, hunters, skirmishers.
+
+1.1 Early Duskhollow Uncommon Set (Lv 40–43) — “Gloomstep Stalker”
+Gloomstep Stalker’s Hood
+
+Slot: Head (Leather)
+
+Level: 41 — Rarity: Uncommon
+
+Stats:
+
++28 Agility
+
++22 Stamina
+
++12 Attack Power
+
++30 Armor
+
+Gloomstep Stalker’s Jerkin
+
+Slot: Chest (Leather)
+
+Level: 41 — Rarity: Uncommon
+
+Stats:
+
++30 Agility
+
++24 Stamina
+
++14 Attack Power
+
++34 Armor
+
+Gloomstep Stalker’s Legwraps
+
+Slot: Legs (Leather)
+
+Level: 42 — Rarity: Uncommon
+
+Stats:
+
++30 Agility
+
++25 Stamina
+
++14 Attack Power
+
++32 Armor
+
+Gloomstep Stalker’s Treads
+
+Slot: Feet (Leather)
+
+Level: 40 — Rarity: Uncommon
+
+Stats:
+
++24 Agility
+
++20 Stamina
+
++10 Attack Power
+
++26 Armor
+
+Gloomstep Stalker’s Grips
+
+Slot: Hands (Leather)
+
+Level: 40 — Rarity: Uncommon
+
+Stats:
+
++24 Agility
+
++19 Stamina
+
++10 Attack Power
+
++24 Armor
+
+Gloomstep Stalker’s Belt
+
+Slot: Waist (Leather)
+
+Level: 41 — Rarity: Uncommon
+
+Stats:
+
++22 Agility
+
++18 Stamina
+
++10 Armor
+
+Gloomstep Stalker’s Bracers
+
+Slot: Wrist (Leather)
+
+Level: 40 — Rarity: Uncommon
+
+Stats:
+
++20 Agility
+
++16 Stamina
+
++10 Armor
+
+Nightroot Hunter’s Pendant
+
+Slot: Neck
+
+Level: 42 — Rarity: Uncommon
+
+Stats:
+
++18 Agility
+
++14 Stamina
+
++16 Attack Power
+
+Umbrafang Tracker’s Seal
+
+Slot: Ring
+
+Level: 42 — Rarity: Uncommon
+
+Stats:
+
++14 Agility
+
++10 Stamina
+
++1% Crit Chance
+
+Shadowrift Longbow
+
+Slot: Ranged (Bow)
+
+Level: 43 — Rarity: Uncommon
+
+Stats:
+
++26 Agility
+
++20 Stamina
+
++46 Ranged Attack Power
+
+Nightedge Shiv
+
+Slot: Main-Hand (Dagger)
+
+Level: 43 — Rarity: Uncommon
+
+Stats:
+
++26 Agility
+
++20 Stamina
+
++40 Attack Power
+
+1.2 Late Duskhollow Rare Set (Lv 46–49) — “Umbrafang Stalker”
+Umbrafang Stalker’s Hood
+
+Slot: Head (Leather)
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++34 Agility
+
++26 Stamina
+
++2% Crit Chance
+
++34 Armor
+
+Umbrafang Stalker’s Jerkin
+
+Slot: Chest (Leather)
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++36 Agility
+
++30 Stamina
+
++2% Crit Chance
+
++38 Armor
+
+Umbrafang Stalker’s Legwraps
+
+Slot: Legs (Leather)
+
+Level: 48 — Rarity: Rare
+
+Stats:
+
++36 Agility
+
++30 Stamina
+
++24 Attack Power
+
++36 Armor
+
+Umbrafang Stalker’s Treads
+
+Slot: Feet (Leather)
+
+Level: 46 — Rarity: Rare
+
+Stats:
+
++30 Agility
+
++24 Stamina
+
++16 Attack Power
+
++1% Dodge
+
++30 Armor
+
+Umbrafang Stalker’s Grips
+
+Slot: Hands (Leather)
+
+Level: 46 — Rarity: Rare
+
+Stats:
+
++30 Agility
+
++23 Stamina
+
++14 Attack Power
+
++28 Armor
+
+Umbrafang Stalker’s Belt
+
+Slot: Waist (Leather)
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++26 Agility
+
++22 Stamina
+
++14 Attack Power
+
+Umbrafang Stalker’s Bracers
+
+Slot: Wrist (Leather)
+
+Level: 46 — Rarity: Rare
+
+Stats:
+
++24 Agility
+
++20 Stamina
+
++12 Attack Power
+
++18 Armor
+
+Umbrafang Huntlord’s Pendant
+
+Slot: Neck
+
+Level: 48 — Rarity: Rare
+
+Stats:
+
++22 Agility
+
++18 Stamina
+
++22 Attack Power
+
++1% Crit Chance
+
+Umbrafang Shadeband
+
+Slot: Ring
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++16 Agility
+
++12 Stamina
+
++1% Crit Chance
+
++1% Hit Chance
+
+Gloomshard Recurve
+
+Slot: Ranged (Bow)
+
+Level: 48 — Rarity: Rare
+
+Stats:
+
++34 Agility
+
++26 Stamina
+
++60 Ranged Attack Power
+
++2% Crit Chance
+
+Umbrafang Fangblade
+
+Slot: Main-Hand (Dagger)
+
+Level: 49 — Rarity: Rare
+
+Stats:
+
++34 Agility
+
++24 Stamina
+
++52 Attack Power
+
++1% Crit Chance
+
++1% Hit Chance
+
+2. STR Tank/Bruiser — “Hollow Warden / Dreadbulwark” Heavy (Lv 40–49)
+
+Void/flavor heavy armor for shields-and-plate frontliners.
+
+2.1 Early Duskhollow Uncommon Set (Lv 40–43) — “Hollow Warden”
+Hollow Warden’s Helm
+
+Slot: Head (Heavy)
+
+Level: 41 — Rarity: Uncommon
+
+Stats:
+
++20 Strength
+
++30 Stamina
+
++96 Armor
+
+Hollow Warden’s Chestguard
+
+Slot: Chest (Heavy)
+
+Level: 41 — Rarity: Uncommon
+
+Stats:
+
++20 Strength
+
++34 Stamina
+
++112 Armor
+
+Hollow Warden’s Legplates
+
+Slot: Legs (Heavy)
+
+Level: 42 — Rarity: Uncommon
+
+Stats:
+
++22 Strength
+
++34 Stamina
+
++124 Armor
+
+Hollow Warden’s Sabatons
+
+Slot: Feet (Heavy)
+
+Level: 40 — Rarity: Uncommon
+
+Stats:
+
++18 Strength
+
++28 Stamina
+
++88 Armor
+
+Hollow Warden’s Girdle
+
+Slot: Waist (Heavy)
+
+Level: 41 — Rarity: Uncommon
+
+Stats:
+
++16 Strength
+
++26 Stamina
+
++80 Armor
+
+Hollow Warden’s Vambraces
+
+Slot: Wrist (Heavy)
+
+Level: 40 — Rarity: Uncommon
+
+Stats:
+
++15 Strength
+
++24 Stamina
+
++72 Armor
+
+Duskhollow Wardstone Medallion
+
+Slot: Neck
+
+Level: 42 — Rarity: Uncommon
+
+Stats:
+
++16 Strength
+
++24 Stamina
+
++1% Block Chance
+
+Shadowbastion Mace
+
+Slot: Main-Hand (1H Mace)
+
+Level: 43 — Rarity: Uncommon
+
+Stats:
+
++22 Strength
+
++28 Stamina
+
++46 Attack Power
+
+Hollowguard Shield
+
+Slot: Off-Hand (Shield)
+
+Level: 43 — Rarity: Uncommon
+
+Stats:
+
++24 Stamina
+
++104 Armor
+
++2% Block Chance
+
+2.2 Late Duskhollow Rare Set (Lv 46–49) — “Dreadbulwark”
+Dreadbulwark Helm
+
+Slot: Head (Heavy)
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++24 Strength
+
++36 Stamina
+
++118 Armor
+
++1% Block Chance
+
+Dreadbulwark Chestguard
+
+Slot: Chest (Heavy)
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++24 Strength
+
++40 Stamina
+
++138 Armor
+
++2% Block Chance
+
+Dreadbulwark Legplates
+
+Slot: Legs (Heavy)
+
+Level: 48 — Rarity: Rare
+
+Stats:
+
++26 Strength
+
++40 Stamina
+
++150 Armor
+
+Dreadbulwark Sabatons
+
+Slot: Feet (Heavy)
+
+Level: 46 — Rarity: Rare
+
+Stats:
+
++22 Strength
+
++34 Stamina
+
++110 Armor
+
+Dreadbulwark Girdle
+
+Slot: Waist (Heavy)
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++20 Strength
+
++32 Stamina
+
++104 Armor
+
+Dreadbulwark Vambraces
+
+Slot: Wrist (Heavy)
+
+Level: 46 — Rarity: Rare
+
+Stats:
+
++18 Strength
+
++30 Stamina
+
++94 Armor
+
+Dreadbulwark Signet
+
+Slot: Ring
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++16 Strength
+
++20 Stamina
+
++1% Block Chance
+
+Riftforged Warhammer
+
+Slot: Main-Hand (1H Mace)
+
+Level: 48 — Rarity: Rare
+
+Stats:
+
++26 Strength
+
++32 Stamina
+
++58 Attack Power
+
++1% Hit Chance
+
+Umbral Wall
+
+Slot: Off-Hand (Shield)
+
+Level: 48 — Rarity: Rare
+
+Stats:
+
++30 Stamina
+
++140 Armor
+
++3% Block Chance
+
++30 Block Value
+
+3. INT/SPI Caster — “Gloomweaver / Riftbound” Cloth (Lv 40–49)
+
+Shadow/arcane casters: witches, void-priests, arcane seers.
+
+3.1 Early Duskhollow Uncommon Set (Lv 40–43) — “Gloomweaver”
+Gloomweaver’s Cowl
+
+Slot: Head (Cloth)
+
+Level: 41 — Rarity: Uncommon
+
+Stats:
+
++30 Intellect
+
++18 Spirit
+
++16 Stamina
+
++20 Spell Power
+
+Gloomweaver’s Robe
+
+Slot: Chest (Cloth)
+
+Level: 41 — Rarity: Uncommon
+
+Stats:
+
++32 Intellect
+
++20 Spirit
+
++18 Stamina
+
++22 Spell Power
+
+Gloomweaver’s Legwraps
+
+Slot: Legs (Cloth)
+
+Level: 42 — Rarity: Uncommon
+
+Stats:
+
++31 Intellect
+
++19 Spirit
+
++17 Stamina
+
++20 Spell Power
+
+Gloomweaver’s Sandals
+
+Slot: Feet (Cloth)
+
+Level: 40 — Rarity: Uncommon
+
+Stats:
+
++26 Intellect
+
++16 Spirit
+
++14 Stamina
+
++16 Spell Power
+
+Gloomweaver’s Sash
+
+Slot: Waist (Cloth)
+
+Level: 41 — Rarity: Uncommon
+
+Stats:
+
++22 Intellect
+
++16 Spirit
+
++12 Stamina
+
+Gloomweaver’s Wraps
+
+Slot: Wrist (Cloth)
+
+Level: 40 — Rarity: Uncommon
+
+Stats:
+
++20 Intellect
+
++14 Spirit
+
++10 Stamina
+
+Nightroot Channeler’s Pendant
+
+Slot: Neck
+
+Level: 42 — Rarity: Uncommon
+
+Stats:
+
++22 Intellect
+
++16 Spirit
+
++16 Spell Power
+
+Voidglass Focus Stone
+
+Slot: Trinket
+
+Level: 43 — Rarity: Uncommon
+
+Stats:
+
++20 Spell Power
+
++14 Intellect
+
++6 Mana per 5 sec
+
+Duskgloom Wand
+
+Slot: Ranged (Wand)
+
+Level: 43 — Rarity: Uncommon
+
+Stats:
+
++22 Intellect
+
++16 Spirit
+
++24 Spell Power
+
+3.2 Late Duskhollow Rare Set (Lv 46–49) — “Riftbound”
+Riftbound Hood
+
+Slot: Head (Cloth)
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++36 Intellect
+
++22 Spirit
+
++18 Stamina
+
++28 Spell Power
+
+Riftbound Robe
+
+Slot: Chest (Cloth)
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++38 Intellect
+
++24 Spirit
+
++20 Stamina
+
++36 Spell Power
+
+Riftbound Legwraps
+
+Slot: Legs (Cloth)
+
+Level: 48 — Rarity: Rare
+
+Stats:
+
++38 Intellect
+
++22 Spirit
+
++20 Stamina
+
++32 Spell Power
+
+Riftbound Sandals
+
+Slot: Feet (Cloth)
+
+Level: 46 — Rarity: Rare
+
+Stats:
+
++30 Intellect
+
++20 Spirit
+
++16 Stamina
+
++24 Spell Power
+
+Riftbound Sash
+
+Slot: Waist (Cloth)
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++26 Intellect
+
++18 Spirit
+
++14 Stamina
+
++14 Spell Power
+
+Riftbound Wraps
+
+Slot: Wrist (Cloth)
+
+Level: 46 — Rarity: Rare
+
+Stats:
+
++24 Intellect
+
++18 Spirit
+
++12 Stamina
+
+Duskhollow Luminary’s Sigil
+
+Slot: Ring
+
+Level: 47 — Rarity: Rare
+
+Stats:
+
++18 Intellect
+
++16 Spirit
+
++22 Spell Power
+
+Rift-torn Channeling Staff
+
+Slot: Two-Hand Staff
+
+Level: 48 — Rarity: Rare
+
+Stats:
+
++40 Intellect
+
++30 Spirit
+
++24 Stamina
+
++72 Spell Power
+
++2% Spell Crit Chance
+
++10 Mana per 5 sec
+
+Gloamscour Hexwand
+
+Slot: Ranged (Wand)
+
+Level: 48 — Rarity: Rare
+
+Stats:
+
++28 Intellect
+
++20 Spirit
+
++30 Spell Power
+
++1% Spell Crit Chance
