@@ -5,17 +5,17 @@ Cross-profession recipes that tie new harvestables into leveling and endgame wor
 ### [REC-001] Hearth Stew 1
 Profession: Cooking — Station: Campfire — Skill Req: 10
 Ingredients:
-  - 1x Hearth Thistle
-  - 1x Hearth Thistle
-  - 1x Hearth Thistle
-  - 3x Hearth Thistle
+  - 2x Hearth Thistle
+  - 1x River Pebble
+  - 1x Juniper Carapace
+  - 1x Keen Fang
 Produces: 3 vials of Hearth Stew 1
 Effect: Grants 28 minute harvest yield; overcap bonuses suppressed in PvP.
 XP / Progression: +35 Cooking skill progress; unlocks upgrade variant at skill 30.
 Sources: Taught by dungeon drops in Veilreef.
 
 ### [REC-002] Ember Elixir
-Profession: Alchemy — Station: Alembic — Skill Req: 11
+Profession: Alchemy — Station: Alembic — Skill Req: 12
 Ingredients:
   - 2x Iron Sap
   - 1x Jade Bulb
@@ -27,7 +27,7 @@ XP / Progression: +36 Alchemy skill progress; unlocks upgrade variant at skill 3
 Sources: Taught by expedition notes in Veilreef.
 
 ### [REC-003] Ash Elixir
-Profession: Blacksmithing — Station: Forge — Skill Req: 12
+Profession: Blacksmithing — Station: Forge — Skill Req: 14
 Ingredients:
   - 4x Jade Bulb
   - 3x Lumen Scale
@@ -39,7 +39,7 @@ XP / Progression: +37 Blacksmithing skill progress; unlocks upgrade variant at s
 Sources: Taught by world drops in Starfall Orchard.
 
 ### [REC-004] Frost Stew 4
-Profession: Engineering — Station: Workbench — Skill Req: 13
+Profession: Engineering — Station: Workbench — Skill Req: 16
 Ingredients:
   - 2x Keen Fang
   - 2x Night Gland
@@ -51,7 +51,7 @@ XP / Progression: +38 Engineering skill progress; unlocks upgrade variant at ski
 Sources: Taught by faction quartermasters in Cinderfen.
 
 ### [REC-005] Dusk Elixir
-Profession: Enchanting — Station: Rune Table — Skill Req: 14
+Profession: Enchanting — Station: Rune Table — Skill Req: 18
 Ingredients:
   - 3x Lumen Scale
   - 2x Pollen Shard
@@ -63,7 +63,7 @@ XP / Progression: +39 Enchanting skill progress; unlocks upgrade variant at skil
 Sources: Taught by dungeon drops in Ravencrest Moor.
 
 ### [REC-006] Dawn Elixir
-Profession: Leatherworking — Station: Skinning Rack — Skill Req: 15
+Profession: Leatherworking — Station: Skinning Rack — Skill Req: 20
 Ingredients:
   - 3x Morrow Feather
   - 3x River Pebble
@@ -75,7 +75,7 @@ XP / Progression: +40 Leatherworking skill progress; unlocks upgrade variant at 
 Sources: Taught by expedition notes in Cinderfen.
 
 ### [REC-007] Whisper Stew 7
-Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 16
+Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 22
 Ingredients:
   - 4x Night Gland
   - 3x Tangle Crystal
@@ -87,7 +87,7 @@ XP / Progression: +41 Woodworking skill progress; unlocks upgrade variant at ski
 Sources: Taught by expedition notes in Frostborne Steppe.
 
 ### [REC-008] Glint Elixir
-Profession: Cooking — Station: Campfire — Skill Req: 17
+Profession: Cooking — Station: Campfire — Skill Req: 24
 Ingredients:
   - 4x Opal Horn
   - 4x Verdant Pod
@@ -99,7 +99,7 @@ XP / Progression: +42 Cooking skill progress; unlocks upgrade variant at skill 3
 Sources: Taught by dungeon drops in Ravencrest Moor.
 
 ### [REC-009] Pulse Elixir
-Profession: Alchemy — Station: Alembic — Skill Req: 18
+Profession: Alchemy — Station: Alembic — Skill Req: 26
 Ingredients:
   - 4x Pollen Shard
   - 3x Xylen Lichen
@@ -111,7 +111,7 @@ XP / Progression: +43 Alchemy skill progress; unlocks upgrade variant at skill 3
 Sources: Taught by world drops in Umberdeep.
 
 ### [REC-010] Veil Stew 10
-Profession: Blacksmithing — Station: Forge — Skill Req: 19
+Profession: Blacksmithing — Station: Forge — Skill Req: 28
 Ingredients:
   - 3x Quartz Dust
   - 1x Zephyr Vine
@@ -123,7 +123,7 @@ XP / Progression: +44 Blacksmithing skill progress; unlocks upgrade variant at s
 Sources: Taught by expedition notes in Frostborne Steppe.
 
 ### [REC-011] Star Elixir
-Profession: Engineering — Station: Workbench — Skill Req: 20
+Profession: Engineering — Station: Workbench — Skill Req: 30
 Ingredients:
   - 1x River Pebble
   - 3x Bramble Bud
@@ -135,7 +135,7 @@ XP / Progression: +45 Engineering skill progress; unlocks upgrade variant at ski
 Sources: Taught by faction quartermasters in Ravencrest Moor.
 
 ### [REC-012] Ember Elixir
-Profession: Enchanting — Station: Rune Table — Skill Req: 21
+Profession: Enchanting — Station: Rune Table — Skill Req: 32
 Ingredients:
   - 2x Sable Ore
   - 1x Duskwind Ash
@@ -147,7 +147,7 @@ XP / Progression: +46 Enchanting skill progress; unlocks upgrade variant at skil
 Sources: Taught by faction quartermasters in Cinderfen.
 
 ### [REC-013] Cinder Tonic 13
-Profession: Leatherworking — Station: Skinning Rack — Skill Req: 22
+Profession: Leatherworking — Station: Skinning Rack — Skill Req: 34
 Ingredients:
   - 1x Tangle Crystal
   - 1x Flare Oil
@@ -159,7 +159,7 @@ XP / Progression: +47 Leatherworking skill progress; unlocks upgrade variant at 
 Sources: Taught by regional trainers in Veilreef.
 
 ### [REC-014] Iron Elixir
-Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 23
+Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 36
 Ingredients:
   - 3x Umber Seed
   - 2x Hollow Pearl
@@ -171,7 +171,7 @@ XP / Progression: +48 Woodworking skill progress; unlocks upgrade variant at ski
 Sources: Taught by expedition notes in Greatwood.
 
 ### [REC-015] Dusk Elixir
-Profession: Cooking — Station: Campfire — Skill Req: 24
+Profession: Cooking — Station: Campfire — Skill Req: 38
 Ingredients:
   - 2x Verdant Pod
   - 2x Juniper Carapace
@@ -183,7 +183,7 @@ XP / Progression: +49 Cooking skill progress; unlocks upgrade variant at skill 4
 Sources: Taught by regional trainers in Veilreef.
 
 ### [REC-016] Stone Tonic 1
-Profession: Alchemy — Station: Alembic — Skill Req: 25
+Profession: Alchemy — Station: Alembic — Skill Req: 40
 Ingredients:
   - 3x Whisper Stalk
   - 4x Luminous Fiber
@@ -195,7 +195,7 @@ XP / Progression: +50 Alchemy skill progress; unlocks upgrade variant at skill 4
 Sources: Taught by expedition notes in Frostborne Steppe.
 
 ### [REC-017] Echo Elixir
-Profession: Blacksmithing — Station: Forge — Skill Req: 26
+Profession: Blacksmithing — Station: Forge — Skill Req: 42
 Ingredients:
   - 1x Xylen Lichen
   - 3x Nettle Coal
@@ -207,7 +207,7 @@ XP / Progression: +51 Blacksmithing skill progress; unlocks upgrade variant at s
 Sources: Taught by dungeon drops in Ravencrest Moor.
 
 ### [REC-018] Glint Elixir
-Profession: Engineering — Station: Workbench — Skill Req: 27
+Profession: Engineering — Station: Workbench — Skill Req: 44
 Ingredients:
   - 1x Yarrow Resin
   - 1x Pale Stone
@@ -219,7 +219,7 @@ XP / Progression: +52 Engineering skill progress; unlocks upgrade variant at ski
 Sources: Taught by world drops in Umberdeep.
 
 ### [REC-019] Morrow Tonic 4
-Profession: Enchanting — Station: Rune Table — Skill Req: 28
+Profession: Enchanting — Station: Rune Table — Skill Req: 46
 Ingredients:
   - 3x Zephyr Vine
   - 2x Rift Reed
@@ -231,7 +231,7 @@ XP / Progression: +53 Enchanting skill progress; unlocks upgrade variant at skil
 Sources: Taught by regional trainers in Frostborne Steppe.
 
 ### [REC-020] Thorn Elixir
-Profession: Leatherworking — Station: Skinning Rack — Skill Req: 29
+Profession: Leatherworking — Station: Skinning Rack — Skill Req: 48
 Ingredients:
   - 2x Ashen Berry
   - 1x Thorn Gel
@@ -243,7 +243,7 @@ XP / Progression: +54 Leatherworking skill progress; unlocks upgrade variant at 
 Sources: Taught by regional trainers in Starfall Orchard.
 
 ### [REC-021] Star Broth
-Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 30
+Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 50
 Ingredients:
   - 2x Bramble Bud
   - 1x Vigil Pith
@@ -255,7 +255,7 @@ XP / Progression: +55 Woodworking skill progress; unlocks upgrade variant at ski
 Sources: Taught by regional trainers in Umberdeep.
 
 ### [REC-022] Grove Blade 7
-Profession: Cooking — Station: Campfire — Skill Req: 31
+Profession: Cooking — Station: Campfire — Skill Req: 52
 Ingredients:
   - 2x Crag Twig
   - 3x Xyra Meat
@@ -267,7 +267,7 @@ XP / Progression: +56 Cooking skill progress; unlocks upgrade variant at skill 5
 Sources: Taught by regional trainers in Cinderfen.
 
 ### [REC-023] Ash Broth
-Profession: Alchemy — Station: Alembic — Skill Req: 32
+Profession: Alchemy — Station: Alembic — Skill Req: 54
 Ingredients:
   - 1x Duskwind Ash
   - 4x Zaffre Spore
@@ -279,7 +279,7 @@ XP / Progression: +57 Alchemy skill progress; unlocks upgrade variant at skill 5
 Sources: Taught by regional trainers in Cinderfen.
 
 ### [REC-024] Iron Broth
-Profession: Blacksmithing — Station: Forge — Skill Req: 33
+Profession: Blacksmithing — Station: Forge — Skill Req: 56
 Ingredients:
   - 1x Echo Flake
   - 1x Bitter Leaf
@@ -291,7 +291,7 @@ XP / Progression: +58 Blacksmithing skill progress; unlocks upgrade variant at s
 Sources: Taught by regional trainers in Umberdeep.
 
 ### [REC-025] River Blade 10
-Profession: Engineering — Station: Workbench — Skill Req: 34
+Profession: Engineering — Station: Workbench — Skill Req: 58
 Ingredients:
   - 4x Flare Oil
   - 4x Dawn Cap
@@ -303,7 +303,7 @@ XP / Progression: +59 Engineering skill progress; unlocks upgrade variant at ski
 Sources: Taught by world drops in Starfall Orchard.
 
 ### [REC-026] Dawn Broth
-Profession: Enchanting — Station: Rune Table — Skill Req: 35
+Profession: Enchanting — Station: Rune Table — Skill Req: 60
 Ingredients:
   - 1x Glare Pollen
   - 1x Frost Sap
@@ -315,7 +315,7 @@ XP / Progression: +60 Enchanting skill progress; unlocks upgrade variant at skil
 Sources: Taught by world drops in Veilreef.
 
 ### [REC-027] Echo Broth
-Profession: Leatherworking — Station: Skinning Rack — Skill Req: 36
+Profession: Leatherworking — Station: Skinning Rack — Skill Req: 62
 Ingredients:
   - 1x Hollow Pearl
   - 1x Hearth Fang
@@ -327,7 +327,7 @@ XP / Progression: +61 Leatherworking skill progress; unlocks upgrade variant at 
 Sources: Taught by world drops in Greatwood.
 
 ### [REC-028] Gale Blade 13
-Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 37
+Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 64
 Ingredients:
   - 1x Icicle Stinger
   - 3x Jade Feather
@@ -339,7 +339,7 @@ XP / Progression: +62 Woodworking skill progress; unlocks upgrade variant at ski
 Sources: Taught by world drops in Starfall Orchard.
 
 ### [REC-029] Pulse Broth
-Profession: Cooking — Station: Campfire — Skill Req: 38
+Profession: Cooking — Station: Campfire — Skill Req: 66
 Ingredients:
   - 2x Juniper Carapace
   - 1x Lumen Horn
@@ -351,7 +351,7 @@ XP / Progression: +63 Cooking skill progress; unlocks upgrade variant at skill 5
 Sources: Taught by regional trainers in Cinderfen.
 
 ### [REC-030] Thorn Broth
-Profession: Alchemy — Station: Alembic — Skill Req: 39
+Profession: Alchemy — Station: Alembic — Skill Req: 68
 Ingredients:
   - 4x Kindled Skin
   - 2x Night Dust
@@ -363,7 +363,7 @@ XP / Progression: +64 Alchemy skill progress; unlocks upgrade variant at skill 5
 Sources: Taught by faction quartermasters in Ravencrest Moor.
 
 ### [REC-031] Hearth Rig 1
-Profession: Blacksmithing — Station: Forge — Skill Req: 40
+Profession: Blacksmithing — Station: Forge — Skill Req: 70
 Ingredients:
   - 3x Luminous Fiber
   - 4x Pollen Ore
@@ -375,7 +375,7 @@ XP / Progression: +65 Blacksmithing skill progress; unlocks upgrade variant at s
 Sources: Taught by expedition notes in Ravencrest Moor.
 
 ### [REC-032] Ember Broth
-Profession: Engineering — Station: Workbench — Skill Req: 41
+Profession: Engineering — Station: Workbench — Skill Req: 72
 Ingredients:
   - 3x Moss Moss
   - 4x River Seed
@@ -387,7 +387,7 @@ XP / Progression: +66 Engineering skill progress; unlocks upgrade variant at ski
 Sources: Taught by world drops in Ravencrest Moor.
 
 ### [REC-033] Ash Broth
-Profession: Enchanting — Station: Rune Table — Skill Req: 42
+Profession: Enchanting — Station: Rune Table — Skill Req: 74
 Ingredients:
   - 1x Nettle Coal
   - 4x Tangle Stalk
@@ -399,7 +399,7 @@ XP / Progression: +67 Enchanting skill progress; unlocks upgrade variant at skil
 Sources: Taught by dungeon drops in Veilreef.
 
 ### [REC-034] Frost Rig 4
-Profession: Leatherworking — Station: Skinning Rack — Skill Req: 43
+Profession: Leatherworking — Station: Skinning Rack — Skill Req: 76
 Ingredients:
   - 4x Obsidian Heart
   - 4x Verdant Resin
@@ -411,7 +411,7 @@ XP / Progression: +68 Leatherworking skill progress; unlocks upgrade variant at 
 Sources: Taught by faction quartermasters in Starfall Orchard.
 
 ### [REC-035] Dusk Broth
-Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 44
+Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 78
 Ingredients:
   - 3x Pale Stone
   - 4x Xylen Berry
@@ -423,7 +423,7 @@ XP / Progression: +69 Woodworking skill progress; unlocks upgrade variant at ski
 Sources: Taught by expedition notes in Cinderfen.
 
 ### [REC-036] Dawn Broth
-Profession: Cooking — Station: Campfire — Skill Req: 45
+Profession: Cooking — Station: Campfire — Skill Req: 80
 Ingredients:
   - 4x Quartzite Shell
   - 1x Zephyr Twig
@@ -435,7 +435,7 @@ XP / Progression: +70 Cooking skill progress; unlocks upgrade variant at skill 6
 Sources: Taught by faction quartermasters in Frostborne Steppe.
 
 ### [REC-037] Whisper Rig 7
-Profession: Alchemy — Station: Alembic — Skill Req: 46
+Profession: Alchemy — Station: Alembic — Skill Req: 82
 Ingredients:
   - 3x Rift Reed
   - 4x Bramble Flake
@@ -447,7 +447,7 @@ XP / Progression: +71 Alchemy skill progress; unlocks upgrade variant at skill 6
 Sources: Taught by world drops in Greatwood.
 
 ### [REC-038] Glint Broth
-Profession: Blacksmithing — Station: Forge — Skill Req: 47
+Profession: Blacksmithing — Station: Forge — Skill Req: 84
 Ingredients:
   - 3x Shale Gourd
   - 2x Duskwind Pollen
@@ -459,7 +459,7 @@ XP / Progression: +72 Blacksmithing skill progress; unlocks upgrade variant at s
 Sources: Taught by faction quartermasters in Starfall Orchard.
 
 ### [REC-039] Pulse Broth
-Profession: Engineering — Station: Workbench — Skill Req: 48
+Profession: Engineering — Station: Workbench — Skill Req: 86
 Ingredients:
   - 3x Thorn Gel
   - 2x Flare Stinger
@@ -471,7 +471,7 @@ XP / Progression: +73 Engineering skill progress; unlocks upgrade variant at ski
 Sources: Taught by faction quartermasters in Starfall Orchard.
 
 ### [REC-040] Veil Rig 10
-Profession: Enchanting — Station: Rune Table — Skill Req: 49
+Profession: Enchanting — Station: Rune Table — Skill Req: 88
 Ingredients:
   - 1x Ulster Mead
   - 4x Hollow Skin
@@ -483,7 +483,7 @@ XP / Progression: +74 Enchanting skill progress; unlocks upgrade variant at skil
 Sources: Taught by world drops in Frostborne Steppe.
 
 ### [REC-041] Star Hammer
-Profession: Leatherworking — Station: Skinning Rack — Skill Req: 50
+Profession: Leatherworking — Station: Skinning Rack — Skill Req: 90
 Ingredients:
   - 4x Vigil Pith
   - 3x Juniper Moss
@@ -495,7 +495,7 @@ XP / Progression: +75 Leatherworking skill progress; unlocks upgrade variant at 
 Sources: Taught by faction quartermasters in Starfall Orchard.
 
 ### [REC-042] Ember Hammer
-Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 51
+Profession: Woodworking — Station: Carpenter's Bench — Skill Req: 92
 Ingredients:
   - 4x Wild Rind
   - 1x Luminous Heart
@@ -507,7 +507,7 @@ XP / Progression: +76 Woodworking skill progress; unlocks upgrade variant at ski
 Sources: Taught by faction quartermasters in Ravencrest Moor.
 
 ### [REC-043] Cinder Charm 13
-Profession: Cooking — Station: Campfire — Skill Req: 52
+Profession: Cooking — Station: Campfire — Skill Req: 94
 Ingredients:
   - 1x Xyra Meat
   - 1x Nettle Shell
