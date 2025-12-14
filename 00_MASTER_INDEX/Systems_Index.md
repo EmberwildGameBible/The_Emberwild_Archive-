@@ -1,5 +1,7 @@
 # Systems Index
 
+- Contributor quickref: see [Content Block Conventions & Checklist](../10_Documentation/Contributor_Content_Block_Guide.md) for naming, rarity, and cross-link guidance when adding systems-adjacent content blocks.
+
 - AI_And_Encounter_Logic/CHAPTER 10 - APPENDIX F - THREAT, AGGRO, AI BEHAVI.md
 - Core/Combat/CHAPTER 2 - CORE COMBAT SYSTEM (FINAL).md
 - Core/Stats_And_Scaling/CHAPTER 4 - STAT & SCALING FRAMEWORK (FINAL).md
