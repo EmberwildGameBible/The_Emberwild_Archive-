@@ -1,0 +1,863 @@
+# B105 – Social Systems, Titles & Rumors (Greatwood 1–20)
+Purpose
+
+Define how social perception of the hunter works in the Greatwood 1–20 slice:
+
+What the Lodge and wider Emberwild call you (titles, nicknames).
+
+How your reputation and actions turn into:
+
+Spoken lines.
+
+Reactions.
+
+Rumors.
+
+How this ties into:
+
+Lodge circles & rep (59)
+
+Hunts & Signature Hunts (61, B103)
+
+Corruption & Warding (91, B101)
+
+Lodge Projects & Events (B102, B104)
+
+Personal quarters & identity (B100)
+
+This is not just a cosmetic layer; it is the social feedback loop for everything you are doing.
+
+Design Pillars
+
+Names Mean Something
+
+Titles and nicknames are earned, not just toggled.
+
+NPCs use them in:
+
+Greeting lines.
+
+Gossip.
+
+Contracts and ceremonies.
+
+Social Systems Are Lightly Mechanical, Heavily Thematic
+
+You gain:
+
+Small perks (shop discounts, contract options, event variants).
+
+But the main payoff is:
+
+Feeling recognized.
+
+Seeing the world talk about you differently.
+
+Reputation Has a Shape, Not a Score Only
+
+Reputation is not only numbers.
+
+It has flavors:
+
+“By-the-book Warden ally.”
+
+“Reckless experimenter.”
+
+“Quiet tracker who observes more than kills.”
+
+Rumors Travel
+
+Events, Hunts, and choices cause:
+
+Rumors to appear in Lodge and field.
+
+Sometimes rumors are:
+
+Right.
+
+Wrong.
+
+Half-right in interesting ways.
+
+Expandable Without Rework
+
+B105 is the core social fabric.
+
+Later regions, Lodges, and factions plug into this:
+
+Add their own titles, rumor pools, social axes.
+
+Keep the same underlying logic.
+
+Core Concepts
+
+We define five primary components:
+
+Lodge Rank Titles – formal status, tied to 59.
+
+Circle Epithets – flavored tags per Lodge circle.
+
+Deeds & Social Axes – hidden traits from actions.
+
+Rumor Network – how NPC gossip reflects your deeds.
+
+Presentation & Feedback – what the player actually sees/hears.
+
+1. Lodge Rank Titles (Formal Status)
+
+These are the formal titles the Lodge uses for you, mostly controlled by:
+
+Lodge Proper rank (59).
+
+Major story milestones in Greatwood.
+
+They reflect your overall place in the Lodge hierarchy, not your personal style.
+
+Greatwood Lodge Rank Titles
+
+For 1–20, we define a simple progression:
+
+“Guest of the Lodge” – Rank 0
+
+“Pledged Hunter” – Rank 1
+
+“Bound Hunter” – Rank 2
+
+“Sworn Ember” – Rank 3
+
+Rank 4+ titles exist but are beyond Greatwood.
+
+Rank 0 – Guest of the Lodge
+
+When:
+
+You first arrive.
+
+How NPCs reference you:
+
+“The newcomer.”
+
+“Guest.”
+
+Rarely by anything more specific.
+
+Mechanics:
+
+Limited access:
+
+Some rooms locked.
+
+Some contracts not shown.
+
+No formal privileges.
+
+Rank 1 – Pledged Hunter
+
+When:
+
+You complete the Lodge’s initial trial/intro Hunts.
+
+How NPCs reference you:
+
+“Pledged.”
+
+“One of ours now.”
+
+Mechanics:
+
+Basic access:
+
+Standard Hunt Board unlocked.
+
+Entry-level projects and events visible (B102, B104).
+
+UI:
+
+Lodge UI can show title “Pledged Hunter” in character panel.
+
+Rank 2 – Bound Hunter
+
+When:
+
+Sufficient Lodge Proper rep + key story beat (e.g., first Signature Hunt success).
+
+How NPCs reference you:
+
+“Bound Hunter.”
+
+“Bound to the Lodge.”
+
+Some older hunters:
+
+“The young Bound,” etc.
+
+Mechanics:
+
+Unlocks:
+
+Additional contract slot via B102 (“Hunt Board Annex”).
+
+Some mid-tier Lodge Projects (B102).
+
+Access to partially opened Restricted Lab (B101).
+
+Events:
+
+You are formally included in things like Hunt Reckoning and Ember Feast ceremonies (B104).
+
+Rank 3 – Sworn Ember
+
+When:
+
+High Lodge Proper rep + major story arc completion (e.g., two or more Signature Hunts, at least one corruption storyline resolved).
+
+How NPCs reference you:
+
+“Sworn Ember.”
+
+“One of the Sworn.”
+
+Mechanics:
+
+You are treated as:
+
+A key hunter in Greatwood.
+
+Unlocks:
+
+Late Greatwood projects (B102).
+
+Highest “trusted” level access in Warding Wing for this slice (B101).
+
+Events:
+
+During Ember Feast or Vigil, you may be asked:
+
+To give a short ceremonial line.
+
+Or to stand at the front of the hall.
+
+These titles are global for the Lodge: most NPCs, boards, and official documents use them.
+
+2. Circle Epithets (Reputation Flavors)
+
+Circle Epithets are additional labels that reflect your standing within a specific Lodge circle:
+
+Huntmasters’ Circle
+
+Wardens’ Circle
+
+Scholars’ Circle
+
+They are informal but respectful; they appear in:
+
+Voice lines.
+
+Notes on contracts.
+
+Occasional UI ribbons.
+
+Think of them as “how these people talk about you internally.”
+
+Huntmasters’ Epithets (Examples)
+
+Unlocked based on:
+
+Number and type of Hunts completed.
+
+Ratio of clean kills vs brutal, collateral-heavy Hunts.
+
+Willingness to take high-risk contracts.
+
+Possible early epithets:
+
+“Surehand”
+
+Clean, efficient kills.
+
+Rarely fails or abandons Hunts.
+
+“Storm-Blood”
+
+Takes risky, high-difficulty Hunts.
+
+High down/death count but keeps coming back.
+
+“Pack-Keeper”
+
+Often hunts in groups.
+
+High success on group Hunts.
+
+These don’t replace formal title:
+
+An NPC might say:
+
+“Sworn Ember, Surehand of the Huntmasters.”
+
+Wardens’ Epithets (Examples)
+
+Tied to:
+
+Participation in Warding projects.
+
+Success/failure in corruption Hunts.
+
+Behavior during Vigil.
+
+Possible early epithets:
+
+“Stonebound”
+
+Consistent helper in ward maintenance.
+
+Rarely ignores corruption contracts.
+
+“Edge-Walker”
+
+Spends long time in high-ZCL zones.
+
+Maintains high HCL but manages not to break.
+
+“Reluctant Warden”
+
+Minimally engages Wardens tasks.
+
+Helps only when story or obligation pushes.
+
+Scholars’ Epithets (Examples)
+
+Tied to:
+
+Research contributions.
+
+Attitude toward experimentation and knowledge.
+
+Behavior in Scholar events.
+
+Possible early epithets:
+
+“Field-Quill”
+
+Diligent about lore/Bestiary tasks.
+
+Brings back good samples and notes.
+
+“Specimen-Breaker”
+
+Frequently kills creatures before study is complete.
+
+Might ignore “observe only” contracts like Ragged King.
+
+“Curious Flame”
+
+Engages with experimental projects.
+
+Supports more dangerous lab work.
+
+These epithets can change over time:
+
+If behavior shifts significantly, a different epithet can override the old one.
+
+Mechanically, epithets are mostly flavor, but can:
+
+Lightly modify:
+
+Contract options offered.
+
+Dialogue branches.
+
+Prices for certain circle services.
+
+3. Deeds & Social Axes (Hidden Traits)
+
+Beyond rep numbers, we track qualitative axes based on what the player actually does.
+
+These are not shown directly in UI (at least in 1–20), but drive:
+
+Rumors.
+
+NPC tone.
+
+Specific triggers.
+
+Example Axes for Greatwood
+
+Merciful vs Ruthless
+
+Merciful:
+
+Spares creatures or humanoids when given the option.
+
+Chooses observation over killing (e.g., Ragged King).
+
+Ruthless:
+
+Takes kill options even when non-lethal solutions exist.
+
+Causes collateral damage (e.g., kills non-hostile deer during that Hunt).
+
+Cautious vs Reckless
+
+Cautious:
+
+Takes time to prepare (food, alchemy).
+
+Low death count.
+
+Often cleanses before ZCL spikes.
+
+Reckless:
+
+Frequently pushes into high ZCL long past safe HCL.
+
+Multiple downed states in Hunts.
+
+Might trigger more “Infirmary Rush” events.
+
+Lodge-Faithful vs Fringe-Aligned
+
+Lodge-Faithful:
+
+Sides with Warden of Wards and Lodge leadership on controversial choices (e.g., Shadow Under the Wardstone).
+
+Rejects risky experiments.
+
+Fringe-Aligned:
+
+Frequently sides with Fringe Alchemist ideas.
+
+Protects or covers experimental knowledge, even against orders.
+
+Solitary vs Pack-Led
+
+Solitary:
+
+Usually goes out alone (if game supports multi-hunter context, even fictionally).
+
+Accepts solo Hunts often.
+
+Pack-Led:
+
+Frequently forms or is described with group Hunts.
+
+Socially active in Lodge.
+
+Each axis is soft, not min/max:
+
+You don’t get hard-locked into a label.
+
+But NPCs and rumors lean toward reflecting your track record.
+
+4. Rumor Network
+
+The Rumor Network is the system that turns:
+
+Titles.
+
+Epithets.
+
+Deeds/axes.
+
+Notable events (Signature Hunts, Festivals, Projects)
+
+into gossip and reactive ambient lines.
+
+Rumor Sources
+
+Lodge Interior
+
+Common room.
+
+Hallways.
+
+Infirmary.
+
+Labs & Warding Wing.
+
+Greatwood Field NPCs
+
+Hunters at camps.
+
+Villagers.
+
+Foresters / gatherers.
+
+Boards & Notes
+
+Marginalia on:
+
+Hunt Board.
+
+Lodge Project Board.
+
+Research Ledger notes.
+
+Rumors often exist as:
+
+Short, reusable lines, with substitutable bits:
+
+“[Title] really did [deed]?”
+
+“They say the Sworn Ember fought the Devourer knee-deep in sap.”
+
+Rumor Categories
+
+Hunt Rumors
+
+Triggered by:
+
+Completing Signature Hunts (B103).
+
+Failing them repeatedly.
+
+Examples:
+
+“They say the Howler finally fell to a Bound Hunter who refused to retreat.”
+
+“The Matron’s brood still scratches at the walls in their sleep.”
+
+Corruption Rumors
+
+Triggered by:
+
+Corruption events and Vigil.
+
+Warding projects completed/failed.
+
+Examples:
+
+“The wards flickered last night. I heard someone say the Shadow was back.”
+
+“Black Sap Grove is quieter today. Must be some big kill.”
+
+Personality Rumors (Axes)
+
+Triggered by:
+
+Repeated behavior on axes (merciful/ruthless, etc).
+
+Examples:
+
+Merciful:
+
+“They say you watched the stag and never nocked an arrow. Spirits will remember that.”
+
+Ruthless:
+
+“Careful. That one doesn’t leave much breathing if there’s a bounty posted.”
+
+Festival & Event Rumors
+
+Triggered by:
+
+Ember Feast participation.
+
+Gloaming Vigil choices.
+
+Examples:
+
+“You should have heard them at the Feast, telling the tale of the Devourer.”
+
+“Did you see who stood the whole Vigil without sitting once? Stonebound indeed.”
+
+Project Rumors
+
+Triggered by:
+
+B102 projects.
+
+Examples:
+
+“The roof finally got fixed. They say [Title] paid half the timber themselves.”
+
+“With the wards extended to Hollowroot, maybe we’ll actually sleep.”
+
+Truthiness and Misinformation
+
+Rumors are not always perfectly accurate:
+
+A rumor might:
+
+Get the monster right but the details wrong.
+
+Attribute your deeds to “one of the Bound” before you’re formally named.
+
+Occasionally:
+
+You hear a rumor about yourself that is wrong:
+
+This can seed future quest hooks (e.g., you are thought to have killed something you did not, or spared something you didn’t).
+
+5. Presentation & Player Feedback
+
+The social systems must be visible enough that:
+
+Players understand they’re being recognized.
+
+But not so UI-heavy that it feels like spreadsheets.
+
+Where Titles/Epithets Show
+
+Dialogue UI
+
+NPC name subtitle could include:
+
+“Warden of Wards”
+
+When they address you:
+
+“Sworn Ember” / “Bound Hunter” / “Pledged” etc.
+
+Character Sheet
+
+Simple section:
+
+Formal Lodge Title: “Bound Hunter”
+
+Optional “Known Epithets” list:
+
+“Surehand” – Huntmasters
+
+“Field-Quill” – Scholars
+
+Hunt Board / Project Board UIs
+
+Some contracts may:
+
+Call you out by title.
+
+Show circle icons that line up with epithets.
+
+Quarters (B100)
+
+Room might:
+
+Display title on a plaque.
+
+Eventually show epithets on trinkets, notes, or gifts left by NPCs.
+
+Where Rumors Show
+
+Ambient Dialogue
+
+Overheard lines when walking by groups.
+２. Interactable Chatter
+
+Press interact near a gossiping pair:
+
+They share a short rumor and use your name/title.
+
+Written Notes
+
+Occasionally:
+
+Scribbled comments on boards.
+
+Letters that mention “that Sworn Ember who…” etc.
+
+Small Mechanical Perks (Greatwood Slice)
+
+These social systems should lightly reward certain paths without forcing them.
+
+Examples:
+
+Certain epithets may:
+
+Reduce prices at circle-linked vendors (e.g., “Surehand” gets small discount on Huntmasters gear).
+
+Increase chance of being offered specific contract types (e.g., “Field-Quill” gets more exploration/research contracts).
+
+Certain rumor-driven flags:
+
+Might open up optional dialogue:
+
+Someone hearing you spared the Ragged King might send you to a spirit-related side quest later.
+
+Being known as ruthless may open up darker-leaning contract pitches.
+
+Certain titles and event participation:
+
+May slightly alter base rep gain bands:
+
+“Sworn Ember” after a strong Vigil might get +X% Wardens rep for a short while.
+
+The idea is subtle but persistent: playing a certain way feels supported and seen.
+
+Example Player Social Journeys (Greatwood)
+
+To show how this all ties together, a few “archetype paths”:
+
+A. The Lodge-Faithful Warden
+
+Behavior:
+
+Always prioritizes corruption contracts.
+
+Strong participation in Vigil.
+
+Sides with Warden of Wards in “Shadow Under the Wardstone”.
+
+Result:
+
+Formal title: Sworn Ember.
+
+Epithets:
+
+Wardens: Stonebound.
+
+Scholars: Maybe Specimen-Breaker (too willing to kill corrupted samples).
+
+Axes:
+
+Lodge-Faithful, Cautious.
+
+Rumors:
+
+“Stonebound stood all Vigil.”
+
+“If the wards hold, it’s because of them.”
+
+B. The Reckless Experimentalist
+
+Behavior:
+
+Often pushes high ZCL.
+
+Deals with Fringe Alchemist often.
+
+Supports experimental corruption projects.
+
+Result:
+
+Formal: Bound Hunter (maybe slower to become Sworn).
+
+Epithets:
+
+Huntmasters: Storm-Blood.
+
+Scholars: Curious Flame.
+
+Axes:
+
+Reckless, Fringe-Aligned.
+
+Rumors:
+
+“Curious Flame nearly blew up the Lab again.”
+
+“That one drinks their own brews to see what happens.”
+
+C. The Quiet Observer
+
+Behavior:
+
+Spares Ragged King.
+
+Focuses on lore/exploration contracts.
+
+Moderate hunts, few flashy kills.
+
+Result:
+
+Formal: Bound Hunter / Sworn Ember.
+
+Epithets:
+
+Huntmasters: Surehand (if effective).
+
+Scholars: Field-Quill.
+
+Axes:
+
+Merciful, Cautious, Lodge-Faithful (depending on choices).
+
+Rumors:
+
+“They watched the great stag and let it walk.”
+
+“Field-Quill’s notes on beasts are in the Gallery now.”
+
+Integration Summary
+
+58 – Alchemy:
+
+Epithets and rumors often reference your brew usage.
+
+Events like Infirmary Rush and Vigil ask for your brews, then spread stories about that.
+
+59 – Lodge Rep:
+
+Formal titles and circle epithets derive from circle rep levels.
+
+Social axes modulate how rep is perceived (same rank, different style).
+
+61 / B103 – Hunts:
+
+Signature Hunts and outcomes are main drivers of:
+
+Big rumors.
+
+New trophies.
+
+Epithets.
+
+91 / B101 – Corruption & Wards:
+
+Vigil, warding, sample experiments all feed into:
+
+Warden epithets.
+
+Corruption rumors.
+
+B100 – Quarters:
+
+Quarters visually reflect:
+
+Title.
+
+Trophies tied to Hunts and festivals.
+
+Social artifacts (letters, gifts).
+
+B102 – Lodge Projects:
+
+Completion credited in gossip:
+
+“They paid for that roof.”
+
+Some projects unlock social content:
+
+Feast.
+
+Better common room scenes.
+
+B104 – Events & Festivals:
+
+Feasts and Vigils are prime social lenses:
+
+Where your titles and epithets are used most explicitly.
+
+Where your social axes are showcased.
+
+Future Hooks Beyond Greatwood
+
+Once this framework exists, later content can:
+
+Add new epithets for new circles and factions.
+
+Expand axes:
+
+Political alignments.
+
+Attitudes toward specific species, gods, or regions.
+
+Build long arcs:
+
+Your overall legend in Emberwild.
+
+How multiple Lodges speak of you differently.
+
+But the base remains:
+
+Actions → Rep + Axes → Titles & Epithets → Rumors & Reactions.

@@ -1,0 +1,319 @@
+# 1. Greatwood AGI DPS Set — “Heartroot Hunter”
+
+Target: leather AGI/STA skirmisher (hunter / rogue / light physical)
+
+All items are Level 15, Rare, and assume your standard leather armor fantasy: high AGI, decent STA, a bit of crit and/or AP.
+
+1.1 Heartroot Hunter’s Hood
+
+Slot: Head (Leather)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++14 Agility
+
++11 Stamina
+
++1% Crit Chance
+
++18 Armor
+
+1.2 Heartroot Hunter’s Jerkin
+
+Slot: Chest (Leather)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++16 Agility
+
++13 Stamina
+
++1% Crit Chance
+
++18 Armor
+
+1.3 Heartroot Hunter’s Legwraps
+
+Slot: Legs (Leather)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++16 Agility
+
++14 Stamina
+
++12 Attack Power
+
++18 Armor
+
+1.4 Heartroot Hunter’s Treads
+
+Slot: Feet (Leather)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++10 Agility
+
++9 Stamina
+
++8 Attack Power
+
++12 Armor
+
+1.5 Hunter’s Heartroot Band
+
+Slot: Ring
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++6 Agility
+
++4 Stamina
+
++1% Crit Chance
+
+1.6 Greatwood Stalker Bow
+
+Slot: Ranged (Bow)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++16 Agility
+
++12 Stamina
+
++36 Ranged Attack Power
+
++2% Crit Chance
+
++1% Hit Chance
+
+2. Greatwood STR Tank/Bruiser Set — “Gnarlbear Warden”
+
+Target: mail/plate STR/STA frontliner (warden / mercenary / highlander)
+
+Heavy armor, high stamina, a bit of STR for threat, block on shield, and a 1H mace for tanking.
+
+2.1 Gnarlbear Warden Helm
+
+Slot: Head (Heavy)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++9 Strength
+
++14 Stamina
+
++36 Armor
+
++1% Block Chance
+
+2.2 Gnarlbear Warden Chestguard
+
+Slot: Chest (Heavy)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++9 Strength
+
++18 Stamina
+
++42 Armor
+
++1% Block Chance
+
+2.3 Gnarlbear Warden Legplates
+
+Slot: Legs (Heavy)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++11 Strength
+
++17 Stamina
+
++60 Armor
+
+2.4 Gnarlbear Warden Sabatons
+
+Slot: Feet (Heavy)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++9 Strength
+
++13 Stamina
+
++44 Armor
+
+2.5 Heartroot Bastion Shield
+
+Slot: Off-Hand (Shield)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++5 Strength
+
++15 Stamina
+
++72 Armor
+
++2% Block Chance
+
++8 Block Value
+
+2.6 Greatwood Bulwark Mace
+
+Slot: Main-Hand (1H Mace)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++14 Strength
+
++18 Stamina
+
++46 Attack Power
+
++12 Block Value
+
++1% Hit Chance
+
+3. Greatwood INT/SPI Caster Set — “Dawnweaver”
+
+Target: cloth INT/SPI caster (priest / witch / support DPS)
+
+High INT for throughput, SPI for regen, SP on almost every piece, with a big 2H staff anchor.
+
+3.1 Dawnweaver’s Hood
+
+Slot: Head (Cloth)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++15 Intellect
+
++10 Spirit
+
++8 Stamina
+
++10 Spell Power
+
+3.2 Dawnweaver’s Robe
+
+Slot: Chest (Cloth)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++17 Intellect
+
++12 Spirit
+
++10 Stamina
+
++12 Spell Power
+
+3.3 Dawnweaver’s Legwraps
+
+Slot: Legs (Cloth)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++16 Intellect
+
++10 Spirit
+
++9 Stamina
+
++12 Spell Power
+
+3.4 Dawnweaver’s Sandals
+
+Slot: Feet (Cloth)
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++12 Intellect
+
++7 Spirit
+
++6 Stamina
+
++6 Spell Power
+
+3.5 Dawnweaver’s Focus Band
+
+Slot: Ring
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++8 Intellect
+
++5 Spirit
+
++8 Spell Power
+
+3.6 Sapdrifter’s Channeling Staff
+
+Slot: Two-Hand Staff
+
+Level: 15 — Rarity: Rare
+
+Stats:
+
++26 Intellect
+
++20 Spirit
+
++18 Stamina
+
++50 Spell Power
+
++1% Spell Crit Chance
+
++5 Mana per 5 sec
+
+How this plugs into your new math
+
+You don’t have to recalc anything, but just so you know what’s going on under the hood:
+
+Each item’s total “budget spend” (sum of stat costs using the V2 costs) sits close to:
+
+ItemBudget(15, slot, "RARE")
+
+Items in the same level/slot/rarity are in the same power band, just flavored differently (tank vs DPS vs caster).
+
+This gives you a template for how strong a level 15 Rare chest “should” be in your game.

@@ -1,0 +1,1318 @@
+# B103 – Greatwood Signature Hunts Pack (Greatwood 1–20)
+Purpose
+
+Define a pack of 4–5 fully authored Signature Hunts in Greatwood that:
+
+Stress-test and showcase:
+
+Hunts & Contracts (61)
+
+Corruption & Cleansing (91)
+
+Alchemy (58)
+
+Lodge Circles & Rep (59)
+
+Lodge Labs & Wards (B101)
+
+Lodge Projects (B102)
+
+Provide memorable set-piece experiences in the 1–20 band.
+
+Create named threats that NPCs refer to in dialogue and Lodge culture.
+
+These Hunts are not generic contracts. Each is:
+
+A named contract with:
+
+Unique tracking routes.
+
+Multi-phase encounters.
+
+Clear world-state effects when completed or failed.
+
+Pack Overview
+
+Signature Hunts in this pack:
+
+“The Greatwood Howler” – Apex wolf-beast, classic first big Hunt.
+
+“The Black-Sap Devourer” – Corrupted predator tied to Black Sap Grove.
+
+“The Hollowroot Matron” – Lair hunt in Hollowroot Warren.
+
+“The Ragged King” – Roaming stag-god rumor, tests tracking and restraint.
+
+“Shadow Under the Wardstone” – Human/near-human threat tied to the Warding Wing.
+
+Each Hunt entry below includes:
+
+Contract Data & Offer
+
+Narrative Hook
+
+Tracking & Trail
+
+Encounter layout & phases
+
+Failure modes and consequences
+
+Rewards, rep, and system hooks
+
+IDs and numbers are examples; you can align them with your actual data schema.
+
+1. Signature Hunt: “The Greatwood Howler”
+Contract Summary
+
+Contract ID: hunt_sig_greatwood_howler
+
+Name: The Greatwood Howler
+
+Type: APEX_BEAST, MARK_HUNT
+
+Recommended Level: 8–12
+
+Region: Eastern Greatwood ridges and ravines
+
+Corruption Tag: UNCORRUPTED (ZCL 0–1, but hunts near Tainted edges)
+
+Offered By:
+
+Lodge Proper
+
+Huntmasters’ Circle (primary sponsor)
+
+Prerequisites:
+
+Completion of several Tier 0/1 wolf or predator cull contracts.
+
+Lodge Proper Rank 1 (Pledged Hunter).
+
+Narrative Hook
+
+Local hunters and villagers whisper about a huge wolf-beast that:
+
+Howls across the ridges on certain nights.
+
+Knocks over carts and livestock pens.
+
+Has survived multiple failed Hunt attempts.
+
+The Lodge finally posts a formal Signature Hunt:
+
+“Bring down the Howler, or at least come back with proof you tried properly.”
+
+The Huntmasters frame this as your first real test as an emerging hunter.
+
+Pre-Hunt Prep
+
+NPCs and board hints encourage:
+
+Food buffs focused on:
+
+Stamina, regen, or physical mitigation.
+
+Alchemy (58):
+
+Ironbark Fortifier (physical reduction vs beasts).
+
+Hollowroot Soothing Balm (better bandage healing).
+
+Optional Nighttracker Brew if hunting at night.
+
+Optional Lodge Project tie-in (B102):
+
+If “Formalize the Training Yard” is complete:
+
+Huntmasters offer a short sparring scenario:
+
+Grants a temporary buff vs beasts or a bit of extra info.
+
+Tracking & Trail
+
+The Hunt uses a two-stage trail:
+
+Outer Signs (Near Lodge / low ZCL)
+
+Fresh tracks near:
+
+Broken fences.
+
+Overturned supply carts.
+
+NPC witnesses:
+
+A shaken wagoner, a farmer with a wounded dog.
+
+Clues:
+
+Direction: always pointing toward the eastern ridges.
+
+Ridge Hunt (Moderate Terrain, ZCL 0–1)
+
+Tracks become:
+
+Deeper, wider, showing size.
+
+Scattered kills:
+
+Deer carcasses, partially eaten.
+
+Audio:
+
+Occasional distant howl that can be triangulated.
+
+Crossroads:
+
+Player might encounter:
+
+A smaller alpha-less wolf pack.
+
+A competing predator; evidence of the Howler’s dominance.
+
+If the player struggles, the contract can allow:
+
+An optional Huntmasters guide to highlight tracks more strongly.
+
+Or a Hunt Board hint telling them to look near a named landmark.
+
+Encounter Layout
+
+Final encounter occurs in a broken ridge amphitheater:
+
+Rough ring of rocks and trees.
+
+Multiple ledges for the Howler to jump between.
+
+A few narrow chokepoints and one open “kill circle”.
+
+Entry states:
+
+If approached carefully:
+
+The Howler is seen feeding, giving a brief observation window.
+
+If rushed:
+
+The Howler immediately enters a more aggressive opener.
+
+Fight Phases
+
+Phase 1 – Territorial Assault (100–60% HP)
+
+Behaviors:
+
+Wide, sweeping charges.
+
+Knockdown roar.
+
+“Harrying” bites that inflict light bleeds.
+
+Pack Mechanics:
+
+2–4 lesser wolves emerge intermittently, attempting flanking.
+
+Design:
+
+Encourages the player to:
+
+Manage adds while positioning against charges.
+
+Learn the Howler’s rhythm.
+
+Phase 2 – Wounded Fury (60–20% HP)
+
+Trigger:
+
+Howler emits an enraged howl, briefly knocking the player back.
+
+Behaviors:
+
+Gains a more aggressive pounce with:
+
+Higher damage.
+
+Stronger bleed.
+
+Movement pattern:
+
+More erratic circling, using ledges.
+
+Environmental:
+
+The Howler may:
+
+Kick up dust clouds that briefly obscure vision.
+
+Optional:
+
+If the player breaks a leg/limb via a specific mechanic:
+
+Movement slows, but pounces are replaced with shorter lunges.
+
+Phase 3 – Attempted Retreat (20–0% HP)
+
+Behavior:
+
+Howler attempts to flee deeper into a small den or ravine exit.
+
+Choice:
+
+Player can:
+
+Chase and finish the kill.
+
+Let it escape (on purpose or by failing to keep up).
+
+Consequence:
+
+Kill:
+
+Full rewards and pelt, the Howler line is done for this cycle.
+
+Escape:
+
+Partial reward (proof of wounding).
+
+Potential for a later, stronger variant (“The Scarred Howler”).
+
+Failure & Consequences
+
+If player dies and abandons:
+
+The Howler becomes more cautious:
+
+Might change lair, requiring updated tracking later.
+
+Repeated failed attempts:
+
+NPCs talk about the Howler as a legend.
+
+The contract might escalate difficulty / rewards on next try.
+
+Rewards & System Hooks
+
+Guaranteed:
+
+Unique trophy:
+
+trophy_howler_skull or pelt_greatwood_howler.
+
+Huntmasters’ rep:
+
+Large chunk for first completion.
+
+Lodge Proper rep:
+
+Moderate.
+
+Possible:
+
+Early weapon or armor piece themed around wolves/howling.
+
+Research project unlock (B101):
+
+Bestiary study “The Ridges’ Apex”.
+
+Lodge Project activation (B102):
+
+Completing this Hunt may be a soft gate for “Formalize the Training Yard” or a similar Huntmasters project.
+
+2. Signature Hunt: “The Black-Sap Devourer”
+Contract Summary
+
+Contract ID: hunt_sig_black_sap_devourer
+
+Name: The Black-Sap Devourer
+
+Type: CORRUPTED_CHAMPION, LAIR_HUNT
+
+Recommended Level: 12–16
+
+Region: Black Sap Grove
+
+Corruption Tag: WARPED (ZCL 2–4)
+
+Offered By:
+
+Wardens’ Circle (primary)
+
+Scholars’ Circle (secondary, for samples)
+
+Prerequisites:
+
+Exposure to Black Sap Grove via standard quests.
+
+Wardens Rank 1, Scholars Rank 1 if possible.
+
+At least one warding project in progress or completed in the Grove (B101/B102).
+
+Narrative Hook
+
+Something in the Black Sap Grove is:
+
+Girdling trees.
+
+Draining beasts dry.
+
+Leaving only husks and dripping black sap.
+
+Wardens call it the Devourer:
+
+A twisted predator that feeds on sap and blood.
+
+A mobile catalyst for corruption.
+
+They want it destroyed before it forces the Grove into permanent ZCL 4+.
+
+Pre-Hunt Prep
+
+Hints push players to:
+
+Gear for:
+
+Poison/corruption mitigation.
+
+Alchemy (58):
+
+Ember Ward Balm if fire/heat plays a role.
+
+Cleansebrew Tonic (status cleanse).
+
+Warden’s Veil if unlocked (corruption sanity mitigation).
+
+Warding Wing (B101):
+
+Optional small warding project that makes the Hunt slightly easier:
+
+E.g. “Place temporary wards around perimeter” → fewer corruption adds.
+
+Tracking & Trail
+
+Trail emphasizes corrupted environment:
+
+Outer Edge (ZCL 1–2)
+
+Trees with:
+
+Darkened veins.
+
+Corpse of a large beast:
+
+Drained dry, crystalized sap where blood should be.
+
+Clues:
+
+Deep gouges on bark.
+
+Large claw patterns.
+
+Deep Grove (ZCL 3–4)
+
+Ground:
+
+Slick with sap, causing mild movement penalties.
+
+Ambient:
+
+Heavy, oppressive soundscape.
+
+Whispering tree SFX.
+
+Trail splits:
+
+Evidence of the Devourer circling an inner lair pocket.
+
+If ZCL is high:
+
+More corrupted minions spawn during tracking.
+
+If wards have been strengthened:
+
+Slightly fewer minions / slower respawn.
+
+Encounter Layout
+
+The lair is a sap pool depression:
+
+Central pit with:
+
+Thick black sap.
+
+Slow zones.
+
+Surrounding high roots / branches:
+
+Devourer might leap onto them.
+
+Several corruption nodes:
+
+Small black-sap growths around the arena.
+
+Fight Phases
+
+Phase 1 – Sap-Drunk Predation (100–70% HP)
+
+Behaviors:
+
+Fast lunges.
+
+AoE sap spit:
+
+Slow + minor corruption DoT.
+
+Occasional short submerge in sap pool to reposition.
+
+Environmental:
+
+Standing in sap:
+
+Movement penalty.
+
+Slow corruption gain (HCL).
+
+Phase 2 – Node-Linked Rage (70–30% HP)
+
+Trigger:
+
+Devourer roars, corruption nodes flare.
+
+Behaviors:
+
+Gains damage and speed buffs while nodes intact.
+
+Adds:
+
+Sap-thrall beasts emerge periodically.
+
+Mechanics:
+
+Destroying nodes:
+
+Weakens Devourer (loses buffs).
+
+Slightly reduces corruption in local arena (ZCL micro drop).
+
+Leaving nodes intact:
+
+More loot from nodes post-fight but harder battle.
+
+Phase 3 – Gluttonous Overload (30–0% HP)
+
+Behavior:
+
+Devourer begins consuming sap mid-fight.
+
+HP regeneration spikes briefly.
+
+New attack:
+
+Cone vomit of black sap:
+
+Heavy corruption gain + big slow.
+
+Choice:
+
+Player can:
+
+Use Purge of the Glade or similar brew at campfire pre-fight, which:
+
+Pre-weakens sap environment.
+
+Or fight full-strength version for better rewards.
+
+Failure & Consequences
+
+If left alive too long:
+
+Black Sap Grove’s ZCL:
+
+Ticks toward 4–5 faster (91).
+
+Repeated player failures:
+
+Wardens react with frustration.
+
+More corrupted ambushes along roads near the Grove.
+
+Rewards & Hooks
+
+Rewards:
+
+Unique material:
+
+essence_black_sap or resin_devourer.
+
+Wardens and Scholars rep.
+
+Chance at:
+
+Corruption-aligned Alchemy recipe variant.
+
+System hooks:
+
+Killing the Devourer:
+
+Drops Grove ZCL by 1 (temporarily).
+
+Unlocks Warding Project “Stabilize Black Sap Boundaries.”
+
+Research project:
+
+“Sap-Bound Corruption Studies” (B101).
+
+3. Signature Hunt: “The Hollowroot Matron”
+Contract Summary
+
+Contract ID: hunt_sig_hollowroot_matron
+
+Name: The Hollowroot Matron
+
+Type: LAIR_BOSS, DUNGEON_HUNT
+
+Recommended Level: 14–18
+
+Region: Hollowroot Warren (dungeon)
+
+Corruption Tag: BLIGHTED (ZCL 2–3 interior density)
+
+Offered By:
+
+Lodge Proper
+
+Wardens’ Circle
+
+Prerequisites:
+
+Hollowroot Warren access unlocked (65/77).
+
+Completion of multiple “Hollowroot” themed contracts.
+
+At least one Infirmary/Alchemy upgrade project from B102.
+
+Narrative Hook
+
+The Warrens have grown too bold:
+
+Hollowroot creatures pushing closer to:
+
+Roads.
+
+Hunting routes.
+
+Rumors of a “Matron” birthing twisted broods deep in the warrens.
+
+The Lodge contracts you to:
+
+Descend into Hollowroot.
+
+Track the Matron to her birthing pit.
+
+Put her down before the next generation emerges.
+
+Pre-Hunt Prep
+
+Expectations:
+
+Multi-encounter dungeon push.
+
+Pressure on supplies and Alchemy:
+
+Alchemy suggestions:
+
+Hollowroot Soothing Balm (extra bandage efficacy).
+
+Cleansebrew Tonic (spores/poison).
+
+Optional:
+
+Group Shared Flask of Concord if multiple hunters go in.
+
+Optional Lodge Project synergy:
+
+If certain structural or warding projects are done:
+
+Some upper tunnels may be partially collapsed or reinforced:
+
+Slightly different path / fewer ambushes.
+
+Tracking & Trail
+
+This is largely inside the dungeon:
+
+Early floors:
+
+Signs of larger creatures moving through:
+
+Cracked chitin.
+
+Gouged walls.
+
+Mid floors:
+
+Clusters of:
+
+Egg sacks.
+
+Moulting husks.
+
+Environmental audio:
+
+Skittering, low rumbling, distant maternal screech.
+
+Branching:
+
+Player chooses between:
+
+A more direct but heavily guarded tunnel.
+
+A longer path via side chambers with lore/rewards.
+
+Encounter Layout
+
+The Matron’s chamber is:
+
+A huge, vertical cavern:
+
+Lower pit filled with:
+
+Egg clusters.
+
+Thick fungal growth.
+
+Multiple ledges and tunnels above.
+
+Matron:
+
+Massive Hollowroot queen-type entity.
+
+Anchored to central growth, but with:
+
+Long limb reach.
+
+Summon/command abilities.
+
+Fight Phases
+
+Phase 1 – Nest Defense (100–70% HP)
+
+Behaviors:
+
+Spawns small brood swarms.
+
+Acid spit arcs.
+
+Ground pulses:
+
+Disrupt footing.
+
+Mechanics:
+
+Egg clusters:
+
+Can be destroyed by the player:
+
+Fewer adds.
+
+But potentially worse enrages later.
+
+Or left alone:
+
+More adds now.
+
+Slightly weaker enrages.
+
+Phase 2 – Birthing Frenzy (70–30% HP)
+
+The Matron:
+
+Begins birthing larger, elite broodlings.
+
+Arena:
+
+Certain ledges collapse to limit safe zones.
+
+Corruption:
+
+If ZCL in Warren is high:
+
+Broodlings gain corrupted affixes.
+
+If Wardens projects have reduced local corruption:
+
+Adds less dangerous.
+
+Phase 3 – Root Uprising (30–0% HP)
+
+Matron:
+
+Forces large Hollowroot roots up from below:
+
+Creates moving environmental hazards.
+
+Player:
+
+Must balance:
+
+DPS on Matron.
+
+Avoiding root spikes / poison pools.
+
+Optional:
+
+If the player uses certain alchemical brews:
+
+Can ignite or shock roots for brief safe windows.
+
+Failure & Consequences
+
+If player fails and leaves the Hunt for too long:
+
+Matron:
+
+Spawns more broods into upper Warren floors.
+
+New ambient encounters:
+
+Extra Hollowroot waves near exits.
+
+If Matron is ignored for certain story beats:
+
+A “brood flush” event might occur:
+
+Temporary surge of Hollowroot attacks near Greatwood roads.
+
+Rewards & Hooks
+
+Rewards:
+
+Unique Matron materials:
+
+carapace_matron, ichor_hollowroot_queen.
+
+Significant Lodge Proper and Wardens rep.
+
+System hooks:
+
+Killing the Matron:
+
+Reduces ambient Hollowroot encounters above ground for a while.
+
+Unlocks specific Bestiary & Alchemy research projects.
+
+May be a prerequisite for higher-tier Lodge Projects related to Warren.
+
+4. Signature Hunt: “The Ragged King”
+Contract Summary
+
+Contract ID: hunt_sig_ragged_king
+
+Name: The Ragged King
+
+Type: TRAIL_HUNT, CHOICE_HUNT
+
+Recommended Level: 10–16
+
+Region: Multiple pockets, especially Ragged Verge.
+
+Corruption Tag: Mixed (ZCL 0–2)
+
+Offered By:
+
+Scholars’ Circle (primary)
+
+Lodge Proper (secondary)
+
+Prerequisites:
+
+Unlock Ragged Verge as a named region.
+
+Complete exploration / lore tasks there.
+
+Some progression in Scholars rep.
+
+Narrative Hook
+
+Stories speak of a massive stag, antlers tangled with roots and ribbons, sometimes seen:
+
+Standing on ridge lines during storms.
+
+Watching camps from the tree line.
+
+Leading smaller deer away from hunters.
+
+Some say:
+
+It is a spirit of the forest.
+
+Others insist it is just a huge, very real stag.
+
+The Lodge posts a contract that is:
+
+Mostly framed as “Observe and, if necessary, put down.”
+
+Pre-Hunt Prep
+
+This Hunt is less about raw combat and more about:
+
+Tracking.
+
+Patient observation.
+
+A moral/roleplay choice.
+
+Alchemy prep:
+
+Keen Eye Draught for tracking and observation.
+
+Scribe’s Focus Draught if the player wants extra progression from discoveries.
+
+Tracking & Trail
+
+The Ragged King’s trail is:
+
+Spread across multiple pockets (Ragged Verge + neighbors).
+
+Requires connecting sightings and signs.
+
+Clues:
+
+Sighting reports from:
+
+Campers.
+
+Foresters.
+
+Physical signs:
+
+Oversized hoofprints.
+
+Tree bark scraped high, with tattered ribbons stuck.
+
+Special interactions:
+
+At some spots, if players are calm (no weapons drawn, low noise):
+
+They might see the Ragged King in the distance:
+
+Briefly visible, then fading.
+
+The Scholar sponsor encourages:
+
+Non-lethal approach if possible:
+
+Observing behavior.
+
+Documenting routes.
+
+Encounter / Resolution Options
+
+Eventually, players catch up at:
+
+A quiet glade at dawn or dusk.
+
+The Ragged King stands among:
+
+Does and younger stags.
+
+Three broad options:
+
+Observe Only
+
+Player simply:
+
+Watches.
+
+Uses tools (Spyglass, Scribe’s Focus, etc).
+
+Outcome:
+
+Contract completes with a “Study” result.
+
+No combat.
+
+Scholars’ rep gain is high.
+
+No direct loot, but:
+
+Unlocks a research project about Greatwood spirits or special perks later.
+
+Attempt Marked, Clean Kill
+
+Player engages but:
+
+Only goes for a quick kill.
+
+Avoids killing smaller deer.
+
+Fight:
+
+The Ragged King is tough but not corrupted:
+
+Heavy charges.
+
+Antler tosses.
+
+Brief “awe” stare that can stun.
+
+Outcome:
+
+Marked as clean kill:
+
+Trophy.
+
+Huntmasters + Lodge Proper rep.
+
+Scholars rep: small, maybe negative if they wanted it preserved.
+
+Brutal Hunt / Chaos
+
+Player:
+
+Kills multiple deer.
+
+Or uses explosive / messy tools.
+
+Outcome:
+
+Ragged King may:
+
+Fight to the death in an enraged state.
+
+Or escape, wounded but leaving the glade devastated.
+
+Reputation:
+
+Huntmasters might approve bluntly.
+
+Scholars and some Lodge NPCs disapprove.
+
+Future:
+
+Potential hook:
+
+A corrupted version of the Ragged King later (if escaped).
+
+Rewards & Hooks
+
+Observe path:
+
+Unlocks:
+
+Special lore.
+
+Progress toward nature-themed perks or later spirit Hunts.
+
+Scholars rep high.
+
+Clean kill:
+
+Trophy:
+
+trophy_ragged_king_antlers.
+
+Bestiary entry:
+
+Unique.
+
+Mixed rep:
+
+Good with Huntmasters, decent Lodge, moderate with Scholars.
+
+Brutal path:
+
+Short-term loot:
+
+More meat, hides, antlers.
+
+Long-term:
+
+Possible future corruption / spirit backlash content.
+
+This Hunt is deliberately less about raw power and more about choice, identity, and Lodge politics.
+
+5. Signature Hunt: “Shadow Under the Wardstone”
+Contract Summary
+
+Contract ID: hunt_sig_shadow_wardstone
+
+Name: Shadow Under the Wardstone
+
+Type: HUMANOID_THREAT, STORY_HUNT
+
+Recommended Level: 16–20
+
+Region: Around the Lodge and nearby wardstones.
+
+Corruption Tag: Tainted (ZCL 1–2)
+
+Offered By:
+
+Wardens’ Circle
+
+Lodge Proper
+
+Prerequisites:
+
+Significant progress in:
+
+Corruption story (91).
+
+Warding Wing projects (B101).
+
+Possibly a couple of Restricted Lab experiments.
+
+Wardens Rank 2.
+
+Narrative Hook
+
+Someone is:
+
+Tampering with wardstones at night.
+
+Misaligning sigils.
+
+Bleeding small amounts of corruption into “safe” zones.
+
+Evidence suggests:
+
+Not a beast.
+
+Not a random corrupted animal.
+
+Someone with knowledge of warding.
+
+The Lodge tasks you with:
+
+Identifying and neutralizing the “Shadow” before a major breach occurs.
+
+Pre-Hunt Prep
+
+Emphasis on:
+
+Investigation.
+
+Social reading.
+
+Corruption awareness.
+
+Alchemy:
+
+Warden’s Veil (to reduce hallucinations in high tension sequences).
+
+Keen Eye Draught (better track tampering trails).
+
+Optional night-vision style brew.
+
+Investigation & Trail
+
+Three layers:
+
+Lodge Interior Clues
+
+Talk to:
+
+Warden of Wards.
+
+Fringe Alchemist.
+
+Senior Scribe.
+
+Check:
+
+Ward maps.
+
+Lab records.
+
+Quiet suspicion seeds:
+
+NPCs blame each other.
+
+Player sees logs and times that don’t match.
+
+Wardstone Sites
+
+Visit several wardstones around Lodge:
+
+Each with different signs of tampering:
+
+Scratched sigils.
+
+Wrong reagent dust.
+
+Boot prints.
+
+Player uses:
+
+Tracking, observation, and HCL awareness.
+
+Night Stakeout
+
+At one or more wardstones, player can:
+
+Wait through a night cycle.
+
+Eventually:
+
+A cloaked figure appears.
+
+Begins performing a twisted warding rite.
+
+Encounter & Choice
+
+The “Shadow” is:
+
+A former Warden or apprentice:
+
+Disillusioned.
+
+Experimenting with redirecting corruption in ways the Lodge forbids.
+
+Two main resolution axes:
+
+Combat vs Arrest
+
+If approached aggressively:
+
+Full combat encounter:
+
+Human opponent using ward magic and alchemy.
+
+Traps and corrupted glyphs.
+
+If approached carefully:
+
+Dialogue and potential arrest / negotiated surrender.
+
+Exposure vs Cover-Up
+
+If the player sides with:
+
+Warden of Wards and Lodge leadership:
+
+Full exposure; Shadow becomes an example.
+
+The Shadow’s “theory”:
+
+May choose a quieter resolution and feed some findings into Restricted Lab.
+
+Fight Design (If Combat)
+
+Arena:
+
+Around a wardstone ring.
+
+Light corruption bleed into area.
+
+Shadow uses:
+
+Short teleport-like repositioning between ward glyphs.
+
+Corruption flares at pre-warded spots.
+
+Thrown alchemical flasks.
+
+Phases:
+
+Phase 1:
+
+Mostly ranged ward sigil attacks.
+
+Phase 2:
+
+Shadow begins overcharging wardstone:
+
+Player must interrupt channel or risk minor breach event.
+
+Phase 3:
+
+If heavily weakened:
+
+Shadow might attempt to flee toward Fringe Alchemist area or Warding Hall.
+
+Consequences & Hooks
+
+If exposed and defeated:
+
+Wardens tighten control.
+
+Corruption creep events might slow near Lodge.
+
+Restricted Lab:
+
+Some experiments are shut down or locked behind higher rep.
+
+If negotiated / covered:
+
+Some Wardens and NPCs suspect something.
+
+Restricted Lab:
+
+Gains access to more aggressive experiments.
+
+Future content:
+
+Player may later face consequences, or use knowledge gained as power.
+
+Rewards:
+
+Human-scale loot:
+
+Custom warding tools.
+
+Recipes or partial ward glyph knowledge.
+
+Rep:
+
+Depends heavily on choices:
+
+Big Wardens rep if obedient and harsh.
+
+More Scholars rep if curious and protective of knowledge.
+
+Lodge Proper rep shifts based on stability outcome.
+
+Implementation Notes
+Where These Sit in the Structure
+
+This pack can live as:
+
+B103 – Greatwood Signature Hunts Pack (1–20) in Future/Features, or
+
+Split into per-hunt files referenced by B103 as an index.
+
+Data Model Alignment
+
+Each Hunt maps directly onto the Hunt structure defined in 61:
+
+Contract entry on Hunt Board.
+
+Target archetype.
+
+Trail/encounter/resolution definition.
+
+Each Hunt should:
+
+Reference:
+
+ZCL and pockets from 91.
+
+Lodge circles and rep rewards from 59.
+
+Labs/Warding and projects from B101/B102 (where relevant).
+
+Alchemy recipes and items from 58.
+
+Tuning
+
+Numbers (HP, damage, buff values) are intentionally not specified:
+
+Leave balancing for implementation.
+
+Difficulty target:
+
+Each Signature Hunt should feel:
+
+Substantially harder and more involved than a standard Tier 1 Hunt.
+
+Like an “anchor memory” of Greatwood’s arc.
