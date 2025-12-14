@@ -102,98 +102,98 @@ Set Hook: Counts toward Gloamwatch 4-piece bonuses.
 
 [GEAR-015 — Oakshield Ring 24]
 Slot: Ring — Rarity: Epic — Recommended Level: 24
-Stats: +18 spellpower, +17 regen, +6 crit.
+Stats: +19 primary, +17 secondary, +16 stamina.
 Affixes: Fortify when stationary; Extra damage to beasts.
 Drops from world quests in Glassbloom Run; craftable via Woodworking focus.
 Set Hook: Counts toward Veildiver 4-piece bonuses.
 
 [GEAR-016 — Pyrestep Amulet 25]
 Slot: Neck — Rarity: Legendary — Recommended Level: 25
-Stats: +20 primary, +18 secondary, +2 stamina.
+Stats: +20 primary, +18 secondary, +17 stamina.
 Affixes: Bleed chance on crit; Empowers trail quests.
 Drops from assassination targets in Morrowpine Tangle; craftable via Engineering focus.
 Set Hook: Counts toward Warden of the Lodge 4-piece bonuses.
 
 [GEAR-017 — Quillmark Cloak 26]
 Slot: Back — Rarity: Uncommon — Recommended Level: 26
-Stats: +21 primary, +19 secondary, +3 stamina.
-Affixes: Thorns reflect; Empowers trail quests.
+Stats: +21 primary, +19 secondary, +18 stamina.
+Affixes: Thorns reflect; Trail quests grant bonus rep in this band.
 Drops from assassination targets in Veilreef Caves; craftable via Leatherworking focus.
 Set Hook: Counts toward Warden of the Lodge 4-piece bonuses.
 
 [GEAR-018 — Rainswept Boots 27]
 Slot: Feet — Rarity: Rare — Recommended Level: 27
-Stats: +22 primary, +20 secondary, +4 stamina.
+Stats: +22 primary, +20 secondary, +19 stamina.
 Affixes: Reduced fall damage; Enables tracking of rares.
 Drops from assassination targets in Starfall Orchard; craftable via Smithing focus.
 Set Hook: Counts toward Warden of the Lodge 4-piece bonuses.
 
 [GEAR-019 — Stoneforge Bracers 28]
 Slot: Wrist — Rarity: Epic — Recommended Level: 28
-Stats: +23 primary, +21 secondary, +5 stamina.
+Stats: +23 primary, +21 secondary, +20 stamina.
 Affixes: Ignite proc; Increases healing received.
 Drops from elites in Umberdeep Quarry; craftable via Engineering focus.
 Set Hook: Counts toward Gloamwatch 4-piece bonuses.
 
 [GEAR-020 — Thornwoven Lantern 29]
 Slot: Off-hand — Rarity: Legendary — Recommended Level: 29
-Stats: +24 primary, +22 secondary, +6 stamina.
+Stats: +24 primary, +22 secondary, +21 stamina.
 Affixes: Ignite proc; Resource discount at crafting.
 Drops from world quests in Frostborne Steppe; craftable via Woodworking focus.
 Set Hook: Counts toward Frostpath 4-piece bonuses.
 
 [GEAR-021 — Umberkeep Charm 30]
 Slot: Trinket — Rarity: Uncommon — Recommended Level: 30
-Stats: +25 primary, +23 secondary, +7 stamina.
+Stats: +25 primary, +23 secondary, +22 stamina.
 Affixes: Speed while mounted; Set bonus with Warden line.
 Drops from boss chests in Gloamhollow Fissure; craftable via Smithing focus.
 Set Hook: Counts toward Warden of the Lodge 4-piece bonuses.
 
 [GEAR-022 — Veilbound Totem 31]
 Slot: Off-hand — Rarity: Rare — Recommended Level: 31
-Stats: +26 primary, +24 secondary, +8 stamina.
+Stats: +26 primary, +24 secondary, +23 stamina.
 Affixes: Bleed chance on crit; Increases healing received.
 Drops from world quests in Ravencrest Moor; craftable via Smithing focus.
 Set Hook: Counts toward Cinder Stalker 4-piece bonuses.
 
 [GEAR-023 — Warden's Girdle 32]
 Slot: Waist — Rarity: Epic — Recommended Level: 32
-Stats: +27 primary, +25 secondary, +9 stamina.
+Stats: +27 primary, +25 secondary, +24 stamina.
 Affixes: Lifesteal on finisher; Extra damage to constructs.
 Drops from world quests in Silverchase Foothills; craftable via Woodworking focus.
 Set Hook: Counts toward Cinder Stalker 4-piece bonuses.
 
 [GEAR-024 — Xylar Pauldrons 33]
 Slot: Shoulder — Rarity: Legendary — Recommended Level: 33
-Stats: +28 primary, +26 secondary, +10 stamina.
-Affixes: Dodge after roll; Set bonus with Warden line.
+Stats: +28 primary, +26 secondary, +25 stamina.
+Affixes: Dodge after roll; Cleave radius increased while above 50% health.
 Drops from boss chests in Blazegate Caldera; craftable via Woodworking focus.
 Set Hook: Counts toward Veildiver 4-piece bonuses.
 
 [GEAR-025 — Yonder Mask 34]
 Slot: Head — Rarity: Uncommon — Recommended Level: 34
-Stats: +29 primary, +27 secondary, +11 stamina.
+Stats: +29 primary, +27 secondary, +26 stamina.
 Affixes: Mana trickle on hit; Enables tracking of rares.
 Drops from assassination targets in Greatwood Lodge; craftable via Engineering focus.
 Set Hook: Counts toward Frostpath 4-piece bonuses.
 
 [GEAR-026 — Zephyrtrail Blade 35]
 Slot: Weapon — Rarity: Rare — Recommended Level: 35
-Stats: +30 primary, +3 secondary, +12 stamina.
+Stats: +30 primary, +28 secondary, +27 stamina.
 Affixes: Lifesteal on finisher; Increases healing received.
 Drops from world quests in Cinderfen Hot Springs; craftable via Smithing focus.
 Set Hook: Counts toward Frostpath 4-piece bonuses.
 
 [GEAR-027 — Ashen Axe 36]
 Slot: Weapon — Rarity: Epic — Recommended Level: 36
-Stats: +31 primary, +4 secondary, +13 stamina.
+Stats: +31 primary, +29 secondary, +28 stamina.
 Affixes: Frostbite proc; Extra damage to constructs.
 Drops from assassination targets in Glassbloom Run; craftable via Leatherworking focus.
 Set Hook: Counts toward Veildiver 4-piece bonuses.
 
 [GEAR-028 — Blazeguard Mace 37]
 Slot: Weapon — Rarity: Legendary — Recommended Level: 37
-Stats: +32 primary, +5 secondary, +14 stamina.
+Stats: +32 primary, +30 secondary, +29 stamina.
 Affixes: Lifesteal on finisher; Extra damage to constructs.
 Drops from world quests in Morrowpine Tangle; craftable via Woodworking focus.
 Set Hook: Counts toward Frostpath 4-piece bonuses.

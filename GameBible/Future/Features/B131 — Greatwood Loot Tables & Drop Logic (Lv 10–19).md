@@ -17,6 +17,11 @@ Profession materials (resin, hides, fibers, spores)
 
 Small chances at “wow” Rares, but still Classic slow.
 
+Band updates:
+
+- Lv 10–19 loot tables now surface the rebalanced Ashen Blade 10 through Jadeveil Helm 19 stat lines in their appropriate level 10, 15, and 19 nodes to keep primary/secondary/stamina values climbing evenly within the band.
+- When a table rolls a level 26–29 prize from the shared jackpot, it tags the drop with “trail quest” context to line up with the new banded affixes (tracking, trail empowerment, and rep bonuses) before players head into the 20s.
+
 1.1 Drop Structure Per Kill (Baseline)
 
 Every kill rolls its loot pool in layers:
