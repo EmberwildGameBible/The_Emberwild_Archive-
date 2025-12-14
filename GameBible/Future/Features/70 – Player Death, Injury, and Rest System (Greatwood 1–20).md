@@ -1,3 +1,5 @@
+Links: [B152 Index](./B152 – Greatwood 1–20 Systems Index.md) | Related: [B111](./B111 – Greatwood Onboarding & Player Flow (1–20).md), [B113](./B113 – Greatwood Pockets, Landmarks & Travel (Greatwood 1–20).md), [B115](./B115 – Greatwood Contract Pack (Phase I–II, Levels 1–9).md), [B116](./B116 – Greatwood Contract Pack (Phase III–IV, Levels 10–20).md), [B151](./B151 – Greatwood Loot & Drop System (1-20).md)
+
 Alright, I’m going to hit **70 – Player Death, Injury, and Rest System (Greatwood 1–20)** next, since that’s the core “risk spine” everything else hangs on and we haven’t done it in *this* chat yet.
 
 Here’s a full drop-in:
