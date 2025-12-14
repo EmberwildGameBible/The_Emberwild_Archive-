@@ -2,68 +2,61 @@
 
 New enemies populating micro-locations with distinct abilities, resistances, and loot hooks.
 
-## [BST-001] Ash Stalker
-Level: 12 — Role: trash
-Abilities: Molten lob, Quaking stomp, Frostbite swipe; enrage at low health for territorial sweeps.
-Resist / Weakness: Resists Shadow; weak to Frost.
-Habitat: Greatwood Lodge; patrols micro-lairs tied to new quests and gathering nodes.
-Loot: Drops Amber Bark, Ashen Blade 10, and Amber Bark with elevated rates when on related contracts.
-
-## [BST-002] Briar Worg
-Level: 13 — Role: elite
-Abilities: Root snare, Frostbite swipe, Emberburst cone; enrage at low health for territorial sweeps.
-Resist / Weakness: Resists Shadow; weak to Physical.
-Habitat: Cinderfen Hot Springs; patrols micro-lairs tied to new quests and gathering nodes.
-Loot: Drops Dawn Petal, Coldwatch Mace 12, and Frost Root with elevated rates when on related contracts.
-
-## [BST-003] Cinder Eel
-Level: 14 — Role: rare
-Abilities: Piercing screech, Arcane volley, Storm lash; enrage at low health for territorial sweeps.
+## [BST-001] Ash Myriad Vent-Tender
+Level: 12 — Role: elite
+Abilities: Vent Flash (cone burn triggered by nearby vents), Molten Lob, Heat Shield (temporary damage absorb when near brazier); enrages if braziers are shattered.
 Resist / Weakness: Resists Fire; weak to Frost.
-Habitat: Glassbloom Run; patrols micro-lairs tied to new quests and gathering nodes.
-Loot: Drops Gloom Cap, Emberwake Bow 14, and Keen Fang with elevated rates when on related contracts.
+Habitat: Cinderfen Hot Springs Terraces; escorts Ember Sap Bark nodes and slag-chests.
+Loot: Drops Ember Sap Bark, Heat-Tempered Plate shards, and Steamcore Seals with elevated rates when protecting vents.
 
-## [BST-004] Dusk Warlock
+## [BST-002] Veilbound Sentinel
+Level: 13 — Role: rare
+Abilities: Prism Lattice (reflective beam traps), Cascade Chill (waterfall-infused slow), Shard Nova (area crystal burst when shattered).
+Resist / Weakness: Resists Arcane; weak to Physical.
+Habitat: Glassbloom Run Terraces; anchors prism traps near Quartzite Bloom clusters.
+Loot: Drops Quartzite Bloom, Prismatic Lens Shards, and Star-etched Glass useful for lens recipes and sighting scopes.
+
+## [BST-003] Tangle Warden
+Level: 14 — Role: elite
+Abilities: Rope Whip (pull from canopy), Sporeburst (stacking weakness cloud), Living Snare (root that drags toward ledge edges).
+Resist / Weakness: Resists Nature; weak to Fire.
+Habitat: Morrowpine Tangle Groves; prowls canopy nests and fungal choke points.
+Loot: Drops Thorn Resin, Feathered Skin, and Living Briar Grafts tuned for agility armor infusions.
+
+## [BST-004] Glowbrood Matriarch
 Level: 15 — Role: boss
-Abilities: Shield shatter, Quaking stomp, Arcane volley; enrage at low health for territorial sweeps.
+Abilities: Bioelectric Surge (charges pools), Kelp Lash (bleed that intensifies in water), Broodcall (summons eel hatchlings).
+Resist / Weakness: Resists Shock; weak to Shadow.
+Habitat: Veilreef Cavern Pools; commands brood over pearl clusters and rune tablets.
+Loot: Drops Glow Kelp filament bundles, Iridescent Carapace Fragments, and Tidewrought Rings from statue caches.
+
+## [BST-005] Orchard Worg Alpha
+Level: 16 — Role: elite
+Abilities: Meteor Scent (marks targets in crater dust), Lunar Lunge (gap closer leaving burning starlight), Pack Howl (buffs nearby worgs).
 Resist / Weakness: Resists Frost; weak to Fire.
-Habitat: Morrowpine Tangle; patrols micro-lairs tied to new quests and gathering nodes.
-Loot: Drops Jade Bulb, Galecrest Hammer 16, and Pollen Shard with elevated rates when on related contracts.
+Habitat: Starfall Orchard Shelves; patrols meteor glass craters and starfruit clusters.
+Loot: Drops Starfruit flesh, Meteorbit Fangs, and Emberfallen Slivers for enchanting sigils.
 
-## [BST-005] Ember Sentinel
-Level: 16 — Role: trash
-Abilities: Blinding dust, Shadow pounce, Emberburst cone; enrage at low health for territorial sweeps.
-Resist / Weakness: Resists Nature; weak to Frost.
-Habitat: Veilreef Caves; patrols micro-lairs tied to new quests and gathering nodes.
-Loot: Drops Morrow Feather, Ironroot Shield 18, and Umber Seed with elevated rates when on related contracts.
-
-## [BST-006] Frost Matriarch
-Level: 17 — Role: elite
-Abilities: Venom spit, Quaking stomp, Storm lash; enrage at low health for territorial sweeps.
-Resist / Weakness: Resists Nature; weak to Fire.
-Habitat: Starfall Orchard; patrols micro-lairs tied to new quests and gathering nodes.
-Loot: Drops Pollen Shard, Kindled Chestguard 20, and Zephyr Vine with elevated rates when on related contracts.
-
-## [BST-007] Gloom Broodling
-Level: 18 — Role: rare
-Abilities: Leeching bite, Earthen wall, Sonic rattles; enrage at low health for territorial sweeps.
-Resist / Weakness: Resists Physical; weak to Frost.
-Habitat: Umberdeep Quarry; patrols micro-lairs tied to new quests and gathering nodes.
-Loot: Drops Sable Ore, Moonlace Gloves 22, and Echo Flake with elevated rates when on related contracts.
-
-## [BST-008] Hearth Strider
-Level: 19 — Role: boss
-Abilities: Venom spit, Shadow pounce, Molten lob; enrage at low health for territorial sweeps.
-Resist / Weakness: Resists Nature; weak to Fire.
-Habitat: Frostborne Steppe; patrols micro-lairs tied to new quests and gathering nodes.
-Loot: Drops Verdant Pod, Oakshield Ring 24, and Juniper Carapace with elevated rates when on related contracts.
-
-## [BST-009] Iron Brute
-Level: 20 — Role: trash
-Abilities: Piercing screech, Emberburst cone, Quaking stomp; enrage at low health for territorial sweeps.
+## [BST-006] Quarry Brute
+Level: 17 — Role: rare
+Abilities: Pillar Slam (causes falling debris), Lantern Toss (creates oil slicks that can ignite), Shale Guard (temporary armor).
 Resist / Weakness: Resists Physical; weak to Nature.
-Habitat: Gloamhollow Fissure; patrols micro-lairs tied to new quests and gathering nodes.
-Loot: Drops Yarrow Resin, Quillmark Cloak 26, and Obsidian Heart with elevated rates when on related contracts.
+Habitat: Umberdeep Quarry Galleries; prowls unstable supports and cart routes.
+Loot: Drops Umber Pebbles, Resinous Oil flasks, and Umbersteel Pins harvested from smuggler satchels.
+
+## [BST-007] Rime Stalker
+Level: 18 — Role: elite
+Abilities: Frost Drag (pull toward fissures), Ice Spines (reflects melee damage), Totem Frenzy (empowered when near frozen totems).
+Resist / Weakness: Resists Frost; weak to Fire.
+Habitat: Frostborne Steppe Totems; hunts around fissures and Frostbite Thistle nodes.
+Loot: Drops Rimeglass Spurs, Totem Sigil Plates, and Frostbite Thistle bundles for cold-resistant crafts.
+
+## [BST-008] Gloam Terror
+Level: 19 — Role: rare
+Abilities: Rift Pounce (from shadow pockets), Dust Siphon (steals Sable Dust stacks), Echo Shatter (AoE stagger when bridges collapse).
+Resist / Weakness: Resists Shadow; weak to Radiant.
+Habitat: Gloamhollow Fissure Rifts; stalks glowmoss bridges and exposed Sable Dust nodes.
+Loot: Drops Sable Dust, Rift-etched Sigils, and Night-inked Scrolls that start bounty chains.
 
 ## [BST-010] Jade Watcher
 Level: 21 — Role: elite
