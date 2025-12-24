@@ -1070,9 +1070,9 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 044 — Elder Jerky {#item-044}
-Origin: Smoked by Glassfields reedwalkers guarding shardpepper caravans; surplus strips rode the ferry down to Emberford Marketwalk as night-shift rations.
-First Known Maker: Quartermaster Lysa Veil of the Emberford quay barracks.
-Rumor: Ferrymen claim it keeps river-sprite rashes away if you chew it before lanterns are doused.
+Origin: Glassfields reedwalkers smoke eldergrain in shardpepper brine, then raft bundles downriver to feed Emberford Marketwalk’s night ferries.
+First Known Maker: Quartermaster Lysa Veil of the Emberford quay barracks, who requisitioned the first Marketwalk batches.
+Rumor: Ferrymen say chewing a strip before lanterns dim keeps river-sprite rashes away.
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Fishing Items A–Z](./Professions/Fishing_Items_A-Z.md) | [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Issue_1_Spring.md#dockside-ledger--elder-jerky-cuts)
 
 [044 — Elder Jerky]
@@ -1085,14 +1085,14 @@ Uses: Upgrading profession tools
 Drop Sources: Found in Glassfields from raiders.
 File: item_elder_jerky.png
 Origin:
-- Smokehouses along the Glassfields salt runs used shardpepper brine so the jerky would survive floodlight patrols to Emberford.
-- Marketwalk ferries adopted the strips as a night ration that kept deckhands alert when Silent Bell pilgrims crowded the quay.
+- Smokehouses along the Glassfields salt runs brine the strips so they survive floodlight patrols and shrine tithe inspections en route to Emberford.
+- Marketwalk ferries adopted the jerky as a night ration that kept deckhands awake while Silent Bell pilgrims clogged the quay.
 Cultural Tie:
-- Glassfields caravanners stamp clan dyes on each bundle, turning it into a de facto travel chit for crews running through Marketwalk checkpoints.
-- Emberford kiln crews tip night ferrymen with the peppered ends, believing it keeps kiln soot from settling in their lungs.
+- Glassfields caravanners stamp clan dyes on each bundle, treating it like a travel chit when they queue through Marketwalk checkpoints.
+- Emberford kiln crews tip night ferrymen with peppered ends, believing it keeps kiln soot from settling in their lungs.
 Gameplay Hook:
-- Turning in bundles to Marketwalk quartermasters discounts fishing tool upgrades and speeds durability repairs.
-- Combining it with [Bramble Oil](#item-019) or other riverborne ingredients boosts stamina for long gathers, making it a staple in pre-run prep.
+- Turning in bundles to Marketwalk quartermasters unlocks fishing tool discounts and faster durability repairs.
+- Combining it with [Bramble Oil](#item-019) or other riverborne ingredients boosts stamina for long gathers, making it staple pre-run prep for ferry escorts.
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Fishing Items A–Z](./Professions/Fishing_Items_A-Z.md) | [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Issue_1_Spring.md#dockside-ledger--elder-jerky-cuts)
 
 ### 045 — Ever Lantern {#item-045}

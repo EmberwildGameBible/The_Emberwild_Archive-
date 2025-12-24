@@ -28,9 +28,9 @@ Archivist Torlen insists the [Band of the Blue Stream](../../08_Items/Items_Mast
 Night ferries ride with lowered lamps, hooded by the [Ferryfire Lantern Hood](../../02_Regions/Emberford_Marketwalk/Quest_Hub.md#artifacts-circulating-through-the-hub) to avoid attracting sprite swarms. Passengers swear the hood flickers toward anyone wearing a [Dawnstar Talisman](../../08_Items/Items_Master_List%20-%20GLOBAL%20A-Z.md#item-008). If you board with one, expect whispered questions about the [Quest Hub](../../02_Regions/Emberford_Marketwalk/Quest_Hub.md) and whether the Silent Bell will ever ring.
 
 ### Dockside Ledger — Elder Jerky Cuts {#dockside-ledger--elder-jerky-cuts}
-- Quartermaster Lysa Veil logged three bundles of [Elder Jerky](../../08_Items/Items_Master_List%20-%20GLOBAL%20A-Z.md#item-044) stamped by Glassfields reedwalkers; earmarked for night ferries only.
-- Mayor Halda Brine wants the peppered ends reserved for kiln crew escorts running the [Quest Hub](../../02_Regions/Emberford_Marketwalk/Quest_Hub.md) patrol loop.
-- Deckhand Ril claims chewing a strip keeps the Silent Bell’s chill off; he’ll swap shardpepper flakes for any spare bundle.
-- Pilgrims bound for the riverside shrine pay double if the jerky was cured near the reedwalkers’ salt pools.
-- Ledger note: bundles dipped in [Bramble Oil](../../08_Items/Items_Master_List%20-%20GLOBAL%20A-Z.md#item-019) fetch better prices from river smugglers but grease the page margins.
+- Quartermaster Lysa Veil logged three [Elder Jerky](../../08_Items/Items_Master_List%20-%20GLOBAL%20A-Z.md#item-044) bundles stamped by Glassfields reedwalkers; night ferries only.
+- Mayor Halda Brine tags the peppered ends for kiln crew escorts running the [Quest Hub](../../02_Regions/Emberford_Marketwalk/Quest_Hub.md) patrol loop.
+- Deckhand Ril chews a strip to keep the Silent Bell’s chill off; he’ll swap shardpepper flakes for any spare bundle.
+- Pilgrims bound for the riverside shrine pay double if the jerky cured near reedwalker salt pools.
+- Ledger note: bundles dipped in [Bramble Oil](../../08_Items/Items_Master_List%20-%20GLOBAL%20A-Z.md#item-019) fetch better prices from river smugglers but smear the margins.
 - Leave a strip at the dock bell before midnight; rumor says the ferries dock smoother when the offering smokes.
