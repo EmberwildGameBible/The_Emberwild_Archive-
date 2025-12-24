@@ -19,6 +19,10 @@ Central navigation for the Emberwild Archive. Use this hub to reach category ind
 ## Maintenance Logs
 - [Move & Rename Log](./MOVED_RENAMED_LOG.md)
 - [Broken Links Audit](./BROKEN_LINKS.md)
+
+## Codex Skills
+- [Repo Cleanup Skill](../.codex/skills/repo-cleanup/SKILL.md)
+- [Skill Library](../.codex/skills)
 # Master Navigation
 
 ## Summary
