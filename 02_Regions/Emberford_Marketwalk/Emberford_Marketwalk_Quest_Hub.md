@@ -1,4 +1,4 @@
-# Emberford Marketwalk Quest Hub — $quest-hub-stitcher
+# Emberford Marketwalk Quest Hub
 
 A river-town hub built around ferry ramps, kiln smoke, and the clamor of open-air stalls. Questlines weave merchants, ferrymen, and ember-kiln crews with relic hunters who follow whispers from the rumor sheets.
 
