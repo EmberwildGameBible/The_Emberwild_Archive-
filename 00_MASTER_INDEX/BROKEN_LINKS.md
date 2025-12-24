@@ -1,7 +1,5 @@
 # Broken Links Audit
 
-Scan date: 2024-05-09.
+Scan date: 2024-06-05.
 
-No broken Markdown links detected in the Meta Lore rename set. Existing indexes in `10_Documentation/Indexes` list the retitled chapters as plain text; no path updates were required.
-
-Planned follow-up: run a repo-wide link crawler to validate older Writings and GameBible references once filename normalization continues.
+Current status: no broken Markdown links detected after the Gazette, Quest Hub, and Quest Framework renames. All references were updated in linked indexes and source files.

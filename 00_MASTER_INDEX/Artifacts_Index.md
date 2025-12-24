@@ -10,7 +10,7 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 
 | Artifact | Locale | Lead & Status |
 | --- | --- | --- |
-| [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Issue_1_Spring.md) | Emberford Marketwalk | Ferry schedules, kiln soot sigils, and Silent Bell tensions. Published. |
+| [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md) | Emberford Marketwalk | Ferry schedules, kiln soot sigils, and Silent Bell tensions. Published. |
 | [Rumor Web — Items 001–200](../09_Artifacts/Rumors/rumors_items_001_200.md) | Emberford Marketwalk | Thirty overheard item rumors tied to quay smuggling and shrine lore. Published. |
 
 ## Hooks

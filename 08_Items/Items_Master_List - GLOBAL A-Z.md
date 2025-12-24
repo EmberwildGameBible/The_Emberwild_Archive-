@@ -17,7 +17,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tank block and fire resist anchor for dungeons, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 002 — Ashen Pike {#item-002}
 Category: Gear – Polearm
@@ -36,7 +36,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing leveling tanks and polearm specialists, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 003 — Band of the Blue Stream {#item-003}
 Category: Gear – Ring
@@ -55,7 +55,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing mana regen for casters and healers, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 004 — Barley Snack Pack {#item-004}
 Category: Ingredient – Grain
@@ -74,7 +74,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cheap stamina snack to cut downtime, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 005 — Briarshot Cartridges {#item-005}
 Category: Gear – Ammo
@@ -93,7 +93,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing bonus bleed chance on critical hits, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 006 — Cinderbrew Flask {#item-006}
 Category: Alchemy – Tonic
@@ -112,7 +112,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing short firepower burst with long cooldown, especially when you lean into the alchemy bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 007 — Coldforged Shortsword {#item-007}
 Category: Gear – 1H Sword
@@ -131,7 +131,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing +parry for leveling tanks and duelists, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 008 — Dawnstar Talisman {#item-008}
 Origin: First carried in Frost caverns when gear – 1h sword trials pushed deeper into the wilds.
@@ -157,7 +157,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing on-use heal amplification sharing trinket cooldowns, especially when you lean into the trinket bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 009 — Deepwatch Pauldrons {#item-009}
 Origin: First carried in Sunspire summit when trinket trials pushed deeper into the wilds.
@@ -183,7 +183,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing threat on-hit and small armor aura, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 010 — Emberglass Wand {#item-010}
 Origin: First carried in Deepwatch when gear – plate shoulders trials pushed deeper into the wilds.
@@ -209,7 +209,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fire damage with scorch debuff maintenance, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 011 — Amberwild Gland {#item-011}
 Origin: First carried in Glassfields when gear – wand trials pushed deeper into the wilds.
@@ -235,7 +235,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 012 — Ashen Ink {#item-012}
 Origin: First carried in Feral Fens when material – essence trials pushed deeper into the wilds.
@@ -261,7 +261,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 013 — Ancient Knot {#item-013}
 Origin: First carried in Whispering Steppes when gear – armor trials pushed deeper into the wilds.
@@ -287,7 +287,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 014 — Amberwild Map {#item-014}
 Origin: First carried in Sunspire when gear – off-hand trials pushed deeper into the wilds.
@@ -313,7 +313,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 015 — Ashen Oil {#item-015}
 Origin: First carried in Shiverstone Coast when curio trials pushed deeper into the wilds.
@@ -339,7 +339,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 016 — Ancient Quiver {#item-016}
 Origin: First carried in Shiverstone Coast when profession tool trials pushed deeper into the wilds.
@@ -365,7 +365,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 017 — Amberwild Saddle {#item-017}
 Origin: First carried in Moonwake Marsh when ingredient – meat trials pushed deeper into the wilds.
@@ -391,7 +391,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 018 — Ashen Urn {#item-018}
 Origin: First carried in Sunspire when ingredient – fungus trials pushed deeper into the wilds.
@@ -417,7 +417,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 019 — Bramble Oil {#item-019}
 Origin: First carried in Emberford when ingredient – grain trials pushed deeper into the wilds.
@@ -443,7 +443,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 020 — Bronzed Quiver {#item-020}
 Origin: First carried in Glassfields when profession tool trials pushed deeper into the wilds.
@@ -469,7 +469,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 021 — Brood Saddle {#item-021}
 Origin: First carried in Deepwatch when ingredient – meat trials pushed deeper into the wilds.
@@ -495,7 +495,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 022 — Bramble Urn {#item-022}
 Origin: First carried in Cinder Kilns when ingredient – fungus trials pushed deeper into the wilds.
@@ -521,7 +521,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 023 — Bronzed Ward {#item-023}
 Origin: First carried in Stoneweald when ingredient – grain trials pushed deeper into the wilds.
@@ -547,7 +547,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 024 — Brood Yarn {#item-024}
 Origin: First carried in Riverlight Delta when material – wood trials pushed deeper into the wilds.
@@ -573,7 +573,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 025 — Bramble Apple {#item-025}
 Origin: First carried in Riverlight Delta when material – leather trials pushed deeper into the wilds.
@@ -599,7 +599,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 026 — Bronzed Blade {#item-026}
 Origin: First carried in Emberford when material – essence trials pushed deeper into the wilds.
@@ -625,7 +625,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 027 — Cinder Ward {#item-027}
 Origin: First carried in Stoneweald when gear – armor trials pushed deeper into the wilds.
@@ -651,7 +651,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 028 — Crystal Yarn {#item-028}
 Origin: First carried in Moonwake Marsh when material – wood trials pushed deeper into the wilds.
@@ -677,7 +677,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 029 — Crestfallen Apple {#item-029}
 Origin: First carried in Bramblefold when material – leather trials pushed deeper into the wilds.
@@ -703,7 +703,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 030 — Cinder Blade {#item-030}
 Origin: First carried in Moonwake Marsh when material – essence trials pushed deeper into the wilds.
@@ -729,7 +729,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 031 — Crystal Charm {#item-031}
 Origin: First carried in Cinder Kilns when gear – armor trials pushed deeper into the wilds.
@@ -755,7 +755,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 032 — Crestfallen Cowl {#item-032}
 Origin: First carried in Deepwatch when gear – off-hand trials pushed deeper into the wilds.
@@ -781,7 +781,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 033 — Cinder Elixir {#item-033}
 Origin: First carried in Frost Caverns when curio trials pushed deeper into the wilds.
@@ -807,7 +807,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 034 — Crystal Gauntlet {#item-034}
 Origin: First carried in Glassfields when profession tool trials pushed deeper into the wilds.
@@ -833,7 +833,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 035 — Duskborn Charm {#item-035}
 Origin: First carried in Deepwatch when ingredient – meat trials pushed deeper into the wilds.
@@ -859,7 +859,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 036 — Dawnlit Cowl {#item-036}
 Origin: First carried in Greatwood when gear – off-hand trials pushed deeper into the wilds.
@@ -885,7 +885,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 037 — Drift Elixir {#item-037}
 Origin: First carried in Riverlight Delta when curio trials pushed deeper into the wilds.
@@ -911,7 +911,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 038 — Duskborn Gauntlet {#item-038}
 Origin: First carried in Whispering Steppes when profession tool trials pushed deeper into the wilds.
@@ -937,7 +937,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 039 — Dawnlit Harpoon {#item-039}
 Origin: First carried in Glassfields when ingredient – meat trials pushed deeper into the wilds.
@@ -963,7 +963,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 040 — Drift Jerky {#item-040}
 Origin: First carried in Deepwatch when ingredient – fungus trials pushed deeper into the wilds.
@@ -989,7 +989,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 041 — Duskborn Lantern {#item-041}
 Origin: First carried in Stoneweald when ingredient – grain trials pushed deeper into the wilds.
@@ -1015,7 +1015,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 042 — Dawnlit Needle {#item-042}
 Origin: First carried in Glassfields when material – wood trials pushed deeper into the wilds.
@@ -1041,7 +1041,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 043 — Ember Harpoon {#item-043}
 Origin: First carried in Frost Caverns when material – leather trials pushed deeper into the wilds.
@@ -1067,7 +1067,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 044 — Elder Jerky {#item-044}
 Origin: First carried in Feral Fens when ingredient – fungus trials pushed deeper into the wilds.
@@ -1093,7 +1093,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 045 — Ever Lantern {#item-045}
 Origin: First carried in Glassfields when ingredient – grain trials pushed deeper into the wilds.
@@ -1119,7 +1119,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 046 — Ember Needle {#item-046}
 Origin: First carried in Moonwake Marsh when material – wood trials pushed deeper into the wilds.
@@ -1145,7 +1145,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 047 — Elder Parchment {#item-047}
 Origin: First carried in Stoneweald when material – leather trials pushed deeper into the wilds.
@@ -1171,7 +1171,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 048 — Ever Ration {#item-048}
 Origin: First carried in Ashen Plains when material – essence trials pushed deeper into the wilds.
@@ -1197,7 +1197,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 049 — Ember Talisman {#item-049}
 Origin: First carried in Feral Fens when gear – armor trials pushed deeper into the wilds.
@@ -1223,7 +1223,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 050 — Elder Vial {#item-050}
 Origin: First carried in Stoneweald when gear – off-hand trials pushed deeper into the wilds.
@@ -1249,7 +1249,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 051 — Frostfell Parchment {#item-051}
 Origin: First carried in Stoneweald when curio trials pushed deeper into the wilds.
@@ -1275,7 +1275,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 052 — Feral Ration {#item-052}
 Origin: First carried in Riverlight Delta when material – essence trials pushed deeper into the wilds.
@@ -1301,7 +1301,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 053 — Farscout Talisman {#item-053}
 Origin: First carried in Frost Caverns when gear – armor trials pushed deeper into the wilds.
@@ -1327,7 +1327,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 054 — Frostfell Vial {#item-054}
 Origin: First carried in Shiverstone Coast when gear – off-hand trials pushed deeper into the wilds.
@@ -1353,7 +1353,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 055 — Feral Xylo-shard {#item-055}
 Origin: First carried in Riverlight Delta when curio trials pushed deeper into the wilds.
@@ -1379,7 +1379,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 056 — Farscout Zest {#item-056}
 Origin: First carried in Greatwood when profession tool trials pushed deeper into the wilds.
@@ -1405,7 +1405,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 057 — Frostfell Arrow {#item-057}
 Origin: First carried in Riverlight Delta when ingredient – meat trials pushed deeper into the wilds.
@@ -1431,7 +1431,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 058 — Feral Brew {#item-058}
 Origin: First carried in Shiverstone Coast when ingredient – fungus trials pushed deeper into the wilds.
@@ -1457,7 +1457,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 059 — Glimmer Xylo-shard {#item-059}
 Origin: First carried in Bramblefold when ingredient – grain trials pushed deeper into the wilds.
@@ -1483,7 +1483,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 060 — Gravetide Zest {#item-060}
 Origin: First carried in Stoneweald when profession tool trials pushed deeper into the wilds.
@@ -1509,7 +1509,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 061 — Greatwood Arrow {#item-061}
 Origin: First carried in Riverlight Delta when ingredient – meat trials pushed deeper into the wilds.
@@ -1535,7 +1535,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 062 — Glimmer Brew {#item-062}
 Origin: First carried in Stoneweald when ingredient – fungus trials pushed deeper into the wilds.
@@ -1561,7 +1561,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 063 — Gravetide Chisel {#item-063}
 Origin: First carried in Sunspire when ingredient – grain trials pushed deeper into the wilds.
@@ -1587,7 +1587,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 064 — Greatwood Driftleaf {#item-064}
 Origin: First carried in Deepwatch when material – wood trials pushed deeper into the wilds.
@@ -1613,7 +1613,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 065 — Glimmer Feather {#item-065}
 Origin: First carried in Glassfields when material – leather trials pushed deeper into the wilds.
@@ -1639,7 +1639,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 066 — Gravetide Gland {#item-066}
 Origin: First carried in Bramblefold when material – essence trials pushed deeper into the wilds.
@@ -1665,7 +1665,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 067 — Hearth Chisel {#item-067}
 Origin: First carried in Bramblefold when gear – armor trials pushed deeper into the wilds.
@@ -1691,7 +1691,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 068 — Hazel Driftleaf {#item-068}
 Origin: First carried in Ashen Plains when material – wood trials pushed deeper into the wilds.
@@ -1717,7 +1717,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 069 — Hollow Feather {#item-069}
 Origin: First carried in Deepwatch when material – leather trials pushed deeper into the wilds.
@@ -1743,7 +1743,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 070 — Hearth Gland {#item-070}
 Origin: First carried in Bramblefold when material – essence trials pushed deeper into the wilds.
@@ -1769,7 +1769,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 071 — Hazel Ink {#item-071}
 Origin: First carried in Sunspire when gear – armor trials pushed deeper into the wilds.
@@ -1795,7 +1795,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 072 — Hollow Knot {#item-072}
 Origin: First carried in Whispering Steppes when gear – off-hand trials pushed deeper into the wilds.
@@ -1821,7 +1821,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 073 — Hearth Map {#item-073}
 Origin: First carried in Sunspire when curio trials pushed deeper into the wilds.
@@ -1847,7 +1847,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 074 — Hazel Oil {#item-074}
 Origin: First carried in Whispering Steppes when profession tool trials pushed deeper into the wilds.
@@ -1873,7 +1873,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 075 — Ironroot Ink {#item-075}
 Origin: First carried in Ashen Plains when ingredient – meat trials pushed deeper into the wilds.
@@ -1899,7 +1899,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 076 — Ivory Knot {#item-076}
 Origin: First carried in Riverlight Delta when gear – off-hand trials pushed deeper into the wilds.
@@ -1925,7 +1925,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 077 — Idle Map {#item-077}
 Origin: First carried in Deepwatch when curio trials pushed deeper into the wilds.
@@ -1951,7 +1951,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 078 — Ironroot Oil {#item-078}
 Origin: First carried in Bramblefold when profession tool trials pushed deeper into the wilds.
@@ -1977,7 +1977,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 079 — Ivory Quiver {#item-079}
 Origin: First carried in Glassfields when ingredient – meat trials pushed deeper into the wilds.
@@ -2003,7 +2003,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 080 — Idle Saddle {#item-080}
 Origin: First carried in Bramblefold when ingredient – fungus trials pushed deeper into the wilds.
@@ -2029,7 +2029,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 081 — Ironroot Urn {#item-081}
 Origin: First carried in Ashen Plains when ingredient – grain trials pushed deeper into the wilds.
@@ -2055,7 +2055,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 082 — Ivory Ward {#item-082}
 Origin: First carried in Stoneweald when material – wood trials pushed deeper into the wilds.
@@ -2081,7 +2081,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 083 — Juniper Quiver {#item-083}
 Origin: First carried in Moonwake Marsh when material – leather trials pushed deeper into the wilds.
@@ -2107,7 +2107,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 084 — Jetstone Saddle {#item-084}
 Origin: First carried in Moonwake Marsh when ingredient – fungus trials pushed deeper into the wilds.
@@ -2133,7 +2133,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 085 — Jade Urn {#item-085}
 Origin: First carried in Deepwatch when ingredient – grain trials pushed deeper into the wilds.
@@ -2159,7 +2159,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 086 — Juniper Ward {#item-086}
 Origin: First carried in Riverlight Delta when material – wood trials pushed deeper into the wilds.
@@ -2185,7 +2185,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 087 — Jetstone Yarn {#item-087}
 Origin: First carried in Cinder Kilns when material – leather trials pushed deeper into the wilds.
@@ -2211,7 +2211,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 088 — Jade Apple {#item-088}
 Origin: First carried in Cinder Kilns when material – essence trials pushed deeper into the wilds.
@@ -2237,7 +2237,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 089 — Juniper Blade {#item-089}
 Origin: First carried in Feral Fens when gear – armor trials pushed deeper into the wilds.
@@ -2263,7 +2263,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 090 — Jetstone Charm {#item-090}
 Origin: First carried in Ashen Plains when gear – off-hand trials pushed deeper into the wilds.
@@ -2289,7 +2289,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 091 — Kindled Yarn {#item-091}
 Origin: First carried in Sunspire when curio trials pushed deeper into the wilds.
@@ -2315,7 +2315,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 092 — Knotwood Apple {#item-092}
 Origin: First carried in Emberford when material – essence trials pushed deeper into the wilds.
@@ -2341,7 +2341,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 093 — Kestrel Blade {#item-093}
 Origin: First carried in Glassfields when gear – armor trials pushed deeper into the wilds.
@@ -2367,7 +2367,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 094 — Kindled Charm {#item-094}
 Origin: First carried in Deepwatch when gear – off-hand trials pushed deeper into the wilds.
@@ -2393,7 +2393,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 095 — Knotwood Cowl {#item-095}
 Origin: First carried in Ashen Plains when curio trials pushed deeper into the wilds.
@@ -2419,7 +2419,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 096 — Kestrel Elixir {#item-096}
 Origin: First carried in Greatwood when profession tool trials pushed deeper into the wilds.
@@ -2445,7 +2445,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 097 — Kindled Gauntlet {#item-097}
 Origin: First carried in Ashen Plains when ingredient – meat trials pushed deeper into the wilds.
@@ -2471,7 +2471,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 098 — Knotwood Harpoon {#item-098}
 Origin: First carried in Emberford when ingredient – fungus trials pushed deeper into the wilds.
@@ -2497,7 +2497,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 099 — Lantern Cowl {#item-099}
 Origin: First carried in Moonwake Marsh when ingredient – grain trials pushed deeper into the wilds.
@@ -2523,7 +2523,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 100 — Luminous Elixir {#item-100}
 Origin: First carried in Frost Caverns when profession tool trials pushed deeper into the wilds.
@@ -2549,7 +2549,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 101 — Lupine Gauntlet {#item-101}
 Origin: First carried in Stoneweald when ingredient – meat trials pushed deeper into the wilds.
@@ -2575,7 +2575,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 102 — Lantern Harpoon {#item-102}
 Origin: First carried in Glassfields when ingredient – fungus trials pushed deeper into the wilds.
@@ -2601,7 +2601,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 103 — Luminous Jerky {#item-103}
 Origin: First carried in Emberford when ingredient – grain trials pushed deeper into the wilds.
@@ -2627,7 +2627,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 104 — Lupine Lantern {#item-104}
 Origin: First carried in Shiverstone Coast when material – wood trials pushed deeper into the wilds.
@@ -2653,7 +2653,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 105 — Lantern Needle {#item-105}
 Origin: First carried in Moonwake Marsh when material – leather trials pushed deeper into the wilds.
@@ -2679,7 +2679,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 106 — Luminous Parchment {#item-106}
 Origin: First carried in Deepwatch when material – essence trials pushed deeper into the wilds.
@@ -2705,7 +2705,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 107 — Moonset Jerky {#item-107}
 Origin: First carried in Emberford when gear – armor trials pushed deeper into the wilds.
@@ -2731,7 +2731,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 108 — Mire Lantern {#item-108}
 Origin: First carried in Deepwatch when material – wood trials pushed deeper into the wilds.
@@ -2757,7 +2757,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 109 — Mosslit Needle {#item-109}
 Origin: First carried in Whispering Steppes when material – leather trials pushed deeper into the wilds.
@@ -2783,7 +2783,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 110 — Moonset Parchment {#item-110}
 Origin: First carried in Cinder Kilns when material – essence trials pushed deeper into the wilds.
@@ -2809,7 +2809,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 111 — Mire Ration {#item-111}
 Origin: First carried in Bramblefold when gear – armor trials pushed deeper into the wilds.
@@ -2835,7 +2835,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 112 — Mosslit Talisman {#item-112}
 Origin: First carried in Riverlight Delta when gear – off-hand trials pushed deeper into the wilds.
@@ -2861,7 +2861,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 113 — Moonset Vial {#item-113}
 Origin: First carried in Emberford when curio trials pushed deeper into the wilds.
@@ -2887,7 +2887,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 114 — Mire Xylo-shard {#item-114}
 Origin: First carried in Sunspire when profession tool trials pushed deeper into the wilds.
@@ -2913,7 +2913,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 115 — Nightvine Ration {#item-115}
 Origin: First carried in Whispering Steppes when ingredient – meat trials pushed deeper into the wilds.
@@ -2939,7 +2939,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 116 — Northwind Talisman {#item-116}
 Origin: First carried in Moonwake Marsh when gear – off-hand trials pushed deeper into the wilds.
@@ -2965,7 +2965,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 117 — Nettle Vial {#item-117}
 Origin: First carried in Shiverstone Coast when curio trials pushed deeper into the wilds.
@@ -2991,7 +2991,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 118 — Nightvine Xylo-shard {#item-118}
 Origin: First carried in Bramblefold when profession tool trials pushed deeper into the wilds.
@@ -3017,7 +3017,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 119 — Northwind Zest {#item-119}
 Origin: First carried in Sunspire when ingredient – meat trials pushed deeper into the wilds.
@@ -3043,7 +3043,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 120 — Nettle Arrow {#item-120}
 Origin: First carried in Sunspire when ingredient – fungus trials pushed deeper into the wilds.
@@ -3069,7 +3069,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 121 — Nightvine Brew {#item-121}
 Origin: First carried in Stoneweald when ingredient – grain trials pushed deeper into the wilds.
@@ -3095,7 +3095,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 122 — Northwind Chisel {#item-122}
 Category: Material – Leather
@@ -3114,7 +3114,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 123 — Oathbound Zest {#item-123}
 Category: Ingredient – Fungus
@@ -3133,7 +3133,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 124 — Opal Arrow {#item-124}
 Category: Ingredient – Grain
@@ -3152,7 +3152,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 125 — Oakheart Brew {#item-125}
 Category: Material – Wood
@@ -3171,7 +3171,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 126 — Oathbound Chisel {#item-126}
 Category: Material – Leather
@@ -3190,7 +3190,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 127 — Opal Driftleaf {#item-127}
 Category: Material – Essence
@@ -3209,7 +3209,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 128 — Oakheart Feather {#item-128}
 Category: Gear – Armor
@@ -3228,7 +3228,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 129 — Oathbound Gland {#item-129}
 Category: Gear – Off-hand
@@ -3247,7 +3247,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 130 — Opal Ink {#item-130}
 Category: Curio
@@ -3266,7 +3266,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 131 — Pinecrest Driftleaf {#item-131}
 Category: Material – Essence
@@ -3285,7 +3285,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 132 — Pyre Feather {#item-132}
 Category: Gear – Armor
@@ -3304,7 +3304,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 133 — Peridot Gland {#item-133}
 Category: Gear – Off-hand
@@ -3323,7 +3323,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 134 — Pinecrest Ink {#item-134}
 Category: Curio
@@ -3342,7 +3342,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 135 — Pyre Knot {#item-135}
 Category: Profession Tool
@@ -3361,7 +3361,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 136 — Peridot Map {#item-136}
 Category: Ingredient – Meat
@@ -3380,7 +3380,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 137 — Pinecrest Oil {#item-137}
 Category: Ingredient – Fungus
@@ -3399,7 +3399,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 138 — Pyre Quiver {#item-138}
 Category: Ingredient – Grain
@@ -3418,7 +3418,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 139 — Quill Knot {#item-139}
 Category: Profession Tool
@@ -3437,7 +3437,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 140 — Quartz Map {#item-140}
 Category: Ingredient – Meat
@@ -3456,7 +3456,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 141 — Quickmire Oil {#item-141}
 Category: Ingredient – Fungus
@@ -3475,7 +3475,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 142 — Quill Quiver {#item-142}
 Category: Ingredient – Grain
@@ -3494,7 +3494,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 143 — Quartz Saddle {#item-143}
 Category: Material – Wood
@@ -3513,7 +3513,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 144 — Quickmire Urn {#item-144}
 Category: Material – Leather
@@ -3532,7 +3532,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 145 — Quill Ward {#item-145}
 Category: Material – Essence
@@ -3551,7 +3551,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 146 — Quartz Yarn {#item-146}
 Category: Gear – Armor
@@ -3570,7 +3570,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 147 — Ravenholt Saddle {#item-147}
 Category: Material – Wood
@@ -3589,7 +3589,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 148 — Runed Urn {#item-148}
 Category: Material – Leather
@@ -3608,7 +3608,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 149 — Rosewood Ward {#item-149}
 Category: Material – Essence
@@ -3627,7 +3627,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 150 — Ravenholt Yarn {#item-150}
 Category: Gear – Armor
@@ -3646,7 +3646,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 151 — Runed Apple {#item-151}
 Category: Gear – Off-hand
@@ -3665,7 +3665,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 152 — Rosewood Blade {#item-152}
 Category: Curio
@@ -3684,7 +3684,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 153 — Ravenholt Charm {#item-153}
 Category: Profession Tool
@@ -3703,7 +3703,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 154 — Runed Cowl {#item-154}
 Category: Ingredient – Meat
@@ -3722,7 +3722,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 155 — Sable Apple {#item-155}
 Category: Gear – Off-hand
@@ -3741,7 +3741,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 156 — Stormweld Blade {#item-156}
 Category: Curio
@@ -3760,7 +3760,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 157 — Starling Charm {#item-157}
 Category: Profession Tool
@@ -3779,7 +3779,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 158 — Sable Cowl {#item-158}
 Category: Ingredient – Meat
@@ -3798,7 +3798,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 159 — Stormweld Elixir {#item-159}
 Category: Ingredient – Fungus
@@ -3817,7 +3817,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 160 — Starling Gauntlet {#item-160}
 Category: Ingredient – Grain
@@ -3836,7 +3836,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 161 — Sable Harpoon {#item-161}
 Category: Material – Wood
@@ -3855,7 +3855,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 162 — Stormweld Jerky {#item-162}
 Category: Material – Leather
@@ -3874,7 +3874,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 163 — Thornlit Elixir {#item-163}
 Category: Ingredient – Fungus
@@ -3893,7 +3893,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 164 — Tideborn Gauntlet {#item-164}
 Category: Ingredient – Grain
@@ -3912,7 +3912,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 165 — Tallow Harpoon {#item-165}
 Category: Material – Wood
@@ -3931,7 +3931,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 166 — Thornlit Jerky {#item-166}
 Category: Material – Leather
@@ -3950,7 +3950,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 167 — Tideborn Lantern {#item-167}
 Category: Material – Essence
@@ -3969,7 +3969,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 168 — Tallow Needle {#item-168}
 Category: Gear – Armor
@@ -3988,7 +3988,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 169 — Thornlit Parchment {#item-169}
 Category: Gear – Off-hand
@@ -4007,7 +4007,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 170 — Tideborn Ration {#item-170}
 Category: Curio
@@ -4026,7 +4026,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 171 — Umbral Lantern {#item-171}
 Category: Material – Essence
@@ -4045,7 +4045,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 172 — Underbough Needle {#item-172}
 Category: Gear – Armor
@@ -4064,7 +4064,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 173 — Umber Parchment {#item-173}
 Category: Gear – Off-hand
@@ -4083,7 +4083,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 174 — Umbral Ration {#item-174}
 Category: Curio
@@ -4102,7 +4102,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 175 — Underbough Talisman {#item-175}
 Category: Profession Tool
@@ -4121,7 +4121,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 176 — Umber Vial {#item-176}
 Category: Ingredient – Meat
@@ -4140,7 +4140,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 177 — Umbral Xylo-shard {#item-177}
 Category: Ingredient – Fungus
@@ -4159,7 +4159,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 178 — Underbough Zest {#item-178}
 Category: Ingredient – Grain
@@ -4178,7 +4178,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 179 — Verdant Talisman {#item-179}
 Category: Profession Tool
@@ -4197,7 +4197,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 180 — Vigil Vial {#item-180}
 Category: Ingredient – Meat
@@ -4216,7 +4216,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 181 — Vinebound Xylo-shard {#item-181}
 Category: Ingredient – Fungus
@@ -4235,7 +4235,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 182 — Verdant Zest {#item-182}
 Category: Ingredient – Grain
@@ -4254,7 +4254,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 183 — Vigil Arrow {#item-183}
 Category: Material – Wood
@@ -4273,7 +4273,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 184 — Vinebound Brew {#item-184}
 Category: Material – Leather
@@ -4292,7 +4292,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 185 — Verdant Chisel {#item-185}
 Category: Material – Essence
@@ -4311,7 +4311,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 186 — Vigil Driftleaf {#item-186}
 Category: Gear – Armor
@@ -4330,7 +4330,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 187 — Whisper Arrow {#item-187}
 Category: Material – Wood
@@ -4349,7 +4349,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 188 — Wildgrove Brew {#item-188}
 Category: Material – Leather
@@ -4368,7 +4368,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 189 — Wraith Chisel {#item-189}
 Category: Material – Essence
@@ -4387,7 +4387,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 190 — Whisper Driftleaf {#item-190}
 Category: Gear – Armor
@@ -4406,7 +4406,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 191 — Wildgrove Feather {#item-191}
 Category: Gear – Off-hand
@@ -4425,7 +4425,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 192 — Wraith Gland {#item-192}
 Category: Curio
@@ -4444,7 +4444,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 193 — Whisper Ink {#item-193}
 Category: Profession Tool
@@ -4463,7 +4463,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 194 — Wildgrove Knot {#item-194}
 Category: Ingredient – Meat
@@ -4482,7 +4482,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 195 — Xyra Feather {#item-195}
 Category: Gear – Off-hand
@@ -4501,7 +4501,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 196 — Xenith Gland {#item-196}
 Category: Curio
@@ -4520,7 +4520,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 197 — Xale Ink {#item-197}
 Category: Profession Tool
@@ -4539,7 +4539,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting advanced alchemy tonics, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 198 — Xyra Knot {#item-198}
 Category: Ingredient – Meat
@@ -4558,7 +4558,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 199 — Xenith Map {#item-199}
 Category: Ingredient – Fungus
@@ -4577,7 +4577,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turning in for faction reputation, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 200 — Xale Oil {#item-200}
 Category: Ingredient – Grain
@@ -4596,7 +4596,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 201 — Xyra Quiver {#item-201}
 Category: Material – Wood
@@ -4615,7 +4615,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 202 — Xenith Saddle {#item-202}
 Category: Material – Leather
@@ -4634,7 +4634,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 203 — Yewbarrow Map {#item-203}
 Category: Ingredient – Fungus
@@ -4653,7 +4653,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 204 — Yarrow Oil {#item-204}
 Category: Ingredient – Grain
@@ -4672,7 +4672,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 205 — Yellowroot Quiver {#item-205}
 Category: Material – Wood
@@ -4691,7 +4691,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 206 — Yewbarrow Saddle {#item-206}
 Category: Material – Leather
@@ -4710,7 +4710,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 207 — Yarrow Urn {#item-207}
 Category: Material – Essence
@@ -4729,7 +4729,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 208 — Yellowroot Ward {#item-208}
 Category: Gear – Armor
@@ -4748,7 +4748,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking buff meals and rations, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 209 — Yewbarrow Yarn {#item-209}
 Category: Gear – Off-hand
@@ -4767,7 +4767,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing enchanting catalysts for late-game crafts, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 210 — Yarrow Apple {#item-210}
 Category: Curio
@@ -4786,7 +4786,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 211 — Zephyr Urn {#item-211}
 Category: Material – Essence
@@ -4805,7 +4805,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 212 — Zincroot Ward {#item-212}
 Category: Gear – Armor
@@ -4824,7 +4824,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 213 — Zale Yarn {#item-213}
 Category: Gear – Off-hand
@@ -4843,7 +4843,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing completing regional quests, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 214 — Zephyr Apple {#item-214}
 Category: Curio
@@ -4862,7 +4862,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing forging mid-tier weapons, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 215 — Zincroot Blade {#item-215}
 Category: Profession Tool
@@ -4881,7 +4881,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing upgrading profession tools, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 216 — Zale Charm {#item-216}
 Category: Ingredient – Meat
@@ -4900,7 +4900,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring resilient gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 217 — Zephyr Cowl {#item-217}
 Category: Ingredient – Fungus
@@ -4919,7 +4919,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fuel for campfire survival kits, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 218 — Zincroot Elixir {#item-218}
 Category: Ingredient – Grain
@@ -4938,7 +4938,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing socketing into runic gear, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 219 — Heartwood Vowblade {#item-219}
 Category: Gear – 1H Sword
@@ -4957,7 +4957,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing signature hunt reward for melee hunters and wardens, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 220 — Hollowroot Matron's Warding Band {#item-220}
 Category: Gear – Ring
@@ -4976,7 +4976,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing defensive charm that amplifies poison resist and brood-cleansing tonics, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 221 — Sap-Slick Jerkin {#item-221}
 Category: Gear – Leather Chest
@@ -4995,7 +4995,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing early-game ranger armor tuned for bleed resistance, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 222 — Greatwood Trailboots {#item-222}
 Category: Gear – Boots
@@ -5014,7 +5014,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing movement speed and snare resistance for scouts, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 223 — Warden's Grove Map {#item-223}
 Category: Quest – Map
@@ -5033,7 +5033,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing unlocks new hunt board routes and reveals cache spawns, especially when you lean into the quest bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 224 — Burn-Scar Chasmbreaker {#item-224}
 Category: Gear – 2H Axe
@@ -5052,7 +5052,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cleave-focused set piece for melee brawlers, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 225 — Magmaforged Links {#item-225}
 Category: Material – Chain
@@ -5071,7 +5071,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting fire-resistant mail and tether tools, especially when you lean into the material bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 226 — Hollowroot Sporesplice {#item-226}
 Category: Ingredient – Fungus
@@ -5090,7 +5090,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing potent curing broths and antitoxin brews, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 227 — Matron's Broodguard {#item-227}
 Category: Gear – Shield
@@ -5109,7 +5109,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing high-block shield tuned for poison-heavy encounters, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 228 — Glacierbite Bow {#item-228}
 Category: Gear – Bow
@@ -5128,7 +5128,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ice-aspected ranged option with slow procs, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 229 — Permafrost Greaves {#item-229}
 Category: Gear – Plate Legs
@@ -5147,7 +5147,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing heavy leg armor for chill-heavy routes, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 230 — Tundra Howl Totem {#item-230}
 Category: Curio – Totem
@@ -5166,7 +5166,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing summoning lure for hunts and cold resistance buff component, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 231 — Frostmarch Seal {#item-231}
 Category: Quest – Seal
@@ -5185,7 +5185,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing unlocks frostmarch vault doors and alchemical wards, especially when you lean into the quest bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 232 — Ashen Ridge Emberplate {#item-232}
 Category: Gear – Chestplate
@@ -5204,7 +5204,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tank chest for volcanic encounters and fire retaliation builds, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 233 — Cinderstorm Javelin {#item-233}
 Category: Gear – Spear
@@ -5223,7 +5223,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing mid-range strength weapon with burn-over-time, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 234 — Sootglass Eye {#item-234}
 Category: Curio – Trinket
@@ -5242,7 +5242,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing trinket that boosts perception of lava vents and unstable nodes, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 235 — Cragfeather Cape {#item-235}
 Category: Gear – Cloak
@@ -5261,7 +5261,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing light cloak granting minor fire ward and glide control, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 236 — Nightspire Lantern {#item-236}
 Category: Gear – Off-hand
@@ -5280,7 +5280,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing off-hand that boosts shadow damage and reveals hidden paths, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 237 — Hollow Veil Hood {#item-237}
 Category: Gear – Hood
@@ -5299,7 +5299,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing stealth-focused headpiece for rogues and rangers, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 238 — Duskfang Dagger {#item-238}
 Category: Gear – Dagger
@@ -5318,7 +5318,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing paired dagger option with shadow bleed, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 239 — Mistwoven Cloak {#item-239}
 Category: Gear – Cloak
@@ -5337,7 +5337,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing evasion and threat-shed option for light armor users, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 240 — Vergebreaker Maul {#item-240}
 Category: Gear – Two-Hand Maul
@@ -5356,7 +5356,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing high-burst stagger weapon that sunders barriered foes, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 241 — Veilshard Circuit {#item-241}
 Category: Curio – Relic
@@ -5375,7 +5375,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing relic slot item powering portal stability and spell haste, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 242 — Fractured Sigil {#item-242}
 Category: Quest – Sigil
@@ -5394,7 +5394,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing reassembles into keys for verge vaults, especially when you lean into the quest bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 243 — Nullvein Bracer {#item-243}
 Category: Gear – Wristguard
@@ -5413,7 +5413,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing wrist slot option with spell dampening and focus regen, especially when you lean into the gear bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 244 — Emberpot Lodge Stew {#item-244}
 Category: Consumable – Meal
@@ -5432,7 +5432,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing group feast buff to stamina regen and cold resistance, especially when you lean into the consumable bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 245 — Frostbloom Draught {#item-245}
 Category: Alchemy – Potion
@@ -5451,7 +5451,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cold resistance potion with minor crit clarity boost, especially when you lean into the alchemy bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 246 — Ashen Spice Rub {#item-246}
 Category: Ingredient – Spice
@@ -5470,7 +5470,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing seasoning for fire-aspected meals and jerky, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 247 — Deepcurrent Tea {#item-247}
 Category: Consumable – Drink
@@ -5489,7 +5489,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing short-term fishing luck and chill tolerance, especially when you lean into the consumable bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 248 — Trailwarden's Satchel {#item-248}
 Category: Profession Tool
@@ -5508,7 +5508,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing increases gather yields and reduces breakage for delicate finds, especially when you lean into the profession tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 249 — Greatwood Waystone Rubbing {#item-249}
 Category: Curio – Document
@@ -5527,7 +5527,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection scrap traded among lorekeepers and scouts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 250 — Hearthlight Pinecone {#item-250}
 Category: Curio – Trinket
@@ -5546,7 +5546,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing keepsake that soothes campers and charms innkeeps for discounts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 251 — Ranger's Whisper Whistle {#item-251}
 Category: Curio – Tool
@@ -5565,7 +5565,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tool for gentle herding or calming startled pack animals, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 252 — Lodge Guest Ledger {#item-252}
 Category: Curio – Document
@@ -5584,7 +5584,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest hook for lodging favors and old debts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 253 — Moss-Stitched Satchel Patch {#item-253}
 Category: Curio – Patch
@@ -5603,7 +5603,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor trinket or tailoring motif for field gear, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 254 — Old Grove Map Scrap {#item-254}
 Category: Curio – Map
@@ -5622,7 +5622,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing map fragment for collection sets and quest breadcrumbs, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 255 — Bramblethorn Medallion {#item-255}
 Category: Curio – Token
@@ -5641,7 +5641,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing respect token for lodge vendors and faction checks, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 256 — Trailwarden's Woodcut Charm {#item-256}
 Category: Curio – Charm
@@ -5660,7 +5660,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing small reputation trinket traded to trailwardens, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 257 — Sap-Sealed Favor Knot {#item-257}
 Category: Curio – Token
@@ -5679,7 +5679,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest hook item for small favors and barter, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 258 — Dawnwatch Tea Tin {#item-258}
 Category: Curio – Tin
@@ -5698,7 +5698,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing brewed for morale bonuses or traded to tea collectors, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 259 — Hollowroot Spore Jar {#item-259}
 Category: Curio – Jar
@@ -5717,7 +5717,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest reagent or alchemy curiosity for glowdrafts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 260 — Glowcap Lantern Shard {#item-260}
 Category: Curio – Shard
@@ -5736,7 +5736,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor trinket or small light source, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 261 — Fungal Study Notes {#item-261}
 Category: Curio – Document
@@ -5755,7 +5755,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest hook for scholars and alchemists, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 262 — Burrower's Talon Charm {#item-262}
 Category: Trophy – Charm
@@ -5774,7 +5774,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing trophy charm for hunters and guild turn-ins, especially when you lean into the trophy bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 263 — Moldy Ledger of Tunnels {#item-263}
 Category: Curio – Document
@@ -5793,7 +5793,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest breadcrumb for rerouting supply runs, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 264 — Stalactite Drip Vial {#item-264}
 Category: Curio – Vial
@@ -5812,7 +5812,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing minor alchemy curiosity or vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 265 — Root-etched Prayer Beads {#item-265}
 Category: Curio – Beads
@@ -5831,7 +5831,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection piece traded to miners and pilgrims, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 266 — Sporeling Plush Toy {#item-266}
 Category: Curio – Toy
@@ -5850,7 +5850,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience item or gift for camp children, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 267 — Mycelial Map Ribbon {#item-267}
 Category: Curio – Map
@@ -5869,7 +5869,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing map fragment for explorers and collection sets, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 268 — Hollowroot Queen's Chit {#item-268}
 Category: Key – Token
@@ -5888,7 +5888,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing key item for deep hollowroot chambers and barter, especially when you lean into the key bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 269 — Ashen Ridge Ember Pouch {#item-269}
 Category: Curio – Pouch
@@ -5907,7 +5907,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor trash or small fireproof container, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 270 — Lava-Singed Scout Journal {#item-270}
 Category: Curio – Document
@@ -5926,7 +5926,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest hook for rescue leads and scouting intel, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 271 — Obsidian Flake Token {#item-271}
 Category: Curio – Token
@@ -5945,7 +5945,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing traded among forgehands as proof of survival, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 272 — Scoria Prayer Stone {#item-272}
 Category: Curio – Relic
@@ -5964,7 +5964,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection relic carried by ash pilgrims, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 273 — Coalbed Trinket Chain {#item-273}
 Category: Curio – Trinket
@@ -5983,7 +5983,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor trinket or minor reputation charm, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 274 — Emberwake Wanted Poster {#item-274}
 Category: Curio – Document
@@ -6002,7 +6002,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest breadcrumb toward ridge bounties, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 275 — Charred Caravan Plaque {#item-275}
 Category: Trophy – Plaque
@@ -6021,7 +6021,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection trophy and evidence for bounty boards, especially when you lean into the trophy bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 276 — Smolderglass Marble {#item-276}
 Category: Curio – Toy
@@ -6040,7 +6040,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience toy traded by ash kids and collectors, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 277 — Fireline Signal Flag {#item-277}
 Category: Curio – Flag
@@ -6059,7 +6059,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest hook for evacuation drills and defense events, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 278 — Ashen Ridge Toll Scrip {#item-278}
 Category: Curio – Currency
@@ -6078,7 +6078,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing barter chip for roadblocks and smugglers, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 279 — Frostmarch Ice Chime {#item-279}
 Category: Curio – Trinket
@@ -6097,7 +6097,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience item hung at camp porches, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 280 — Tundra Hunter's Tag {#item-280}
 Category: Curio – Tag
@@ -6116,7 +6116,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing turn-in token for lodge bounties, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 281 — Snowbound Sketchbook {#item-281}
 Category: Curio – Document
@@ -6135,7 +6135,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest breadcrumb and cartography collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 282 — Glacier Wayfinder Pin {#item-282}
 Category: Curio – Pin
@@ -6154,7 +6154,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing respected badge opening lodge doors and vendors, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 283 — Frostworn Camp Mug {#item-283}
 Category: Curio – Trinket
@@ -6173,7 +6173,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience item or traded to cooks for favors, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 284 — Icefloe Ferry Ticket {#item-284}
 Category: Curio – Document
@@ -6192,7 +6192,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest hook for ferry operators and smugglers, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 285 — Hoarfrost Bone Charm {#item-285}
 Category: Trophy – Charm
@@ -6211,7 +6211,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing hunter charm for trade or minor warding, especially when you lean into the trophy bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 286 — Polar Sledge Strap {#item-286}
 Category: Curio – Gear
@@ -6230,7 +6230,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor trash or crafting motif, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 287 — Frostmarch Prayer Cloth {#item-287}
 Category: Curio – Cloth
@@ -6249,7 +6249,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection cloth and minor talisman sewing pattern, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 288 — Frozen Orchard Jam Jar {#item-288}
 Category: Curio – Food
@@ -6268,7 +6268,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing cooking flavoring or gift to homesteaders, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 289 — Duskhollow Candle Stub {#item-289}
 Category: Curio – Candle
@@ -6287,7 +6287,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience item or vigil offering, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 290 — Whispering Locket {#item-290}
 Category: Curio – Trinket
@@ -6306,7 +6306,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing curio prized by mourners and spirit-watchers, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 291 — Graveyard Mapping Chalk {#item-291}
 Category: Curio – Tool
@@ -6325,7 +6325,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest tool for guiding mourners and scouts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 292 — Midnight Sermon Pamphlet {#item-292}
 Category: Curio – Document
@@ -6344,7 +6344,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and quest breadcrumb, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 293 — Ravenfeather Fetish {#item-293}
 Category: Curio – Charm
@@ -6363,7 +6363,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing protective trinket traded among hunters, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 294 — Mourner's Token Coin {#item-294}
 Category: Curio – Currency
@@ -6382,7 +6382,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection piece or offering for crypt access, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 295 — Pale Lantern Hook {#item-295}
 Category: World Object – Hook
@@ -6401,7 +6401,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience prop or minor furnishing, especially when you lean into the world object bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 296 — Hollow Bell Fragment {#item-296}
 Category: Curio – Fragment
@@ -6420,7 +6420,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience trinket or offering, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 297 — Shadehunter's Tally Sticks {#item-297}
 Category: Curio – Tool
@@ -6439,7 +6439,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing hunter quest item and collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 298 — Duskhollow Crypt Key {#item-298}
 Category: Key – Key
@@ -6458,7 +6458,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing unlocks crypt doors and advanced vigil quests, especially when you lean into the key bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 299 — Verge Skyshard Prism {#item-299}
 Category: Curio – Relic
@@ -6477,7 +6477,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection relic prized by stormwatchers, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 300 — Broken Anchor Charm {#item-300}
 Category: Curio – Charm
@@ -6496,7 +6496,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor trinket or collection filler, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 301 — Lightning-Split Banner Scrap {#item-301}
 Category: Curio – Banner
@@ -6515,7 +6515,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience scrap and storm proof-of-survival, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 302 — Windcarved Flute {#item-302}
 Category: Curio – Instrument
@@ -6534,7 +6534,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience instrument; rumored to soothe storm spirits, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 303 — Stormrunner's Ledger {#item-303}
 Category: Curio – Document
@@ -6553,7 +6553,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest hook for smuggler routes and storm breaks, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 304 — Riftwatcher's Lens {#item-304}
 Category: Curio – Lens
@@ -6572,7 +6572,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing curio for spotting rift anomalies; collection relic, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 305 — Shattered Verge Map Stitch {#item-305}
 Category: Curio – Map
@@ -6591,7 +6591,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection map; hints at safe routes between shards, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 306 — Faultline Rubble Keepsake {#item-306}
 Category: Curio – Keepsake
@@ -6610,7 +6610,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor trinket or memory token, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 307 — Exile's Oath Bracelet {#item-307}
 Category: Curio – Bracelet
@@ -6629,7 +6629,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection token and social barter piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 308 — Skybound Meal Tin {#item-308}
 Category: Curio – Food
@@ -6648,7 +6648,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor food tin or trade good for hungry scouts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 309 — Salt-Crusted Sailcloth Patch {#item-309}
 Category: Curio – Patch
@@ -6667,7 +6667,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor scrap or tailoring motif for seafarers, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 310 — Tidecaller's Brass Bell {#item-310}
 Category: Curio – Trinket
@@ -6686,7 +6686,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing curio and timing tool for fishers, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 311 — Barnacle Etched Compass {#item-311}
 Category: Curio – Tool
@@ -6705,7 +6705,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing navigation aid for sailors and shore trackers, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 312 — Driftglass Keepsake Bottle {#item-312}
 Category: Curio – Bottle
@@ -6724,7 +6724,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection trinket and ambient shelf piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 313 — Smuggler's Ledger Page {#item-313}
 Category: Curio – Document
@@ -6743,7 +6743,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest hook toward smugglers and coastal events, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 314 — Sea-Worn Prayer Knot {#item-314}
 Category: Curio – Charm
@@ -6762,7 +6762,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection charm or offering at dock shrines, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 315 — Shiverstone Dried Kelp Snack {#item-315}
 Category: Ingredient – Snack
@@ -6781,7 +6781,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing travel snack or cooking garnish, especially when you lean into the ingredient bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 316 — Coastal Beacon Oil Flask {#item-316}
 Category: Curio – Vial
@@ -6800,7 +6800,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest item for lighthouse upkeep and alchemy fuel, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 317 — Stormwashed Coin Stack {#item-317}
 Category: Curio – Currency
@@ -6819,7 +6819,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing valuable curio for collectors and treasure hunters, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 318 — Dockmaster's Wharf Key {#item-318}
 Category: Key – Key
@@ -6838,7 +6838,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing unlocks coastal warehouses and late-night shipments, especially when you lean into the key bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 539 — Wayfinder's Bark Etching {#item-539}
 Category: Document – Map Scrap
@@ -6857,7 +6857,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing breadcrumb note for explorers and collectors, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 540 — Warden's Beacon Stone {#item-540}
 Category: Curio – Signal Stone
@@ -6876,7 +6876,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing trail signal token and small favor chip with wardens, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 541 — Riverlight Reed Lantern {#item-541}
 Category: Curio – Lantern
@@ -6895,7 +6895,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor trinket or ambience prop at riverside camps, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 542 — Lodge Hearth Poker {#item-542}
 Category: World Object – Hearth Tool
@@ -6914,7 +6914,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambient prop occasionally bartered for quick repairs, especially when you lean into the world object bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 543 — Elder Grove Prayer Ribbon {#item-543}
 Category: Curio – Ribbon
@@ -6933,7 +6933,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing small reputation token with grovekeepers; collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 544 — Hollow Stump Cache Token {#item-544}
 Category: Key – Token
@@ -6952,7 +6952,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing unlocks minor caches and indicates shared supplies, especially when you lean into the key bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 545 — Sap-Touched Trail Rope {#item-545}
 Category: Curio – Rope
@@ -6971,7 +6971,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing climbing aid and tradeable rope for scouts, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 546 — Mossbinder's Needle Set {#item-546}
 Category: Tool – Sewing
@@ -6990,7 +6990,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring motif and collection piece, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 547 — Skybranch Feather Charm {#item-547}
 Category: Curio – Charm
@@ -7009,7 +7009,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing luck charm for climbers; sought by collectors, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 548 — Glade Wedding Keepsake Band {#item-548}
 Category: Curio – Keepsake
@@ -7028,7 +7028,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing sentimental quest trinket and vendor curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 549 — Druidic Circle Chalk Tin {#item-549}
 Category: Document – Ritual Notes
@@ -7047,7 +7047,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting motif and lore scrap, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 550 — Ranger's Spare Bowstring Coil {#item-550}
 Category: Tool – Archery
@@ -7066,7 +7066,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting component and ambient prop, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 551 — Greatwood Honey Mead Recipe Scroll {#item-551}
 Category: Document – Recipe
@@ -7085,7 +7085,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest hook for brewing lessons; collection scrap, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 552 — Stag-Tusk Button {#item-552}
 Category: Curio – Tailoring Motif
@@ -7104,7 +7104,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring embellishment and trade trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 553 — Lanternbug Lure Jar {#item-553}
 Category: Curio – Jar
@@ -7123,7 +7123,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambient light source and quest bait, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 554 — Trail Cookbook Leaflet {#item-554}
 Category: Document – Cookbook Leaf
@@ -7142,7 +7142,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing flavor prop and culinary collection scrap, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 555 — Orchard Tallies Ledger {#item-555}
 Category: Document – Ledger
@@ -7161,7 +7161,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing vendor lore prop and minor quest clue, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 556 — Pine Resin Field Patch {#item-556}
 Category: Curio – Patch
@@ -7180,7 +7180,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing emergency tailoring motif; vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 557 — Cartographer's Twig Compass {#item-557}
 Category: Curio – Compass
@@ -7199,7 +7199,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing map-making prop and collectable tool, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 558 — Barkhide Repair Kit {#item-558}
 Category: Tool – Repair
@@ -7218,7 +7218,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing minor armor repair kit; vendor trinket, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 559 — Nightwatch Emberstone {#item-559}
 Category: Curio – Lightstone
@@ -7237,7 +7237,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing light source and morale charm; collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 560 — Spriggin Carved Figurine {#item-560}
 Category: Toy – Figurine
@@ -7256,7 +7256,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing toy, barter charm, or collection filler, especially when you lean into the toy bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 561 — Riverstone Skipping Stack {#item-561}
 Category: Curio – Game Piece
@@ -7275,7 +7275,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing leisure prop and friendly wager token, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 562 — Forager's Weather Strip {#item-562}
 Category: Curio – Weather Charm
@@ -7294,7 +7294,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing field weather checker; minor trade trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 563 — Lodge Service Chit {#item-563}
 Category: Curio – Token
@@ -7313,7 +7313,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing barter token in greatwood lodges; collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 564 — Glowcap Spore Jar {#item-564}
 Category: Curio – Sample Jar
@@ -7332,7 +7332,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection piece and alchemy curiosity, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 565 — Root-Tangle Knot Charm {#item-565}
 Category: Curio – Charm
@@ -7351,7 +7351,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing superstitious keepsake and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 566 — Hollowroot Forager's Mask {#item-566}
 Category: Curio – Mask
@@ -7370,7 +7370,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambient prop and quest hook for deep forage runs, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 567 — Fungus Ring Sketchbook {#item-567}
 Category: Document – Field Notes
@@ -7389,7 +7389,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and quest breadcrumb, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 568 — Mycelial Thread Spool {#item-568}
 Category: Curio – Thread
@@ -7408,7 +7408,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring motif and collection curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 569 — Subterranean Echo Bell {#item-569}
 Category: Curio – Bell
@@ -7427,7 +7427,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing safety tool and collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 570 — Hollow Lantern Husk {#item-570}
 Category: World Object – Lantern
@@ -7446,7 +7446,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambient light prop; vendor trash, especially when you lean into the world object bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 571 — Lichen-Scribed Prayer Stone {#item-571}
 Category: Curio – Stone
@@ -7465,7 +7465,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing token offered to cave spirits; collector pebble, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 572 — Mudscript Tablet {#item-572}
 Category: Document – Tablet
@@ -7484,7 +7484,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and teaching prop, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 573 — Burrowing Beetle Husk Ornament {#item-573}
 Category: Trophy – Trinket
@@ -7503,7 +7503,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing trophy trinket and barter charm, especially when you lean into the trophy bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 574 — Fungal Dye Vial {#item-574}
 Category: Curio – Dye
@@ -7522,7 +7522,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring dye and alchemy reagent token, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 575 — Mushroom Circle Map {#item-575}
 Category: Map – Portal Routes
@@ -7541,7 +7541,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest breadcrumb and collection scrap, especially when you lean into the map bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 576 — Dewdrop Collector Funnel {#item-576}
 Category: Curio – Funnel
@@ -7560,7 +7560,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing survival prop and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 577 — Glowworm Threading Needle {#item-577}
 Category: Tool – Needle
@@ -7579,7 +7579,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing tailoring motif and collection curio, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 578 — Cavern Tuning Fork {#item-578}
 Category: Curio – Instrument
@@ -7598,7 +7598,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing safety tool and prized collector piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 579 — Sporecloud Sample Satchel {#item-579}
 Category: Curio – Satchel
@@ -7617,7 +7617,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing alchemy sample bag and quest hook, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 580 — Root-Barter Token {#item-580}
 Category: Curio – Token
@@ -7636,7 +7636,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing faction favor chip and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 581 — Hollowroot Drip Flask {#item-581}
 Category: Curio – Flask
@@ -7655,7 +7655,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing survival aid and collection filler, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 582 — Nightsoil Ledger {#item-582}
 Category: Document – Ledger
@@ -7674,7 +7674,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest clue for farm rotations; lore scrap, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 583 — Wispnet Lantern Mantle {#item-583}
 Category: Curio – Lantern Mantle
@@ -7693,7 +7693,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing light upgrade and prized collector curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 584 — Pit Echo Recording Shell {#item-584}
 Category: Curio – Shell
@@ -7712,7 +7712,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore keepsake and tradeable oddity, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 585 — Veilcap Pouch {#item-585}
 Category: Curio – Pouch
@@ -7731,7 +7731,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing foraging prop and collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 586 — Undertrail Chalk Pack {#item-586}
 Category: Curio – Chalk
@@ -7750,7 +7750,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing safety tool and explorer curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 587 — Cave Fisherman's Net Weight {#item-587}
 Category: Curio – Fishing Weight
@@ -7769,7 +7769,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing fishing tool and barter trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 588 — Stalactite Shard Charm {#item-588}
 Category: Curio – Charm
@@ -7788,7 +7788,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing charm said to ward off cave-ins; collectible, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 589 — Emberglass Vial {#item-589}
 Category: Curio – Vial
@@ -7807,7 +7807,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing alchemy curiosity and collector's bottle, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 590 — Ashen Scout Bandana {#item-590}
 Category: Curio – Cloth
@@ -7826,7 +7826,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing survival prop and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 591 — Lavaflow Survey Rod {#item-591}
 Category: Curio – Measuring Rod
@@ -7845,7 +7845,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing field tool and engineering curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 592 — Basalt Prayer Beads {#item-592}
 Category: Curio – Beads
@@ -7864,7 +7864,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing meditation token and trade bead set, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 593 — Scoria Shard Reliquary {#item-593}
 Category: Curio – Reliquary
@@ -7883,7 +7883,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ritual focus and collector's prize, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 594 — Charred Banner Scrap {#item-594}
 Category: Curio – Banner Scrap
@@ -7902,7 +7902,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and proof of skirmish, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 595 — Smoldering Tinderbox {#item-595}
 Category: Curio – Firestarter
@@ -7921,7 +7921,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing reliable firestarter and collection curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 596 — Emberclasp Lock {#item-596}
 Category: Key – Lock
@@ -7940,7 +7940,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing secures supply crates; quest key prop, especially when you lean into the key bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 597 — Volcanic Map Segment {#item-597}
 Category: Map – Terrain Scrap
@@ -7959,7 +7959,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest breadcrumb and collection scrap, especially when you lean into the map bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 598 — Sulfur-Stained Satchel {#item-598}
 Category: Curio – Satchel
@@ -7978,7 +7978,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing flavor prop and vendor junk, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 599 — Ashen Ridge Stamp Coin {#item-599}
 Category: Curio – Coin
@@ -7997,7 +7997,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing toll token and barter chip, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 600 — Blazegutter Oil Can {#item-600}
 Category: Curio – Tool
@@ -8016,7 +8016,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing maintenance prop and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 601 — Cragdrake Tooth Trophy {#item-601}
 Category: Trophy – Tooth
@@ -8035,7 +8035,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing trophy token and collector piece, especially when you lean into the trophy bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 602 — Seared Rope Coil {#item-602}
 Category: Curio – Rope
@@ -8054,7 +8054,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing climbing prop and vendor junk, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 603 — Ashen Ridge Climbing Hook {#item-603}
 Category: Tool – Climbing
@@ -8073,7 +8073,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing climbing tool and collectible gear motif, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 604 — Charcoal Sketch Roll {#item-604}
 Category: Document – Sketches
@@ -8092,7 +8092,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and quest clue, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 605 — Magma Warden Seal {#item-605}
 Category: Curio – Seal
@@ -8111,7 +8111,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing faction favor token and container opener, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 606 — Firewatcher's Lens {#item-606}
 Category: Curio – Lens
@@ -8130,7 +8130,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing observation tool and tradeable curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 607 — Sootscrape Brush {#item-607}
 Category: Tool – Maintenance
@@ -8149,7 +8149,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing maintenance tool and vendor trinket, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 608 — Emberbrand Wagon Tag {#item-608}
 Category: Curio – Tag
@@ -8168,7 +8168,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing logistics prop and quest hook, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 609 — Skyscour Scout Flare {#item-609}
 Category: Curio – Flare
@@ -8187,7 +8187,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing signal tool and collectible, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 610 — Ridge Beacon Wick {#item-610}
 Category: Curio – Wick
@@ -8206,7 +8206,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing beacon maintenance prop and vendor trash, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 611 — Forgemarch Supply Receipt {#item-611}
 Category: Document – Receipt
@@ -8225,7 +8225,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and trade record, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 612 — Melted Coin Brooch {#item-612}
 Category: Curio – Brooch
@@ -8244,7 +8244,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collector curio and faction favor chip, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 613 — Ashen Ridge Embercore Pebble {#item-613}
 Category: Curio – Pebble
@@ -8263,7 +8263,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing keepsake and crafting motif token, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 614 — Frostbitten Prayer Knot {#item-614}
 Category: Curio – Charm
@@ -8282,7 +8282,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing keepsake and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 615 — Iceworn Trail Marker {#item-615}
 Category: Curio – Marker
@@ -8301,7 +8301,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing navigation prop and collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 616 — Snowmelt Sample Vial {#item-616}
 Category: Curio – Sample Vial
@@ -8320,7 +8320,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing alchemy curiosity and collection sample, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 617 — Hearthbound Story Spoon {#item-617}
 Category: Curio – Utensil
@@ -8339,7 +8339,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing flavor prop and barter gift, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 618 — Frostmarch Ski Strap {#item-618}
 Category: Curio – Strap
@@ -8358,7 +8358,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing travel aid and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 619 — Frozen Map Overlay {#item-619}
 Category: Map – Overlay
@@ -8377,7 +8377,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest breadcrumb and collector map, especially when you lean into the map bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 620 — Tundra Bloom Pressing {#item-620}
 Category: Curio – Pressed Flower
@@ -8396,7 +8396,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection piece and minor quest clue, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 621 — Glacial Scribe's Ink {#item-621}
 Category: Curio – Ink
@@ -8415,7 +8415,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing writing prop and craft motif, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 622 — Icewind Whistle {#item-622}
 Category: Curio – Whistle
@@ -8434,7 +8434,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing signal tool and collection trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 623 — Argent Fang Trophy {#item-623}
 Category: Trophy – Fang
@@ -8453,7 +8453,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing trophy curio and faction favor chip, especially when you lean into the trophy bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 624 — Frost-Twig Kindling Bundle {#item-624}
 Category: Curio – Kindling
@@ -8472,7 +8472,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing firestarting prop and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 625 — Aurora Glass Shard {#item-625}
 Category: Curio – Glass
@@ -8491,7 +8491,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collector curio and decoration, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 626 — Winterwatch Patrol Log {#item-626}
 Category: Document – Logbook
@@ -8510,7 +8510,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest clue and lore scrap, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 627 — Frostmarch Boot Spikes {#item-627}
 Category: Tool – Traction
@@ -8529,7 +8529,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing travel prop and crafting motif, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 628 — Emberbraid Hand Warmer {#item-628}
 Category: Curio – Warmer
@@ -8548,7 +8548,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing comfort charm and collectible, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 629 — Reindeer Bell Charm {#item-629}
 Category: Curio – Bell
@@ -8567,7 +8567,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing travel prop and gift item, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 630 — Frosted Scout Goggles {#item-630}
 Category: Curio – Goggles
@@ -8586,7 +8586,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing survival prop and collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 631 — Glacier Crossing Permit {#item-631}
 Category: Document – Permit
@@ -8605,7 +8605,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest key prop and lore scrap, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 632 — Snowblind Salve Tin {#item-632}
 Category: Curio – Salve
@@ -8624,7 +8624,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing medical prop and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 633 — Permafrost Core Sample {#item-633}
 Category: Curio – Sample
@@ -8643,7 +8643,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing research curio and collector specimen, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 634 — Iceshard Lantern Prism {#item-634}
 Category: Curio – Prism
@@ -8662,7 +8662,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lantern upgrade and collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 635 — Coldforge Chisel Tip {#item-635}
 Category: Tool – Chisel
@@ -8681,7 +8681,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting prop and vendor trinket, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 636 — Frostmarch Tent Patch {#item-636}
 Category: Curio – Patch
@@ -8700,7 +8700,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing repair prop and collection filler, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 637 — Frozen Path Rubbing {#item-637}
 Category: Document – Rubbing
@@ -8719,7 +8719,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and quest breadcrumb, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 638 — Stormbound Banner Scrap {#item-638}
 Category: Curio – Banner Scrap
@@ -8738,7 +8738,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing trophy curio and vendor trade good, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 639 — Gravebloom Petal Bundle {#item-639}
 Category: Curio – Offering
@@ -8757,7 +8757,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing offering for graves and collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 640 — Whispering Candle Stub {#item-640}
 Category: Curio – Candle
@@ -8776,7 +8776,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ambience prop and lore token, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 641 — Duskhollow Mourning Band {#item-641}
 Category: Curio – Band
@@ -8795,7 +8795,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing respect token and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 642 — Lanternmoth Cage {#item-642}
 Category: Curio – Cage
@@ -8814,7 +8814,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing light prop and collection curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 643 — Cemetery Gate Key Tag {#item-643}
 Category: Key – Tag
@@ -8833,7 +8833,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing unlocks gated paths; quest prop, especially when you lean into the key bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 644 — Mourner's Prayer Card {#item-644}
 Category: Document – Prayer Card
@@ -8852,7 +8852,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and sentimental token, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 645 — Hollowbell Chime String {#item-645}
 Category: Curio – Chime
@@ -8871,7 +8871,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing superstition trinket and ambience prop, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 646 — Dust-Etched Memorial Tile {#item-646}
 Category: Curio – Tile
@@ -8890,7 +8890,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 647 — Undertaker's Ledger Page {#item-647}
 Category: Document – Ledger Page
@@ -8909,7 +8909,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest clue and collection scrap, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 648 — Wraithsilk Ribbon {#item-648}
 Category: Curio – Ribbon
@@ -8928,7 +8928,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing rare curio and ritual motif, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 649 — Crypt Dowel Charm {#item-649}
 Category: Curio – Charm
@@ -8947,7 +8947,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing burial charm and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 650 — Tomb-Etched Map Fragment {#item-650}
 Category: Map – Crypt Routes
@@ -8966,7 +8966,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest breadcrumb and collection scrap, especially when you lean into the map bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 651 — Shadehunter's Chalk Markers {#item-651}
 Category: Curio – Chalk
@@ -8985,7 +8985,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing hunting prop and collection curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 652 — Dirge Recorder Shell {#item-652}
 Category: Curio – Shell
@@ -9004,7 +9004,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collector curio and quest clue, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 653 — Gravewarden's Shovel Pin {#item-653}
 Category: Curio – Pin
@@ -9023,7 +9023,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing favor token and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 654 — Mourning Veil Scrap {#item-654}
 Category: Curio – Cloth
@@ -9042,7 +9042,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and collection filler, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 655 — Moonlit Vigil Incense Cone {#item-655}
 Category: Curio – Incense
@@ -9061,7 +9061,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ritual prop and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 656 — Bone Lantern Frame {#item-656}
 Category: World Object – Lantern Frame
@@ -9080,7 +9080,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing macabre decor and collector piece, especially when you lean into the world object bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 657 — Shadowglass Marble {#item-657}
 Category: Curio – Marble
@@ -9099,7 +9099,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collector trinket and stealthy curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 658 — Burial Knot Cord {#item-658}
 Category: Curio – Cord
@@ -9118,7 +9118,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ritual prop and vendor junk, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 659 — Mausoleum Wax Seal {#item-659}
 Category: Curio – Seal
@@ -9137,7 +9137,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing seal for letters or coffins; collection piece, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 660 — Night Vigil Token {#item-660}
 Category: Curio – Token
@@ -9156,7 +9156,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing favor chip and souvenir, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 661 — Restless Soil Vial {#item-661}
 Category: Curio – Vial
@@ -9175,7 +9175,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ritual reagent token and collector oddity, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 662 — Spirit Anchor Bauble {#item-662}
 Category: Curio – Bauble
@@ -9194,7 +9194,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing ritual focus and prized curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 663 — Silent Choir Songbook Leaf {#item-663}
 Category: Document – Sheet Music
@@ -9213,7 +9213,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and quest clue, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 664 — Stormbreak Compass Rose {#item-664}
 Category: Curio – Compass
@@ -9232,7 +9232,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing navigation prop and collector curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 665 — Shattered Relay Conduit {#item-665}
 Category: Curio – Salvage
@@ -9251,7 +9251,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing salvage trinket and vendor scrap, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 666 — Riftglass Talisman {#item-666}
 Category: Curio – Talisman
@@ -9270,7 +9270,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collector charm and lore token, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 667 — Lightning-Kissed Banner {#item-667}
 Category: Curio – Banner Scrap
@@ -9289,7 +9289,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing trophy curio and vendor trade, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 668 — Broken Obelisk Glyph {#item-668}
 Category: Curio – Stone Glyph
@@ -9308,7 +9308,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing lore scrap and collection filler, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 669 — Verge Salvager's Tag {#item-669}
 Category: Curio – Tag
@@ -9327,7 +9327,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing faction chip and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 670 — Tempest Chart Fragment {#item-670}
 Category: Map – Wind Chart
@@ -9346,7 +9346,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest breadcrumb and collector map, especially when you lean into the map bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 671 — Fractured Waystone Shard {#item-671}
 Category: Curio – Shard
@@ -9365,7 +9365,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collection piece and lore token, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 672 — Thunderscout Signal Flare {#item-672}
 Category: Curio – Flare
@@ -9384,7 +9384,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing signal tool and collection curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 673 — Edgewalker Rope Kit {#item-673}
 Category: Tool – Rope Kit
@@ -9403,7 +9403,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing climbing prop and vendor gear, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 674 — Shattered Verge Memory Stone {#item-674}
 Category: Curio – Stone
@@ -9422,7 +9422,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collector curio and quest hook, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 675 — Static-Etched Token {#item-675}
 Category: Curio – Token
@@ -9441,7 +9441,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing barter chip and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 676 — Voidtouched Pebble {#item-676}
 Category: Curio – Pebble
@@ -9460,7 +9460,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collector oddity and lore prop, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 677 — Windscarred Sailcloth {#item-677}
 Category: Curio – Cloth
@@ -9479,7 +9479,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing patch material and collection filler, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 678 — Sparking Coil Spool {#item-678}
 Category: Curio – Coil
@@ -9498,7 +9498,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing crafting prop and collection curio, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 679 — Ruptured Map Tube {#item-679}
 Category: Curio – Container
@@ -9517,7 +9517,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing map container prop and vendor scrap, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 680 — Gale-Forged Hook {#item-680}
 Category: Tool – Hook
@@ -9536,7 +9536,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing climbing tool and collection piece, especially when you lean into the tool bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 681 — Singed Expedition Journal {#item-681}
 Category: Document – Journal
@@ -9555,7 +9555,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing quest clue and lore scrap, especially when you lean into the document bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 682 — Nullcurrent Vial {#item-682}
 Category: Curio – Vial
@@ -9574,7 +9574,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing alchemy curiosity and collector item, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 683 — Shardbound Prayer Ring {#item-683}
 Category: Curio – Ring
@@ -9593,7 +9593,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing faith token and collectible, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 684 — Starlit Glass Marbles {#item-684}
 Category: Curio – Toy
@@ -9612,7 +9612,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing toy and collection filler, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 685 — Cracked Navigator's Lens {#item-685}
 Category: Curio – Lens
@@ -9631,7 +9631,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing salvage curio and vendor trinket, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 686 — Verge Anchoring Spike {#item-686}
 Category: Curio – Spike
@@ -9650,7 +9650,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing climbing prop and vendor gear, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 687 — Broken Sky Chart {#item-687}
 Category: Map – Sky Routes
@@ -9669,7 +9669,7 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing collector map and quest breadcrumb, especially when you lean into the map bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 ### 688 — Shiverwire Trinket {#item-688}
 Category: Curio – Trinket
@@ -9688,6 +9688,6 @@ Cultural Tie:
 Gameplay Hook:
 - Plays well with builds chasing weather omen curio and collector item, especially when you lean into the curio bonuses.
 - Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md)
 
 File: key_dockmaster_wharf.png

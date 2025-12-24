@@ -1,4 +1,4 @@
-# SUSPICIOUS LETTER — “For Delivery at Night Only”
+# Suspicious Letter — For Delivery at Night Only
 
 *Left at a caravan rest point.*
 

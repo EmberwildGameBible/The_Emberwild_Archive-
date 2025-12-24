@@ -1,4 +1,4 @@
-# MISSING-PERSON POSTER — “Boy Age 10”
+# Missing-Person Poster — Boy Age 10
 
 *Posted on a Heartland gate.*
 
