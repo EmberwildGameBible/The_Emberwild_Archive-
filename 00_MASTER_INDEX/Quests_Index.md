@@ -7,3 +7,4 @@
 - Quest_Frameworks/CLASSIC DUNGEON ATTUNEMENTS & KEYS.md
 - Twelve_True_Pages/THE TWELVE TRUE PAGES - MASTER BLUEPRINT.md
 - QUEST_EXPANSION_PACK.md — Contracts, bounties, and delivery loops aligned to new subzones and enemies.
+- [Emberford Marketwalk Quest Hub](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) — $quest-hub-stitcher build with ferry routes, shrine rumors, and interlocking market debts.

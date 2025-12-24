@@ -52,6 +52,9 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 - NPC_SHOPS_AND_INVENTORIES.md — Named vendor stock by region and reputation tier.
 - QUEST_HOOKS_FROM_ITEMS.md — Quest and micro-quest seeds driven by items and drops.
 - ITEM COLLECTIONS & CURIOS.md — Updated with regional collection groupings tied to ambient flavor packs.
+- [Items_Master_List - GLOBAL A-Z.md](../08_Items/Items_Master_List%20-%20GLOBAL%20A-Z.md) — Depth-2 origin, culture, and hook entries for items 001–200, linked to Marketwalk rumors and Gazette Issue 1.
+- [Rumor Web — Items 001–200](../09_Artifacts/Rumors/rumors_items_001_200.md) — Dockside scraps tying early catalog items to Emberford Marketwalk routes.
+- [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Issue_1_Spring.md) — Notices and features pointing toward Marketwalk quest hooks and item loops.
 
 ## Data Tables
 - items_table.csv — Machine-readable summary of the global item list.

@@ -7,3 +7,4 @@
 - Zones_Dungeons_Travel/CHAPTER 16 - TRAVEL, MOUNTS, PORTALS & WORLD LOGIS.md
 - Zones_Dungeons_Travel/CLASSIC ROUTES - LEVEL BANDS & HUB LOOPS.md
 - Micro_Locations_Expansion.md — New subzone pockets with harvest nodes, mini-bosses, and quest hooks.
+- [Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) — Ferry-and-kiln quest hub with interlocking item hooks and shrine rumors.
