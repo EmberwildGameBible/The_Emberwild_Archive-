@@ -11,3 +11,4 @@
 - [Saltmarrow Strand](../02_Regions/Saltmarrow_Strand/Saltmarrow_Strand.md) — Brineglass flats, kelpback shallows, courier loops, and palisade patrol economy.
 - [Frostbriar Reach](../02_Regions/Frostbriar_Reach/Zone_Index.md) — Wind-scoured ridge with sled slides, chill hazards, and ashbound cult ambushes.
 - [Glimmerdeep Mire](../02_Regions/Glimmerdeep_Mire/Zone_Index.md) — Glowspore swamp with ropeway travel, vent divers, and Gleam Surge events.
+- [Gravemark Switchbacks](../02_Regions/Gravemark_Switchbacks.md) — Cairn-strapped ridge road linking Frostbriar and Glimmerdeep; sled escort hub with slidecaller rites and smugglers’ caches. Draft.

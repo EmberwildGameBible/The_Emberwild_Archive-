@@ -25,3 +25,8 @@ A quick map to Emberwild’s foundational lore. Each entry links to its chapter 
 | [Large Reptiles & Lizards](../03_Lore/Creatures/Reptiles/CHAPTER%2030%20-%20FAMILY%2012%20LARGE%20REPTILES%20&%20LIZARDS%20N.md) | Heavy-scaled predators with trample or tail-sweep AOEs and heat/terrain considerations. | Draft |
 | [Creature Families Master Document](../03_Lore/Creatures/Other/CHAPTER%2030%20-%20CREATURE%20FAMILIES%20MASTER%20DOCUMENT%20B.md) | Taxonomy overview tying families to biomes, loot tables, and encounter roles. | Draft |
 | [Monster Taxonomy & Design Pillars](../03_Lore/Creatures/Other/CHAPTER%2011%20-%20CREATURE%20FAMILIES,%20MONSTER%20TAXONOMY%20&.md) | Design framework for classifying monsters, their abilities, and world integration. | Draft |
+
+## Field Notes & Singular Entries
+| Creature | Summary | Status |
+| --- | --- | --- |
+| [Gravemark Bullyram](../03_Lore/Creatures/Gravemark_Bullyram.md) | Cairn-fed ridge ram tied to Frostbriar slidecaller rites, horns used for sled control gear and bounty unlocks. | Draft |

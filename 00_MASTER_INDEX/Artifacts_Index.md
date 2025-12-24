@@ -21,6 +21,7 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 | [Pole Grease Chit](../09_Artifacts/Pole_Grease_Chit.md) | Glimmerdeep Mire | Ropeway delivery chit tracked by Broker Vesha. Published. |
 | [Ventwatch Bounty Note](../09_Artifacts/Ventwatch_Bounty_Note.md) | Glimmerdeep Mire | Bounty for ash vent keys taken from divers. Published. |
 | [Slidecaller Breach Report](../09_Artifacts/Slidecaller_Breach_Report.md) | Ashen Cry Grotto | Breach sealing memo guiding dungeon clean-up. Published. |
+| [Gravemark Warning Board](../09_Artifacts/Gravemark_Warning_Board.md) | Gravemark Switchbacks | Slidecaller chalkboard with avalanche warnings, sled part swaps, and bounty eligibility notes. Published. |
 
 ## Hooks
 - Pull kiln, ferry, or Silent Bell plot hooks from the Gazette before drafting new Emberford quests.
