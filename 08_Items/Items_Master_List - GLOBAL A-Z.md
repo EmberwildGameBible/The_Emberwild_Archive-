@@ -1070,30 +1070,30 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 044 — Elder Jerky {#item-044}
-Origin: First carried in Feral Fens when ingredient – fungus trials pushed deeper into the wilds.
-  Epic war-chests traded early copies among fishing and jewelry circles to anchor their patrols.
-First Known Maker: Sorrel Bramblefall of Feral Fens.
-Rumor: Storytellers insist river-spirits once bartered it for safe passage.
-See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+Origin: Smoked by Glassfields reedwalkers guarding shardpepper caravans; surplus strips rode the ferry down to Emberford Marketwalk as night-shift rations.
+First Known Maker: Quartermaster Lysa Veil of the Emberford quay barracks.
+Rumor: Ferrymen claim it keeps river-sprite rashes away if you chew it before lanterns are doused.
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Fishing Items A–Z](./Professions/Fishing_Items_A-Z.md) | [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Issue_1_Spring.md#dockside-ledger--elder-jerky-cuts)
 
 [044 — Elder Jerky]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Fishing, None
 Biome / Region: Glassfields
-Description: A ingredient that carries a faint ember glow.
+Description: Ember-salted eldergrain slices cured until they carry a faint glow and pepper bite.
 Uses: Upgrading profession tools
 Drop Sources: Found in Glassfields from raiders.
 File: item_elder_jerky.png
 Origin:
-- Folks in Glassfields whisper this ingredient was hammered together by fishing and none hands during a lean season, each nick earned keeping the workshop doors open.
-- Scavengers pulling it from Found in Glassfields from raiders say the metal still remembers the heat and dust of those runs.
+- Smokehouses along the Glassfields salt runs used shardpepper brine so the jerky would survive floodlight patrols to Emberford.
+- Marketwalk ferries adopted the strips as a night ration that kept deckhands alert when Silent Bell pilgrims crowded the quay.
 Cultural Tie:
-- Glassfields crews pass it along to anyone who proves they can stand watch without blinking, treating it like a badge rather than a trophy.
+- Glassfields caravanners stamp clan dyes on each bundle, turning it into a de facto travel chit for crews running through Marketwalk checkpoints.
+- Emberford kiln crews tip night ferrymen with the peppered ends, believing it keeps kiln soot from settling in their lungs.
 Gameplay Hook:
-- Plays well with builds chasing upgrading profession tools, especially when you lean into the ingredient bonuses.
-- Old timers recommend pairing it with hometown reagents so repairs stay cheap and quick.
-See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
+- Turning in bundles to Marketwalk quartermasters discounts fishing tool upgrades and speeds durability repairs.
+- Combining it with [Bramble Oil](#item-019) or other riverborne ingredients boosts stamina for long gathers, making it a staple in pre-run prep.
+See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Fishing Items A–Z](./Professions/Fishing_Items_A-Z.md) | [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Issue_1_Spring.md#dockside-ledger--elder-jerky-cuts)
 
 ### 045 — Ever Lantern {#item-045}
 Origin: First carried in Glassfields when ingredient – grain trials pushed deeper into the wilds.
