@@ -9,6 +9,11 @@ Description: A heat-hardened tower shield etched with ember sigils.
 Uses: Tank block and fire resist anchor for dungeons.
 Drop Sources: Molten wing bosses and raid chests.
 File: gear_aegis_amberwake.png
+Origin: First carried in Molten wings delves when gear – shield trials pushed deeper into the wilds.
+  Rare war-chests traded early copies among smithing circles to anchor their patrols.
+First Known Maker: Branna Ashenford of Molten wings delves.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [002 — Ashen Pike]
 Category: Gear – Polearm
@@ -19,6 +24,11 @@ Description: A soot-darkened pike balanced for reach and control.
 Uses: Leveling tanks and polearm specialists.
 Drop Sources: Outdoor world drops and militia caches.
 File: gear_ashen_pike.png
+Origin: First carried in Ashen fields when gear – polearm trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among smithing circles to anchor their patrols.
+First Known Maker: Caelan Streamborn of Ashen fields.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [003 — Band of the Blue Stream]
 Category: Gear – Ring
@@ -29,6 +39,11 @@ Description: A silver ring that hums with river-song mana.
 Uses: Mana regen for casters and healers.
 Drop Sources: Stream cave quests and aquatic bosses.
 File: gear_band_bluestream.png
+Origin: First carried in Stream caves when gear – ring trials pushed deeper into the wilds.
+  Rare war-chests traded early copies among jewelry circles to anchor their patrols.
+First Known Maker: Doria Shiverstone of Stream caves.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [004 — Barley Snack Pack]
 Category: Ingredient – Grain
@@ -39,6 +54,11 @@ Description: A satchel of toasted barley cakes wrapped for travel.
 Uses: Cheap stamina snack to cut downtime.
 Drop Sources: Village vendors and camp cooks.
 File: ing_barley_snack_pack.png
+Origin: First carried in Farmlands when ingredient – grain trials pushed deeper into the wilds.
+  Common war-chests traded early copies among cooking circles to anchor their patrols.
+First Known Maker: Eldric Deepwatch of Farmlands.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [005 — Briarshot Cartridges]
 Category: Gear – Ammo
@@ -49,6 +69,11 @@ Description: Quarrels packed with thorn-spread charges.
 Uses: Bonus bleed chance on critical hits.
 Drop Sources: Engineering crafts and ranged caches.
 File: ammo_briarshot.png
+Origin: First carried in Bramble stands when gear – ammo trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer circles to anchor their patrols.
+First Known Maker: Fara Glassward of Bramble stands.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [006 — Cinderbrew Flask]
 Category: Alchemy – Tonic
@@ -59,6 +84,11 @@ Description: Bubbling brew that crackles with bottled heat.
 Uses: Short firepower burst with long cooldown.
 Drop Sources: Crafted from kiln herbs and salamander glands.
 File: tonic_cinderbrew.png
+Origin: First carried in Cinder kilns when alchemy – tonic trials pushed deeper into the wilds.
+  Rare war-chests traded early copies among alchemy and cooking circles to anchor their patrols.
+First Known Maker: Garran Feralfen of Cinder kilns.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [007 — Coldforged Shortsword]
 Category: Gear – 1H Sword
@@ -69,6 +99,11 @@ Description: A blade quenched in frostwater for crisp edges.
 Uses: +parry for leveling tanks and duelists.
 Drop Sources: Blacksmithing craft and frost goblin drops.
 File: gear_coldforged_shortsword.png
+Origin: First carried in Frost caverns when gear – 1h sword trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among smithing circles to anchor their patrols.
+First Known Maker: Helene Whisperveil of Frost caverns.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [008 — Dawnstar Talisman]
 Category: Trinket
@@ -79,6 +114,11 @@ Description: A star-cut charm that drinks dawnlight.
 Uses: On-use heal amplification sharing trinket cooldowns.
 Drop Sources: Raid drop from sunbound sentinels.
 File: trinket_dawnstar.png
+Origin: First carried in Sunspire summit when trinket trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry circles to anchor their patrols.
+First Known Maker: Ivar Sunbound of Sunspire summit.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [009 — Deepwatch Pauldrons]
 Category: Gear – Plate Shoulders
@@ -89,6 +129,11 @@ Description: Heavy shoulders etched with warding runes.
 Uses: Threat on-hit and small armor aura.
 Drop Sources: Dungeon bosses guarding Deepwatch forges.
 File: armor_deepwatch_pauldrons.png
+Origin: First carried in Deepwatch when gear – plate shoulders trials pushed deeper into the wilds.
+  Rare war-chests traded early copies among armorsmithing circles to anchor their patrols.
+First Known Maker: Jaysa Frostline of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [010 — Emberglass Wand]
 Category: Gear – Wand
@@ -99,6 +144,11 @@ Description: A wand capped with molten glass that never cools.
 Uses: Fire damage with scorch debuff maintenance.
 Drop Sources: Crafted with rare gems and caster quests.
 File: gear_emberglass_wand.png
+Origin: First carried in Glassfields when gear – wand trials pushed deeper into the wilds.
+  Rare war-chests traded early copies among alchemy and jewelry circles to anchor their patrols.
+First Known Maker: Kaelen Greatwood of Glassfields.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [011 — Amberwild Gland]
 Category: Material – Essence
@@ -109,6 +159,11 @@ Description: A material that is wrapped in waxed vellum.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Feral Fens from raiders.
 File: item_amberwild_gland.png
+Origin: First carried in Feral Fens when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and alchemy circles to anchor their patrols.
+First Known Maker: Liora Bramblefall of Feral Fens.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [012 — Ashen Ink]
 Category: Gear – Armor
@@ -119,6 +174,11 @@ Description: A gear that is stained by old sap.
 Uses: Socketing into runic gear
 Drop Sources: Found in Whispering Steppes from beasts.
 File: item_ashen_ink.png
+Origin: First carried in Whispering Steppes when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among tailoring and bowyer circles to anchor their patrols.
+First Known Maker: Merrick Riverlight of Whispering Steppes.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [013 — Ancient Knot]
 Category: Gear – Off-hand
@@ -129,6 +189,11 @@ Description: A gear that feels heavier than it looks.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Sunspire from quests.
 File: item_ancient_knot.png
+Origin: First carried in Sunspire when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and cooking circles to anchor their patrols.
+First Known Maker: Nyra Moonwake of Sunspire.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [014 — Amberwild Map]
 Category: Curio
@@ -139,6 +204,11 @@ Description: A curio that hums with distant songlines.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Shiverstone Coast from raiders.
 File: item_amberwild_map.png
+Origin: First carried in Shiverstone Coast when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and fishing circles to anchor their patrols.
+First Known Maker: Orien Stoneweald of Shiverstone Coast.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [015 — Ashen Oil]
 Category: Profession Tool
@@ -149,6 +219,11 @@ Description: A profession tool that smells of resin and smoke.
 Uses: Socketing into runic gear
 Drop Sources: Found in Shiverstone Coast from raiders.
 File: item_ashen_oil.png
+Origin: First carried in Shiverstone Coast when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and hunting circles to anchor their patrols.
+First Known Maker: Pyria Emberford of Shiverstone Coast.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [016 — Ancient Quiver]
 Category: Ingredient – Meat
@@ -159,6 +234,11 @@ Description: A ingredient that hums with distant songlines.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Moonwake Marsh from quests.
 File: item_ancient_quiver.png
+Origin: First carried in Moonwake Marsh when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and jewelry circles to anchor their patrols.
+First Known Maker: Quentin Amberwright of Moonwake Marsh.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [017 — Amberwild Saddle]
 Category: Ingredient – Fungus
@@ -169,6 +249,11 @@ Description: A ingredient that carries a faint ember glow.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Sunspire from nodes.
 File: item_amberwild_saddle.png
+Origin: First carried in Sunspire when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among hunting and smithing circles to anchor their patrols.
+First Known Maker: Rhosyn Ashenford of Sunspire.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [018 — Ashen Urn]
 Category: Ingredient – Grain
@@ -179,6 +264,11 @@ Description: A ingredient that holds the chill of cave dew.
 Uses: Forging mid-tier weapons
 Drop Sources: Found in Emberford from camps.
 File: item_ashen_urn.png
+Origin: First carried in Emberford when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among tailoring and unaffiliated circles to anchor their patrols.
+First Known Maker: Sorrel Streamborn of Emberford.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [019 — Bramble Oil]
 Category: Profession Tool
@@ -189,6 +279,11 @@ Description: A profession tool that holds the chill of cave dew.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Glassfields from beasts.
 File: item_bramble_oil.png
+Origin: First carried in Glassfields when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and cooking circles to anchor their patrols.
+First Known Maker: Tavian Shiverstone of Glassfields.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [020 — Bronzed Quiver]
 Category: Ingredient – Meat
@@ -199,6 +294,11 @@ Description: A ingredient that hums with distant songlines.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Deepwatch from camps.
 File: item_bronzed_quiver.png
+Origin: First carried in Deepwatch when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and hunting circles to anchor their patrols.
+First Known Maker: Ulwyn Deepwatch of Deepwatch.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [021 — Brood Saddle]
 Category: Ingredient – Fungus
@@ -209,6 +309,11 @@ Description: A ingredient that smells of resin and smoke.
 Uses: Crafting advanced alchemy tonics
 Drop Sources: Found in Cinder Kilns from raiders.
 File: item_brood_saddle.png
+Origin: First carried in Cinder Kilns when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and jewelry circles to anchor their patrols.
+First Known Maker: Vexa Glassward of Cinder Kilns.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [022 — Bramble Urn]
 Category: Ingredient – Grain
@@ -219,6 +324,11 @@ Description: A ingredient that smells of resin and smoke.
 Uses: Socketing into runic gear
 Drop Sources: Found in Stoneweald from nodes.
 File: item_bramble_urn.png
+Origin: First carried in Stoneweald when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and unaffiliated circles to anchor their patrols.
+First Known Maker: Wendell Feralfen of Stoneweald.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [023 — Bronzed Ward]
 Category: Material – Wood
@@ -229,6 +339,11 @@ Description: A material that feels heavier than it looks.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Riverlight Delta from nodes.
 File: item_bronzed_ward.png
+Origin: First carried in Riverlight Delta when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among cooking and fishing circles to anchor their patrols.
+First Known Maker: Ylara Whisperveil of Riverlight Delta.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [024 — Brood Yarn]
 Category: Material – Leather
@@ -239,6 +354,11 @@ Description: A material that holds the chill of cave dew.
 Uses: Socketing into runic gear
 Drop Sources: Found in Riverlight Delta from raiders.
 File: item_brood_yarn.png
+Origin: First carried in Riverlight Delta when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and alchemy circles to anchor their patrols.
+First Known Maker: Zorik Sunbound of Riverlight Delta.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [025 — Bramble Apple]
 Category: Material – Essence
@@ -249,6 +369,11 @@ Description: A material that smells of resin and smoke.
 Uses: Crafting advanced alchemy tonics
 Drop Sources: Found in Emberford from nodes.
 File: item_bramble_apple.png
+Origin: First carried in Emberford when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among unaffiliated and alchemy circles to anchor their patrols.
+First Known Maker: Aelric Frostline of Emberford.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [026 — Bronzed Blade]
 Category: Gear – Armor
@@ -259,6 +384,11 @@ Description: A gear that hums with distant songlines.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Stoneweald from beasts.
 File: item_bronzed_blade.png
+Origin: First carried in Stoneweald when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and tailoring circles to anchor their patrols.
+First Known Maker: Branna Greatwood of Stoneweald.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [027 — Cinder Ward]
 Category: Material – Wood
@@ -269,6 +399,11 @@ Description: A material that is stained by old sap.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Moonwake Marsh from raiders.
 File: item_cinder_ward.png
+Origin: First carried in Moonwake Marsh when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Caelan Bramblefall of Moonwake Marsh.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [028 — Crystal Yarn]
 Category: Material – Leather
@@ -279,6 +414,11 @@ Description: A material that holds the chill of cave dew.
 Uses: Upgrading profession tools
 Drop Sources: Found in Bramblefold from beasts.
 File: item_crystal_yarn.png
+Origin: First carried in Bramblefold when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and unaffiliated circles to anchor their patrols.
+First Known Maker: Doria Riverlight of Bramblefold.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [029 — Crestfallen Apple]
 Category: Material – Essence
@@ -289,6 +429,11 @@ Description: A material that rings when held to the ear.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Moonwake Marsh from nodes.
 File: item_crestfallen_apple.png
+Origin: First carried in Moonwake Marsh when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and jewelry circles to anchor their patrols.
+First Known Maker: Eldric Moonwake of Moonwake Marsh.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [030 — Cinder Blade]
 Category: Gear – Armor
@@ -299,6 +444,11 @@ Description: A gear that is stained by old sap.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Cinder Kilns from camps.
 File: item_cinder_blade.png
+Origin: First carried in Cinder Kilns when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and hunting circles to anchor their patrols.
+First Known Maker: Fara Stoneweald of Cinder Kilns.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [031 — Crystal Charm]
 Category: Gear – Off-hand
@@ -309,6 +459,11 @@ Description: A gear that is braided with copper wire.
 Uses: Forging mid-tier weapons
 Drop Sources: Found in Deepwatch from beasts.
 File: item_crystal_charm.png
+Origin: First carried in Deepwatch when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among hunting and tailoring circles to anchor their patrols.
+First Known Maker: Garran Emberford of Deepwatch.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [032 — Crestfallen Cowl]
 Category: Curio
@@ -319,6 +474,11 @@ Description: A curio that carries a faint ember glow.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Frost Caverns from nodes.
 File: item_crestfallen_cowl.png
+Origin: First carried in Frost Caverns when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and smithing circles to anchor their patrols.
+First Known Maker: Helene Amberwright of Frost Caverns.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [033 — Cinder Elixir]
 Category: Profession Tool
@@ -329,6 +489,11 @@ Description: A profession tool that carries a faint ember glow.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Glassfields from nodes.
 File: item_cinder_elixir.png
+Origin: First carried in Glassfields when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and alchemy circles to anchor their patrols.
+First Known Maker: Ivar Ashenford of Glassfields.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [034 — Crystal Gauntlet]
 Category: Ingredient – Meat
@@ -339,6 +504,11 @@ Description: A ingredient that is stained by old sap.
 Uses: Socketing into runic gear
 Drop Sources: Found in Deepwatch from camps.
 File: item_crystal_gauntlet.png
+Origin: First carried in Deepwatch when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and hunting circles to anchor their patrols.
+First Known Maker: Jaysa Streamborn of Deepwatch.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [035 — Duskborn Charm]
 Category: Gear – Off-hand
@@ -349,6 +519,11 @@ Description: A gear that is wrapped in waxed vellum.
 Uses: Socketing into runic gear
 Drop Sources: Found in Greatwood from beasts.
 File: item_duskborn_charm.png
+Origin: First carried in Greatwood when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and hunting circles to anchor their patrols.
+First Known Maker: Kaelen Shiverstone of Greatwood.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [036 — Dawnlit Cowl]
 Category: Curio
@@ -359,6 +534,11 @@ Description: A curio that shimmers with frost-seeded motes.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Riverlight Delta from nodes.
 File: item_dawnlit_cowl.png
+Origin: First carried in Riverlight Delta when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among hunting and smithing circles to anchor their patrols.
+First Known Maker: Liora Deepwatch of Riverlight Delta.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [037 — Drift Elixir]
 Category: Profession Tool
@@ -369,6 +549,11 @@ Description: A profession tool that smells of resin and smoke.
 Uses: Crafting advanced alchemy tonics
 Drop Sources: Found in Whispering Steppes from nodes.
 File: item_drift_elixir.png
+Origin: First carried in Whispering Steppes when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among cooking and unaffiliated circles to anchor their patrols.
+First Known Maker: Merrick Glassward of Whispering Steppes.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [038 — Duskborn Gauntlet]
 Category: Ingredient – Meat
@@ -379,6 +564,11 @@ Description: A ingredient that smells of resin and smoke.
 Uses: Upgrading profession tools
 Drop Sources: Found in Glassfields from beasts.
 File: item_duskborn_gauntlet.png
+Origin: First carried in Glassfields when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and fishing circles to anchor their patrols.
+First Known Maker: Nyra Feralfen of Glassfields.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [039 — Dawnlit Harpoon]
 Category: Ingredient – Fungus
@@ -389,6 +579,11 @@ Description: A ingredient that rings when held to the ear.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Deepwatch from beasts.
 File: item_dawnlit_harpoon.png
+Origin: First carried in Deepwatch when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and hunting circles to anchor their patrols.
+First Known Maker: Orien Whisperveil of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [040 — Drift Jerky]
 Category: Ingredient – Grain
@@ -399,6 +594,11 @@ Description: A ingredient that is stained by old sap.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Stoneweald from raiders.
 File: item_drift_jerky.png
+Origin: First carried in Stoneweald when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and fishing circles to anchor their patrols.
+First Known Maker: Pyria Sunbound of Stoneweald.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [041 — Duskborn Lantern]
 Category: Material – Wood
@@ -409,6 +609,11 @@ Description: A material that rings when held to the ear.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Glassfields from quests.
 File: item_duskborn_lantern.png
+Origin: First carried in Glassfields when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and smithing circles to anchor their patrols.
+First Known Maker: Quentin Frostline of Glassfields.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [042 — Dawnlit Needle]
 Category: Material – Leather
@@ -419,6 +624,11 @@ Description: A material that smells of resin and smoke.
 Uses: Socketing into runic gear
 Drop Sources: Found in Frost Caverns from camps.
 File: item_dawnlit_needle.png
+Origin: First carried in Frost Caverns when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and jewelry circles to anchor their patrols.
+First Known Maker: Rhosyn Greatwood of Frost Caverns.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [043 — Ember Harpoon]
 Category: Ingredient – Fungus
@@ -429,6 +639,11 @@ Description: A ingredient that is stained by old sap.
 Uses: Socketing into runic gear
 Drop Sources: Found in Feral Fens from camps.
 File: item_ember_harpoon.png
+Origin: First carried in Feral Fens when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and jewelry circles to anchor their patrols.
+First Known Maker: Sorrel Bramblefall of Feral Fens.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [044 — Elder Jerky]
 Category: Ingredient – Grain
@@ -439,6 +654,11 @@ Description: A ingredient that carries a faint ember glow.
 Uses: Upgrading profession tools
 Drop Sources: Found in Glassfields from raiders.
 File: item_elder_jerky.png
+Origin: First carried in Glassfields when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and unaffiliated circles to anchor their patrols.
+First Known Maker: Tavian Riverlight of Glassfields.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [045 — Ever Lantern]
 Category: Material – Wood
@@ -449,6 +669,11 @@ Description: A material that is stained by old sap.
 Uses: Crafting advanced alchemy tonics
 Drop Sources: Found in Moonwake Marsh from camps.
 File: item_ever_lantern.png
+Origin: First carried in Moonwake Marsh when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among unaffiliated and bowyer circles to anchor their patrols.
+First Known Maker: Ulwyn Moonwake of Moonwake Marsh.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [046 — Ember Needle]
 Category: Material – Leather
@@ -459,6 +684,11 @@ Description: A material that is wrapped in waxed vellum.
 Uses: Socketing into runic gear
 Drop Sources: Found in Stoneweald from camps.
 File: item_ember_needle.png
+Origin: First carried in Stoneweald when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and tailoring circles to anchor their patrols.
+First Known Maker: Vexa Stoneweald of Stoneweald.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [047 — Elder Parchment]
 Category: Material – Essence
@@ -469,6 +699,11 @@ Description: A material that is stained by old sap.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Ashen Plains from quests.
 File: item_elder_parchment.png
+Origin: First carried in Ashen Plains when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and alchemy circles to anchor their patrols.
+First Known Maker: Wendell Emberford of Ashen Plains.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [048 — Ever Ration]
 Category: Gear – Armor
@@ -479,6 +714,11 @@ Description: A gear that hums with distant songlines.
 Uses: Forging mid-tier weapons
 Drop Sources: Found in Feral Fens from camps.
 File: item_ever_ration.png
+Origin: First carried in Feral Fens when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Ylara Amberwright of Feral Fens.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [049 — Ember Talisman]
 Category: Gear – Off-hand
@@ -489,6 +729,11 @@ Description: A gear that is braided with copper wire.
 Uses: Forging mid-tier weapons
 Drop Sources: Found in Stoneweald from nodes.
 File: item_ember_talisman.png
+Origin: First carried in Stoneweald when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and fishing circles to anchor their patrols.
+First Known Maker: Zorik Ashenford of Stoneweald.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [050 — Elder Vial]
 Category: Curio
@@ -499,6 +744,11 @@ Description: A curio that holds the chill of cave dew.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Stoneweald from beasts.
 File: item_elder_vial.png
+Origin: First carried in Stoneweald when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and cooking circles to anchor their patrols.
+First Known Maker: Aelric Streamborn of Stoneweald.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [051 — Frostfell Parchment]
 Category: Material – Essence
@@ -509,6 +759,11 @@ Description: A material that holds the chill of cave dew.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Riverlight Delta from camps.
 File: item_frostfell_parchment.png
+Origin: First carried in Riverlight Delta when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and alchemy circles to anchor their patrols.
+First Known Maker: Branna Shiverstone of Riverlight Delta.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [052 — Feral Ration]
 Category: Gear – Armor
@@ -519,6 +774,11 @@ Description: A gear that carries a faint ember glow.
 Uses: Forging mid-tier weapons
 Drop Sources: Found in Frost Caverns from nodes.
 File: item_feral_ration.png
+Origin: First carried in Frost Caverns when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and bowyer circles to anchor their patrols.
+First Known Maker: Caelan Deepwatch of Frost Caverns.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [053 — Farscout Talisman]
 Category: Gear – Off-hand
@@ -529,6 +789,11 @@ Description: A gear that feels heavier than it looks.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Shiverstone Coast from nodes.
 File: item_farscout_talisman.png
+Origin: First carried in Shiverstone Coast when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and smithing circles to anchor their patrols.
+First Known Maker: Doria Glassward of Shiverstone Coast.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [054 — Frostfell Vial]
 Category: Curio
@@ -539,6 +804,11 @@ Description: A curio that carries a faint ember glow.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Riverlight Delta from raiders.
 File: item_frostfell_vial.png
+Origin: First carried in Riverlight Delta when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among smithing and hunting circles to anchor their patrols.
+First Known Maker: Eldric Feralfen of Riverlight Delta.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [055 — Feral Xylo-shard]
 Category: Profession Tool
@@ -549,6 +819,11 @@ Description: A profession tool that carries a faint ember glow.
 Uses: Upgrading profession tools
 Drop Sources: Found in Greatwood from nodes.
 File: item_feral_xylo-shard.png
+Origin: First carried in Greatwood when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and fishing circles to anchor their patrols.
+First Known Maker: Fara Whisperveil of Greatwood.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [056 — Farscout Zest]
 Category: Ingredient – Meat
@@ -559,6 +834,11 @@ Description: A ingredient that smells of resin and smoke.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Riverlight Delta from beasts.
 File: item_farscout_zest.png
+Origin: First carried in Riverlight Delta when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among smithing and jewelry circles to anchor their patrols.
+First Known Maker: Garran Sunbound of Riverlight Delta.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [057 — Frostfell Arrow]
 Category: Ingredient – Fungus
@@ -569,6 +849,11 @@ Description: A ingredient that carries a faint ember glow.
 Uses: Forging mid-tier weapons
 Drop Sources: Found in Shiverstone Coast from raiders.
 File: item_frostfell_arrow.png
+Origin: First carried in Shiverstone Coast when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and smithing circles to anchor their patrols.
+First Known Maker: Helene Frostline of Shiverstone Coast.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [058 — Feral Brew]
 Category: Ingredient – Grain
@@ -579,6 +864,11 @@ Description: A ingredient that is wrapped in waxed vellum.
 Uses: Upgrading profession tools
 Drop Sources: Found in Bramblefold from beasts.
 File: item_feral_brew.png
+Origin: First carried in Bramblefold when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and unaffiliated circles to anchor their patrols.
+First Known Maker: Ivar Greatwood of Bramblefold.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [059 — Glimmer Xylo-shard]
 Category: Profession Tool
@@ -589,6 +879,11 @@ Description: A profession tool that carries a faint ember glow.
 Uses: Upgrading profession tools
 Drop Sources: Found in Stoneweald from nodes.
 File: item_glimmer_xylo-shard.png
+Origin: First carried in Stoneweald when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and cooking circles to anchor their patrols.
+First Known Maker: Jaysa Bramblefall of Stoneweald.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [060 — Gravetide Zest]
 Category: Ingredient – Meat
@@ -599,6 +894,11 @@ Description: A ingredient that feels heavier than it looks.
 Uses: Upgrading profession tools
 Drop Sources: Found in Riverlight Delta from quests.
 File: item_gravetide_zest.png
+Origin: First carried in Riverlight Delta when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and smithing circles to anchor their patrols.
+First Known Maker: Kaelen Riverlight of Riverlight Delta.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [061 — Greatwood Arrow]
 Category: Ingredient – Fungus
@@ -609,6 +909,11 @@ Description: A ingredient that is wrapped in waxed vellum.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Stoneweald from camps.
 File: item_greatwood_arrow.png
+Origin: First carried in Stoneweald when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among unaffiliated and smithing circles to anchor their patrols.
+First Known Maker: Liora Moonwake of Stoneweald.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [062 — Glimmer Brew]
 Category: Ingredient – Grain
@@ -619,6 +924,11 @@ Description: A ingredient that is stained by old sap.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Sunspire from camps.
 File: item_glimmer_brew.png
+Origin: First carried in Sunspire when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and jewelry circles to anchor their patrols.
+First Known Maker: Merrick Stoneweald of Sunspire.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [063 — Gravetide Chisel]
 Category: Material – Wood
@@ -629,6 +939,11 @@ Description: A material that feels heavier than it looks.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Deepwatch from camps.
 File: item_gravetide_chisel.png
+Origin: First carried in Deepwatch when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and tailoring circles to anchor their patrols.
+First Known Maker: Nyra Emberford of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [064 — Greatwood Driftleaf]
 Category: Material – Leather
@@ -639,6 +954,11 @@ Description: A material that is stained by old sap.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Glassfields from quests.
 File: item_greatwood_driftleaf.png
+Origin: First carried in Glassfields when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among smithing and cooking circles to anchor their patrols.
+First Known Maker: Orien Amberwright of Glassfields.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [065 — Glimmer Feather]
 Category: Material – Essence
@@ -649,6 +969,11 @@ Description: A material that carries a faint ember glow.
 Uses: Socketing into runic gear
 Drop Sources: Found in Bramblefold from nodes.
 File: item_glimmer_feather.png
+Origin: First carried in Bramblefold when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among hunting and bowyer circles to anchor their patrols.
+First Known Maker: Pyria Ashenford of Bramblefold.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [066 — Gravetide Gland]
 Category: Gear – Armor
@@ -659,6 +984,11 @@ Description: A gear that shimmers with frost-seeded motes.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Bramblefold from beasts.
 File: item_gravetide_gland.png
+Origin: First carried in Bramblefold when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and smithing circles to anchor their patrols.
+First Known Maker: Quentin Streamborn of Bramblefold.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [067 — Hearth Chisel]
 Category: Material – Wood
@@ -669,6 +999,11 @@ Description: A material that hums with distant songlines.
 Uses: Completing regional quests
 Drop Sources: Found in Ashen Plains from camps.
 File: item_hearth_chisel.png
+Origin: First carried in Ashen Plains when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and bowyer circles to anchor their patrols.
+First Known Maker: Rhosyn Shiverstone of Ashen Plains.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [068 — Hazel Driftleaf]
 Category: Material – Leather
@@ -679,6 +1014,11 @@ Description: A material that is stained by old sap.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Deepwatch from quests.
 File: item_hazel_driftleaf.png
+Origin: First carried in Deepwatch when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and alchemy circles to anchor their patrols.
+First Known Maker: Sorrel Deepwatch of Deepwatch.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [069 — Hollow Feather]
 Category: Material – Essence
@@ -689,6 +1029,11 @@ Description: A material that feels heavier than it looks.
 Uses: Completing regional quests
 Drop Sources: Found in Bramblefold from camps.
 File: item_hollow_feather.png
+Origin: First carried in Bramblefold when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and cooking circles to anchor their patrols.
+First Known Maker: Tavian Glassward of Bramblefold.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [070 — Hearth Gland]
 Category: Gear – Armor
@@ -699,6 +1044,11 @@ Description: A gear that is stained by old sap.
 Uses: Upgrading profession tools
 Drop Sources: Found in Sunspire from raiders.
 File: item_hearth_gland.png
+Origin: First carried in Sunspire when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among hunting and jewelry circles to anchor their patrols.
+First Known Maker: Ulwyn Feralfen of Sunspire.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [071 — Hazel Ink]
 Category: Gear – Off-hand
@@ -709,6 +1059,11 @@ Description: A gear that smells of resin and smoke.
 Uses: Upgrading profession tools
 Drop Sources: Found in Whispering Steppes from camps.
 File: item_hazel_ink.png
+Origin: First carried in Whispering Steppes when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and alchemy circles to anchor their patrols.
+First Known Maker: Vexa Whisperveil of Whispering Steppes.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [072 — Hollow Knot]
 Category: Curio
@@ -719,6 +1074,11 @@ Description: A curio that is wrapped in waxed vellum.
 Uses: Socketing into runic gear
 Drop Sources: Found in Sunspire from raiders.
 File: item_hollow_knot.png
+Origin: First carried in Sunspire when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among hunting and bowyer circles to anchor their patrols.
+First Known Maker: Wendell Sunbound of Sunspire.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [073 — Hearth Map]
 Category: Profession Tool
@@ -729,6 +1089,11 @@ Description: A profession tool that hums with distant songlines.
 Uses: Socketing into runic gear
 Drop Sources: Found in Whispering Steppes from nodes.
 File: item_hearth_map.png
+Origin: First carried in Whispering Steppes when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and fishing circles to anchor their patrols.
+First Known Maker: Ylara Frostline of Whispering Steppes.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [074 — Hazel Oil]
 Category: Ingredient – Meat
@@ -739,6 +1104,11 @@ Description: A ingredient that holds the chill of cave dew.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Ashen Plains from camps.
 File: item_hazel_oil.png
+Origin: First carried in Ashen Plains when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among jewelry and bowyer circles to anchor their patrols.
+First Known Maker: Zorik Greatwood of Ashen Plains.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [075 — Ironroot Ink]
 Category: Gear – Off-hand
@@ -749,6 +1119,11 @@ Description: A gear that is braided with copper wire.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Riverlight Delta from raiders.
 File: item_ironroot_ink.png
+Origin: First carried in Riverlight Delta when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and hunting circles to anchor their patrols.
+First Known Maker: Aelric Bramblefall of Riverlight Delta.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [076 — Ivory Knot]
 Category: Curio
@@ -759,6 +1134,11 @@ Description: A curio that is braided with copper wire.
 Uses: Completing regional quests
 Drop Sources: Found in Deepwatch from raiders.
 File: item_ivory_knot.png
+Origin: First carried in Deepwatch when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and alchemy circles to anchor their patrols.
+First Known Maker: Branna Riverlight of Deepwatch.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [077 — Idle Map]
 Category: Profession Tool
@@ -769,6 +1149,11 @@ Description: A profession tool that is braided with copper wire.
 Uses: Socketing into runic gear
 Drop Sources: Found in Bramblefold from quests.
 File: item_idle_map.png
+Origin: First carried in Bramblefold when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and alchemy circles to anchor their patrols.
+First Known Maker: Caelan Moonwake of Bramblefold.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [078 — Ironroot Oil]
 Category: Ingredient – Meat
@@ -779,6 +1164,11 @@ Description: A ingredient that feels heavier than it looks.
 Uses: Upgrading profession tools
 Drop Sources: Found in Glassfields from nodes.
 File: item_ironroot_oil.png
+Origin: First carried in Glassfields when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and tailoring circles to anchor their patrols.
+First Known Maker: Doria Stoneweald of Glassfields.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [079 — Ivory Quiver]
 Category: Ingredient – Fungus
@@ -789,6 +1179,11 @@ Description: A ingredient that smells of resin and smoke.
 Uses: Crafting advanced alchemy tonics
 Drop Sources: Found in Bramblefold from raiders.
 File: item_ivory_quiver.png
+Origin: First carried in Bramblefold when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and smithing circles to anchor their patrols.
+First Known Maker: Eldric Emberford of Bramblefold.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [080 — Idle Saddle]
 Category: Ingredient – Grain
@@ -799,6 +1194,11 @@ Description: A ingredient that holds the chill of cave dew.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Ashen Plains from raiders.
 File: item_idle_saddle.png
+Origin: First carried in Ashen Plains when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and bowyer circles to anchor their patrols.
+First Known Maker: Fara Amberwright of Ashen Plains.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [081 — Ironroot Urn]
 Category: Material – Wood
@@ -809,6 +1209,11 @@ Description: A material that shimmers with frost-seeded motes.
 Uses: Crafting advanced alchemy tonics
 Drop Sources: Found in Stoneweald from quests.
 File: item_ironroot_urn.png
+Origin: First carried in Stoneweald when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among cooking and unaffiliated circles to anchor their patrols.
+First Known Maker: Garran Ashenford of Stoneweald.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [082 — Ivory Ward]
 Category: Material – Leather
@@ -819,6 +1224,11 @@ Description: A material that is braided with copper wire.
 Uses: Crafting advanced alchemy tonics
 Drop Sources: Found in Moonwake Marsh from camps.
 File: item_ivory_ward.png
+Origin: First carried in Moonwake Marsh when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and hunting circles to anchor their patrols.
+First Known Maker: Helene Streamborn of Moonwake Marsh.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [083 — Juniper Quiver]
 Category: Ingredient – Fungus
@@ -829,6 +1239,11 @@ Description: A ingredient that feels heavier than it looks.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Moonwake Marsh from camps.
 File: item_juniper_quiver.png
+Origin: First carried in Moonwake Marsh when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and smithing circles to anchor their patrols.
+First Known Maker: Ivar Shiverstone of Moonwake Marsh.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [084 — Jetstone Saddle]
 Category: Ingredient – Grain
@@ -839,6 +1254,11 @@ Description: A ingredient that is stained by old sap.
 Uses: Socketing into runic gear
 Drop Sources: Found in Deepwatch from quests.
 File: item_jetstone_saddle.png
+Origin: First carried in Deepwatch when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among hunting and smithing circles to anchor their patrols.
+First Known Maker: Jaysa Deepwatch of Deepwatch.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [085 — Jade Urn]
 Category: Material – Wood
@@ -849,6 +1269,11 @@ Description: A material that shimmers with frost-seeded motes.
 Uses: Completing regional quests
 Drop Sources: Found in Riverlight Delta from camps.
 File: item_jade_urn.png
+Origin: First carried in Riverlight Delta when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and cooking circles to anchor their patrols.
+First Known Maker: Kaelen Glassward of Riverlight Delta.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [086 — Juniper Ward]
 Category: Material – Leather
@@ -859,6 +1284,11 @@ Description: A material that hums with distant songlines.
 Uses: Completing regional quests
 Drop Sources: Found in Cinder Kilns from quests.
 File: item_juniper_ward.png
+Origin: First carried in Cinder Kilns when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and alchemy circles to anchor their patrols.
+First Known Maker: Liora Feralfen of Cinder Kilns.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [087 — Jetstone Yarn]
 Category: Material – Essence
@@ -869,6 +1299,11 @@ Description: A material that hums with distant songlines.
 Uses: Forging mid-tier weapons
 Drop Sources: Found in Cinder Kilns from nodes.
 File: item_jetstone_yarn.png
+Origin: First carried in Cinder Kilns when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and unaffiliated circles to anchor their patrols.
+First Known Maker: Merrick Whisperveil of Cinder Kilns.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [088 — Jade Apple]
 Category: Gear – Armor
@@ -879,6 +1314,11 @@ Description: A gear that is wrapped in waxed vellum.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Feral Fens from beasts.
 File: item_jade_apple.png
+Origin: First carried in Feral Fens when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and smithing circles to anchor their patrols.
+First Known Maker: Nyra Sunbound of Feral Fens.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [089 — Juniper Blade]
 Category: Gear – Off-hand
@@ -889,6 +1329,11 @@ Description: A gear that rings when held to the ear.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Ashen Plains from nodes.
 File: item_juniper_blade.png
+Origin: First carried in Ashen Plains when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and hunting circles to anchor their patrols.
+First Known Maker: Orien Frostline of Ashen Plains.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [090 — Jetstone Charm]
 Category: Curio
@@ -899,6 +1344,11 @@ Description: A curio that is wrapped in waxed vellum.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Sunspire from quests.
 File: item_jetstone_charm.png
+Origin: First carried in Sunspire when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and bowyer circles to anchor their patrols.
+First Known Maker: Pyria Greatwood of Sunspire.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [091 — Kindled Yarn]
 Category: Material – Essence
@@ -909,6 +1359,11 @@ Description: A material that is wrapped in waxed vellum.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Emberford from beasts.
 File: item_kindled_yarn.png
+Origin: First carried in Emberford when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Quentin Bramblefall of Emberford.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [092 — Knotwood Apple]
 Category: Gear – Armor
@@ -919,6 +1374,11 @@ Description: A gear that is braided with copper wire.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Glassfields from nodes.
 File: item_knotwood_apple.png
+Origin: First carried in Glassfields when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and bowyer circles to anchor their patrols.
+First Known Maker: Rhosyn Riverlight of Glassfields.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [093 — Kestrel Blade]
 Category: Gear – Off-hand
@@ -929,6 +1389,11 @@ Description: A gear that feels heavier than it looks.
 Uses: Completing regional quests
 Drop Sources: Found in Deepwatch from camps.
 File: item_kestrel_blade.png
+Origin: First carried in Deepwatch when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among cooking and bowyer circles to anchor their patrols.
+First Known Maker: Sorrel Moonwake of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [094 — Kindled Charm]
 Category: Curio
@@ -939,6 +1404,11 @@ Description: A curio that is braided with copper wire.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Ashen Plains from camps.
 File: item_kindled_charm.png
+Origin: First carried in Ashen Plains when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and smithing circles to anchor their patrols.
+First Known Maker: Tavian Stoneweald of Ashen Plains.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [095 — Knotwood Cowl]
 Category: Profession Tool
@@ -949,6 +1419,11 @@ Description: A profession tool that carries a faint ember glow.
 Uses: Socketing into runic gear
 Drop Sources: Found in Greatwood from camps.
 File: item_knotwood_cowl.png
+Origin: First carried in Greatwood when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and cooking circles to anchor their patrols.
+First Known Maker: Ulwyn Emberford of Greatwood.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [096 — Kestrel Elixir]
 Category: Ingredient – Meat
@@ -959,6 +1434,11 @@ Description: A ingredient that carries a faint ember glow.
 Uses: Completing regional quests
 Drop Sources: Found in Ashen Plains from nodes.
 File: item_kestrel_elixir.png
+Origin: First carried in Ashen Plains when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among tailoring and hunting circles to anchor their patrols.
+First Known Maker: Vexa Amberwright of Ashen Plains.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [097 — Kindled Gauntlet]
 Category: Ingredient – Fungus
@@ -969,6 +1449,11 @@ Description: A ingredient that feels heavier than it looks.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Emberford from raiders.
 File: item_kindled_gauntlet.png
+Origin: First carried in Emberford when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and alchemy circles to anchor their patrols.
+First Known Maker: Wendell Ashenford of Emberford.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [098 — Knotwood Harpoon]
 Category: Ingredient – Grain
@@ -979,6 +1464,11 @@ Description: A ingredient that is braided with copper wire.
 Uses: Upgrading profession tools
 Drop Sources: Found in Moonwake Marsh from raiders.
 File: item_knotwood_harpoon.png
+Origin: First carried in Moonwake Marsh when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and smithing circles to anchor their patrols.
+First Known Maker: Ylara Streamborn of Moonwake Marsh.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [099 — Lantern Cowl]
 Category: Profession Tool
@@ -989,6 +1479,11 @@ Description: A profession tool that rings when held to the ear.
 Uses: Crafting advanced alchemy tonics
 Drop Sources: Found in Frost Caverns from quests.
 File: item_lantern_cowl.png
+Origin: First carried in Frost Caverns when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and cooking circles to anchor their patrols.
+First Known Maker: Zorik Shiverstone of Frost Caverns.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [100 — Luminous Elixir]
 Category: Ingredient – Meat
@@ -999,6 +1494,11 @@ Description: A ingredient that hums with distant songlines.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Stoneweald from beasts.
 File: item_luminous_elixir.png
+Origin: First carried in Stoneweald when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and alchemy circles to anchor their patrols.
+First Known Maker: Aelric Deepwatch of Stoneweald.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [101 — Lupine Gauntlet]
 Category: Ingredient – Fungus
@@ -1009,6 +1509,11 @@ Description: A ingredient that rings when held to the ear.
 Uses: Forging mid-tier weapons
 Drop Sources: Found in Glassfields from raiders.
 File: item_lupine_gauntlet.png
+Origin: First carried in Glassfields when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and fishing circles to anchor their patrols.
+First Known Maker: Branna Glassward of Glassfields.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [102 — Lantern Harpoon]
 Category: Ingredient – Grain
@@ -1019,6 +1524,11 @@ Description: A ingredient that hums with distant songlines.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Emberford from nodes.
 File: item_lantern_harpoon.png
+Origin: First carried in Emberford when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among tailoring and hunting circles to anchor their patrols.
+First Known Maker: Caelan Feralfen of Emberford.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [103 — Luminous Jerky]
 Category: Material – Wood
@@ -1029,6 +1539,11 @@ Description: A material that hums with distant songlines.
 Uses: Upgrading profession tools
 Drop Sources: Found in Shiverstone Coast from beasts.
 File: item_luminous_jerky.png
+Origin: First carried in Shiverstone Coast when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and cooking circles to anchor their patrols.
+First Known Maker: Doria Whisperveil of Shiverstone Coast.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [104 — Lupine Lantern]
 Category: Material – Leather
@@ -1039,6 +1554,11 @@ Description: A material that holds the chill of cave dew.
 Uses: Completing regional quests
 Drop Sources: Found in Moonwake Marsh from nodes.
 File: item_lupine_lantern.png
+Origin: First carried in Moonwake Marsh when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among jewelry and cooking circles to anchor their patrols.
+First Known Maker: Eldric Sunbound of Moonwake Marsh.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [105 — Lantern Needle]
 Category: Material – Essence
@@ -1049,6 +1569,11 @@ Description: A material that is wrapped in waxed vellum.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Deepwatch from nodes.
 File: item_lantern_needle.png
+Origin: First carried in Deepwatch when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and jewelry circles to anchor their patrols.
+First Known Maker: Fara Frostline of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [106 — Luminous Parchment]
 Category: Gear – Armor
@@ -1059,6 +1584,11 @@ Description: A gear that carries a faint ember glow.
 Uses: Socketing into runic gear
 Drop Sources: Found in Emberford from beasts.
 File: item_luminous_parchment.png
+Origin: First carried in Emberford when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and jewelry circles to anchor their patrols.
+First Known Maker: Garran Greatwood of Emberford.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [107 — Moonset Jerky]
 Category: Material – Wood
@@ -1069,6 +1599,11 @@ Description: A material that feels heavier than it looks.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Deepwatch from camps.
 File: item_moonset_jerky.png
+Origin: First carried in Deepwatch when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and jewelry circles to anchor their patrols.
+First Known Maker: Helene Bramblefall of Deepwatch.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [108 — Mire Lantern]
 Category: Material – Leather
@@ -1079,6 +1614,11 @@ Description: A material that carries a faint ember glow.
 Uses: Turning in for faction reputation
 Drop Sources: Found in Whispering Steppes from quests.
 File: item_mire_lantern.png
+Origin: First carried in Whispering Steppes when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and cooking circles to anchor their patrols.
+First Known Maker: Ivar Riverlight of Whispering Steppes.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [109 — Mosslit Needle]
 Category: Material – Essence
@@ -1089,6 +1629,11 @@ Description: A material that rings when held to the ear.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Cinder Kilns from nodes.
 File: item_mosslit_needle.png
+Origin: First carried in Cinder Kilns when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and alchemy circles to anchor their patrols.
+First Known Maker: Jaysa Moonwake of Cinder Kilns.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [110 — Moonset Parchment]
 Category: Gear – Armor
@@ -1099,6 +1644,11 @@ Description: A gear that holds the chill of cave dew.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Bramblefold from nodes.
 File: item_moonset_parchment.png
+Origin: First carried in Bramblefold when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Kaelen Stoneweald of Bramblefold.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [111 — Mire Ration]
 Category: Gear – Off-hand
@@ -1109,6 +1659,11 @@ Description: A gear that rings when held to the ear.
 Uses: Socketing into runic gear
 Drop Sources: Found in Riverlight Delta from quests.
 File: item_mire_ration.png
+Origin: First carried in Riverlight Delta when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and unaffiliated circles to anchor their patrols.
+First Known Maker: Liora Emberford of Riverlight Delta.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [112 — Mosslit Talisman]
 Category: Curio
@@ -1119,6 +1674,11 @@ Description: A curio that feels heavier than it looks.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Emberford from raiders.
 File: item_mosslit_talisman.png
+Origin: First carried in Emberford when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Merrick Amberwright of Emberford.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [113 — Moonset Vial]
 Category: Profession Tool
@@ -1129,6 +1689,11 @@ Description: A profession tool that hums with distant songlines.
 Uses: Tailoring resilient gear
 Drop Sources: Found in Sunspire from quests.
 File: item_moonset_vial.png
+Origin: First carried in Sunspire when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among hunting and jewelry circles to anchor their patrols.
+First Known Maker: Nyra Ashenford of Sunspire.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [114 — Mire Xylo-shard]
 Category: Ingredient – Meat
@@ -1139,6 +1704,11 @@ Description: A ingredient that is wrapped in waxed vellum.
 Uses: Completing regional quests
 Drop Sources: Found in Whispering Steppes from camps.
 File: item_mire_xylo-shard.png
+Origin: First carried in Whispering Steppes when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and hunting circles to anchor their patrols.
+First Known Maker: Orien Streamborn of Whispering Steppes.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [115 — Nightvine Ration]
 Category: Gear – Off-hand
@@ -1149,6 +1719,11 @@ Description: A gear that feels heavier than it looks.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Moonwake Marsh from nodes.
 File: item_nightvine_ration.png
+Origin: First carried in Moonwake Marsh when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and smithing circles to anchor their patrols.
+First Known Maker: Pyria Shiverstone of Moonwake Marsh.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [116 — Northwind Talisman]
 Category: Curio
@@ -1159,6 +1734,11 @@ Description: A curio that carries a faint ember glow.
 Uses: Enchanting catalysts for late-game crafts
 Drop Sources: Found in Shiverstone Coast from quests.
 File: item_northwind_talisman.png
+Origin: First carried in Shiverstone Coast when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and unaffiliated circles to anchor their patrols.
+First Known Maker: Quentin Deepwatch of Shiverstone Coast.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [117 — Nettle Vial]
 Category: Profession Tool
@@ -1169,6 +1749,11 @@ Description: A profession tool that hums with distant songlines.
 Uses: Cooking buff meals and rations
 Drop Sources: Found in Bramblefold from beasts.
 File: item_nettle_vial.png
+Origin: First carried in Bramblefold when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and bowyer circles to anchor their patrols.
+First Known Maker: Rhosyn Glassward of Bramblefold.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [118 — Nightvine Xylo-shard]
 Category: Ingredient – Meat
@@ -1179,6 +1764,11 @@ Description: A ingredient that carries a faint ember glow.
 Uses: Crafting advanced alchemy tonics
 Drop Sources: Found in Sunspire from raiders.
 File: item_nightvine_xylo-shard.png
+Origin: First carried in Sunspire when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and hunting circles to anchor their patrols.
+First Known Maker: Sorrel Feralfen of Sunspire.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [119 — Northwind Zest]
 Category: Ingredient – Fungus
@@ -1189,6 +1779,11 @@ Description: A ingredient that shimmers with frost-seeded motes.
 Uses: Fuel for campfire survival kits
 Drop Sources: Found in Sunspire from beasts.
 File: item_northwind_zest.png
+Origin: First carried in Sunspire when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and cooking circles to anchor their patrols.
+First Known Maker: Tavian Whisperveil of Sunspire.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [120 — Nettle Arrow]
 Category: Ingredient – Grain
@@ -1199,6 +1794,11 @@ Description: A ingredient that holds the chill of cave dew.
 Uses: Upgrading profession tools
 Drop Sources: Found in Stoneweald from camps.
 File: item_nettle_arrow.png
+Origin: First carried in Stoneweald when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and bowyer circles to anchor their patrols.
+First Known Maker: Ulwyn Sunbound of Stoneweald.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
 
 [121 — Nightvine Brew]
 Category: Material – Wood
