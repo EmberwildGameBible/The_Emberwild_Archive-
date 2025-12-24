@@ -3,6 +3,7 @@
 Classic-friendly bulk pack that seeds over a thousand new items by expanding four proven supply lines with affix-ready variants. Each batch lists base names; affixes from [Items Master List — Global A–Z](./Items_Master_List%20-%20GLOBAL%20A-Z.md) and [ITEM_TAXONOMY - GLOBAL OVERVIEW.md](./ITEM_TAXONOMY%20-%20GLOBAL%20OVERVIEW.md) compound them into classic loot tables without breaking rarity budgets. See the detailed rosters below for 1,000 line-item entries ready for table drops.
 
 Navigation: [Thousandfold Stock Bid Board](../09_Artifacts/Thousandfold_Stock_Bid_Board.md) | [Thousandfold Stock Freight Ledger](../09_Artifacts/Thousandfold_Stock_Freight_Ledger.md)
+Classic-friendly bulk pack that seeds over a thousand new items by expanding four proven supply lines with affix-ready variants. Each batch lists base names; affixes from [Items Master List — Global A–Z](./Items_Master_List%20-%20GLOBAL%20A-Z.md) and [ITEM_TAXONOMY - GLOBAL OVERVIEW.md](./ITEM_TAXONOMY%20-%20GLOBAL%20OVERVIEW.md) compound them into classic loot tables without breaking rarity budgets.
 
 ---
 
@@ -1120,3 +1121,4 @@ See [Thousandfold Stock Bid Board](../09_Artifacts/Thousandfold_Stock_Bid_Board.
 | 249 | Mudwish Syrup | Syrup | quick-brew buffs for marsh skirmishes | Glimmerdeep Mire | Classic affixes: yes |
 | 250 | Tallow Fume | Fume | edge coatings that refill rogue bleed uptime | Glimmerdeep Mire | Classic affixes: yes |
 
+See [Thousandfold Stock Bid Board](../09_Artifacts/Thousandfold_Stock_Bid_Board.md) for vendor chatter tying these batches to Marketwalk, Strand salvage crews, Frostbriar ropeways, and Glimmerdeep brokers.
