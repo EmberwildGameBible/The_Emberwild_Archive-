@@ -8,3 +8,11 @@
 - Twelve_True_Pages/THE TWELVE TRUE PAGES - MASTER BLUEPRINT.md
 - QUEST_EXPANSION_PACK.md — Contracts, bounties, and delivery loops aligned to new subzones and enemies.
 - [Emberford Marketwalk Quest Hub](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) — Ferry routes, shrine rumors, market debts, and kiln crews stitched into one hub.
+- [Strandline Courier Loop](../07_Quests/Strandline_Courier_Loop.md) — Repeatable courier circuit across Saltmarrow Strand with flare calls and sinkhole hazards.
+- [Kelp Sweep](../07_Quests/Kelp_Sweep.md) — Harvest-and-clear patrol in Kelpback Shallows tied to Joft’s bindings and chowder prep.
+- [Windbreak Bounty Board](../07_Quests/Windbreak_Bounty_Board.md) — Palisade maintenance and swarm-control postings with salve crafting hooks.
+- [Frostbriar Trail Hub](../07_Quests/Frostbriar_Trail_Hub.md) — Sled escort, ash drift patrols, and chill prep quests linking to Ashen Cry.
+- [Glimmerdeep Shore Hub](../07_Quests/Glimmerdeep_Shore_Hub.md) — Ropeway support, glowspore escorts, and ledger salvage runs across the mire.
+- [Old Road Circuit](../07_Quests/Old_Road_Circuit.md) — Repeatable courier patrol connecting Saltmarrow Strand and Frostbriar slides.
+- [Mire Salvage Chain](../07_Quests/Mire_Salvage_Chain.md) — Ledger recovery storyline tying Glimmerdeep vents to Ashen Cry smugglers.
+- Dungeon: [Ashen Cry Grotto Quests](../07_Quests/Dungeon/Ashen_Cry_Grotto_Quests.md) — Eight-run contract set for the new grotto crawl.

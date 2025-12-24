@@ -41,3 +41,4 @@
 - Professions_And_Crafting/FISHING LOG - “Shattercoast Trip #12”.md
 - Professions_And_Crafting/ILLEGAL ALCHEMY NOTE - “Unstable Mixture”.md
 - World_And_Events/CHAPTER 10 - APPENDIX Q - WORLD EVENTS, TRIGGERS &.md
+- Dungeons: [Ashen Cry Grotto](../06_Systems/Dungeons/Ashen_Cry_Grotto/Dungeon_Overview.md) — Frostbriar/Glimmerdeep-linked crawl with rope hazards and glowspore loot.
