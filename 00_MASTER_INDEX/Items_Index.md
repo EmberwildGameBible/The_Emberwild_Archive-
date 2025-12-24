@@ -8,6 +8,7 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 - ITEM CATALOG - A TO Z.md — Alphabetized items across rarities with sources, roles, and classic-friendly hooks.
 - Items_Master_List - GLOBAL A-Z.md — Unified item entries with category, rarity, drops, and profession tags across all families.
 - ITEM_TAXONOMY - GLOBAL OVERVIEW.md — Shared item family definitions, rarity usage, and profession/system touchpoints.
+- ITEM_CATALOG - THOUSANDFOLD_CLASSIC_STOCK.md — Four bulk batches (201–1200) with base names and suffix-ready slots that expand into a thousand classic-friendly drops. Includes a 1,000-line roster table keyed to Marketwalk, Saltmarrow, Frostbriar, and Glimmerdeep hooks.
 - ITEM_CATALOG - THOUSANDFOLD_CLASSIC_STOCK.md — Four bulk batches (201–1200) with base names and suffix-ready slots that expand into a thousand classic-friendly drops.
 - Ingredients_Expansion_A-Z.md — Massive A–Z harvestable expansion with rarity, biome sourcing, and profession hooks.
 
