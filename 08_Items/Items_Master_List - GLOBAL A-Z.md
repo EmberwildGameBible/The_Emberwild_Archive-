@@ -134,6 +134,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 008 — Dawnstar Talisman {#item-008}
+Origin: First carried in Frost caverns when gear – 1h sword trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among smithing circles to anchor their patrols.
+First Known Maker: Helene Whisperveil of Frost caverns.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[008 — Dawnstar Talisman]
 Category: Trinket
 Rarity: Epic
 Profession Tags: Jewelry
@@ -153,6 +160,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 009 — Deepwatch Pauldrons {#item-009}
+Origin: First carried in Sunspire summit when trinket trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry circles to anchor their patrols.
+First Known Maker: Ivar Sunbound of Sunspire summit.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[009 — Deepwatch Pauldrons]
 Category: Gear – Plate Shoulders
 Rarity: Rare
 Profession Tags: Armorsmithing
@@ -172,6 +186,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 010 — Emberglass Wand {#item-010}
+Origin: First carried in Deepwatch when gear – plate shoulders trials pushed deeper into the wilds.
+  Rare war-chests traded early copies among armorsmithing circles to anchor their patrols.
+First Known Maker: Jaysa Frostline of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[010 — Emberglass Wand]
 Category: Gear – Wand
 Rarity: Rare
 Profession Tags: Alchemy, Jewelry
@@ -191,6 +212,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 011 — Amberwild Gland {#item-011}
+Origin: First carried in Glassfields when gear – wand trials pushed deeper into the wilds.
+  Rare war-chests traded early copies among alchemy and jewelry circles to anchor their patrols.
+First Known Maker: Kaelen Greatwood of Glassfields.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[011 — Amberwild Gland]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Smithing, Alchemy
@@ -210,6 +238,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 012 — Ashen Ink {#item-012}
+Origin: First carried in Feral Fens when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and alchemy circles to anchor their patrols.
+First Known Maker: Liora Bramblefall of Feral Fens.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[012 — Ashen Ink]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: Tailoring, Bowyer
@@ -229,6 +264,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 013 — Ancient Knot {#item-013}
+Origin: First carried in Whispering Steppes when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among tailoring and bowyer circles to anchor their patrols.
+First Known Maker: Merrick Riverlight of Whispering Steppes.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[013 — Ancient Knot]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Jewelry, Cooking
@@ -248,6 +290,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 014 — Amberwild Map {#item-014}
+Origin: First carried in Sunspire when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and cooking circles to anchor their patrols.
+First Known Maker: Nyra Moonwake of Sunspire.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[014 — Amberwild Map]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Cooking, Fishing
@@ -267,6 +316,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 015 — Ashen Oil {#item-015}
+Origin: First carried in Shiverstone Coast when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and fishing circles to anchor their patrols.
+First Known Maker: Orien Stoneweald of Shiverstone Coast.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[015 — Ashen Oil]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Smithing, Hunting
@@ -286,6 +342,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 016 — Ancient Quiver {#item-016}
+Origin: First carried in Shiverstone Coast when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and hunting circles to anchor their patrols.
+First Known Maker: Pyria Emberford of Shiverstone Coast.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[016 — Ancient Quiver]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: None, Jewelry
@@ -305,6 +368,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 017 — Amberwild Saddle {#item-017}
+Origin: First carried in Moonwake Marsh when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and jewelry circles to anchor their patrols.
+First Known Maker: Quentin Amberwright of Moonwake Marsh.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[017 — Amberwild Saddle]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Hunting, Smithing
@@ -324,6 +394,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 018 — Ashen Urn {#item-018}
+Origin: First carried in Sunspire when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among hunting and smithing circles to anchor their patrols.
+First Known Maker: Rhosyn Ashenford of Sunspire.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[018 — Ashen Urn]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Tailoring, None
@@ -343,6 +420,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 019 — Bramble Oil {#item-019}
+Origin: First carried in Emberford when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among tailoring and unaffiliated circles to anchor their patrols.
+First Known Maker: Sorrel Streamborn of Emberford.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[019 — Bramble Oil]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Jewelry, Cooking
@@ -362,6 +446,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 020 — Bronzed Quiver {#item-020}
+Origin: First carried in Glassfields when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and cooking circles to anchor their patrols.
+First Known Maker: Tavian Shiverstone of Glassfields.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[020 — Bronzed Quiver]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: Cooking, Hunting
@@ -381,6 +472,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 021 — Brood Saddle {#item-021}
+Origin: First carried in Deepwatch when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and hunting circles to anchor their patrols.
+First Known Maker: Ulwyn Deepwatch of Deepwatch.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[021 — Brood Saddle]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Tailoring, Jewelry
@@ -400,6 +498,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 022 — Bramble Urn {#item-022}
+Origin: First carried in Cinder Kilns when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and jewelry circles to anchor their patrols.
+First Known Maker: Vexa Glassward of Cinder Kilns.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[022 — Bramble Urn]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Fishing, None
@@ -419,6 +524,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 023 — Bronzed Ward {#item-023}
+Origin: First carried in Stoneweald when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and unaffiliated circles to anchor their patrols.
+First Known Maker: Wendell Feralfen of Stoneweald.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[023 — Bronzed Ward]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Cooking, Fishing
@@ -438,6 +550,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 024 — Brood Yarn {#item-024}
+Origin: First carried in Riverlight Delta when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among cooking and fishing circles to anchor their patrols.
+First Known Maker: Ylara Whisperveil of Riverlight Delta.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[024 — Brood Yarn]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: Bowyer, Alchemy
@@ -457,6 +576,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 025 — Bramble Apple {#item-025}
+Origin: First carried in Riverlight Delta when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and alchemy circles to anchor their patrols.
+First Known Maker: Zorik Sunbound of Riverlight Delta.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[025 — Bramble Apple]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: None, Alchemy
@@ -476,6 +602,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 026 — Bronzed Blade {#item-026}
+Origin: First carried in Emberford when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among unaffiliated and alchemy circles to anchor their patrols.
+First Known Maker: Aelric Frostline of Emberford.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[026 — Bronzed Blade]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: None, Tailoring
@@ -495,6 +628,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 027 — Cinder Ward {#item-027}
+Origin: First carried in Stoneweald when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and tailoring circles to anchor their patrols.
+First Known Maker: Branna Greatwood of Stoneweald.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[027 — Cinder Ward]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Fishing, Tailoring
@@ -514,6 +654,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 028 — Crystal Yarn {#item-028}
+Origin: First carried in Moonwake Marsh when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Caelan Bramblefall of Moonwake Marsh.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[028 — Crystal Yarn]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: Bowyer, None
@@ -533,6 +680,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 029 — Crestfallen Apple {#item-029}
+Origin: First carried in Bramblefold when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and unaffiliated circles to anchor their patrols.
+First Known Maker: Doria Riverlight of Bramblefold.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[029 — Crestfallen Apple]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Smithing, Jewelry
@@ -552,6 +706,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 030 — Cinder Blade {#item-030}
+Origin: First carried in Moonwake Marsh when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and jewelry circles to anchor their patrols.
+First Known Maker: Eldric Moonwake of Moonwake Marsh.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[030 — Cinder Blade]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: None, Hunting
@@ -571,6 +732,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 031 — Crystal Charm {#item-031}
+Origin: First carried in Cinder Kilns when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and hunting circles to anchor their patrols.
+First Known Maker: Fara Stoneweald of Cinder Kilns.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[031 — Crystal Charm]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Hunting, Tailoring
@@ -590,6 +758,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 032 — Crestfallen Cowl {#item-032}
+Origin: First carried in Deepwatch when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among hunting and tailoring circles to anchor their patrols.
+First Known Maker: Garran Emberford of Deepwatch.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[032 — Crestfallen Cowl]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Bowyer, Smithing
@@ -609,6 +784,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 033 — Cinder Elixir {#item-033}
+Origin: First carried in Frost Caverns when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and smithing circles to anchor their patrols.
+First Known Maker: Helene Amberwright of Frost Caverns.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[033 — Cinder Elixir]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Bowyer, Alchemy
@@ -628,6 +810,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 034 — Crystal Gauntlet {#item-034}
+Origin: First carried in Glassfields when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and alchemy circles to anchor their patrols.
+First Known Maker: Ivar Ashenford of Glassfields.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[034 — Crystal Gauntlet]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: Fishing, Hunting
@@ -647,6 +836,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 035 — Duskborn Charm {#item-035}
+Origin: First carried in Deepwatch when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and hunting circles to anchor their patrols.
+First Known Maker: Jaysa Streamborn of Deepwatch.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[035 — Duskborn Charm]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Alchemy, Hunting
@@ -666,6 +862,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 036 — Dawnlit Cowl {#item-036}
+Origin: First carried in Greatwood when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and hunting circles to anchor their patrols.
+First Known Maker: Kaelen Shiverstone of Greatwood.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[036 — Dawnlit Cowl]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Hunting, Smithing
@@ -685,6 +888,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 037 — Drift Elixir {#item-037}
+Origin: First carried in Riverlight Delta when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among hunting and smithing circles to anchor their patrols.
+First Known Maker: Liora Deepwatch of Riverlight Delta.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[037 — Drift Elixir]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Cooking, None
@@ -704,6 +914,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 038 — Duskborn Gauntlet {#item-038}
+Origin: First carried in Whispering Steppes when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among cooking and unaffiliated circles to anchor their patrols.
+First Known Maker: Merrick Glassward of Whispering Steppes.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[038 — Duskborn Gauntlet]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: Cooking, Fishing
@@ -723,6 +940,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 039 — Dawnlit Harpoon {#item-039}
+Origin: First carried in Glassfields when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and fishing circles to anchor their patrols.
+First Known Maker: Nyra Feralfen of Glassfields.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[039 — Dawnlit Harpoon]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Alchemy, Hunting
@@ -742,6 +966,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 040 — Drift Jerky {#item-040}
+Origin: First carried in Deepwatch when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and hunting circles to anchor their patrols.
+First Known Maker: Orien Whisperveil of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[040 — Drift Jerky]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Alchemy, Fishing
@@ -761,6 +992,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 041 — Duskborn Lantern {#item-041}
+Origin: First carried in Stoneweald when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and fishing circles to anchor their patrols.
+First Known Maker: Pyria Sunbound of Stoneweald.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[041 — Duskborn Lantern]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Bowyer, Smithing
@@ -780,6 +1018,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 042 — Dawnlit Needle {#item-042}
+Origin: First carried in Glassfields when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and smithing circles to anchor their patrols.
+First Known Maker: Quentin Frostline of Glassfields.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[042 — Dawnlit Needle]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: None, Jewelry
@@ -799,6 +1044,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 043 — Ember Harpoon {#item-043}
+Origin: First carried in Frost Caverns when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and jewelry circles to anchor their patrols.
+First Known Maker: Rhosyn Greatwood of Frost Caverns.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[043 — Ember Harpoon]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Fishing, Jewelry
@@ -818,6 +1070,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 044 — Elder Jerky {#item-044}
+Origin: First carried in Feral Fens when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and jewelry circles to anchor their patrols.
+First Known Maker: Sorrel Bramblefall of Feral Fens.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[044 — Elder Jerky]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Fishing, None
@@ -837,6 +1096,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 045 — Ever Lantern {#item-045}
+Origin: First carried in Glassfields when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and unaffiliated circles to anchor their patrols.
+First Known Maker: Tavian Riverlight of Glassfields.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[045 — Ever Lantern]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: None, Bowyer
@@ -856,6 +1122,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 046 — Ember Needle {#item-046}
+Origin: First carried in Moonwake Marsh when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among unaffiliated and bowyer circles to anchor their patrols.
+First Known Maker: Ulwyn Moonwake of Moonwake Marsh.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[046 — Ember Needle]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: Bowyer, Tailoring
@@ -875,6 +1148,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 047 — Elder Parchment {#item-047}
+Origin: First carried in Stoneweald when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and tailoring circles to anchor their patrols.
+First Known Maker: Vexa Stoneweald of Stoneweald.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[047 — Elder Parchment]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Bowyer, Alchemy
@@ -894,6 +1174,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 048 — Ever Ration {#item-048}
+Origin: First carried in Ashen Plains when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and alchemy circles to anchor their patrols.
+First Known Maker: Wendell Emberford of Ashen Plains.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[048 — Ever Ration]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: Fishing, Tailoring
@@ -913,6 +1200,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 049 — Ember Talisman {#item-049}
+Origin: First carried in Feral Fens when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Ylara Amberwright of Feral Fens.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[049 — Ember Talisman]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Bowyer, Fishing
@@ -932,6 +1226,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 050 — Elder Vial {#item-050}
+Origin: First carried in Stoneweald when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and fishing circles to anchor their patrols.
+First Known Maker: Zorik Ashenford of Stoneweald.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[050 — Elder Vial]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Alchemy, Cooking
@@ -951,6 +1252,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 051 — Frostfell Parchment {#item-051}
+Origin: First carried in Stoneweald when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and cooking circles to anchor their patrols.
+First Known Maker: Aelric Streamborn of Stoneweald.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[051 — Frostfell Parchment]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Tailoring, Alchemy
@@ -970,6 +1278,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 052 — Feral Ration {#item-052}
+Origin: First carried in Riverlight Delta when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and alchemy circles to anchor their patrols.
+First Known Maker: Branna Shiverstone of Riverlight Delta.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[052 — Feral Ration]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: None, Bowyer
@@ -989,6 +1304,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 053 — Farscout Talisman {#item-053}
+Origin: First carried in Frost Caverns when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and bowyer circles to anchor their patrols.
+First Known Maker: Caelan Deepwatch of Frost Caverns.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[053 — Farscout Talisman]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Alchemy, Smithing
@@ -1008,6 +1330,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 054 — Frostfell Vial {#item-054}
+Origin: First carried in Shiverstone Coast when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and smithing circles to anchor their patrols.
+First Known Maker: Doria Glassward of Shiverstone Coast.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[054 — Frostfell Vial]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Smithing, Hunting
@@ -1027,6 +1356,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 055 — Feral Xylo-shard {#item-055}
+Origin: First carried in Riverlight Delta when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among smithing and hunting circles to anchor their patrols.
+First Known Maker: Eldric Feralfen of Riverlight Delta.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[055 — Feral Xylo-shard]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Jewelry, Fishing
@@ -1046,6 +1382,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 056 — Farscout Zest {#item-056}
+Origin: First carried in Greatwood when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and fishing circles to anchor their patrols.
+First Known Maker: Fara Whisperveil of Greatwood.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[056 — Farscout Zest]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: Smithing, Jewelry
@@ -1065,6 +1408,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 057 — Frostfell Arrow {#item-057}
+Origin: First carried in Riverlight Delta when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among smithing and jewelry circles to anchor their patrols.
+First Known Maker: Garran Sunbound of Riverlight Delta.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[057 — Frostfell Arrow]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Alchemy, Smithing
@@ -1084,6 +1434,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 058 — Feral Brew {#item-058}
+Origin: First carried in Shiverstone Coast when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and smithing circles to anchor their patrols.
+First Known Maker: Helene Frostline of Shiverstone Coast.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[058 — Feral Brew]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Cooking, None
@@ -1103,6 +1460,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 059 — Glimmer Xylo-shard {#item-059}
+Origin: First carried in Bramblefold when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and unaffiliated circles to anchor their patrols.
+First Known Maker: Ivar Greatwood of Bramblefold.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[059 — Glimmer Xylo-shard]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Fishing, Cooking
@@ -1122,6 +1486,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 060 — Gravetide Zest {#item-060}
+Origin: First carried in Stoneweald when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and cooking circles to anchor their patrols.
+First Known Maker: Jaysa Bramblefall of Stoneweald.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[060 — Gravetide Zest]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: None, Smithing
@@ -1141,6 +1512,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 061 — Greatwood Arrow {#item-061}
+Origin: First carried in Riverlight Delta when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and smithing circles to anchor their patrols.
+First Known Maker: Kaelen Riverlight of Riverlight Delta.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[061 — Greatwood Arrow]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: None, Smithing
@@ -1160,6 +1538,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 062 — Glimmer Brew {#item-062}
+Origin: First carried in Stoneweald when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among unaffiliated and smithing circles to anchor their patrols.
+First Known Maker: Liora Moonwake of Stoneweald.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[062 — Glimmer Brew]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Cooking, Jewelry
@@ -1179,6 +1564,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 063 — Gravetide Chisel {#item-063}
+Origin: First carried in Sunspire when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and jewelry circles to anchor their patrols.
+First Known Maker: Merrick Stoneweald of Sunspire.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[063 — Gravetide Chisel]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Alchemy, Tailoring
@@ -1198,6 +1590,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 064 — Greatwood Driftleaf {#item-064}
+Origin: First carried in Deepwatch when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and tailoring circles to anchor their patrols.
+First Known Maker: Nyra Emberford of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[064 — Greatwood Driftleaf]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: Smithing, Cooking
@@ -1217,6 +1616,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 065 — Glimmer Feather {#item-065}
+Origin: First carried in Glassfields when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among smithing and cooking circles to anchor their patrols.
+First Known Maker: Orien Amberwright of Glassfields.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[065 — Glimmer Feather]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Hunting, Bowyer
@@ -1236,6 +1642,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 066 — Gravetide Gland {#item-066}
+Origin: First carried in Bramblefold when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among hunting and bowyer circles to anchor their patrols.
+First Known Maker: Pyria Ashenford of Bramblefold.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[066 — Gravetide Gland]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: Fishing, Smithing
@@ -1255,6 +1668,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 067 — Hearth Chisel {#item-067}
+Origin: First carried in Bramblefold when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and smithing circles to anchor their patrols.
+First Known Maker: Quentin Streamborn of Bramblefold.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[067 — Hearth Chisel]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Tailoring, Bowyer
@@ -1274,6 +1694,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 068 — Hazel Driftleaf {#item-068}
+Origin: First carried in Ashen Plains when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and bowyer circles to anchor their patrols.
+First Known Maker: Rhosyn Shiverstone of Ashen Plains.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[068 — Hazel Driftleaf]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: Fishing, Alchemy
@@ -1293,6 +1720,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 069 — Hollow Feather {#item-069}
+Origin: First carried in Deepwatch when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and alchemy circles to anchor their patrols.
+First Known Maker: Sorrel Deepwatch of Deepwatch.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[069 — Hollow Feather]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Tailoring, Cooking
@@ -1312,6 +1746,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 070 — Hearth Gland {#item-070}
+Origin: First carried in Bramblefold when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and cooking circles to anchor their patrols.
+First Known Maker: Tavian Glassward of Bramblefold.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[070 — Hearth Gland]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: Hunting, Jewelry
@@ -1331,6 +1772,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 071 — Hazel Ink {#item-071}
+Origin: First carried in Sunspire when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among hunting and jewelry circles to anchor their patrols.
+First Known Maker: Ulwyn Feralfen of Sunspire.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[071 — Hazel Ink]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Tailoring, Alchemy
@@ -1350,6 +1798,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 072 — Hollow Knot {#item-072}
+Origin: First carried in Whispering Steppes when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and alchemy circles to anchor their patrols.
+First Known Maker: Vexa Whisperveil of Whispering Steppes.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[072 — Hollow Knot]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Hunting, Bowyer
@@ -1369,6 +1824,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 073 — Hearth Map {#item-073}
+Origin: First carried in Sunspire when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among hunting and bowyer circles to anchor their patrols.
+First Known Maker: Wendell Sunbound of Sunspire.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[073 — Hearth Map]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Tailoring, Fishing
@@ -1388,6 +1850,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 074 — Hazel Oil {#item-074}
+Origin: First carried in Whispering Steppes when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and fishing circles to anchor their patrols.
+First Known Maker: Ylara Frostline of Whispering Steppes.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[074 — Hazel Oil]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: Jewelry, Bowyer
@@ -1407,6 +1876,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 075 — Ironroot Ink {#item-075}
+Origin: First carried in Ashen Plains when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among jewelry and bowyer circles to anchor their patrols.
+First Known Maker: Zorik Greatwood of Ashen Plains.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[075 — Ironroot Ink]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Smithing, Hunting
@@ -1426,6 +1902,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 076 — Ivory Knot {#item-076}
+Origin: First carried in Riverlight Delta when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and hunting circles to anchor their patrols.
+First Known Maker: Aelric Bramblefall of Riverlight Delta.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[076 — Ivory Knot]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Cooking, Alchemy
@@ -1445,6 +1928,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 077 — Idle Map {#item-077}
+Origin: First carried in Deepwatch when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and alchemy circles to anchor their patrols.
+First Known Maker: Branna Riverlight of Deepwatch.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[077 — Idle Map]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Jewelry, Alchemy
@@ -1464,6 +1954,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 078 — Ironroot Oil {#item-078}
+Origin: First carried in Bramblefold when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and alchemy circles to anchor their patrols.
+First Known Maker: Caelan Moonwake of Bramblefold.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[078 — Ironroot Oil]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: Alchemy, Tailoring
@@ -1483,6 +1980,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 079 — Ivory Quiver {#item-079}
+Origin: First carried in Glassfields when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and tailoring circles to anchor their patrols.
+First Known Maker: Doria Stoneweald of Glassfields.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[079 — Ivory Quiver]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Bowyer, Smithing
@@ -1502,6 +2006,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 080 — Idle Saddle {#item-080}
+Origin: First carried in Bramblefold when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and smithing circles to anchor their patrols.
+First Known Maker: Eldric Emberford of Bramblefold.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[080 — Idle Saddle]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Fishing, Bowyer
@@ -1521,6 +2032,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 081 — Ironroot Urn {#item-081}
+Origin: First carried in Ashen Plains when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and bowyer circles to anchor their patrols.
+First Known Maker: Fara Amberwright of Ashen Plains.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[081 — Ironroot Urn]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Cooking, None
@@ -1540,6 +2058,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 082 — Ivory Ward {#item-082}
+Origin: First carried in Stoneweald when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among cooking and unaffiliated circles to anchor their patrols.
+First Known Maker: Garran Ashenford of Stoneweald.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[082 — Ivory Ward]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: Fishing, Hunting
@@ -1559,6 +2084,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 083 — Juniper Quiver {#item-083}
+Origin: First carried in Moonwake Marsh when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and hunting circles to anchor their patrols.
+First Known Maker: Helene Streamborn of Moonwake Marsh.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[083 — Juniper Quiver]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Fishing, Smithing
@@ -1578,6 +2110,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 084 — Jetstone Saddle {#item-084}
+Origin: First carried in Moonwake Marsh when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and smithing circles to anchor their patrols.
+First Known Maker: Ivar Shiverstone of Moonwake Marsh.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[084 — Jetstone Saddle]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Hunting, Smithing
@@ -1597,6 +2136,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 085 — Jade Urn {#item-085}
+Origin: First carried in Deepwatch when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among hunting and smithing circles to anchor their patrols.
+First Known Maker: Jaysa Deepwatch of Deepwatch.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[085 — Jade Urn]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Smithing, Cooking
@@ -1616,6 +2162,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 086 — Juniper Ward {#item-086}
+Origin: First carried in Riverlight Delta when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and cooking circles to anchor their patrols.
+First Known Maker: Kaelen Glassward of Riverlight Delta.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[086 — Juniper Ward]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: Cooking, Alchemy
@@ -1635,6 +2188,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 087 — Jetstone Yarn {#item-087}
+Origin: First carried in Cinder Kilns when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and alchemy circles to anchor their patrols.
+First Known Maker: Liora Feralfen of Cinder Kilns.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[087 — Jetstone Yarn]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Bowyer, None
@@ -1654,6 +2214,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 088 — Jade Apple {#item-088}
+Origin: First carried in Cinder Kilns when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and unaffiliated circles to anchor their patrols.
+First Known Maker: Merrick Whisperveil of Cinder Kilns.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[088 — Jade Apple]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: Bowyer, Smithing
@@ -1673,6 +2240,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 089 — Juniper Blade {#item-089}
+Origin: First carried in Feral Fens when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among bowyer and smithing circles to anchor their patrols.
+First Known Maker: Nyra Sunbound of Feral Fens.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[089 — Juniper Blade]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Tailoring, Hunting
@@ -1692,6 +2266,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 090 — Jetstone Charm {#item-090}
+Origin: First carried in Ashen Plains when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among tailoring and hunting circles to anchor their patrols.
+First Known Maker: Orien Frostline of Ashen Plains.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[090 — Jetstone Charm]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Alchemy, Bowyer
@@ -1711,6 +2292,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 091 — Kindled Yarn {#item-091}
+Origin: First carried in Sunspire when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and bowyer circles to anchor their patrols.
+First Known Maker: Pyria Greatwood of Sunspire.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[091 — Kindled Yarn]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Fishing, Tailoring
@@ -1730,6 +2318,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 092 — Knotwood Apple {#item-092}
+Origin: First carried in Emberford when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Quentin Bramblefall of Emberford.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[092 — Knotwood Apple]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: None, Bowyer
@@ -1749,6 +2344,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 093 — Kestrel Blade {#item-093}
+Origin: First carried in Glassfields when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and bowyer circles to anchor their patrols.
+First Known Maker: Rhosyn Riverlight of Glassfields.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[093 — Kestrel Blade]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Cooking, Bowyer
@@ -1768,6 +2370,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 094 — Kindled Charm {#item-094}
+Origin: First carried in Deepwatch when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among cooking and bowyer circles to anchor their patrols.
+First Known Maker: Sorrel Moonwake of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[094 — Kindled Charm]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Fishing, Smithing
@@ -1787,6 +2396,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 095 — Knotwood Cowl {#item-095}
+Origin: First carried in Ashen Plains when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and smithing circles to anchor their patrols.
+First Known Maker: Tavian Stoneweald of Ashen Plains.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[095 — Knotwood Cowl]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Smithing, Cooking
@@ -1806,6 +2422,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 096 — Kestrel Elixir {#item-096}
+Origin: First carried in Greatwood when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and cooking circles to anchor their patrols.
+First Known Maker: Ulwyn Emberford of Greatwood.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[096 — Kestrel Elixir]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: Tailoring, Hunting
@@ -1825,6 +2448,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 097 — Kindled Gauntlet {#item-097}
+Origin: First carried in Ashen Plains when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among tailoring and hunting circles to anchor their patrols.
+First Known Maker: Vexa Amberwright of Ashen Plains.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[097 — Kindled Gauntlet]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Bowyer, Alchemy
@@ -1844,6 +2474,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 098 — Knotwood Harpoon {#item-098}
+Origin: First carried in Emberford when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and alchemy circles to anchor their patrols.
+First Known Maker: Wendell Ashenford of Emberford.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[098 — Knotwood Harpoon]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Cooking, Smithing
@@ -1863,6 +2500,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 099 — Lantern Cowl {#item-099}
+Origin: First carried in Moonwake Marsh when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among cooking and smithing circles to anchor their patrols.
+First Known Maker: Ylara Streamborn of Moonwake Marsh.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[099 — Lantern Cowl]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Alchemy, Cooking
@@ -1882,6 +2526,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 100 — Luminous Elixir {#item-100}
+Origin: First carried in Frost Caverns when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and cooking circles to anchor their patrols.
+First Known Maker: Zorik Shiverstone of Frost Caverns.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[100 — Luminous Elixir]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: Fishing, Alchemy
@@ -1901,6 +2552,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 101 — Lupine Gauntlet {#item-101}
+Origin: First carried in Stoneweald when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and alchemy circles to anchor their patrols.
+First Known Maker: Aelric Deepwatch of Stoneweald.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[101 — Lupine Gauntlet]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Alchemy, Fishing
@@ -1920,6 +2578,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 102 — Lantern Harpoon {#item-102}
+Origin: First carried in Glassfields when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and fishing circles to anchor their patrols.
+First Known Maker: Branna Glassward of Glassfields.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[102 — Lantern Harpoon]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Tailoring, Hunting
@@ -1939,6 +2604,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 103 — Luminous Jerky {#item-103}
+Origin: First carried in Emberford when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among tailoring and hunting circles to anchor their patrols.
+First Known Maker: Caelan Feralfen of Emberford.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[103 — Luminous Jerky]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Fishing, Cooking
@@ -1958,6 +2630,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 104 — Lupine Lantern {#item-104}
+Origin: First carried in Shiverstone Coast when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and cooking circles to anchor their patrols.
+First Known Maker: Doria Whisperveil of Shiverstone Coast.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[104 — Lupine Lantern]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: Jewelry, Cooking
@@ -1977,6 +2656,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 105 — Lantern Needle {#item-105}
+Origin: First carried in Moonwake Marsh when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among jewelry and cooking circles to anchor their patrols.
+First Known Maker: Eldric Sunbound of Moonwake Marsh.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[105 — Lantern Needle]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Bowyer, Jewelry
@@ -1996,6 +2682,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 106 — Luminous Parchment {#item-106}
+Origin: First carried in Deepwatch when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among bowyer and jewelry circles to anchor their patrols.
+First Known Maker: Fara Frostline of Deepwatch.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[106 — Luminous Parchment]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: Alchemy, Jewelry
@@ -2015,6 +2708,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 107 — Moonset Jerky {#item-107}
+Origin: First carried in Emberford when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and jewelry circles to anchor their patrols.
+First Known Maker: Garran Greatwood of Emberford.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[107 — Moonset Jerky]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Fishing, Jewelry
@@ -2034,6 +2734,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 108 — Mire Lantern {#item-108}
+Origin: First carried in Deepwatch when material – wood trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and jewelry circles to anchor their patrols.
+First Known Maker: Helene Bramblefall of Deepwatch.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[108 — Mire Lantern]
 Category: Material – Leather
 Rarity: Uncommon
 Profession Tags: Fishing, Cooking
@@ -2053,6 +2760,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 109 — Mosslit Needle {#item-109}
+Origin: First carried in Whispering Steppes when material – leather trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and cooking circles to anchor their patrols.
+First Known Maker: Ivar Riverlight of Whispering Steppes.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[109 — Mosslit Needle]
 Category: Material – Essence
 Rarity: Epic
 Profession Tags: Smithing, Alchemy
@@ -2072,6 +2786,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 110 — Moonset Parchment {#item-110}
+Origin: First carried in Cinder Kilns when material – essence trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among smithing and alchemy circles to anchor their patrols.
+First Known Maker: Jaysa Moonwake of Cinder Kilns.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[110 — Moonset Parchment]
 Category: Gear – Armor
 Rarity: Uncommon
 Profession Tags: Fishing, Tailoring
@@ -2091,6 +2812,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 111 — Mire Ration {#item-111}
+Origin: First carried in Bramblefold when gear – armor trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Kaelen Stoneweald of Bramblefold.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[111 — Mire Ration]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Fishing, None
@@ -2110,6 +2838,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 112 — Mosslit Talisman {#item-112}
+Origin: First carried in Riverlight Delta when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among fishing and unaffiliated circles to anchor their patrols.
+First Known Maker: Liora Emberford of Riverlight Delta.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[112 — Mosslit Talisman]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Fishing, Tailoring
@@ -2129,6 +2864,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 113 — Moonset Vial {#item-113}
+Origin: First carried in Emberford when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and tailoring circles to anchor their patrols.
+First Known Maker: Merrick Amberwright of Emberford.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[113 — Moonset Vial]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Hunting, Jewelry
@@ -2148,6 +2890,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 114 — Mire Xylo-shard {#item-114}
+Origin: First carried in Sunspire when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among hunting and jewelry circles to anchor their patrols.
+First Known Maker: Nyra Ashenford of Sunspire.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[114 — Mire Xylo-shard]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: None, Hunting
@@ -2167,6 +2916,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 115 — Nightvine Ration {#item-115}
+Origin: First carried in Whispering Steppes when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among unaffiliated and hunting circles to anchor their patrols.
+First Known Maker: Orien Streamborn of Whispering Steppes.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[115 — Nightvine Ration]
 Category: Gear – Off-hand
 Rarity: Epic
 Profession Tags: Alchemy, Smithing
@@ -2186,6 +2942,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 116 — Northwind Talisman {#item-116}
+Origin: First carried in Moonwake Marsh when gear – off-hand trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among alchemy and smithing circles to anchor their patrols.
+First Known Maker: Pyria Shiverstone of Moonwake Marsh.
+Rumor: Storytellers insist river-spirits once bartered it for safe passage.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[116 — Northwind Talisman]
 Category: Curio
 Rarity: Uncommon
 Profession Tags: Alchemy, None
@@ -2205,6 +2968,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 117 — Nettle Vial {#item-117}
+Origin: First carried in Shiverstone Coast when curio trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among alchemy and unaffiliated circles to anchor their patrols.
+First Known Maker: Quentin Deepwatch of Shiverstone Coast.
+Rumor: Some say it refuses to be carried by oathbreakers.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[117 — Nettle Vial]
 Category: Profession Tool
 Rarity: Epic
 Profession Tags: Jewelry, Bowyer
@@ -2224,6 +2994,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 118 — Nightvine Xylo-shard {#item-118}
+Origin: First carried in Bramblefold when profession tool trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and bowyer circles to anchor their patrols.
+First Known Maker: Rhosyn Glassward of Bramblefold.
+Rumor: Rangers swear it shines faintly when hidden caches lie near.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[118 — Nightvine Xylo-shard]
 Category: Ingredient – Meat
 Rarity: Uncommon
 Profession Tags: Fishing, Hunting
@@ -2243,6 +3020,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 119 — Northwind Zest {#item-119}
+Origin: First carried in Sunspire when ingredient – meat trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and hunting circles to anchor their patrols.
+First Known Maker: Sorrel Feralfen of Sunspire.
+Rumor: Caravan guards whisper it steadies nerves before a siege.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[119 — Northwind Zest]
 Category: Ingredient – Fungus
 Rarity: Epic
 Profession Tags: Jewelry, Cooking
@@ -2262,6 +3046,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 120 — Nettle Arrow {#item-120}
+Origin: First carried in Sunspire when ingredient – fungus trials pushed deeper into the wilds.
+  Epic war-chests traded early copies among jewelry and cooking circles to anchor their patrols.
+First Known Maker: Tavian Whisperveil of Sunspire.
+Rumor: Hunters note it warms whenever beasts cross unseen trails.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[120 — Nettle Arrow]
 Category: Ingredient – Grain
 Rarity: Uncommon
 Profession Tags: Fishing, Bowyer
@@ -2281,6 +3072,13 @@ Gameplay Hook:
 See also: [Quest Hub: Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Quest_Hub.md) | [Rumors 001-200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Gazette Issue 1 Spring](../09_Artifacts/Gazette/Issue_1_Spring.md)
 
 ### 121 — Nightvine Brew {#item-121}
+Origin: First carried in Stoneweald when ingredient – grain trials pushed deeper into the wilds.
+  Uncommon war-chests traded early copies among fishing and bowyer circles to anchor their patrols.
+First Known Maker: Ulwyn Sunbound of Stoneweald.
+Rumor: Travelers claim it thrums when danger nears a road lantern.
+See also: [Zone Architecture & Regional Level Bands](../02_Regions/Zones_Dungeons_Travel/CHAPTER%2012%20-%20ZONE%20ARCHITECTURE,%20REGIONAL%20LEVEL%20BAN.md); [World Factions, Ranks & Regional Alignment](../02_Regions/Factions/CHAPTER%2017%20-%20WORLD%20FACTIONS,%20RANKS%20&%20REGIONAL%20ALIG.md); [Quest Hooks from Items](../07_Quests/QUEST_HOOKS_FROM_ITEMS.md)
+
+[121 — Nightvine Brew]
 Category: Material – Wood
 Rarity: Epic
 Profession Tags: Smithing, Tailoring
