@@ -1,15 +1,14 @@
 # Lore Debt Tracker
 
-- Items 001–200 updated with origin, cultural ties, hooks, and cross-links. No outstanding debt flagged in this pass.
-- Emberford Marketwalk hub, rumor pack, and Gazette Issue 1 added; future debt: expand rumor coverage beyond the first 30 items and add NPC dialogue variants.
-# Lore Debt
-A running list of placeholders that must be paid down later.
+Outstanding placeholders and partial deliveries that need cleanup.
 
-## Items missing provenance
-- [ ] Item 044 — needs maker + origin + 3 links
+## Legacy Debt
+- [ ] Item 044 — needs maker + origin + 3 links.
+- [ ] “Salt & Candle” quest — add bounty notice and rumor scrap.
+- [ ] Blackfen region — add tavern menu and trade note.
 
-## Quests missing secondary artifacts
-- [ ] “Salt & Candle” — add bounty notice + rumor scrap
-
-## Regions missing daily-life details
-- [ ] Blackfen — needs tavern menu + trade note
+## New Debt (Saltmarrow Push)
+- [ ] Complete remaining Saltmarrow Strand quest hubs and repeatable chains beyond courier, sweep, and bounty board.
+- [ ] Add daily-life expansions (10–15 entries each) for two existing zones as requested in the latest brief.
+- [ ] Deliver full item/recipe counts from the massive items/professions expansion; only a small subset shipped here.
+- [ ] Expand artifacts to reach requested volume and ensure every new quest spawns multiple leads.
