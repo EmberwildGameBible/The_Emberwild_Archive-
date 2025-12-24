@@ -8,3 +8,4 @@
 - Zones_Dungeons_Travel/CLASSIC ROUTES - LEVEL BANDS & HUB LOOPS.md
 - Micro_Locations_Expansion.md — New subzone pockets with harvest nodes, mini-bosses, and quest hooks.
 - [Emberford Marketwalk](../02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md) — Ferry-and-kiln quest hub with interlocking item hooks and shrine rumors.
+- [Saltmarrow Strand](../02_Regions/Saltmarrow_Strand/Saltmarrow_Strand.md) — Brineglass flats, kelpback shallows, courier loops, and palisade patrol economy.

@@ -15,6 +15,8 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 - Items_Flavor_Notes.md — Tooltip and examine flavor text for all rare-and-up items plus key common staples.
 - Regions/REGION_NAME - ITEM FLAVOR PACK.md — Ambient/world item packs for Greatwood, Hollowroot, Ashen Ridge, Frostmarch, Duskhollow, Shattered Verge, and Shiverstone Coast.
 
+- Saltmarrow Strand staples: [Brine-Tight Sealant](../08_Items/Professions/Brine-Tight_Sealant.md), [Saltmarrow Spined Pole](../08_Items/Fishing/Saltmarrow_Spined_Pole.md), [Salt-Sear Chowder](../08_Items/Cooking/Salt-Sear_Chowder.md), [Hookbite Signal Flares](../08_Items/Gear/Hookbite_Signal_Flares.md).
+
 - ITEM SETS & SIGNATURE DROPS.md — Regional signatures, boss legendaries, and small set bonuses with synergy notes.
 - ITEM COLLECTIONS & CURIOS.md — Collection groupings for trophies, curios, relics, and maps by region.
 

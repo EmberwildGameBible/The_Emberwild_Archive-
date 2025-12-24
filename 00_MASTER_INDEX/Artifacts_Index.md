@@ -12,6 +12,10 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 | --- | --- | --- |
 | [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md) | Emberford Marketwalk | Ferry schedules, kiln soot sigils, and Silent Bell tensions. Published. |
 | [Rumor Web — Items 001–200](../09_Artifacts/Rumors/rumors_items_001_200.md) | Emberford Marketwalk | Thirty overheard item rumors tied to quay smuggling and shrine lore. Published. |
+| [Saltmarrow Ledger Chain](../09_Artifacts/Saltmarrow_Ledger_Chain.md) | Saltmarrow Strand | Dockside debt tags listing courier crews and owed brick tallies. Published. |
+| [Marrowhook Ledger Dockets](../09_Artifacts/Marrowhook_Ledger_Dockets.md) | Saltmarrow Strand | Payment slips for chowder pots and binding straps; hints at missing bundles. Published. |
+| [Tide-Etched Marker Tabs](../09_Artifacts/Tide-Etched_Marker_Tabs.md) | Saltmarrow Strand | Waxed tide notes aligning with dive-safe windows at the Drowned Archive. Published. |
+| [Lookout Rumor Slips](../09_Artifacts/Lookout_Rumor_Slips.md) | Saltmarrow Strand | Pinned scraps about reefback routes and snagged bundles near lantern posts. Published. |
 
 ## Hooks
 - Pull kiln, ferry, or Silent Bell plot hooks from the Gazette before drafting new Emberford quests.
