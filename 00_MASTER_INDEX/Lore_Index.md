@@ -30,3 +30,4 @@ A quick map to Emberwild’s foundational lore. Each entry links to its chapter 
 | Creature | Summary | Status |
 | --- | --- | --- |
 | [Gravemark Bullyram](../03_Lore/Creatures/Gravemark_Bullyram.md) | Cairn-fed ridge ram tied to Frostbriar slidecaller rites, horns used for sled control gear and bounty unlocks. | Draft |
+| [Thornlash Prowler](../03_Lore/Creatures/Thornlash_Prowler.md) | Ash drift-touched coyote that haunts Thornlash wall trenches; pelts fuel grip resin and wall bounty hooks. | Draft |

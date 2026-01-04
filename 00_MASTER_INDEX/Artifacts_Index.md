@@ -18,6 +18,8 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 | [Marrowhook Ledger Dockets](../09_Artifacts/Marrowhook_Ledger_Dockets.md) | Saltmarrow Strand | Payment slips for chowder pots and binding straps; hints at missing bundles. Published. |
 | [Tide-Etched Marker Tabs](../09_Artifacts/Tide-Etched_Marker_Tabs.md) | Saltmarrow Strand | Waxed tide notes aligning with dive-safe windows at the Drowned Archive. Published. |
 | [Lookout Rumor Slips](../09_Artifacts/Lookout_Rumor_Slips.md) | Saltmarrow Strand | Pinned scraps about reefback routes and snagged bundles near lantern posts. Published. |
+| [Thornlash Warning Slate](../09_Artifacts/Thornlash_Warning_Slate.md) | Thornlash Palisade | Ash drift hazard rolls and prowler sighting notes for wall patrol quests. Published. |
+| [Sentry Ration Docket](../09_Artifacts/Sentry_Ration_Docket.md) | Thornlash Palisade | Ration and smuggling ledger slips that seed cache hunts and wall upgrades. Published. |
 | [White Howl Rumor Slip](../09_Artifacts/White_Howl_Rumor_Slip.md) | Frostbriar Reach | Rare spawn alert for the Slidecaller ridge matriarch. Published. |
 | [Slidecaller Bell Tab](../09_Artifacts/Slidecaller_Bell_Tab.md) | Frostbriar Reach | Escort bell checklist for sled runs; points to key fragments. Published. |
 | [Pole Grease Chit](../09_Artifacts/Pole_Grease_Chit.md) | Glimmerdeep Mire | Ropeway delivery chit tracked by Broker Vesha. Published. |
