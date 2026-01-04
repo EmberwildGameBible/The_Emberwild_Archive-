@@ -72,6 +72,89 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 | [Windbreak Skyline Rumor Slip](../09_Artifacts/Windbreak_Skyline_Rumor_Slip.md) | Windbreak Post | Grease-smudged slip about grounding the sky-manta for the javelin. Published. |
 | [Windbreak Skyline Patrol Ledger](../09_Artifacts/Windbreak_Skyline_Patrol_Ledger.md) | Windbreak ropeways | Patrol ledger logging anchor steps before the javelin drop. Published. |
 
+### New Rumor Slips
+
+- [Ashlane Rumor Rumor Slip](../09_Artifacts/Ashlane_Rumor_Rumor_Slip.md), [Beacon Chatter Rumor Slip](../09_Artifacts/Beacon_Chatter_Rumor_Slip.md)
+- [Bluff Pry Rumor Slip](../09_Artifacts/Bluff_Pry_Rumor_Slip.md), [Briar Echo Rumor Slip](../09_Artifacts/Briar_Echo_Rumor_Slip.md)
+- [Brine Snicker Rumor Slip](../09_Artifacts/Brine_Snicker_Rumor_Slip.md), [Cleft Scuff Rumor Slip](../09_Artifacts/Cleft_Scuff_Rumor_Slip.md)
+- [Clink Psst Rumor Slip](../09_Artifacts/Clink_Psst_Rumor_Slip.md), [Crag Tip Rumor Slip](../09_Artifacts/Crag_Tip_Rumor_Slip.md)
+- [Drift Peep Rumor Slip](../09_Artifacts/Drift_Peep_Rumor_Slip.md), [Emberford Scoria Rumor Slip](../09_Artifacts/Emberford_Scoria_Rumor_Slip.md)
+- [Frostbite Note Rumor Slip](../09_Artifacts/Frostbite_Note_Rumor_Slip.md), [Frostbriar Relay Rumor Slip](../09_Artifacts/Frostbriar_Relay_Rumor_Slip.md)
+- [Glimmer Hiss Rumor Slip](../09_Artifacts/Glimmer_Hiss_Rumor_Slip.md), [Glow Soft Rumor Slip](../09_Artifacts/Glow_Soft_Rumor_Slip.md)
+- [Greatwood Crown Rumor Slip](../09_Artifacts/Greatwood_Crown_Rumor_Slip.md), [Grove Spark Rumor Slip](../09_Artifacts/Grove_Spark_Rumor_Slip.md)
+- [Hollowroot Matriarch Rumor Slip](../09_Artifacts/Hollowroot_Matriarch_Rumor_Slip.md), [Icehook Shard Rumor Slip](../09_Artifacts/Icehook_Shard_Rumor_Slip.md)
+- [Lantern Scuttle Rumor Slip](../09_Artifacts/Lantern_Scuttle_Rumor_Slip.md), [Market Rattle Rumor Slip](../09_Artifacts/Market_Rattle_Rumor_Slip.md)
+- [Marrow Murmur Rumor Slip](../09_Artifacts/Marrow_Murmur_Rumor_Slip.md), [Melt Rattle Rumor Slip](../09_Artifacts/Melt_Rattle_Rumor_Slip.md)
+- [Mire Mutter Rumor Slip](../09_Artifacts/Mire_Mutter_Rumor_Slip.md), [Nightwarden Rumor Slip](../09_Artifacts/Nightwarden_Rumor_Slip.md)
+- [Oath Nudge Rumor Slip](../09_Artifacts/Oath_Nudge_Rumor_Slip.md), [Palisade Wink Rumor Slip](../09_Artifacts/Palisade_Wink_Rumor_Slip.md)
+- [Quarry Wink Rumor Slip](../09_Artifacts/Quarry_Wink_Rumor_Slip.md), [Rafter Rumor Rumor Slip](../09_Artifacts/Rafter_Rumor_Rumor_Slip.md)
+- [Relay Talk Rumor Slip](../09_Artifacts/Relay_Talk_Rumor_Slip.md), [Ridge Whisper Rumor Slip](../09_Artifacts/Ridge_Whisper_Rumor_Slip.md)
+- [Ridgecrest Rumor Rumor Slip](../09_Artifacts/Ridgecrest_Rumor_Rumor_Slip.md), [Rime Tug Rumor Slip](../09_Artifacts/Rime_Tug_Rumor_Slip.md)
+- [Salt Slack Rumor Slip](../09_Artifacts/Salt_Slack_Rumor_Slip.md), [Saltmarrow Tide Rumor Slip](../09_Artifacts/Saltmarrow_Tide_Rumor_Slip.md)
+- [Shiver Short Rumor Slip](../09_Artifacts/Shiver_Short_Rumor_Slip.md), [Silt Slip Rumor Slip](../09_Artifacts/Silt_Slip_Rumor_Slip.md)
+- [Skypost Slip Rumor Slip](../09_Artifacts/Skypost_Slip_Rumor_Slip.md), [Sledder Tilt Rumor Slip](../09_Artifacts/Sledder_Tilt_Rumor_Slip.md)
+- [Slide Share Rumor Slip](../09_Artifacts/Slide_Share_Rumor_Slip.md), [Soot Short Rumor Slip](../09_Artifacts/Soot_Short_Rumor_Slip.md)
+- [Sparkline Tip Rumor Slip](../09_Artifacts/Sparkline_Tip_Rumor_Slip.md), [Sparkveil Mutter Rumor Slip](../09_Artifacts/Sparkveil_Mutter_Rumor_Slip.md)
+- [Switchback Wink Rumor Slip](../09_Artifacts/Switchback_Wink_Rumor_Slip.md), [Thornlash Banner Rumor Slip](../09_Artifacts/Thornlash_Banner_Rumor_Slip.md)
+- [Tide Creep Rumor Slip](../09_Artifacts/Tide_Creep_Rumor_Slip.md), [Warden Word Rumor Slip](../09_Artifacts/Warden_Word_Rumor_Slip.md)
+- [Weir Whisper Rumor Slip](../09_Artifacts/Weir_Whisper_Rumor_Slip.md), [White Howl Rumor Slip](../09_Artifacts/White_Howl_Rumor_Slip.md)
+- [Windbreak Skyline Rumor Slip](../09_Artifacts/Windbreak_Skyline_Rumor_Slip.md)
+
+### New Ledgers & Manifests
+
+- [Ash Tally Ledger](../09_Artifacts/Ash_Tally_Ledger.md), [Ashen Cry Emberfall Ledger](../09_Artifacts/Ashen_Cry_Emberfall_Ledger.md)
+- [Backline Hunt Ledger](../09_Artifacts/Backline_Hunt_Ledger.md), [Beacon Stock Ledger](../09_Artifacts/Beacon_Stock_Ledger.md)
+- [Bellwether Log Ledger](../09_Artifacts/Bellwether_Log_Ledger.md), [Bolt Audit Ledger](../09_Artifacts/Bolt_Audit_Ledger.md)
+- [Briarweight Log Ledger](../09_Artifacts/Briarweight_Log_Ledger.md), [Brine Balance Ledger](../09_Artifacts/Brine_Balance_Ledger.md)
+- [Bristle Manifest Ledger](../09_Artifacts/Bristle_Manifest_Ledger.md), [Bunkhouse Tabs Ledger](../09_Artifacts/Bunkhouse_Tabs_Ledger.md)
+- [Cratehook Record Ledger](../09_Artifacts/Cratehook_Record_Ledger.md), [Crownpost Ledger Ledger](../09_Artifacts/Crownpost_Ledger_Ledger.md)
+- [Drydock Log Ledger](../09_Artifacts/Drydock_Log_Ledger.md), [Ember Cart Ledger Ledger](../09_Artifacts/Ember_Cart_Ledger_Ledger.md)
+- [Everice Record Ledger](../09_Artifacts/Everice_Record_Ledger.md), [Ferry Tally Ledger](../09_Artifacts/Ferry_Tally_Ledger.md)
+- [Forgepost Freight Ledger](../09_Artifacts/Forgepost_Freight_Ledger.md), [Glacier Sheet Ledger](../09_Artifacts/Glacier_Sheet_Ledger.md)
+- [Glimmersend Manifest Ledger](../09_Artifacts/Glimmersend_Manifest_Ledger.md), [Gravel Bar Tabs Ledger](../09_Artifacts/Gravel_Bar_Tabs_Ledger.md)
+- [Grove Ledger Ledger](../09_Artifacts/Grove_Ledger_Ledger.md), [Heatrun Log Ledger](../09_Artifacts/Heatrun_Log_Ledger.md)
+- [Hollowroot Birthing Ledger](../09_Artifacts/Hollowroot_Birthing_Ledger.md), [Icefloe Toll Ledger](../09_Artifacts/Icefloe_Toll_Ledger.md)
+- [Lampblack Record Ledger](../09_Artifacts/Lampblack_Record_Ledger.md), [Lantern Manifest Ledger](../09_Artifacts/Lantern_Manifest_Ledger.md)
+- [Lattice Record Ledger](../09_Artifacts/Lattice_Record_Ledger.md), [Market Tabs Ledger](../09_Artifacts/Market_Tabs_Ledger.md)
+- [Mirehaul Log Ledger](../09_Artifacts/Mirehaul_Log_Ledger.md), [Pikecarve Ledger Ledger](../09_Artifacts/Pikecarve_Ledger_Ledger.md)
+- [Rafter Book Ledger](../09_Artifacts/Rafter_Book_Ledger.md), [Relay Record Ledger](../09_Artifacts/Relay_Record_Ledger.md)
+- [Ridgepost Tabs Ledger](../09_Artifacts/Ridgepost_Tabs_Ledger.md), [Runebar Manifest Ledger](../09_Artifacts/Runebar_Manifest_Ledger.md)
+- [Saltchain Manifest Ledger](../09_Artifacts/Saltchain_Manifest_Ledger.md), [Shardline Manifest Ledger](../09_Artifacts/Shardline_Manifest_Ledger.md)
+- [Shatterglass Oathkeeper Ledger](../09_Artifacts/Shatterglass_Oathkeeper_Ledger.md), [Shivercoil Ledger Ledger](../09_Artifacts/Shivercoil_Ledger_Ledger.md)
+- [Sled Cargo Ledger](../09_Artifacts/Sled_Cargo_Ledger.md), [Slipway Record Ledger](../09_Artifacts/Slipway_Record_Ledger.md)
+- [Sparkcoil Log Ledger](../09_Artifacts/Sparkcoil_Log_Ledger.md), [Spokeweight List Ledger](../09_Artifacts/Spokeweight_List_Ledger.md)
+- [Switchback Tally Ledger](../09_Artifacts/Switchback_Tally_Ledger.md), [Thousandfold Stock Freight Ledger](../09_Artifacts/Thousandfold_Stock_Freight_Ledger.md)
+- [Tidebound Sheets Ledger](../09_Artifacts/Tidebound_Sheets_Ledger.md), [Trail Scrip Ledger](../09_Artifacts/Trail_Scrip_Ledger.md)
+- [Warden Book Ledger](../09_Artifacts/Warden_Book_Ledger.md), [Wharf Freight Ledger](../09_Artifacts/Wharf_Freight_Ledger.md)
+- [Windbreak Skyline Patrol Ledger](../09_Artifacts/Windbreak_Skyline_Patrol_Ledger.md), [Wreathbound Tally Ledger](../09_Artifacts/Wreathbound_Tally_Ledger.md)
+
+### New Permits & Orders
+
+- [Beacon Order Permit](../09_Artifacts/Beacon_Order_Permit.md), [Beacon Steps Permit](../09_Artifacts/Beacon_Steps_Permit.md)
+- [Briar Permit Permit](../09_Artifacts/Briar_Permit_Permit.md), [Burn Scar Freight Permit](../09_Artifacts/Burn_Scar_Freight_Permit.md)
+- [Crest Permit Permit](../09_Artifacts/Crest_Permit_Permit.md), [Emberford Scoria Fireglass Permit](../09_Artifacts/Emberford_Scoria_Fireglass_Permit.md)
+- [Ferry Order Permit](../09_Artifacts/Ferry_Order_Permit.md), [Frostbriar Relay Sled Permit](../09_Artifacts/Frostbriar_Relay_Sled_Permit.md)
+- [Glimmer Permit Permit](../09_Artifacts/Glimmer_Permit_Permit.md), [Glimmerdeep Chasm Salvage Permit](../09_Artifacts/Glimmerdeep_Chasm_Salvage_Permit.md)
+- [Gravel Order Permit](../09_Artifacts/Gravel_Order_Permit.md), [Greatwood Grove Permit](../09_Artifacts/Greatwood_Grove_Permit.md)
+- [Hollow Order Permit](../09_Artifacts/Hollow_Order_Permit.md), [Lampblack Pass Permit](../09_Artifacts/Lampblack_Pass_Permit.md)
+- [Market Pass Permit](../09_Artifacts/Market_Pass_Permit.md), [Relay Horn Permit](../09_Artifacts/Relay_Horn_Permit.md), [Relay Pass Permit](../09_Artifacts/Relay_Pass_Permit.md)
+- [Ridge Kiln Permit](../09_Artifacts/Ridge_Kiln_Permit.md), [Ridge Permit Permit](../09_Artifacts/Ridge_Permit_Permit.md)
+- [Rime Order Permit](../09_Artifacts/Rime_Order_Permit.md), [Salt Barge Order Permit](../09_Artifacts/Salt_Barge_Order_Permit.md)
+- [Shard Delivery Order Permit](../09_Artifacts/Shard_Delivery_Order_Permit.md), [Sledge Permit Permit](../09_Artifacts/Sledge_Permit_Permit.md)
+- [Sooted Order Permit](../09_Artifacts/Sooted_Order_Permit.md), [Splice Permit Permit](../09_Artifacts/Splice_Permit_Permit.md)
+- [Switchback Permit Permit](../09_Artifacts/Switchback_Permit_Permit.md), [Thornlash Banner Permit](../09_Artifacts/Thornlash_Banner_Permit.md)
+- [Toll Pass Permit](../09_Artifacts/Toll_Pass_Permit.md), [Trail Pass Permit](../09_Artifacts/Trail_Pass_Permit.md), [Verge Bulwark Permit](../09_Artifacts/Verge_Bulwark_Permit.md)
+
+### New Patrol Logs
+
+- [Ash Drift Patrol Log](../09_Artifacts/Ash_Drift_Patrol_Log.md), [Ash Patrol Log](../09_Artifacts/Ash_Patrol_Log.md), [Beacon Patrol Log](../09_Artifacts/Beacon_Patrol_Log.md)
+- [Briar Patrol Log](../09_Artifacts/Briar_Patrol_Log.md), [Cleft Patrol Log](../09_Artifacts/Cleft_Patrol_Log.md), [Crown Patrol Log](../09_Artifacts/Crown_Patrol_Log.md)
+- [Frost Patrol Log](../09_Artifacts/Frost_Patrol_Log.md), [Glimmer Patrol Log](../09_Artifacts/Glimmer_Patrol_Log.md), [Lantern Patrol Log](../09_Artifacts/Lantern_Patrol_Log.md)
+- [Market Patrol Log](../09_Artifacts/Market_Patrol_Log.md), [Mire Patrol Log](../09_Artifacts/Mire_Patrol_Log.md), [Rafter Patrol Log](../09_Artifacts/Rafter_Patrol_Log.md)
+- [Relay Patrol Log](../09_Artifacts/Relay_Patrol_Log.md), [Ridge Patrol Log](../09_Artifacts/Ridge_Patrol_Log.md), [Salt Patrol Log](../09_Artifacts/Salt_Patrol_Log.md)
+- [Shiver Patrol Log](../09_Artifacts/Shiver_Patrol_Log.md), [Slide Patrol Log](../09_Artifacts/Slide_Patrol_Log.md), [Spoke Patrol Log](../09_Artifacts/Spoke_Patrol_Log.md)
+- [Spur Patrol Log](../09_Artifacts/Spur_Patrol_Log.md), [Switch Patrol Log](../09_Artifacts/Switch_Patrol_Log.md), [Weir Patrol Log](../09_Artifacts/Weir_Patrol_Log.md)
+
 ## Hooks
 - Pull kiln, ferry, or Silent Bell plot hooks from the Gazette before drafting new Emberford quests.
 - Mine the rumor web for item-specific bounties, then link any new quests to the canonical [Items Master List](../08_Items/Items_Master_List%20-%20GLOBAL%20A-Z.md).
