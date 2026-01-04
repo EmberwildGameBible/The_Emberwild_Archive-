@@ -13687,3 +13687,253 @@ id,name,category,subcategory,rarity,professions,region,short_uses,file_name
 49997,Pilgrim's Ring,Consumable,Tonic,Common,Cooking,Glimmerdeep,Craft input: gates a shortcut.,consumable_pilgrim_s_ring.png
 49998,Iron-banded Tally,Ingredient,Meat,Uncommon,Herbalism,Hollowroot,Craft input: feeds a rumor.,ingredient_iron_banded_tally.png
 49999,Harbor-wet Seed,Material,Resin,Common,Tailoring,Marketwalk,Vendor staple: supports leveling.,material_harbor_wet_seed.png
+50000,Greatwood Heartwood Bulwark,Gear,Shield,Legendary,Smithing,Greatwood,Smithing: reforges into a raid tier shield; Enchanting: holds a nature resist seal for guardians.,gear_greatwood_heartwood_bulwark.png
+50001,Frostbriar Aurora Carver,Profession Tool,Chisel,Legendary,Stonecutting,Frostbriar,Stonecutting: sculpts froststone without loss; Engineering: engraves conduits for cold-resist gear.,tool_frostbriar_aurora_carver.png
+50002,Glimmerdeep Deepforge Lantern,Gear,Off-hand,Legendary,Enchanting,Glimmerdeep,Enchanting: doubles rune focus range; Mining: reveals hidden ore seams near crystalline veins.,gear_glimmerdeep_deepforge_lantern.png
+50003,Saltmarrow Tidecaller Grapnel,Tool,Grapple,Legendary,Fishing,Saltmarrow,Fishing: anchors boats for deep-haul nets; Sailing: grants emergency pull on kelp storms.,tool_saltmarrow_tidecaller_grapnel.png
+50004,Emberford Moltenspark Recurve,Gear,Bow,Legendary,Fletching,Emberford,Fletching: imprints fireglass arrowheads; Hunting: opens a burn DoT for raid bosses.,gear_emberford_moltenspark_recurve.png
+50005,Hollowroot Warrenlord War-drum,Trinket,Instrument,Legendary,Leatherworking,Hollowroot,Leatherworking: tunes hide tension for haste chants; Musician: triggers group sprint on pull.,trinket_hollowroot_warrenlord_drum.png
+50006,Greatwood Charter of Pactbound Rivers,Document,Treatise,Legendary,Scribing,Greatwood,Scribing: unlocks riverway flight paths; Diplomacy: grants waterway tax reduction for guilds.,doc_greatwood_pactbound_rivers.png
+50007,Frostbriar Covenant of Shiversteel,Document,Accord,Legendary,Scribing,Frostbriar,Scribing: authorizes shiversteel trade stamps; Smithing: reduces froststeel forging loss.,doc_frostbriar_covenant_shiversteel.png
+50008,Saltmarrow Leviathan Tally,Key,Tally,Legendary,Cartography,Saltmarrow,Cartography: charts kelp labyrinth routes; Fishing: summons rare tide-beasts at shoals.,key_saltmarrow_leviathan_tally.png
+50009,Glimmerdeep Prismheart Relic,Trinket,Relic,Legendary,Arcanism,Glimmerdeep,Arcanism: stores extra socket charges; Jewelcrafting: cuts flawless prisms for portal anchors.,trinket_glimmerdeep_prismheart_relic.png
+50010,Greatwood Warden Thorncloak,Gear,Cloak,Epic,Tailoring,Greatwood,Tailoring: stitches a briar ward proc; Enchanting: amplifies nature resist for off-tanks.,gear_greatwood_warden_thorncloak.png
+50011,Greatwood Sapwarden Branch,Gear,Staff,Epic,Woodworking,Greatwood,Woodworking: channels sap shield charges; Herbalism: boosts gather yields in forest nodes.,gear_greatwood_sapwarden_branch.png
+50012,Greatwood Hunterline Loop,Gear,Ring,Epic,Jewelry,Greatwood,Jewelry: sockets beast-slay bonus; Skinning: increases rare hide drop chances.,gear_greatwood_hunterline_loop.png
+50013,Greatwood Riverstride Boots,Gear,Boots,Epic,Leatherworking,Greatwood,Leatherworking: adds river crossing sprint; Fishing: improves catch quality in riparian zones.,gear_greatwood_riverstride_boots.png
+50014,Greatwood Greenwarden Satchel,Profession Tool,Gathering Bag,Epic,Herbalism,Greatwood,Herbalism: prevents wither on rare herbs; Alchemy: keeps reagents fresh for longer crafts.,tool_greatwood_greenwarden_satchel.png
+50015,Frostbriar Chiselhelm,Gear,Helmet,Epic,Stonecutting,Frostbriar,Stonecutting: reduces chip waste; Mining: reveals frost seams on minimap.,gear_frostbriar_chiselhelm.png
+50016,Frostbriar Sleetline Spaulders,Gear,Shoulders,Epic,Smithing,Frostbriar,Smithing: gains extra frostsnap proc; Armorsmith: crafts coldburst plates cheaper.,gear_frostbriar_sleetline_spaulders.png
+50017,Frostbriar Icebinder Gauntlets,Gear,Gloves,Epic,Smithing,Frostbriar,Smithing: socket frostthread runes; Enchanting: enhances chilled weapon imbues.,gear_frostbriar_icebinder_gauntlets.png
+50018,Frostbriar Wintergut Rations,Consumable,Ration,Rare,Cooking,Frostbriar,Cooking: feast that adds frost resist and stamina; Survival: slow fall when snowshoeing.,consumable_frostbriar_wintergut_rations.png
+50019,Frostbriar Icevine Draught,Consumable,Elixir,Epic,Alchemy,Frostbriar,Alchemy: imbues frost absorb shield; Enchanting: catalyst for chill weapon oils.,consumable_frostbriar_icevine_draught.png
+50020,Glimmerdeep Seamrider Pick,Profession Tool,Pickaxe,Epic,Mining,Glimmerdeep,Mining: doubles crystal node yield; Engineering: powers glow-lamps in dark delves.,tool_glimmerdeep_seamrider_pick.png
+50021,Glimmerdeep Lumenweft Hood,Gear,Hood,Epic,Tailoring,Glimmerdeep,Tailoring: threads lightweave haste; Arcanism: improves spell tracing in caverns.,gear_glimmerdeep_lumenweft_hood.png
+50022,Glimmerdeep Reefglass Philter,Consumable,Philter,Epic,Alchemy,Glimmerdeep,Alchemy: grants underwater breath and swim speed; Fishing: attracts prism-scale schools.,consumable_glimmerdeep_reefglass_philter.png
+50023,Glimmerdeep Echoed Toneshell,Trinket,Totem,Epic,Arcanism,Glimmerdeep,Arcanism: stores extra echo charges; Musician: projects sonar for scouting.,trinket_glimmerdeep_echoed_toneshell.png
+50024,Saltmarrow Tidecourt Cutlass,Gear,Sword,Epic,Smithing,Saltmarrow,Smithing: channels brine bleed enchant; Sailing: grants faster deck maneuvers.,gear_saltmarrow_tidecourt_cutlass.png
+50025,Saltmarrow Brineguard Mantle,Gear,Cloak,Epic,Tailoring,Saltmarrow,Tailoring: adds splash resistance; Fishing: reduces pull time when netting.,gear_saltmarrow_brineguard_mantle.png
+50026,Saltmarrow Driftchart,Map,Sea Chart,Epic,Cartography,Saltmarrow,Cartography: marks hidden shoals; Navigation: shortens ferry cooldowns.,map_saltmarrow_driftchart.png
+50027,Saltmarrow Mariner Brew,Consumable,Brew,Rare,Cooking,Saltmarrow,Cooking: shipboard feast with agility buff; Sailing: steadies footing on rolling decks.,consumable_saltmarrow_mariner_brew.png
+50028,Emberford Forgecaller Gauntlet,Gear,Glove,Epic,Smithing,Emberford,Smithing: reheats ingots instantly; Mining: prevents burn on magma nodes.,gear_emberford_forgecaller_gauntlet.png
+50029,Emberford Sootwing Cowl,Gear,Hood,Epic,Tailoring,Emberford,Tailoring: resists smoke; Engineering: boosts glider stability near vents.,gear_emberford_sootwing_cowl.png
+50030,Emberford Cinderbloom Tincture,Consumable,Tincture,Epic,Alchemy,Emberford,Alchemy: adds fireburst damage proc; Herbalism: softens resin for quicker gathers.,consumable_emberford_cinderbloom_tincture.png
+50031,Emberford Crucible Ledger,Document,Ledger,Epic,Accounting,Emberford,Accounting: unlocks bulk ore contracts; Guild Logistics: reduces furnace upkeep costs.,doc_emberford_crucible_ledger.png
+50032,Hollowroot Mireweave Jerkin,Gear,Chest,Epic,Leatherworking,Hollowroot,Leatherworking: adds rot-ward lining; Survival: reduces slow from bog terrain.,gear_hollowroot_mireweave_jerkin.png
+50033,Hollowroot Sporelight Lantern,Trinket,Lantern,Epic,Herbalism,Hollowroot,Herbalism: reveals hidden fungi; Alchemy: spores extend potion durations.,trinket_hollowroot_sporelight_lantern.png
+50034,Hollowroot Burrowguide Spade,Profession Tool,Spade,Epic,Archaeology,Hollowroot,Archaeology: avoids collapse in soft loam; Cartography: maps tunnel depth quickly.,tool_hollowroot_burrowguide_spade.png
+50035,Hollowroot Bogwalker Treads,Gear,Boots,Epic,Leatherworking,Hollowroot,Leatherworking: resists seep damage; Fishing: higher bite chance in swamp pools.,gear_hollowroot_bogwalker_treads.png
+50036,Greatwood Grovebound Compass,Key,Compass,Epic,Cartography,Greatwood,Cartography: tracks forest ley lines; Hunting: marks beast dens for teams.,key_greatwood_grovebound_compass.png
+50037,Frostbriar Hoarfrost Keyring,Key,Keyring,Epic,Locksmithing,Frostbriar,Locksmithing: cuts cold-tempered keys; Exploration: bypasses frozen gate wards.,key_frostbriar_hoarfrost_keyring.png
+50038,Glimmerdeep Cavernway Beacon,Key,Beacon,Epic,Engineering,Glimmerdeep,Engineering: teleports delve team once per day; Mining: marks respawn timers on nodes.,key_glimmerdeep_cavernway_beacon.png
+50039,Saltmarrow Barnacle Cipher,Key,Cipher,Epic,Cartography,Saltmarrow,Cartography: decodes coral vaults; Treasure Hunting: reveals shipwreck caches.,key_saltmarrow_barnacle_cipher.png
+50040,Emberford Smelter Seal,Key,Seal,Epic,Smithing,Emberford,Smithing: halves fuel costs; Engineering: authorizes rail yard forges.,key_emberford_smelter_seal.png
+50041,Hollowroot Barrow Mark,Key,Medallion,Epic,Archaeology,Hollowroot,Archaeology: opens sealed barrows; Ritualism: strengthens ward stones in bog shrines.,key_hollowroot_barrow_mark.png
+50042,Greatwood Rangerfield Fieldbrew,Consumable,Brew,Epic,Cooking,Greatwood,Cooking: feast that buffs ranged haste; Brewing: trades to hunters for tracking buff.,consumable_greatwood_rangerfield_fieldbrew.png
+50043,Frostbriar Glaciermint Tea,Consumable,Tea,Epic,Cooking,Frostbriar,Cooking: increases mana regen; Herbalism: calms beasts during gathers.,consumable_frostbriar_glaciermint_tea.png
+50044,Glimmerdeep Lanternbrew Tonic,Consumable,Tonic,Epic,Cooking,Glimmerdeep,Cooking: grants night vision; Alchemy: acts as catalyst for glow-ink inks.,consumable_glimmerdeep_lanternbrew_tonic.png
+50045,Saltmarrow Brackwater Chowder,Consumable,Meal,Epic,Cooking,Saltmarrow,Cooking: feast boosting versatility; Fishing: sells high to dock crews.,consumable_saltmarrow_brackwater_chowder.png
+50046,Emberford Emberrest Stew,Consumable,Meal,Rare,Cooking,Emberford,Cooking: grants fire absorb shield; Mining: reduces heat exhaustion stacks.,consumable_emberford_emberrest_stew.png
+50047,Hollowroot Nightsoak Broth,Consumable,Broth,Rare,Cooking,Hollowroot,Cooking: adds lifesteal buff; Herbalism: preserves spores for samples.,consumable_hollowroot_nightsoak_broth.png
+50048,Greatwood Antlerlash Whip,Gear,Whip,Epic,Leatherworking,Greatwood,Leatherworking: trains mount handling; Hunting: increases snare uptime.,gear_greatwood_antlerlash_whip.png
+50049,Frostbriar Froststep Greaves,Gear,Boots,Epic,Smithing,Frostbriar,Smithing: embeds frost plates; Mounting: prevents slip on ice raids.,gear_frostbriar_froststep_greaves.png
+50050,Glimmerdeep Crystalnet Mantle,Gear,Shoulders,Epic,Tailoring,Glimmerdeep,Tailoring: slots luminous netting; Fishing: enhances lure glow underwater.,gear_glimmerdeep_crystalnet_mantle.png
+50051,Saltmarrow Tanglespun Tabard,Gear,Tabard,Epic,Tailoring,Saltmarrow,Tailoring: displays dock rep bonus; Sailing: resists rope burn.,gear_saltmarrow_tanglespun_tabard.png
+50052,Emberford Charred Keystone,Trinket,Stone,Epic,Runesmithing,Emberford,Runesmithing: holds extra rune charge; Mining: senses magma vents.,trinket_emberford_charred_keystone.png
+50053,Hollowroot Fungalmend Band,Gear,Ring,Epic,Jewelry,Hollowroot,Jewelry: heals extra when poisoned; Herbalism: doubles mushroom yield.,gear_hollowroot_fungalmend_band.png
+50054,Greatwood Hearthlit Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_hearthlit_ore.png
+50055,Frostbriar Reedwoven Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_reedwoven_timber.png
+50056,Glimmerdeep Saltbitten Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_saltbitten_hide.png
+50057,Saltmarrow Glowroot Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_glowroot_herb.png
+50058,Emberford Emberlaced Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_emberlaced_spice.png
+50059,Hollowroot Frostbright Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_frostbright_snack.png
+50060,Greatwood Deepwatch Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_deepwatch_potion.png
+50061,Frostbriar Marrowlit Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_marrowlit_salve.png
+50062,Glimmerdeep Brambleguard Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_brambleguard_kit.png
+50063,Saltmarrow Gustwhisper Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_gustwhisper_rod.png
+50064,Emberford Mossclasp Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_mossclasp_tackle.png
+50065,Hollowroot Lanternbound Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_lanternbound_hammer.png
+50066,Greatwood Seawright Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_seawright_permit.png
+50067,Frostbriar Forgebound Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_forgebound_survey.png
+50068,Glimmerdeep Gloomridge Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_gloomridge_charm.png
+50069,Saltmarrow Hollowthread Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_hollowthread_belt.png
+50070,Emberford Rainswept Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_rainswept_bracers.png
+50071,Hollowroot Ciderpress Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_ciderpress_amulet.png
+50072,Greatwood Ironbloom Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_ironbloom_ore.png
+50073,Frostbriar Sleetcall Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_sleetcall_timber.png
+50074,Glimmerdeep Driftpost Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_driftpost_hide.png
+50075,Saltmarrow Sunbound Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_sunbound_herb.png
+50076,Emberford Bogshadow Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_bogshadow_spice.png
+50077,Hollowroot Stonebent Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_stonebent_snack.png
+50078,Greatwood Rivertread Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_rivertread_potion.png
+50079,Frostbriar Hearthforge Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_hearthforge_salve.png
+50080,Glimmerdeep Trailbound Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_trailbound_kit.png
+50081,Saltmarrow Kelpbound Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_kelpbound_rod.png
+50082,Emberford Ashwhorl Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_ashwhorl_tackle.png
+50083,Hollowroot Crystalwake Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_crystalwake_hammer.png
+50084,Greatwood Mirekissed Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_mirekissed_permit.png
+50085,Frostbriar Starforged Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_starforged_survey.png
+50086,Glimmerdeep Thornbound Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_thornbound_charm.png
+50087,Saltmarrow Frosttouched Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_frosttouched_belt.png
+50088,Emberford Tidebound Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_tidebound_bracers.png
+50089,Hollowroot Gloamset Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_gloamset_amulet.png
+50090,Greatwood Sparkthread Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_sparkthread_ore.png
+50091,Frostbriar Grainfed Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_grainfed_timber.png
+50092,Glimmerdeep Stonegaze Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_stonegaze_hide.png
+50093,Saltmarrow Windturn Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_windturn_herb.png
+50094,Emberford Hearthlit Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_hearthlit_spice.png
+50095,Hollowroot Reedwoven Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_reedwoven_snack.png
+50096,Greatwood Saltbitten Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_saltbitten_potion.png
+50097,Frostbriar Glowroot Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_glowroot_salve.png
+50098,Glimmerdeep Emberlaced Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_emberlaced_kit.png
+50099,Saltmarrow Frostbright Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_frostbright_rod.png
+50100,Emberford Deepwatch Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_deepwatch_tackle.png
+50101,Hollowroot Marrowlit Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_marrowlit_hammer.png
+50102,Greatwood Brambleguard Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_brambleguard_permit.png
+50103,Frostbriar Gustwhisper Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_gustwhisper_survey.png
+50104,Glimmerdeep Mossclasp Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_mossclasp_charm.png
+50105,Saltmarrow Lanternbound Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_lanternbound_belt.png
+50106,Emberford Seawright Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_seawright_bracers.png
+50107,Hollowroot Forgebound Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_forgebound_amulet.png
+50108,Greatwood Gloomridge Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_gloomridge_ore.png
+50109,Frostbriar Hollowthread Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_hollowthread_timber.png
+50110,Glimmerdeep Rainswept Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_rainswept_hide.png
+50111,Saltmarrow Ciderpress Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_ciderpress_herb.png
+50112,Emberford Ironbloom Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_ironbloom_spice.png
+50113,Hollowroot Sleetcall Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_sleetcall_snack.png
+50114,Greatwood Driftpost Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_driftpost_potion.png
+50115,Frostbriar Sunbound Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_sunbound_salve.png
+50116,Glimmerdeep Bogshadow Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_bogshadow_kit.png
+50117,Saltmarrow Stonebent Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_stonebent_rod.png
+50118,Emberford Rivertread Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_rivertread_tackle.png
+50119,Hollowroot Hearthforge Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_hearthforge_hammer.png
+50120,Greatwood Trailbound Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_trailbound_permit.png
+50121,Frostbriar Kelpbound Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_kelpbound_survey.png
+50122,Glimmerdeep Ashwhorl Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_ashwhorl_charm.png
+50123,Saltmarrow Crystalwake Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_crystalwake_belt.png
+50124,Emberford Mirekissed Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_mirekissed_bracers.png
+50125,Hollowroot Starforged Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_starforged_amulet.png
+50126,Greatwood Thornbound Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_thornbound_ore.png
+50127,Frostbriar Frosttouched Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_frosttouched_timber.png
+50128,Glimmerdeep Tidebound Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_tidebound_hide.png
+50129,Saltmarrow Gloamset Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_gloamset_herb.png
+50130,Emberford Sparkthread Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_sparkthread_spice.png
+50131,Hollowroot Grainfed Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_grainfed_snack.png
+50132,Greatwood Stonegaze Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_stonegaze_potion.png
+50133,Frostbriar Windturn Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_windturn_salve.png
+50134,Glimmerdeep Hearthlit Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_hearthlit_kit.png
+50135,Saltmarrow Reedwoven Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_reedwoven_rod.png
+50136,Emberford Saltbitten Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_saltbitten_tackle.png
+50137,Hollowroot Glowroot Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_glowroot_hammer.png
+50138,Greatwood Emberlaced Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_emberlaced_permit.png
+50139,Frostbriar Frostbright Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_frostbright_survey.png
+50140,Glimmerdeep Deepwatch Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_deepwatch_charm.png
+50141,Saltmarrow Marrowlit Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_marrowlit_belt.png
+50142,Emberford Brambleguard Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_brambleguard_bracers.png
+50143,Hollowroot Gustwhisper Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_gustwhisper_amulet.png
+50144,Greatwood Mossclasp Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_mossclasp_ore.png
+50145,Frostbriar Lanternbound Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_lanternbound_timber.png
+50146,Glimmerdeep Seawright Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_seawright_hide.png
+50147,Saltmarrow Forgebound Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_forgebound_herb.png
+50148,Emberford Gloomridge Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_gloomridge_spice.png
+50149,Hollowroot Hollowthread Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_hollowthread_snack.png
+50150,Greatwood Rainswept Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_rainswept_potion.png
+50151,Frostbriar Ciderpress Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_ciderpress_salve.png
+50152,Glimmerdeep Ironbloom Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_ironbloom_kit.png
+50153,Saltmarrow Sleetcall Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_sleetcall_rod.png
+50154,Emberford Driftpost Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_driftpost_tackle.png
+50155,Hollowroot Sunbound Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_sunbound_hammer.png
+50156,Greatwood Bogshadow Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_bogshadow_permit.png
+50157,Frostbriar Stonebent Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_stonebent_survey.png
+50158,Glimmerdeep Rivertread Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_rivertread_charm.png
+50159,Saltmarrow Hearthforge Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_hearthforge_belt.png
+50160,Emberford Trailbound Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_trailbound_bracers.png
+50161,Hollowroot Kelpbound Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_kelpbound_amulet.png
+50162,Greatwood Ashwhorl Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_ashwhorl_ore.png
+50163,Frostbriar Crystalwake Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_crystalwake_timber.png
+50164,Glimmerdeep Mirekissed Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_mirekissed_hide.png
+50165,Saltmarrow Starforged Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_starforged_herb.png
+50166,Emberford Thornbound Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_thornbound_spice.png
+50167,Hollowroot Frosttouched Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_frosttouched_snack.png
+50168,Greatwood Tidebound Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_tidebound_potion.png
+50169,Frostbriar Gloamset Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_gloamset_salve.png
+50170,Glimmerdeep Sparkthread Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_sparkthread_kit.png
+50171,Saltmarrow Grainfed Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_grainfed_rod.png
+50172,Emberford Stonegaze Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_stonegaze_tackle.png
+50173,Hollowroot Windturn Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_windturn_hammer.png
+50174,Greatwood Hearthlit Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_hearthlit_permit.png
+50175,Frostbriar Reedwoven Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_reedwoven_survey.png
+50176,Glimmerdeep Saltbitten Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_saltbitten_charm.png
+50177,Saltmarrow Glowroot Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_glowroot_belt.png
+50178,Emberford Emberlaced Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_emberlaced_bracers.png
+50179,Hollowroot Frostbright Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_frostbright_amulet.png
+50180,Greatwood Deepwatch Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_deepwatch_ore.png
+50181,Frostbriar Marrowlit Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_marrowlit_timber.png
+50182,Glimmerdeep Brambleguard Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_brambleguard_hide.png
+50183,Saltmarrow Gustwhisper Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_gustwhisper_herb.png
+50184,Emberford Mossclasp Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_mossclasp_spice.png
+50185,Hollowroot Lanternbound Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_lanternbound_snack.png
+50186,Greatwood Seawright Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_seawright_potion.png
+50187,Frostbriar Forgebound Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_forgebound_salve.png
+50188,Glimmerdeep Gloomridge Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_gloomridge_kit.png
+50189,Saltmarrow Hollowthread Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_hollowthread_rod.png
+50190,Emberford Rainswept Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_rainswept_tackle.png
+50191,Hollowroot Ciderpress Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_ciderpress_hammer.png
+50192,Greatwood Ironbloom Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_ironbloom_permit.png
+50193,Frostbriar Sleetcall Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_sleetcall_survey.png
+50194,Glimmerdeep Driftpost Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_driftpost_charm.png
+50195,Saltmarrow Sunbound Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_sunbound_belt.png
+50196,Emberford Bogshadow Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_bogshadow_bracers.png
+50197,Hollowroot Stonebent Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_stonebent_amulet.png
+50198,Greatwood Rivertread Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_rivertread_ore.png
+50199,Frostbriar Hearthforge Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_hearthforge_timber.png
+50200,Glimmerdeep Trailbound Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_trailbound_hide.png
+50201,Saltmarrow Kelpbound Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_kelpbound_herb.png
+50202,Emberford Ashwhorl Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_ashwhorl_spice.png
+50203,Hollowroot Crystalwake Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_crystalwake_snack.png
+50204,Greatwood Mirekissed Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_mirekissed_potion.png
+50205,Frostbriar Starforged Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_starforged_salve.png
+50206,Glimmerdeep Thornbound Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_thornbound_kit.png
+50207,Saltmarrow Frosttouched Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_frosttouched_rod.png
+50208,Emberford Tidebound Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_tidebound_tackle.png
+50209,Hollowroot Gloamset Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_gloamset_hammer.png
+50210,Greatwood Sparkthread Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_sparkthread_permit.png
+50211,Frostbriar Grainfed Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_grainfed_survey.png
+50212,Glimmerdeep Stonegaze Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_stonegaze_charm.png
+50213,Saltmarrow Windturn Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_windturn_belt.png
+50214,Emberford Hearthlit Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_hearthlit_bracers.png
+50215,Hollowroot Reedwoven Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_reedwoven_amulet.png
+50216,Greatwood Saltbitten Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_saltbitten_ore.png
+50217,Frostbriar Glowroot Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_glowroot_timber.png
+50218,Glimmerdeep Emberlaced Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_emberlaced_hide.png
+50219,Saltmarrow Frostbright Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_frostbright_herb.png
+50220,Emberford Deepwatch Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_deepwatch_spice.png
+50221,Hollowroot Marrowlit Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_marrowlit_snack.png
+50222,Greatwood Brambleguard Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_brambleguard_potion.png
+50223,Frostbriar Gustwhisper Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_gustwhisper_salve.png
+50224,Glimmerdeep Mossclasp Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_mossclasp_kit.png
+50225,Saltmarrow Lanternbound Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_lanternbound_rod.png
+50226,Emberford Seawright Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_seawright_tackle.png
+50227,Hollowroot Forgebound Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_forgebound_hammer.png
+50228,Greatwood Gloomridge Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_gloomridge_permit.png
+50229,Frostbriar Hollowthread Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_hollowthread_survey.png
+50230,Glimmerdeep Rainswept Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_rainswept_charm.png
+50231,Saltmarrow Ciderpress Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_ciderpress_belt.png
+50232,Emberford Ironbloom Bracers,Gear,Bracers,Uncommon,Smithing,Emberford,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,gear_emberford_ironbloom_bracers.png
+50233,Hollowroot Sleetcall Amulet,Gear,Amulet,Rare,Jewelry,Hollowroot,Jewelry: sets steady focus stones; Prospecting: spots veins earlier.,gear_hollowroot_sleetcall_amulet.png
+50234,Greatwood Driftpost Ore,Material,Ore,Rare,Smithing,Greatwood,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,material_greatwood_driftpost_ore.png
+50235,Frostbriar Sunbound Timber,Material,Timber,Uncommon,Woodworking,Frostbriar,Woodworking: trims weight for bows; Fletching: improves shaft stability.,material_frostbriar_sunbound_timber.png
+50236,Glimmerdeep Bogshadow Hide,Material,Hide,Uncommon,Leatherworking,Glimmerdeep,Leatherworking: cures quicker; Saddlery: adds tack durability.,material_glimmerdeep_bogshadow_hide.png
+50237,Saltmarrow Stonebent Herb,Ingredient,Herb,Common,Herbalism,Saltmarrow,Herbalism: keeps sprigs fresh; Alchemy: boosts extract potency.,ingredient_saltmarrow_stonebent_herb.png
+50238,Emberford Rivertread Spice,Ingredient,Spice,Uncommon,Cooking,Emberford,Cooking: folds into hearty stew; Brewing: sells well at inns.,ingredient_emberford_rivertread_spice.png
+50239,Hollowroot Hearthforge Snack,Consumable,Snack,Common,Cooking,Hollowroot,Cooking: folds into hearty stew; Brewing: sells well at inns.,consumable_hollowroot_hearthforge_snack.png
+50240,Greatwood Trailbound Potion,Consumable,Potion,Rare,Alchemy,Greatwood,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_greatwood_trailbound_potion.png
+50241,Frostbriar Kelpbound Salve,Consumable,Salve,Uncommon,Alchemy,Frostbriar,Alchemy: stabilizes volatile mixes; Enchanting: primes runes to stick.,consumable_frostbriar_kelpbound_salve.png
+50242,Glimmerdeep Ashwhorl Kit,Tool,Kit,Uncommon,Engineering,Glimmerdeep,Engineering: tunes devices to weather; Tinkering: salvages extra parts.,tool_glimmerdeep_ashwhorl_kit.png
+50243,Saltmarrow Crystalwake Rod,Tool,Rod,Rare,Fishing,Saltmarrow,Fishing: hooks stubborn schools; Netting: ups haul quality.,tool_saltmarrow_crystalwake_rod.png
+50244,Emberford Mirekissed Tackle,Profession Tool,Tackle,Uncommon,Fishing,Emberford,Fishing: hooks stubborn schools; Netting: ups haul quality.,profession tool_emberford_mirekissed_tackle.png
+50245,Hollowroot Starforged Hammer,Profession Tool,Hammer,Rare,Smithing,Hollowroot,Smithing: refines metal faster; Armorsmith: reduces failure on plates.,profession tool_hollowroot_starforged_hammer.png
+50246,Greatwood Thornbound Permit,Document,Permit,Common,Scribing,Greatwood,Scribing: validates guild charters; Cartography: maps clear routes.,document_greatwood_thornbound_permit.png
+50247,Frostbriar Frosttouched Survey,Map,Survey,Uncommon,Cartography,Frostbriar,Cartography: plots safe detours; Navigation: shortens travel timers.,map_frostbriar_frosttouched_survey.png
+50248,Glimmerdeep Tidebound Charm,Trinket,Charm,Rare,Arcanism,Glimmerdeep,Arcanism: channels bonus spell crit; Enchanting: banks spare charges.,trinket_glimmerdeep_tidebound_charm.png
+50249,Saltmarrow Gloamset Belt,Gear,Belt,Rare,Leatherworking,Saltmarrow,Leatherworking: cures quicker; Saddlery: adds tack durability.,gear_saltmarrow_gloamset_belt.png
