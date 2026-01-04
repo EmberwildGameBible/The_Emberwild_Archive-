@@ -43,7 +43,20 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 | [Sentry Ration Docket](../09_Artifacts/Sentry_Ration_Docket.md) | Thornlash Palisade | Ration and smuggling ledger slips that seed cache hunts and wall upgrades. Published. |
 | [White Howl Rumor Slip](../09_Artifacts/White_Howl_Rumor_Slip.md) | Frostbriar Reach | Rare spawn alert for the Slidecaller ridge matriarch. Published. |
 | [Slidecaller Bell Tab](../09_Artifacts/Slidecaller_Bell_Tab.md) | Frostbriar Reach | Escort bell checklist for sled runs; points to key fragments. Published. |
+| [Resin Ration Route Map](../09_Artifacts/Resin_Ration_Route_Map.md) | Frostbriar Reach | Meltwater spur map marking resin jars and rifle ammo drops for repeatable sled support. New. |
+| [Snow Squall Shard Log](../09_Artifacts/Snow_Squall_Shard_Log.md) | Frostbriar Reach | Ear tally and shortsword trial log for hunting White Howl packs at Shatterpine. New. |
+| [Meltwater Exchange Scrip](../09_Artifacts/Meltwater_Exchange_Scrip.md) | Frostbriar Reach | Trade chit for Glimmer Brew crates and Hearth Map copies moving between hubs. New. |
+| [Relay Horn Tuning Sheet](../09_Artifacts/Relay_Horn_Tuning_Sheet.md) | Frostbriar Reach | Horn padding checklist tied to relay tune-up mini chain and Icefloe ferry runs. New. |
+| [Ashen Cry Choke Map](../09_Artifacts/Ashen_Cry_Choke_Map.md) | Frostbriar Reach | Supply choke sketch targeting grotto couriers hauling Deepwatch Pauldrons. New. |
+| [Syndic Convoy Order](../09_Artifacts/Syndic_Convoy_Order.md) | Frostbriar Reach to Glimmerdeep | Cross-hub convoy manifest for harpoon crates and Grotto attunement unlocks. New. |
 | [Pole Grease Chit](../09_Artifacts/Pole_Grease_Chit.md) | Glimmerdeep Mire | Ropeway delivery chit tracked by Broker Vesha. Published. |
+| [Pole Grease Knotwork](../09_Artifacts/Pole_Grease_Knotwork.md) | Glimmerdeep Mire | Knot diagram for Peatcoil rope grease deliveries and lashings. New. |
+| [Ledger Dragline Map](../09_Artifacts/Ledger_Dragline_Map.md) | Glimmerdeep Mire | Dragline chart to recover ledgers and Jade Urn seals from the wreck. New. |
+| [Gleam Eel Cleaning List](../09_Artifacts/Gleam_Eel_Cleaning_List.md) | Glimmerdeep Shore | Fishmonger prep list exchanging Lantern Harpoon barbs for polish. New. |
+| [Ventwatch Anchor Slate](../09_Artifacts/Ventwatch_Anchor_Slate.md) | Glimmerdeep Shore | Anchor etchings for patching barge seams with tar mats and ground wires. New. |
+| [Glowspore Tithe Slip](../09_Artifacts/Glowspore_Tithe_Slip.md) | Glimmerdeep Mire | Tithe slip for brace audits rewarding coils of Kindled Yarn. New. |
+| [Glowspore Tally Tab](../09_Artifacts/Glowspore_Tally_Tab.md) | Glimmerdeep Mire | Counterweight tally sheet linking crate weights to Hollowroot staging. New. |
+| [Shoreline Peace Accord](../09_Artifacts/Shoreline_Peace_Accord.md) | Glimmerdeep Shore & Frostbriar | Toll accord granting Deepwatch Pauldrons chits and shared Grotto access. New. |
 | [Ventwatch Bounty Note](../09_Artifacts/Ventwatch_Bounty_Note.md) | Glimmerdeep Mire | Bounty for ash vent keys taken from divers. Published. |
 | [Slidecaller Breach Report](../09_Artifacts/Slidecaller_Breach_Report.md) | Ashen Cry Grotto | Breach sealing memo guiding dungeon clean-up. Published. |
 | [Gravemark Warning Board](../09_Artifacts/Gravemark_Warning_Board.md) | Gravemark Switchbacks | Slidecaller chalkboard with avalanche warnings, sled part swaps, and bounty eligibility notes. Published. |
