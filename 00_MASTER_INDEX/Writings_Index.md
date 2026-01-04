@@ -1,16 +1,16 @@
 # Writings Index
 
 - Journals/NPC/THE JOURNAL OF ALDEN RHEWS.md
-- Journals/NPC/THE LODGE-KEEPER’S JOURNAL.md
+- Journals/NPC/THE LODGE-KEEPER'S JOURNAL.md
 - Letters/Personal/THE LETTERS OF MARLEN SOHRT.md
-- Letters/Personal/“A LETTER NEVER SENT.md
+- Letters/Personal/A LETTER NEVER SENT.md
 - Stories/Other/A COIN FOR A CHILD.md
 - Stories/Other/LETTERS FROM THE LODGES.md
 - Stories/Other/THE GHOST OF THORNMERE.md
-- Stories/Other/“THE BINDING OF HARETH’S SON”.md
-- Stories/Other/“THE CLUTCH-ROPE ACCOUNT”.md
-- Stories/Other/“THE HALF-MADE THING IN THE WHEATFIELD”.md
-- Stories/Other/“THE HOLLOW-ROOT TESTAMENT”.md
-- Stories/Other/“THE LAST HOURS OF EDA MARREN”.md
-- Stories/Other/“THE NARROW ROOM UNDER WADE’S MILL”.md
-- Stories/Other/“THE THREE NIGHTS AT WINDER’S FIELD”.md
+- Stories/Other/THE BINDING OF HARETH'S SON.md
+- Stories/Other/THE CLUTCH-ROPE ACCOUNT.md
+- Stories/Other/THE HALF-MADE THING IN THE WHEATFIELD.md
+- Stories/Other/THE HOLLOW-ROOT TESTAMENT.md
+- Stories/Other/THE LAST HOURS OF EDA MARREN.md
+- Stories/Other/THE NARROW ROOM UNDER WADE'S MILL.md
+- Stories/Other/THE THREE NIGHTS AT WINDER'S FIELD.md
