@@ -10,6 +10,26 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 
 | Artifact | Locale | Lead & Status |
 | --- | --- | --- |
+| [Greatwood Lodge Receipt](../09_Artifacts/Greatwood_Lodge_Receipt.md) | Greatwood Lodge | Hearth receipt noting Barley Snack Packs and Cinderbrew swaps; stash behind lodge bunks. Published. |
+| [Watchtower Debt Note](../09_Artifacts/Watchtower_Debt_Note.md) | Greatwood watch caches | Patrol debt list for Ember Talismans and Bronzed Quivers; points to hidden cowl crate. Published. |
+| [Forgepost Freight Ledger](../09_Artifacts/Forgepost_Freight_Ledger.md) | Ashen Ridge Forgepost | Freight tallies for Pyre Quivers and Oathbound chisels; sealed chest flagged for stormcallers. Published. |
+| [Hidden Ember Receipt](../09_Artifacts/Hidden_Ember_Receipt.md) | Glassfield alley | Smuggler receipt for Tideborn Gauntlets and Stormweld Blades; coal-bin stash noted. Published. |
+| [Ridge Kiln Permit](../09_Artifacts/Ridge_Kiln_Permit.md) | Ashen Ridge kiln forecourt | Soot permit covering Umbral Lanterns and Vigil Driftleaf; map to cache under forecourt stack. Published. |
+| [Burrow Market Ledger Tab](../09_Artifacts/Burrow_Market_Ledger_Tab.md) | Hollowroot burrow market | Credit tab for Yewbarrow Saddles and Zephyr Urns; rope-bridge stash flagged. Published. |
+| [Refuge Debt Note](../09_Artifacts/Refuge_Debt_Note.md) | Collapse Refuge Library | Overdue log for Emberglass Wands and Hearth Maps; arrow diagrams hidden in alcove. Published. |
+| [Sporescout Freight Log](../09_Artifacts/Sporescout_Freight_Log.md) | Mycelial staging post | Freight log for Amberwild Saddles and Dawnlit Harpoons; cache beneath staging stair. Published. |
+| [Glacier Lodge Receipt](../09_Artifacts/Glacier_Lodge_Receipt.md) | Frostmarch Lodge | Receipt for Juniper Quivers and Kestrel Blades; moonset vial marked on sled lash. Published. |
+| [Icefloe Toll Ledger](../09_Artifacts/Icefloe_Toll_Ledger.md) | Icefloe Crossing | Toll ledger tracking Opal Arrows and Pyre Feathers; oil stash under ferry stones. Published. |
+| [Relay Horn Permit](../09_Artifacts/Relay_Horn_Permit.md) | Rimebound Relay | Permit for Tideborn Gauntlets and Stormweld Elixirs; horn cache sketched along circuit. Published. |
+| [Vigil Steps Donation Slip](../09_Artifacts/Vigil_Steps_Donation_Slip.md) | Duskhollow vigil steps | Donation slip noting Umbral Lanterns and Whisper Arrows; chisels cached behind torches. Published. |
+| [Backline Hunt Ledger](../09_Artifacts/Backline_Hunt_Ledger.md) | Duskhollow backline camps | Hunt ledger for Yellowroot Quivers and Zephyr Urns; directs claws to Gravemark drop. Published. |
+| [Gravebell Receipt](../09_Artifacts/Gravebell_Receipt.md) | Duskhollow mausoleum gate | Burial receipt for Amberwild Saddles and Bramble Apples; lantern case near palisade. Published. |
+| [Verge Bulwark Permit](../09_Artifacts/Verge_Bulwark_Permit.md) | Verge Bulwark | Permit covering Kindled Yarn and Jetstone Charms; moonset vial cache behind spikes. Published. |
+| [Exile Freight Slip](../09_Artifacts/Exile_Freight_Slip.md) | Cliffside Redoubt | Freight slip for Opal Driftleaf and Pyre Feathers; secret zest jar at cliff rope. Published. |
+| [Stormcoil Work Order](../09_Artifacts/Stormcoil_Work_Order.md) | Stormcoil Scaffold | Work order for Ravenholt Saddles and Starling Gauntlets; lantern stash under beam. Published. |
+| [Wharf Freight Ledger](../09_Artifacts/Wharf_Freight_Ledger.md) | Shiverstone Wharf | Ledger for Umbral Lanterns and Vinebound Brews; feather stash by third mooring. Published. |
+| [Beacon Steps Permit](../09_Artifacts/Beacon_Steps_Permit.md) | Beacon Steps | Permit for Yewbarrow Yarn and Zephyr Urns; sap-slick jerkin cache under stairs. Published. |
+| [Marketwalk Debt Note](../09_Artifacts/Marketwalk_Debt_Note.md) | Emberford Marketwalk | Debt note for Umbral Rations and Verdant Talismans; fletching cache behind stall 12. Published. |
 | [Field Notes — Recipe Run Cache](../09_Artifacts/Field_Notes_Recipe_Run.md) | Emberford to Riverlight patrol caches | Smudged cook/armorer pages linking 150 recipe routes to faction postings and shelter leads. Published. |
 | [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md) | Emberford Marketwalk | Ferry schedules, kiln soot sigils, and Silent Bell tensions. Published. |
 | [Rumor Web — Items 001–200](../09_Artifacts/Rumors/rumors_items_001_200.md) | Emberford Marketwalk | Thirty overheard item rumors tied to quay smuggling and shrine lore. Published. |
