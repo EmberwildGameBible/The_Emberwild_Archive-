@@ -83,8 +83,8 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 - Professions/PROFESSION PROGRESSION LADDERS.md — Tiered key items per profession, aligned to the global list.
 
 ## Recipes & Ingredients
-- Recipes/COOKBOOK EXCERPT - “Fisherman’s Broth”.md
-- Recipes/COOKBOOK PAGE - “Cheap Meal for Long Days”.md
+- Recipes/COOKBOOK EXCERPT - Fisherman's Broth.md
+- Recipes/COOKBOOK PAGE - Cheap Meal for Long Days.md
 - Recipes/EMBERWILD COOKBOOK - CAMPFIRE RECIPES.md — Low-level, classic-style meals that use the ingredient catalog and support class roles.
 - Recipes/EMBERWILD COOKBOOK - FIELD RATIONS & BUFFS.md — Travel snacks, dungeon prep meals, and war supply crates using the existing ingredient list.
 - Recipes/EMBERWILD COOKBOOK - INGREDIENTS.md — Legacy ingredients list (40 entries) spanning herbs, roots, fruits, fish, meats, and spices.

@@ -89,96 +89,96 @@
 | CHAPTER 51 — THE WRITTEN WORLD OF EMBERWILD                                              |        nan |
 | THE JOURNAL OF ALDEN RHEWS                                                               |        nan |
 | THE LETTERS OF MARLEN SOHRT                                                              |        nan |
-| “THE CLUTCH-ROPE ACCOUNT”                                                                |        nan |
-| “THE HOLLOW-ROOT TESTAMENT”                                                              |        nan |
-| “THE THREE NIGHTS AT WINDER’S FIELD”                                                     |        nan |
-| “THE LAST HOURS OF EDA MARREN”                                                           |        nan |
-| “AUTUMN BY THE EAST FEN ROADSIDE”                                                        |        nan |
-| “FROM THE LEDGER OF MASTER HALDRIN VALE: ON THE MATTER OF LOST APPRENTICES”              |        nan |
-| “A LETTER NEVER SENT                                                                     |        nan |
-| “NOTES SCRAWLED IN A HURRY (UNSIGNED)”                                                   |        nan |
-| “THE HALF-MADE THING IN THE WHEATFIELD”                                                  |        nan |
-| “THE NARROW ROOM UNDER WADE’S MILL”                                                      |        nan |
-| “THE BINDING OF HARETH’S SON”                                                            |        nan |
-| THE FORAGER’S TESTAMENT                                                                  |        nan |
+| "THE CLUTCH-ROPE ACCOUNT"                                                                |        nan |
+| "THE HOLLOW-ROOT TESTAMENT"                                                              |        nan |
+| "THE THREE NIGHTS AT WINDER'S FIELD"                                                     |        nan |
+| "THE LAST HOURS OF EDA MARREN"                                                           |        nan |
+| "AUTUMN BY THE EAST FEN ROADSIDE"                                                        |        nan |
+| "FROM THE LEDGER OF MASTER HALDRIN VALE: ON THE MATTER OF LOST APPRENTICES"              |        nan |
+| "A LETTER NEVER SENT                                                                     |        nan |
+| "NOTES SCRAWLED IN A HURRY (UNSIGNED)"                                                   |        nan |
+| "THE HALF-MADE THING IN THE WHEATFIELD"                                                  |        nan |
+| "THE NARROW ROOM UNDER WADE'S MILL"                                                      |        nan |
+| "THE BINDING OF HARETH'S SON"                                                            |        nan |
+| THE FORAGER'S TESTAMENT                                                                  |        nan |
 | nan                                                                                      |        nan |
 | THE HEARTHSTONE ALMANAC                                                                  |        nan |
-| THE SWAMPER’S GUIDE TO NOT DYING STUPID                                                  |        nan |
-| THE LODGE-KEEPER’S JOURNAL                                                               |        nan |
+| THE SWAMPER'S GUIDE TO NOT DYING STUPID                                                  |        nan |
+| THE LODGE-KEEPER'S JOURNAL                                                               |        nan |
 | LETTERS FROM THE LODGES                                                                  |        nan |
 | THE GHOST OF THORNMERE                                                                   |        nan |
-| TRAVELER’S DIARY — “First Steps into the Heartlands”                                     |        nan |
+| TRAVELER'S DIARY — "First Steps into the Heartlands"                                     |        nan |
 | FIELD NOTE — ORDER OF THE DEEP LANTERN                                                   |        nan |
-| MARSHFOLK RECIPE-NOTE — “Bog Stew for Cold Nights”                                       |        nan |
-| HIGHLAND LETTER — “To My Brother in the Lowlands”                                        |        nan |
+| MARSHFOLK RECIPE-NOTE — "Bog Stew for Cold Nights"                                       |        nan |
+| HIGHLAND LETTER — "To My Brother in the Lowlands"                                        |        nan |
 | EMBERWILD CULTURE PACK (V2 — FINAL TONE)                                                 |        nan |
-| FRONTIER GUARD REPORT — “The Ridge Collapse”                                             |        nan |
-| HUNTER’S JOURNAL — “Tracks Near the Tree Line”                                           |        nan |
-| MINER’S LOG — “Heat in the Stone”                                                        |        nan |
-| MARSH SETTLER’S NOTE — “Missing Boy”                                                     |        nan |
-| SHATTERCOAST LOGBOOK — “Storm Delay”                                                     |        nan |
-| LANTERN SCHOLAR NOTE — “Unstable Vent”                                                   |        nan |
-| HEARTLAND LETTER — “Road Trouble”                                                        |        nan |
-| WITCH’S NOTEBOOK ENTRY — “A Bad Mixture”                                                 |        nan |
-| PIRATE CREW REPORT — “Fight on Deck”                                                     |        nan |
-| GREATWOOD WORK CREW INCIDENT — “Fallen Oak”                                              |        nan |
-| LOST EXPEDITION NOTE — “Second Day”                                                      |        nan |
-| HIGHLAND WATCH REPORT — “Uneasy Night”                                                   |        nan |
-| DEAD ADVENTURER’S POCKET NOTE — “If Found”                                               |        nan |
-| MARSH HUNTER’S INSTRUCTIONS — “Basic Safety”                                             |        nan |
-| LANTERN APPRENTICE ERROR LOG — “Misreading”                                              |        nan |
-| ABANDONED CARAVAN NOTE — “Left Behind”                                                   |        nan |
-| SHATTERCOAST PASSENGER LOG — “Missing Deckhand”                                          |        nan |
-| BURNED FARMHOUSE NOTE — “After the Fire”                                                 |        nan |
-| EMBERFORGE GUILD DISPUTE — “Tool Ownership”                                              |        nan |
-| RANGER AMBUSH REPORT — “Cliffside Attack”                                                |        nan |
-| FAILED RESCUE ATTEMPT — “Collapse at Drybend”                                            |        nan |
-| WITCH FIELD INSTRUCTIONS — “Herb Collection Notes”                                       |        nan |
-| DEEP LANTERN SURVEY SCRAP — “Gauges Off”                                                 |        nan |
-| KILLER’S JOURNAL SCRAP — “Second One”                                                    |        nan |
-| DEEP LANTERN EXPERIMENT NOTE — “Exposure Test”                                           |        nan |
-| CHILDREN’S BOOK PAGE — “The Boy and the Broken Path”                                     |        nan |
-| SUSPICIOUS LETTER — “For Delivery at Night Only”                                         |        nan |
-| COOKBOOK EXCERPT — “Fisherman’s Broth”                                                   |        nan |
-| MISSING-PERSON POSTER — “Boy Age 10”                                                     |        nan |
-| ILLEGAL FIGHT ROSTER — “Underground List”                                                |        nan |
-| OUTLAW CONFESSION — “Burned the Wrong House”                                             |        nan |
-| GUILD CATALOG PAGE — “Tools for Unstable Ground”                                         |        nan |
-| ACCIDENT RECORD — “Marrowline Shaft Collapse”                                            |        nan |
-| CREEPY SMALL STORY — “Open Window”                                                       |        nan |
-| A PAGE FROM A CHILD’S DRAWING BOOK                                                       |        nan |
-| INTERROGATION TRANSCRIPT — “The Quiet Man”                                               |        nan |
-| MEDICAL CASE REPORT — “Heat Lesions, Unknown Cause”                                      |        nan |
-| PRISON SCRATCHES — “Counting Days Wrong”                                                 |        nan |
-| OUTLAW MANIFESTO — “Why We Do It”                                                        |        nan |
-| SHATTERCOAST STORM DIARY — “Three Nights Adrift”                                         |        nan |
-| BOTCHED RESEARCH ENTRY — “Test Went Wrong”                                               |        nan |
-| PERSONAL LETTER — “House Feels Wrong”                                                    |        nan |
-| HISTORICAL FRAGMENT — “Account of First Emberfall Winter”                                |        nan |
-| ILLEGAL ALCHEMY NOTE — “Unstable Mixture”                                                |        nan |
-| WORKER’S CONFESSION — “Collapse Was My Fault”                                            |        nan |
-| PRISONER’S SCRAP — “Names I Don’t Say Anymore”                                           |        nan |
-| FOREST SURVEY REPORT — “Sound Carried Wrong”                                             |        nan |
-| WITCH HUT LEDGER — “Supplies That Keep Going Missing”                                    |        nan |
-| DOCKMASTER RECORD — “Unclaimed Cargo”                                                    |        nan |
-| HEARTLAND FAMILY LETTER — “What the Doctor Didn’t Say”                                   |        nan |
-| ABANDONED EXCAVATION JOURNAL — “Something Under the Sand”                                |        nan |
-| EERIE CHILDREN’S GAME — “Step Between the Lines”                                         |        nan |
-| FRONTIER SETTLEMENT NOTICE — “Missing Tools”                                             |        nan |
-| LONGFORM WITCH JOURNAL — “Patient Study: S.”                                             |        nan |
-| BIZARRE FOLDED NOTE — “Don’t Dig Here”                                                   |        nan |
-| STRANGE SAWMILL LOG — “Footprints That Weren’t Ours”                                     |        nan |
-| FISHING LOG — “Shattercoast Trip #12”                                                    |        nan |
-| WOODWORKER TRAINING MANUAL — “Basic Cuts”                                                |        nan |
-| ALCHEMY STUDENT NOTES — “Burn Rate Tests”                                                |        nan |
-| HUNTER TRAINING NOTE — “Reading Tracks”                                                  |        nan |
-| FISHERMAN’S HANDBOOK — “Knots You Need to Know”                                          |        nan |
-| BLACKSMITH’S PRIVATE INSTRUCTION — “What Not to Do”                                      |        nan |
-| FARM LEDGER — “Crop Loss”                                                                |        nan |
-| COMPANION TRAINING NOTES — “Basic Handling”                                              |        nan |
-| COOKBOOK PAGE — “Cheap Meal for Long Days”                                               |        nan |
-| FISHING ACCIDENT REPORT — “Broken Line”                                                  |        nan |
-| WOODCUTTER INCIDENT LOG — “Fallen Limb”                                                  |        nan |
-| CRAFTING GUIDE — “Sharpening Basics”                                                     |        nan |
-| FISHING BOAT MAINTENANCE NOTE — “Hull Creaks”                                            |        nan |
-| LONGFORM PROFESSION LOG — “Marsh Guide Weekly Notes”                                     |        nan |
+| FRONTIER GUARD REPORT — "The Ridge Collapse"                                             |        nan |
+| HUNTER'S JOURNAL — "Tracks Near the Tree Line"                                           |        nan |
+| MINER'S LOG — "Heat in the Stone"                                                        |        nan |
+| MARSH SETTLER'S NOTE — "Missing Boy"                                                     |        nan |
+| SHATTERCOAST LOGBOOK — "Storm Delay"                                                     |        nan |
+| LANTERN SCHOLAR NOTE — "Unstable Vent"                                                   |        nan |
+| HEARTLAND LETTER — "Road Trouble"                                                        |        nan |
+| WITCH'S NOTEBOOK ENTRY — "A Bad Mixture"                                                 |        nan |
+| PIRATE CREW REPORT — "Fight on Deck"                                                     |        nan |
+| GREATWOOD WORK CREW INCIDENT — "Fallen Oak"                                              |        nan |
+| LOST EXPEDITION NOTE — "Second Day"                                                      |        nan |
+| HIGHLAND WATCH REPORT — "Uneasy Night"                                                   |        nan |
+| DEAD ADVENTURER'S POCKET NOTE — "If Found"                                               |        nan |
+| MARSH HUNTER'S INSTRUCTIONS — "Basic Safety"                                             |        nan |
+| LANTERN APPRENTICE ERROR LOG — "Misreading"                                              |        nan |
+| ABANDONED CARAVAN NOTE — "Left Behind"                                                   |        nan |
+| SHATTERCOAST PASSENGER LOG — "Missing Deckhand"                                          |        nan |
+| BURNED FARMHOUSE NOTE — "After the Fire"                                                 |        nan |
+| EMBERFORGE GUILD DISPUTE — "Tool Ownership"                                              |        nan |
+| RANGER AMBUSH REPORT — "Cliffside Attack"                                                |        nan |
+| FAILED RESCUE ATTEMPT — "Collapse at Drybend"                                            |        nan |
+| WITCH FIELD INSTRUCTIONS — "Herb Collection Notes"                                       |        nan |
+| DEEP LANTERN SURVEY SCRAP — "Gauges Off"                                                 |        nan |
+| KILLER'S JOURNAL SCRAP — "Second One"                                                    |        nan |
+| DEEP LANTERN EXPERIMENT NOTE — "Exposure Test"                                           |        nan |
+| CHILDREN'S BOOK PAGE — "The Boy and the Broken Path"                                     |        nan |
+| SUSPICIOUS LETTER — "For Delivery at Night Only"                                         |        nan |
+| COOKBOOK EXCERPT — "Fisherman's Broth"                                                   |        nan |
+| MISSING-PERSON POSTER — "Boy Age 10"                                                     |        nan |
+| ILLEGAL FIGHT ROSTER — "Underground List"                                                |        nan |
+| OUTLAW CONFESSION — "Burned the Wrong House"                                             |        nan |
+| GUILD CATALOG PAGE — "Tools for Unstable Ground"                                         |        nan |
+| ACCIDENT RECORD — "Marrowline Shaft Collapse"                                            |        nan |
+| CREEPY SMALL STORY — "Open Window"                                                       |        nan |
+| A PAGE FROM A CHILD'S DRAWING BOOK                                                       |        nan |
+| INTERROGATION TRANSCRIPT — "The Quiet Man"                                               |        nan |
+| MEDICAL CASE REPORT — "Heat Lesions, Unknown Cause"                                      |        nan |
+| PRISON SCRATCHES — "Counting Days Wrong"                                                 |        nan |
+| OUTLAW MANIFESTO — "Why We Do It"                                                        |        nan |
+| SHATTERCOAST STORM DIARY — "Three Nights Adrift"                                         |        nan |
+| BOTCHED RESEARCH ENTRY — "Test Went Wrong"                                               |        nan |
+| PERSONAL LETTER — "House Feels Wrong"                                                    |        nan |
+| HISTORICAL FRAGMENT — "Account of First Emberfall Winter"                                |        nan |
+| ILLEGAL ALCHEMY NOTE — "Unstable Mixture"                                                |        nan |
+| WORKER'S CONFESSION — "Collapse Was My Fault"                                            |        nan |
+| PRISONER'S SCRAP — "Names I Don't Say Anymore"                                           |        nan |
+| FOREST SURVEY REPORT — "Sound Carried Wrong"                                             |        nan |
+| WITCH HUT LEDGER — "Supplies That Keep Going Missing"                                    |        nan |
+| DOCKMASTER RECORD — "Unclaimed Cargo"                                                    |        nan |
+| HEARTLAND FAMILY LETTER — "What the Doctor Didn't Say"                                   |        nan |
+| ABANDONED EXCAVATION JOURNAL — "Something Under the Sand"                                |        nan |
+| EERIE CHILDREN'S GAME — "Step Between the Lines"                                         |        nan |
+| FRONTIER SETTLEMENT NOTICE — "Missing Tools"                                             |        nan |
+| LONGFORM WITCH JOURNAL — "Patient Study: S."                                             |        nan |
+| BIZARRE FOLDED NOTE — "Don't Dig Here"                                                   |        nan |
+| STRANGE SAWMILL LOG — "Footprints That Weren't Ours"                                     |        nan |
+| FISHING LOG — "Shattercoast Trip #12"                                                    |        nan |
+| WOODWORKER TRAINING MANUAL — "Basic Cuts"                                                |        nan |
+| ALCHEMY STUDENT NOTES — "Burn Rate Tests"                                                |        nan |
+| HUNTER TRAINING NOTE — "Reading Tracks"                                                  |        nan |
+| FISHERMAN'S HANDBOOK — "Knots You Need to Know"                                          |        nan |
+| BLACKSMITH'S PRIVATE INSTRUCTION — "What Not to Do"                                      |        nan |
+| FARM LEDGER — "Crop Loss"                                                                |        nan |
+| COMPANION TRAINING NOTES — "Basic Handling"                                              |        nan |
+| COOKBOOK PAGE — "Cheap Meal for Long Days"                                               |        nan |
+| FISHING ACCIDENT REPORT — "Broken Line"                                                  |        nan |
+| WOODCUTTER INCIDENT LOG — "Fallen Limb"                                                  |        nan |
+| CRAFTING GUIDE — "Sharpening Basics"                                                     |        nan |
+| FISHING BOAT MAINTENANCE NOTE — "Hull Creaks"                                            |        nan |
+| LONGFORM PROFESSION LOG — "Marsh Guide Weekly Notes"                                     |        nan |

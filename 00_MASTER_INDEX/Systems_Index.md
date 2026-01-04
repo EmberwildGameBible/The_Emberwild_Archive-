@@ -22,7 +22,7 @@
 - Meta_And_Tech/CHAPTER 14 - WEATHER, TIME-OF-DAY, SEASONS & ENVIR.md
 - Meta_And_Tech/CHAPTER 15 - DUNGEONS, MINI-DUNGEONS, LAIRS & INST.md
 - Meta_And_Tech/CHAPTER 20 - PROFESSIONS CORE PHILOSOPHY & STRUCTU.md
-- Professions_And_Crafting/ALCHEMY STUDENT NOTES - “Burn Rate Tests”.md
+- Professions_And_Crafting/ALCHEMY STUDENT NOTES - Burn Rate Tests.md
 - Professions_And_Crafting/CHAPTER 10 - APPENDIX E - GATHERING, NODE SYSTEM &.md
 - Professions_And_Crafting/CHAPTER 21 - ALCHEMY.md
 - Professions_And_Crafting/CHAPTER 22 - BLACKSMITHING.md
@@ -36,10 +36,10 @@
 - Professions_And_Crafting/CHAPTER 31 - WOODWORKING.md
 - Professions_And_Crafting/CHAPTER 6 - PROFESSIONS & CRAFTING SYSTEM (FINAL).md
 - Professions_And_Crafting/RECIPES_EXPANSION.md — Cross-discipline crafting recipes aligned to new materials and gear.
-- Professions_And_Crafting/FISHING ACCIDENT REPORT - “Broken Line”.md
-- Professions_And_Crafting/FISHING BOAT MAINTENANCE NOTE - “Hull Creaks”.md
-- Professions_And_Crafting/FISHING LOG - “Shattercoast Trip #12”.md
-- Professions_And_Crafting/ILLEGAL ALCHEMY NOTE - “Unstable Mixture”.md
+- Professions_And_Crafting/FISHING ACCIDENT REPORT - Broken Line.md
+- Professions_And_Crafting/FISHING BOAT MAINTENANCE NOTE - Hull Creaks.md
+- Professions_And_Crafting/FISHING LOG - Shattercoast Trip #12.md
+- Professions_And_Crafting/ILLEGAL ALCHEMY NOTE - Unstable Mixture.md
 - World_And_Events/CHAPTER 10 - APPENDIX Q - WORLD EVENTS, TRIGGERS &.md
 - Dungeons: [Ashen Cry Grotto](../06_Systems/Dungeons/Ashen_Cry_Grotto/Dungeon_Overview.md) — Frostbriar/Glimmerdeep-linked crawl with rope hazards and glowspore loot.
 - Dungeons: [Burn Scar Descent](../06_Systems/Dungeons/Burn_Scar_Descent/Dungeon_Overview.md) — Freight-run vent bridge with slagrunner loot and vent flare prep.
