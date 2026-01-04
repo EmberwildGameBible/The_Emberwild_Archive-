@@ -10,8 +10,8 @@
 - [Frostbriar_Reach_Subareas_and_POIs](Frostbriar_Reach_Subareas_and_POIs.md)
 - [Frostbriar_Reach_Settlements](Frostbriar_Reach_Settlements.md)
 - [Frostbriar_Reach_World_Event](Frostbriar_Reach_World_Event.md)
-- [Frostbriar_Trail_Hub](../../07_Quests/Frostbriar_Trail_Hub.md)
-- [Old_Road_Circuit](../../07_Quests/Old_Road_Circuit.md)
-- [Ashen_Cry_Grotto](../../06_Systems/Dungeons/Ashen_Cry_Grotto/Dungeon_Overview.md)
+- [Frostbriar_Trail_Hub](../07_Quests/Frostbriar_Trail_Hub.md)
+- [Old_Road_Circuit](../07_Quests/Old_Road_Circuit.md)
+- [Ashen_Cry_Grotto](../06_Systems/Dungeons/Ashen_Cry_Grotto/Dungeon_Overview.md)
 
-**See also:** [Regions_Index](../00_MASTER_INDEX/Regions_Index.md), [Saltmarrow_Strand](../02_Regions/Saltmarrow_Strand/Saltmarrow_Strand.md), [Windbreak_Bounty_Board](../../07_Quests/Windbreak_Bounty_Board.md)
+**See also:** [Regions_Index](../00_MASTER_INDEX/Regions_Index.md), [Saltmarrow_Strand](../02_Regions/Saltmarrow_Strand/Saltmarrow_Strand.md), [Windbreak_Bounty_Board](../07_Quests/Windbreak_Bounty_Board.md)
