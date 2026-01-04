@@ -10,6 +10,7 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 
 | Artifact | Locale | Lead & Status |
 | --- | --- | --- |
+| [Field Notes — Recipe Run Cache](../09_Artifacts/Field_Notes_Recipe_Run.md) | Emberford to Riverlight patrol caches | Smudged cook/armorer pages linking 150 recipe routes to faction postings and shelter leads. Published. |
 | [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md) | Emberford Marketwalk | Ferry schedules, kiln soot sigils, and Silent Bell tensions. Published. |
 | [Rumor Web — Items 001–200](../09_Artifacts/Rumors/rumors_items_001_200.md) | Emberford Marketwalk | Thirty overheard item rumors tied to quay smuggling and shrine lore. Published. |
 | [Thousandfold Stock Bid Board](../09_Artifacts/Thousandfold_Stock_Bid_Board.md) | Emberford Marketwalk | Bid chalkboard listing batches 201–1200 with leads to Marketwalk, Saltmarrow, Frostbriar, and Glimmerdeep. Published. |

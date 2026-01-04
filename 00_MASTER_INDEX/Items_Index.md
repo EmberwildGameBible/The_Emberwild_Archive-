@@ -85,6 +85,7 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 - Recipes/EMBERWILD COOKBOOK - INGREDIENTS.md — Legacy ingredients list (40 entries) spanning herbs, roots, fruits, fish, meats, and spices.
 - Recipes/EMBERWILD COOKBOOK - INGREDIENTS (EXTENDED MASTER LIST).md — Extended ingredient catalog aligned to the global item format.
 - Recipes/RECIPES_EXPANSION.md — Cross-profession recipe pack linking new ingredients to crafting stations and progression.
+- Recipes/EMBERWILD MEGA RECIPE RUN.md — 150 profession-ready recipes with origin, culture, and gameplay hooks aligned to the existing ingredient table.
 - Foraged_Consumables_By_Biome.md — Biome-filtered foraged consumables with micro-lore capsules and hooks.
 
 ## Gear, Enchants, and Budgets
