@@ -11,4 +11,4 @@
 - Frozen galleries with brittle bridges over ash vents.
 - Central ashfall chamber where cultists chant, leading to ember-lit sanctum.
 
-**See also:** [Ashen_Cry_Grotto_Bosses](Bosses.md), [Ashen_Cry_Grotto_Loot_Tables](Loot_Tables.md), [Ashen_Cry_Grotto_Quests](../../07_Quests/Dungeon/Ashen_Cry_Grotto_Quests.md)
+**See also:** [Ashen_Cry_Grotto_Bosses](Bosses.md), [Ashen_Cry_Grotto_Loot_Tables](Loot_Tables.md), [Ashen_Cry_Grotto_Quests](../../../07_Quests/Dungeon/Ashen_Cry_Grotto_Quests.md)
