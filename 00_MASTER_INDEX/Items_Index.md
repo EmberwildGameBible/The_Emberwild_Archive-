@@ -14,6 +14,34 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 
 - ITEM SETS & SIGNATURE DROPS.md — Regional signatures, boss legendaries, and small set bonuses with synergy notes.
 - ITEM COLLECTIONS & CURIOS.md — Collection groupings for trophies, curios, relics, and maps by region.
+
+### New Legendary and Epic Drops (IDs 50000+)
+- [Greatwood Heartwood Bulwark](../08_Items/Gear/Greatwood_Heartwood_Bulwark.md) — nature-resist tank shield tied to Lodge riverwatch.
+- [Frostbriar Aurora Carver](../08_Items/Profession_Tool/Frostbriar_Aurora_Carver.md) — shiversteel chisel that preserves froststone.
+- [Glimmerdeep Deepforge Lantern](../08_Items/Gear/Glimmerdeep_Deepforge_Lantern.md) — rune-mirrored delve light for miners and enchanters.
+- [Saltmarrow Tidecaller Grapnel](../08_Items/Tools/Saltmarrow_Tidecaller_Grapnel.md) — kelp-tested grapnel that anchors deep-haul boats.
+- [Emberford Moltenspark Recurve](../08_Items/Gear/Emberford_Moltenspark_Recurve.md) — fireglass bow favored by vent rangers.
+- [Hollowroot Warrenlord War-drum](../08_Items/Trinkets/Hollowroot_Warrenlord_War-drum.md) — haste-driving drum passed between bog clans.
+- [Greatwood Charter of Pactbound Rivers](../08_Items/Documents/Greatwood_Charter_of_Pactbound_Rivers.md) — riverway charter unlocking ferry routes.
+- [Frostbriar Covenant of Shiversteel](../08_Items/Documents/Frostbriar_Covenant_of_Shiversteel.md) — trade accord governing cold-tempered alloys.
+- [Saltmarrow Leviathan Tally](../08_Items/Keys/Saltmarrow_Leviathan_Tally.md) — whalebone key that calls rare tide-beasts.
+- [Glimmerdeep Prismheart Relic](../08_Items/Trinkets/Glimmerdeep_Prismheart_Relic.md) — prismstone focus for portal anchors.
+- [Greatwood Warden Thorncloak](../08_Items/Gear/Greatwood_Warden_Thorncloak.md) — briar-warded cloak for lodge captains.
+- [Greatwood Greenwarden Satchel](../08_Items/Profession_Tool/Greatwood_Greenwarden_Satchel.md) — herb satchel that prevents wither on rare gathers.
+- [Frostbriar Chiselhelm](../08_Items/Gear/Frostbriar_Chiselhelm.md) — visor-fitted helm for ice tunnels.
+- [Frostbriar Icebinder Gauntlets](../08_Items/Gear/Frostbriar_Icebinder_Gauntlets.md) — rune-ready gauntlets for chilled alloys.
+- [Glimmerdeep Seamrider Pick](../08_Items/Profession_Tool/Glimmerdeep_Seamrider_Pick.md) — glowquartz pick that doubles crystal yield.
+- [Glimmerdeep Echoed Toneshell](../08_Items/Trinkets/Glimmerdeep_Echoed_Toneshell.md) — sonar totem for cavern scouts.
+- [Saltmarrow Tidecourt Cutlass](../08_Items/Gear/Saltmarrow_Tidecourt_Cutlass.md) — brine-bleed sword used in dock duels.
+- [Saltmarrow Driftchart](../08_Items/Maps/Saltmarrow_Driftchart.md) — sea chart of hidden shoals and ferry routes.
+- [Emberford Forgecaller Gauntlet](../08_Items/Gear/Emberford_Forgecaller_Gauntlet.md) — vent-hardened glove for smelter crews.
+- [Emberford Charred Keystone](../08_Items/Trinkets/Emberford_Charred_Keystone.md) — rune-stone that senses magma vents.
+- [Hollowroot Sporelight Lantern](../08_Items/Trinkets/Hollowroot_Sporelight_Lantern.md) — fungus-finding lantern used in warrens.
+- [Hollowroot Burrowguide Spade](../08_Items/Profession_Tool/Hollowroot_Burrowguide_Spade.md) — collapse-safe spade for barrow digs.
+- [Greatwood Grovebound Compass](../08_Items/Keys/Greatwood_Grovebound_Compass.md) — ley-line compass for beast hunts.
+- [Frostbriar Hoarfrost Keyring](../08_Items/Keys/Frostbriar_Hoarfrost_Keyring.md) — cold-tempered keyring for ice gates.
+- [Glimmerdeep Cavernway Beacon](../08_Items/Keys/Glimmerdeep_Cavernway_Beacon.md) — teleport beacon marking respawn timers underground.
+
 - Items_Flavor_Notes.md — Tooltip and examine flavor text for all rare-and-up items plus key common staples.
 - Regions/REGION_NAME - ITEM FLAVOR PACK.md — Ambient/world item packs for Greatwood, Hollowroot, Ashen Ridge, Frostmarch, Duskhollow, Shattered Verge, and Shiverstone Coast.
 
