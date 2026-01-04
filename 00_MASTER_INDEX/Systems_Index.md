@@ -42,3 +42,6 @@
 - Professions_And_Crafting/ILLEGAL ALCHEMY NOTE - “Unstable Mixture”.md
 - World_And_Events/CHAPTER 10 - APPENDIX Q - WORLD EVENTS, TRIGGERS &.md
 - Dungeons: [Ashen Cry Grotto](../06_Systems/Dungeons/Ashen_Cry_Grotto/Dungeon_Overview.md) — Frostbriar/Glimmerdeep-linked crawl with rope hazards and glowspore loot.
+- Dungeons: [Burn Scar Descent](../06_Systems/Dungeons/Burn_Scar_Descent/Dungeon_Overview.md) — Freight-run vent bridge with slagrunner loot and vent flare prep.
+- Dungeons: [Hollowroot Warren](../06_Systems/Dungeons/Hollowroot_Warren/Dungeon_Overview.md) — Spore-and-sound tunnels with interrupt-centric drops.
+- Dungeons: [Shatterglass Crypt](../06_Systems/Dungeons/Shatterglass_Crypt/Dungeon_Overview.md) — Reflect-focused oath trial featuring prism utility mats.

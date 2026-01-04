@@ -18,4 +18,7 @@
 - [Mire Salvage Chain](../07_Quests/Mire_Salvage_Chain.md) — Ledger recovery storyline tying Glimmerdeep vents to Ashen Cry smugglers.
 - [NPC Shops and Inventories](../07_Quests/NPC_SHOPS_AND_INVENTORIES.md) — Twenty named vendors with pricing tiers, rotating stock, and linked artifacts.
 - Dungeon: [Ashen Cry Grotto Quests](../07_Quests/Dungeon/Ashen_Cry_Grotto_Quests.md) — Eight-run contract set for the new grotto crawl.
+- Dungeon: [Burn Scar Descent Quests](../07_Quests/Dungeon/Burn_Scar_Descent_Quests.md) — Four slag-runner contracts that feed the vent set.
+- Dungeon: [Hollowroot Warren Quests](../07_Quests/Dungeon/Hollowroot_Warren_Quests.md) — Interrupt-driven hooks for spore set progression.
+- Dungeon: [Shatterglass Crypt Quests](../07_Quests/Dungeon/Shatterglass_Crypt_Quests.md) — Reflect and phase trials rewarding Shardbound gear.
 - [2025-12-24 Legendary Chains — Pack Emberwild](../07_Quests/Generated_Batches/2025-12-24_Legendary_Chains_Pack.md) — Twelve three-step Legendary runs keyed to IDs 50500–50511, artifacts, and world-boss/dungeon drops.
