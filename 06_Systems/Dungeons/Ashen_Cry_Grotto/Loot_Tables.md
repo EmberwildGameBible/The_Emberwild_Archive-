@@ -13,6 +13,6 @@
 | Cinderline Skitter | [Lantern-Line_Grip_Gloves](../../08_Items/Gear/Lantern-Line_Grip_Gloves.md), [Glowspore_Tallow_Lure](../../08_Items/Fishing/Glowspore_Tallow_Lure.md) | Rope grip gear |
 | Slidebreaker Tandem | [Timberline_Sled_Rails](../../08_Items/Gear/Timberline_Sled_Rails.md), [Slidecaller_Key_Fragment](../../08_Items/Keys/Slidecaller_Key_Fragment.md) | Sled upgrades |
 | Gleamdrain Leechking | [Glowspore_Tallow](../../08_Items/Crafting/Glowspore_Tallow.md), [Peatcoil_Root_Band](../../08_Items/Gear/Peatcoil_Root_Band.md) | Mire reagents |
-| Ashen Cry Hierarch | [Ashen_Vent_Key](../../08_Items/Keys/Ashen_Vent_Key.md), [Ashen_Cry_Lantern_Pike](../../08_Items/Fishing/Ashen_Cry_Lantern_Pike.md), [Glowspore_Trade_Scrip](../../08_Items/Trinkets/Glowspore_Trade_Scrip.md) | Final chest |
+| Ashen Cry Hierarch | [Ashen_Vent_Key](../../08_Items/Keys/Ashen_Vent_Key.md), [Ashen_Cry_Lantern_Pike](../../08_Items/Fishing/Ashen_Cry_Lantern_Pike.md), [Glowspore_Trade_Scrip](../../08_Items/Trinkets/Glowspore_Trade_Scrip.md), [Emberfall Circlet](../../08_Items/Trinkets/Ashen_Cry_Emberfall_Circlet.md) | Final chest; circlet drops only if three vents are extinguished during the fight per [Emberfall Ledger](../../09_Artifacts/Ashen_Cry_Emberfall_Ledger.md) |
 
 **See also:** [Ashen_Cry_Grotto](Dungeon_Overview.md), [Ashen_Cry_Grotto_Bosses](Bosses.md), [Ashen_Cry_Grotto_Quests](../../07_Quests/Dungeon/Ashen_Cry_Grotto_Quests.md)

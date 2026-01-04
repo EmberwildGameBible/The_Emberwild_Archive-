@@ -26,6 +26,30 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 | [Ventwatch Bounty Note](../09_Artifacts/Ventwatch_Bounty_Note.md) | Glimmerdeep Mire | Bounty for ash vent keys taken from divers. Published. |
 | [Slidecaller Breach Report](../09_Artifacts/Slidecaller_Breach_Report.md) | Ashen Cry Grotto | Breach sealing memo guiding dungeon clean-up. Published. |
 | [Gravemark Warning Board](../09_Artifacts/Gravemark_Warning_Board.md) | Gravemark Switchbacks | Slidecaller chalkboard with avalanche warnings, sled part swaps, and bounty eligibility notes. Published. |
+| [Emberford Scoria Rumor Slip](../09_Artifacts/Emberford_Scoria_Rumor_Slip.md) | Emberford Marketwalk | Smelter scrap hinting at Redflare Leviathan drop for the Scoria-Draw Harpoon. Published. |
+| [Emberford Scoria Fireglass Permit](../09_Artifacts/Emberford_Scoria_Fireglass_Permit.md) | Emberford Marketwalk | Permit to test the Scoria-Draw Harpoon above active vents; notes world-boss window. Published. |
+| [Saltmarrow Tide Rumor Slip](../09_Artifacts/Saltmarrow_Tide_Rumor_Slip.md) | Saltmarrow Strand | Dockside rumor about the Tidewrit Seal surfacing during tide duels. Published. |
+| [Saltmarrow Tide Ledger Tab](../09_Artifacts/Saltmarrow_Tide_Ledger_Tab.md) | Saltmarrow Strand | Ledger square listing unpaid ferry taxes and the Tidewrit Seal retrieval. Published. |
+| [Frostbriar Relay Rumor Slip](../09_Artifacts/Frostbriar_Relay_Rumor_Slip.md) | Frostbriar Reach | Chalk note on the Rimebound Relay and ridge warden horn condition. Published. |
+| [Frostbriar Relay Sled Permit](../09_Artifacts/Frostbriar_Relay_Sled_Permit.md) | Frostbriar Reach | Slidecaller permit assigning the relay courier and blizzard horn trigger. Published. |
+| [Glimmerdeep Chasm Rumor Scrap](../09_Artifacts/Glimmerdeep_Chasm_Rumor_Scrap.md) | Glimmerdeep Mire | Glowspore scrap calling out ventboss silencing for the Chasm-Singer Chimes. Published. |
+| [Glimmerdeep Chasm Salvage Permit](../09_Artifacts/Glimmerdeep_Chasm_Salvage_Permit.md) | Glimmerdeep Mire ropeways | Broker Vesha’s permit to recover the Chasm-Singer Chimes after ventboss defeat. Published. |
+| [Greatwood Crown Rumor Slip](../09_Artifacts/Greatwood_Crown_Rumor_Slip.md) | Greatwood heart lodges | Lodge rumor on the stag-spirit test for the Grovekeeper's Crown. Published. |
+| [Greatwood Grove Permit](../09_Artifacts/Greatwood_Grove_Permit.md) | Greatwood heart lodges | Stamp granting entry to the stag clearing to claim the Grovekeeper's Crown. Published. |
+| [Hollowroot Matriarch Rumor Slip](../09_Artifacts/Hollowroot_Matriarch_Rumor_Slip.md) | Hollowroot Warren | Spore-smeared slip about calming sporelings before mantle drop. Published. |
+| [Hollowroot Birthing Ledger](../09_Artifacts/Hollowroot_Birthing_Ledger.md) | Hollowroot Warren | Midwife ledger recording eligibility for the Mycelial Mantle. Published. |
+| [Thornlash Banner Rumor Slip](../09_Artifacts/Thornlash_Banner_Rumor_Slip.md) | Thornlash Palisade | Tarred slip detailing dual-front siege needed for the Bastion Banner. Published. |
+| [Thornlash Banner Permit](../09_Artifacts/Thornlash_Banner_Permit.md) | Thornlash Palisade | Official stamp authorizing banner rights after wall defense. Published. |
+| [Ashen Cry Emberfall Rumor](../09_Artifacts/Ashen_Cry_Emberfall_Rumor.md) | Ashen Cry Grotto | Chalk note on extinguishing vents for the Emberfall Circlet. Published. |
+| [Ashen Cry Emberfall Ledger](../09_Artifacts/Ashen_Cry_Emberfall_Ledger.md) | Ashen Cry Grotto | Slidebreaker ledger marking the circlet drop condition. Published. |
+| [Shatterglass Oathmirror Rumor](../09_Artifacts/Shatterglass_Oathmirror_Rumor.md) | Shatterglass Crypt | Shard rumor about silencing the Crypt Judge to earn the Oathmirror. Published. |
+| [Shatterglass Oathkeeper Ledger](../09_Artifacts/Shatterglass_Oathkeeper_Ledger.md) | Shatterglass Crypt | Silver ledger tracking oathworthy challengers for the Oathmirror. Published. |
+| [Burn Scar Clinker Rumor](../09_Artifacts/Burn_Scar_Clinker_Rumor.md) | Burn Scar Descent | Sooted note on stunning the Clinker Colossus for the cudgel drop. Published. |
+| [Burn Scar Freight Permit](../09_Artifacts/Burn_Scar_Freight_Permit.md) | Burn Scar lifts | Freight permit granting cudgel claim rights after the stun condition. Published. |
+| [Nightwarden Rumor Slip](../09_Artifacts/Nightwarden_Rumor_Slip.md) | Emberford underpass | Tavern rumor pointing to the Silent Bell enforcer carrying the codex. Published. |
+| [Nightwarden Forged Pass](../09_Artifacts/Nightwarden_Forged_Pass.md) | Emberford underpass | Forged pass granting stealth cover to secure the Nightwarden Codex. Published. |
+| [Windbreak Skyline Rumor Slip](../09_Artifacts/Windbreak_Skyline_Rumor_Slip.md) | Windbreak Post | Grease-smudged slip about grounding the sky-manta for the javelin. Published. |
+| [Windbreak Skyline Patrol Ledger](../09_Artifacts/Windbreak_Skyline_Patrol_Ledger.md) | Windbreak ropeways | Patrol ledger logging anchor steps before the javelin drop. Published. |
 
 ## Hooks
 - Pull kiln, ferry, or Silent Bell plot hooks from the Gazette before drafting new Emberford quests.

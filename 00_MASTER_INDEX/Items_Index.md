@@ -41,6 +41,18 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 - [Greatwood Grovebound Compass](../08_Items/Keys/Greatwood_Grovebound_Compass.md) — ley-line compass for beast hunts.
 - [Frostbriar Hoarfrost Keyring](../08_Items/Keys/Frostbriar_Hoarfrost_Keyring.md) — cold-tempered keyring for ice gates.
 - [Glimmerdeep Cavernway Beacon](../08_Items/Keys/Glimmerdeep_Cavernway_Beacon.md) — teleport beacon marking respawn timers underground.
+- [Emberford Scoria-Draw Harpoon](../08_Items/Gear/Emberford_Scoria-Draw_Harpoon.md) — vent-tempered polearm that bleeds leviathans; tied to Redflare Leviathan world boss.
+- [Saltmarrow Tidewrit Seal](../08_Items/Trinkets/Saltmarrow_Tidewrit_Seal.md) — tidecourt proof seal granting ferry favor and water-walking after chest opens.
+- [Frostbriar Rimebound Relay](../08_Items/Trinkets/Frostbriar_Rimebound_Relay.md) — whistle-linked neckpiece that warns of frost hazards and boosts group coordination.
+- [Glimmerdeep Chasm-Singer Chimes](../08_Items/Trinkets/Glimmerdeep_Chasm-Singer_Chimes.md) — prismheart chimes enabling water-stealth and glowspore drop boosts.
+- [Greatwood Grovekeeper's Crown](../08_Items/Gear/Greatwood_Grovekeepers_Crown.md) — antler circlet adding nature shields and herb yield for grove captains.
+- [Hollowroot Mycelial Matriarch's Mantle](../08_Items/Gear/Hollowroot_Mycelial_Mantle.md) — sporecloak that turns overheal into ally blooms; drops from Warren Matriarch.
+- [Thornlash Bastion Banner](../08_Items/Gear/Thornlash_Bastion_Banner.md) — wall banner that pulses fortify auras and cements palisade reputation gains.
+- [Ashen Cry Emberfall Circlet](../08_Items/Trinkets/Ashen_Cry_Emberfall_Circlet.md) — ashglass headband halving fire damage during channels; Hierarch conditional drop.
+- [Shatterglass Oathmirror](../08_Items/Trinkets/Shatterglass_Oathmirror.md) — reflective off-hand that bounces spells and reveals invisible foes.
+- [Burn Scar Clinkerbreaker Cudgel](../08_Items/Gear/Burn_Scar_Clinkerbreaker_Cudgel.md) — slag mace stacking sunder and absorbing fire after standstill.
+- [Silent Bell Nightwarden Codex](../08_Items/Trinkets/Silent_Bell_Nightwarden_Codex.md) — shadow tome revealing caches while stealthed; Silent Bell enforcer drop.
+- [Windbreak Skyline Javelin](../08_Items/Gear/Windbreak_Skyline_Javelin.md) — storm-marking polearm granting crits on airborne foes and post-kill sprints.
 
 - Items_Flavor_Notes.md — Tooltip and examine flavor text for all rare-and-up items plus key common staples.
 - Regions/REGION_NAME - ITEM FLAVOR PACK.md — Ambient/world item packs for Greatwood, Hollowroot, Ashen Ridge, Frostmarch, Duskhollow, Shattered Verge, and Shiverstone Coast.
