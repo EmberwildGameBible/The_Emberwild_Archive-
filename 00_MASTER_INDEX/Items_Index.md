@@ -64,6 +64,7 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 
 - Saltmarrow Strand staples: [Brine-Tight Sealant](../08_Items/Professions/Brine-Tight_Sealant.md), [Saltmarrow Spined Pole](../08_Items/Fishing/Saltmarrow_Spined_Pole.md), [Salt-Sear Chowder](../08_Items/Cooking/Salt-Sear_Chowder.md), [Hookbite Signal Flares](../08_Items/Gear/Hookbite_Signal_Flares.md).
 - Palisade gear bridge: [Thornlash Sentry Wristwraps](../08_Items/Gear/Thornlash_Sentry_Wristwraps.md) — pitch-lined leather wraps earned through wall duties between Strand and Frostbriar.
+- Emberford quay defense: [Aegis_of_Amberwake](../08_Items/Gear/Aegis_of_Amberwake.md) — slag-forged bulwark shield issued to Marketwalk wardens guarding ferry lanes and kiln spillways.
 - Frostbriar & Glimmerdeep additions: [Timberline_Sled_Rails](../08_Items/Gear/Timberline_Sled_Rails.md), [Glowspore_Tallow_Lure](../08_Items/Fishing/Glowspore_Tallow_Lure.md), [Ashen_Vent_Key](../08_Items/Keys/Ashen_Vent_Key.md), [Gleam_Eel_Filets](../08_Items/Cooking/Gleam_Eel_Filets.md).
 
 - ITEM SETS & SIGNATURE DROPS.md — Regional signatures, boss legendaries, and small set bonuses with synergy notes.
