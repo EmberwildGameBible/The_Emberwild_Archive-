@@ -1,12 +1,8 @@
-# Thornlash_Sentry_Wristwraps
+# Thornlash Sentry Wristwraps
 
-**Origin/Provenance:** Pitch-lined leather wraps stitched from palisade saplings and ash-drift burlap, issued to Thornlash wall sentries after rope bridge planks splintered during a smuggler raid.
+Stiffened leather wraps lined with pitch-stained rope bands to keep ash grit out of joints.
 
-**Cultural Tie:** Marrowhook runners trade extra wraps for smuggling favors; Frostbriar carpenters weave their own briar-resin cords into the bracers as a badge of emergency repairs.
-
-**Gameplay Hook:** Wrist slot that boosts block while bracing ropes, adds bleed resistance versus briar beasts, and grants a short sprint after parrying pallet-thief mobs on the palisade ramparts.
-
-**Secondary Artifact — Sentry Ration Docket Addendum:**
-> A charcoal scrawl on the ration docket lists which guard shifts wore wristwraps soaked in briar resin, noting which pairs kept their rope lines from icing over during the last ash drift.
-
-**See also:** [Thornlash_Palisade](../../02_Regions/Thornlash_Palisade.md), [Sentry_Ration_Docket](../../09_Artifacts/Sentry_Ration_Docket.md), [Windbreak_Bounty_Board](../../07_Quests/Windbreak_Bounty_Board.md)
+- Origin/Provenance: Cut from surplus sled harness leather at [Thornlash Palisade](../../02_Regions/Thornlash_Palisade.md) after wall repairs.
+- Cultural tie: Slidecaller lookouts etch bell tallies into the inside lining; Marrowhook smugglers add salt-score notches beside them.
+- Gameplay hook: Grants bonus grip during escort sled events and reduces ash drift slow; discounted after finishing [Thornlash Palisade Duties](../../07_Quests/Thornlash_Palisade_Duties.md).
+- See also: [Windbreak Bounty Board](../../07_Quests/Windbreak_Bounty_Board.md), [Sentry Ration Docket](../../09_Artifacts/Sentry_Ration_Docket.md), [Thornlash Prowler](../../03_Lore/Creatures/Thornlash_Prowler.md).
