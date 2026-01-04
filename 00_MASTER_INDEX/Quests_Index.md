@@ -17,3 +17,4 @@
 - [Old Road Circuit](../07_Quests/Old_Road_Circuit.md) — Repeatable courier patrol connecting Saltmarrow Strand and Frostbriar slides.
 - [Mire Salvage Chain](../07_Quests/Mire_Salvage_Chain.md) — Ledger recovery storyline tying Glimmerdeep vents to Ashen Cry smugglers.
 - Dungeon: [Ashen Cry Grotto Quests](../07_Quests/Dungeon/Ashen_Cry_Grotto_Quests.md) — Eight-run contract set for the new grotto crawl.
+- [2025-12-24 Legendary Chains — Pack Emberwild](../07_Quests/Generated_Batches/2025-12-24_Legendary_Chains_Pack.md) — Twelve three-step Legendary runs keyed to IDs 50500–50511, artifacts, and world-boss/dungeon drops.
