@@ -4,6 +4,13 @@ Records of file moves and renames to keep links aligned.
 
 | Date | Original Path | New Path | Notes |
 | --- | --- | --- | --- |
+| 2026-01-04 | 08_Items/Generated_Batches/2025-12-24_Common_Uncommon_Expansion | 08_Items/Generated_Batches/2025-12-24_Common_Uncommon_Expansion.md | Added .md extension to markdown batch index. |
+| 2026-01-04 | 10_Documentation/Templates/_TEMPLATE_Gazette_Issue | 10_Documentation/Templates/_TEMPLATE_Gazette_Issue.md | Appended .md extension to Gazette template. |
+| 2026-01-04 | 10_Documentation/Templates/_TEMPLATE_Bounty_Poster | 10_Documentation/Templates/_TEMPLATE_Bounty_Poster.md | Appended .md extension to bounty poster template. |
+| 2026-01-04 | 04_Writings/Ledgers_And_Manifests/Manifest — Lamp Oil, “Old Stock” (Partially Redacted) | 04_Writings/Ledgers_And_Manifests/Manifest — Lamp Oil, “Old Stock” (Partially Redacted).md | Added .md extension to match markdown format. |
+| 2026-01-04 | 04_Writings/Permits_Decrees_And_Laws/Order — Travel Pass Requirement for Bulk Lamp Oil | 04_Writings/Permits_Decrees_And_Laws/Order — Travel Pass Requirement for Bulk Lamp Oil.md | Added .md extension to match markdown format. |
+| 2026-01-04 | 04_Writings/Graffiti_Signs_And_Cant/Cant Marks — Toothed Coin & Siltwake Wheel | 04_Writings/Graffiti_Signs_And_Cant/Cant Marks — Toothed Coin & Siltwake Wheel.md | Added .md extension to match markdown format. |
+| 2026-01-04 | 04_Writings/Bounty_Boards/BOUNTY NOTICE — “Lantern-Thief of Harrow Field” | 04_Writings/Bounty_Boards/BOUNTY NOTICE — “Lantern-Thief of Harrow Field”.md | Added .md extension to match markdown format. |
 | 2024-06-05 | 09_Artifacts/Gazette/Issue_1_Spring.md | 09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md | Normalized Gazette filename to match H1 and locale. |
 | 2024-06-05 | 02_Regions/Emberford_Marketwalk/Quest_Hub.md | 02_Regions/Emberford_Marketwalk/Emberford_Marketwalk_Quest_Hub.md | Region hub renamed to mirror title and remove placeholder token. |
 | 2024-06-05 | 07_Quests/Quest_Frameworks/MISSING-PERSON POSTER - “Boy Age 10”.md | 07_Quests/Quest_Frameworks/Missing-Person_Poster_Boy_Age_10.md | Quest framework slugged to match title casing and remove garbled quotes. |

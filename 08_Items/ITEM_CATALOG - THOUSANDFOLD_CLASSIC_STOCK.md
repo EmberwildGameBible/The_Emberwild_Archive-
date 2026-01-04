@@ -1,9 +1,9 @@
 # Item Catalog — Thousandfold Classic Stock
 
-Classic-friendly bulk pack that seeds over a thousand new items by expanding four proven supply lines with affix-ready variants. Each batch lists base names; affixes from [Items Master List — Global A–Z](./Items_Master_List%20-%20GLOBAL%20A-Z.md) and [ITEM_TAXONOMY - GLOBAL OVERVIEW.md](./ITEM_TAXONOMY%20-%20GLOBAL%20OVERVIEW.md) compound them into classic loot tables without breaking rarity budgets. See the detailed rosters below for 1,000 line-item entries ready for table drops.
+Classic-friendly bulk pack that seeds over a thousand new items by expanding four proven supply lines with affix-ready variants. Each batch lists base names; affixes from [Items Master List — Global A–Z](./Items_Master_List - GLOBAL A-Z.md) and [ITEM_TAXONOMY - GLOBAL OVERVIEW.md](./ITEM_TAXONOMY%20-%20GLOBAL%20OVERVIEW.md) compound them into classic loot tables without breaking rarity budgets. See the detailed rosters below for 1,000 line-item entries ready for table drops.
 
 Navigation: [Thousandfold Stock Bid Board](../09_Artifacts/Thousandfold_Stock_Bid_Board.md) | [Thousandfold Stock Freight Ledger](../09_Artifacts/Thousandfold_Stock_Freight_Ledger.md)
-Classic-friendly bulk pack that seeds over a thousand new items by expanding four proven supply lines with affix-ready variants. Each batch lists base names; affixes from [Items Master List — Global A–Z](./Items_Master_List%20-%20GLOBAL%20A-Z.md) and [ITEM_TAXONOMY - GLOBAL OVERVIEW.md](./ITEM_TAXONOMY%20-%20GLOBAL%20OVERVIEW.md) compound them into classic loot tables without breaking rarity budgets.
+Classic-friendly bulk pack that seeds over a thousand new items by expanding four proven supply lines with affix-ready variants. Each batch lists base names; affixes from [Items Master List — Global A–Z](./Items_Master_List - GLOBAL A-Z.md) and [ITEM_TAXONOMY - GLOBAL OVERVIEW.md](./ITEM_TAXONOMY%20-%20GLOBAL%20OVERVIEW.md) compound them into classic loot tables without breaking rarity budgets.
 
 ---
 
@@ -25,7 +25,7 @@ Gameplay Hook:
 - Early dungeon runs gain reliable armor/resist filler; suffixes let tanks choose stamina while ranged recruits grab precision ammo or crit-friendly throwing hammers.
 - Bandages and rations shortcut downtime between Marketwalk errands, letting players chain quests without sitting.
 
-See also: [Items Master List — Global A–Z](./Items_Master_List%20-%20GLOBAL%20A-Z.md) | [Rumors 001–200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Thousandfold Stock Bid Board](../09_Artifacts/Thousandfold_Stock_Bid_Board.md)
+See also: [Items Master List — Global A–Z](./Items_Master_List - GLOBAL A-Z.md) | [Rumors 001–200](../09_Artifacts/Rumors/rumors_items_001_200.md) | [Thousandfold Stock Bid Board](../09_Artifacts/Thousandfold_Stock_Bid_Board.md)
 
 ---
 
@@ -91,7 +91,7 @@ Gameplay Hook:
 - Consumables provide Classic-style short buffs: focus draughts boost spell crit, barrier vials grant short absorb shields, and smoke bombs reset pulls in tangled marsh fights.
 - Edge coatings and toxins pair with rogue and hunter rotations, enabling bleed/poison uptime without rare reagent farming.
 
-See also: [Glowspore Tallow Lure](../08_Items/Fishing/Glowspore_Tallow_Lure.md) | [Emberwild Cookbook — Field Rations & Buffs](../08_Items/Recipes/EMBERWILD%20COOKBOOK%20-%20FIELD%20RATIONS%20%26%20BUFFS.md) | [Thousandfold Stock Bid Board](../09_Artifacts/Thousandfold_Stock_Bid_Board.md)
+See also: [Glowspore Tallow Lure](../08_Items/Fishing/Glowspore_Tallow_Lure.md) | [Emberwild Cookbook — Field Rations & Buffs](../08_Items/Recipes/EMBERWILD COOKBOOK - FIELD RATIONS & BUFFS.md) | [Thousandfold Stock Bid Board](../09_Artifacts/Thousandfold_Stock_Bid_Board.md)
 
 ---
 
