@@ -17,3 +17,5 @@
 ## Greatwood
 - [Whisperline Corridor Overview](../02_Regions/Greatwood/Greatwood_Whisperline.md) — Sap-thick road, wardstone hums, and smuggler tension.
 - [Whisperline Bestiary Draft](../02_Regions/Greatwood/Bestiary_Greatwood_Whisperline_01.md)
+- [Whisperline Bestiary Additions](../02_Regions/Greatwood/Bestiary_Greatwood_Whisperline_02.md)
+- [Whisperline Ecology Field Guide](../02_Regions/Greatwood/Field_Guide_Whisperline_Ecology.md)

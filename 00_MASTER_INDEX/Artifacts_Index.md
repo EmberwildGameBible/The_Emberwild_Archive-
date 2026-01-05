@@ -170,6 +170,7 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 
 ## 2026-01-04 — Greatwood Whisperline Bundle
 - [Artifact Bundle 01](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_01.md) — Milepost slips, bridge memos, cairn notes, and smugglers' ledgers tied to the Whisperline corridor.
+- [Artifact Bundle 02](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_02.md) — toll quills, ash tallies, patrol logs, and kitchen lists expanding Whisperline anchors.
 
 ## Hooks
 - Pull kiln, ferry, or Silent Bell plot hooks from the Gazette before drafting new Emberford quests.
