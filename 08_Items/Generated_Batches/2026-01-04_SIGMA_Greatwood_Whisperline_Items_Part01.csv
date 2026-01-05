@@ -1,0 +1,21 @@
+id,name,category,subcategory,rarity,professions,region,short_summary,icon
+40000,Sapstring Bandage,Consumable,Bandage,Common,First Aid,Greatwood Whisperline,"Quick-bind bandage used by wardens; speeds bleed recovery for road escorts.",consumable_sapstring_bandage.png
+40001,Whisperline Travel Ration,Consumable,Food,Common,Cooking,Greatwood Whisperline,"Portable ration loaf with sap glaze; steadies stamina on long treks.",consumable_whisperline_travel_ration.png
+40002,Resin Patch Kit,Material,Repair Kit,Common,Leatherworking,Greatwood Whisperline,"Pitch-coated patch and clamps; fixes torn harnesses mid-escort.",material_resin_patch_kit.png
+40003,Ward-Chalk Packet,Material,Inscription,Uncommon,Inscription,Greatwood Whisperline,"Powdered chalk wrapped in wax paper; renews wardstone sigils.",material_ward_chalk_packet.png
+40004,Lowlight Shroom Tea,Consumable,Drink,Common,Cooking,Greatwood Whisperline,"Steeped shroom tea that clears night haze and warms patrolers.",consumable_lowlight_shroom_tea.png
+40005,Chorus Bridge Torch,Gear,Lantern,Common,None,Greatwood Whisperline,"Resin-soaked torch that hums softly; brightens slippery bridges.",gear_chorus_bridge_torch.png
+40006,Thornbar Sling,Gear,Ranged,Common,Blacksmithing,Greatwood Whisperline,"Rough sling preferred by smugglers; quick to load resin-shot pebbles.",gear_thornbar_sling.png
+40007,Warden's Sapsteel Buckle,Gear,Belt,Uncommon,Blacksmithing,Greatwood Whisperline,"Reinforced buckle issued by wardens; adds minor armor to patrol kits.",gear_wardens_sapsteel_buckle.png
+40008,Smuggler's Knot Hook,Curio,Tool,Uncommon,Blacksmithing,Greatwood Whisperline,"Hook with knotted grip used to snag packs or rope ladders in gullies.",curio_smugglers_knot_hook.png
+40009,Murmurstone Charm,Curio,Charm,Uncommon,Inscription,Greatwood Whisperline,"Stone bead etched with ward lines; dampens stamina drain near wardstones.",curio_murmurstone_charm.png
+40010,Rootsong Listening Horn,Curio,Instrument,Uncommon,Carving,Greatwood Whisperline,"Carved horn amplifies root-songs; used to align cairn grooves.",curio_rootsong_listening_horn.png
+40011,Bivouac Tent Stakes,Material,Hardware,Common,Carpentry,Greatwood Whisperline,"Stakes treated with sap pitch; anchors tents on slick bends.",material_bivouac_tent_stakes.png
+40012,Roadling Trade Token,Curio,Token,Common,None,Greatwood Whisperline,"Stamped wooden token traded at mileposts for safe passage.",curio_roadling_trade_token.png
+40013,Crossing Guard's Satchel,Gear,Bag,Uncommon,Leatherworking,Greatwood Whisperline,"Satchel with extra lash points; keeps patrol notes dry in rain.",gear_crossing_guard_satchel.png
+40014,Tanglecut Hatchet,Gear,Axe,Common,Woodworking,Greatwood Whisperline,"Short hatchet for clearing saplings; doubles as light weapon.",gear_tanglecut_hatchet.png
+40015,Sap-Resin Salve,Consumable,Salve,Common,Alchemy,Greatwood Whisperline,"Sticky salve sealing small cuts; resists sap-sting from striders.",consumable_sap_resin_salve.png
+40016,Rivergrain Porridge Mix,Consumable,Food,Common,Cooking,Greatwood Whisperline,"Travel porridge base carried by escorts; restores morale slightly.",consumable_rivergrain_porridge_mix.png
+40017,Smudged Route Permit,Document,Permit,Uncommon,None,Greatwood Whisperline,"Forged travel paper with blurred seals; bribes some checkpoints.",document_smudged_route_permit.png
+40018,Cairnkeeper's Beads,Curio,Totem,Uncommon,Inscription,Greatwood Whisperline,"String of warded beads gifted to those who mend cairns.",curio_cairnkeepers_beads.png
+40019,Coiled Line Spool,Material,Rope,Common,Rigging,Greatwood Whisperline,"Bundle of resin-braced rope for bridge work and snag traps.",material_coiled_line_spool.png

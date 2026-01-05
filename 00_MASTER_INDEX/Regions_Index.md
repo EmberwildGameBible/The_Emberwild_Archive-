@@ -13,3 +13,7 @@
 - [Frostbriar Reach](../02_Regions/Frostbriar_Reach/Zone_Index.md) — Wind-scoured ridge with sled slides, chill hazards, and ashbound cult ambushes.
 - [Glimmerdeep Mire](../02_Regions/Glimmerdeep_Mire/Zone_Index.md) — Glowspore swamp with ropeway travel, vent divers, and Gleam Surge events.
 - [Gravemark Switchbacks](../02_Regions/Gravemark_Switchbacks.md) — Cairn-strapped ridge road linking Frostbriar and Glimmerdeep; sled escort hub with slidecaller rites and smugglers’ caches. Draft.
+
+## Greatwood
+- [Whisperline Corridor Overview](../02_Regions/Greatwood/Greatwood_Whisperline.md) — Sap-thick road, wardstone hums, and smuggler tension.
+- [Whisperline Bestiary Draft](../02_Regions/Greatwood/Bestiary_Greatwood_Whisperline_01.md)

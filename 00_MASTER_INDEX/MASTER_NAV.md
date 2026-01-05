@@ -38,6 +38,16 @@ A single launchpad for all Emberwild Archive indexes so no canon hides in stray 
 - Use it to verify region pages point to global NPCs/items/quests instead of cloning them.
 - Pair with [Repo Map](./REPO_MAP.md) when deciding where new files belong to avoid cleanup churn.
 
+## 2026-01-04 — Whisperline Quick Links
+- Vertical Slice: [Lv1-10 Overview](../10_Documentation/Vertical_Slices/2026-01-04_Greatwood_Whisperline_Lv1-10_Overview.md) | [Lv10-20 Bridge](../10_Documentation/Vertical_Slices/2026-01-04_Greatwood_Whisperline_Lv10-20_Bridge_Plan.md)
+- Region: [Greatwood Whisperline Corridor](../02_Regions/Greatwood/Greatwood_Whisperline.md) | [Bestiary Draft](../02_Regions/Greatwood/Bestiary_Greatwood_Whisperline_01.md)
+- Quests: [Whisperline Hub](../07_Quests/Greatwood_Whisperline_Hub.md) | [Q01](../07_Quests/Greatwood_Whisperline/Q01_Loose_Bandages.md) | [Q02](../07_Quests/Greatwood_Whisperline/Q02_Listening_Steps.md)
+- Vendors: [Whisperline Vendors](../07_Quests/NPC_SHOPS_AND_INVENTORIES.md#2026-01-04--greatwood-whisperline-vendors--rotations)
+- Items: [Batch Part01](../08_Items/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Items_Part01.csv) | [Summary](../08_Items/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Items_Part01.md) | [Item Ledger](../08_Items/ITEM_NAME_LEDGER.csv)
+- Artifacts & Rumors: [Artifact Bundle 01](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_01.md) | [Rumors 01](../04_Writings/Fragments_And_Notes/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Rumors_01.md)
+- Dungeons: [The Rootbound Vault](../01_World/Dungeons/Greatwood_The_Rootbound_Vault.md) | [Smuggler's Knot](../01_World/Dungeons/Greatwood_Smugglers_Knot.md)
+- Recipes: [Whisperline Recipes 01](../06_Systems/Professions/Recipes/Generated_Batches/Recipes_Whisperline_01.md)
+
 ## See also
 - [REPO_MAP](./REPO_MAP.md) — folder purposes and key entry points for contributors.
 - [Lore_Debt](./Lore_Debt.md) — outstanding placeholders that need depth or verification.
