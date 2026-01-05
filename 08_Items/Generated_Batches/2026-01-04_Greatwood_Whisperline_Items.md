@@ -1,0 +1,192 @@
+# Greatwood Whisperline Items (2026-01-04)
+
+Config: RUN_DATE=2026-01-04, TARGET_REGION=Greatwood, PREFIX=2026-01-04_SIGMA
+
+## Crafting Materials (60)
+- **2026-01-04_SIGMA Whisperline Sap Flake** — Ingredient/Sap, Common; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Whisperline Resin Thread** — Ingredient/Resin, Uncommon; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Whisperline Bark Curl** — Ingredient/Bark, Rare; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Whisperline Spore Husk** — Ingredient/Spore, Common; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Whisperline Lichen Weave** — Ingredient/Fiber, Uncommon; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Whisperline Amber Pellet** — Ingredient/Pellet, Rare; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Rootbound Sap Flake** — Ingredient/Sap, Common; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Rootbound Resin Thread** — Ingredient/Resin, Uncommon; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Rootbound Bark Curl** — Ingredient/Bark, Rare; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Rootbound Spore Husk** — Ingredient/Spore, Common; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Rootbound Lichen Weave** — Ingredient/Fiber, Uncommon; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Rootbound Amber Pellet** — Ingredient/Pellet, Rare; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Sapsinger Sap Flake** — Ingredient/Sap, Common; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Sapsinger Resin Thread** — Ingredient/Resin, Uncommon; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Sapsinger Bark Curl** — Ingredient/Bark, Rare; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Sapsinger Spore Husk** — Ingredient/Spore, Common; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Sapsinger Lichen Weave** — Ingredient/Fiber, Uncommon; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Sapsinger Amber Pellet** — Ingredient/Pellet, Rare; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Barkglass Sap Flake** — Ingredient/Sap, Common; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Barkglass Resin Thread** — Ingredient/Resin, Uncommon; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Barkglass Bark Curl** — Ingredient/Bark, Rare; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Barkglass Spore Husk** — Ingredient/Spore, Common; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Barkglass Lichen Weave** — Ingredient/Fiber, Uncommon; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Barkglass Amber Pellet** — Ingredient/Pellet, Rare; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Lumenwoven Sap Flake** — Ingredient/Sap, Common; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Lumenwoven Resin Thread** — Ingredient/Resin, Uncommon; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Lumenwoven Bark Curl** — Ingredient/Bark, Rare; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Lumenwoven Spore Husk** — Ingredient/Spore, Common; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Lumenwoven Lichen Weave** — Ingredient/Fiber, Uncommon; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Lumenwoven Amber Pellet** — Ingredient/Pellet, Rare; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Stonebridge Sap Flake** — Ingredient/Sap, Common; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Stonebridge Resin Thread** — Ingredient/Resin, Uncommon; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Stonebridge Bark Curl** — Ingredient/Bark, Rare; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Stonebridge Spore Husk** — Ingredient/Spore, Common; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Stonebridge Lichen Weave** — Ingredient/Fiber, Uncommon; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Stonebridge Amber Pellet** — Ingredient/Pellet, Rare; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Hearthpost Sap Flake** — Ingredient/Sap, Common; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Hearthpost Resin Thread** — Ingredient/Resin, Uncommon; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Hearthpost Bark Curl** — Ingredient/Bark, Rare; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Hearthpost Spore Husk** — Ingredient/Spore, Common; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Hearthpost Lichen Weave** — Ingredient/Fiber, Uncommon; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Hearthpost Amber Pellet** — Ingredient/Pellet, Rare; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Mirebreath Sap Flake** — Ingredient/Sap, Common; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Mirebreath Resin Thread** — Ingredient/Resin, Uncommon; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Mirebreath Bark Curl** — Ingredient/Bark, Rare; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Mirebreath Spore Husk** — Ingredient/Spore, Common; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Mirebreath Lichen Weave** — Ingredient/Fiber, Uncommon; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Mirebreath Amber Pellet** — Ingredient/Pellet, Rare; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Bramble-Echo Sap Flake** — Ingredient/Sap, Common; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Bramble-Echo Resin Thread** — Ingredient/Resin, Uncommon; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Bramble-Echo Bark Curl** — Ingredient/Bark, Rare; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Bramble-Echo Spore Husk** — Ingredient/Spore, Common; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Bramble-Echo Lichen Weave** — Ingredient/Fiber, Uncommon; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Bramble-Echo Amber Pellet** — Ingredient/Pellet, Rare; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Shrinescribed Sap Flake** — Ingredient/Sap, Common; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Shrinescribed Resin Thread** — Ingredient/Resin, Uncommon; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+- **2026-01-04_SIGMA Shrinescribed Bark Curl** — Ingredient/Bark, Rare; Herbalism; Bramble-Echo Thicket drop; traded by Sapbroker Neral.
+- **2026-01-04_SIGMA Shrinescribed Spore Husk** — Ingredient/Spore, Common; Alchemy; Mirebreath Run gather; refined at Hearthpost kettles.
+- **2026-01-04_SIGMA Shrinescribed Lichen Weave** — Ingredient/Fiber, Uncommon; Tailoring; Root-Song Shrine chant-lock component; ward favor with Istra.
+- **2026-01-04_SIGMA Shrinescribed Amber Pellet** — Ingredient/Pellet, Rare; Carving; Stonebridge cache reward; peddler Yim buys bundles.
+
+## Consumables (40)
+- **2026-01-04_SIGMA Whisperline Sap Tea** — Consumable/Tea, Common; Cooking; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Whisperline Resin Draught** — Consumable/Tonic, Uncommon; Alchemy; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Whisperline Ward Salve** — Consumable/Salve, Rare; Runecrafting; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Whisperline Signal Chalk** — Consumable/Chalk, Common; Cooking; Craft: combines resin threads with shrine water.
+- **2026-01-04_SIGMA Rootbound Sap Tea** — Consumable/Tea, Uncommon; Alchemy; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Rootbound Resin Draught** — Consumable/Tonic, Rare; Runecrafting; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Rootbound Ward Salve** — Consumable/Salve, Common; Cooking; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Rootbound Signal Chalk** — Consumable/Chalk, Uncommon; Alchemy; Craft: combines resin threads with shrine water.
+- **2026-01-04_SIGMA Sapsong Sap Tea** — Consumable/Tea, Rare; Runecrafting; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Sapsong Resin Draught** — Consumable/Tonic, Common; Cooking; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Sapsong Ward Salve** — Consumable/Salve, Uncommon; Alchemy; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Sapsong Signal Chalk** — Consumable/Chalk, Rare; Runecrafting; Craft: combines resin threads with shrine water.
+- **2026-01-04_SIGMA Wardbound Sap Tea** — Consumable/Tea, Common; Cooking; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Wardbound Resin Draught** — Consumable/Tonic, Uncommon; Alchemy; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Wardbound Ward Salve** — Consumable/Salve, Rare; Runecrafting; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Wardbound Signal Chalk** — Consumable/Chalk, Common; Cooking; Craft: combines resin threads with shrine water.
+- **2026-01-04_SIGMA Hearthbrew Sap Tea** — Consumable/Tea, Uncommon; Alchemy; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Hearthbrew Resin Draught** — Consumable/Tonic, Rare; Runecrafting; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Hearthbrew Ward Salve** — Consumable/Salve, Common; Cooking; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Hearthbrew Signal Chalk** — Consumable/Chalk, Uncommon; Alchemy; Craft: combines resin threads with shrine water.
+- **2026-01-04_SIGMA Stonebridge Sap Tea** — Consumable/Tea, Rare; Runecrafting; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Stonebridge Resin Draught** — Consumable/Tonic, Common; Cooking; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Stonebridge Ward Salve** — Consumable/Salve, Uncommon; Alchemy; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Stonebridge Signal Chalk** — Consumable/Chalk, Rare; Runecrafting; Craft: combines resin threads with shrine water.
+- **2026-01-04_SIGMA Lumenbright Sap Tea** — Consumable/Tea, Common; Cooking; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Lumenbright Resin Draught** — Consumable/Tonic, Uncommon; Alchemy; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Lumenbright Ward Salve** — Consumable/Salve, Rare; Runecrafting; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Lumenbright Signal Chalk** — Consumable/Chalk, Common; Cooking; Craft: combines resin threads with shrine water.
+- **2026-01-04_SIGMA Mirebreath Sap Tea** — Consumable/Tea, Uncommon; Alchemy; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Mirebreath Resin Draught** — Consumable/Tonic, Rare; Runecrafting; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Mirebreath Ward Salve** — Consumable/Salve, Common; Cooking; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Mirebreath Signal Chalk** — Consumable/Chalk, Uncommon; Alchemy; Craft: combines resin threads with shrine water.
+- **2026-01-04_SIGMA Brambleglass Sap Tea** — Consumable/Tea, Rare; Runecrafting; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Brambleglass Resin Draught** — Consumable/Tonic, Common; Cooking; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Brambleglass Ward Salve** — Consumable/Salve, Uncommon; Alchemy; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Brambleglass Signal Chalk** — Consumable/Chalk, Rare; Runecrafting; Craft: combines resin threads with shrine water.
+- **2026-01-04_SIGMA Shrinesafe Sap Tea** — Consumable/Tea, Common; Cooking; Brewed at Whisperline Hearthpost; bonus vs barkmail foes.
+- **2026-01-04_SIGMA Shrinesafe Resin Draught** — Consumable/Tonic, Uncommon; Alchemy; Vendor: Wardscribe Istra when given Root-Song artifacts.
+- **2026-01-04_SIGMA Shrinesafe Ward Salve** — Consumable/Salve, Rare; Runecrafting; Drop: Hollow Verge Encampment smugglers; calms ward pulses.
+- **2026-01-04_SIGMA Shrinesafe Signal Chalk** — Consumable/Chalk, Common; Cooking; Craft: combines resin threads with shrine water.
+
+## Gear (40)
+- **2026-01-04_SIGMA Whisperline Hood** — Gear/Hood, Common; Leatherworking; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Whisperline Cloak** — Gear/Cloak, Uncommon; Tailoring; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Whisperline Boots** — Gear/Boots, Rare; Smithing; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Whisperline Sash** — Gear/Sash, Common; Leatherworking; Purchased from Sapbroker Neral after ward favor.
+- **2026-01-04_SIGMA Rootbound Hood** — Gear/Hood, Uncommon; Tailoring; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Rootbound Cloak** — Gear/Cloak, Rare; Smithing; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Rootbound Boots** — Gear/Boots, Common; Leatherworking; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Rootbound Sash** — Gear/Sash, Uncommon; Tailoring; Purchased from Sapbroker Neral after ward favor.
+- **2026-01-04_SIGMA Saptrail Hood** — Gear/Hood, Rare; Smithing; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Saptrail Cloak** — Gear/Cloak, Common; Leatherworking; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Saptrail Boots** — Gear/Boots, Uncommon; Tailoring; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Saptrail Sash** — Gear/Sash, Rare; Smithing; Purchased from Sapbroker Neral after ward favor.
+- **2026-01-04_SIGMA Wardbound Hood** — Gear/Hood, Common; Leatherworking; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Wardbound Cloak** — Gear/Cloak, Uncommon; Tailoring; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Wardbound Boots** — Gear/Boots, Rare; Smithing; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Wardbound Sash** — Gear/Sash, Common; Leatherworking; Purchased from Sapbroker Neral after ward favor.
+- **2026-01-04_SIGMA Stonebridge Hood** — Gear/Hood, Uncommon; Tailoring; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Stonebridge Cloak** — Gear/Cloak, Rare; Smithing; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Stonebridge Boots** — Gear/Boots, Common; Leatherworking; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Stonebridge Sash** — Gear/Sash, Uncommon; Tailoring; Purchased from Sapbroker Neral after ward favor.
+- **2026-01-04_SIGMA Barkmail Hood** — Gear/Hood, Rare; Smithing; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Barkmail Cloak** — Gear/Cloak, Common; Leatherworking; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Barkmail Boots** — Gear/Boots, Uncommon; Tailoring; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Barkmail Sash** — Gear/Sash, Rare; Smithing; Purchased from Sapbroker Neral after ward favor.
+- **2026-01-04_SIGMA Echoed Hood** — Gear/Hood, Common; Leatherworking; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Echoed Cloak** — Gear/Cloak, Uncommon; Tailoring; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Echoed Boots** — Gear/Boots, Rare; Smithing; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Echoed Sash** — Gear/Sash, Common; Leatherworking; Purchased from Sapbroker Neral after ward favor.
+- **2026-01-04_SIGMA Lumenwoven Hood** — Gear/Hood, Uncommon; Tailoring; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Lumenwoven Cloak** — Gear/Cloak, Rare; Smithing; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Lumenwoven Boots** — Gear/Boots, Common; Leatherworking; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Lumenwoven Sash** — Gear/Sash, Uncommon; Tailoring; Purchased from Sapbroker Neral after ward favor.
+- **2026-01-04_SIGMA Hearthpost Hood** — Gear/Hood, Rare; Smithing; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Hearthpost Cloak** — Gear/Cloak, Common; Leatherworking; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Hearthpost Boots** — Gear/Boots, Uncommon; Tailoring; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Hearthpost Sash** — Gear/Sash, Rare; Smithing; Purchased from Sapbroker Neral after ward favor.
+- **2026-01-04_SIGMA Mirewalk Hood** — Gear/Hood, Common; Leatherworking; Quest reward from Warden-Captain Aelric.
+- **2026-01-04_SIGMA Mirewalk Cloak** — Gear/Cloak, Uncommon; Tailoring; Crafted with Sapsinger Resin Chalk and threads.
+- **2026-01-04_SIGMA Mirewalk Boots** — Gear/Boots, Rare; Smithing; Drop inside Rootbound Vault side rooms.
+- **2026-01-04_SIGMA Mirewalk Sash** — Gear/Sash, Common; Leatherworking; Purchased from Sapbroker Neral after ward favor.
+
+## Curios & Artifacts (40)
+- **2026-01-04_SIGMA Whisperline Ledger Token** — Curio/Token, Common; Arcanism; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Whisperline Song Fragment** — Curio/Fragment, Uncommon; Cartography; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Whisperline Ward Token** — Curio/Seal, Rare; Diplomacy; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Whisperline Smuggler Seal** — Curio/Seal, Common; Arcanism; Wardens trade after turning in ledger tokens.
+- **2026-01-04_SIGMA Rootbound Ledger Token** — Curio/Token, Uncommon; Cartography; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Rootbound Song Fragment** — Curio/Fragment, Rare; Diplomacy; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Rootbound Ward Token** — Curio/Seal, Common; Arcanism; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Rootbound Smuggler Seal** — Curio/Seal, Uncommon; Cartography; Wardens trade after turning in ledger tokens.
+- **2026-01-04_SIGMA Sapbound Ledger Token** — Curio/Token, Rare; Diplomacy; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Sapbound Song Fragment** — Curio/Fragment, Common; Arcanism; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Sapbound Ward Token** — Curio/Seal, Uncommon; Cartography; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Sapbound Smuggler Seal** — Curio/Seal, Rare; Diplomacy; Wardens trade after turning in ledger tokens.
+- **2026-01-04_SIGMA Wardetched Ledger Token** — Curio/Token, Common; Arcanism; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Wardetched Song Fragment** — Curio/Fragment, Uncommon; Cartography; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Wardetched Ward Token** — Curio/Seal, Rare; Diplomacy; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Wardetched Smuggler Seal** — Curio/Seal, Common; Arcanism; Wardens trade after turning in ledger tokens.
+- **2026-01-04_SIGMA Stonebridge Ledger Token** — Curio/Token, Uncommon; Cartography; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Stonebridge Song Fragment** — Curio/Fragment, Rare; Diplomacy; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Stonebridge Ward Token** — Curio/Seal, Common; Arcanism; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Stonebridge Smuggler Seal** — Curio/Seal, Uncommon; Cartography; Wardens trade after turning in ledger tokens.
+- **2026-01-04_SIGMA Echo-scored Ledger Token** — Curio/Token, Rare; Diplomacy; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Echo-scored Song Fragment** — Curio/Fragment, Common; Arcanism; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Echo-scored Ward Token** — Curio/Seal, Uncommon; Cartography; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Echo-scored Smuggler Seal** — Curio/Seal, Rare; Diplomacy; Wardens trade after turning in ledger tokens.
+- **2026-01-04_SIGMA Lumenmarked Ledger Token** — Curio/Token, Common; Arcanism; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Lumenmarked Song Fragment** — Curio/Fragment, Uncommon; Cartography; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Lumenmarked Ward Token** — Curio/Seal, Rare; Diplomacy; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Lumenmarked Smuggler Seal** — Curio/Seal, Common; Arcanism; Wardens trade after turning in ledger tokens.
+- **2026-01-04_SIGMA Hearthbound Ledger Token** — Curio/Token, Uncommon; Cartography; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Hearthbound Song Fragment** — Curio/Fragment, Rare; Diplomacy; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Hearthbound Ward Token** — Curio/Seal, Common; Arcanism; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Hearthbound Smuggler Seal** — Curio/Seal, Uncommon; Cartography; Wardens trade after turning in ledger tokens.
+- **2026-01-04_SIGMA Miremarked Ledger Token** — Curio/Token, Rare; Diplomacy; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Miremarked Song Fragment** — Curio/Fragment, Common; Arcanism; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Miremarked Ward Token** — Curio/Seal, Uncommon; Cartography; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Miremarked Smuggler Seal** — Curio/Seal, Rare; Diplomacy; Wardens trade after turning in ledger tokens.
+- **2026-01-04_SIGMA Bramblewired Ledger Token** — Curio/Token, Common; Arcanism; Artifact tie-in from Rootbound Vault ledgers.
+- **2026-01-04_SIGMA Bramblewired Song Fragment** — Curio/Fragment, Uncommon; Cartography; Rumor cache at Whisperline Stonebridge benches.
+- **2026-01-04_SIGMA Bramblewired Ward Token** — Curio/Seal, Rare; Diplomacy; Smuggler drop in Hollow Verge Encampment.
+- **2026-01-04_SIGMA Bramblewired Smuggler Seal** — Curio/Seal, Common; Arcanism; Wardens trade after turning in ledger tokens.
+
