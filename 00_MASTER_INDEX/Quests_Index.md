@@ -22,3 +22,8 @@
 - Dungeon: [Hollowroot Warren Quests](../07_Quests/Dungeon/Hollowroot_Warren_Quests.md) — Interrupt-driven hooks for spore set progression.
 - Dungeon: [Shatterglass Crypt Quests](../07_Quests/Dungeon/Shatterglass_Crypt_Quests.md) — Reflect and phase trials rewarding Shardbound gear.
 - [2025-12-24 Legendary Chains — Pack Emberwild](../07_Quests/Generated_Batches/2025-12-24_Legendary_Chains_Pack.md) — Twelve three-step Legendary runs keyed to IDs 50500–50511, artifacts, and world-boss/dungeon drops.
+
+## 2026-01-04 — Greatwood Whisperline
+- [Greatwood Whisperline Hub](../07_Quests/Greatwood_Whisperline_Hub.md)
+- [Q01_Loose_Bandages](../07_Quests/Greatwood_Whisperline/Q01_Loose_Bandages.md)
+- [Q02_Listening_Steps](../07_Quests/Greatwood_Whisperline/Q02_Listening_Steps.md)
