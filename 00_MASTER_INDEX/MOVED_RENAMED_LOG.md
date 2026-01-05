@@ -107,3 +107,4 @@ Records of file moves and renames to keep links aligned.
 | 2026-01-04 | 07_Quests/Quest_Frameworks/THE SWAMPERΓÇÖS GUIDE TO NOT DYING STUPID.md | 07_Quests/Quest_Frameworks/THE SWAMPER'S GUIDE TO NOT DYING STUPID.md | Normalized quote encoding in filename. |
 | 2026-01-04 | 08_Items/Recipes/COOKBOOK EXCERPT - ΓÇ£FishermanΓÇÖs BrothΓÇ¥.md | 08_Items/Recipes/COOKBOOK EXCERPT - Fisherman's Broth.md | Normalized quote encoding in filename. |
 | 2026-01-04 | 08_Items/Recipes/COOKBOOK PAGE - ΓÇ£Cheap Meal for Long DaysΓÇ¥.md | 08_Items/Recipes/COOKBOOK PAGE - Cheap Meal for Long Days.md | Normalized quote encoding in filename. |
+| 2026-01-04 | 08_Items/Generated_Batches/Items_Batch_2026-01-04_50250-51249.md | 08_Items/Generated_Batches/Items_Batch_2026-01-04_50512-51511.md | Renamed to match 50512–51511 ID span. |
