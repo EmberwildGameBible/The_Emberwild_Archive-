@@ -168,6 +168,9 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 - [Shiver Patrol Log](../09_Artifacts/Shiver_Patrol_Log.md), [Slide Patrol Log](../09_Artifacts/Slide_Patrol_Log.md), [Spoke Patrol Log](../09_Artifacts/Spoke_Patrol_Log.md)
 - [Spur Patrol Log](../09_Artifacts/Spur_Patrol_Log.md), [Switch Patrol Log](../09_Artifacts/Switch_Patrol_Log.md), [Weir Patrol Log](../09_Artifacts/Weir_Patrol_Log.md)
 
+### 2026-01-04 — Greatwood Whisperline Batch
+- [2026-01-04_SIGMA Greatwood Whisperline](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline) — sixty sap-ledgers, shrine scraps, and ward notes tying the whisperline quests, vendors, and Rootbound Vault gates.
+
 ## Hooks
 - Pull kiln, ferry, or Silent Bell plot hooks from the Gazette before drafting new Emberford quests.
 - Mine the rumor web for item-specific bounties, then link any new quests to the canonical [Items Master List](../08_Items/Items_Master_List%20-%20GLOBAL%20A-Z.md).

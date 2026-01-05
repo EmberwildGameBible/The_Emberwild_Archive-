@@ -20,6 +20,12 @@ Central navigation for the Emberwild Archive. Use this hub to reach category ind
 - [Move & Rename Log](./MOVED_RENAMED_LOG.md)
 - [Broken Links Audit](./BROKEN_LINKS.md)
 
+## 2026-01-04 — Greatwood Whisperline Slice
+- [Vertical Slice Overview](../10_Documentation/Vertical_Slices/2026-01-04_Greatwood_Whisperline_Slice_Lv1-10.md)
+- [Quest Hub](../07_Quests/Greatwood_Whisperline_Hub.md) and [Dungeon: Rootbound Vault](../01_World/Dungeons/Greatwood_Whisperline_Dungeon_The_Rootbound_Vault.md)
+- [Artifacts Batch](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline) and [Rumors](../04_Writings/Fragments_And_Notes/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Rumors.md)
+- [Item Batch](../08_Items/Generated_Batches/2026-01-04_Greatwood_Whisperline_Items.md)
+
 ## Codex Skills
 - [Repo Cleanup Skill](../.codex/skills/repo-cleanup/SKILL.md)
 - [Skill Library](../.codex/skills)

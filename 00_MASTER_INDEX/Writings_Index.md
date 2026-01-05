@@ -14,3 +14,4 @@
 - Stories/Other/THE LAST HOURS OF EDA MARREN.md
 - Stories/Other/THE NARROW ROOM UNDER WADE'S MILL.md
 - Stories/Other/THE THREE NIGHTS AT WINDER'S FIELD.md
+- [2026-01-04_SIGMA Greatwood Whisperline Rumors](../04_Writings/Fragments_And_Notes/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Rumors.md) — 120 rumor scraps linking vendors, artifacts, and whisperline locations.

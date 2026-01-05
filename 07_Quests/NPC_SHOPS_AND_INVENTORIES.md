@@ -43,6 +43,25 @@ Key vendors anchored to existing hubs. Inventories reference the global item lis
 - Rotating Stock (6): Xyra Feather, Xenith Gland, Xale Ink, Charcoal Bandolier, Ember Soot Polish, Ridgeflare Fuse.
 - Artifact: [Ridge Kiln Permit](../09_Artifacts/Ridge_Kiln_Permit.md) covers ember soot rations.
 
+### 2026-01-04 — Greatwood: Whisperline Additions
+**Sapbroker Neral — Whisperline Hearthpost**
+- Persona: Patient broker who swaps sap pulls for camp tools and keeps a quiet ledger of every favor traded across the whisperline.
+- Inventory (16): 2026-01-04_SIGMA Whisperline Sap Flake, 2026-01-04_SIGMA Whisperline Resin Thread, 2026-01-04_SIGMA Whisperline Sap Tea, 2026-01-04_SIGMA Whisperline Ward Salve, 2026-01-04_SIGMA Rootbound Signal Chalk, 2026-01-04_SIGMA Hearthpost Boots, 2026-01-04_SIGMA Hearthpost Hood, 2026-01-04_SIGMA Whisperline Sash, 2026-01-04_SIGMA Barkmail Boots, 2026-01-04_SIGMA Stonebridge Sap Flake, 2026-01-04_SIGMA Lumenwoven Resin Thread, 2026-01-04_SIGMA Rootbound Sap Tea, 2026-01-04_SIGMA Rootbound Ward Salve, 2026-01-04_SIGMA Whisperline Ledger Token, 2026-01-04_SIGMA Whisperline Ward Token, 2026-01-04_SIGMA Whisperline Signal Chalk.
+- Signature Item: 2026-01-04_SIGMA Hearthpost Cloak — sap-lined travel cloak that unlocks a hearthpost discount tier.
+- Weekly Oddity: 2026-01-04_SIGMA Whisperline Ledger Token tied to **2026-01-04_SIGMA_Whisperline_Artifact_01.md**.
+
+**Wardscribe Istra — Root-Song Shrine Outpost**
+- Persona: Chalk-stained scribe who rewrites root-songs so wardens can patrol without angering sap spirits.
+- Inventory (14): 2026-01-04_SIGMA Shrinesafe Signal Chalk, 2026-01-04_SIGMA Rootbound Signal Chalk, 2026-01-04_SIGMA Sapsong Signal Chalk, 2026-01-04_SIGMA Shrinescribed Bark Curl, 2026-01-04_SIGMA Shrinesafe Sap Tea, 2026-01-04_SIGMA Sapsong Ward Salve, 2026-01-04_SIGMA Whisperline Ward Token, 2026-01-04_SIGMA Rootbound Resin Thread, 2026-01-04_SIGMA Rootbound Bark Curl, 2026-01-04_SIGMA Shrinescribed Resin Thread, 2026-01-04_SIGMA Rootbound Cloak, 2026-01-04_SIGMA Wardbound Hood, 2026-01-04_SIGMA Wardbound Boots, 2026-01-04_SIGMA Wardbound Sash.
+- Signature Item: 2026-01-04_SIGMA Shrinesafe Signal Chalk — ward-call chalk sold only after a chant test.
+- Weekly Oddity: 2026-01-04_SIGMA Rootbound Song Fragment handed over when a player shows **2026-01-04_SIGMA_Whisperline_Artifact_07.md**.
+
+**Driftcart Peddler Yim — Whisperline Stonebridge Rotation**
+- Persona: Traveling peddler who rolls between the bridge ribs, trading gossip for resin bundles and watching both wardens and smugglers with equal amusement.
+- Inventory (12): 2026-01-04_SIGMA Whisperline Spore Husk, 2026-01-04_SIGMA Stonebridge Resin Thread, 2026-01-04_SIGMA Whisperline Sap Tea, 2026-01-04_SIGMA Rootbound Sap Flake, 2026-01-04_SIGMA Stonebridge Signal Chalk, 2026-01-04_SIGMA Hearthpost Sash, 2026-01-04_SIGMA Echoed Hood, 2026-01-04_SIGMA Stonebridge Ward Salve, 2026-01-04_SIGMA Whisperline Ward Token, 2026-01-04_SIGMA Stonebridge Boots, 2026-01-04_SIGMA Lumenwoven Amber Pellet, 2026-01-04_SIGMA Whisperline Ledger Token.
+- Signature Item: 2026-01-04_SIGMA Stonebridge Ward Salve — bridge-etched tonic that adds ward detection.
+- Weekly Oddity: 2026-01-04_SIGMA Echo-scored Smuggler Seal tied to **2026-01-04_SIGMA_Whisperline_Artifact_15.md**.
+
 ## Hollowroot
 **Underroot Broker Pell — Burrow Market**
 - Origin: Fungal caravan broker who barters with [Glimmerdeep Shore Hub](./Glimmerdeep_Shore_Hub.md) rope lines.

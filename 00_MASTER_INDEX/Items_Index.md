@@ -62,6 +62,10 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 - Items_Flavor_Notes.md — Tooltip and examine flavor text for all rare-and-up items plus key common staples.
 - Regions/REGION_NAME - ITEM FLAVOR PACK.md — Ambient/world item packs for Greatwood, Hollowroot, Ashen Ridge, Frostmarch, Duskhollow, Shattered Verge, and Shiverstone Coast.
 
+### 2026-01-04 — Greatwood Whisperline Batch
+- [2026-01-04 Greatwood Whisperline Items.csv](../08_Items/Generated_Batches/2026-01-04_Greatwood_Whisperline_Items.csv) — 180 sap-loop items merged into items_table.csv.
+- [2026-01-04 Greatwood Whisperline Items.md](../08_Items/Generated_Batches/2026-01-04_Greatwood_Whisperline_Items.md) — summary by category.
+
 - Saltmarrow Strand staples: [Brine-Tight Sealant](../08_Items/Professions/Brine-Tight_Sealant.md), [Saltmarrow Spined Pole](../08_Items/Fishing/Saltmarrow_Spined_Pole.md), [Salt-Sear Chowder](../08_Items/Cooking/Salt-Sear_Chowder.md), [Hookbite Signal Flares](../08_Items/Gear/Hookbite_Signal_Flares.md).
 - Palisade gear bridge: [Thornlash Sentry Wristwraps](../08_Items/Gear/Thornlash_Sentry_Wristwraps.md) — pitch-lined leather wraps earned through wall duties between Strand and Frostbriar.
 - Frostbriar & Glimmerdeep additions: [Timberline_Sled_Rails](../08_Items/Gear/Timberline_Sled_Rails.md), [Glowspore_Tallow_Lure](../08_Items/Fishing/Glowspore_Tallow_Lure.md), [Ashen_Vent_Key](../08_Items/Keys/Ashen_Vent_Key.md), [Gleam_Eel_Filets](../08_Items/Cooking/Gleam_Eel_Filets.md).
