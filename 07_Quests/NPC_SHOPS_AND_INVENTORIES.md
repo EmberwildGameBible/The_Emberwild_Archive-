@@ -230,3 +230,35 @@ Key vendors anchored to existing hubs. Inventories reference the global item lis
 - Signature Item: Roadling Trade Token.
 - Weekly Oddity: "Milepost Drift Token" tied to [Artifact Bundle 02 — Milepost Drift Note](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_02.md#a-017-milepost-drift-note).
 
+**Cook Mara of the Crossing — Sapstring Crossing Firepit**
+- Persona: Practical cook who values quiet fires, hot porridge, and listening before speaking; dotes on patrolers who return bowls.
+- Persona: Counts every ration; trades extra stew for anyone who brings shrooms or bark.
+- Core Stock (19): Whisperline Travel Ration, Rivergrain Porridge Mix, Lowlight Shroom Tea, Sap-Resin Salve, Sapstring Bandage, Chorus Bridge Torch, Roadling Trade Token, Coiled Line Spool, Bivouac Tent Stakes, Crossing Guard's Satchel, Rootsong Listening Horn, Murmurstone Charm, Cairnkeeper's Beads, Resin Patch Kit, Ward-Chalk Packet, Smudged Route Permit, Tanglecut Hatchet, Thornbar Sling, Smuggler's Knot Hook.
+- Reputation Unlocks: Friendly unlocks bonus Rivergrain Porridge Mix bundles; Honored adds hearty stew buff lasting longer.
+- Signature Item: Rivergrain Porridge Mix.
+- Weekly Oddity: "Grease-Mark Recipe Copy" referencing [Artifact Bundle 01 — Cook's Porridge Margin](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_01.md#a-007-cooks-porridge-margin).
+
+**Smuggler Fixer Ril — Thornbar Bivouac Ash Pit**
+- Persona: Smooth-talking fixer who pretends to hate papers while filing everything; pays fast for anyone who avoids questions.
+- Persona: Believes in leverage; trades secrets for gear and enjoys mocking wardens with forged seals.
+- Core Stock (18): Smudged Route Permit, Smuggler's Knot Hook, Thornbar Sling, Ward-Chalk Packet, Coiled Line Spool, Rootsong Listening Horn, Chorus Bridge Torch, Tanglecut Hatchet, Crossing Guard's Satchel, Warden's Sapsteel Buckle, Roadling Trade Token, Lowlight Shroom Tea, Sap-Resin Salve, Resin Patch Kit, Bivouac Tent Stakes, Murmurstone Charm, Rivergrain Porridge Mix, Whisperline Travel Ration.
+- Reputation Unlocks: Friendly offers discount on Smudged Route Permits; Honored reveals contraband caches.
+- Signature Item: Smuggler's Knot Hook.
+- Weekly Oddity: "Charred IOU Bundle" citing [Artifact Bundle 01 — Thornbar IOU](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_01.md#a-008-thornbar-iou).
+
+**Peddler Jessa Coil — Thornbar Bivouac Ropes**
+- Persona: Rope-runner who laughs through danger; patches gear mid-argument; keeps line spools ready for anyone with coin.
+- Persona: Thinks of the bridge as her child; furious when boards creak wrong; rewards anyone who brings hooks.
+- Core Stock (20): Coiled Line Spool, Bivouac Tent Stakes, Chorus Bridge Torch, Resin Patch Kit, Sapstring Bandage, Ward-Chalk Packet, Crossing Guard's Satchel, Rootsong Listening Horn, Murmurstone Charm, Cairnkeeper's Beads, Smuggler's Knot Hook, Thornbar Sling, Warden's Sapsteel Buckle, Roadling Trade Token, Lowlight Shroom Tea, Whisperline Travel Ration, Sap-Resin Salve, Tanglecut Hatchet, Rivergrain Porridge Mix, Smudged Route Permit.
+- Reputation Unlocks: Friendly grants bridge repair discounts; Honored lets you reserve line spools before storms.
+- Signature Item: Coiled Line Spool.
+- Weekly Oddity: "Bridge Repair Memo Copy" linked to [Artifact Bundle 01 — Bridge Repair Memo](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_01.md#a-005-bridge-repair-memo).
+
+**Roadling Fen — Traveling Peddler (Milepost / Chorus Bridge / Thornbar Bivouac)**
+- Persona: Cheerful mule-train runner who trades stories for token stacks; marks ledgers with a carved whistle.
+- Persona: Rotates camps based on weather; dislikes deep woods but trusts cairn songs.
+- Rotation Rules: Appears at **Whisperline Milepost** on clear mornings, **Chorus Bridge** during storms, **Thornbar Bivouac** when smugglers host.
+- Core Stock (18): Roadling Trade Token, Whisperline Travel Ration, Sapstring Bandage, Rivergrain Porridge Mix, Chorus Bridge Torch, Bivouac Tent Stakes, Coiled Line Spool, Crossing Guard's Satchel, Ward-Chalk Packet, Murmurstone Charm, Cairnkeeper's Beads, Smudged Route Permit, Rootsong Listening Horn, Smuggler's Knot Hook, Thornbar Sling, Sap-Resin Salve, Resin Patch Kit, Tanglecut Hatchet.
+- Reputation Unlocks: Friendly provides escort discounts; Honored lets you reserve travel slots and buy extra tokens.
+- Signature Item: Roadling Trade Token.
+- Weekly Oddity: "Escort Whistle Log Copy" referencing [Artifact Bundle 01 — Escort Whistle Log](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_01.md#a-010-escort-whistle-log).
