@@ -174,7 +174,7 @@ Navigation for in-world documents—gazettes, rumor sheets, ledgers, and notices
 
 ## Hooks
 - Pull kiln, ferry, or Silent Bell plot hooks from the Gazette before drafting new Emberford quests.
-- Mine the rumor web for item-specific bounties, then link any new quests to the canonical [Items Master List](../08_Items/Items_Master_List%20-%20GLOBAL%20A-Z.md).
+- Mine the rumor web for item-specific bounties, then link any new quests to the canonical [Items Master List](../08_Items/Items_Master_List - GLOBAL A-Z.md).
 - Add future artifacts here before writing them to keep the folder structured and indexed.
 
 ## See also

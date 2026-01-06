@@ -36,5 +36,5 @@ A river-town hub built around ferry ramps, kiln smoke, and the clamor of open-ai
 
 ## Hooks to Items and Rumors
 - Quest steps call for Aegis of Amberwake, Ashen Pike, Band of the Blue Stream, and Briarshot Cartridges as focal props.
-- Rumor scraps from dock gossip connect to [rumors_items_001_200.md](../09_Artifacts/Rumors/rumors_items_001_200.md) and the Gazette notice board.
+- Rumor scraps from dock gossip connect to [rumors_items_001_200.md](../../09_Artifacts/Rumors/rumors_items_001_200.md) and the Gazette notice board.
 - Artifacts above appear in rotation within Marketwalk vendors and shrine rewards, creating repeatable loops.
