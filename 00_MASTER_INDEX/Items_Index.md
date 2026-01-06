@@ -108,6 +108,11 @@ Contributor quickref: see [Content Block Conventions & Checklist](../10_Document
 - [Rumor Web — Items 001–200](../09_Artifacts/Rumors/rumors_items_001_200.md) — Dockside scraps tying early catalog items to Emberford Marketwalk routes.
 - [Emberford Marketwalk Gazette — Issue 1 (Spring)](../09_Artifacts/Gazette/Emberford_Marketwalk_Gazette_Issue_1_Spring.md) — Notices and features pointing toward Marketwalk quest hooks and item loops.
 
+## 2026-01-04 — Greatwood Whisperline Batch
+- [Item Batch Part01](../08_Items/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Items_Part01.csv)
+- [Batch Summary](../08_Items/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Items_Part01.md)
+- [Item Name Ledger](../08_Items/ITEM_NAME_LEDGER.csv)
+
 ## Data Tables
 - items_table.csv — Machine-readable summary of the global item list.
 - Professions/profession_items_table.csv — Machine-readable summary of profession item usage.

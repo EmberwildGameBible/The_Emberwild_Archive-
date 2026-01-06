@@ -38,6 +38,16 @@ A single launchpad for all Emberwild Archive indexes so no canon hides in stray 
 - Use it to verify region pages point to global NPCs/items/quests instead of cloning them.
 - Pair with [Repo Map](./REPO_MAP.md) when deciding where new files belong to avoid cleanup churn.
 
+## 2026-01-04 — Whisperline Quick Links
+- Vertical Slice: [Lv1-10 Overview](../10_Documentation/Vertical_Slices/2026-01-04_Greatwood_Whisperline_Lv1-10_Overview.md) | [Lv10-20 Bridge](../10_Documentation/Vertical_Slices/2026-01-04_Greatwood_Whisperline_Lv10-20_Bridge_Plan.md)
+ - Region: [Greatwood Whisperline Corridor](../02_Regions/Greatwood/Greatwood_Whisperline.md) | [Bestiary Draft](../02_Regions/Greatwood/Bestiary_Greatwood_Whisperline_01.md) | [Bestiary Additions](../02_Regions/Greatwood/Bestiary_Greatwood_Whisperline_02.md) | [Ecology Field Guide](../02_Regions/Greatwood/Field_Guide_Whisperline_Ecology.md)
+- Quests: [Whisperline Hub](../07_Quests/Greatwood_Whisperline_Hub.md) | [Q01](../07_Quests/Greatwood_Whisperline/Q01_Loose_Bandages.md) | [Q02](../07_Quests/Greatwood_Whisperline/Q02_Listening_Steps.md) | [Q03](../07_Quests/Greatwood_Whisperline/Q03_Sapstring_Shortfall.md) | [Q04](../07_Quests/Greatwood_Whisperline/Q04_Bracken_Bridge_Ambush.md) | [Q05](../07_Quests/Greatwood_Whisperline/Q05_Wardstone_Echoes.md) | [Q06](../07_Quests/Greatwood_Whisperline/Q06_Milepost_Mediator.md)
+- Vendors: [Whisperline Vendors](../07_Quests/NPC_SHOPS_AND_INVENTORIES.md#2026-01-04--greatwood-whisperline-vendors--rotations)
+- Items: [Batch Part01](../08_Items/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Items_Part01.csv) | [Summary](../08_Items/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Items_Part01.md) | [Item Ledger](../08_Items/ITEM_NAME_LEDGER.csv)
+- Artifacts & Rumors: [Artifact Bundle 01](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_01.md) | [Artifact Bundle 02](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_02.md) | [Artifact Bundle 03](../09_Artifacts/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline/Artifact_Bundle_03.md) | [Rumors 01](../04_Writings/Fragments_And_Notes/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Rumors_01.md) | [Rumors 02](../04_Writings/Fragments_And_Notes/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Rumors_02.md) | [Rumors 03](../04_Writings/Fragments_And_Notes/Generated_Batches/2026-01-04_SIGMA_Greatwood_Whisperline_Rumors_03.md)
+- Dungeons: [The Rootbound Vault](../01_World/Dungeons/Greatwood_The_Rootbound_Vault.md) | [Smuggler's Knot](../01_World/Dungeons/Greatwood_Smugglers_Knot.md)
+- Recipes: [Whisperline Recipes 01](../06_Systems/Professions/Recipes/Generated_Batches/Recipes_Whisperline_01.md) | [Whisperline Recipes 02](../06_Systems/Professions/Recipes/Generated_Batches/Recipes_Whisperline_02.md)
+
 ## See also
 - [REPO_MAP](./REPO_MAP.md) — folder purposes and key entry points for contributors.
 - [Lore_Debt](./Lore_Debt.md) — outstanding placeholders that need depth or verification.
